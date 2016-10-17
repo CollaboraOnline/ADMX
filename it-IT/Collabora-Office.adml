@@ -9,8 +9,8 @@
   </description>
   <resources>
     <stringTable>
-    <string id="supported_LibreOffice_4_2">LibreOffice-from-Collabora 4.2 o superiore</string>
-    <string id="supported_LibreOffice_4_3">LibreOffice-from-Collabora 4.3 o superiore</string>
+        <string id="supported_LibreOffice_4_2">LibreOffice-from-Collabora 4.2 o superiore</string>
+        <string id="supported_LibreOffice_4_3">LibreOffice-from-Collabora 4.3 o superiore</string>
         <string id="supported_LibreOffice_4_4">LibreOffice-from-Collabora 4.4 o superiore</string>
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 o superiore</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 o superiore</string>
@@ -76,19 +76,33 @@
 
         <string id="category_Security">Sicurezza</string>
         <string id="name_RemovePersonalInfoOnSaving">Rimuovi le informazioni personali al salvataggio</string>
-        <string id="desc_RemovePersonalInfoOnSaving">Specifica se rimuovere le informazioni personali durante il salvataggio. Valore predefinito: non rimuovere</string>
+        <string id="desc_RemovePersonalInfoOnSaving">Specifica se rimuovere le informazioni personali durante il salvataggio.
+
+Valore predefinito: non rimuovere</string>
         <string id="name_RecommendPasswordProtection">Consiglia la protezione con password al salvataggio</string>
-        <string id="desc_RecommendPasswordProtection">Specifica se raccomandare l'uso di una password di protezione al salvataggio dei documenti. Valore predefinito: non consigliare</string>
+        <string id="desc_RecommendPasswordProtection">Specifica se raccomandare l'uso di una password di protezione al salvataggio dei documenti.
+
+Valore predefinito: non consigliare</string>
         <string id="name_HyperlinksWithCtrlClick">Ctrl-click richiesto per aprire i collegamenti</string>
-        <string id="desc_HyperlinksWithCtrlClick">Specifica se il occorre usare Ctrl-click per aprire i collegamenti. Valore predefinito: Ctrl-click</string>
+        <string id="desc_HyperlinksWithCtrlClick">Specifica se il occorre usare Ctrl-click per aprire i collegamenti.
+
+Valore predefinito: Ctrl-click</string>
         <string id="name_WarnSaveOrSendDoc">Avvisi di sicurezza durante salvataggio o invio</string>
-        <string id="desc_WarnSaveOrSendDoc">Specifica se avvisare quando si salvano o si inviano documenti con dati personali/nascosti. Valore predefinito: non avvisare</string>
+        <string id="desc_WarnSaveOrSendDoc">Specifica se avvisare quando si salvano o si inviano documenti con dati personali/nascosti.
+
+Valore predefinito: non avvisare</string>
         <string id="name_WarnSignDoc">Avvisi di sicurezza durante la firma</string>
-        <string id="desc_WarnSignDoc">Specifica se avvisare quando si firmano documenti con dati personali/nascosti. Valore predefinito: avvisa</string>
+        <string id="desc_WarnSignDoc">Specifica se avvisare quando si firmano documenti con dati personali/nascosti.
+
+Valore predefinito: avvisa</string>
         <string id="name_WarnPrintDoc">Avvisi di sicurezza durante la stampa</string>
-        <string id="desc_WarnPrintDoc">Specifica se avvisare quando si stampano documenti con dati personali/nascosti. Valore predefinito: non avvisare</string>
+        <string id="desc_WarnPrintDoc">Specifica se avvisare quando si stampano documenti con dati personali/nascosti.
+
+Valore predefinito: non avvisare</string>
         <string id="name_WarnCreatePDF">Avvisi di sicurezza durante la creazione dei PDF</string>
-        <string id="desc_WarnCreatePDF">Specifica se avvisare l'utente che sta generando PDF includendo dati personali/nascosti. Valore predefinito: non avvisare</string>
+        <string id="desc_WarnCreatePDF">Specifica se avvisare l'utente che sta generando PDF includendo dati personali/nascosti.
+
+Valore predefinito: non avvisare</string>
         <string id="name_MacroSecurityLevel">Livello di sicurezza delle macro</string>
         <string id="desc_MacroSecurityLevel">Livello di sicurezza delle macro. Intervallo 0 (basso) - 3 (alto).
 

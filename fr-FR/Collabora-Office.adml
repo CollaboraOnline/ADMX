@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
 <!-- Traduction Française (c) 2016 Thierry BOULESTIN - Ministère l'Écologie
-     rapporter un bogue ou une amélioration à thierry.boulestin@developpement-durable.gouv.fr
-     version 1.0 -->
-
+     rapporter un bogue ou une amélioration à thierry.boulestin@developpement-durable.gouv.fr -->
 <policyDefinitionResources revision="1.0" schemaVersion="1.0">
   <displayName>
   </displayName>
@@ -27,14 +25,14 @@
         <string id="name_ooName">Nom du produit (ooName)</string>
         <string id="desc_ooName">Indique le nom du produit.</string>
         <string id="category_LoadandSave">Chargement/Enregistrement</string>
-        <string id="name_UserDefinedSettings">User Defined Settings</string>
+        <string id="name_UserDefinedSettings">Charger les paramètres utilisateur avec le document</string>
         <string id="desc_UserDefinedSettings">Charger les paramètres utilisateur avec le document</string>
-        <string id="name_UseUserData">Use User Data</string>
-        <string id="desc_UseUserData">Use user data for document properties</string>
+        <string id="name_UseUserData">Utiliser les données de l'utilisateur</string>
+        <string id="desc_UseUserData">Utiliser les données de l'utilisateur pour les propriétés du document.</string>
         <string id="name_AutoSave">Enregistrement automatique</string>
         <string id="desc_AutoSave">Enregistrer les informations de récupération automatique toutes les __ minutes</string>
         <string id="name_CreateBackup">Créer une sauvegarde</string>
-        <string id="desc_CreateBackup">Always create backup copy</string>
+        <string id="desc_CreateBackup">Toujours créer une copie de sauvegarde</string>
         <string id="name_EditProperty">Éditer les propriétés du document avant l'enregistrement</string>
         <string id="desc_EditProperty">Indique que la boîte de dialogue Propriétés s'affiche chaque fois que vous sélectionnez la commande Enregistrer sous.</string>
         <string id="name_HTMLExportBrowser">Compatibilité d'exportation avec les navigateurs HTML</string>
@@ -66,7 +64,7 @@
         <string id="name_DefaultLocale_CTL">Langue par défaut des documents (CTL)</string>
         <string id="desc_DefaultLocale_CTL">Spécifie la langue par défaut du document - mise en page de texte complexe (par exemple: Arabe, Indien etc., scripts).</string>
         <string id="name_UILocale">Langue de l'interface utilisateur</string>
-        <string id="desc_UILocale">Specifies the user interface (UI) language. An empty string means: use the desktop's UI language if possible.</string>
+        <string id="desc_UILocale">Spécifie la langue de l'interface utilisateur. Une chaîne vide signifie : utiliser la langue de l'interface de l'ordinateur si possible.</string>
         <string id="name_Locale">Locale</string>
         <string id="desc_Locale">Contains the user's desktop locale setting.</string>
         <string id="name_ooSetupCurrency">Currency</string>
@@ -78,33 +76,56 @@
 
         <string id="category_Security">Sécurité</string>
         <string id="name_RemovePersonalInfoOnSaving">Supprimer les informations personnelles lors de l'enregistrement</string>
-        <string id="desc_RemovePersonalInfoOnSaving">Indique s'il faut supprimer les informations personnelles lors de la sauvegarde. Valeur par défaut : Ne pas recommander</string>
+        <string id="desc_RemovePersonalInfoOnSaving">Indique s'il faut supprimer les informations personnelles lors de la sauvegarde.
+
+Valeur par défaut : Ne pas recommander</string>
         <string id="name_RecommendPasswordProtection">Protection par mot de passe recommandé lors de l'enregistrement</string>
-        <string id="desc_RecommendPasswordProtection">Indique s'il faut recommander la protection par mot de passe lors de l'enregistrement des documents. Valeur par défaut : Ne pas recommander</string>
+        <string id="desc_RecommendPasswordProtection">Indique s'il faut recommander la protection par mot de passe lors de l'enregistrement des documents.
+
+Valeur par défaut : Ne pas recommander</string>
         <string id="name_HyperlinksWithCtrlClick">Ctrl-clic pour suivre les liens hypertexte</string>
-        <string id="desc_HyperlinksWithCtrlClick">Spécifie si Ctrl-Clic est tenu de suivre les liens hypertexte. Valeur par défaut : Ctrl-click</string>
+        <string id="desc_HyperlinksWithCtrlClick">Spécifie si Ctrl-Clic est tenu de suivre les liens hypertexte.
+
+Valeur par défaut : Ctrl-click</string>
         <string id="name_WarnSaveOrSendDoc">Avertissements de sécurité lors de l'enregistrement ou de l'envoi</string>
-        <string id="desc_WarnSaveOrSendDoc">Spécifie s'il faut avertir lors de l'enregistrement ou de envoi de documents avec des données personnelles/caché. Valeur par défaut : Ne pas avertir</string>
+        <string id="desc_WarnSaveOrSendDoc">Spécifie s'il faut avertir lors de l'enregistrement ou de envoi de documents avec des données personnelles/caché.
+
+Valeur par défaut : Ne pas avertir</string>
         <string id="name_WarnSignDoc">Avertissements de sécurité lors de la signature</string>
-        <string id="desc_WarnSignDoc">Spécifie s'il faut avertir lors de la signature des documents avec des données personnelles/caché. Valeur par défaut : Avertir</string>
+        <string id="desc_WarnSignDoc">Spécifie s'il faut avertir lors de la signature des documents avec des données personnelles/caché.
+
+Valeur par défaut : Avertir</string>
         <string id="name_WarnPrintDoc">Avertissements de sécurité lors de l'impression</string>
-        <string id="desc_WarnPrintDoc">Spécifie s'il faut mettre en garde lorsque vous imprimez des documents avec des données personnelles/caché. Valeur par défaut : Ne pas avertir</string>
+        <string id="desc_WarnPrintDoc">Spécifie s'il faut mettre en garde lorsque vous imprimez des documents avec des données personnelles/caché.
+
+Valeur par défaut : Ne pas avertir</string>
         <string id="name_WarnCreatePDF">Avertissements de sécurité lors de la création de PDF</string>
-        <string id="desc_WarnCreatePDF">Spécifie s'il faut avertir lors de la création de documents PDF avec les données personnelles/caché. Valeur par défaut : Ne pas avertir</string>
+        <string id="desc_WarnCreatePDF">Spécifie s'il faut avertir lors de la création de documents PDF avec les données personnelles/caché.
+
+Valeur par défaut : Ne pas avertir</string>
         <string id="name_MacroSecurityLevel">Niveau de sécurité des macros</string>
-        <string id="desc_MacroSecurityLevel">Niveau de sécurité des macros. Entre 0 (le plus bas) - 3 (le plus élevé). -Faible (non recommandé). Toutes les macros seront exécutées sans confirmation. N'utilisez ce paramètre que si vous êtes certain que tous les documents peuvent être ouverts en toute sécurité. -Moyen. Une confirmation sera demandée avant l'exécution de macros provenant de sources inconnues. -Élevé. Seules les macros signées provenant de sources de confiance peuvent être exécutées. Les macros non signées sont désactivées. -Très élevé. Seules les macros provenant d'emplacements de fichiers de confiance peuvent être exécutées. Toutes les autres macros, qu'elles soient ou non signées, sont désactivées Valeur par défaut : Élevé</string>
+        <string id="desc_MacroSecurityLevel">Niveau de sécurité des macros. Entre 0 (le plus bas) - 3 (le plus élevé).
+
+-Faible (non recommandé). Toutes les macros seront exécutées sans confirmation. N'utilisez ce paramètre que si vous êtes certain que tous les documents peuvent être ouverts en toute sécurité.
+-Moyen. Une confirmation sera demandée avant l'exécution de macros provenant de sources inconnues.
+-Élevé. Seules les macros signées provenant de sources de confiance peuvent être exécutées. Les macros non signées sont désactivées.
+-Très élevé. Seules les macros provenant d'emplacements de fichiers de confiance peuvent être exécutées. Toutes les autres macros, qu'elles soient ou non signées, sont désactivées
+
+Valeur par défaut : Élevé</string>
         <string id="low">Faible (non recommandé)</string>
         <string id="medium">Moyen</string>
         <string id="high">Élevé</string>
         <string id="veryhigh">Très élevé</string>
         <string id="name_DisableMacrosExecution">Désactiver l'exécution des macros</string>
-        <string id="desc_DisableMacrosExecution">Spécifie si l'exécution des macros est désactivée en général. Si elle est définie sur true, le MacroSecurityLevel est ignorée. Si elle est définie sur false, l'entrée mentionnée spécifie le niveau de sécurité des macros. Valeur par défaut : Macros activés</string>
+        <string id="desc_DisableMacrosExecution">Spécifie si l'exécution des macros est désactivée en général. Si elle est définie sur true, le MacroSecurityLevel est ignorée. Si elle est définie sur false, l'entrée mentionnée spécifie le niveau de sécurité des macros.
+
+Valeur par défaut : Macros activés</string>
         <string id="name_SecureURL">Emplacement de fichies de confiances</string>
 
         <string id="name_OnlineUpdate">Mise à jour en ligne</string>
-        <string id="desc_OnlineUpdate">Online Update Settings</string>
+        <string id="desc_OnlineUpdate">Mise à jour en ligne</string>
 
-        <string id="UserProfile">User Data</string>
+        <string id="UserProfile">Données d'identité</string>
         <string id="desc_UserProfile">User Data (Company Name, Address, Phone, Fax)</string>
 
         <string id="category_Paths">Chemins</string>
@@ -179,11 +200,17 @@
         <string id="rtf">Rich Text (RTF)</string>
         <string id="category_WriterDefaultFonts">Polices standard</string>
         <string id="name_WriterDefaultFontsWestern">Polices standard (Occidentales)</string>
-        <string id="desc_WriterDefaultFontsWestern">Spécifier la police à utiliser pour les textes occidentales (latin, cyrillique, grec etc.). Les hauteurs de polices sont exprimées en millimètres * 100, ce qui correspond à la taille de point multiplié par 35,2777. Par exemple, pour définir la taille de police à 12 points, régler la hauteur à 423.</string>
+        <string id="desc_WriterDefaultFontsWestern">Spécifier la police à utiliser pour les textes occidentales (latin, cyrillique, grec etc.).
+
+Les hauteurs de polices sont exprimées en millimètres * 100, ce qui correspond à la taille de point multiplié par 35,2777. Par exemple, pour définir la taille de police à 12 points, régler la hauteur à 423.</string>
         <string id="name_WriterDefaultFontsCJK">Polices par défaut (Asiatique)</string>
-        <string id="desc_WriterDefaultFontsCJK">Spécifie des polices à utiliser pour le texte Chinois, Japonais et Coréen. Les hauteurs de polices sont exprimées en millimètres * 100, ce qui correspond à la taille de point multiplié par 35,2777. Par exemple, pour définir la taille de police à 12 points, régler la hauteur à 423.</string>
+        <string id="desc_WriterDefaultFontsCJK">Spécifie des polices à utiliser pour le texte Chinois, Japonais et Coréen.
+
+Les hauteurs de polices sont exprimées en millimètres * 100, ce qui correspond à la taille de point multiplié par 35,2777. Par exemple, pour définir la taille de police à 12 points, régler la hauteur à 423.</string>
         <string id="name_WriterDefaultFontsCTL">Polices par défaut (CTL)</string>
-        <string id="desc_WriterDefaultFontsCTL">Spécifie des polices à utiliser pour la mise en page texte complexe (Arabe, Indien etc.). Les hauteurs de polices sont exprimées en millimètres * 100, ce qui correspond à la taille de point multiplié par 35,2777. Par exemple, pour définir la taille de police à 12 points, régler la hauteur à 423.</string>
+        <string id="desc_WriterDefaultFontsCTL">Spécifie des polices à utiliser pour la mise en page texte complexe (Arabe, Indien etc.).
+
+Les hauteurs de polices sont exprimées en millimètres * 100, ce qui correspond à la taille de point multiplié par 35,2777. Par exemple, pour définir la taille de police à 12 points, régler la hauteur à 423.</string>
         <string id="name_PrintEmptyPages">Imprimer les pages blanches</string>
         <string id="desc_PrintEmptyPages">Spécifie si les pages vides sont imprimés.</string>
         <string id="name_AllSheets">Imprimer uniquement les feuilles sélectionnées</string>
@@ -214,30 +241,30 @@
 
         <string id="SaveAsFormat">Enregistrer sous ce format</string>
         <string id="Print">Impression</string>
-        <string id="DefaultTemplate">Default Template</string>
-        <string id="PathListExplain">Directory and file paths must be entered using file URL syntax, as described below.
-Local drive or network drive mapped to a drive letter, such as C:
+        <string id="DefaultTemplate">Modèle par défaut</string>
+        <string id="PathListExplain">Lorsque vous configurez LibreOffice-de-Collabora, les chemins d'accès de répertoire et de fichier doivent être entrés en utilisant la syntaxe d'URL de fichier de LibreOffice-de-Collabora, tel que décrit ci-dessous.
+Disque local ou lecteur réseau mappé à une lettre de lecteur, par exemple C:
     file:///C:/path/file.ext
-UNC path
+Chemin d'accès UNC
     file://server/share/path/file.ext
 
-Spaces and non-ASCII characters must be URL encoded, e.g. space must be written as %20.
+Espaces et caractères non ASCII doivent être codé en URL, par exemple l'espace doit être écrit %20.
 
-The following path variables can be used:
-    $(inst)  = location of installation
-    $(user)  = location of user's profile
-    $(work)  = user's My Documents folder
-    $(home)  = users's home directory
-    $(temp)  = location of user's temporary files
-    $(vlang) = current language code (e.g. en-US, fr, hu)
+Les variables de chemin d'accès suivant peuvent être utilisés :
+                $(inst)  = emplacement de l'installation de LibreOffice
+                $(user)  = emplacement du profil utilisateur de LibreOffice
+                $(work)  = le dossier Mes Documents de l'utilisateur
+                $(home)  = répertoire home de l'utilisateur
+                $(temp)  = emplacement des fichiers temporaires de l'utilisateur
+                $(vlang) = code de la langue actuel (par exemple en-US, fr, hu)
 
-Set paths in path lists have to be separated by spaces.</string>
+Les chemins dans les listes de chemin doivent être séparés par des espaces.</string>
     </stringTable>
     <presentationTable>
       <presentation id="ooName">
         <text>Indique le nom du produit.</text>
         <textBox refId="Value">
-          <label>Value: </label>
+          <label>Valeur : </label>
           <defaultValue>Collabora Office</defaultValue>
         </textBox>
         <checkBox refId="Final">Final</checkBox>
@@ -247,7 +274,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseUserData">
-        <checkBox refId="Value">Use user data for document properties</checkBox>
+        <checkBox refId="Value">Utiliser les données de l'utilisateur pour les propriétés du document.</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="AutoSave">
@@ -261,7 +288,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="AutoSavePromptFinal">Final</checkBox>
       </presentation>
       <presentation id="CreateBackup">
-        <checkBox refId="Value">Always create backup copy</checkBox>
+        <checkBox refId="Value">Toujours créer une copie de sauvegarde</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="EditProperty">
@@ -269,7 +296,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="AutoCorrect">
-        <text>WritePath of AutoCorrect files. It is the location where new user files are written.</text>
+        <text>Donnez le chemin des fichiers d'AutoCorrection. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
         <textBox refId="WritePathValue">
           <label>Chemin :</label>
           <defaultValue>$(user)/autocorr</defaultValue>
@@ -669,7 +696,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="PrintEmptyPages">
-        <checkBox refId="Value">Print empty pages</checkBox>
+        <checkBox refId="Value">Imprimer les pages blanches</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="EnglishFunctionName">
@@ -677,7 +704,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="RecalcMode">
-        <text>Recalculation on file load</text>
+        <text>Recalcule au chargement du fichier</text>
         <dropdownList refId="OOXMLValue" defaultItem="1">Excel 2007 et supérieurs :</dropdownList>
         <checkBox refId="OOXMLFinal">Final</checkBox>
         <dropdownList refId="ODFValue" defaultItem="1">Classeur ODF (non enregistré par LibreOffice):</dropdownList>
