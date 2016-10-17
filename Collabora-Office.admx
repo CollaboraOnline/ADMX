@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
-<!-- Last edit Marina Latini - Studio Storti srl CC-BY-SA 4.0 on 2016 Feb 26, 12.06.29, CET -->
 <policyDefinitions revision="1.0" schemaVersion="1.0">
   <policyNamespaces>
     <target prefix="LOfC" namespace="Collabora.Policies.LibreOffice" />
@@ -13,6 +12,8 @@
       <definition name="supported_LibreOffice_4_2" displayName="$(string.supported_LibreOffice_4_2)" />
       <definition name="supported_LibreOffice_4_3" displayName="$(string.supported_LibreOffice_4_3)" />
       <definition name="supported_LibreOffice_4_4" displayName="$(string.supported_LibreOffice_4_4)" />
+      <definition name="supported_LibreOffice_5_0" displayName="$(string.supported_LibreOffice_5_0)" />
+      <definition name="supported_LibreOffice_5_1" displayName="$(string.supported_LibreOffice_5_1)" />
     </definitions>
   </supportedOn>
   <categories>
