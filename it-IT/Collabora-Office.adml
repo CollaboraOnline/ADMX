@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Original version (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
+<!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
 <!-- Italian Translation (c) 2015 Marina Latini - Studio Storti srl CC-BY-SA 4.0
-	 report bugs or improvements to marina@studiostorti.com 
-	 version 1.2 -->
-<!-- Last edit Marina Latini - Studio Storti srl CC-BY-SA 4.0 on 2016 Feb 26, 12.06.29, CET -->	 
+     report bugs or improvements to marina@studiostorti.com -->
 <policyDefinitionResources revision="1.0" schemaVersion="1.0">
   <displayName>
   </displayName>
@@ -11,51 +9,51 @@
   </description>
   <resources>
     <stringTable>
-        <string id="supported_LibreOffice_4_2">LibreOffice-from-Collabora 4.2 o superiore</string>
-        <string id="supported_LibreOffice_4_3">LibreOffice-from-Collabora 4.3 o superiore</string>
+    <string id="supported_LibreOffice_4_2">LibreOffice-from-Collabora 4.2 o superiore</string>
+    <string id="supported_LibreOffice_4_3">LibreOffice-from-Collabora 4.3 o superiore</string>
         <string id="supported_LibreOffice_4_4">LibreOffice-from-Collabora 4.4 o superiore</string>
+        <string id="supported_LibreOffice_5_0">Collabora Office 5.0 o superiore</string>
+        <string id="supported_LibreOffice_5_1">Collabora Office 5.1 o superiore</string>
         <string id="category_LibreOffice">Collabora Office</string>
-        <string id="category_Common">Collabora Office</string>
+        <string id="category_Common">Comune</string>
 
         <string id="category_General">Generale</string>
-        <string id="name_UseSystemFileDialog">Utilizza la finestre di dialogo Collabora Office</string>
-        <string id="desc_UseSystemFileDialog">Specifica se vengono utilizzate le finestre di dialogo di apertura file e cartelle di Windows. Se vero, saranno utilizzate quelle implementate in Collabora Office.</string>
+        <string id="name_UseSystemFileDialog">Utilizza le finestre di dialogo di sistema</string>
+        <string id="desc_UseSystemFileDialog">Specifica se vengono utilizzate le finestre di dialogo di apertura file e cartelle di Windows. Se falso, saranno utilizzate quelle implementate in LibreOffice.</string>
 
-        <string id="category_ProductName">Nome del prodotto</string>
+        <string id="category_ProductName">Nome dell'applicazione</string>
         <string id="name_ooName">Nome del prodotto (ooName)</string>
-        <string id="desc_ooName">Specifica il nome del prodotto. Quello predefinito è Collabora Office</string>
-		
+        <string id="desc_ooName">Specifica il nome del prodotto.</string>
         <string id="category_LoadandSave">Carica e Salva</string>
         <string id="name_UserDefinedSettings">Impostazioni definite dall'utente</string>
         <string id="desc_UserDefinedSettings">Carica le impostazioni specifiche dell'utente con il documento</string>
-        <string id="name_UseUserData">Usa i dati utente</string>
-        <string id="desc_UseUserData">Usa i dati utente per le proprietà del documento</string>
+        <string id="name_UseUserData">Utilizza i dati utente</string>
+        <string id="desc_UseUserData">Utilizza i dati utente per le proprietà del documento</string>
         <string id="name_AutoSave">Salvataggio automatico</string>
         <string id="desc_AutoSave">Salva le informazioni di ripristino automatico ogni __ minuti</string>
         <string id="name_CreateBackup">Crea Backup</string>
         <string id="desc_CreateBackup">Crea sempre la copia di backup</string>
         <string id="name_EditProperty">Modifica le proprietà documento prima di salvare</string>
-        <string id="desc_EditProperty">Specifica che la finestra di dialogo Proprietà viene visualizzata ogni volta che si seleziona il comando Salva con nome.</string>
-        <string id="name_HTMLExportBrowser">Compatibilità per l'esportazione in HTML</string>
-        <string id="desc_HTMLExportBrowser">Specifica per quale browser ottimizzare l'esportazione in HTML</string>
+        <string id="desc_EditProperty">Specifica che la finestra di dialogo Proprietà sarà visualizzata ogni volta che si seleziona il comando Salva con nome.</string>
+        <string id="name_HTMLExportBrowser">Compatibilità del browser per l'esportazione HTML</string>
+        <string id="desc_HTMLExportBrowser">Specifica il browser per cui ottimizzare l'esportazone in HTML</string>
         <string id="IE">Internet Explorer</string>
         <string id="Firefox">Mozilla Firefox</string>
-        <string id="Writer">Collabora Office Writer</string>
+        <string id="Writer">LibreOffice Writer</string>
 
-        <string id="category_Experimental">Sperimentale</string>
+        <string id="category_Experimental">Avanzate</string>
         <string id="name_ExperimentalMode">Abilita le funzionalità sperimentali</string>
-        <string id="desc_ExperimentalMode">Specifica se le varie funzioni sperimentali, e potenzialmente instabili dovrebbero essere abilitate nell'interfaccia utente.</string>
+        <string id="desc_ExperimentalMode">Specifica se le varie funzioni sperimentali, e potenzialmente instabili, dovrebbero essere abilitate nell'interfaccia utente.</string>
         <string id="name_MacroRecorderMode">Abilita la registrazione di macro (limitata)</string>
-        <string id="desc_MacroRecorderMode">Specifica se il registratore di macro, limitato e poco pratico, debba essere abilitato nell'interfaccia utente.</string>
-		
+        <string id="desc_MacroRecorderMode">Specifica se il registratore di macro debba essere abilitato nell'interfaccia utente.</string>
         <string id="category_FileandPrintdialogs">Finestre di dialogo File e Stampa</string>
         <string id="name_UseSystemPrintDialog">Usa le finestre di dialogo di stampa di sistema</string>
-        <string id="desc_UseSystemPrintDialog">Specifica se utilizzare le finestre di dialogo di stampa di Windows. Se falso, saranno utilizzate quelle implementate in Collabora Office.</string>
+        <string id="desc_UseSystemPrintDialog">Specifica se utilizzare le finestre di dialogo di stampa di Windows. Se falso, saranno utilizzate quelle implementate in LibreOffice.</string>
 
         <string id="category_History">Documenti recenti</string>
         <string id="name_HistorySize">Dimensione della lista dei documenti recenti</string>
         <string id="desc_HistorySize">Imposta la dimensione della lista dei documenti recenti.</string>
-        <string id="name_HistoryPickListSize">Dimensione della lista dei documenti recenti</string>
+        <string id="name_HistoryPickListSize">Imposta la dimensione della lista dei documenti recenti visibili</string>
         <string id="desc_HistoryPickListSize">Imposta la dimensione della lista visualizzata all'interno del menu di selezione dei Documenti Recenti.</string>
 
         <string id="category_Localization">Localizzazione</string>
@@ -64,11 +62,11 @@
         <string id="name_DefaultLocale_CJK">Lingua predefinita per il documento (CJK)</string>
         <string id="desc_DefaultLocale_CJK">Specifica la lingua predefinita per il documento - Cinese, Giapponese, Coreano.</string>
         <string id="name_DefaultLocale_CTL">Lingua predefinita per il documento (CTL)</string>
-        <string id="desc_DefaultLocale_CTL">Specifica la lingua predefinita per il documento - disposizione del testo complesso (es. Arabo, Hindi etc.).</string>
+        <string id="desc_DefaultLocale_CTL">Specifica la lingua predefinita per il documento - disposizione del testo complesso (es. Arabo, Hindi etc).</string>
         <string id="name_UILocale">Lingua dell'interfaccia utente</string>
         <string id="desc_UILocale">Specifica la lingua dell'interfaccia utente (UI). Una stringa vuota indica: utilizza, se possibile, la lingua dell'interfaccia del sistema.</string>
         <string id="name_Locale">Localizzazione</string>
-        <string id="desc_Locale">Contiene le impostazioni locali del desktop dell'utente.</string>
+        <string id="desc_Locale">Contiene le impostazioni di localizzazione del desktop dell'utente.</string>
         <string id="name_ooSetupCurrency">Valuta</string>
         <string id="desc_ooSetupCurrency">Specifica le impostazioni di valuta definite dall'utente. Per impostazione predefinita, l'etichetta è vuota e la valuta è definita dall'impostazione di localizzazione del sistema.</string>
         <string id="name_DecimalSeparatorAsLocale">Carattere di separazione dei decimali come nell'impostazione locale</string>
@@ -78,32 +76,19 @@
 
         <string id="category_Security">Sicurezza</string>
         <string id="name_RemovePersonalInfoOnSaving">Rimuovi le informazioni personali al salvataggio</string>
-        <string id="desc_RemovePersonalInfoOnSaving">Specifica se rimuovere le informazioni personali durante il salvataggio.
-
-Valore predefinito: non rimuovere</string>
+        <string id="desc_RemovePersonalInfoOnSaving">Specifica se rimuovere le informazioni personali durante il salvataggio. Valore predefinito: non rimuovere</string>
         <string id="name_RecommendPasswordProtection">Consiglia la protezione con password al salvataggio</string>
-        <string id="desc_RecommendPasswordProtection">Specifica se raccomandare l'uso di una password di protezione al salvataggio dei documenti.
-
-Valore predefinito: non consigliare</string>
+        <string id="desc_RecommendPasswordProtection">Specifica se raccomandare l'uso di una password di protezione al salvataggio dei documenti. Valore predefinito: non consigliare</string>
         <string id="name_HyperlinksWithCtrlClick">Ctrl-click richiesto per aprire i collegamenti</string>
-        <string id="desc_HyperlinksWithCtrlClick">Specifica se il occorre usare Ctrl-click per aprire i collegamenti.
-Valore predefinito: Ctrl-click</string>
-        <string id="name_WarnSaveOrSendDoc">Avviso di sicurezza durante salvataggio o invio</string>
-        <string id="desc_WarnSaveOrSendDoc">Specifica se avvisare quando si salvano o si inviano documenti con dati personali/nascosti.
-
-Valore predefinito: non avvisare</string>
+        <string id="desc_HyperlinksWithCtrlClick">Specifica se il occorre usare Ctrl-click per aprire i collegamenti. Valore predefinito: Ctrl-click</string>
+        <string id="name_WarnSaveOrSendDoc">Avvisi di sicurezza durante salvataggio o invio</string>
+        <string id="desc_WarnSaveOrSendDoc">Specifica se avvisare quando si salvano o si inviano documenti con dati personali/nascosti. Valore predefinito: non avvisare</string>
         <string id="name_WarnSignDoc">Avvisi di sicurezza durante la firma</string>
-        <string id="desc_WarnSignDoc">Specifica se avvisare quando si firmano documenti con dati personali/nascosti.
-
-Valore predefinito: avvisa</string>
+        <string id="desc_WarnSignDoc">Specifica se avvisare quando si firmano documenti con dati personali/nascosti. Valore predefinito: avvisa</string>
         <string id="name_WarnPrintDoc">Avvisi di sicurezza durante la stampa</string>
-        <string id="desc_WarnPrintDoc">Specifica se avvisare quandosi stampano documenti con dati personali/nascosti.
-
-Valore predefinito: non avvisare</string>
+        <string id="desc_WarnPrintDoc">Specifica se avvisare quando si stampano documenti con dati personali/nascosti. Valore predefinito: non avvisare</string>
         <string id="name_WarnCreatePDF">Avvisi di sicurezza durante la creazione dei PDF</string>
-        <string id="desc_WarnCreatePDF">Specifica se avvisare l'utente che sta generando PDF includendo dati personali/nascosti.
-
-Valore predefinito: non avvisare</string>
+        <string id="desc_WarnCreatePDF">Specifica se avvisare l'utente che sta generando PDF includendo dati personali/nascosti. Valore predefinito: non avvisare</string>
         <string id="name_MacroSecurityLevel">Livello di sicurezza delle macro</string>
         <string id="desc_MacroSecurityLevel">Livello di sicurezza delle macro. Intervallo 0 (basso) - 3 (alto).
 
@@ -121,7 +106,7 @@ Valore predefinito: Alto</string>
         <string id="desc_DisableMacrosExecution">Specifica se l'esecuzione delle macro deve essere disabilitata. Se il valore è vero, il Livello di sicurezza delle macro è ignorato. Se è falso, viene applicato il livello di sicurezza specificato.
 
 Valore predefinito: Macro abilitate</string>
-        <string id="name_SecureURL">Posizione dei file attendibili.</string>
+        <string id="name_SecureURL">Posizione dei file attendibili</string>
 
         <string id="name_OnlineUpdate">Aggiornamenti Online</string>
         <string id="desc_OnlineUpdate">Impostazioni degli Aggiornamenti Online</string>
@@ -139,10 +124,10 @@ Valore predefinito: Macro abilitate</string>
         <string id="name_Graphic">Percorsi delle immagini</string>
         <string id="name_Backup">Percorsi delle copie di backup</string>
         <string id="name_Temp">Percorsi dei file temporanei</string>
-        
+
         <string id="category_View">Vista</string>
-        <string id="name_SymbolStyle">Stile dell'icona</string>
-        <string id="desc_SymbolStyle">Specifica quale stile d'icone utilizzare per le barre degli strumenti, i menu, ecc: con "automatico" sarà utilizzato lo stile di sistema, con "predefinito" sarà utilizzato il tema predefinito di LibreOffice; gli altri possibili temi d'icone sono ("breeze", "oxygen", "sifr", ecc).</string>
+        <string id="name_SymbolStyle">Aspetto delle icone</string>
+        <string id="desc_SymbolStyle">Specifica che stile di icone utilizzare per barre degli strumenti, menu, etc: "Auto" effettua una selezione automatica in base al tema del desktop; "predefinito" utilizza il tema predefinito di LibreOffice; gli altri possibili valori sono i nomi dei differenti temi ("breeze", "oxygen", "sifr", etc.).</string>
         <string id="auto">Automatico</string>
         <string id="default">Predefinito</string>
         <string id="tango">Tango</string>
@@ -151,47 +136,47 @@ Valore predefinito: Macro abilitate</string>
         <string id="sifr">Sifr</string>
         <string id="galaxy">Galaxy</string>
         <string id="hicontrast">Contrasto elevato</string>
-        <string id="small">Piccola</string>
-        <string id="large">Grande</string>
-        
+        <string id="small">Piccole</string>
+        <string id="large">Grandi</string>
+
         <string id="category_Print">Stampa</string>
-        <string id="name_ConvertToGreyscales">Converti i colori in sfumature di grigio</string>
-        <string id="desc_ConvertToGreyscales">Permete di stampare tutti gli oggetti in scala di grigio.</string>
-        <string id="name_PrinterWarnings">Avvertenze di stampa</string>
-        <string id="desc_PrinterWarnings">Avvertenze di stampa</string>
+        <string id="name_ConvertToGreyscales">Converti i colori in scale di grigio</string>
+        <string id="desc_ConvertToGreyscales">Indica se convertire in scale di grigio tutti gli oggetti.</string>
+        <string id="name_PrinterWarnings">Avvisi di stampa</string>
+        <string id="desc_PrinterWarnings">Avvisi di stampa</string>
 
         <string id="category_Accessibility">Accessibilità</string>
-        <string id="name_EnableATToolSupport">Supporto per facilitare l'accesso da parte di persone disabili</string>
-        <string id="desc_EnableATToolSupport">Supporto per facilitare l'accesso da parte di persone disabili</string>
-        <string id="name_IsSelectionInReadonly">Usa il cursore per la selezione di testo nei documenti di sola lettura</string>
-        <string id="desc_IsSelectionInReadonly">Indica se visualizzare il cursore nei documenti in sola lettura.</string>
-        <string id="name_IsAllowAnimatedGraphics">Permetti animazioni</string>
-        <string id="desc_IsAllowAnimatedGraphics">Indica se permettere le animazioni grafiche in tutte le applicazioni (ad esempio GIF animate e oggetti durante le presentazioni di Impress, anteprima animate (Galleria, Inserisci immagine da file, Strumenti di animazione in Impress.)</string>
+        <string id="name_EnableATToolSupport">Abilita gli strumenti di supporto</string>
+        <string id="desc_EnableATToolSupport">Abilita gli strumenti di supporto</string>
+        <string id="name_IsSelectionInReadonly">Usa il cursore per la selezione di testo nei documenti in sola lettura</string>
+        <string id="desc_IsSelectionInReadonly">Indica se mostrare il cursore nei documenti in sola lettura.</string>
+        <string id="name_IsAllowAnimatedGraphics">Permetti immagini animate</string>
+        <string id="desc_IsAllowAnimatedGraphics">Indica se consentire le animazioni in tutte le applicazioni (ad esempio GIF animate, oggetti in Impress durante la presentazione, anteprime aimate delle immagini come nella Galleria, in Inserisci-&gt;Imagini-&gt;Da file e strumenti di animazione in Impress.)</string>
         <string id="name_IsAllowAnimatedText">Permetti testo animato</string>
-		<string id="desc_IsAllowAnimatedText">Indica se abilitare le animazioni del testo come lo scorrimento e il lampeggio in tutte le applicazioni.</string>
-        <string id="name_HelpTipsDisappear">La casella suggerimenti si disattiva dopo...</string>
-        <string id="desc_HelpTipsDisappear">Abilita o disabilita la scomparsa automatica dei suggerimenti. Si può specificare una durata da 1 a 99 secondi. Se l'opzione è disabilitata, occorre premere il tasto ESC per nascondere il suggerimento.</string>
-        <string id="name_AutoDetectSystemHC">Riconosci automaticamente la modalità a contrasto elevato del sistema operativo</string>
-        <string id="desc_AutoDetectSystemHC">Abilita il riconoscimento automatico della modalità a contrasto elevato. Se questa opzione è selezionata, anche se alcuni sistemi operativi non forniscono esplicitamente questa opzione, permettono all'utente di selezionare uno schema di colori ad alto contrasto in modo implicito.</string>
+        <string id="desc_IsAllowAnimatedText">Indica se consentire le animazioni del testo come il lampeggio e lo scroll in tutte le applicazioni.</string>
+        <string id="name_HelpTipsDisappear">I suggerimenti di aiuto svaniscono dopo...</string>
+        <string id="desc_HelpTipsDisappear">Abilita o disabilita la scomparsa automatica dei suggerimenti. La durata può essere espressa in secondi (numero) da 1 a 99. Se l'opzione è disabilitata, per nascondere i suggerimeti occorrerà premere ESC.</string>
+        <string id="name_AutoDetectSystemHC">Rileva automaticamente la configurazione a contrasto elevato dal sistema operativo</string>
+        <string id="desc_AutoDetectSystemHC">Abilita la rilevazione automatca del della modalità a contrasto elevato del desktop. Alcuni sistemi operativi non forniscono esplicitamente questa informazione ma ermettono all'utente di scegliere uno schema di colori a contrasto elevato. Se queste opzioni sono configurate LibreOffice sarà in grado di rilevarle.</string>
         <string id="name_IsAutomaticFontColor">Utilizza colore carattere automatico per la visualizzazione a schermo</string>
-        <string id="desc_IsAutomaticFontColor">Sovrascrive tutti gli attributi di colore del testo inseriti in un documento solo per la visualizzazione.</string>
-        <string id="name_IsForPagePreviews">Utilizza i colori di sistema per l'anteprima della pagina</string>
-        <string id="desc_IsForPagePreviews">Abilita l'uso dei colori a contrasto elevato al posto dei colori predefiniti dell'interfaccia.</string>
-        
-        <string id="category_FontSubstitutions">Font Substitutions</string>
-        <string id="name_UseFontSubstitutions">Use Font Substitutions</string>
-        <string id="desc_UseFontSubstitutions">Enables LibreOffice to use font substitutions table</string>
-        <string id="name_FontPair_0">Font Pair 0</string>
-        <string id="name_FontPair_1">Font Pair 1</string>
-        <string id="name_FontPair_2">Font Pair 2</string>
-        <string id="name_FontPair_3">Font Pair 3</string>
-        <string id="name_FontPair_4">Font Pair 4</string>
-        <string id="name_FontPair_5">Font Pair 5</string>
-        <string id="name_FontPair_6">Font Pair 6</string>
-        <string id="name_FontPair_7">Font Pair 7</string>
-        <string id="name_FontPair_8">Font Pair 8</string>
-        <string id="name_FontPair_9">Font Pair 9</string>
-        <string id="desc_FontPair">Defines font substitution pair</string>
+        <string id="desc_IsAutomaticFontColor">ATTENZIONE: questa opzione sovrascrive tutti gli attributi di colore del testo solo in visualizzazione.</string>
+        <string id="name_IsForPagePreviews">Utilizza i colori di sistema per l'anteprima di pagina</string>
+        <string id="desc_IsForPagePreviews">Abilita i colori a contrasto elevato a posto dello schema di colori classico WYSIWYG.</string>
+
+        <string id="category_FontSubstitutions">Sostituzione dei caratteri</string>
+        <string id="name_UseFontSubstitutions">Utilizza la sostituzione dei caratteri</string>
+        <string id="desc_UseFontSubstitutions">Abilita la tabella di sostituzione dei caratteri di LibreOffice</string>
+        <string id="name_FontPair_0">Sostituzione 0</string>
+        <string id="name_FontPair_1">Sostituzione 1</string>
+        <string id="name_FontPair_2">Sostituzione 2</string>
+        <string id="name_FontPair_3">Sostituzione 3</string>
+        <string id="name_FontPair_4">Sostituzione 4</string>
+        <string id="name_FontPair_5">Sostituzione 5</string>
+        <string id="name_FontPair_6">Sostituzione 6</string>
+        <string id="name_FontPair_7">Sostituzione 7</string>
+        <string id="name_FontPair_8">Sostituzione 8</string>
+        <string id="name_FontPair_9">Sostituzione 9</string>
+        <string id="desc_FontPair">Definizione della tabella di sostituzione dei caratteri</string>
 
         <string id="category_Writer">Writer</string>
         <string id="desc_SaveAsFormat">Salva sempre in questo formato di documento. Solo il formato OpenDocument (ODF), garantisce una completa integrità dei dati.</string>
@@ -219,18 +204,17 @@ Le altezze dei caratteri sono espresse in millimetri*100, che corrispondono alla
 
         <string id="category_Calc">Calc</string>
         <string id="ods">Fogli di calcolo ODF</string>
-        <string id="xlsx">Microsoft Excel 2007/2013 XML</string>
+        <string id="xlsx">Microsoft Excel 2007/2010 XML</string>
         <string id="xls">Microsoft Excel 97-2003 XLS</string>
 
         <string id="category_Formulas">Formule</string>
         <string id="name_EnglishFunctionName">Usa i nomi inglesi delle funzioni</string>
-        <string id="desc_EnglishFunctionName">Utilizza i nomi in inglese delle funzioni anche quando l'interfaccia di Collabora Office è localizzata</string>
-        <string id="name_RecalcMode">Ricalcolo al caricamento dei file</string>
-        <string id="desc_RecalcMode">Specifica come forzare il ricalcolo automatico delle formule al caricamento di ODF non generati da LibreOffice e/o di documenti di MS Excel nel formato OOXML (versione 2007 e successive).</string>
+        <string id="desc_EnglishFunctionName">Utilizza i nomi in inglese delle funzioni anche quando l'interfaccia è localizzata</string>
+        <string id="name_RecalcMode">Ricalcola le formule dei fogli all'apertura</string>
+        <string id="desc_RecalcMode">Specifica se ricalcolare automaticamente le formule nelle celle in documenti ODF non generati da LibreOffice e/o nei documenti in OOXML (MSO 2007 e successivi).</string>
         <string id="alwaysrecalc">Ricalcola sempre</string>
         <string id="neverrecalc">Non ricalcolare mai</string>
-        <string id="promptrecalc">Chiedi</string>
-
+        <string id="promptrecalc">Chiedi all'utente</string>
 
         <string id="category_Impress">Impress</string>
         <string id="odp">Presentazione ODF</string>
@@ -244,17 +228,15 @@ Le altezze dei caratteri sono espresse in millimetri*100, che corrispondono alla
         <string id="SaveAsFormat">Formato di salvataggio</string>
         <string id="Print">Stampa</string>
         <string id="DefaultTemplate">Modello predefinito</string>
-        <string id="PathListExplain">Quando si configura Collbora Office, le directory e i precorsi dei file devono essere inseriti utilizzando la sintassi di Collabora Office, come descritto nell'esempio sottostante.
-Drive locali o di rete mappati su una lettera, come C:
-    file:///C:/path/file.ext
-UNC path
-    file://server/share/path/file.ext
+        <string id="PathListExplain">Le directory e i percorsi dei file devono essere inseriti utilizzando la sintassi descritta di seguito.
 
+Drive locali o di rete mappati su una lettera, come C: file:///C:/path/file.ext
+UNC path file://server/share/path/file.ext
 Gli spazi e i caratteri non-ASCII devono essere codificati, ad esempio, lo spazio deve essere scritto come %20.
 
 Possono essere utilizzate le seguenti variabili dei percorsi:
-    $(inst)  = percorso dell'installazione di Collabora Office
-    $(user)  = percorso del profilo utente di Collabora Office
+    $(inst)  = percorso dell'installazione
+    $(user)  = percorso del profilo utente
     $(work)  = percorso della cartella Documenti dell'utente
     $(home)  = percorso della cartella home dell'utente
     $(temp)  = percorso dei tile temporanei dell'utente
@@ -264,15 +246,15 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
     </stringTable>
     <presentationTable>
       <presentation id="ooName">
-        <text>Specifica il nome del prodotto. Il valore predefinito è Collabora Office</text>
+        <text>Specifica il nome del prodotto.</text>
         <textBox refId="Value">
-          <label>Valore: </label>
+          <label>Valore:</label>
           <defaultValue>Collabora Office</defaultValue>
         </textBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="UserDefinedSettings">
-        <checkBox refId="Value">Carica le impostazioni personalizzate con il documento</checkBox>
+        <checkBox refId="Value">Carica le impostazioni specifiche dell'utente con il documento</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="UseUserData">
@@ -282,7 +264,7 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       <presentation id="AutoSave">
         <checkBox refId="Value">Salva le informazioni di recupero automatico</checkBox>
         <checkBox refId="Final">Finale</checkBox>
-        <text>Salva informazioni di ripristino automatico ogni __ minuti</text>
+        <text>Salva le informazioni di ripristino automatico ogni __ minuti</text>
         <text>Digita: intero [1..60]</text>
         <decimalTextBox refId="AutoSaveTimeIntervallValue" defaultValue="15" spin="true">Valore</decimalTextBox>
         <checkBox refId="AutoSaveTimeIntervallFinal">Finale</checkBox>
@@ -290,23 +272,23 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="AutoSavePromptFinal">Finale</checkBox>
       </presentation>
       <presentation id="CreateBackup">
-        <checkBox refId="Value">Crea sempre anche una copia di backup</checkBox>
+        <checkBox refId="Value">Crea sempre la copia di backup</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="EditProperty">
-        <checkBox refId="Value">Modifica le proprietà del documento prima di salvare</checkBox>
+        <checkBox refId="Value">Modifica le proprietà documento prima di salvare</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="AutoCorrect">
         <text>Percorso dei file di correzione automatica. È il percorso dove sono scritti i nuovi file utente.</text>
         <textBox refId="WritePathValue">
-          <label>Percorso: </label>
+          <label>Percorso:</label>
           <defaultValue>$(user)/autocorr</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Finale</checkBox>
         <text>Percorso dei file di correzione automatica</text>
         <textBox refId="UserPathsValue">
-          <label>Elenco dei percorsi: </label>
+          <label>Elenco dei percorsi:</label>
           <defaultValue>$(inst)/share/autocorr $(user)/autocorr</defaultValue>
         </textBox>
         <checkBox refId="UserPathsFinal">Finale</checkBox>
@@ -314,13 +296,13 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       <presentation id="AutoText">
         <text>Percorso dei file del testo automatico. È il percorso dove sono scritti i nuovi file utente.</text>
         <textBox refId="WritePathValue">
-          <label>Percorso: </label>
+          <label>Percorso:</label>
           <defaultValue>$(user)/autotext</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Finale</checkBox>
         <text>Percorso dei file del testo automatico</text>
         <textBox refId="UserPathsValue">
-          <label>Elenco dei percorsi: </label>
+          <label>Elenco dei percorsi:</label>
           <defaultValue>$(inst)/share/autotext/$(vlang) $(user)/autotext</defaultValue>
         </textBox>
         <checkBox refId="UserPathsFinal">Finale</checkBox>
@@ -328,13 +310,13 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       <presentation id="Dictionary">
         <text>Percorso dei file dei dizionari. È il percorso dove sono scritti i nuovi file utente.</text>
         <textBox refId="WritePathValue">
-          <label>Percorso: </label>
+          <label>Percorso:</label>
           <defaultValue>$(user)/wordbook</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Finale</checkBox>
         <text>Percorso dei file dei dizionari</text>
         <textBox refId="UserPathsValue">
-          <label>Elenco dei percorsi: </label>
+          <label>Elenco dei percorsi:</label>
           <defaultValue>$(inst)/share/wordbook $(inst)/share/wordbook/$(vlang) $(user)/wordbook</defaultValue>
         </textBox>
         <checkBox refId="UserPathsFinal">Finale</checkBox>
@@ -342,13 +324,13 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       <presentation id="Gallery">
         <text>Percorso dei file della galleria. È il percorso dove sono scritti i nuovi file utente.</text>
         <textBox refId="WritePathValue">
-          <label>Percorso: </label>
+          <label>Percorso:</label>
           <defaultValue>$(user)/gallery</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Finale</checkBox>
         <text>Elenco dei percorsi dei file della galleria</text>
         <textBox refId="UserPathsValue">
-          <label>Elenco dei percorsi: </label>
+          <label>Elenco dei percorsi:</label>
           <defaultValue>$(inst)/share/gallery $(user)/gallery</defaultValue>
         </textBox>
         <checkBox refId="UserPathsFinal">Finale</checkBox>
@@ -356,13 +338,13 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       <presentation id="Templates">
         <text>Percorso dei file dei modelli. È il percorso dove sono scritti i nuovi file utente.</text>
         <textBox refId="WritePathValue">
-          <label>Percorso: </label>
+          <label>Percorso:</label>
           <defaultValue>$(user)/template</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Finale</checkBox>
         <text>Percorso dei file dei modelli</text>
         <textBox refId="UserPathsValue">
-          <label>Elenco dei percorsi: </label>
+          <label>Elenco dei percorsi:</label>
           <defaultValue>$(user)/template</defaultValue>
         </textBox>
         <checkBox refId="UserPathsFinal">Finale</checkBox>
@@ -370,7 +352,7 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       <presentation id="MyDocuments">
         <text>Percorso della cartella Documenti.</text>
         <textBox refId="WritePathValue">
-          <label>Percorso: </label>
+          <label>Percorso:</label>
           <defaultValue>$(work)</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Finale</checkBox>
@@ -378,7 +360,7 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       <presentation id="Graphic">
         <text>Percorso delle immagini. È il percorso dove sono scritti i nuovi file utente.</text>
         <textBox refId="WritePathValue">
-          <label>Percorso: </label>
+          <label>Percorso:</label>
           <defaultValue>$(user)/gallery</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Finale</checkBox>
@@ -386,7 +368,7 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       <presentation id="Backup">
         <text>Percorso dei file di backup. È il percorso dove sono scritti i nuovi file utente.</text>
         <textBox refId="WritePathValue">
-          <label>Percorso: </label>
+          <label>Percorso:</label>
           <defaultValue>$(user)/backup</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Finale</checkBox>
@@ -394,7 +376,7 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       <presentation id="Temp">
         <text>Percorso dei file temporanei. È il percorso dove sono scritti i nuovi file utente.</text>
         <textBox refId="WritePathValue">
-          <label>Percorso: </label>
+          <label>Percorso:</label>
           <defaultValue>$(temp)</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Finale</checkBox>
@@ -404,7 +386,7 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
-        <checkBox refId="Value">Utilizza le finestre di stampa di sistema</checkBox>
+        <checkBox refId="Value">Usa le finestre di dialogo di stampa di sistema</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="OnlineUpdate">
@@ -412,41 +394,41 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="AutoCheckEnabledFinal">Finale</checkBox>
         <checkBox refId="AutoDownloadEnabledValue">Scarica automaticamete gli aggiornamenti</checkBox>
         <checkBox refId="AutoDownloadEnabledFinal">Finale</checkBox>
-        <checkBox refId="OnlineUpdatePageValue">Nascondi Strumenti - Opzioni - Collabora Office - Aggiornamento in linea</checkBox>
+        <checkBox refId="OnlineUpdatePageValue">Nascondi Strumenti - Opzioni - LibreOffice-from-Collabora - Aggiornamento in linea</checkBox>
       </presentation>
       <presentation id="UserProfile">
         <textBox refId="CompanyNameValue">
-          <label>Azienda: </label>
+          <label>Azienda:</label>
         </textBox>
         <checkBox refId="CompanyNameFinal">Finale</checkBox>
         <text>Indirizzo</text>
         <textBox refId="AddressStreetValue">
-          <label>Via: </label>
+          <label>Via:</label>
         </textBox>
         <checkBox refId="AddressStreetFinal">Finale</checkBox>
         <textBox refId="AddressCityValue">
-          <label>Città: </label>
+          <label>Città:</label>
         </textBox>
         <checkBox refId="AddressCityFinal">Finale</checkBox>
         <textBox refId="AddressStateValue">
-          <label>Stato: </label>
+          <label>Stato:</label>
         </textBox>
         <checkBox refId="AddressStateFinal">Finale</checkBox>
         <textBox refId="AddressPostalCodeValue">
-          <label>CAP: </label>
+          <label>CAP:</label>
         </textBox>
         <checkBox refId="AddressPostalCodeFinal">Finale</checkBox>
         <textBox refId="AddressCountryValue">
-          <label>Paese: </label>
+          <label>Paese:</label>
         </textBox>
         <checkBox refId="AddressCountryFinal">Finale</checkBox>
-        <text>Telefono / Fax</text>
+        <text>Telefono/Fax</text>
         <textBox refId="TelephoneValue">
-          <label>Telefono: </label>
+          <label>Telefono:</label>
         </textBox>
         <checkBox refId="TelephoneFinal">Finale</checkBox>
         <textBox refId="FaxValue">
-          <label>Fax: </label>
+          <label>Fax:</label>
         </textBox>
         <checkBox refId="FaxFinal">Finale</checkBox>
       </presentation>
@@ -467,131 +449,131 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       </presentation>
       <presentation id="WriterDefaultTemplate">
         <textBox refId="Value">
-          <label>File URL: </label>
+          <label>File URL:</label>
         </textBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="CalcDefaultTemplate">
         <textBox refId="Value">
-          <label>File URL: </label>
+          <label>File URL:</label>
         </textBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="ImpressDefaultTemplate">
         <textBox refId="Value">
-          <label>File URL: </label>
+          <label>File URL:</label>
         </textBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="WriterDefaultFontsWestern">
         <text>Predefinito</text>
         <textBox refId="WriterDefaultFontsWesternDefaultFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsWesternDefaultFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsWesternDefaultFontSizeValue" defaultValue="423" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsWesternDefaultFontSizeValue" defaultValue="423" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsWesternDefaultFontSizeFinal">Finale</checkBox>
         <text>Intestazione</text>
         <textBox refId="WriterDefaultFontsWesternHeadingFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsWesternHeadingFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsWesternHeadingFontSizeValue" defaultValue="494" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsWesternHeadingFontSizeValue" defaultValue="494" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsWesternHeadingFontSizeFinal">Finale</checkBox>
         <text>List</text>
         <textBox refId="WriterDefaultFontsWesternListFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsWesternListFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsWesternListFontSizeValue" defaultValue="423" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsWesternListFontSizeValue" defaultValue="423" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsWesternListFontSizeFinal">Finale</checkBox>
-        <text>Caption</text>
+        <text>Didascalia</text>
         <textBox refId="WriterDefaultFontsWesternCaptionFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsWesternCaptionFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsWesternCaptionFontSizeValue" defaultValue="423" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsWesternCaptionFontSizeValue" defaultValue="423" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsWesternCaptionFontSizeFinal">Finale</checkBox>
-        <text>Index</text>
+        <text>Indice</text>
         <textBox refId="WriterDefaultFontsWesternIndexFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsWesternIndexFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsWesternIndexFontSizeValue" defaultValue="423" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsWesternIndexFontSizeValue" defaultValue="423" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsWesternIndexFontSizeFinal">Finale</checkBox>
       </presentation>
       <presentation id="WriterDefaultFontsCJK">
-        <text>Default</text>
+        <text>Predefinito</text>
         <textBox refId="WriterDefaultFontsCJKDefaultFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsCJKDefaultFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsCJKDefaultFontSizeValue" defaultValue="370" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsCJKDefaultFontSizeValue" defaultValue="370" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsCJKDefaultFontSizeFinal">Finale</checkBox>
-        <text>Heading</text>
+        <text>Intestazione</text>
         <textBox refId="WriterDefaultFontsCJKHeadingFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsCJKHeadingFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsCJKHeadingFontSizeValue" defaultValue="494" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsCJKHeadingFontSizeValue" defaultValue="494" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsCJKHeadingFontSizeFinal">Finale</checkBox>
         <text>List</text>
         <textBox refId="WriterDefaultFontsCJKListFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsCJKListFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsCJKListFontSizeValue" defaultValue="423" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsCJKListFontSizeValue" defaultValue="423" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsCJKListFontSizeFinal">Finale</checkBox>
-        <text>Caption</text>
+        <text>Didascalia</text>
         <textBox refId="WriterDefaultFontsCJKCaptionFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsCJKCaptionFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsCJKCaptionFontSizeValue" defaultValue="423" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsCJKCaptionFontSizeValue" defaultValue="423" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsCJKCaptionFontSizeFinal">Finale</checkBox>
-        <text>Index</text>
+        <text>Indice</text>
         <textBox refId="WriterDefaultFontsCJKIndexFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsCJKIndexFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsCJKIndexFontSizeValue" defaultValue="423" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsCJKIndexFontSizeValue" defaultValue="423" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsCJKIndexFontSizeFinal">Finale</checkBox>
       </presentation>
       <presentation id="WriterDefaultFontsCTL">
-        <text>Default</text>
+        <text>Predefinito</text>
         <textBox refId="WriterDefaultFontsCTLDefaultFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsCTLDefaultFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsCTLDefaultFontSizeValue" defaultValue="423" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsCTLDefaultFontSizeValue" defaultValue="423" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsCTLDefaultFontSizeFinal">Finale</checkBox>
-        <text>Heading</text>
+        <text>Intestazione</text>
         <textBox refId="WriterDefaultFontsCTLHeadingFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsCTLHeadingFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsCTLHeadingFontSizeValue" defaultValue="494" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsCTLHeadingFontSizeValue" defaultValue="494" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsCTLHeadingFontSizeFinal">Finale</checkBox>
         <text>List</text>
         <textBox refId="WriterDefaultFontsCTLListFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsCTLListFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsCTLListFontSizeValue" defaultValue="423" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsCTLListFontSizeValue" defaultValue="423" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsCTLListFontSizeFinal">Finale</checkBox>
-        <text>Caption</text>
+        <text>Didascalia</text>
         <textBox refId="WriterDefaultFontsCTLCaptionFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsCTLCaptionFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsCTLCaptionFontSizeValue" defaultValue="423" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsCTLCaptionFontSizeValue" defaultValue="423" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsCTLCaptionFontSizeFinal">Finale</checkBox>
         <text>Indice</text>
         <textBox refId="WriterDefaultFontsCTLIndexFontNameValue">
-          <label>Carattere: </label>
+          <label>Carattere:</label>
         </textBox>
         <checkBox refId="WriterDefaultFontsCTLIndexFontNameFinal">Finale</checkBox>
-        <decimalTextBox refId="WriterDefaultFontsCTLIndexFontSizeValue" defaultValue="423" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="WriterDefaultFontsCTLIndexFontSizeValue" defaultValue="423" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsCTLIndexFontSizeFinal">Finale</checkBox>
       </presentation>
       <presentation id="ExperimentalMode">
@@ -603,46 +585,46 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="HistorySize">
-        <decimalTextBox refId="Value" defaultValue="100" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="Value" defaultValue="100" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="HistoryPickListSize">
-        <decimalTextBox refId="Value" defaultValue="25" spin="true">Dimensione: </decimalTextBox>
+        <decimalTextBox refId="Value" defaultValue="25" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="DefaultLocale">
         <textBox refId="Value">
-          <label>Codice lingua: </label>
+          <label>Codice lingua:</label>
         </textBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="DefaultLocale_CJK">
         <textBox refId="Value">
-          <label>Codice lingua: </label>
+          <label>Codice lingua:</label>
         </textBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="DefaultLocale_CTL">
         <textBox refId="Value">
-          <label>Codice lingua: </label>
+          <label>Codice lingua:</label>
         </textBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="UILocale">
         <textBox refId="Value">
-          <label>Codice lingua: </label>
+          <label>Codice lingua:</label>
         </textBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="Locale">
         <textBox refId="Value">
-          <label>Locale: </label>
+          <label>Localizzazione:</label>
         </textBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="ooSetupCurrency">
         <textBox refId="Value">
-          <label>Codice valuta: </label>
+          <label>Codice valuta:</label>
         </textBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
@@ -655,23 +637,23 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="RemovePersonalInfoOnSaving">
-        <checkBox refId="Value" defaultItem="0">Rimuovi le impostazioni personali al salvataggio</checkBox>
+        <checkBox refId="Value" defaultItem="0">Rimuovi le informazioni personali al salvataggio</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="RecommendPasswordProtection">
-        <checkBox refId="Value" defaultItem="0">Raccomanda l'uso di una password di protezione al salvataggio</checkBox>
+        <checkBox refId="Value" defaultItem="0">Consiglia la protezione con password al salvataggio</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="HyperlinksWithCtrlClick">
-        <checkBox refId="Value" defaultItem="0">È necessario Ctrl-click per l'apertura dei collegamenti</checkBox>
+        <checkBox refId="Value" defaultItem="0">Ctrl-click richiesto per aprire i collegamenti</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="WarnSaveOrSendDoc">
-        <checkBox refId="Value" defaultItem="0">Avvisi di sicurezza al salvataggio o all'invio</checkBox>
+        <checkBox refId="Value" defaultItem="0">Avvisi di sicurezza durante salvataggio o invio</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="WarnSignDoc">
-        <checkBox refId="Value" defaultItem="0">Avvisi di sicurezza alla firma</checkBox>
+        <checkBox refId="Value" defaultItem="0">Avvisi di sicurezza durante la firma</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="WarnPrintDoc">
@@ -679,11 +661,11 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="WarnCreatePDF">
-        <checkBox refId="Value" defaultItem="0">Avvisi di sicurezza alla creazione di PDF</checkBox>
+        <checkBox refId="Value" defaultItem="0">Avvisi di sicurezza durante la creazione dei PDF</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="MacroSecurityLevel">
-        <dropdownList refId="Value" defaultItem="2">Livello di sicurezza delle macro: </dropdownList>
+        <dropdownList refId="Value" defaultItem="2">Livello di sicurezza delle macro:</dropdownList>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="DisableMacrosExecution">
@@ -693,7 +675,7 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       <presentation id="SecureURL">
         <text>Le macro dei documenti sono sempre eseguite se sono caricate da uno dei seguenti percorsi.</text>
         <textBox refId="Value">
-          <label>Elenco dei percorsi: </label>
+          <label>Elenco dei percorsi:</label>
         </textBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
@@ -702,14 +684,14 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="EnglishFunctionName">
-        <checkBox refId="Value">Usa i nomi di funzione inglesi</checkBox>
+        <checkBox refId="Value">Usa i nomi delle funzioni in inglese</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="RecalcMode">
-        <text>Recalculation on file load</text>
-        <dropdownList refId="OOXMLValue" defaultItem="1">Excel 2007 e successivi: </dropdownList>
+        <text>Ricalcola i file all'apertura</text>
+        <dropdownList refId="OOXMLValue" defaultItem="1">Excel 2007 e successivi:</dropdownList>
         <checkBox refId="OOXMLFinal">Finale</checkBox>
-        <dropdownList refId="ODFValue" defaultItem="1">foglio di calcolo ODF (non salvato da Collabora Office): </dropdownList>
+        <dropdownList refId="ODFValue" defaultItem="1">Fogli di calcolo ODF (non salvati da LibreOffice):</dropdownList>
         <checkBox refId="ODFFinal">Finale</checkBox>
       </presentation>
       <presentation id="AllSheets">
@@ -717,44 +699,44 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="SymbolStyle">
-        <dropdownList refId="Value" defaultItem="0">Stile dell'icona: </dropdownList>
+        <dropdownList refId="Value" defaultItem="0">Stile delle icone:</dropdownList>
         <checkBox refId="Final">Finale</checkBox>
-        <dropdownList refId="SizeValue" defaultItem="0">Dimensione dell'icona: </dropdownList>
+        <dropdownList refId="SizeValue" defaultItem="0">Dimensione delle icone:</dropdownList>
         <checkBox refId="SizeFinal">Finale</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
-        <checkBox refId="Value">Converti i colori in sfumature di grigio</checkBox>
+        <checkBox refId="Value">Converti i colori in scale di grigio</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="PrinterWarnings">
-        <text>Specifica se visualizzare un avviso nel caso in cui il documento da stampare contenga degli oggetti trasparenti.</text>
-        <checkBox refId="Value">Trasparenza</checkBox>
+        <text>Specifica se visualizzare un messaggio nel caso in cui la stampa contenga oggetti trasparenti.</text>
+        <checkBox refId="Value">Transparenza</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="EnableATToolSupport">
-        <checkBox refId="Value">Supporto per facilitare l'accesso da arte di persone disabili</checkBox>
+        <checkBox refId="Value">Abilita gli strumenti di supporto</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="IsSelectionInReadonly">
-        <checkBox refId="Value">Usa il cursore per la selezione di testo nei documenti di sola lettura</checkBox>
+        <checkBox refId="Value">Usa il cursore per la selezione di testo nei documenti in sola lettura</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="IsAllowAnimatedGraphics">
-        <checkBox refId="Value">Permetti animazioni</checkBox>
+        <checkBox refId="Value">Permetti immagini animate</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="IsAllowAnimatedText">
-        <checkBox refId="Value">Permetti animazione testo</checkBox>
+        <checkBox refId="Value">Permetti testo animato</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="HelpTipsDisappear">
-        <checkBox refId="Value">La casella suggerimenti si disattiva dopo...</checkBox>
+        <checkBox refId="Value">I suggerimenti di aiuto svaniscono dopo...</checkBox>
         <checkBox refId="Final">Finale</checkBox>
         <decimalTextBox refId="HelpTipsDisappearValue" defaultValue="4" spin="true">secondi</decimalTextBox>
         <checkBox refId="HelpTipsDisappearFinal">Finale</checkBox>
       </presentation>
       <presentation id="AutoDetectSystemHC">
-        <checkBox refId="Value">Riconosci automaticamente la modalità a contrasto elevato del sistema operativo</checkBox>
+        <checkBox refId="Value">Rileva automaticamente la configurazione a contrasto elevato dal sistema operativo</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="IsAutomaticFontColor">
@@ -762,28 +744,28 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="IsForPagePreviews">
-        <checkBox refId="Value">Utilizza i colori di sistema per l'anteprima di stampa</checkBox>
+        <checkBox refId="Value">Utilizza i colori di sistema per l'anteprima di pagina</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="HTMLExportBrowser">
-        <dropdownList refId="Value" defaultItem="0">Browser: </dropdownList>
+        <dropdownList refId="Value" defaultItem="0">Browser:</dropdownList>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="UseFontSubstitutions">
-        <checkBox refId="Value">Use Font Substitutions table</checkBox>
-        <checkBox refId="Final">Final</checkBox>
-        <checkBox refId="HideSettingsCommonFonts">Hide Tools - Options - LibreOffice - Fonts page</checkBox>
+        <checkBox refId="Value">Utilizza la tabella di sostituzione dei caratteri</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+        <checkBox refId="HideSettingsCommonFonts">Nascondi Strumenti - Opzioni - LibreOffice - Caratteri</checkBox>
       </presentation>
       <presentation id="FontPair">
-        <checkBox refId="Always">Always</checkBox>
-        <checkBox refId="OnScreenOnly">On Screen Only</checkBox>
+        <checkBox refId="Always">Sempre</checkBox>
+        <checkBox refId="OnScreenOnly">Solo a schermo</checkBox>
         <textBox refId="ReplaceFont">
-          <label>Replace Font: </label>
+          <label>Font da sostituire:</label>
         </textBox>
         <textBox refId="SubstituteFont">
-          <label>Substitute Font: </label>
+          <label>Font applicato:</label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
       </presentation>
     </presentationTable>
   </resources>
