@@ -31,7 +31,7 @@
         <string id="desc_AutoSave">Save AutoRecovery information in every __ minutes</string>
         <string id="name_CreateBackup">Create Backup</string>
         <string id="desc_CreateBackup">Always create backup copy</string>
-        <string id="name_EditProperty">Edit document property before saving</string>
+        <string id="name_EditProperty">Edit document properties before saving</string>
         <string id="desc_EditProperty">Specifies that the Properties dialog will appear every time you select the Save As command.</string>
         <string id="name_HTMLExportBrowser">HTML export browser compatibility</string>
         <string id="desc_HTMLExportBrowser">Specifies the browser for which the HTML export should be optimized</string>
@@ -62,13 +62,13 @@
         <string id="name_DefaultLocale_CTL">Default document language (CTL)</string>
         <string id="desc_DefaultLocale_CTL">Specifies the default document language - complex text layout (e.g. Arabic, Indian etc., scripts).</string>
         <string id="name_UILocale">User interface language</string>
-        <string id="desc_UILocale">Specifies the user interface (UI) language. An empty string means: use the desktop's UI language if possible.</string>
+        <string id="desc_UILocale">Specifies the user interface (UI) language. An empty string means: use the desktops UI language if possible.</string>
         <string id="name_Locale">Locale</string>
         <string id="desc_Locale">Contains the user's desktop locale setting.</string>
         <string id="name_ooSetupCurrency">Currency</string>
-        <string id="desc_ooSetupCurrency">Indicates the currency settings defined by the user. By default, this label is empty and the currency defined by sytem locale.</string>
+        <string id="desc_ooSetupCurrency">Indicates the currency settings defined by the user. By default, this label is empty and the currency defined by system locale.</string>
         <string id="name_DecimalSeparatorAsLocale">Decimal separator as locale</string>
-        <string id="desc_DecimalSeparatorAsLocale">Indicates that the decimal separator (dot or commma) is used as appropriate for the selected locale instead of the one related to the default keyboard layout.</string>
+        <string id="desc_DecimalSeparatorAsLocale">Indicates that the decimal separator (dot or comma) is used as appropriate for the selected locale instead of the one related to the default keyboard layout.</string>
         <string id="name_IgnoreLanguageChange">Ignore language change</string>
         <string id="desc_IgnoreLanguageChange">Indicates whether changes to the system input language/keyboard will be ignored. If ignored, when new text is typed that text will follow the language of the document or current paragraph, not the current system language.</string>
 
@@ -251,7 +251,7 @@ The following path variables can be used:
     $(inst)  = location of installation
     $(user)  = location of user's profile
     $(work)  = user's My Documents folder
-    $(home)  = users's home directory
+    $(home)  = user's home directory
     $(temp)  = location of user's temporary files
     $(vlang) = current language code (e.g. en-US, fr, hu)
 
@@ -289,7 +289,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="EditProperty">
-        <checkBox refId="Value">Edit document property before saving</checkBox>
+        <checkBox refId="Value">Edit document properties before saving</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="AutoCorrect">
