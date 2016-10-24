@@ -9,7 +9,9 @@ Pull requests are welcome. Please help with translations at [Transifex](https://
 [ITS Tool](http://itstool.org) is used to extract strings from adml file, and merge them back. The very simple `adml.its` file in this repository should be copied into e.g. `/usr/local/share/itstool/its/`. It sets one `preserveSpaceRule`.
 
 Create the pot from the adml file:
-    itstool -o LibreOffice-from-Collabora-adml.pot LibreOffice-from-Collabora.adml
+
+    itstool -o Collabora-Office-adml.pot Collabora-Office.adml
 
 Merge the translated strings to the adml file:
-    itstool -m LibreOffice-from-Collabora-adml.mo -o it-IT/ LibreOffice-from-Collabora.adml
+
+    itstool -m Collabora-Office-adml.mo -o it-IT/ Collabora-Office.adml
