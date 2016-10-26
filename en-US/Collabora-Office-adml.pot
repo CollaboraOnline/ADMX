@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-10-17 11:45+0200\n"
+"POT-Creation-Date: 2016-10-26 12:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,7 +183,7 @@ msgstr ""
 #: Collabora-Office.adml:292
 #, no-wrap
 msgid ""
-"Edit document property before saving"
+"Edit document properties before saving"
 msgstr ""
 
 #. (itstool) path: stringTable/string
@@ -413,7 +413,7 @@ msgstr ""
 #: Collabora-Office.adml:69
 #, no-wrap
 msgid ""
-"Indicates the currency settings defined by the user. By default, this label is empty and the currency defined by sytem locale."
+"Indicates the currency settings defined by the user. By default, this label is empty and the currency defined by system locale."
 msgstr ""
 
 #. (itstool) path: stringTable/string
@@ -427,7 +427,7 @@ msgstr ""
 #: Collabora-Office.adml:71
 #, no-wrap
 msgid ""
-"Indicates that the decimal separator (dot or commma) is used as appropriate for the selected locale instead of the one related to the default keyboard layout."
+"Indicates that the decimal separator (dot or comma) is used as appropriate for the selected locale instead of the one related to the default keyboard layout."
 msgstr ""
 
 #. (itstool) path: stringTable/string
@@ -921,7 +921,7 @@ msgstr ""
 #: Collabora-Office.adml:165
 #, no-wrap
 msgid ""
-"Indicates whether to allow the graphical animation in all applications (i.e. animated GIFs and objects in Impress during  presentation, animated graphical previews (Gallery, Insert-Graphics-From File, Animation Tool in Impress.)"
+"Indicates whether to allow the graphical animation in all applications, i.e. animated GIFs and objects in Impress during presentation, animated graphical previews (Gallery, Insert - Image..., Animation Tool in Impress)."
 msgstr ""
 
 #. (itstool) path: stringTable/string
@@ -1392,7 +1392,7 @@ msgid ""
 "    $(inst)  = location of installation\n"
 "    $(user)  = location of user's profile\n"
 "    $(work)  = user's My Documents folder\n"
-"    $(home)  = users's home directory\n"
+"    $(home)  = user's home directory\n"
 "    $(temp)  = location of user's temporary files\n"
 "    $(vlang) = current language code (e.g. en-US, fr, hu)\n"
 "\n"
