@@ -62,7 +62,7 @@
         <string id="name_DefaultLocale_CTL">Default document language (CTL)</string>
         <string id="desc_DefaultLocale_CTL">Specifies the default document language - complex text layout (e.g. Arabic, Indian etc., scripts).</string>
         <string id="name_UILocale">User interface language</string>
-        <string id="desc_UILocale">Specifies the user interface (UI) language. An empty string means: use the desktops UI language if possible.</string>
+        <string id="desc_UILocale">Specifies the user interface (UI) language. An empty string means: use the desktop's UI language if possible.</string>
         <string id="name_Locale">Locale</string>
         <string id="desc_Locale">Contains the user's desktop locale setting.</string>
         <string id="name_ooSetupCurrency">Currency</string>
