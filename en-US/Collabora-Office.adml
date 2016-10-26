@@ -162,7 +162,7 @@ Default value: Macros enabled</string>
         <string id="name_IsSelectionInReadonly">Use text selections cursor in read-only text documents</string>
         <string id="desc_IsSelectionInReadonly">Indicates whether the cursor is displayed in read-only texts.</string>
         <string id="name_IsAllowAnimatedGraphics">Allow animated graphics</string>
-        <string id="desc_IsAllowAnimatedGraphics">Indicates whether to allow the graphical animation in all applications (i.e. animated GIFs and objects in Impress during  presentation, animated graphical previews (Gallery, Insert-Graphics-From File, Animation Tool in Impress.)</string>
+        <string id="desc_IsAllowAnimatedGraphics">Indicates whether to allow the graphical animation in all applications, i.e. animated GIFs and objects in Impress during presentation, animated graphical previews (Gallery, Insert - Image..., Animation Tool in Impress).</string>
         <string id="name_IsAllowAnimatedText">Allow animated text</string>
         <string id="desc_IsAllowAnimatedText">Indicates whether to allow all textual animation like blinking and scrolling in all applications.</string>
         <string id="name_HelpTipsDisappear">Help tips disappear after...</string>
