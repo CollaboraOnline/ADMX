@@ -114,7 +114,7 @@ Default value: High</string>
         <string id="high">High</string>
         <string id="veryhigh">Very high</string>
         <string id="name_DisableMacrosExecution">Disable macro execution</string>
-        <string id="desc_DisableMacrosExecution">Specifies whether the macro execution is disabled in general. If it is set to true, the MacroSecurityLevel is ignored. If it is set to false, the mentioned entry specified the level of macro security.
+        <string id="desc_DisableMacrosExecution">Specifies whether the macro execution is disabled in general. If it is set to true, the MacroSecurityLevel is ignored. If it is set to false, the mentioned entry specifies the level of macro security.
 
 Default value: Macros enabled</string>
         <string id="name_SecureURL">Trusted file locations</string>
@@ -138,7 +138,7 @@ Default value: Macros enabled</string>
 
         <string id="category_View">View</string>
         <string id="name_SymbolStyle">Icon style</string>
-        <string id="desc_SymbolStyle">Specifies which style of the symbols is used for the toolbars, menus, etc.: "auto" means chosen according to the desktop; "default" means the LibreOffice default theme; other possible values are the names of the various icon themes ("breeze", "oxygen", "sifr", etc.).</string>
+        <string id="desc_SymbolStyle">Specifies which style of the symbols is used for the toolbars, menus, etc.: "Automatic" means chosen according to the desktop; "Default" means the LibreOffice default theme; other possible values are the names of the various icon themes ("Breeze", "Oxygen", "Sifr", etc.).</string>
         <string id="auto">Automatic</string>
         <string id="default">Default</string>
         <string id="tango">Tango</string>
@@ -190,7 +190,7 @@ Default value: Macros enabled</string>
         <string id="desc_FontPair">Defines font substitution pair</string>
 
         <string id="category_Writer">Writer</string>
-        <string id="desc_SaveAsFormat">Always save in this document format. Please note that only OpenDocument format (ODF) guarantees full data integrity.</string>
+        <string id="desc_SaveAsFormat">Always save in this document format. Please note that only Open Document Format (ODF) guarantees full data integrity.</string>
         <string id="odt">ODF Text Document</string>
         <string id="docx">Microsoft Word 2007/2010 XML</string>
         <string id="doc">Microsoft Word 97/2000/XP/2003</string>
