@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-10-26 12:08+0200\n"
+"POT-Creation-Date: 2016-11-07 19:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -638,7 +638,7 @@ msgstr ""
 #: Collabora-Office.adml:117
 #, no-wrap
 msgid ""
-"Specifies whether the macro execution is disabled in general. If it is set to true, the MacroSecurityLevel is ignored. If it is set to false, the mentioned entry specified the level of macro security.\n"
+"Specifies whether the macro execution is disabled in general. If it is set to true, the MacroSecurityLevel is ignored. If it is set to false, the mentioned entry specifies the level of macro security.\n"
 "\n"
 "Default value: Macros enabled"
 msgstr ""
@@ -766,7 +766,7 @@ msgstr ""
 #: Collabora-Office.adml:141
 #, no-wrap
 msgid ""
-"Specifies which style of the symbols is used for the toolbars, menus, etc.: \"auto\" means chosen according to the desktop; \"default\" means the LibreOffice default theme; other possible values are the names of the various icon themes (\"breeze\", \"oxygen\", \"sifr\", etc.)."
+"Specifies which style of the symbols is used for the toolbars, menus, etc.: \"Automatic\" means chosen according to the desktop; \"Default\" means the LibreOffice default theme; other possible values are the names of the various icon themes (\"Breeze\", \"Oxygen\", \"Sifr\", etc.)."
 msgstr ""
 
 #. (itstool) path: stringTable/string
@@ -1113,7 +1113,7 @@ msgstr ""
 #: Collabora-Office.adml:193
 #, no-wrap
 msgid ""
-"Always save in this document format. Please note that only OpenDocument format (ODF) guarantees full data integrity."
+"Always save in this document format. Please note that only Open Document Format (ODF) guarantees full data integrity."
 msgstr ""
 
 #. (itstool) path: stringTable/string
