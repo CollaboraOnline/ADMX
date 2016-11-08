@@ -33,7 +33,7 @@
         <string id="desc_AutoSave">Enregistrer les informations de récupération automatique toutes les __ minutes</string>
         <string id="name_CreateBackup">Créer une sauvegarde</string>
         <string id="desc_CreateBackup">Toujours créer une copie de sauvegarde</string>
-        <string id="name_EditProperty">Éditer les propriétés du document avant l'enregistrement</string>
+        <string id="name_EditProperty">Modifier les propriétés du document avant de l'enregistrer</string>
         <string id="desc_EditProperty">Indique que la boîte de dialogue Propriétés s'affiche chaque fois que vous sélectionnez la commande Enregistrer sous.</string>
         <string id="name_HTMLExportBrowser">Compatibilité d'exportation avec les navigateurs HTML</string>
         <string id="desc_HTMLExportBrowser">Spécifie le navigateur pour lequel l'exportation HTML doit être optimisée</string>
@@ -46,7 +46,7 @@
         <string id="desc_ExperimentalMode">Détermine si les fonctionnalités expérimentales, et potentiellement instables doivent être activées dans l'interface utilisateur.</string>
         <string id="name_MacroRecorderMode">Activer l'enregistreur de macro (limité)</string>
         <string id="desc_MacroRecorderMode">Détermine si l'enregistreur de macro (limité) doit être activée dans l'interface utilisateur.</string>
-        <string id="category_FileandPrintdialogs">File and Print dialogs</string>
+        <string id="category_FileandPrintdialogs">Boîte de dialogue Imprimer</string>
         <string id="name_UseSystemPrintDialog">Utilisez la boîte de dialogue d'impression du système</string>
         <string id="desc_UseSystemPrintDialog">Spécifie si les boîtes de dialogue de Windows permettent d'imprimer des documents. Si ce n'est pas le cas, ce sont les boîtes de dialogue de LibreOffice qui seront utilisées.</string>
 
@@ -66,9 +66,9 @@
         <string id="name_UILocale">Langue de l'interface utilisateur</string>
         <string id="desc_UILocale">Spécifie la langue de l'interface utilisateur. Une chaîne vide signifie : utiliser la langue de l'interface de l'ordinateur si possible.</string>
         <string id="name_Locale">Locale</string>
-        <string id="desc_Locale">Contains the user's desktop locale setting.</string>
-        <string id="name_ooSetupCurrency">Currency</string>
-        <string id="desc_ooSetupCurrency">Indicates the currency settings defined by the user. By default, this label is empty and the currency defined by sytem locale.</string>
+        <string id="desc_Locale">Spécifie les paramètres linguistiques pour le pays. Ils affectent la numérotation, la monnaie et les unités de mesure.</string>
+        <string id="name_ooSetupCurrency">Monnaie par défaut</string>
+        <string id="desc_ooSetupCurrency">Spécifie la monnaie par défaut utilisée pour le format monétaire et les champs monétaires. Si vous modifiez l'environnement linguistique, la monnaie par défaut est automatiquement modifiée.</string>
         <string id="name_DecimalSeparatorAsLocale">Séparateur décimal des paramètres régionaux.</string>
         <string id="desc_DecimalSeparatorAsLocale">Indique que le séparateur décimal (point ou virgule) est utilisé en fonction de la langue sélectionnée au lieu de celle liée à la disposition du clavier par défaut.</string>
         <string id="name_IgnoreLanguageChange">Ignorer le changement de langue</string>
@@ -126,7 +126,7 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_OnlineUpdate">Mise à jour en ligne</string>
 
         <string id="UserProfile">Données d'identité</string>
-        <string id="desc_UserProfile">User Data (Company Name, Address, Phone, Fax)</string>
+        <string id="desc_UserProfile">Données d'identité (Société, Adresse, Téléphone, Fax)</string>
 
         <string id="category_Paths">Chemins</string>
         <string id="name_AutoCorrect">Chemin des fichiers d'AutoCorrection</string>
@@ -141,7 +141,7 @@ Valeur par défaut : Macros activés</string>
 
         <string id="category_View">Affichage</string>
         <string id="name_SymbolStyle">Style d'icône</string>
-        <string id="desc_SymbolStyle">Indique la taille d'affichage des icônes de la barre d'outils, les menus, etc.: L'option "Automatique" applique aux menus les paramètres de taille de police de votre système d'exploitation; "défaut" désigne le thème par défaut de LibreOffice ; les autres valeurs possibles sont les noms des différents thèmes d'icône ("breeze", "oxygène", "sifr", etc.).</string>
+        <string id="desc_SymbolStyle">Indique la taille d'affichage des icônes de la barre d'outils, les menus, etc.: L'option "Automatique" applique aux menus les paramètres de taille de police de votre système d'exploitation; "défaut" désigne le thème par défaut de LibreOffice ; les autres valeurs possibles sont les noms des différents thèmes d'icône ("Breeze", "Oxygen", "Sifr", etc.).</string>
         <string id="auto">Automatique</string>
         <string id="default">Défaut</string>
         <string id="tango">Tango</string>
@@ -165,7 +165,7 @@ Valeur par défaut : Macros activés</string>
         <string id="name_IsSelectionInReadonly">Utiliser le curseur de sélection dans les textes en lecture seule</string>
         <string id="desc_IsSelectionInReadonly">Affiche le curseur dans les documents en lecture seule.</string>
         <string id="name_IsAllowAnimatedGraphics">Autoriser les images animées</string>
-        <string id="desc_IsAllowAnimatedGraphics">Indicates whether to allow the graphical animation in all applications (i.e. animated GIFs and objects in Impress during  presentation, animated graphical previews (Gallery, Insert-Graphics-From File, Animation Tool in Impress.)</string>
+        <string id="desc_IsAllowAnimatedGraphics">Indique s'il faut autoriser l'animation graphique dans toutes les applications, c'est-à-dire les objets GIF et objets animés dans Impress pendant les présentations, les aperçus graphiques animés (Galerie, Insertion - Image ..., Outil d'animation dans Impress).</string>
         <string id="name_IsAllowAnimatedText">Autoriser le texte animé</string>
         <string id="desc_IsAllowAnimatedText">Affiche dans LibreOffice du texte animé, par exemple clignotant ou défilant.</string>
         <string id="name_HelpTipsDisappear">L'affichage des conseils disparaît après...</string>
@@ -177,23 +177,37 @@ Valeur par défaut : Macros activés</string>
         <string id="name_IsForPagePreviews">Utiliser les couleurs du système dans les aperçus de page</string>
         <string id="desc_IsForPagePreviews">Applique les paramètres de contraste élevé du système d'exploitation aux aperçus de page.</string>
 
-        <string id="category_FontSubstitutions">Font Substitutions</string>
-        <string id="name_UseFontSubstitutions">Use Font Substitutions</string>
-        <string id="desc_UseFontSubstitutions">Enables LibreOffice to use font substitutions table</string>
-        <string id="name_FontPair_0">Font Pair 0</string>
-        <string id="name_FontPair_1">Font Pair 1</string>
-        <string id="name_FontPair_2">Font Pair 2</string>
-        <string id="name_FontPair_3">Font Pair 3</string>
-        <string id="name_FontPair_4">Font Pair 4</string>
-        <string id="name_FontPair_5">Font Pair 5</string>
-        <string id="name_FontPair_6">Font Pair 6</string>
-        <string id="name_FontPair_7">Font Pair 7</string>
-        <string id="name_FontPair_8">Font Pair 8</string>
-        <string id="name_FontPair_9">Font Pair 9</string>
-        <string id="desc_FontPair">Defines font substitution pair</string>
+        <string id="category_FontSubstitutions">Substitution de polices</string>
+        <string id="name_UseFontSubstitutions">Utiliser la substitution de polices</string>
+        <string id="desc_UseFontSubstitutions">Substituer une police par la police de votre choix. La substitution remplace une police uniquement lorsqu'elle est affichée à l'écran, ou à la fois à l'écran et lors de l'impression. Le remplacement ne modifie pas les paramétrages des polices qui sont enregistrées dans le document.
+
+Si vous le souhaitez, vous pouvez remplacer la police de substitution par défaut qu'utilise le système d'exploitation lorsqu'il rencontre dans un document une police non disponible.
+
+La substitution de police affecte également l'affichage des polices dans l'interface utilisateur de LibreOffice.
+
+Utiliser la table de remplacement : Active les paramètres de substitution de police que vous avez définis.</string>
+        <string id="name_FontPair_0">Paire de polices 0</string>
+        <string id="name_FontPair_1">Paire de polices 1</string>
+        <string id="name_FontPair_2">Paire de polices 2</string>
+        <string id="name_FontPair_3">Paire de polices 3</string>
+        <string id="name_FontPair_4">Paire de polices 4</string>
+        <string id="name_FontPair_5">Paire de polices 5</string>
+        <string id="name_FontPair_6">Paire de polices 6</string>
+        <string id="name_FontPair_7">Paire de polices 7</string>
+        <string id="name_FontPair_8">Paire de polices 8</string>
+        <string id="name_FontPair_9">Paire de polices 9</string>
+        <string id="desc_FontPair">Définissez une paire de substitution de polices
+
+Sélectionnez Toujours pour remplacer la police d'écran, même si la police originale est installée sur votre système.
+
+Sélectionnez Écran uniquement pour ne remplacer que la police d'écran.
+
+Police : Saisissez le nom de la police à remplacer.
+
+Remplacer par : Saisissez le nom de la police de substitution.</string>
 
         <string id="category_Writer">Writer</string>
-        <string id="desc_SaveAsFormat">Toujours enregistrer dans ce format de document. S'il vous plaît noter que seul le format OpenDocument (ODF) garantit l'intégrité complète des données.</string>
+        <string id="desc_SaveAsFormat">Toujours enregistrer dans ce format de document. S'il vous plaît noter que seul le format Open Document (ODF) garantit l'intégrité complète des données.</string>
         <string id="odt">Texte ODF</string>
         <string id="docx">Microsoft Word 2007/2010 XML</string>
         <string id="doc">Microsoft Word 97/2000/XP/2003</string>
@@ -242,21 +256,21 @@ Les hauteurs de polices sont exprimées en millimètres * 100, ce qui correspond
         <string id="SaveAsFormat">Enregistrer sous ce format</string>
         <string id="Print">Impression</string>
         <string id="DefaultTemplate">Modèle par défaut</string>
-        <string id="PathListExplain">Lorsque vous configurez LibreOffice-de-Collabora, les chemins d'accès de répertoire et de fichier doivent être entrés en utilisant la syntaxe d'URL de fichier de LibreOffice-de-Collabora, tel que décrit ci-dessous.
+        <string id="PathListExplain">Les chemins d'accès aux répertoires et fichiers doivent être entrés en utilisant la syntaxe de codage URL, tel que décrit ci-dessous.
 Disque local ou lecteur réseau mappé à une lettre de lecteur, par exemple C:
     file:///C:/path/file.ext
 Chemin d'accès UNC
     file://server/share/path/file.ext
 
-Espaces et caractères non ASCII doivent être codé en URL, par exemple l'espace doit être écrit %20.
+Espaces et caractères non ASCII doivent utiliser le codage URL, par exemple l'espace doit être écrit %20.
 
 Les variables de chemin d'accès suivant peuvent être utilisés :
-                $(inst)  = emplacement de l'installation de LibreOffice
-                $(user)  = emplacement du profil utilisateur de LibreOffice
-                $(work)  = le dossier Mes Documents de l'utilisateur
-                $(home)  = répertoire home de l'utilisateur
-                $(temp)  = emplacement des fichiers temporaires de l'utilisateur
-                $(vlang) = code de la langue actuel (par exemple en-US, fr, hu)
+$(inst)  = emplacement de l'installation de LibreOffice
+$(user)  = emplacement du profil utilisateur de LibreOffice
+$(work)  = le dossier Mes Documents de l'utilisateur
+$(home)  = répertoire home de l'utilisateur
+$(temp)  = emplacement des fichiers temporaires de l'utilisateur
+$(vlang) = code de la langue actuel (par exemple en-US, fr, hu)
 
 Les chemins dans les listes de chemin doivent être séparés par des espaces.</string>
     </stringTable>
@@ -292,7 +306,7 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="EditProperty">
-        <checkBox refId="Value">Éditer les propriétés du document avant l'enregistrement</checkBox>
+        <checkBox refId="Value">Modifier les propriétés du document avant de l'enregistrer</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="AutoCorrect">
@@ -768,18 +782,18 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseFontSubstitutions">
-        <checkBox refId="Value">Use Font Substitutions table</checkBox>
+        <checkBox refId="Value">Utiliser la table de remplacement</checkBox>
         <checkBox refId="Final">Final</checkBox>
-        <checkBox refId="HideSettingsCommonFonts">Hide Tools - Options - LibreOffice - Fonts page</checkBox>
+        <checkBox refId="HideSettingsCommonFonts">Masquer le menu : Outils - Options - LibreOffice - Polices</checkBox>
       </presentation>
       <presentation id="FontPair">
-        <checkBox refId="Always">Always</checkBox>
-        <checkBox refId="OnScreenOnly">On Screen Only</checkBox>
+        <checkBox refId="Always">Toujours</checkBox>
+        <checkBox refId="OnScreenOnly">Écran uniquement</checkBox>
         <textBox refId="ReplaceFont">
-          <label>Replace Font: </label>
+          <label>Police :</label>
         </textBox>
         <textBox refId="SubstituteFont">
-          <label>Substitute Font: </label>
+          <label>Remplacer par :</label>
         </textBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>

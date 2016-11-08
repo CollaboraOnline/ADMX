@@ -33,7 +33,7 @@
         <string id="desc_AutoSave">Salva le informazioni di ripristino automatico ogni __ minuti</string>
         <string id="name_CreateBackup">Crea Backup</string>
         <string id="desc_CreateBackup">Crea sempre la copia di backup</string>
-        <string id="name_EditProperty">Modifica le proprietà documento prima di salvare</string>
+        <string id="name_EditProperty">Modifica le proprietà del documento prima di salvare</string>
         <string id="desc_EditProperty">Specifica che la finestra di dialogo Proprietà sarà visualizzata ogni volta che si seleziona il comando Salva con nome.</string>
         <string id="name_HTMLExportBrowser">Compatibilità del browser per l'esportazione HTML</string>
         <string id="desc_HTMLExportBrowser">Specifica il browser per cui ottimizzare l'esportazone in HTML</string>
@@ -141,7 +141,7 @@ Valore predefinito: Macro abilitate</string>
 
         <string id="category_View">Vista</string>
         <string id="name_SymbolStyle">Aspetto delle icone</string>
-        <string id="desc_SymbolStyle">Specifica che stile di icone utilizzare per barre degli strumenti, menu, etc: "Auto" effettua una selezione automatica in base al tema del desktop; "predefinito" utilizza il tema predefinito di LibreOffice; gli altri possibili valori sono i nomi dei differenti temi ("breeze", "oxygen", "sifr", etc.).</string>
+        <string id="desc_SymbolStyle">Specifica che stile di icone utilizzare per barre degli strumenti, menu, etc: "Auto" effettua una selezione automatica in base al tema del desktop; "predefinito" utilizza il tema predefinito di LibreOffice; gli altri possibili valori sono i nomi dei differenti temi ("Breeze", "Oxygen", "Sifr", etc.).</string>
         <string id="auto">Automatico</string>
         <string id="default">Predefinito</string>
         <string id="tango">Tango</string>
@@ -193,7 +193,7 @@ Valore predefinito: Macro abilitate</string>
         <string id="desc_FontPair">Definizione della tabella di sostituzione dei caratteri</string>
 
         <string id="category_Writer">Writer</string>
-        <string id="desc_SaveAsFormat">Salva sempre in questo formato di documento. Solo il formato OpenDocument (ODF), garantisce una completa integrità dei dati.</string>
+        <string id="desc_SaveAsFormat">Salva sempre in questo formato di documento. Solo il formato Open Document (ODF), garantisce una completa integrità dei dati.</string>
         <string id="odt">Documento di testo ODF</string>
         <string id="docx">Microsoft Word 2007/2010 XML</string>
         <string id="doc">Microsoft Word 97/2000/XP/2003</string>
@@ -290,7 +290,7 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="EditProperty">
-        <checkBox refId="Value">Modifica le proprietà documento prima di salvare</checkBox>
+        <checkBox refId="Value">Modifica le proprietà del documento prima di salvare</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="AutoCorrect">
