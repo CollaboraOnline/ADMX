@@ -152,6 +152,10 @@ Valore predefinito: Macro abilitate</string>
         <string id="hicontrast">Contrasto elevato</string>
         <string id="small">Piccole</string>
         <string id="large">Grandi</string>
+        <string id="name_UseOpenGL">Use OpenGL</string>
+        <string id="desc_UseOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it.</string>
+        <string id="name_ForceOpenGL">Force OpenGL</string>
+        <string id="desc_ForceOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it. This one forces the use of OpenGL even if the blacklist would block the OpenGL driver.</string>
 
         <string id="category_Print">Stampa</string>
         <string id="name_ConvertToGreyscales">Converti i colori in scale di grigio</string>
@@ -717,6 +721,14 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="Final">Finale</checkBox>
         <dropdownList refId="SizeValue" defaultItem="0">Dimensione delle icone:</dropdownList>
         <checkBox refId="SizeFinal">Finale</checkBox>
+      </presentation>
+      <presentation id="UseOpenGL">
+        <checkBox refId="Value">Use OpenGL for all rendering</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="ForceOpenGL">
+        <checkBox refId="Value">Force OpenGL even if blacklisted</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
         <checkBox refId="Value">Converti i colori in scale di grigio</checkBox>

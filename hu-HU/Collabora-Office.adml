@@ -150,6 +150,10 @@ Alapértelmezés: Makrók engedélyezése</string>
         <string id="hicontrast">Nagy kontraszt</string>
         <string id="small">Kicsi</string>
         <string id="large">Nagy</string>
+        <string id="name_UseOpenGL">Use OpenGL</string>
+        <string id="desc_UseOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it.</string>
+        <string id="name_ForceOpenGL">Force OpenGL</string>
+        <string id="desc_ForceOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it. This one forces the use of OpenGL even if the blacklist would block the OpenGL driver.</string>
 
         <string id="category_Print">Nyomtatás</string>
         <string id="name_ConvertToGreyscales">Színek konvertálása szürkeárnyalatra</string>
@@ -717,6 +721,14 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
         <checkBox refId="Final">Végleges</checkBox>
         <dropdownList refId="SizeValue" defaultItem="0">Ikonméret:</dropdownList>
         <checkBox refId="SizeFinal">Végleges</checkBox>
+      </presentation>
+      <presentation id="UseOpenGL">
+        <checkBox refId="Value">Use OpenGL for all rendering</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="ForceOpenGL">
+        <checkBox refId="Value">Force OpenGL even if blacklisted</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
         <checkBox refId="Value">Színek konvertálása szürkeárnyalatra</checkBox>

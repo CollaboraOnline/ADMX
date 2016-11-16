@@ -374,6 +374,36 @@
         <boolean id="SizeFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\SymbolSize" valueName="Final" />
       </elements>
     </policy>
+    <policy name="UseOpenGL" class="Both" displayName="$(string.name_UseOpenGL)" explainText="$(string.desc_UseOpenGL)" presentation="$(presentation.UseOpenGL)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\UseOpenGL">
+      <parentCategory ref="View" />
+      <supportedOn ref="supported_LibreOffice_5_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ForceOpenGL" class="Both" displayName="$(string.name_ForceOpenGL)" explainText="$(string.desc_ForceOpenGL)" presentation="$(presentation.ForceOpenGL)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\ForceOpenGL">
+      <parentCategory ref="View" />
+      <supportedOn ref="supported_LibreOffice_5_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
     <policy name="UseSystemFileDialog" class="Both" displayName="$(string.name_UseSystemFileDialog)" explainText="$(string.desc_UseSystemFileDialog)" presentation="$(presentation.UseSystemFileDialog)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\UseSystemFileDialog">
       <parentCategory ref="General" />
       <supportedOn ref="supported_LibreOffice_4_2" />
