@@ -120,6 +120,8 @@ Valore predefinito: Alto</string>
         <string id="desc_DisableMacrosExecution">Specifica se l'esecuzione delle macro deve essere disabilitata. Se il valore è vero, il Livello di sicurezza delle macro è ignorato. Se è falso, viene applicato il livello di sicurezza specificato.
 
 Valore predefinito: Macro abilitate</string>
+        <string id="name_EnableExpertConfiguration">Enable Expert Configuration</string>
+        <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
         <string id="name_SecureURL">Posizione dei file attendibili</string>
 
         <string id="name_OnlineUpdate">Aggiornamenti Online</string>
@@ -689,6 +691,10 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       <presentation id="DisableMacrosExecution">
         <checkBox refId="Value">Disabilita l'esecuzione delle macro</checkBox>
         <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="EnableExpertConfiguration">
+        <checkBox refId="Value">Enable Expert Configuration</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="SecureURL">
         <text>Le macro dei documenti sono sempre eseguite se sono caricate da uno dei seguenti percorsi.</text>

@@ -1365,6 +1365,21 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
+    <policy name="EnableExpertConfiguration" class="Both" displayName="$(string.name_EnableExpertConfiguration)" explainText="$(string.desc_EnableExpertConfiguration)" presentation="$(presentation.EnableExpertConfiguration)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\EnableExpertConfiguration">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_LibreOffice_4_4" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
     <policy name="SecureURL" class="Both" displayName="$(string.name_SecureURL)" explainText="$(string.PathListExplain)" presentation="$(presentation.SecureURL)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\SecureURL">
       <parentCategory ref="Security" />
       <supportedOn ref="supported_LibreOffice_4_2" />

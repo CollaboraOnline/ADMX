@@ -120,6 +120,8 @@ Valeur par défaut : Élevé</string>
         <string id="desc_DisableMacrosExecution">Spécifie si l'exécution des macros est désactivée en général. Si elle est définie sur true, le MacroSecurityLevel est ignorée. Si elle est définie sur false, l'entrée mentionnée spécifie le niveau de sécurité des macros.
 
 Valeur par défaut : Macros activés</string>
+        <string id="name_EnableExpertConfiguration">Enable Expert Configuration</string>
+        <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
         <string id="name_SecureURL">Emplacement de fichies de confiances</string>
 
         <string id="name_OnlineUpdate">Mise à jour en ligne</string>
@@ -704,6 +706,10 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
       </presentation>
       <presentation id="DisableMacrosExecution">
         <checkBox refId="Value">Désactiver l'exécution des macros</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="EnableExpertConfiguration">
+        <checkBox refId="Value">Enable Expert Configuration</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="SecureURL">

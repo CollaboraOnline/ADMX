@@ -117,6 +117,8 @@ Default value: High</string>
         <string id="desc_DisableMacrosExecution">Specifies whether the macro execution is disabled in general. If it is set to true, the MacroSecurityLevel is ignored. If it is set to false, the mentioned entry specifies the level of macro security.
 
 Default value: Macros enabled</string>
+        <string id="name_EnableExpertConfiguration">Enable Expert Configuration</string>
+        <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
         <string id="name_SecureURL">Trusted file locations</string>
 
         <string id="name_OnlineUpdate">Online Update</string>
@@ -687,6 +689,10 @@ Set paths in path lists have to be separated by spaces.</string>
       </presentation>
       <presentation id="DisableMacrosExecution">
         <checkBox refId="Value">Disable macro execution</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="EnableExpertConfiguration">
+        <checkBox refId="Value">Enable Expert Configuration</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="SecureURL">

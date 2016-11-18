@@ -118,6 +118,8 @@ Alapértelmezés: Magas.</string>
         <string id="desc_DisableMacrosExecution">Megadja, hogy a makróvégrehajtás általánosságban le van-e tiltva. Ha igazra van állítva, akkor a MacroSecurityLevel figyelmen kívül marad. Ha hamis, akkor az említett bejegyzés adja meg a makróbiztonság szintjét.
 
 Alapértelmezés: Makrók engedélyezése</string>
+        <string id="name_EnableExpertConfiguration">Enable Expert Configuration</string>
+        <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
         <string id="name_SecureURL">Megbízható fájlelérési útvonalak</string>
 
         <string id="name_OnlineUpdate">Online frissítés</string>
@@ -689,6 +691,10 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
       <presentation id="DisableMacrosExecution">
         <checkBox refId="Value">Makróvégrehajtás letiltása</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="EnableExpertConfiguration">
+        <checkBox refId="Value">Enable Expert Configuration</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="SecureURL">
         <text>A dokumentum makrói mindig futtathatók, ha a következő helyek egyikéről nyitják meg a dokumentumot.</text>
