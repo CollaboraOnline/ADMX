@@ -120,8 +120,8 @@ Valore predefinito: Alto</string>
         <string id="desc_DisableMacrosExecution">Specifica se l'esecuzione delle macro deve essere disabilitata. Se il valore è vero, il Livello di sicurezza delle macro è ignorato. Se è falso, viene applicato il livello di sicurezza specificato.
 
 Valore predefinito: Macro abilitate</string>
-        <string id="name_EnableExpertConfiguration">Enable Expert Configuration</string>
-        <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
+        <string id="name_EnableExpertConfiguration">Abilita la configurazione avanzata</string>
+        <string id="desc_EnableExpertConfiguration">Determina se l'utente ha accesso a tutta la configurazione con il pulsante Configurazione Avanzata.</string>
         <string id="name_SecureURL">Posizione dei file attendibili</string>
 
         <string id="name_OnlineUpdate">Aggiornamenti Online</string>
@@ -154,10 +154,10 @@ Valore predefinito: Macro abilitate</string>
         <string id="hicontrast">Contrasto elevato</string>
         <string id="small">Piccole</string>
         <string id="large">Grandi</string>
-        <string id="name_UseOpenGL">Use OpenGL</string>
-        <string id="desc_UseOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it.</string>
-        <string id="name_ForceOpenGL">Force OpenGL</string>
-        <string id="desc_ForceOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it. This one forces the use of OpenGL even if the blacklist would block the OpenGL driver.</string>
+        <string id="name_UseOpenGL">Usa OpenGL</string>
+        <string id="desc_UseOpenGL">Definisce se il rendering in OpenGL debba essere utilizzato nei backend VCL che lo supportano.</string>
+        <string id="name_ForceOpenGL">Forza OpenGL</string>
+        <string id="desc_ForceOpenGL">Definisce se il rendering in OpenGL debba essere utilizzato nei backend VCL che lo supportano. Questa opzione forza l'uso di OpenGL anche se l'uso del driver OpenGL è in lista nera.</string>
 
         <string id="category_Print">Stampa</string>
         <string id="name_ConvertToGreyscales">Converti i colori in scale di grigio</string>
@@ -693,8 +693,8 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="EnableExpertConfiguration">
-        <checkBox refId="Value">Enable Expert Configuration</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Value">Abilita la configurazione avanzata</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="SecureURL">
         <text>Le macro dei documenti sono sempre eseguite se sono caricate da uno dei seguenti percorsi.</text>
@@ -729,12 +729,12 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="SizeFinal">Finale</checkBox>
       </presentation>
       <presentation id="UseOpenGL">
-        <checkBox refId="Value">Use OpenGL for all rendering</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Value">Utilizza OpenGL per tutto il rendering</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="ForceOpenGL">
-        <checkBox refId="Value">Force OpenGL even if blacklisted</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Value">Forza l'uso di OpenGL anche se disabilitato</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
         <checkBox refId="Value">Converti i colori in scale di grigio</checkBox>
