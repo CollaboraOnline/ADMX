@@ -122,6 +122,9 @@ Alapértelmezés: Makrók engedélyezése</string>
         <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
         <string id="name_SecureURL">Megbízható fájlelérési útvonalak</string>
 
+        <string id="category_OpenCL">OpenCL</string>
+        <string id="name_UseOpenCL">Use OpenCL</string>
+        <string id="desc_UseOpenCL">Determines whether OpenCL can be used, when available, to speed up some operations.</string>
         <string id="name_OnlineUpdate">Online frissítés</string>
         <string id="desc_OnlineUpdate">Online frissítés beállításai</string>
 
@@ -727,6 +730,10 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
         <checkBox refId="Final">Végleges</checkBox>
         <dropdownList refId="SizeValue" defaultItem="0">Ikonméret:</dropdownList>
         <checkBox refId="SizeFinal">Végleges</checkBox>
+      </presentation>
+      <presentation id="UseOpenCL">
+        <checkBox refId="Value">Allow use of OpenCL</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseOpenGL">
         <checkBox refId="Value">Use OpenGL for all rendering</checkBox>

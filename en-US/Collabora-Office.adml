@@ -121,6 +121,10 @@ Default value: Macros enabled</string>
         <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
         <string id="name_SecureURL">Trusted file locations</string>
 
+        <string id="category_OpenCL">OpenCL</string>
+        <string id="name_UseOpenCL">Use OpenCL</string>
+        <string id="desc_UseOpenCL">Determines whether OpenCL can be used, when available, to speed up some operations.</string>
+
         <string id="name_OnlineUpdate">Online Update</string>
         <string id="desc_OnlineUpdate">Online Update Settings</string>
 
@@ -726,6 +730,10 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
         <dropdownList refId="SizeValue" defaultItem="0">Icon size: </dropdownList>
         <checkBox refId="SizeFinal">Final</checkBox>
+      </presentation>
+      <presentation id="UseOpenCL">
+        <checkBox refId="Value">Allow use of OpenCL</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseOpenGL">
         <checkBox refId="Value">Use OpenGL for all rendering</checkBox>

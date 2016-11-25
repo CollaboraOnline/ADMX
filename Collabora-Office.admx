@@ -45,6 +45,9 @@
     <category name="Security" displayName="$(string.category_Security)">
       <parentCategory ref="Common" />
     </category>
+    <category name="OpenCL" displayName="$(string.category_OpenCL)">
+      <parentCategory ref="Common" />
+    </category>
     <category name="OnlineUpdate" displayName="$(string.name_OnlineUpdate)">
       <parentCategory ref="Common" />
     </category>
@@ -372,6 +375,21 @@
           </item>
         </enum>
         <boolean id="SizeFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\SymbolSize" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="UseOpenCL" class="Both" displayName="$(string.name_UseOpenCL)" explainText="$(string.desc_UseOpenCL)" presentation="$(presentation.UseOpenCL)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\UseOpenCL">
+      <parentCategory ref="OpenCL" />
+      <supportedOn ref="supported_LibreOffice_5_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="UseOpenGL" class="Both" displayName="$(string.name_UseOpenGL)" explainText="$(string.desc_UseOpenGL)" presentation="$(presentation.UseOpenGL)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\UseOpenGL">

@@ -124,6 +124,9 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
         <string id="name_SecureURL">Emplacement de fichies de confiances</string>
 
+        <string id="category_OpenCL">OpenCL</string>
+        <string id="name_UseOpenCL">Use OpenCL</string>
+        <string id="desc_UseOpenCL">Determines whether OpenCL can be used, when available, to speed up some operations.</string>
         <string id="name_OnlineUpdate">Mise à jour en ligne</string>
         <string id="desc_OnlineUpdate">Mise à jour en ligne</string>
 
@@ -743,6 +746,10 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
         <checkBox refId="Final">Final</checkBox>
         <dropdownList refId="SizeValue" defaultItem="0">Taille d'icône :</dropdownList>
         <checkBox refId="SizeFinal">Final</checkBox>
+      </presentation>
+      <presentation id="UseOpenCL">
+        <checkBox refId="Value">Allow use of OpenCL</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseOpenGL">
         <checkBox refId="Value">Use OpenGL for all rendering</checkBox>
