@@ -125,8 +125,9 @@ Valore predefinito: Macro abilitate</string>
         <string id="name_SecureURL">Posizione dei file attendibili</string>
 
         <string id="category_OpenCL">OpenCL</string>
-        <string id="name_UseOpenCL">Use OpenCL</string>
-        <string id="desc_UseOpenCL">Determines whether OpenCL can be used, when available, to speed up some operations.</string>
+        <string id="name_UseOpenCL">Usa OpenCL</string>
+        <string id="desc_UseOpenCL">Specifica quando utilizzare OpenCL, se disponibile, per velocizzare alcune operrazioni.</string>
+
         <string id="name_OnlineUpdate">Aggiornamenti Online</string>
         <string id="desc_OnlineUpdate">Impostazioni degli Aggiornamenti Online</string>
 
@@ -732,8 +733,8 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="SizeFinal">Finale</checkBox>
       </presentation>
       <presentation id="UseOpenCL">
-        <checkBox refId="Value">Allow use of OpenCL</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Value">Permetti l'uso di OpenCL</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="UseOpenGL">
         <checkBox refId="Value">Utilizza OpenGL per tutto il rendering</checkBox>
