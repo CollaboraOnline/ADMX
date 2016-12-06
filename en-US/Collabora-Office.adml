@@ -33,6 +33,8 @@
         <string id="desc_CreateBackup">Always create backup copy</string>
         <string id="name_EditProperty">Edit document properties before saving</string>
         <string id="desc_EditProperty">Specifies that the Properties dialog will appear every time you select the Save As command.</string>
+        <string id="name_WarnAlienFormat">Warn the user when saving in a format different from ODF or default</string>
+        <string id="desc_WarnAlienFormat">Specifies that the saving format is different from ODF or default.</string>
         <string id="name_HTMLExportBrowser">HTML export browser compatibility</string>
         <string id="desc_HTMLExportBrowser">Specifies the browser for which the HTML export should be optimized</string>
         <string id="IE">Internet Explorer</string>
@@ -300,6 +302,10 @@ Set paths in path lists have to be separated by spaces.</string>
       </presentation>
       <presentation id="EditProperty">
         <checkBox refId="Value">Edit document properties before saving</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="WarnAlienFormat">
+        <checkBox refId="Value">Warn the user when saving in a format different from ODF or default</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="AutoCorrect">
