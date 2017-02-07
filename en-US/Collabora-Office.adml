@@ -201,6 +201,10 @@ Default value: Macros enabled</string>
         <string id="name_FontPair_9">Font Pair 9</string>
         <string id="desc_FontPair">Defines font substitution pair</string>
 
+        <string id="category_PDFExport">PDF export</string>
+        <string id="name_SelectPDFExport">Select the preferred PDF export options</string>
+        <string id="desc_SelectPDFExport">Select the default PDF export options</string>
+
         <string id="category_Writer">Writer</string>
         <string id="desc_SaveAsFormat">Always save in this document format. Please note that only Open Document Format (ODF) guarantees full data integrity.</string>
         <string id="odt">ODF Text Document</string>
@@ -811,6 +815,10 @@ Set paths in path lists have to be separated by spaces.</string>
           <label>Substitute Font: </label>
         </textBox>
         <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="SelectPDFExport">
+          <checkBox refId="Value">Export all the PDF as PDF/A</checkBox>
+          <checkBox refId="Final">Final</checkBox>
       </presentation>
     </presentationTable>
   </resources>
