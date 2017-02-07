@@ -69,6 +69,9 @@
     <category name="FontSubstitutions" displayName="$(string.category_FontSubstitutions)">
       <parentCategory ref="Common" />
     </category>
+    <category name="PDFExport" displayName="$(string.category_PDFExport)">
+        <parentCategory ref="Common" />
+    </category>
     <category name="Writer" displayName="$(string.category_Writer)">
       <parentCategory ref="LibreOffice" />
     </category>
@@ -877,6 +880,21 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
+    <policy name="SelectPDFExport" class="Both" displayName="$(string.name_SelectPDFExport)" explainText="$(string.desc_SelectPDFExport)" presentation="$(presentation.SelectPDFExport)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Filter\PDF\SelectPDFVersion">
+        <parentCategory ref="PDFExport" />
+        <supportedOn ref="supported_LibreOffice_4_2" />
+        <elements>
+          <boolean id="Value" valueName="Value">
+            <trueValue>
+              <string>true</string>
+            </trueValue>
+            <falseValue>
+              <string>false</string>
+            </falseValue>
+          </boolean>
+          <boolean id="Final" valueName="Final" />
+        </elements>
+      </policy>
     <policy name="UseSystemPrintDialog" class="Both" displayName="$(string.name_UseSystemPrintDialog)" explainText="$(string.desc_UseSystemPrintDialog)" presentation="$(presentation.UseSystemPrintDialog)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\UseSystemPrintDialog">
       <parentCategory ref="FileandPrintdialogs" />
       <supportedOn ref="supported_LibreOffice_4_2" />
