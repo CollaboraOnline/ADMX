@@ -35,6 +35,8 @@
         <string id="desc_CreateBackup">Crea sempre la copia di backup</string>
         <string id="name_EditProperty">Modifica le proprietà del documento prima di salvare</string>
         <string id="desc_EditProperty">Specifica che la finestra di dialogo Proprietà sarà visualizzata ogni volta che si seleziona il comando Salva con nome.</string>
+        <string id="name_WarnAlienFormat">Avvisa se il salvataggio non è nel formato ODF o nel formato predefinito</string>
+        <string id="desc_WarnAlienFormat">Indica che il formato di salvataggio è differente da ODF o dal predefinito</string>
         <string id="name_HTMLExportBrowser">Compatibilità del browser per l'esportazione HTML</string>
         <string id="desc_HTMLExportBrowser">Specifica il browser per cui ottimizzare l'esportazone in HTML</string>
         <string id="IE">Internet Explorer</string>
@@ -202,6 +204,10 @@ Valore predefinito: Macro abilitate</string>
         <string id="name_FontPair_9">Sostituzione 9</string>
         <string id="desc_FontPair">Definizione della tabella di sostituzione dei caratteri</string>
 
+        <string id="category_PDFExport">Esportazione in PDF</string>
+        <string id="name_SelectPDFExport">Seleziona le opzioni di esportazione in PDF preferite</string>
+        <string id="desc_SelectPDFExport">Seleziona le opzioni predefinite di esportazione in PDF</string>
+
         <string id="category_Writer">Writer</string>
         <string id="desc_SaveAsFormat">Salva sempre in questo formato di documento. Solo il formato Open Document (ODF), garantisce una completa integrità dei dati.</string>
         <string id="odt">Documento di testo ODF</string>
@@ -301,6 +307,10 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       </presentation>
       <presentation id="EditProperty">
         <checkBox refId="Value">Modifica le proprietà del documento prima di salvare</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="WarnAlienFormat">
+        <checkBox refId="Value">Avvisa se il salvataggio non è nel formato ODF o nel formato predefinito</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="AutoCorrect">
@@ -806,6 +816,10 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
           <label>Font applicato:</label>
         </textBox>
         <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="SelectPDFExport">
+          <checkBox refId="Value">Esporta tutti i PDF come PDF/A</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
       </presentation>
     </presentationTable>
   </resources>
