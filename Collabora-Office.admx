@@ -375,7 +375,7 @@
           </item>
         </enum>
         <boolean id="Final" valueName="Final" />
-        <enum id="SizeValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\SymbolSize" valueName="Value">
+        <enum id="SizeValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\SymbolSet" valueName="Value">
           <item displayName="$(string.auto)">
             <value>
               <string>2</string>
@@ -392,7 +392,7 @@
             </value>
           </item>
         </enum>
-        <boolean id="SizeFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\SymbolSize" valueName="Final" />
+        <boolean id="SizeFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\SymbolSet" valueName="Final" />
       </elements>
     </policy>
     <policy name="UseOpenCL" class="Both" displayName="$(string.name_UseOpenCL)" explainText="$(string.desc_UseOpenCL)" presentation="$(presentation.UseOpenCL)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\UseOpenCL">
