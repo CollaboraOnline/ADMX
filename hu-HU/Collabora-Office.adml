@@ -125,8 +125,6 @@ Alapértelmezés: Makrók engedélyezése</string>
         <string id="category_OpenCL">OpenCL</string>
         <string id="name_UseOpenCL">Use OpenCL</string>
         <string id="desc_UseOpenCL">Determines whether OpenCL can be used, when available, to speed up some operations.</string>
-        <string id="name_OnlineUpdate">Online frissítés</string>
-        <string id="desc_OnlineUpdate">Online frissítés beállításai</string>
 
         <string id="UserProfile">Felhasználó adatai</string>
         <string id="desc_UserProfile">Felhasználói adatok (Cégnév, cím, telefonszám, fax)</string>
@@ -411,13 +409,6 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">A rendszer nyomtatási párbeszédablakának használata</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
-      </presentation>
-      <presentation id="OnlineUpdate">
-        <checkBox refId="AutoCheckEnabledValue">Frissítések automatikus keresése</checkBox>
-        <checkBox refId="AutoCheckEnabledFinal">Végleges</checkBox>
-        <checkBox refId="AutoDownloadEnabledValue">Frissítések automatikus letöltése</checkBox>
-        <checkBox refId="AutoDownloadEnabledFinal">Végleges</checkBox>
-        <checkBox refId="OnlineUpdatePageValue">Az Eszközök - Beállítások - Collabora Office - Online frissítés oldal elrejtése</checkBox>
       </presentation>
       <presentation id="UserProfile">
         <textBox refId="CompanyNameValue">

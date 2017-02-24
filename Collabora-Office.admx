@@ -48,9 +48,6 @@
     <category name="OpenCL" displayName="$(string.category_OpenCL)">
       <parentCategory ref="Common" />
     </category>
-    <category name="OnlineUpdate" displayName="$(string.name_OnlineUpdate)">
-      <parentCategory ref="Common" />
-    </category>
     <category name="UserProfile" displayName="$(string.UserProfile)">
       <parentCategory ref="Common" />
     </category>
@@ -908,38 +905,6 @@
           </falseValue>
         </boolean>
         <boolean id="Final" valueName="Final" />
-      </elements>
-    </policy>
-    <policy name="OnlineUpdate" class="Both" displayName="$(string.name_OnlineUpdate)" explainText="$(string.desc_OnlineUpdate)" presentation="$(presentation.OnlineUpdate)" key="Software\Policies\LibreOffice\org.openoffice.Office.Jobs\Jobs\org.openoffice.Office.Jobs:Job['UpdateCheck']\Arguments\AutoCheckEnabled">
-      <parentCategory ref="OnlineUpdate" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
-      <elements>
-        <boolean id="AutoCheckEnabledValue" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
-        <boolean id="AutoCheckEnabledFinal" valueName="Final" />
-        <boolean id="AutoDownloadEnabledValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Jobs\Jobs\org.openoffice.Office.Jobs:Job['UpdateCheck']\Arguments\AutoDownloadEnabled" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
-        <boolean id="AutoDownloadEnabledFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Jobs\Jobs\org.openoffice.Office.Jobs:Job['UpdateCheck']\Arguments\AutoDownloadEnabled" valueName="Final" />
-        <boolean id="OnlineUpdatePageValue" key="Software\Policies\LibreOffice\org.openoffice.Office.OptionsDialog\OptionsDialogGroups\ProductName/#fuse\Pages\OnlineUpdate/#fuse\Hide" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
       </elements>
     </policy>
     <policy name="UserProfile" class="Both" displayName="$(string.UserProfile)" explainText="$(string.desc_UserProfile)" presentation="$(presentation.UserProfile)" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\o">
