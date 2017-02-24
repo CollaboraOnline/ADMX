@@ -130,9 +130,6 @@ Valore predefinito: Macro abilitate</string>
         <string id="name_UseOpenCL">Usa OpenCL</string>
         <string id="desc_UseOpenCL">Specifica quando utilizzare OpenCL, se disponibile, per velocizzare alcune operrazioni.</string>
 
-        <string id="name_OnlineUpdate">Aggiornamenti Online</string>
-        <string id="desc_OnlineUpdate">Impostazioni degli Aggiornamenti Online</string>
-
         <string id="UserProfile">Dati utente</string>
         <string id="desc_UserProfile">Dati utente (Nome azienda, Indirizzo, Telefono, Fax)</string>
 
@@ -422,13 +419,6 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">Usa le finestre di dialogo di stampa di sistema</checkBox>
         <checkBox refId="Final">Finale</checkBox>
-      </presentation>
-      <presentation id="OnlineUpdate">
-        <checkBox refId="AutoCheckEnabledValue">Controlla automaticamente gli aggiornamenti</checkBox>
-        <checkBox refId="AutoCheckEnabledFinal">Finale</checkBox>
-        <checkBox refId="AutoDownloadEnabledValue">Scarica automaticamete gli aggiornamenti</checkBox>
-        <checkBox refId="AutoDownloadEnabledFinal">Finale</checkBox>
-        <checkBox refId="OnlineUpdatePageValue">Nascondi Strumenti - Opzioni - LibreOffice-from-Collabora - Aggiornamento in linea</checkBox>
       </presentation>
       <presentation id="UserProfile">
         <textBox refId="CompanyNameValue">

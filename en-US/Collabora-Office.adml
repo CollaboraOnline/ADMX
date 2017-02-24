@@ -127,9 +127,6 @@ Default value: Macros enabled</string>
         <string id="name_UseOpenCL">Use OpenCL</string>
         <string id="desc_UseOpenCL">Determines whether OpenCL can be used, when available, to speed up some operations.</string>
 
-        <string id="name_OnlineUpdate">Online Update</string>
-        <string id="desc_OnlineUpdate">Online Update Settings</string>
-
         <string id="UserProfile">User Data</string>
         <string id="desc_UserProfile">User Data (Company Name, Address, Phone, Fax)</string>
 
@@ -421,13 +418,6 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">Use System Print Dialog</checkBox>
         <checkBox refId="Final">Final</checkBox>
-      </presentation>
-      <presentation id="OnlineUpdate">
-        <checkBox refId="AutoCheckEnabledValue">Check for updates automatically</checkBox>
-        <checkBox refId="AutoCheckEnabledFinal">Final</checkBox>
-        <checkBox refId="AutoDownloadEnabledValue">Download updates automatically</checkBox>
-        <checkBox refId="AutoDownloadEnabledFinal">Final</checkBox>
-        <checkBox refId="OnlineUpdatePageValue">Hide Tools - Options - Collabora Office - Online Update page</checkBox>
       </presentation>
       <presentation id="UserProfile">
         <textBox refId="CompanyNameValue">

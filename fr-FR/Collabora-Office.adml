@@ -127,8 +127,6 @@ Valeur par défaut : Macros activés</string>
         <string id="category_OpenCL">OpenCL</string>
         <string id="name_UseOpenCL">Use OpenCL</string>
         <string id="desc_UseOpenCL">Determines whether OpenCL can be used, when available, to speed up some operations.</string>
-        <string id="name_OnlineUpdate">Mise à jour en ligne</string>
-        <string id="desc_OnlineUpdate">Mise à jour en ligne</string>
 
         <string id="UserProfile">Données d'identité</string>
         <string id="desc_UserProfile">Données d'identité (Société, Adresse, Téléphone, Fax)</string>
@@ -427,13 +425,6 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">Utilisez la boîte de dialogue d'impression du système</checkBox>
         <checkBox refId="Final">Final</checkBox>
-      </presentation>
-      <presentation id="OnlineUpdate">
-        <checkBox refId="AutoCheckEnabledValue">Vérifier automatiquement les mises à jour disponibles</checkBox>
-        <checkBox refId="AutoCheckEnabledFinal">Final</checkBox>
-        <checkBox refId="AutoDownloadEnabledValue">Télécharger automatiquement les mises à jour</checkBox>
-        <checkBox refId="AutoDownloadEnabledFinal">Final</checkBox>
-        <checkBox refId="OnlineUpdatePageValue">Masquer le menu : Outils - Options - Collabora Office - Mise à jour en ligne</checkBox>
       </presentation>
       <presentation id="UserProfile">
         <textBox refId="CompanyNameValue">
