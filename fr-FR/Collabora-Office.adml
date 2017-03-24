@@ -36,7 +36,7 @@
         <string id="name_EditProperty">Modifier les propriétés du document avant de l'enregistrer</string>
         <string id="desc_EditProperty">Indique que la boîte de dialogue Propriétés s'affiche chaque fois que vous sélectionnez la commande Enregistrer sous.</string>
         <string id="name_WarnAlienFormat">Avertir l'utilisateur lors de l'enregistrement dans un format différent de ODF ou de celui par défaut.</string>
-        <string id="desc_WarnAlienFormat">Spécifie si le format d'enregistrement est différent de ODF ou de celui par défaut.</string>
+        <string id="desc_WarnAlienFormat">Spécifie si il faut prevenir l´utilisateur lors de l'enregistrement dans un format différent de ODF ou de celui par défaut.</string>
         <string id="name_HTMLExportBrowser">Compatibilité d'exportation avec les navigateurs HTML</string>
         <string id="desc_HTMLExportBrowser">Spécifie le navigateur pour lequel l'exportation HTML doit être optimisée</string>
         <string id="IE">Internet Explorer</string>
