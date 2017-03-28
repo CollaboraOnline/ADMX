@@ -231,6 +231,10 @@ The font heights are expressed in millimeters*100, which corresponds to the poin
         <string id="xlsx">Microsoft Excel 2007/2010 XML</string>
         <string id="xls">Microsoft Excel 97-2003 XLS</string>
 
+        <string id="category_Calculate">Calculate</string>
+        <string id="name_CaseSensitive">Case Sensitive</string>
+        <string id="desc_CaseSensitive">Distinguish between upper and lower case in texts when comparing cell contents</string>
+        
         <string id="category_Formulas">Formulas</string>
         <string id="name_EnglishFunctionName">English Function Names</string>
         <string id="desc_EnglishFunctionName">Use English function names even when user interface is localized</string>
@@ -704,6 +708,10 @@ Set paths in path lists have to be separated by spaces.</string>
         <textBox refId="Value">
           <label>Path list: </label>
         </textBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="CaseSensitive">
+        <checkBox refId="Value">Case sensitive</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="PrintEmptyPages">

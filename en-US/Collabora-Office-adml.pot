@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-24 10:15+0100\n"
+"POT-Creation-Date: 2017-03-28 15:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,7 +47,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: textBox/defaultValue
 #: Collabora-Office.adml:15
-#: Collabora-Office.adml:278
+#: Collabora-Office.adml:282
 #, no-wrap
 msgid ""
 "Collabora Office"
@@ -70,7 +70,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:19
-#: Collabora-Office.adml:415
+#: Collabora-Office.adml:419
 #, no-wrap
 msgid ""
 "Use System File Dialog"
@@ -100,7 +100,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/text
 #: Collabora-Office.adml:24
-#: Collabora-Office.adml:275
+#: Collabora-Office.adml:279
 #, no-wrap
 msgid ""
 "Specifies the name of the product."
@@ -123,7 +123,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:27
-#: Collabora-Office.adml:283
+#: Collabora-Office.adml:287
 #, no-wrap
 msgid ""
 "Load user-specific settings with the document"
@@ -139,7 +139,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:29
-#: Collabora-Office.adml:287
+#: Collabora-Office.adml:291
 #, no-wrap
 msgid ""
 "Use user data for document properties"
@@ -155,7 +155,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/text
 #: Collabora-Office.adml:31
-#: Collabora-Office.adml:293
+#: Collabora-Office.adml:297
 #, no-wrap
 msgid ""
 "Save AutoRecovery information in every __ minutes"
@@ -171,7 +171,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:33
-#: Collabora-Office.adml:301
+#: Collabora-Office.adml:305
 #, no-wrap
 msgid ""
 "Always create backup copy"
@@ -180,7 +180,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:34
-#: Collabora-Office.adml:305
+#: Collabora-Office.adml:309
 #, no-wrap
 msgid ""
 "Edit document properties before saving"
@@ -196,7 +196,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:36
-#: Collabora-Office.adml:309
+#: Collabora-Office.adml:313
 #, no-wrap
 msgid ""
 "Warn the user when saving in a format different from ODF or default"
@@ -254,7 +254,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:45
-#: Collabora-Office.adml:603
+#: Collabora-Office.adml:607
 #, no-wrap
 msgid ""
 "Enable experimental features"
@@ -270,7 +270,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:47
-#: Collabora-Office.adml:607
+#: Collabora-Office.adml:611
 #, no-wrap
 msgid ""
 "Enable macro recording (limited)"
@@ -293,7 +293,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:50
-#: Collabora-Office.adml:419
+#: Collabora-Office.adml:423
 #, no-wrap
 msgid ""
 "Use System Print Dialog"
@@ -470,7 +470,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:78
-#: Collabora-Office.adml:663
+#: Collabora-Office.adml:667
 #, no-wrap
 msgid ""
 "Remove personal information on saving"
@@ -488,7 +488,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:82
-#: Collabora-Office.adml:667
+#: Collabora-Office.adml:671
 #, no-wrap
 msgid ""
 "Recommend password protection on saving"
@@ -506,7 +506,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:86
-#: Collabora-Office.adml:671
+#: Collabora-Office.adml:675
 #, no-wrap
 msgid ""
 "Ctrl-click required to follow hyperlinks"
@@ -523,7 +523,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:89
-#: Collabora-Office.adml:675
+#: Collabora-Office.adml:679
 #, no-wrap
 msgid ""
 "Security warnings when saving or sending"
@@ -541,7 +541,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:93
-#: Collabora-Office.adml:679
+#: Collabora-Office.adml:683
 #, no-wrap
 msgid ""
 "Security warnings when signing"
@@ -559,7 +559,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:97
-#: Collabora-Office.adml:683
+#: Collabora-Office.adml:687
 #, no-wrap
 msgid ""
 "Security warnings when printing"
@@ -577,7 +577,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:101
-#: Collabora-Office.adml:687
+#: Collabora-Office.adml:691
 #, no-wrap
 msgid ""
 "Security warnings when creating PDF"
@@ -644,7 +644,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:118
-#: Collabora-Office.adml:695
+#: Collabora-Office.adml:699
 #, no-wrap
 msgid ""
 "Disable macro execution"
@@ -662,7 +662,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:122
-#: Collabora-Office.adml:699
+#: Collabora-Office.adml:703
 #, no-wrap
 msgid ""
 "Enable Expert Configuration"
@@ -818,9 +818,9 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/text
 #: Collabora-Office.adml:148
-#: Collabora-Office.adml:492
-#: Collabora-Office.adml:529
-#: Collabora-Office.adml:566
+#: Collabora-Office.adml:496
+#: Collabora-Office.adml:533
+#: Collabora-Office.adml:570
 #, no-wrap
 msgid ""
 "Default"
@@ -912,7 +912,7 @@ msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:162
-#: Collabora-Office.adml:253
+#: Collabora-Office.adml:257
 #, no-wrap
 msgid ""
 "Print"
@@ -921,7 +921,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:163
-#: Collabora-Office.adml:747
+#: Collabora-Office.adml:755
 #, no-wrap
 msgid ""
 "Convert colors to grayscale"
@@ -953,7 +953,7 @@ msgstr ""
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:169
 #: Collabora-Office.adml:170
-#: Collabora-Office.adml:756
+#: Collabora-Office.adml:764
 #, no-wrap
 msgid ""
 "Support assistive technology tools"
@@ -962,7 +962,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:171
-#: Collabora-Office.adml:760
+#: Collabora-Office.adml:768
 #, no-wrap
 msgid ""
 "Use text selections cursor in read-only text documents"
@@ -978,7 +978,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:173
-#: Collabora-Office.adml:764
+#: Collabora-Office.adml:772
 #, no-wrap
 msgid ""
 "Allow animated graphics"
@@ -994,7 +994,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:175
-#: Collabora-Office.adml:768
+#: Collabora-Office.adml:776
 #, no-wrap
 msgid ""
 "Allow animated text"
@@ -1010,7 +1010,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:177
-#: Collabora-Office.adml:772
+#: Collabora-Office.adml:780
 #, no-wrap
 msgid ""
 "Help tips disappear after..."
@@ -1026,7 +1026,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:179
-#: Collabora-Office.adml:778
+#: Collabora-Office.adml:786
 #, no-wrap
 msgid ""
 "Automatically detect high contrast mode of operating system"
@@ -1042,7 +1042,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:181
-#: Collabora-Office.adml:782
+#: Collabora-Office.adml:790
 #, no-wrap
 msgid ""
 "Use automatic font color for screen display"
@@ -1058,7 +1058,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:183
-#: Collabora-Office.adml:786
+#: Collabora-Office.adml:794
 #, no-wrap
 msgid ""
 "Use system colors for page previews"
@@ -1304,7 +1304,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:226
-#: Collabora-Office.adml:725
+#: Collabora-Office.adml:733
 #, no-wrap
 msgid ""
 "Print only selected sheets"
@@ -1349,123 +1349,144 @@ msgstr ""
 #: Collabora-Office.adml:234
 #, no-wrap
 msgid ""
-"Formulas"
+"Calculate"
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:235
 #, no-wrap
 msgid ""
-"English Function Names"
+"Case Sensitive"
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:236
 #, no-wrap
 msgid ""
-"Use English function names even when user interface is localized"
-msgstr ""
-
-#. (itstool) path: stringTable/string
-#: Collabora-Office.adml:237
-#, no-wrap
-msgid ""
-"Recalculation of spreadsheets on load"
+"Distinguish between upper and lower case in texts when comparing cell contents"
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:238
 #, no-wrap
 msgid ""
-"Specifies whether to force a hard recalculation of formula cells after load of non-LibreOffice-generated ODF documents and/or OOXML-based Excel documents (2007 and newer)."
+"Formulas"
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:239
 #, no-wrap
 msgid ""
-"Always recalculate"
+"English Function Names"
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:240
 #, no-wrap
 msgid ""
-"Never recalculate"
+"Use English function names even when user interface is localized"
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:241
 #, no-wrap
 msgid ""
-"Prompt user"
+"Recalculation of spreadsheets on load"
+msgstr ""
+
+#. (itstool) path: stringTable/string
+#: Collabora-Office.adml:242
+#, no-wrap
+msgid ""
+"Specifies whether to force a hard recalculation of formula cells after load of non-LibreOffice-generated ODF documents and/or OOXML-based Excel documents (2007 and newer)."
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:243
 #, no-wrap
 msgid ""
-"Impress"
+"Always recalculate"
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:244
 #, no-wrap
 msgid ""
-"ODF Presentation"
+"Never recalculate"
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:245
 #, no-wrap
 msgid ""
-"Microsoft PowerPoint 2007/2010 XML"
+"Prompt user"
 msgstr ""
 
 #. (itstool) path: stringTable/string
-#: Collabora-Office.adml:246
+#: Collabora-Office.adml:247
 #, no-wrap
 msgid ""
-"Microsoft PowerPoint 97/2000/XP/2003"
+"Impress"
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:248
 #, no-wrap
 msgid ""
-"Specifies the file URL of the standard template file for text documents."
+"ODF Presentation"
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:249
 #, no-wrap
 msgid ""
-"Specifies the file URL of the standard template file for spreadsheet documents."
+"Microsoft PowerPoint 2007/2010 XML"
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:250
 #, no-wrap
 msgid ""
-"Specifies the file URL of the standard template file for presentation documents."
+"Microsoft PowerPoint 97/2000/XP/2003"
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:252
 #, no-wrap
 msgid ""
-"Save As Format"
+"Specifies the file URL of the standard template file for text documents."
+msgstr ""
+
+#. (itstool) path: stringTable/string
+#: Collabora-Office.adml:253
+#, no-wrap
+msgid ""
+"Specifies the file URL of the standard template file for spreadsheet documents."
 msgstr ""
 
 #. (itstool) path: stringTable/string
 #: Collabora-Office.adml:254
 #, no-wrap
 msgid ""
+"Specifies the file URL of the standard template file for presentation documents."
+msgstr ""
+
+#. (itstool) path: stringTable/string
+#: Collabora-Office.adml:256
+#, no-wrap
+msgid ""
+"Save As Format"
+msgstr ""
+
+#. (itstool) path: stringTable/string
+#: Collabora-Office.adml:258
+#, no-wrap
+msgid ""
 "Default Template"
 msgstr ""
 
 #. (itstool) path: stringTable/string
-#: Collabora-Office.adml:255
+#: Collabora-Office.adml:259
 #, no-wrap
 msgid ""
 "Directory and file paths must be entered using file URL syntax, as described below.\n"
@@ -1488,90 +1509,89 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:277
+#: Collabora-Office.adml:281
 msgid "Value:"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:280
 #: Collabora-Office.adml:284
 #: Collabora-Office.adml:288
 #: Collabora-Office.adml:292
 #: Collabora-Office.adml:296
-#: Collabora-Office.adml:298
+#: Collabora-Office.adml:300
 #: Collabora-Office.adml:302
 #: Collabora-Office.adml:306
 #: Collabora-Office.adml:310
-#: Collabora-Office.adml:318
-#: Collabora-Office.adml:324
-#: Collabora-Office.adml:332
-#: Collabora-Office.adml:338
-#: Collabora-Office.adml:346
-#: Collabora-Office.adml:352
-#: Collabora-Office.adml:360
-#: Collabora-Office.adml:366
-#: Collabora-Office.adml:374
-#: Collabora-Office.adml:380
-#: Collabora-Office.adml:388
-#: Collabora-Office.adml:396
-#: Collabora-Office.adml:404
-#: Collabora-Office.adml:412
+#: Collabora-Office.adml:314
+#: Collabora-Office.adml:322
+#: Collabora-Office.adml:328
+#: Collabora-Office.adml:336
+#: Collabora-Office.adml:342
+#: Collabora-Office.adml:350
+#: Collabora-Office.adml:356
+#: Collabora-Office.adml:364
+#: Collabora-Office.adml:370
+#: Collabora-Office.adml:378
+#: Collabora-Office.adml:384
+#: Collabora-Office.adml:392
+#: Collabora-Office.adml:400
+#: Collabora-Office.adml:408
 #: Collabora-Office.adml:416
 #: Collabora-Office.adml:420
-#: Collabora-Office.adml:426
-#: Collabora-Office.adml:431
+#: Collabora-Office.adml:424
+#: Collabora-Office.adml:430
 #: Collabora-Office.adml:435
 #: Collabora-Office.adml:439
 #: Collabora-Office.adml:443
 #: Collabora-Office.adml:447
-#: Collabora-Office.adml:452
+#: Collabora-Office.adml:451
 #: Collabora-Office.adml:456
-#: Collabora-Office.adml:461
-#: Collabora-Office.adml:466
-#: Collabora-Office.adml:471
-#: Collabora-Office.adml:477
-#: Collabora-Office.adml:483
-#: Collabora-Office.adml:489
-#: Collabora-Office.adml:496
-#: Collabora-Office.adml:498
-#: Collabora-Office.adml:503
-#: Collabora-Office.adml:505
-#: Collabora-Office.adml:510
-#: Collabora-Office.adml:512
-#: Collabora-Office.adml:517
-#: Collabora-Office.adml:519
-#: Collabora-Office.adml:524
-#: Collabora-Office.adml:526
-#: Collabora-Office.adml:533
-#: Collabora-Office.adml:535
-#: Collabora-Office.adml:540
-#: Collabora-Office.adml:542
-#: Collabora-Office.adml:547
-#: Collabora-Office.adml:549
-#: Collabora-Office.adml:554
-#: Collabora-Office.adml:556
-#: Collabora-Office.adml:561
-#: Collabora-Office.adml:563
-#: Collabora-Office.adml:570
-#: Collabora-Office.adml:572
-#: Collabora-Office.adml:577
-#: Collabora-Office.adml:579
-#: Collabora-Office.adml:584
-#: Collabora-Office.adml:586
-#: Collabora-Office.adml:591
-#: Collabora-Office.adml:593
-#: Collabora-Office.adml:598
-#: Collabora-Office.adml:600
+#: Collabora-Office.adml:460
+#: Collabora-Office.adml:465
+#: Collabora-Office.adml:470
+#: Collabora-Office.adml:475
+#: Collabora-Office.adml:481
+#: Collabora-Office.adml:487
+#: Collabora-Office.adml:493
+#: Collabora-Office.adml:500
+#: Collabora-Office.adml:502
+#: Collabora-Office.adml:507
+#: Collabora-Office.adml:509
+#: Collabora-Office.adml:514
+#: Collabora-Office.adml:516
+#: Collabora-Office.adml:521
+#: Collabora-Office.adml:523
+#: Collabora-Office.adml:528
+#: Collabora-Office.adml:530
+#: Collabora-Office.adml:537
+#: Collabora-Office.adml:539
+#: Collabora-Office.adml:544
+#: Collabora-Office.adml:546
+#: Collabora-Office.adml:551
+#: Collabora-Office.adml:553
+#: Collabora-Office.adml:558
+#: Collabora-Office.adml:560
+#: Collabora-Office.adml:565
+#: Collabora-Office.adml:567
+#: Collabora-Office.adml:574
+#: Collabora-Office.adml:576
+#: Collabora-Office.adml:581
+#: Collabora-Office.adml:583
+#: Collabora-Office.adml:588
+#: Collabora-Office.adml:590
+#: Collabora-Office.adml:595
+#: Collabora-Office.adml:597
+#: Collabora-Office.adml:602
 #: Collabora-Office.adml:604
 #: Collabora-Office.adml:608
 #: Collabora-Office.adml:612
 #: Collabora-Office.adml:616
-#: Collabora-Office.adml:622
-#: Collabora-Office.adml:628
-#: Collabora-Office.adml:634
-#: Collabora-Office.adml:640
-#: Collabora-Office.adml:646
-#: Collabora-Office.adml:652
+#: Collabora-Office.adml:620
+#: Collabora-Office.adml:626
+#: Collabora-Office.adml:632
+#: Collabora-Office.adml:638
+#: Collabora-Office.adml:644
+#: Collabora-Office.adml:650
 #: Collabora-Office.adml:656
 #: Collabora-Office.adml:660
 #: Collabora-Office.adml:664
@@ -1584,486 +1604,493 @@ msgstr ""
 #: Collabora-Office.adml:692
 #: Collabora-Office.adml:696
 #: Collabora-Office.adml:700
-#: Collabora-Office.adml:707
+#: Collabora-Office.adml:704
 #: Collabora-Office.adml:711
 #: Collabora-Office.adml:715
-#: Collabora-Office.adml:720
-#: Collabora-Office.adml:722
-#: Collabora-Office.adml:726
+#: Collabora-Office.adml:719
+#: Collabora-Office.adml:723
+#: Collabora-Office.adml:728
 #: Collabora-Office.adml:730
-#: Collabora-Office.adml:732
-#: Collabora-Office.adml:736
+#: Collabora-Office.adml:734
+#: Collabora-Office.adml:738
 #: Collabora-Office.adml:740
 #: Collabora-Office.adml:744
 #: Collabora-Office.adml:748
-#: Collabora-Office.adml:753
-#: Collabora-Office.adml:757
+#: Collabora-Office.adml:752
+#: Collabora-Office.adml:756
 #: Collabora-Office.adml:761
 #: Collabora-Office.adml:765
 #: Collabora-Office.adml:769
 #: Collabora-Office.adml:773
-#: Collabora-Office.adml:775
-#: Collabora-Office.adml:779
+#: Collabora-Office.adml:777
+#: Collabora-Office.adml:781
 #: Collabora-Office.adml:783
 #: Collabora-Office.adml:787
 #: Collabora-Office.adml:791
 #: Collabora-Office.adml:795
-#: Collabora-Office.adml:807
-#: Collabora-Office.adml:811
+#: Collabora-Office.adml:799
+#: Collabora-Office.adml:803
+#: Collabora-Office.adml:815
+#: Collabora-Office.adml:819
 msgid "Final"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:291
+#: Collabora-Office.adml:295
 msgid "Save AutoRecovery information"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:294
+#: Collabora-Office.adml:298
 msgid "Type: integer [1..60]"
 msgstr ""
 
 #. (itstool) path: presentation/decimalTextBox
 #. (itstool) path: presentation/dropdownList
-#: Collabora-Office.adml:295
-#: Collabora-Office.adml:460
-#: Collabora-Office.adml:465
-#: Collabora-Office.adml:470
+#: Collabora-Office.adml:299
+#: Collabora-Office.adml:464
+#: Collabora-Office.adml:469
+#: Collabora-Office.adml:474
 msgid "Value"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:297
+#: Collabora-Office.adml:301
 msgid "Automatically save the document too"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:313
+#: Collabora-Office.adml:317
 msgid "WritePath of AutoCorrect files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:315
-#: Collabora-Office.adml:329
-#: Collabora-Office.adml:343
-#: Collabora-Office.adml:357
-#: Collabora-Office.adml:371
-#: Collabora-Office.adml:385
-#: Collabora-Office.adml:393
-#: Collabora-Office.adml:401
-#: Collabora-Office.adml:409
+#: Collabora-Office.adml:319
+#: Collabora-Office.adml:333
+#: Collabora-Office.adml:347
+#: Collabora-Office.adml:361
+#: Collabora-Office.adml:375
+#: Collabora-Office.adml:389
+#: Collabora-Office.adml:397
+#: Collabora-Office.adml:405
+#: Collabora-Office.adml:413
 msgid "Path:"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: Collabora-Office.adml:316
+#: Collabora-Office.adml:320
 msgid "$(user)/autocorr"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:319
+#: Collabora-Office.adml:323
 msgid "UserPaths of AutoCorrect files"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:321
-#: Collabora-Office.adml:335
-#: Collabora-Office.adml:349
-#: Collabora-Office.adml:363
-#: Collabora-Office.adml:377
-#: Collabora-Office.adml:705
+#: Collabora-Office.adml:325
+#: Collabora-Office.adml:339
+#: Collabora-Office.adml:353
+#: Collabora-Office.adml:367
+#: Collabora-Office.adml:381
+#: Collabora-Office.adml:709
 msgid "Path list:"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: Collabora-Office.adml:322
+#: Collabora-Office.adml:326
 msgid "$(inst)/share/autocorr $(user)/autocorr"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:327
+#: Collabora-Office.adml:331
 msgid "WritePath of AutoText files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: Collabora-Office.adml:330
+#: Collabora-Office.adml:334
 msgid "$(user)/autotext"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:333
+#: Collabora-Office.adml:337
 msgid "UserPaths of AutoText files"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: Collabora-Office.adml:336
+#: Collabora-Office.adml:340
 msgid "$(inst)/share/autotext/$(vlang) $(user)/autotext"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:341
+#: Collabora-Office.adml:345
 msgid "WritePath of Dictionary files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: Collabora-Office.adml:344
+#: Collabora-Office.adml:348
 msgid "$(user)/wordbook"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:347
+#: Collabora-Office.adml:351
 msgid "UserPaths of Dictionary files"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: Collabora-Office.adml:350
+#: Collabora-Office.adml:354
 msgid "$(inst)/share/wordbook $(inst)/share/wordbook/$(vlang) $(user)/wordbook"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:355
+#: Collabora-Office.adml:359
 msgid "WritePath of Gallery files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: Collabora-Office.adml:358
-#: Collabora-Office.adml:394
+#: Collabora-Office.adml:362
+#: Collabora-Office.adml:398
 msgid "$(user)/gallery"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:361
+#: Collabora-Office.adml:365
 msgid "UserPaths of Gallery files"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: Collabora-Office.adml:364
+#: Collabora-Office.adml:368
 msgid "$(inst)/share/gallery $(user)/gallery"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:369
+#: Collabora-Office.adml:373
 msgid "WritePath of Templates files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: Collabora-Office.adml:372
-#: Collabora-Office.adml:378
+#: Collabora-Office.adml:376
+#: Collabora-Office.adml:382
 msgid "$(user)/template"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:375
+#: Collabora-Office.adml:379
 msgid "UserPaths of Templates files"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:383
+#: Collabora-Office.adml:387
 msgid "Location of My Documents folder."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: Collabora-Office.adml:386
+#: Collabora-Office.adml:390
 msgid "$(work)"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:391
+#: Collabora-Office.adml:395
 msgid "WritePath of Image files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:399
+#: Collabora-Office.adml:403
 msgid "WritePath of Backup files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: Collabora-Office.adml:402
+#: Collabora-Office.adml:406
 msgid "$(user)/backup"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:407
+#: Collabora-Office.adml:411
 msgid "WritePath of Temporary files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: Collabora-Office.adml:410
+#: Collabora-Office.adml:414
 msgid "$(temp)"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:424
+#: Collabora-Office.adml:428
 msgid "Company Name:"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:427
+#: Collabora-Office.adml:431
 msgid "Address"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:429
+#: Collabora-Office.adml:433
 msgid "Street:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:433
+#: Collabora-Office.adml:437
 msgid "City:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:437
+#: Collabora-Office.adml:441
 msgid "State:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:441
+#: Collabora-Office.adml:445
 msgid "ZIP code:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:445
+#: Collabora-Office.adml:449
 msgid "Country:"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:448
+#: Collabora-Office.adml:452
 msgid "Telephone / Fax"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:450
+#: Collabora-Office.adml:454
 msgid "Telephone:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:454
+#: Collabora-Office.adml:458
 msgid "Fax:"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:459
-#: Collabora-Office.adml:464
-#: Collabora-Office.adml:469
+#: Collabora-Office.adml:463
+#: Collabora-Office.adml:468
+#: Collabora-Office.adml:473
 msgid "Always save in this document format."
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:475
-#: Collabora-Office.adml:481
-#: Collabora-Office.adml:487
+#: Collabora-Office.adml:479
+#: Collabora-Office.adml:485
+#: Collabora-Office.adml:491
 msgid "File URL:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:494
-#: Collabora-Office.adml:501
-#: Collabora-Office.adml:508
-#: Collabora-Office.adml:515
-#: Collabora-Office.adml:522
-#: Collabora-Office.adml:531
-#: Collabora-Office.adml:538
-#: Collabora-Office.adml:545
-#: Collabora-Office.adml:552
-#: Collabora-Office.adml:559
-#: Collabora-Office.adml:568
-#: Collabora-Office.adml:575
-#: Collabora-Office.adml:582
-#: Collabora-Office.adml:589
-#: Collabora-Office.adml:596
+#: Collabora-Office.adml:498
+#: Collabora-Office.adml:505
+#: Collabora-Office.adml:512
+#: Collabora-Office.adml:519
+#: Collabora-Office.adml:526
+#: Collabora-Office.adml:535
+#: Collabora-Office.adml:542
+#: Collabora-Office.adml:549
+#: Collabora-Office.adml:556
+#: Collabora-Office.adml:563
+#: Collabora-Office.adml:572
+#: Collabora-Office.adml:579
+#: Collabora-Office.adml:586
+#: Collabora-Office.adml:593
+#: Collabora-Office.adml:600
 msgid "Font:"
 msgstr ""
 
 #. (itstool) path: presentation/decimalTextBox
-#: Collabora-Office.adml:497
-#: Collabora-Office.adml:504
-#: Collabora-Office.adml:511
-#: Collabora-Office.adml:518
-#: Collabora-Office.adml:525
-#: Collabora-Office.adml:534
-#: Collabora-Office.adml:541
-#: Collabora-Office.adml:548
-#: Collabora-Office.adml:555
-#: Collabora-Office.adml:562
-#: Collabora-Office.adml:571
-#: Collabora-Office.adml:578
-#: Collabora-Office.adml:585
-#: Collabora-Office.adml:592
-#: Collabora-Office.adml:599
-#: Collabora-Office.adml:611
+#: Collabora-Office.adml:501
+#: Collabora-Office.adml:508
+#: Collabora-Office.adml:515
+#: Collabora-Office.adml:522
+#: Collabora-Office.adml:529
+#: Collabora-Office.adml:538
+#: Collabora-Office.adml:545
+#: Collabora-Office.adml:552
+#: Collabora-Office.adml:559
+#: Collabora-Office.adml:566
+#: Collabora-Office.adml:575
+#: Collabora-Office.adml:582
+#: Collabora-Office.adml:589
+#: Collabora-Office.adml:596
+#: Collabora-Office.adml:603
 #: Collabora-Office.adml:615
+#: Collabora-Office.adml:619
 msgid "Size:"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:499
-#: Collabora-Office.adml:536
-#: Collabora-Office.adml:573
+#: Collabora-Office.adml:503
+#: Collabora-Office.adml:540
+#: Collabora-Office.adml:577
 msgid "Heading"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:506
-#: Collabora-Office.adml:543
-#: Collabora-Office.adml:580
+#: Collabora-Office.adml:510
+#: Collabora-Office.adml:547
+#: Collabora-Office.adml:584
 msgid "List"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:513
-#: Collabora-Office.adml:550
-#: Collabora-Office.adml:587
+#: Collabora-Office.adml:517
+#: Collabora-Office.adml:554
+#: Collabora-Office.adml:591
 msgid "Caption"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:520
-#: Collabora-Office.adml:557
-#: Collabora-Office.adml:594
+#: Collabora-Office.adml:524
+#: Collabora-Office.adml:561
+#: Collabora-Office.adml:598
 msgid "Index"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:620
-#: Collabora-Office.adml:626
-#: Collabora-Office.adml:632
-#: Collabora-Office.adml:638
+#: Collabora-Office.adml:624
+#: Collabora-Office.adml:630
+#: Collabora-Office.adml:636
+#: Collabora-Office.adml:642
 msgid "Language code:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:644
+#: Collabora-Office.adml:648
 msgid "Locale:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:650
+#: Collabora-Office.adml:654
 msgid "Currency code:"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:655
+#: Collabora-Office.adml:659
 msgid "Decimal separator key same as locale setting"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:659
+#: Collabora-Office.adml:663
 msgid "Ignore system input language"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: Collabora-Office.adml:691
+#: Collabora-Office.adml:695
 msgid "Macro security level:"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:703
+#: Collabora-Office.adml:707
 msgid "Document macros are always executed, if they have been opened from one of the following locations."
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:710
+#: Collabora-Office.adml:714
+msgid "Case sensitive"
+msgstr ""
+
+#. (itstool) path: presentation/checkBox
+#: Collabora-Office.adml:718
 msgid "Print empty pages"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:714
+#: Collabora-Office.adml:722
 msgid "Use English function names"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:718
+#: Collabora-Office.adml:726
 msgid "Recalculation on file load"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: Collabora-Office.adml:719
+#: Collabora-Office.adml:727
 msgid "Excel 2007 and newer:"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: Collabora-Office.adml:721
+#: Collabora-Office.adml:729
 msgid "ODF spreadsheet (not saved by LibreOffice):"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: Collabora-Office.adml:729
+#: Collabora-Office.adml:737
 msgid "Icon style:"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: Collabora-Office.adml:731
+#: Collabora-Office.adml:739
 msgid "Icon size:"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:735
+#: Collabora-Office.adml:743
 msgid "Allow use of OpenCL"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:739
+#: Collabora-Office.adml:747
 msgid "Use OpenGL for all rendering"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:743
+#: Collabora-Office.adml:751
 msgid "Force OpenGL even if blacklisted"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: Collabora-Office.adml:751
+#: Collabora-Office.adml:759
 msgid "Specifies if a warning should be displayed in case the printout contains transparent objects."
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:752
+#: Collabora-Office.adml:760
 msgid "Transparency"
 msgstr ""
 
 #. (itstool) path: presentation/decimalTextBox
-#: Collabora-Office.adml:774
+#: Collabora-Office.adml:782
 msgid "seconds"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: Collabora-Office.adml:790
+#: Collabora-Office.adml:798
 msgid "Browser:"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:794
+#: Collabora-Office.adml:802
 msgid "Use Font Substitutions table"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:796
+#: Collabora-Office.adml:804
 msgid "Hide Tools - Options - LibreOffice - Fonts page"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:799
+#: Collabora-Office.adml:807
 msgid "Always"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:800
+#: Collabora-Office.adml:808
 msgid "On Screen Only"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:802
+#: Collabora-Office.adml:810
 msgid "Replace Font:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: Collabora-Office.adml:805
+#: Collabora-Office.adml:813
 msgid "Substitute Font:"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: Collabora-Office.adml:810
+#: Collabora-Office.adml:818
 msgid "Export all the PDF as PDF/A"
 msgstr ""
 
