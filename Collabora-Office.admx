@@ -93,6 +93,9 @@
     <category name="CalcDefaultTemplate" displayName="$(string.DefaultTemplate)">
       <parentCategory ref="Calc" />
     </category>
+    <category name="Calculate" displayName="$(string.category_Calculate)">
+      <parentCategory ref="Calc" />
+    </category>
     <category name="Formulas" displayName="$(string.category_Formulas)">
       <parentCategory ref="Calc" />
     </category>
@@ -1401,6 +1404,21 @@
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
         <text id="Value" valueName="Value" />
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="CaseSensitive" class="Both" displayName="$(string.name_CaseSensitive)" explainText="$(string.desc_CaseSensitive)" presentation="$(presentation.CaseSensitive)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\Other\CaseSensitive">
+      <parentCategory ref="Calculate" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
