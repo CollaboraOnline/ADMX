@@ -18,6 +18,8 @@
         <string id="category_General">General</string>
         <string id="name_UseSystemFileDialog">Use System File Dialog</string>
         <string id="desc_UseSystemFileDialog">Determines if Windows' file and folder picker should be used. If false, the built-in platform independent file/folder picker implementations will be used.</string>
+        <string id="name_CollectUsageInformation">Help improve LibreOffice</string>
+        <string id="desc_CollectUsageInformation">Collect usage data and send it to The Document Foundation</string>
 
         <string id="category_ProductName">Product name</string>
         <string id="name_ooName">Product name (ooName)</string>
@@ -231,6 +233,10 @@ The font heights are expressed in millimeters*100, which corresponds to the poin
         <string id="xlsx">Microsoft Excel 2007/2010 XML</string>
         <string id="xls">Microsoft Excel 97-2003 XLS</string>
 
+        <string id="category_Calculate">Calculate</string>
+        <string id="name_CaseSensitive">Case Sensitive</string>
+        <string id="desc_CaseSensitive">Distinguish between upper and lower case in texts when comparing cell contents</string>
+
         <string id="category_Formulas">Formulas</string>
         <string id="name_EnglishFunctionName">English Function Names</string>
         <string id="desc_EnglishFunctionName">Use English function names even when user interface is localized</string>
@@ -413,6 +419,10 @@ Set paths in path lists have to be separated by spaces.</string>
       </presentation>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">Use System File Dialog</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="CollectUsageInformation">
+        <checkBox refId="Value">Collect usage data and send it to The Document Foundation</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
@@ -704,6 +714,10 @@ Set paths in path lists have to be separated by spaces.</string>
         <textBox refId="Value">
           <label>Path list: </label>
         </textBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="CaseSensitive">
+        <checkBox refId="Value">Case sensitive</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="PrintEmptyPages">
