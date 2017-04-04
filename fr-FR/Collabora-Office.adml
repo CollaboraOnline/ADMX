@@ -35,6 +35,8 @@
         <string id="desc_CreateBackup">Toujours créer une copie de sauvegarde</string>
         <string id="name_EditProperty">Modifier les propriétés du document avant de l'enregistrer</string>
         <string id="desc_EditProperty">Indique que la boîte de dialogue Propriétés s'affiche chaque fois que vous sélectionnez la commande Enregistrer sous.</string>
+        <string id="name_WarnAlienFormat">Avertir l'utilisateur lors de l'enregistrement dans un format différent de ODF ou de celui par défaut.</string>
+        <string id="desc_WarnAlienFormat">Spécifie si il faut prevenir l´utilisateur lors de l'enregistrement dans un format différent de ODF ou de celui par défaut.</string>
         <string id="name_HTMLExportBrowser">Compatibilité d'exportation avec les navigateurs HTML</string>
         <string id="desc_HTMLExportBrowser">Spécifie le navigateur pour lequel l'exportation HTML doit être optimisée</string>
         <string id="IE">Internet Explorer</string>
@@ -120,13 +122,13 @@ Valeur par défaut : Élevé</string>
         <string id="desc_DisableMacrosExecution">Spécifie si l'exécution des macros est désactivée en général. Si elle est définie sur true, le MacroSecurityLevel est ignorée. Si elle est définie sur false, l'entrée mentionnée spécifie le niveau de sécurité des macros.
 
 Valeur par défaut : Macros activés</string>
-        <string id="name_EnableExpertConfiguration">Enable Expert Configuration</string>
-        <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
+        <string id="name_EnableExpertConfiguration">Permettre l'accès a la configuration avancée</string>
+        <string id="desc_EnableExpertConfiguration">Détermine si l'utilisateur a accès à la configuration complète via le bouton configuration avancée.</string>
         <string id="name_SecureURL">Emplacement de fichies de confiances</string>
 
         <string id="category_OpenCL">OpenCL</string>
-        <string id="name_UseOpenCL">Use OpenCL</string>
-        <string id="desc_UseOpenCL">Determines whether OpenCL can be used, when available, to speed up some operations.</string>
+        <string id="name_UseOpenCL">Utiliser OpenCL</string>
+        <string id="desc_UseOpenCL">Détermine si OpenCL peut être utilisé, lorsqu'il est disponible, pour accélérer certaines opérations.</string>
 
         <string id="UserProfile">Données d'identité</string>
         <string id="desc_UserProfile">Données d'identité (Société, Adresse, Téléphone, Fax)</string>
@@ -155,10 +157,10 @@ Valeur par défaut : Macros activés</string>
         <string id="hicontrast">Hicontrast</string>
         <string id="small">Petite</string>
         <string id="large">Grande</string>
-        <string id="name_UseOpenGL">Use OpenGL</string>
-        <string id="desc_UseOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it.</string>
-        <string id="name_ForceOpenGL">Force OpenGL</string>
-        <string id="desc_ForceOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it. This one forces the use of OpenGL even if the blacklist would block the OpenGL driver.</string>
+        <string id="name_UseOpenGL">Utiliser OpenGL</string>
+        <string id="desc_UseOpenGL">Spécifie si le rendu OpenGL doit être utilisé dans les backends VCL qui le prenant en charge.</string>
+        <string id="name_ForceOpenGL">Forcer OpenGL</string>
+        <string id="desc_ForceOpenGL">Force l'utilisation d'OpenGL même si la liste noire bloque le pilote OpenGL.</string>
 
         <string id="category_Print">Impression</string>
         <string id="name_ConvertToGreyscales">Convertir les couleurs en niveaux de gris</string>
@@ -212,6 +214,10 @@ Sélectionnez Écran uniquement pour ne remplacer que la police d'écran.
 Police : Saisissez le nom de la police à remplacer.
 
 Remplacer par : Saisissez le nom de la police de substitution.</string>
+
+        <string id="category_PDFExport">Export PDF</string>
+        <string id="name_SelectPDFExport">Sélectionnez les options préférées d'exportation PDF</string>
+        <string id="desc_SelectPDFExport">Sélectionnez les options préférées d'exportation PDF</string>
 
         <string id="category_Writer">Writer</string>
         <string id="desc_SaveAsFormat">Toujours enregistrer dans ce format de document. S'il vous plaît noter que seul le format Open Document (ODF) garantit l'intégrité complète des données.</string>
@@ -286,35 +292,39 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
         <text>Indique le nom du produit.</text>
         <textBox refId="Value">
           <label>Valeur : </label>
-          <defaultValue>Collabora Office</defaultValue>
+          <defaultValue>LibreOffice</defaultValue>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="UserDefinedSettings">
         <checkBox refId="Value">Charger les paramètres utilisateur avec le document</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="UseUserData">
         <checkBox refId="Value">Utiliser les données de l'utilisateur pour les propriétés du document.</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="AutoSave">
         <checkBox refId="Value">Enregistrer les informations de récupération automatique</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
         <text>Enregistrer les informations de récupération automatique toutes les __ minutes</text>
         <text>Type: Entier [1..60]</text>
         <decimalTextBox refId="AutoSaveTimeIntervallValue" defaultValue="15" spin="true">Valeur</decimalTextBox>
-        <checkBox refId="AutoSaveTimeIntervallFinal">Final</checkBox>
+        <checkBox refId="AutoSaveTimeIntervallFinal">Verrouiller le paramètre</checkBox>
         <checkBox refId="AutoSavePromptValue">Enregistrer également automatiquement le document</checkBox>
-        <checkBox refId="AutoSavePromptFinal">Final</checkBox>
+        <checkBox refId="AutoSavePromptFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="CreateBackup">
         <checkBox refId="Value">Toujours créer une copie de sauvegarde</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="EditProperty">
         <checkBox refId="Value">Modifier les propriétés du document avant de l'enregistrer</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+	  <presentation id="WarnAlienFormat">
+        <checkBox refId="Value">Avertir l'utilisateur lors de l'enregistrement dans un format différent de ODF ou par défaut</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="AutoCorrect">
         <text>Donnez le chemin des fichiers d'AutoCorrection. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
@@ -322,13 +332,13 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
           <label>Chemin :</label>
           <defaultValue>$(user)/autocorr</defaultValue>
         </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
+        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
         <text>Donnez le chemin des fichiers d'AutoCorrection</text>
         <textBox refId="UserPathsValue">
           <label>Liste de(s) chemin(s) :</label>
           <defaultValue>$(inst)/share/autocorr $(user)/autocorr</defaultValue>
         </textBox>
-        <checkBox refId="UserPathsFinal">Final</checkBox>
+        <checkBox refId="UserPathsFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="AutoText">
         <text>Donnez le chemin des fichiers AutoTexte. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
@@ -336,13 +346,13 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
           <label>Chemin :</label>
           <defaultValue>$(user)/autotext</defaultValue>
         </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
+        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
         <text>Donnez le chemin des fichiers AutoTexte</text>
         <textBox refId="UserPathsValue">
           <label>Liste de(s) chemin(s) :</label>
           <defaultValue>$(inst)/share/autotext/$(vlang) $(user)/autotext</defaultValue>
         </textBox>
-        <checkBox refId="UserPathsFinal">Final</checkBox>
+        <checkBox refId="UserPathsFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="Dictionary">
         <text>Donnez le chemin des Dictionaires. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
@@ -350,13 +360,13 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
           <label>Chemin :</label>
           <defaultValue>$(user)/wordbook</defaultValue>
         </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
+        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
         <text>Chemin utilisateur des Dictionaires</text>
         <textBox refId="UserPathsValue">
           <label>Liste de(s) chemin(s) :</label>
           <defaultValue>$(inst)/share/wordbook $(inst)/share/wordbook/$(vlang) $(user)/wordbook</defaultValue>
         </textBox>
-        <checkBox refId="UserPathsFinal">Final</checkBox>
+        <checkBox refId="UserPathsFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="Gallery">
         <text>Donnez le chemin de la Galerie. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
@@ -364,13 +374,13 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
           <label>Chemin :</label>
           <defaultValue>$(user)/gallery</defaultValue>
         </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
+        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
         <text>Chemin utilisateur de la Gallerie</text>
         <textBox refId="UserPathsValue">
           <label>Liste de(s) chemin(s) :</label>
           <defaultValue>$(inst)/share/gallery $(user)/gallery</defaultValue>
         </textBox>
-        <checkBox refId="UserPathsFinal">Final</checkBox>
+        <checkBox refId="UserPathsFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="Templates">
         <text>Donnez le chemin des modèles. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
@@ -378,13 +388,13 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
           <label>Chemin :</label>
           <defaultValue>$(user)/template</defaultValue>
         </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
+        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
         <text>Chemin utilisateur des modèles</text>
         <textBox refId="UserPathsValue">
           <label>Liste de(s) chemin(s) :</label>
           <defaultValue>$(user)/template</defaultValue>
         </textBox>
-        <checkBox refId="UserPathsFinal">Final</checkBox>
+        <checkBox refId="UserPathsFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="MyDocuments">
         <text>Emplacement du dossier Mes Documents.</text>
@@ -392,7 +402,7 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
           <label>Chemin :</label>
           <defaultValue>$(work)</defaultValue>
         </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
+        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="Graphic">
         <text>Donnez le chemin des fichiers image. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
@@ -400,7 +410,7 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
           <label>Chemin :</label>
           <defaultValue>$(user)/gallery</defaultValue>
         </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
+        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="Backup">
         <text>Donnez le chemin des fichiers de sauvegarde. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
@@ -408,7 +418,7 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
           <label>Chemin :</label>
           <defaultValue>$(user)/backup</defaultValue>
         </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
+        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="Temp">
         <text>Donnez le chemin des fichiers Temporaires. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
@@ -416,390 +426,390 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
           <label>Chemin :</label>
           <defaultValue>$(temp)</defaultValue>
         </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
+        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">Utilisez la boîte de dialogue fichier du système</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">Utilisez la boîte de dialogue d'impression du système</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="UserProfile">
         <textBox refId="CompanyNameValue">
           <label>Société :</label>
         </textBox>
-        <checkBox refId="CompanyNameFinal">Final</checkBox>
+        <checkBox refId="CompanyNameFinal">Verrouiller le paramètre</checkBox>
         <text>Address</text>
         <textBox refId="AddressStreetValue">
           <label>Rue :</label>
         </textBox>
-        <checkBox refId="AddressStreetFinal">Final</checkBox>
+        <checkBox refId="AddressStreetFinal">Verrouiller le paramètre</checkBox>
         <textBox refId="AddressCityValue">
           <label>Ville :</label>
         </textBox>
-        <checkBox refId="AddressCityFinal">Final</checkBox>
+        <checkBox refId="AddressCityFinal">Verrouiller le paramètre</checkBox>
         <textBox refId="AddressStateValue">
           <label>Pays :</label>
         </textBox>
-        <checkBox refId="AddressStateFinal">Final</checkBox>
+        <checkBox refId="AddressStateFinal">Verrouiller le paramètre</checkBox>
         <textBox refId="AddressPostalCodeValue">
           <label>Code postal :</label>
         </textBox>
-        <checkBox refId="AddressPostalCodeFinal">Final</checkBox>
+        <checkBox refId="AddressPostalCodeFinal">Verrouiller le paramètre</checkBox>
         <textBox refId="AddressCountryValue">
           <label>Région :</label>
         </textBox>
-        <checkBox refId="AddressCountryFinal">Final</checkBox>
+        <checkBox refId="AddressCountryFinal">Verrouiller le paramètre</checkBox>
         <text>Téléphone / Fax</text>
         <textBox refId="TelephoneValue">
           <label>Téléphone :</label>
         </textBox>
-        <checkBox refId="TelephoneFinal">Final</checkBox>
+        <checkBox refId="TelephoneFinal">Verrouiller le paramètre</checkBox>
         <textBox refId="FaxValue">
           <label>Fax :</label>
         </textBox>
-        <checkBox refId="FaxFinal">Final</checkBox>
+        <checkBox refId="FaxFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="WriterSaveAsFormat">
         <text>Toujours enregistrer dans ce format de document.</text>
         <dropdownList refId="Value" defaultItem="2">Valeur</dropdownList>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="CalcSaveAsFormat">
         <text>Toujours enregistrer dans ce format de document.</text>
         <dropdownList refId="Value" defaultItem="2">Valeur</dropdownList>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="ImpressSaveAsFormat">
         <text>Toujours enregistrer dans ce format de document.</text>
         <dropdownList refId="Value" defaultItem="2">Valeur</dropdownList>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="WriterDefaultTemplate">
         <textBox refId="Value">
           <label>Fichier URL:</label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="CalcDefaultTemplate">
         <textBox refId="Value">
           <label>Fichier URL:</label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="ImpressDefaultTemplate">
         <textBox refId="Value">
           <label>Fichier URL:</label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="WriterDefaultFontsWestern">
         <text>Défaut</text>
         <textBox refId="WriterDefaultFontsWesternDefaultFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsWesternDefaultFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsWesternDefaultFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsWesternDefaultFontSizeValue" defaultValue="423" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsWesternDefaultFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsWesternDefaultFontSizeFinal">Verrouiller le paramètre</checkBox>
         <text>Titre</text>
         <textBox refId="WriterDefaultFontsWesternHeadingFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsWesternHeadingFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsWesternHeadingFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsWesternHeadingFontSizeValue" defaultValue="494" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsWesternHeadingFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsWesternHeadingFontSizeFinal">Verrouiller le paramètre</checkBox>
         <text>Liste</text>
         <textBox refId="WriterDefaultFontsWesternListFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsWesternListFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsWesternListFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsWesternListFontSizeValue" defaultValue="423" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsWesternListFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsWesternListFontSizeFinal">Verrouiller le paramètre</checkBox>
         <text>Légende</text>
         <textBox refId="WriterDefaultFontsWesternCaptionFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsWesternCaptionFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsWesternCaptionFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsWesternCaptionFontSizeValue" defaultValue="423" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsWesternCaptionFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsWesternCaptionFontSizeFinal">Verrouiller le paramètre</checkBox>
         <text>Index</text>
         <textBox refId="WriterDefaultFontsWesternIndexFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsWesternIndexFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsWesternIndexFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsWesternIndexFontSizeValue" defaultValue="423" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsWesternIndexFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsWesternIndexFontSizeFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="WriterDefaultFontsCJK">
         <text>Défaut</text>
         <textBox refId="WriterDefaultFontsCJKDefaultFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsCJKDefaultFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCJKDefaultFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsCJKDefaultFontSizeValue" defaultValue="370" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsCJKDefaultFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCJKDefaultFontSizeFinal">Verrouiller le paramètre</checkBox>
         <text>Titre</text>
         <textBox refId="WriterDefaultFontsCJKHeadingFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsCJKHeadingFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCJKHeadingFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsCJKHeadingFontSizeValue" defaultValue="494" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsCJKHeadingFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCJKHeadingFontSizeFinal">Verrouiller le paramètre</checkBox>
         <text>Liste</text>
         <textBox refId="WriterDefaultFontsCJKListFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsCJKListFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCJKListFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsCJKListFontSizeValue" defaultValue="423" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsCJKListFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCJKListFontSizeFinal">Verrouiller le paramètre</checkBox>
         <text>Légende</text>
         <textBox refId="WriterDefaultFontsCJKCaptionFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsCJKCaptionFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCJKCaptionFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsCJKCaptionFontSizeValue" defaultValue="423" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsCJKCaptionFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCJKCaptionFontSizeFinal">Verrouiller le paramètre</checkBox>
         <text>Index</text>
         <textBox refId="WriterDefaultFontsCJKIndexFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsCJKIndexFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCJKIndexFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsCJKIndexFontSizeValue" defaultValue="423" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsCJKIndexFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCJKIndexFontSizeFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="WriterDefaultFontsCTL">
         <text>Défaut</text>
         <textBox refId="WriterDefaultFontsCTLDefaultFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsCTLDefaultFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCTLDefaultFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsCTLDefaultFontSizeValue" defaultValue="423" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsCTLDefaultFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCTLDefaultFontSizeFinal">Verrouiller le paramètre</checkBox>
         <text>Titre</text>
         <textBox refId="WriterDefaultFontsCTLHeadingFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsCTLHeadingFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCTLHeadingFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsCTLHeadingFontSizeValue" defaultValue="494" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsCTLHeadingFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCTLHeadingFontSizeFinal">Verrouiller le paramètre</checkBox>
         <text>Liste</text>
         <textBox refId="WriterDefaultFontsCTLListFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsCTLListFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCTLListFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsCTLListFontSizeValue" defaultValue="423" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsCTLListFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCTLListFontSizeFinal">Verrouiller le paramètre</checkBox>
         <text>Légende</text>
         <textBox refId="WriterDefaultFontsCTLCaptionFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsCTLCaptionFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCTLCaptionFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsCTLCaptionFontSizeValue" defaultValue="423" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsCTLCaptionFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCTLCaptionFontSizeFinal">Verrouiller le paramètre</checkBox>
         <text>Index</text>
         <textBox refId="WriterDefaultFontsCTLIndexFontNameValue">
           <label>Police :</label>
         </textBox>
-        <checkBox refId="WriterDefaultFontsCTLIndexFontNameFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCTLIndexFontNameFinal">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="WriterDefaultFontsCTLIndexFontSizeValue" defaultValue="423" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="WriterDefaultFontsCTLIndexFontSizeFinal">Final</checkBox>
+        <checkBox refId="WriterDefaultFontsCTLIndexFontSizeFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="ExperimentalMode">
         <checkBox refId="Value">Activer les fonctions expérimentales</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="MacroRecorderMode">
         <checkBox refId="Value">Activer l'enregistreur de macro (limité)</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="HistorySize">
         <decimalTextBox refId="Value" defaultValue="100" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="HistoryPickListSize">
         <decimalTextBox refId="Value" defaultValue="25" spin="true">Taille :</decimalTextBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="DefaultLocale">
         <textBox refId="Value">
           <label>Code de la langue :</label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="DefaultLocale_CJK">
         <textBox refId="Value">
           <label>Code de la langue :</label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="DefaultLocale_CTL">
         <textBox refId="Value">
           <label>Code de la langue :</label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="UILocale">
         <textBox refId="Value">
           <label>Code de la langue :</label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="Locale">
         <textBox refId="Value">
           <label>Locale :</label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="ooSetupCurrency">
         <textBox refId="Value">
           <label>Code de la devise :</label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="DecimalSeparatorAsLocale">
         <checkBox refId="Value">Touche séparateur de décimales identique à l'environnement linguistique</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="IgnoreLanguageChange">
         <checkBox refId="Value">Ignorer la langue d'entrée du système</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="RemovePersonalInfoOnSaving">
         <checkBox refId="Value" defaultItem="0">Supprimer les informations personnelles lors de l'enregistrement</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="RecommendPasswordProtection">
         <checkBox refId="Value" defaultItem="0">Protection par mot de passe recommandé lors de l'enregistrement</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="HyperlinksWithCtrlClick">
         <checkBox refId="Value" defaultItem="0">Ctrl-clic pour suivre les liens hypertexte</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="WarnSaveOrSendDoc">
         <checkBox refId="Value" defaultItem="0">Avertissements de sécurité lors de l'enregistrement ou de l'envoi</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="WarnSignDoc">
         <checkBox refId="Value" defaultItem="0">Avertissements de sécurité lors de la signature</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="WarnPrintDoc">
         <checkBox refId="Value" defaultItem="0">Avertissements de sécurité lors de l'impression</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="WarnCreatePDF">
         <checkBox refId="Value" defaultItem="0">Avertissements de sécurité lors de la création de PDF</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="MacroSecurityLevel">
         <dropdownList refId="Value" defaultItem="2">Niveau de sécurité des macro :</dropdownList>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="DisableMacrosExecution">
         <checkBox refId="Value">Désactiver l'exécution des macros</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="EnableExpertConfiguration">
         <checkBox refId="Value">Enable Expert Configuration</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="SecureURL">
         <text>Les macros de document sont exécutées uniquement si elles ont été ouvertes à partir de l'un des emplacements suivants.</text>
         <textBox refId="Value">
           <label>Liste de(s) chemin(s) :</label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="PrintEmptyPages">
         <checkBox refId="Value">Imprimer les pages blanches</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="EnglishFunctionName">
         <checkBox refId="Value">Utiliser les noms de fonctions anglais</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="RecalcMode">
         <text>Recalcule au chargement du fichier</text>
         <dropdownList refId="OOXMLValue" defaultItem="1">Excel 2007 et supérieurs :</dropdownList>
-        <checkBox refId="OOXMLFinal">Final</checkBox>
+        <checkBox refId="OOXMLFinal">Verrouiller le paramètre</checkBox>
         <dropdownList refId="ODFValue" defaultItem="1">Classeur ODF (non enregistré par LibreOffice):</dropdownList>
-        <checkBox refId="ODFFinal">Final</checkBox>
+        <checkBox refId="ODFFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="AllSheets">
         <checkBox refId="Value">Imprimer uniquement les feuilles sélectionnées</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="SymbolStyle">
         <dropdownList refId="Value" defaultItem="0">Style d'icône :</dropdownList>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
         <dropdownList refId="SizeValue" defaultItem="0">Taille d'icône :</dropdownList>
-        <checkBox refId="SizeFinal">Final</checkBox>
+        <checkBox refId="SizeFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="UseOpenCL">
-        <checkBox refId="Value">Allow use of OpenCL</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Value">Autoriser l'utilisation de OpenCL</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="UseOpenGL">
-        <checkBox refId="Value">Use OpenGL for all rendering</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Value">Utiliser OpenGL pour tout les rendus</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="ForceOpenGL">
-        <checkBox refId="Value">Force OpenGL even if blacklisted</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Value">Forcer OpenGL même si blacklisté</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
         <checkBox refId="Value">Convertir les couleurs en niveaux de gris</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="PrinterWarnings">
         <text>Spécifie si un avertissement doit s'afficher dans le cas où l'impression contient des objets transparents.</text>
         <checkBox refId="Value">Transparence</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="EnableATToolSupport">
         <checkBox refId="Value">Support des technologies assistives</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="IsSelectionInReadonly">
         <checkBox refId="Value">Utiliser le curseur de sélection dans les textes en lecture seule</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="IsAllowAnimatedGraphics">
         <checkBox refId="Value">Autoriser les images animées</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="IsAllowAnimatedText">
         <checkBox refId="Value">Autoriser le texte animé</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="HelpTipsDisappear">
         <checkBox refId="Value">L'affichage des conseils disparaît après...</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
         <decimalTextBox refId="HelpTipsDisappearValue" defaultValue="4" spin="true">secondes</decimalTextBox>
-        <checkBox refId="HelpTipsDisappearFinal">Final</checkBox>
+        <checkBox refId="HelpTipsDisappearFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="AutoDetectSystemHC">
         <checkBox refId="Value">Détecter automatiquement du mode de contraste élevé du système d'exploitation</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="IsAutomaticFontColor">
         <checkBox refId="Value">Utiliser la couleur de police automatique pour l'affichage à l'écran.</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="IsForPagePreviews">
         <checkBox refId="Value">Utiliser les couleurs du système dans les aperçus de page</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="HTMLExportBrowser">
         <dropdownList refId="Value" defaultItem="0">Navigateur :</dropdownList>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="UseFontSubstitutions">
         <checkBox refId="Value">Utiliser la table de remplacement</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
         <checkBox refId="HideSettingsCommonFonts">Masquer le menu : Outils - Options - LibreOffice - Polices</checkBox>
       </presentation>
       <presentation id="FontPair">
@@ -811,7 +821,11 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
         <textBox refId="SubstituteFont">
           <label>Remplacer par :</label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+	  <presentation id="SelectPDFExport">
+          <checkBox refId="Value">Exporter tout les PDF en format PDF/A</checkBox>
+          <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
     </presentationTable>
   </resources>
