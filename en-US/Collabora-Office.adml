@@ -12,6 +12,7 @@
         <string id="supported_LibreOffice_4_4">LibreOffice-from-Collabora 4.4 or higher</string>
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 or higher</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 or higher</string>
+        <string id="supported_LibreOffice_5_3">Collabora Office 5.3 or higher</string>
         <string id="category_LibreOffice">Collabora Office</string>
         <string id="category_Common">Common</string>
 
@@ -234,17 +235,36 @@ The font heights are expressed in millimeters*100, which corresponds to the poin
         <string id="xls">Microsoft Excel 97-2003 XLS</string>
 
         <string id="category_Calculate">Calculate</string>
+
+        <string id="name_IterativeReferences">Iterative References</string>
+        <string id="desc_IterativeReferences">Specifies whether iterative calculation is used for formulas with circular references.</string>
         <string id="name_CaseSensitive">Case Sensitive</string>
         <string id="desc_CaseSensitive">Distinguish between upper and lower case in texts when comparing cell contents</string>
+        <string id="name_Precision">Precision as shown</string>
+        <string id="desc_Precision">Specifies whether the calculation uses the rounded values displayed in the sheet.</string>
+        <string id="name_SearchCriteria">Search criteria = and &lt;&gt; must apply to whole cells</string>
+        <string id="desc_SearchCriteria">Specifies whether search criteria in formulas must match the whole of the cell contents.</string>
+        <string id="name_FindLabel">Automatically find column and row labels</string>
+        <string id="desc_FindLabel">Specifies whether column and row labels are used to refer to the column area beneath the text cell or to the row area at the right of the text cell while running a search.</string>
+        <string id="name_RegularExpressions">Regular expressions in formulas</string>
+        <string id="desc_RegularExpressions">Specifies whether the calculation uses regular expressions in formulas, e.g. for functions which look up sheet contents.</string>
+        <string id="name_Wildcards">Wildcards in formulas</string>
+        <string id="desc_Wildcards">Specifies whether the calculation uses wildcards in formulas, e.g. for functions which look up sheet contents.</string>
 
         <string id="category_Formulas">Formulas</string>
         <string id="name_EnglishFunctionName">English Function Names</string>
-        <string id="desc_EnglishFunctionName">Use English function names even when user interface is localized</string>
+        <string id="desc_EnglishFunctionName">Use English function names even when user interface is localized.</string>
         <string id="name_RecalcMode">Recalculation of spreadsheets on load</string>
         <string id="desc_RecalcMode">Specifies whether to force a hard recalculation of formula cells after load of non-LibreOffice-generated ODF documents and/or OOXML-based Excel documents (2007 and newer).</string>
         <string id="alwaysrecalc">Always recalculate</string>
         <string id="neverrecalc">Never recalculate</string>
         <string id="promptrecalc">Prompt user</string>
+
+        <string id="category_MergeCells">Merge Cells</string>
+        <string id="name_ShowMergeDialog">Show Merge Cells dialog</string>
+        <string id="desc_ShowMergeDialog">Specifies whether the Merge Cells dialog box is shown, when some cells are not empty.</string>
+        <string id="name_EmptyMergedCells">Empty merged cells</string>
+        <string id="desc_EmptyMergedCells">Specifies whether to empty the contents of the hidden cells (like Excel does).</string>
 
         <string id="category_Impress">Impress</string>
         <string id="odp">ODF Presentation</string>
@@ -716,8 +736,46 @@ Set paths in path lists have to be separated by spaces.</string>
         </textBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
+      <presentation id="IterativeReferences">
+        <checkBox refId="Value">Iterations</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+        <decimalTextBox refId="IterationStepsValue" defaultValue="100" spin="true">Steps [1..32767]</decimalTextBox>
+        <checkBox refId="IterationStepsFinal">Final</checkBox>
+        <textBox refId="IterationMinimumChangeValue">
+          <label>Minimum change</label>
+        </textBox>
+        <checkBox refId="IterationMinimumChangeFinal">Final</checkBox>
+      </presentation>
       <presentation id="CaseSensitive">
         <checkBox refId="Value">Case sensitive</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="Precision">
+        <checkBox refId="Value">Precision as shown</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="SearchCriteria">
+        <checkBox refId="Value">Search criteria = and &lt;&gt; must apply to whole cells</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="FindLabel">
+        <checkBox refId="Value">Automatically find column and row labels</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="RegularExpressions">
+        <checkBox refId="Value">Enable regular expressions in formulas</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="Wildcards">
+        <checkBox refId="Value">Enable wildcards in formulas</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="ShowMergeDialog">
+        <checkBox refId="Value">Show Merge Cells dialog</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="EmptyMergedCells">
+        <checkBox refId="Value">Empty merged cells</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="PrintEmptyPages">

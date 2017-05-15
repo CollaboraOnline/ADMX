@@ -14,6 +14,7 @@
       <definition name="supported_LibreOffice_4_4" displayName="$(string.supported_LibreOffice_4_4)" />
       <definition name="supported_LibreOffice_5_0" displayName="$(string.supported_LibreOffice_5_0)" />
       <definition name="supported_LibreOffice_5_1" displayName="$(string.supported_LibreOffice_5_1)" />
+      <definition name="supported_LibreOffice_5_3" displayName="$(string.supported_LibreOffice_5_3)" />
     </definitions>
   </supportedOn>
   <categories>
@@ -97,6 +98,9 @@
       <parentCategory ref="Calc" />
     </category>
     <category name="Formulas" displayName="$(string.category_Formulas)">
+      <parentCategory ref="Calc" />
+    </category>
+    <category name="MergeCells" displayName="$(string.category_MergeCells)">
       <parentCategory ref="Calc" />
     </category>
     <category name="CalcPrint" displayName="$(string.Print)">
@@ -1422,7 +1426,101 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
+    <policy name="IterativeReferences" class="Both" displayName="$(string.name_IterativeReferences)" explainText="$(string.desc_IterativeReferences)" presentation="$(presentation.IterativeReferences)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\IterativeReference\Iteration">
+      <parentCategory ref="Calculate" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+        <decimal id="IterationStepsValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\IterativeReference\Steps" valueName="Value" minValue="1" maxValue="32767" storeAsText="true" />
+        <boolean id="IterationStepsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\IterativeReference\Steps" valueName="Final" />
+        <text id="IterationMinimumChangeValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\IterativeReference\MinimumChange" valueName="Value" />
+        <boolean id="IterationMinimumChangeFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\IterativeReference\MinimumChange" valueName="Final" />
+      </elements>
+    </policy>
     <policy name="CaseSensitive" class="Both" displayName="$(string.name_CaseSensitive)" explainText="$(string.desc_CaseSensitive)" presentation="$(presentation.CaseSensitive)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\Other\CaseSensitive">
+      <parentCategory ref="Calculate" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Precision" class="Both" displayName="$(string.name_Precision)" explainText="$(string.desc_Precision)" presentation="$(presentation.Precision)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\Other\Precision">
+      <parentCategory ref="Calculate" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="RegularExpressions" class="Both" displayName="$(string.name_RegularExpressions)" explainText="$(string.desc_RegularExpressions)" presentation="$(presentation.RegularExpressions)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\Other\RegularExpressions">
+      <parentCategory ref="Calculate" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Wildcards" class="Both" displayName="$(string.name_Wildcards)" explainText="$(string.desc_Wildcards)" presentation="$(presentation.Wildcards)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\Other\Wildcards">
+      <parentCategory ref="Calculate" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="SearchCriteria" class="Both" displayName="$(string.name_SearchCriteria)" explainText="$(string.desc_SearchCriteria)" presentation="$(presentation.SearchCriteria)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\Other\SearchCriteria">
+      <parentCategory ref="Calculate" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="FindLabel" class="Both" displayName="$(string.name_FindLabel)" explainText="$(string.desc_FindLabel)" presentation="$(presentation.FindLabel)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\Other\FindLabel">
       <parentCategory ref="Calculate" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
@@ -1492,6 +1590,36 @@
           </item>
         </enum>
         <boolean id="ODFFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Formula\Load\ODFRecalcMode" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="EmptyMergedCells" class="Both" displayName="$(string.name_EmptyMergedCells)" explainText="$(string.desc_EmptyMergedCells)" presentation="$(presentation.EmptyMergedCells)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Compatibility\MergeCells\ShowDialog">
+      <parentCategory ref="MergeCells" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ShowMergeDialog" class="Both" displayName="$(string.name_ShowMergeDialog)" explainText="$(string.desc_ShowMergeDialog)" presentation="$(presentation.ShowMergeDialog)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Compatibility\MergeCells\ShowDialog">
+      <parentCategory ref="MergeCells" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="CalcPrintEmptyPages" class="Both" displayName="$(string.name_PrintEmptyPages)" explainText="$(string.desc_PrintEmptyPages)" presentation="$(presentation.PrintEmptyPages)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Print\Page\EmptyPages">
