@@ -236,8 +236,6 @@ The font heights are expressed in millimeters*100, which corresponds to the poin
 
         <string id="category_Calculate">Calculate</string>
 
-        <string id="name_IterativeReferences">Iterative References</string>
-        <string id="desc_IterativeReferences">Specifies whether iterative calculation is used for formulas with circular references.</string>
         <string id="name_CaseSensitive">Case Sensitive</string>
         <string id="desc_CaseSensitive">Distinguish between upper and lower case in texts when comparing cell contents</string>
         <string id="name_Precision">Precision as shown</string>
@@ -263,8 +261,8 @@ The font heights are expressed in millimeters*100, which corresponds to the poin
         <string id="category_MergeCells">Merge Cells</string>
         <string id="name_ShowMergeDialog">Show Merge Cells dialog</string>
         <string id="desc_ShowMergeDialog">Specifies whether the Merge Cells dialog box is shown, when some cells are not empty.</string>
-        <string id="name_EmptyMergedCells">Empty merged cells</string>
         <string id="desc_EmptyMergedCells">Specifies whether to empty the contents of the hidden cells (like Excel does).</string>
+        <string id="name_EmptyMergedCells">Empty merged cells</string>
 
         <string id="category_Impress">Impress</string>
         <string id="odp">ODF Presentation</string>
@@ -735,16 +733,6 @@ Set paths in path lists have to be separated by spaces.</string>
           <label>Path list: </label>
         </textBox>
         <checkBox refId="Final">Final</checkBox>
-      </presentation>
-      <presentation id="IterativeReferences">
-        <checkBox refId="Value">Iterations</checkBox>
-        <checkBox refId="Final">Final</checkBox>
-        <decimalTextBox refId="IterationStepsValue" defaultValue="100" spin="true">Steps [1..32767]</decimalTextBox>
-        <checkBox refId="IterationStepsFinal">Final</checkBox>
-        <textBox refId="IterationMinimumChangeValue">
-          <label>Minimum change</label>
-        </textBox>
-        <checkBox refId="IterationMinimumChangeFinal">Final</checkBox>
       </presentation>
       <presentation id="CaseSensitive">
         <checkBox refId="Value">Case sensitive</checkBox>

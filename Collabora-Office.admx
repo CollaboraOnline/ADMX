@@ -1426,25 +1426,6 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-    <policy name="IterativeReferences" class="Both" displayName="$(string.name_IterativeReferences)" explainText="$(string.desc_IterativeReferences)" presentation="$(presentation.IterativeReferences)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\IterativeReference\Iteration">
-      <parentCategory ref="Calculate" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
-      <elements>
-        <boolean id="Value" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
-        <boolean id="Final" valueName="Final" />
-        <decimal id="IterationStepsValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\IterativeReference\Steps" valueName="Value" minValue="1" maxValue="32767" storeAsText="true" />
-        <boolean id="IterationStepsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\IterativeReference\Steps" valueName="Final" />
-        <text id="IterationMinimumChangeValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\IterativeReference\MinimumChange" valueName="Value" />
-        <boolean id="IterationMinimumChangeFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\IterativeReference\MinimumChange" valueName="Final" />
-      </elements>
-    </policy>
     <policy name="CaseSensitive" class="Both" displayName="$(string.name_CaseSensitive)" explainText="$(string.desc_CaseSensitive)" presentation="$(presentation.CaseSensitive)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Calculate\Other\CaseSensitive">
       <parentCategory ref="Calculate" />
       <supportedOn ref="supported_LibreOffice_4_2" />
