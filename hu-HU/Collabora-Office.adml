@@ -12,15 +12,15 @@
         <string id="supported_LibreOffice_4_4">LibreOffice-from-Collabora 4.4 vagy újabb</string>
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 vagy újabb</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 vagy újabb</string>
-        <string id="supported_LibreOffice_5_3">Collabora Office 5.3 or higher</string>
+        <string id="supported_LibreOffice_5_3">Collabora Office 5.3 vagy újabb</string>
         <string id="category_LibreOffice">Collabora Office</string>
         <string id="category_Common">Közös</string>
 
         <string id="category_General">Általános</string>
         <string id="name_UseSystemFileDialog">A rendszer fájl párbeszédablakának használata</string>
         <string id="desc_UseSystemFileDialog">Megadja, hogy a Windows fájl- és mappaválasztó ablakát kell-e használni. Ha hamis, a beépített platformfüggetlen fájl- és mappaválasztó ablakok lesznek használva.</string>
-        <string id="name_CollectUsageInformation">Help improve LibreOffice</string>
-        <string id="desc_CollectUsageInformation">Collect usage data and send it to The Document Foundation</string>
+        <string id="name_CollectUsageInformation">Segítsen a LibreOffice tökéletesítésében</string>
+        <string id="desc_CollectUsageInformation">Felhasználási adatok gyűjtése és elküldése a The Document Foundationnek</string>
 
         <string id="category_ProductName">Termék neve</string>
         <string id="name_ooName">Termék neve (ooName)</string>
@@ -235,24 +235,24 @@ A betűmagasságot a milliméter*100 egység fejezi ki, ami a pontban megadott m
         <string id="xlsx">Microsoft Excel 2007/2010 XML</string>
         <string id="xls">Microsoft Excel (*.xls)</string>
 
-        <string id="category_Calculate">Calculate</string>
+        <string id="category_Calculate">Számítás</string>
 
-        <string id="name_CaseSensitive">Case Sensitive</string>
+        <string id="name_CaseSensitive">Kis- és nagybetűk megkülönböztetése</string>
         <string id="desc_CaseSensitive">Distinguish between upper and lower case in texts when comparing cell contents</string>
-        <string id="name_Precision">Precision as shown</string>
+        <string id="name_Precision">A belső pontosság a kijelzett pontossággal egyezzen meg</string>
         <string id="desc_Precision">Specifies whether the calculation uses the rounded values displayed in the sheet.</string>
-        <string id="name_SearchCriteria">Search criteria = and &lt;&gt; must apply to whole cells</string>
+        <string id="name_SearchCriteria">Az = és a &lt;&gt; keresési feltétel csak teljes cellán alkalmazható</string>
         <string id="desc_SearchCriteria">Specifies whether search criteria in formulas must match the whole of the cell contents.</string>
-        <string id="name_FindLabel">Automatically find column and row labels</string>
+        <string id="name_FindLabel">Oszlop- és sorcímkék automatikus megkeresése</string>
         <string id="desc_FindLabel">Specifies whether column and row labels are used to refer to the column area beneath the text cell or to the row area at the right of the text cell while running a search.</string>
-        <string id="name_RegularExpressions">Regular expressions in formulas</string>
+        <string id="name_RegularExpressions">Reguláris kifejezések engedélyezése a képletekben</string>
         <string id="desc_RegularExpressions">Specifies whether the calculation uses regular expressions in formulas, e.g. for functions which look up sheet contents.</string>
-        <string id="name_Wildcards">Wildcards in formulas</string>
+        <string id="name_Wildcards">Helyettesítő karakterek engedélyezése a képletekben</string>
         <string id="desc_Wildcards">Specifies whether the calculation uses wildcards in formulas, e.g. for functions which look up sheet contents.</string>
 
         <string id="category_Formulas">Képletek</string>
         <string id="name_EnglishFunctionName">Angol függvénynevek használata</string>
-        <string id="desc_EnglishFunctionName">Use English function names even when user interface is localized.</string>
+        <string id="desc_EnglishFunctionName">Angol függvénynevek használata lokalizált felület esetén is</string>
         <string id="name_RecalcMode">Táblázatok újraszámolása betöltéskor</string>
         <string id="desc_RecalcMode">Megadja, hogy ki kell-e kényszeríteni a képletcellák újraszámolását a nem LibreOffice által generált ODF-ek és/vagy OOXML-alapú Excel dokumentumok (2007 és újabb) betöltésekor.</string>
         <string id="alwaysrecalc">Újraszámolás mindig</string>
@@ -441,7 +441,7 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="CollectUsageInformation">
-        <checkBox refId="Value">Collect usage data and send it to The Document Foundation</checkBox>
+        <checkBox refId="Value">Felhasználási adatok gyűjtése és elküldése a The Document Foundationnek</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
@@ -736,19 +736,19 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="CaseSensitive">
-        <checkBox refId="Value">Case sensitive</checkBox>
+        <checkBox refId="Value">Kis- és nagybetűk megkülönböztetése</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="Precision">
-        <checkBox refId="Value">Precision as shown</checkBox>
+        <checkBox refId="Value">A belső pontosság a kijelzett pontossággal egyezzen meg</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="SearchCriteria">
-        <checkBox refId="Value">Search criteria = and &lt;&gt; must apply to whole cells</checkBox>
+        <checkBox refId="Value">Az = és a &lt;&gt; keresési feltétel csak teljes cellán alkalmazható</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="FindLabel">
-        <checkBox refId="Value">Automatically find column and row labels</checkBox>
+        <checkBox refId="Value">Oszlop- és sorcímkék automatikus megkeresése</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="RegularExpressions">
