@@ -12,12 +12,15 @@
         <string id="supported_LibreOffice_4_4">LibreOffice-from-Collabora 4.4 vagy újabb</string>
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 vagy újabb</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 vagy újabb</string>
+        <string id="supported_LibreOffice_5_3">Collabora Office 5.3 vagy újabb</string>
         <string id="category_LibreOffice">Collabora Office</string>
         <string id="category_Common">Közös</string>
 
         <string id="category_General">Általános</string>
         <string id="name_UseSystemFileDialog">A rendszer fájl párbeszédablakának használata</string>
         <string id="desc_UseSystemFileDialog">Megadja, hogy a Windows fájl- és mappaválasztó ablakát kell-e használni. Ha hamis, a beépített platformfüggetlen fájl- és mappaválasztó ablakok lesznek használva.</string>
+        <string id="name_CollectUsageInformation">Segítsen a LibreOffice tökéletesítésében</string>
+        <string id="desc_CollectUsageInformation">Felhasználási adatok gyűjtése és elküldése a The Document Foundationnek</string>
 
         <string id="category_ProductName">Termék neve</string>
         <string id="name_ooName">Termék neve (ooName)</string>
@@ -33,6 +36,8 @@
         <string id="desc_CreateBackup">Mindig készítsen biztonsági másolatot</string>
         <string id="name_EditProperty">Dokumentumjellemzők szerkesztése mentés előtt</string>
         <string id="desc_EditProperty">Megadja, hogy a Mentés másként parancs kiválasztásakor mindig jelenjen meg a Tulajdonságok párbeszédablak.</string>
+        <string id="name_WarnAlienFormat">Figyelmeztesse a felhasználót az ODF-től vagy az alapértelmezettől eltérő formátumban mentéskor.</string>
+        <string id="desc_WarnAlienFormat">Megadja, hogy a mentési formátum eltér-e az ODF-től vagy az alapértelmezettől.</string>
         <string id="name_HTMLExportBrowser">HTML-export böngészőkompatibilitása</string>
         <string id="desc_HTMLExportBrowser">Megadja, hogy melyik böngészőre legyen a HTML-export optimalizálva</string>
         <string id="IE">Internet Explorer</string>
@@ -118,13 +123,13 @@ Alapértelmezés: Magas.</string>
         <string id="desc_DisableMacrosExecution">Megadja, hogy a makróvégrehajtás általánosságban le van-e tiltva. Ha igazra van állítva, akkor a MacroSecurityLevel figyelmen kívül marad. Ha hamis, akkor az említett bejegyzés adja meg a makróbiztonság szintjét.
 
 Alapértelmezés: Makrók engedélyezése</string>
-        <string id="name_EnableExpertConfiguration">Enable Expert Configuration</string>
-        <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
+        <string id="name_EnableExpertConfiguration">Speciális beállítások engedélyezése</string>
+        <string id="desc_EnableExpertConfiguration">Megadja, hogy a felhasználó hozzáfér-e minden beállításhoz a Speciális beállítások gombbal.</string>
         <string id="name_SecureURL">Megbízható fájlelérési útvonalak</string>
 
         <string id="category_OpenCL">OpenCL</string>
-        <string id="name_UseOpenCL">Use OpenCL</string>
-        <string id="desc_UseOpenCL">Determines whether OpenCL can be used, when available, to speed up some operations.</string>
+        <string id="name_UseOpenCL">OpenCL használata</string>
+        <string id="desc_UseOpenCL">Megadja, hogy az OpenCL használható-e bizonyos műveletek felgyorsítására, ha rendelkezésre áll.</string>
 
         <string id="UserProfile">Felhasználó adatai</string>
         <string id="desc_UserProfile">Felhasználói adatok (Cégnév, cím, telefonszám, fax)</string>
@@ -153,10 +158,10 @@ Alapértelmezés: Makrók engedélyezése</string>
         <string id="hicontrast">Nagy kontraszt</string>
         <string id="small">Kicsi</string>
         <string id="large">Nagy</string>
-        <string id="name_UseOpenGL">Use OpenGL</string>
-        <string id="desc_UseOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it.</string>
-        <string id="name_ForceOpenGL">Force OpenGL</string>
-        <string id="desc_ForceOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it. This one forces the use of OpenGL even if the blacklist would block the OpenGL driver.</string>
+        <string id="name_UseOpenGL">OpenGL használata</string>
+        <string id="desc_UseOpenGL">Megadja, hogy használandó-e az OpenGL megjelenítés az azt támogató VCL háttérprogramokban.</string>
+        <string id="name_ForceOpenGL">OpenGL kényszerítése</string>
+        <string id="desc_ForceOpenGL">Megadja, hogy használandó-e az OpenGL megjelenítés az azt támogató VCL háttérprogramokban. Ez akkor is kényszeríti az OpenGL használatát, ha a feketelista blokkolná az OpenGL illesztőprogramot.</string>
 
         <string id="category_Print">Nyomtatás</string>
         <string id="name_ConvertToGreyscales">Színek konvertálása szürkeárnyalatra</string>
@@ -197,6 +202,10 @@ Alapértelmezés: Makrók engedélyezése</string>
         <string id="name_FontPair_9">9. betűpár</string>
         <string id="desc_FontPair">Betűhelyettesítési pár megadása</string>
 
+        <string id="category_PDFExport">PDF-támogatás</string>
+        <string id="name_SelectPDFExport">Válassza ki a használandó PDF exportálási beállításokat</string>
+        <string id="desc_SelectPDFExport">Válassza ki az alapértelmezett PDF exportálási beállításokat</string>
+
         <string id="category_Writer">Writer</string>
         <string id="desc_SaveAsFormat">Mentés mindig ebbe a dokumentumformátumba. Ne feledje, hogy csak az Open Document Format (ODF) garantál teljes adatintegritást.</string>
         <string id="odt">ODF-szövegesdokumentum</string>
@@ -226,6 +235,21 @@ A betűmagasságot a milliméter*100 egység fejezi ki, ami a pontban megadott m
         <string id="xlsx">Microsoft Excel 2007/2010 XML</string>
         <string id="xls">Microsoft Excel (*.xls)</string>
 
+        <string id="category_Calculate">Számítás</string>
+
+        <string id="name_CaseSensitive">Kis- és nagybetűk megkülönböztetése</string>
+        <string id="desc_CaseSensitive">Distinguish between upper and lower case in texts when comparing cell contents</string>
+        <string id="name_Precision">A belső pontosság a kijelzett pontossággal egyezzen meg</string>
+        <string id="desc_Precision">Specifies whether the calculation uses the rounded values displayed in the sheet.</string>
+        <string id="name_SearchCriteria">Az = és a &lt;&gt; keresési feltétel csak teljes cellán alkalmazható</string>
+        <string id="desc_SearchCriteria">Specifies whether search criteria in formulas must match the whole of the cell contents.</string>
+        <string id="name_FindLabel">Oszlop- és sorcímkék automatikus megkeresése</string>
+        <string id="desc_FindLabel">Specifies whether column and row labels are used to refer to the column area beneath the text cell or to the row area at the right of the text cell while running a search.</string>
+        <string id="name_RegularExpressions">Reguláris kifejezések engedélyezése a képletekben</string>
+        <string id="desc_RegularExpressions">Specifies whether the calculation uses regular expressions in formulas, e.g. for functions which look up sheet contents.</string>
+        <string id="name_Wildcards">Helyettesítő karakterek engedélyezése a képletekben</string>
+        <string id="desc_Wildcards">Specifies whether the calculation uses wildcards in formulas, e.g. for functions which look up sheet contents.</string>
+
         <string id="category_Formulas">Képletek</string>
         <string id="name_EnglishFunctionName">Angol függvénynevek használata</string>
         <string id="desc_EnglishFunctionName">Angol függvénynevek használata lokalizált felület esetén is</string>
@@ -234,6 +258,12 @@ A betűmagasságot a milliméter*100 egység fejezi ki, ami a pontban megadott m
         <string id="alwaysrecalc">Újraszámolás mindig</string>
         <string id="neverrecalc">Ne számolja újra</string>
         <string id="promptrecalc">Felhasználó megkérdezése</string>
+
+        <string id="category_MergeCells">Merge Cells</string>
+        <string id="name_ShowMergeDialog">Show Merge Cells dialog</string>
+        <string id="desc_ShowMergeDialog">Specifies whether the Merge Cells dialog box is shown, when some cells are not empty.</string>
+        <string id="desc_EmptyMergedCells">Specifies whether to empty the contents of the hidden cells (like Excel does).</string>
+        <string id="name_EmptyMergedCells">Empty merged cells</string>
 
         <string id="category_Impress">Impress</string>
         <string id="odp">ODF-bemutató</string>
@@ -298,6 +328,10 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
       </presentation>
       <presentation id="EditProperty">
         <checkBox refId="Value">Dokumentumjellemzők szerkesztése mentés előtt</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="WarnAlienFormat">
+        <checkBox refId="Value">Figyelmeztesse a felhasználót az ODF-től vagy az alapértelmezettől eltérő formátumban mentéskor.</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="AutoCorrect">
@@ -404,6 +438,10 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
       </presentation>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">A rendszer fájl párbeszédablakának használata</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="CollectUsageInformation">
+        <checkBox refId="Value">Felhasználási adatok gyűjtése és elküldése a The Document Foundationnek</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
@@ -687,14 +725,46 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="EnableExpertConfiguration">
-        <checkBox refId="Value">Enable Expert Configuration</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Value">Speciális beállítások engedélyezése</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="SecureURL">
         <text>A dokumentum makrói mindig futtathatók, ha a következő helyek egyikéről nyitják meg a dokumentumot.</text>
         <textBox refId="Value">
           <label>Útvonallista:</label>
         </textBox>
+        <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="CaseSensitive">
+        <checkBox refId="Value">Kis- és nagybetűk megkülönböztetése</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="Precision">
+        <checkBox refId="Value">A belső pontosság a kijelzett pontossággal egyezzen meg</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="SearchCriteria">
+        <checkBox refId="Value">Az = és a &lt;&gt; keresési feltétel csak teljes cellán alkalmazható</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="FindLabel">
+        <checkBox refId="Value">Oszlop- és sorcímkék automatikus megkeresése</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="RegularExpressions">
+        <checkBox refId="Value">Enable regular expressions in formulas</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="Wildcards">
+        <checkBox refId="Value">Enable wildcards in formulas</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="ShowMergeDialog">
+        <checkBox refId="Value">Show Merge Cells dialog</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="EmptyMergedCells">
+        <checkBox refId="Value">Empty merged cells</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="PrintEmptyPages">
@@ -723,16 +793,16 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
         <checkBox refId="SizeFinal">Végleges</checkBox>
       </presentation>
       <presentation id="UseOpenCL">
-        <checkBox refId="Value">Allow use of OpenCL</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Value">Az OpenCL használatának engedélyezése</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="UseOpenGL">
-        <checkBox refId="Value">Use OpenGL for all rendering</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Value">Az OpenGL használata minden megjelenítéshez</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="ForceOpenGL">
-        <checkBox refId="Value">Force OpenGL even if blacklisted</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Value">Az OpenGL kényszerítése, még ha feketelistán is van</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
         <checkBox refId="Value">Színek konvertálása szürkeárnyalatra</checkBox>
@@ -796,6 +866,10 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
           <label>Helyettesítő betűkészlet:</label>
         </textBox>
         <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="SelectPDFExport">
+          <checkBox refId="Value">Minden PDF exportálása PDF/A-ként</checkBox>
+          <checkBox refId="Final">Végleges</checkBox>
       </presentation>
     </presentationTable>
   </resources>

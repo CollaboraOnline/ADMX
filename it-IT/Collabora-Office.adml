@@ -14,12 +14,15 @@
         <string id="supported_LibreOffice_4_4">LibreOffice-from-Collabora 4.4 o superiore</string>
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 o superiore</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 o superiore</string>
+        <string id="supported_LibreOffice_5_3">Collabora Office 5.3 or higher</string>
         <string id="category_LibreOffice">Collabora Office</string>
         <string id="category_Common">Comune</string>
 
         <string id="category_General">Generale</string>
         <string id="name_UseSystemFileDialog">Utilizza le finestre di dialogo di sistema</string>
         <string id="desc_UseSystemFileDialog">Specifica se vengono utilizzate le finestre di dialogo di apertura file e cartelle di Windows. Se falso, saranno utilizzate quelle implementate in LibreOffice.</string>
+        <string id="name_CollectUsageInformation">Aiutaci a migliorare LibreOffice</string>
+        <string id="desc_CollectUsageInformation">Raccogli i dati di utilizzo e inviali a The Document Foundation</string>
 
         <string id="category_ProductName">Nome dell'applicazione</string>
         <string id="name_ooName">Nome del prodotto (ooName)</string>
@@ -234,14 +237,35 @@ Le altezze dei caratteri sono espresse in millimetri*100, che corrispondono alla
         <string id="xlsx">Microsoft Excel 2007/2010 XML</string>
         <string id="xls">Microsoft Excel 97-2003 XLS</string>
 
+        <string id="category_Calculate">Calcola</string>
+
+        <string id="name_CaseSensitive">Differenzia tra maiuscole e minuscole</string>
+        <string id="desc_CaseSensitive">Distingui nel testo tra maiuscole e minuscole comparando il contenuto delle celle</string>
+        <string id="name_Precision">Precision as shown</string>
+        <string id="desc_Precision">Specifies whether the calculation uses the rounded values displayed in the sheet.</string>
+        <string id="name_SearchCriteria">Search criteria = and &lt;&gt; must apply to whole cells</string>
+        <string id="desc_SearchCriteria">Specifies whether search criteria in formulas must match the whole of the cell contents.</string>
+        <string id="name_FindLabel">Automatically find column and row labels</string>
+        <string id="desc_FindLabel">Specifies whether column and row labels are used to refer to the column area beneath the text cell or to the row area at the right of the text cell while running a search.</string>
+        <string id="name_RegularExpressions">Regular expressions in formulas</string>
+        <string id="desc_RegularExpressions">Specifies whether the calculation uses regular expressions in formulas, e.g. for functions which look up sheet contents.</string>
+        <string id="name_Wildcards">Wildcards in formulas</string>
+        <string id="desc_Wildcards">Specifies whether the calculation uses wildcards in formulas, e.g. for functions which look up sheet contents.</string>
+
         <string id="category_Formulas">Formule</string>
         <string id="name_EnglishFunctionName">Usa i nomi inglesi delle funzioni</string>
-        <string id="desc_EnglishFunctionName">Utilizza i nomi in inglese delle funzioni anche quando l'interfaccia è localizzata</string>
+        <string id="desc_EnglishFunctionName">Use English function names even when user interface is localized.</string>
         <string id="name_RecalcMode">Ricalcola le formule dei fogli all'apertura</string>
         <string id="desc_RecalcMode">Specifica se ricalcolare automaticamente le formule nelle celle in documenti ODF non generati da LibreOffice e/o nei documenti in OOXML (MSO 2007 e successivi).</string>
         <string id="alwaysrecalc">Ricalcola sempre</string>
         <string id="neverrecalc">Non ricalcolare mai</string>
         <string id="promptrecalc">Chiedi all'utente</string>
+
+        <string id="category_MergeCells">Merge Cells</string>
+        <string id="name_ShowMergeDialog">Show Merge Cells dialog</string>
+        <string id="desc_ShowMergeDialog">Specifies whether the Merge Cells dialog box is shown, when some cells are not empty.</string>
+        <string id="desc_EmptyMergedCells">Specifies whether to empty the contents of the hidden cells (like Excel does).</string>
+        <string id="name_EmptyMergedCells">Empty merged cells</string>
 
         <string id="category_Impress">Impress</string>
         <string id="odp">Presentazione ODF</string>
@@ -414,6 +438,10 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       </presentation>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">Utilizza le finestre di dialogo di sistema</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="CollectUsageInformation">
+        <checkBox refId="Value">Raccogli i dati di utilizzo e inviali a The Document Foundation</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
@@ -705,6 +733,38 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <textBox refId="Value">
           <label>Elenco dei percorsi:</label>
         </textBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="CaseSensitive">
+        <checkBox refId="Value">Differenzia tra maiuscole e minuscole</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Precision">
+        <checkBox refId="Value">Precision as shown</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="SearchCriteria">
+        <checkBox refId="Value">Search criteria = and &lt;&gt; must apply to whole cells</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="FindLabel">
+        <checkBox refId="Value">Automatically find column and row labels</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="RegularExpressions">
+        <checkBox refId="Value">Enable regular expressions in formulas</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Wildcards">
+        <checkBox refId="Value">Enable wildcards in formulas</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="ShowMergeDialog">
+        <checkBox refId="Value">Show Merge Cells dialog</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="EmptyMergedCells">
+        <checkBox refId="Value">Empty merged cells</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="PrintEmptyPages">
