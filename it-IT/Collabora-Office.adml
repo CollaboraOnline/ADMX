@@ -241,7 +241,7 @@ Le altezze dei caratteri sono espresse in millimetri*100, che corrispondono alla
         <string id="desc_CaseSensitive">Distingui nel testo tra maiuscole e minuscole comparando il contenuto delle celle</string>
         <string id="name_Precision">Precisione come mostrata</string>
         <string id="desc_Precision">Specifica se i calcoli utilizzano i valori arrotondati come nel foglio</string>
-        <string id="name_SearchCriteria">I criterio di ricerca = e &lt;&gt; devono riferirsi a celle intere</string>
+        <string id="name_SearchCriteria">I criteri di ricerca = e &lt;&gt; devono riferirsi a celle intere</string>
         <string id="desc_SearchCriteria">Specifica se i criteri di ricerca nelle formule devono corrispondere a tutto il contenuto della cella.</string>
         <string id="name_FindLabel">Trova automticamente etichette di righe e colonne</string>
         <string id="desc_FindLabel">Specifica se le etichette di colonna e riga sono utilizzate per fare riferimento all'area della colonna sotto la cella di testo o all'area di riga a destra della cella di testo durante la ricerca.</string>
@@ -742,7 +742,7 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="SearchCriteria">
-        <checkBox refId="Value">I criterio di ricerca = e &lt;&gt; devono riferirsi a celle intere</checkBox>
+        <checkBox refId="Value">I criteri di ricerca = e &lt;&gt; devono riferirsi a celle intere</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="FindLabel">
