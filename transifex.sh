@@ -2,14 +2,22 @@
 
 read -p "Enter Transifex user name: " user
 read -s -p "Password: " password
-
+url="https://www.transifex.com/api/2/project/collabora-office-libreoffice-windows-group-policy-template-amdx/resource/collabora-office-admlpot/translation"
+ 
 for i in it hu fr es
 do
-	curl -L --user $user:$password -X GET "https://www.transifex.com/api/2/project/collabora-office-libreoffice-windows-group-policy-template-amdx/resource/collabora-office-admlpot/translation/$i/?mode=default&file" -o $i.po
-	msgfmt -cvo $i.mo $i.po
-	itstool -m $i.mo -o $i-* en-US/Collabora-Office.adml
-	unix2dos $i-*/Collabora-Office.adml
-	rm $i.po $i.mo
+	l10nUrl="$url/$i/?mode=default&file"
+	connectionResponse=$(curl -L --user $user:$password -X GET $l10nUrl);
+	if [ "Authorization Required" == "${connectionResponse}" ]; then
+		echo -e "\nERROR - $connectionResponse - ERROR\n"
+		exit 1
+	else
+		curl -L --user $user:$password -X GET $l10nUrl -o $i.po
+		msgfmt -cvo $i.mo $i.po
+		itstool -m $i.mo -o $i-* en-US/Collabora-Office.adml
+		unix2dos $i-*/Collabora-Office.adml
+		rm $i.po $i.mo
+	fi
 done
 
 patch -p1 << 'EOF'
