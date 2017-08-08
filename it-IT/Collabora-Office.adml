@@ -532,7 +532,7 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="WriterDefaultFontsWesternHeadingFontNameFinal">Finale</checkBox>
         <decimalTextBox refId="WriterDefaultFontsWesternHeadingFontSizeValue" defaultValue="494" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsWesternHeadingFontSizeFinal">Finale</checkBox>
-        <text>List</text>
+        <text>Elenco</text>
         <textBox refId="WriterDefaultFontsWesternListFontNameValue">
           <label>Carattere:</label>
         </textBox>
@@ -569,7 +569,7 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="WriterDefaultFontsCJKHeadingFontNameFinal">Finale</checkBox>
         <decimalTextBox refId="WriterDefaultFontsCJKHeadingFontSizeValue" defaultValue="494" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsCJKHeadingFontSizeFinal">Finale</checkBox>
-        <text>List</text>
+        <text>Elenco</text>
         <textBox refId="WriterDefaultFontsCJKListFontNameValue">
           <label>Carattere:</label>
         </textBox>
@@ -606,7 +606,7 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="WriterDefaultFontsCTLHeadingFontNameFinal">Finale</checkBox>
         <decimalTextBox refId="WriterDefaultFontsCTLHeadingFontSizeValue" defaultValue="494" spin="true">Dimensione:</decimalTextBox>
         <checkBox refId="WriterDefaultFontsCTLHeadingFontSizeFinal">Finale</checkBox>
-        <text>List</text>
+        <text>Elenco</text>
         <textBox refId="WriterDefaultFontsCTLListFontNameValue">
           <label>Carattere:</label>
         </textBox>
