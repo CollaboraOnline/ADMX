@@ -34,6 +34,8 @@
         <string id="desc_UseUserData">Utilizza i dati utente per le proprietà del documento</string>
         <string id="name_AutoSave">Salvataggio automatico</string>
         <string id="desc_AutoSave">Salva le informazioni di ripristino automatico ogni __ minuti</string>
+        <string id="name_RecoveryInfo">Disabilita il ripristino automatico dei documenti</string>
+        <string id="desc_RecoveryInfo">Disabilita il ripristino automatico dei documenti in caso di arresto anomalo di LibreOffice</string>
         <string id="name_CreateBackup">Crea Backup</string>
         <string id="desc_CreateBackup">Crea sempre la copia di backup</string>
         <string id="name_EditProperty">Modifica le proprietà del documento prima di salvare</string>
@@ -321,6 +323,10 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="AutoSaveTimeIntervallFinal">Finale</checkBox>
         <checkBox refId="AutoSavePromptValue">Salva automaticamente anche il documento</checkBox>
         <checkBox refId="AutoSavePromptFinal">Finale</checkBox>
+      </presentation>
+      <presentation id="RecoveryInfo">
+        <checkBox refId="Value">Disabilita il ripristino automatico</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="CreateBackup">
         <checkBox refId="Value">Crea sempre la copia di backup</checkBox>

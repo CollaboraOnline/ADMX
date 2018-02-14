@@ -32,6 +32,8 @@
         <string id="desc_UseUserData">Felhasználói adatok használata a dokumentum tulajdonságaiban</string>
         <string id="name_AutoSave">Automatikus mentés</string>
         <string id="desc_AutoSave">Automatikus helyreállítási adatok mentése ennyi percenként</string>
+        <string id="name_RecoveryInfo">Disable the autorecovery feature</string>
+        <string id="desc_RecoveryInfo">Disable the autorecovery feature in case of crashes</string>
         <string id="name_CreateBackup">Biztonsági másolat készítése</string>
         <string id="desc_CreateBackup">Mindig készítsen biztonsági másolatot</string>
         <string id="name_EditProperty">Dokumentumjellemzők szerkesztése mentés előtt</string>
@@ -321,6 +323,10 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
         <checkBox refId="AutoSaveTimeIntervallFinal">Végleges</checkBox>
         <checkBox refId="AutoSavePromptValue">A dokumentum automatikus mentése</checkBox>
         <checkBox refId="AutoSavePromptFinal">Végleges</checkBox>
+      </presentation>
+      <presentation id="RecoveryInfo">
+        <checkBox refId="Value">Disable the autorecovery feature</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="CreateBackup">
         <checkBox refId="Value">Mindig készítsen biztonsági másolatot</checkBox>
