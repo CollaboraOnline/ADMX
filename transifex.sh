@@ -3,8 +3,9 @@
 read -p "Enter Transifex user name: " user
 read -s -p "Password: " password
 url="https://www.transifex.com/api/2/project/collabora-office-libreoffice-windows-group-policy-template-amdx/resource/collabora-office-admlpot/translation"
+declare -a langs=("it" "hu" "fr" "es")
 
-for i in it hu fr es
+for i in ${langs[@]}
 do
 	l10nUrl="$url/$i/?mode=default&file"
 	connectionResponse=$(curl -L --user $user:$password -X GET $l10nUrl);

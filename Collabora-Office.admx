@@ -205,6 +205,21 @@
         <boolean id="AutoSavePromptFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Save\Document\AutoSavePrompt" valueName="Final" />
       </elements>
     </policy>
+    <policy name="RecoveryInfo" class="Both" displayName="$(string.name_RecoveryInfo)" explainText="$(string.desc_RecoveryInfo)" presentation="$(presentation.RecoveryInfo)" key="Software\Policies\LibreOffice\org.openoffice.Office.Recovery\RecoveryInfo\Enabled">
+      <parentCategory ref="LoadandSave" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
     <policy name="CreateBackup" class="Both" displayName="$(string.name_CreateBackup)" explainText="$(string.desc_CreateBackup)" presentation="$(presentation.CreateBackup)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Save\Document\CreateBackup">
       <parentCategory ref="LoadandSave" />
       <supportedOn ref="supported_LibreOffice_4_2" />
