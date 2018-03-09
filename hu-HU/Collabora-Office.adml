@@ -238,17 +238,17 @@ A betűmagasságot a milliméter*100 egység fejezi ki, ami a pontban megadott m
         <string id="category_Calculate">Számítás</string>
 
         <string id="name_CaseSensitive">Kis- és nagybetűk megkülönböztetése</string>
-        <string id="desc_CaseSensitive">Distinguish between upper and lower case in texts when comparing cell contents</string>
+        <string id="desc_CaseSensitive">Cellatartalom összehasonlításakor a kis- és nagybetűk megkülönböztetése.</string>
         <string id="name_Precision">A belső pontosság a kijelzett pontossággal egyezzen meg</string>
-        <string id="desc_Precision">Specifies whether the calculation uses the rounded values displayed in the sheet.</string>
+        <string id="desc_Precision">Megadja, hogy a számítás használja-e a munkalapon megjelenített kerekített értékeket.</string>
         <string id="name_SearchCriteria">Az = és a &lt;&gt; keresési feltétel csak teljes cellán alkalmazható</string>
-        <string id="desc_SearchCriteria">Specifies whether search criteria in formulas must match the whole of the cell contents.</string>
+        <string id="desc_SearchCriteria">Megadja, hogy  képletek keresési feltételeinek meg kell-e egyezniük a teljes cellatartalommal.</string>
         <string id="name_FindLabel">Oszlop- és sorcímkék automatikus megkeresése</string>
-        <string id="desc_FindLabel">Specifies whether column and row labels are used to refer to the column area beneath the text cell or to the row area at the right of the text cell while running a search.</string>
+        <string id="desc_FindLabel">Megadja, hogy az oszlop- és sorcímkék használandók-e a szöveg cellája alatti oszlopterületre vagy a szöveg cellájától jobbra lévő sorterületre hivatkozáskor kereséskor.</string>
         <string id="name_RegularExpressions">Reguláris kifejezések engedélyezése a képletekben</string>
-        <string id="desc_RegularExpressions">Specifies whether the calculation uses regular expressions in formulas, e.g. for functions which look up sheet contents.</string>
+        <string id="desc_RegularExpressions">Megadja, hogy a számítás használ-e reguláris kifejezéseket a képletekben, például a munkalap-tartalmakat kikereső függvényekhez.</string>
         <string id="name_Wildcards">Helyettesítő karakterek engedélyezése a képletekben</string>
-        <string id="desc_Wildcards">Specifies whether the calculation uses wildcards in formulas, e.g. for functions which look up sheet contents.</string>
+        <string id="desc_Wildcards">Megadja, hogy a számítás használ-e helyettesítő karaktereket a képletekben, például a munkalap-tartalmakat kikereső függvényekhez.</string>
 
         <string id="category_Formulas">Képletek</string>
         <string id="name_EnglishFunctionName">Angol függvénynevek használata</string>
@@ -259,11 +259,11 @@ A betűmagasságot a milliméter*100 egység fejezi ki, ami a pontban megadott m
         <string id="neverrecalc">Ne számolja újra</string>
         <string id="promptrecalc">Felhasználó megkérdezése</string>
 
-        <string id="category_MergeCells">Merge Cells</string>
-        <string id="name_ShowMergeDialog">Show Merge Cells dialog</string>
-        <string id="desc_ShowMergeDialog">Specifies whether the Merge Cells dialog box is shown, when some cells are not empty.</string>
-        <string id="desc_EmptyMergedCells">Specifies whether to empty the contents of the hidden cells (like Excel does).</string>
-        <string id="name_EmptyMergedCells">Empty merged cells</string>
+        <string id="category_MergeCells">Cellák egyesítése</string>
+        <string id="name_ShowMergeDialog">A Cellák egyesítése ablak megjelenítése</string>
+        <string id="desc_ShowMergeDialog">Megadja, hogy megjelenjen-e a Cellák egyesítése ablak, ha néhány cella nem üres.</string>
+        <string id="desc_EmptyMergedCells">Megadja, hogy az elrejtett cellák tartalma törlendő-e (ahogyan az Excel is teszi).</string>
+        <string id="name_EmptyMergedCells">Egyesített cellák törlése</string>
 
         <string id="category_Impress">Impress</string>
         <string id="odp">ODF-bemutató</string>
@@ -752,19 +752,19 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="RegularExpressions">
-        <checkBox refId="Value">Enable regular expressions in formulas</checkBox>
+        <checkBox refId="Value">Reguláris kifejezések engedélyezése képletekben</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="Wildcards">
-        <checkBox refId="Value">Enable wildcards in formulas</checkBox>
+        <checkBox refId="Value">Helyettesítő karakterek engedélyezése képletekben</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="ShowMergeDialog">
-        <checkBox refId="Value">Show Merge Cells dialog</checkBox>
+        <checkBox refId="Value">A Cellák egyesítése ablak megjelenítése</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="EmptyMergedCells">
-        <checkBox refId="Value">Empty merged cells</checkBox>
+        <checkBox refId="Value">Egyesített cellák törlése</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="PrintEmptyPages">

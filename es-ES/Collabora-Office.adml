@@ -12,15 +12,15 @@
         <string id="supported_LibreOffice_4_4">LibreOffice-from-Collabora 4.4 o más reciente</string>
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 o más reciente</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 o más reciente</string>
-        <string id="supported_LibreOffice_5_3">Collabora Office 5.3 or higher</string>
+        <string id="supported_LibreOffice_5_3">Collabora Office 5.3 o más reciente</string>
         <string id="category_LibreOffice">Collabora Office</string>
         <string id="category_Common">Comunes</string>
 
         <string id="category_General">Generales</string>
         <string id="name_UseSystemFileDialog">Usar diálogo de apertura de archivos del sistema</string>
         <string id="desc_UseSystemFileDialog">Determina si se debe utilizar el selector de archivos y carpetas de Windows. Si el valor es falso, se empleará el cuadro de diálogo multiplataforma incorporado.</string>
-        <string id="name_CollectUsageInformation">Help improve LibreOffice</string>
-        <string id="desc_CollectUsageInformation">Collect usage data and send it to The Document Foundation</string>
+        <string id="name_CollectUsageInformation">Ayudar a mejorar LibreOffice</string>
+        <string id="desc_CollectUsageInformation">Recopilar datos de uso y enviarlos a The Document Foundation</string>
 
         <string id="category_ProductName">Nombre de producto</string>
         <string id="name_ooName">Nombre de producto (ooName)</string>
@@ -37,7 +37,7 @@
         <string id="name_EditProperty">Editar propiedades del documento antes de guardar</string>
         <string id="desc_EditProperty">Especifica que el cuadro de diálogo Propiedades aparezca siempre que selecciona la orden Guardar como.</string>
         <string id="name_WarnAlienFormat">Alertar al usuario cuando se guarde en un formato distinto de ODF o del predeterminado</string>
-        <string id="desc_WarnAlienFormat">Specifies that the saving format is different from ODF or default.</string>
+        <string id="desc_WarnAlienFormat">Especifica que el formato de guardado sea distinto de ODF o del predeterminado.</string>
         <string id="name_HTMLExportBrowser">Compatibilidad con navegadores de exportación a HTML</string>
         <string id="desc_HTMLExportBrowser">Especifica para cuál navegador debe optimizarse la exportación a HTML</string>
         <string id="IE">Internet Explorer</string>
@@ -119,16 +119,16 @@ Valor predeterminado: alto</string>
         <string id="high">Alto</string>
         <string id="veryhigh">Muy alto</string>
         <string id="name_DisableMacrosExecution">Desactivar ejecución de macros</string>
-        <string id="desc_DisableMacrosExecution">Specifies whether the macro execution is disabled in general. If it is set to true, the MacroSecurityLevel is ignored. If it is set to false, the mentioned entry specifies the level of macro security.
+        <string id="desc_DisableMacrosExecution">Especifica si la ejecución de macros debe desactivarse en general. Si se define el valor como verdadero, se ignora MacroSecurityLevel; si se define como falso, la entrada mencionada establece el nivel de seguridad de macros.
 
-Default value: Macros enabled</string>
+Valor predeterminado: macros activadas</string>
         <string id="name_EnableExpertConfiguration">Activar configuración para expertos</string>
-        <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
+        <string id="desc_EnableExpertConfiguration">Determina si los usuarios pueden acceder a la configuración completa mediante el botón «Configuración para expertos».</string>
         <string id="name_SecureURL">Ubicaciones de archivos de confianza</string>
 
         <string id="category_OpenCL">OpenCL</string>
         <string id="name_UseOpenCL">Utilizar OpenCL</string>
-        <string id="desc_UseOpenCL">Determines whether OpenCL can be used, when available, to speed up some operations.</string>
+        <string id="desc_UseOpenCL">Determina si se puede emplear OpenCL, cuando esté disponible, para acelerar algunas operaciones.</string>
 
         <string id="UserProfile">Datos de usuario</string>
         <string id="desc_UserProfile">Datos de usuario (nombre de empresa, dirección, teléfono, fax)</string>
@@ -146,7 +146,7 @@ Default value: Macros enabled</string>
 
         <string id="category_View">Ver</string>
         <string id="name_SymbolStyle">Estilo de iconos</string>
-        <string id="desc_SymbolStyle">Specifies which style of the symbols is used for the toolbars, menus, etc.: "Automatic" means chosen according to the desktop; "Default" means the LibreOffice default theme; other possible values are the names of the various icon themes ("Breeze", "Oxygen", "Sifr", etc.).</string>
+        <string id="desc_SymbolStyle">Especifica cuál estilo de iconos se utiliza en las barras de herramientas, los menús, etc.: «Automatic» define un valor adecuado para el entorno de escritorio; los otros valores posibles son los nombres de los distintos temas de iconos («Breeze», «Oxygen», «Sifr», etc.).</string>
         <string id="auto">Automático</string>
         <string id="default">Predeterminado</string>
         <string id="tango">Tango</string>
@@ -158,9 +158,9 @@ Default value: Macros enabled</string>
         <string id="small">Pequeños</string>
         <string id="large">Grandes</string>
         <string id="name_UseOpenGL">Utilizar OpenGL</string>
-        <string id="desc_UseOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it.</string>
+        <string id="desc_UseOpenGL">Especifica si se debe utilizar la representación con OpenGL en los motores de VLC que lo admiten.</string>
         <string id="name_ForceOpenGL">Forzar OpenGL</string>
-        <string id="desc_ForceOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it. This one forces the use of OpenGL even if the blacklist would block the OpenGL driver.</string>
+        <string id="desc_ForceOpenGL">Especifica si se debe utilizar la representación con OpenGL en los motores de VCL que lo admiten. Esta opción fuerza el uso de OpenGL aun si la lista negra prohíbe el controlador OpenGL.</string>
 
         <string id="category_Print">Imprimir</string>
         <string id="name_ConvertToGreyscales">Convertir colores a escala de grises</string>
@@ -181,10 +181,10 @@ Default value: Macros enabled</string>
         <string id="desc_HelpTipsDisappear">Activa o desactiva el límite de tiempo de las descripciones emergentes. Puede especificar una duración (n) de entre 1 y 99 segundos. Si se desactiva esta opción, oprima Esc para cerrar la descripción emergente.</string>
         <string id="name_AutoDetectSystemHC">Detectar automáticamente modo de contraste alto del sistema operativo</string>
         <string id="desc_AutoDetectSystemHC">Activa la detección automática de la modalidad de contraste alto del sistema. Algunos sistemas operativos no proporcionan esta opción explícitamente; en cambio, ofrecen la posibilidad de seleccionar combinaciones de colores equivalentes, que son reconocidas cuando se activa esta opción.</string>
-        <string id="name_IsAutomaticFontColor">Use automatic font color for screen display</string>
-        <string id="desc_IsAutomaticFontColor">Overrides all text color attributes set in a document for display only.</string>
-        <string id="name_IsForPagePreviews">Use system colors for page previews</string>
-        <string id="desc_IsForPagePreviews">Enables the use of high contrast colors, instead of displaying the normal/original WYSIWYG colors.</string>
+        <string id="name_IsAutomaticFontColor">Utilizar color de letra automático para mostrar texto en pantalla</string>
+        <string id="desc_IsAutomaticFontColor">Invalida todos los atributos de color de texto definidos en un documento únicamente durante su visualización.</string>
+        <string id="name_IsForPagePreviews">Utilizar colores del sistema en previsualizaciones de páginas</string>
+        <string id="desc_IsForPagePreviews">Permite la utilización de los colores de contraste alto en lugar de los colores WYSIWYG originales.</string>
 
         <string id="category_FontSubstitutions">Sustituciones tipográficas</string>
         <string id="name_UseFontSubstitutions">Utilizar sustituciones tipográficas</string>
@@ -234,33 +234,33 @@ The font heights are expressed in millimeters*100, which corresponds to the poin
         <string id="xlsx">XML de Microsoft Excel 2007/2010</string>
         <string id="xls">XLS de Microsoft Excel 97-2003</string>
 
-        <string id="category_Calculate">Calculate</string>
+        <string id="category_Calculate">Calcular</string>
 
-        <string id="name_CaseSensitive">Case Sensitive</string>
-        <string id="desc_CaseSensitive">Distinguish between upper and lower case in texts when comparing cell contents</string>
-        <string id="name_Precision">Precision as shown</string>
-        <string id="desc_Precision">Specifies whether the calculation uses the rounded values displayed in the sheet.</string>
-        <string id="name_SearchCriteria">Search criteria = and &lt;&gt; must apply to whole cells</string>
-        <string id="desc_SearchCriteria">Specifies whether search criteria in formulas must match the whole of the cell contents.</string>
-        <string id="name_FindLabel">Automatically find column and row labels</string>
-        <string id="desc_FindLabel">Specifies whether column and row labels are used to refer to the column area beneath the text cell or to the row area at the right of the text cell while running a search.</string>
-        <string id="name_RegularExpressions">Regular expressions in formulas</string>
+        <string id="name_CaseSensitive">Distinguir mayúsculas y minúsculas</string>
+        <string id="desc_CaseSensitive">Al comparar los contenidos de las celdas, distinguir entre letras mayúsculas y minúsculas</string>
+        <string id="name_Precision">Precisión tal como se muestra</string>
+        <string id="desc_Precision">Especifica si el cálculo debe utilizar los valores redondeados mostrados en la hoja.</string>
+        <string id="name_SearchCriteria">Los criterios de búsqueda = y &lt;&gt; deben aplicarse a celdas enteras</string>
+        <string id="desc_SearchCriteria">Especifica si los criterios de búsqueda de las fórmulas deben coincidir con la totalidad del contenido de las celdas.</string>
+        <string id="name_FindLabel">Encontrar automáticamente etiquetas de columnas y filas</string>
+        <string id="desc_FindLabel">Especifica si se utilizarán las etiquetas de columnas y celdas para hacer referencia al área de la columna ubicada junto a la celda de texto o al área de la fila situada a la derecha de la celda de texto durante una búsqueda.</string>
+        <string id="name_RegularExpressions">Expresiones regulares en fórmulas</string>
         <string id="desc_RegularExpressions">Specifies whether the calculation uses regular expressions in formulas, e.g. for functions which look up sheet contents.</string>
-        <string id="name_Wildcards">Wildcards in formulas</string>
+        <string id="name_Wildcards">Comodines en fórmulas</string>
         <string id="desc_Wildcards">Specifies whether the calculation uses wildcards in formulas, e.g. for functions which look up sheet contents.</string>
 
         <string id="category_Formulas">Fórmulas</string>
         <string id="name_EnglishFunctionName">Nombres de funciones en inglés</string>
-        <string id="desc_EnglishFunctionName">Use English function names even when user interface is localized.</string>
+        <string id="desc_EnglishFunctionName">Utilizar nombres de funciones ingleses aun en interfaces de usuario traducidas.</string>
         <string id="name_RecalcMode">Recalculation of spreadsheets on load</string>
         <string id="desc_RecalcMode">Specifies whether to force a hard recalculation of formula cells after load of non-LibreOffice-generated ODF documents and/or OOXML-based Excel documents (2007 and newer).</string>
-        <string id="alwaysrecalc">Always recalculate</string>
-        <string id="neverrecalc">Never recalculate</string>
+        <string id="alwaysrecalc">Siempre recalcular</string>
+        <string id="neverrecalc">Nunca recalcular</string>
         <string id="promptrecalc">Preguntar al usuario</string>
 
-        <string id="category_MergeCells">Merge Cells</string>
-        <string id="name_ShowMergeDialog">Show Merge Cells dialog</string>
-        <string id="desc_ShowMergeDialog">Specifies whether the Merge Cells dialog box is shown, when some cells are not empty.</string>
+        <string id="category_MergeCells">Combinar celdas</string>
+        <string id="name_ShowMergeDialog">Mostrar cuadro de diálogo Combinar celdas</string>
+        <string id="desc_ShowMergeDialog">Especifica si debe mostrarse el cuadro de diálogo Combinar celdas cuando haya celdas no vacías.</string>
         <string id="desc_EmptyMergedCells">Specifies whether to empty the contents of the hidden cells (like Excel does).</string>
         <string id="name_EmptyMergedCells">Empty merged cells</string>
 
@@ -440,7 +440,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="CollectUsageInformation">
-        <checkBox refId="Value">Collect usage data and send it to The Document Foundation</checkBox>
+        <checkBox refId="Value">Recopilar datos de uso y enviarlos a The Document Foundation</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
@@ -739,15 +739,15 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="Precision">
-        <checkBox refId="Value">Precision as shown</checkBox>
+        <checkBox refId="Value">Precisión tal como se muestra</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="SearchCriteria">
-        <checkBox refId="Value">Search criteria = and &lt;&gt; must apply to whole cells</checkBox>
+        <checkBox refId="Value">Los criterios de búsqueda = y &lt;&gt; deben aplicarse a celdas enteras</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="FindLabel">
-        <checkBox refId="Value">Automatically find column and row labels</checkBox>
+        <checkBox refId="Value">Encontrar automáticamente etiquetas de columnas y filas</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="RegularExpressions">
@@ -759,7 +759,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ShowMergeDialog">
-        <checkBox refId="Value">Show Merge Cells dialog</checkBox>
+        <checkBox refId="Value">Mostrar cuadro de diálogo Combinar celdas</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="EmptyMergedCells">
@@ -839,11 +839,11 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="IsAutomaticFontColor">
-        <checkBox refId="Value">Use automatic font color for screen display</checkBox>
+        <checkBox refId="Value">Utilizar color de letra automático para mostrar texto en pantalla</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="IsForPagePreviews">
-        <checkBox refId="Value">Use system colors for page previews</checkBox>
+        <checkBox refId="Value">Utilizar colores del sistema en previsualizaciones de páginas</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="HTMLExportBrowser">
