@@ -46,6 +46,9 @@
     <category name="Security" displayName="$(string.category_Security)">
       <parentCategory ref="Common" />
     </category>
+    <category name="Filters" displayName="$(string.category_Filters)">
+      <parentCategory ref="Security" />
+    </category>
     <category name="OpenCL" displayName="$(string.category_OpenCL)">
       <parentCategory ref="Common" />
     </category>
@@ -1423,6 +1426,2616 @@
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
         <text id="Value" valueName="Value" />
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ADO_Rowset_XML" class="Both" displayName="$(string.name_ADO_Rowset_XML)" explainText="$(string.desc_ADO_Rowset_XML)" presentation="$(presentation.ADO_Rowset_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['ADO Rowset XML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="AbiWord" class="Both" displayName="$(string.name_AbiWord)" explainText="$(string.desc_AbiWord)" presentation="$(presentation.AbiWord)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['AbiWord']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Apple_Keynote" class="Both" displayName="$(string.name_Apple_Keynote)" explainText="$(string.desc_Apple_Keynote)" presentation="$(presentation.Apple_Keynote)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Apple Keynote']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Apple_Numbers" class="Both" displayName="$(string.name_Apple_Numbers)" explainText="$(string.desc_Apple_Numbers)" presentation="$(presentation.Apple_Numbers)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Apple Numbers']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Apple_Pages" class="Both" displayName="$(string.name_Apple_Pages)" explainText="$(string.desc_Apple_Pages)" presentation="$(presentation.Apple_Pages)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Apple Pages']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="BMP__MS_Windows" class="Both" displayName="$(string.name_BMP__MS_Windows)" explainText="$(string.desc_BMP__MS_Windows)" presentation="$(presentation.BMP__MS_Windows)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['BMP - MS Windows']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="BroadBand_eBook" class="Both" displayName="$(string.name_BroadBand_eBook)" explainText="$(string.desc_BroadBand_eBook)" presentation="$(presentation.BroadBand_eBook)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['BroadBand eBook']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="CGM__Computer_Graphics_Metafile" class="Both" displayName="$(string.name_CGM__Computer_Graphics_Metafile)" explainText="$(string.desc_CGM__Computer_Graphics_Metafile)" presentation="$(presentation.CGM__Computer_Graphics_Metafile)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['CGM - Computer Graphics Metafile']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ClarisWorks" class="Both" displayName="$(string.name_ClarisWorks)" explainText="$(string.desc_ClarisWorks)" presentation="$(presentation.ClarisWorks)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['ClarisWorks']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ClarisWorks_Calc" class="Both" displayName="$(string.name_ClarisWorks_Calc)" explainText="$(string.desc_ClarisWorks_Calc)" presentation="$(presentation.ClarisWorks_Calc)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['ClarisWorks_Calc']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ClarisWorks_Draw" class="Both" displayName="$(string.name_ClarisWorks_Draw)" explainText="$(string.desc_ClarisWorks_Draw)" presentation="$(presentation.ClarisWorks_Draw)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['ClarisWorks_Draw']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ClarisWorks_Impress" class="Both" displayName="$(string.name_ClarisWorks_Impress)" explainText="$(string.desc_ClarisWorks_Impress)" presentation="$(presentation.ClarisWorks_Impress)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['ClarisWorks_Impress']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Claris_Resolve_Calc" class="Both" displayName="$(string.name_Claris_Resolve_Calc)" explainText="$(string.desc_Claris_Resolve_Calc)" presentation="$(presentation.Claris_Resolve_Calc)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Claris_Resolve_Calc']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Corel_Draw_Document" class="Both" displayName="$(string.name_Corel_Draw_Document)" explainText="$(string.desc_Corel_Draw_Document)" presentation="$(presentation.Corel_Draw_Document)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Corel Draw Document']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Corel_Presentation_Exchange" class="Both" displayName="$(string.name_Corel_Presentation_Exchange)" explainText="$(string.desc_Corel_Presentation_Exchange)" presentation="$(presentation.Corel_Presentation_Exchange)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Corel Presentation Exchange']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="DIF" class="Both" displayName="$(string.name_DIF)" explainText="$(string.desc_DIF)" presentation="$(presentation.DIF)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['DIF']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="DXF__AutoCAD_Interchange" class="Both" displayName="$(string.name_DXF__AutoCAD_Interchange)" explainText="$(string.desc_DXF__AutoCAD_Interchange)" presentation="$(presentation.DXF__AutoCAD_Interchange)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['DXF - AutoCAD Interchange']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="DocBook_File" class="Both" displayName="$(string.name_DocBook_File)" explainText="$(string.desc_DocBook_File)" presentation="$(presentation.DocBook_File)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['DocBook File']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="DosWord" class="Both" displayName="$(string.name_DosWord)" explainText="$(string.desc_DosWord)" presentation="$(presentation.DosWord)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['DosWord']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="EMF__MS_Windows_Metafile" class="Both" displayName="$(string.name_EMF__MS_Windows_Metafile)" explainText="$(string.desc_EMF__MS_Windows_Metafile)" presentation="$(presentation.EMF__MS_Windows_Metafile)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['EMF - MS Windows Metafile']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="EPS__Encapsulated_PostScript" class="Both" displayName="$(string.name_EPS__Encapsulated_PostScript)" explainText="$(string.desc_EPS__Encapsulated_PostScript)" presentation="$(presentation.EPS__Encapsulated_PostScript)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['EPS - Encapsulated PostScript']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="FictionBook_2" class="Both" displayName="$(string.name_FictionBook_2)" explainText="$(string.desc_FictionBook_2)" presentation="$(presentation.FictionBook_2)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['FictionBook 2']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Freehand_Document" class="Both" displayName="$(string.name_Freehand_Document)" explainText="$(string.desc_Freehand_Document)" presentation="$(presentation.Freehand_Document)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Freehand Document']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="GIF__Graphics_Interchange" class="Both" displayName="$(string.name_GIF__Graphics_Interchange)" explainText="$(string.desc_GIF__Graphics_Interchange)" presentation="$(presentation.GIF__Graphics_Interchange)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['GIF - Graphics Interchange']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="HTML" class="Both" displayName="$(string.name_HTML)" explainText="$(string.desc_HTML)" presentation="$(presentation.HTML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['HTML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="HTML_StarCalc" class="Both" displayName="$(string.name_HTML_StarCalc)" explainText="$(string.desc_HTML_StarCalc)" presentation="$(presentation.HTML_StarCalc)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['HTML (StarCalc)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="HTML_StarWriter" class="Both" displayName="$(string.name_HTML_StarWriter)" explainText="$(string.desc_HTML_StarWriter)" presentation="$(presentation.HTML_StarWriter)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['HTML (StarWriter)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="JPG__JPEG" class="Both" displayName="$(string.name_JPG__JPEG)" explainText="$(string.desc_JPG__JPEG)" presentation="$(presentation.JPG__JPEG)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['JPG - JPEG']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Lotus" class="Both" displayName="$(string.name_Lotus)" explainText="$(string.desc_Lotus)" presentation="$(presentation.Lotus)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Lotus']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="LotusWordPro" class="Both" displayName="$(string.name_LotusWordPro)" explainText="$(string.desc_LotusWordPro)" presentation="$(presentation.LotusWordPro)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['LotusWordPro']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MET__OS2_Metafile" class="Both" displayName="$(string.name_MET__OS2_Metafile)" explainText="$(string.desc_MET__OS2_Metafile)" presentation="$(presentation.MET__OS2_Metafile)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MET - OS/2 Metafile']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Excel_2003_XML_Orcus" class="Both" displayName="$(string.name_MS_Excel_2003_XML_Orcus)" explainText="$(string.desc_MS_Excel_2003_XML_Orcus)" presentation="$(presentation.MS_Excel_2003_XML_Orcus)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Excel 2003 XML Orcus']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Excel_40" class="Both" displayName="$(string.name_MS_Excel_40)" explainText="$(string.desc_MS_Excel_40)" presentation="$(presentation.MS_Excel_40)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Excel 4.0']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Excel_40_VorlageTemplate" class="Both" displayName="$(string.name_MS_Excel_40_VorlageTemplate)" explainText="$(string.desc_MS_Excel_40_VorlageTemplate)" presentation="$(presentation.MS_Excel_40_VorlageTemplate)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Excel 4.0 Vorlage/Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Excel_5095" class="Both" displayName="$(string.name_MS_Excel_5095)" explainText="$(string.desc_MS_Excel_5095)" presentation="$(presentation.MS_Excel_5095)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Excel 5.0/95']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Excel_5095_VorlageTemplate" class="Both" displayName="$(string.name_MS_Excel_5095_VorlageTemplate)" explainText="$(string.desc_MS_Excel_5095_VorlageTemplate)" presentation="$(presentation.MS_Excel_5095_VorlageTemplate)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Excel 5.0/95 Vorlage/Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Excel_95" class="Both" displayName="$(string.name_MS_Excel_95)" explainText="$(string.desc_MS_Excel_95)" presentation="$(presentation.MS_Excel_95)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Excel 95']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Excel_95_VorlageTemplate" class="Both" displayName="$(string.name_MS_Excel_95_VorlageTemplate)" explainText="$(string.desc_MS_Excel_95_VorlageTemplate)" presentation="$(presentation.MS_Excel_95_VorlageTemplate)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Excel 95 Vorlage/Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Excel_97" class="Both" displayName="$(string.name_MS_Excel_97)" explainText="$(string.desc_MS_Excel_97)" presentation="$(presentation.MS_Excel_97)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Excel 97']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Excel_97_VorlageTemplate" class="Both" displayName="$(string.name_MS_Excel_97_VorlageTemplate)" explainText="$(string.desc_MS_Excel_97_VorlageTemplate)" presentation="$(presentation.MS_Excel_97_VorlageTemplate)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Excel 97 Vorlage/Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_PowerPoint_97" class="Both" displayName="$(string.name_MS_PowerPoint_97)" explainText="$(string.desc_MS_PowerPoint_97)" presentation="$(presentation.MS_PowerPoint_97)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS PowerPoint 97']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_PowerPoint_97_AutoPlay" class="Both" displayName="$(string.name_MS_PowerPoint_97_AutoPlay)" explainText="$(string.desc_MS_PowerPoint_97_AutoPlay)" presentation="$(presentation.MS_PowerPoint_97_AutoPlay)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS PowerPoint 97 AutoPlay']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_PowerPoint_97_Vorlage" class="Both" displayName="$(string.name_MS_PowerPoint_97_Vorlage)" explainText="$(string.desc_MS_PowerPoint_97_Vorlage)" presentation="$(presentation.MS_PowerPoint_97_Vorlage)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS PowerPoint 97 Vorlage']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_WinWord_5" class="Both" displayName="$(string.name_MS_WinWord_5)" explainText="$(string.desc_MS_WinWord_5)" presentation="$(presentation.MS_WinWord_5)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS WinWord 5']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_WinWord_60" class="Both" displayName="$(string.name_MS_WinWord_60)" explainText="$(string.desc_MS_WinWord_60)" presentation="$(presentation.MS_WinWord_60)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS WinWord 6.0']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Word_2003_XML" class="Both" displayName="$(string.name_MS_Word_2003_XML)" explainText="$(string.desc_MS_Word_2003_XML)" presentation="$(presentation.MS_Word_2003_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Word 2003 XML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Word_2007_XML" class="Both" displayName="$(string.name_MS_Word_2007_XML)" explainText="$(string.desc_MS_Word_2007_XML)" presentation="$(presentation.MS_Word_2007_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Word 2007 XML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Word_2007_XML_Template" class="Both" displayName="$(string.name_MS_Word_2007_XML_Template)" explainText="$(string.desc_MS_Word_2007_XML_Template)" presentation="$(presentation.MS_Word_2007_XML_Template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Word 2007 XML Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Word_2007_XML_VBA" class="Both" displayName="$(string.name_MS_Word_2007_XML_VBA)" explainText="$(string.desc_MS_Word_2007_XML_VBA)" presentation="$(presentation.MS_Word_2007_XML_VBA)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Word 2007 XML VBA']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Word_95" class="Both" displayName="$(string.name_MS_Word_95)" explainText="$(string.desc_MS_Word_95)" presentation="$(presentation.MS_Word_95)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Word 95']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Word_95_Vorlage" class="Both" displayName="$(string.name_MS_Word_95_Vorlage)" explainText="$(string.desc_MS_Word_95_Vorlage)" presentation="$(presentation.MS_Word_95_Vorlage)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Word 95 Vorlage']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Word_97" class="Both" displayName="$(string.name_MS_Word_97)" explainText="$(string.desc_MS_Word_97)" presentation="$(presentation.MS_Word_97)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Word 97']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Word_97_Vorlage" class="Both" displayName="$(string.name_MS_Word_97_Vorlage)" explainText="$(string.desc_MS_Word_97_Vorlage)" presentation="$(presentation.MS_Word_97_Vorlage)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS Word 97 Vorlage']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Works" class="Both" displayName="$(string.name_MS_Works)" explainText="$(string.desc_MS_Works)" presentation="$(presentation.MS_Works)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS_Works']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Works_Calc" class="Both" displayName="$(string.name_MS_Works_Calc)" explainText="$(string.desc_MS_Works_Calc)" presentation="$(presentation.MS_Works_Calc)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS_Works_Calc']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MS_Write" class="Both" displayName="$(string.name_MS_Write)" explainText="$(string.desc_MS_Write)" presentation="$(presentation.MS_Write)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MS_Write']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MWAW_Bitmap" class="Both" displayName="$(string.name_MWAW_Bitmap)" explainText="$(string.desc_MWAW_Bitmap)" presentation="$(presentation.MWAW_Bitmap)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MWAW_Bitmap']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MWAW_Database" class="Both" displayName="$(string.name_MWAW_Database)" explainText="$(string.desc_MWAW_Database)" presentation="$(presentation.MWAW_Database)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MWAW_Database']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MWAW_Drawing" class="Both" displayName="$(string.name_MWAW_Drawing)" explainText="$(string.desc_MWAW_Drawing)" presentation="$(presentation.MWAW_Drawing)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MWAW_Drawing']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MWAW_Presentation" class="Both" displayName="$(string.name_MWAW_Presentation)" explainText="$(string.desc_MWAW_Presentation)" presentation="$(presentation.MWAW_Presentation)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MWAW_Presentation']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MWAW_Spreadsheet" class="Both" displayName="$(string.name_MWAW_Spreadsheet)" explainText="$(string.desc_MWAW_Spreadsheet)" presentation="$(presentation.MWAW_Spreadsheet)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MWAW_Spreadsheet']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MWAW_Text_Document" class="Both" displayName="$(string.name_MWAW_Text_Document)" explainText="$(string.desc_MWAW_Text_Document)" presentation="$(presentation.MWAW_Text_Document)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MWAW_Text_Document']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MacWrite" class="Both" displayName="$(string.name_MacWrite)" explainText="$(string.desc_MacWrite)" presentation="$(presentation.MacWrite)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MacWrite']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Mac_Word" class="Both" displayName="$(string.name_Mac_Word)" explainText="$(string.desc_Mac_Word)" presentation="$(presentation.Mac_Word)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Mac_Word']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Mac_Works" class="Both" displayName="$(string.name_Mac_Works)" explainText="$(string.desc_Mac_Works)" presentation="$(presentation.Mac_Works)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Mac_Works']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Mac_Works_Calc" class="Both" displayName="$(string.name_Mac_Works_Calc)" explainText="$(string.desc_Mac_Works_Calc)" presentation="$(presentation.Mac_Works_Calc)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Mac_Works_Calc']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Mariner_Write" class="Both" displayName="$(string.name_Mariner_Write)" explainText="$(string.desc_Mariner_Write)" presentation="$(presentation.Mariner_Write)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Mariner_Write']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MathML_XML_Math" class="Both" displayName="$(string.name_MathML_XML_Math)" explainText="$(string.desc_MathML_XML_Math)" presentation="$(presentation.MathML_XML_Math)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MathML XML (Math)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MathType_3x" class="Both" displayName="$(string.name_MathType_3x)" explainText="$(string.desc_MathType_3x)" presentation="$(presentation.MathType_3x)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MathType 3.x']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="OpenDocument_Drawing_Flat_XML" class="Both" displayName="$(string.name_OpenDocument_Drawing_Flat_XML)" explainText="$(string.desc_OpenDocument_Drawing_Flat_XML)" presentation="$(presentation.OpenDocument_Drawing_Flat_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['OpenDocument Drawing Flat XML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="OpenDocument_Presentation_Flat_XML" class="Both" displayName="$(string.name_OpenDocument_Presentation_Flat_XML)" explainText="$(string.desc_OpenDocument_Presentation_Flat_XML)" presentation="$(presentation.OpenDocument_Presentation_Flat_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['OpenDocument Presentation Flat XML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="OpenDocument_Spreadsheet_Flat_XML" class="Both" displayName="$(string.name_OpenDocument_Spreadsheet_Flat_XML)" explainText="$(string.desc_OpenDocument_Spreadsheet_Flat_XML)" presentation="$(presentation.OpenDocument_Spreadsheet_Flat_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['OpenDocument Spreadsheet Flat XML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="OpenDocument_Text_Flat_XML" class="Both" displayName="$(string.name_OpenDocument_Text_Flat_XML)" explainText="$(string.desc_OpenDocument_Text_Flat_XML)" presentation="$(presentation.OpenDocument_Text_Flat_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['OpenDocument Text Flat XML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Office_Open_XML_Text" class="Both" displayName="$(string.name_Office_Open_XML_Text)" explainText="$(string.desc_Office_Open_XML_Text)" presentation="$(presentation.Office_Open_XML_Text)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Office Open XML Text']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Office_Open_XML_Text_Template" class="Both" displayName="$(string.name_Office_Open_XML_Text_Template)" explainText="$(string.desc_Office_Open_XML_Text_Template)" presentation="$(presentation.Office_Open_XML_Text_Template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Office Open XML Text Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PBM__Portable_Bitmap" class="Both" displayName="$(string.name_PBM__Portable_Bitmap)" explainText="$(string.desc_PBM__Portable_Bitmap)" presentation="$(presentation.PBM__Portable_Bitmap)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['PBM - Portable Bitmap']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PCT__Mac_Pict" class="Both" displayName="$(string.name_PCT__Mac_Pict)" explainText="$(string.desc_PCT__Mac_Pict)" presentation="$(presentation.PCT__Mac_Pict)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['PCT - Mac Pict']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PCX__Zsoft_Paintbrush" class="Both" displayName="$(string.name_PCX__Zsoft_Paintbrush)" explainText="$(string.desc_PCX__Zsoft_Paintbrush)" presentation="$(presentation.PCX__Zsoft_Paintbrush)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['PCX - Zsoft Paintbrush']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PGM__Portable_Graymap" class="Both" displayName="$(string.name_PGM__Portable_Graymap)" explainText="$(string.desc_PGM__Portable_Graymap)" presentation="$(presentation.PGM__Portable_Graymap)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['PGM - Portable Graymap']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PNG__Portable_Network_Graphic" class="Both" displayName="$(string.name_PNG__Portable_Network_Graphic)" explainText="$(string.desc_PNG__Portable_Network_Graphic)" presentation="$(presentation.PNG__Portable_Network_Graphic)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['PNG - Portable Network Graphic']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PPM__Portable_Pixelmap" class="Both" displayName="$(string.name_PPM__Portable_Pixelmap)" explainText="$(string.desc_PPM__Portable_Pixelmap)" presentation="$(presentation.PPM__Portable_Pixelmap)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['PPM - Portable Pixelmap']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PSD__Adobe_Photoshop" class="Both" displayName="$(string.name_PSD__Adobe_Photoshop)" explainText="$(string.desc_PSD__Adobe_Photoshop)" presentation="$(presentation.PSD__Adobe_Photoshop)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['PSD - Adobe Photoshop']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PageMaker_Document" class="Both" displayName="$(string.name_PageMaker_Document)" explainText="$(string.desc_PageMaker_Document)" presentation="$(presentation.PageMaker_Document)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['PageMaker Document']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PalmDoc" class="Both" displayName="$(string.name_PalmDoc)" explainText="$(string.desc_PalmDoc)" presentation="$(presentation.PalmDoc)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['PalmDoc']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Palm_Text_Document" class="Both" displayName="$(string.name_Palm_Text_Document)" explainText="$(string.desc_Palm_Text_Document)" presentation="$(presentation.Palm_Text_Document)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Palm_Text_Document']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Plucker_eBook" class="Both" displayName="$(string.name_Plucker_eBook)" explainText="$(string.desc_Plucker_eBook)" presentation="$(presentation.Plucker_eBook)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Plucker eBook']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PowerPoint_3" class="Both" displayName="$(string.name_PowerPoint_3)" explainText="$(string.desc_PowerPoint_3)" presentation="$(presentation.PowerPoint_3)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['PowerPoint 3']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Publisher_Document" class="Both" displayName="$(string.name_Publisher_Document)" explainText="$(string.desc_Publisher_Document)" presentation="$(presentation.Publisher_Document)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Publisher Document']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Quattro_Pro_60" class="Both" displayName="$(string.name_Quattro_Pro_60)" explainText="$(string.desc_Quattro_Pro_60)" presentation="$(presentation.Quattro_Pro_60)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Quattro Pro 6.0']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="QXP_Document" class="Both" displayName="$(string.name_QXP_Document)" explainText="$(string.desc_QXP_Document)" presentation="$(presentation.QXP_Document)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['QXP Document']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="RAS__Sun_Rasterfile" class="Both" displayName="$(string.name_RAS__Sun_Rasterfile)" explainText="$(string.desc_RAS__Sun_Rasterfile)" presentation="$(presentation.RAS__Sun_Rasterfile)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['RAS - Sun Rasterfile']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Rich_Text_Format" class="Both" displayName="$(string.name_Rich_Text_Format)" explainText="$(string.desc_Rich_Text_Format)" presentation="$(presentation.Rich_Text_Format)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Rich Text Format']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Rich_Text_Format_StarCalc" class="Both" displayName="$(string.name_Rich_Text_Format_StarCalc)" explainText="$(string.desc_Rich_Text_Format_StarCalc)" presentation="$(presentation.Rich_Text_Format_StarCalc)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Rich Text Format (StarCalc)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="SVG__Scalable_Vector_Graphics" class="Both" displayName="$(string.name_SVG__Scalable_Vector_Graphics)" explainText="$(string.desc_SVG__Scalable_Vector_Graphics)" presentation="$(presentation.SVG__Scalable_Vector_Graphics)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['SVG - Scalable Vector Graphics']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="SVM__StarView_Metafile" class="Both" displayName="$(string.name_SVM__StarView_Metafile)" explainText="$(string.desc_SVM__StarView_Metafile)" presentation="$(presentation.SVM__StarView_Metafile)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['SVM - StarView Metafile']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="SYLK" class="Both" displayName="$(string.name_SYLK)" explainText="$(string.desc_SYLK)" presentation="$(presentation.SYLK)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['SYLK']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_XML_Base_Report" class="Both" displayName="$(string.name_StarOffice_XML_Base_Report)" explainText="$(string.desc_StarOffice_XML_Base_Report)" presentation="$(presentation.StarOffice_XML_Base_Report)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice XML (Base) Report']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_XML_Base_Report_Chart" class="Both" displayName="$(string.name_StarOffice_XML_Base_Report_Chart)" explainText="$(string.desc_StarOffice_XML_Base_Report_Chart)" presentation="$(presentation.StarOffice_XML_Base_Report_Chart)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice XML (Base) Report Chart']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_Drawing" class="Both" displayName="$(string.name_StarOffice_Drawing)" explainText="$(string.desc_StarOffice_Drawing)" presentation="$(presentation.StarOffice_Drawing)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice_Drawing']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_Presentation" class="Both" displayName="$(string.name_StarOffice_Presentation)" explainText="$(string.desc_StarOffice_Presentation)" presentation="$(presentation.StarOffice_Presentation)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice_Presentation']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_Spreadsheet" class="Both" displayName="$(string.name_StarOffice_Spreadsheet)" explainText="$(string.desc_StarOffice_Spreadsheet)" presentation="$(presentation.StarOffice_Spreadsheet)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice_Spreadsheet']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_Writer" class="Both" displayName="$(string.name_StarOffice_Writer)" explainText="$(string.desc_StarOffice_Writer)" presentation="$(presentation.StarOffice_Writer)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice_Writer']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_XML_Base" class="Both" displayName="$(string.name_StarOffice_XML_Base)" explainText="$(string.desc_StarOffice_XML_Base)" presentation="$(presentation.StarOffice_XML_Base)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice XML (Base)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_XML_Calc" class="Both" displayName="$(string.name_StarOffice_XML_Calc)" explainText="$(string.desc_StarOffice_XML_Calc)" presentation="$(presentation.StarOffice_XML_Calc)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice XML (Calc)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_XML_Chart" class="Both" displayName="$(string.name_StarOffice_XML_Chart)" explainText="$(string.desc_StarOffice_XML_Chart)" presentation="$(presentation.StarOffice_XML_Chart)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice XML (Chart)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_XML_Draw" class="Both" displayName="$(string.name_StarOffice_XML_Draw)" explainText="$(string.desc_StarOffice_XML_Draw)" presentation="$(presentation.StarOffice_XML_Draw)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice XML (Draw)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_XML_Impress" class="Both" displayName="$(string.name_StarOffice_XML_Impress)" explainText="$(string.desc_StarOffice_XML_Impress)" presentation="$(presentation.StarOffice_XML_Impress)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice XML (Impress)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_XML_Math" class="Both" displayName="$(string.name_StarOffice_XML_Math)" explainText="$(string.desc_StarOffice_XML_Math)" presentation="$(presentation.StarOffice_XML_Math)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice XML (Math)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="StarOffice_XML_Writer" class="Both" displayName="$(string.name_StarOffice_XML_Writer)" explainText="$(string.desc_StarOffice_XML_Writer)" presentation="$(presentation.StarOffice_XML_Writer)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['StarOffice XML (Writer)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="T602Document" class="Both" displayName="$(string.name_T602Document)" explainText="$(string.desc_T602Document)" presentation="$(presentation.T602Document)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['T602Document']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="TGA__Truevision_TARGA" class="Both" displayName="$(string.name_TGA__Truevision_TARGA)" explainText="$(string.desc_TGA__Truevision_TARGA)" presentation="$(presentation.TGA__Truevision_TARGA)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['TGA - Truevision TARGA']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="TIF__Tag_Image_File" class="Both" displayName="$(string.name_TIF__Tag_Image_File)" explainText="$(string.desc_TIF__Tag_Image_File)" presentation="$(presentation.TIF__Tag_Image_File)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['TIF - Tag Image File']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Text" class="Both" displayName="$(string.name_Text)" explainText="$(string.desc_Text)" presentation="$(presentation.Text)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Text']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Text_StarWriterWeb" class="Both" displayName="$(string.name_Text_StarWriterWeb)" explainText="$(string.desc_Text_StarWriterWeb)" presentation="$(presentation.Text_StarWriterWeb)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Text (StarWriter/Web)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Text__txt__csv_StarCalc" class="Both" displayName="$(string.name_Text__txt__csv_StarCalc)" explainText="$(string.desc_Text__txt__csv_StarCalc)" presentation="$(presentation.Text__txt__csv_StarCalc)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Text - txt - csv (StarCalc)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Text_encoded" class="Both" displayName="$(string.name_Text_encoded)" explainText="$(string.desc_Text_encoded)" presentation="$(presentation.Text_encoded)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Text (encoded)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Text_encoded_StarWriterGlobalDocument" class="Both" displayName="$(string.name_Text_encoded_StarWriterGlobalDocument)" explainText="$(string.desc_Text_encoded_StarWriterGlobalDocument)" presentation="$(presentation.Text_encoded_StarWriterGlobalDocument)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Text (encoded) (StarWriter/GlobalDocument)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Text_encoded_StarWriterWeb" class="Both" displayName="$(string.name_Text_encoded_StarWriterWeb)" explainText="$(string.desc_Text_encoded_StarWriterWeb)" presentation="$(presentation.Text_encoded_StarWriterWeb)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Text (encoded) (StarWriter/Web)']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="UOF_presentation" class="Both" displayName="$(string.name_UOF_presentation)" explainText="$(string.desc_UOF_presentation)" presentation="$(presentation.UOF_presentation)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['UOF presentation']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="UOF_spreadsheet" class="Both" displayName="$(string.name_UOF_spreadsheet)" explainText="$(string.desc_UOF_spreadsheet)" presentation="$(presentation.UOF_spreadsheet)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['UOF spreadsheet']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="UOF_text" class="Both" displayName="$(string.name_UOF_text)" explainText="$(string.desc_UOF_text)" presentation="$(presentation.UOF_text)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['UOF text']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Visio_Document" class="Both" displayName="$(string.name_Visio_Document)" explainText="$(string.desc_Visio_Document)" presentation="$(presentation.Visio_Document)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Visio Document']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="WMF__MS_Windows_Metafile" class="Both" displayName="$(string.name_WMF__MS_Windows_Metafile)" explainText="$(string.desc_WMF__MS_Windows_Metafile)" presentation="$(presentation.WMF__MS_Windows_Metafile)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['WMF - MS Windows Metafile']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="WPS_Lotus_Calc" class="Both" displayName="$(string.name_WPS_Lotus_Calc)" explainText="$(string.desc_WPS_Lotus_Calc)" presentation="$(presentation.WPS_Lotus_Calc)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['WPS_Lotus_Calc']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="WPS_QPro_Calc" class="Both" displayName="$(string.name_WPS_QPro_Calc)" explainText="$(string.desc_WPS_QPro_Calc)" presentation="$(presentation.WPS_QPro_Calc)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['WPS_QPro_Calc']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="WordPerfect" class="Both" displayName="$(string.name_WordPerfect)" explainText="$(string.desc_WordPerfect)" presentation="$(presentation.WordPerfect)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['WordPerfect']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="WordPerfect_Graphics" class="Both" displayName="$(string.name_WordPerfect_Graphics)" explainText="$(string.desc_WordPerfect_Graphics)" presentation="$(presentation.WordPerfect_Graphics)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['WordPerfect Graphics']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="WriteNow" class="Both" displayName="$(string.name_WriteNow)" explainText="$(string.desc_WriteNow)" presentation="$(presentation.WriteNow)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['WriteNow']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="XBM__XConsortium" class="Both" displayName="$(string.name_XBM__XConsortium)" explainText="$(string.desc_XBM__XConsortium)" presentation="$(presentation.XBM__XConsortium)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['XBM - X-Consortium']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="XPM" class="Both" displayName="$(string.name_XPM)" explainText="$(string.desc_XPM)" presentation="$(presentation.XPM)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['XPM']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ZMF_Document" class="Both" displayName="$(string.name_ZMF_Document)" explainText="$(string.desc_ZMF_Document)" presentation="$(presentation.ZMF_Document)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['ZMF Document']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="calc8" class="Both" displayName="$(string.name_calc8)" explainText="$(string.desc_calc8)" presentation="$(presentation.calc8)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['calc8']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="calc8_template" class="Both" displayName="$(string.name_calc8_template)" explainText="$(string.desc_calc8_template)" presentation="$(presentation.calc8_template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['calc8_template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Gnumeric_Spreadsheet" class="Both" displayName="$(string.name_Gnumeric_Spreadsheet)" explainText="$(string.desc_Gnumeric_Spreadsheet)" presentation="$(presentation.Gnumeric_Spreadsheet)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Gnumeric Spreadsheet']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="calc_HTML_WebQuery" class="Both" displayName="$(string.name_calc_HTML_WebQuery)" explainText="$(string.desc_calc_HTML_WebQuery)" presentation="$(presentation.calc_HTML_WebQuery)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['calc_HTML_WebQuery']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Calc_MS_Excel_2007_Binary" class="Both" displayName="$(string.name_Calc_MS_Excel_2007_Binary)" explainText="$(string.desc_Calc_MS_Excel_2007_Binary)" presentation="$(presentation.Calc_MS_Excel_2007_Binary)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Calc MS Excel 2007 Binary']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Calc_MS_Excel_2007_VBA_XML" class="Both" displayName="$(string.name_Calc_MS_Excel_2007_VBA_XML)" explainText="$(string.desc_Calc_MS_Excel_2007_VBA_XML)" presentation="$(presentation.Calc_MS_Excel_2007_VBA_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Calc MS Excel 2007 VBA XML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Calc_MS_Excel_2007_XML" class="Both" displayName="$(string.name_Calc_MS_Excel_2007_XML)" explainText="$(string.desc_Calc_MS_Excel_2007_XML)" presentation="$(presentation.Calc_MS_Excel_2007_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Calc MS Excel 2007 XML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Calc_MS_Excel_2007_XML_Template" class="Both" displayName="$(string.name_Calc_MS_Excel_2007_XML_Template)" explainText="$(string.desc_Calc_MS_Excel_2007_XML_Template)" presentation="$(presentation.Calc_MS_Excel_2007_XML_Template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Calc MS Excel 2007 XML Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Calc_Office_Open_XML" class="Both" displayName="$(string.name_Calc_Office_Open_XML)" explainText="$(string.desc_Calc_Office_Open_XML)" presentation="$(presentation.Calc_Office_Open_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Calc Office Open XML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Calc_Office_Open_XML_Template" class="Both" displayName="$(string.name_Calc_Office_Open_XML_Template)" explainText="$(string.desc_Calc_Office_Open_XML_Template)" presentation="$(presentation.Calc_Office_Open_XML_Template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Calc Office Open XML Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="calc_StarOffice_XML_Calc_Template" class="Both" displayName="$(string.name_calc_StarOffice_XML_Calc_Template)" explainText="$(string.desc_calc_StarOffice_XML_Calc_Template)" presentation="$(presentation.calc_StarOffice_XML_Calc_Template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['calc_StarOffice_XML_Calc_Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="chart8" class="Both" displayName="$(string.name_chart8)" explainText="$(string.desc_chart8)" presentation="$(presentation.chart8)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['chart8']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="dBase" class="Both" displayName="$(string.name_dBase)" explainText="$(string.desc_dBase)" presentation="$(presentation.dBase)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['dBase']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="draw8" class="Both" displayName="$(string.name_draw8)" explainText="$(string.desc_draw8)" presentation="$(presentation.draw8)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['draw8']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="draw8_template" class="Both" displayName="$(string.name_draw8_template)" explainText="$(string.desc_draw8_template)" presentation="$(presentation.draw8_template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['draw8_template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="draw_PCD_Photo_CD_Base" class="Both" displayName="$(string.name_draw_PCD_Photo_CD_Base)" explainText="$(string.desc_draw_PCD_Photo_CD_Base)" presentation="$(presentation.draw_PCD_Photo_CD_Base)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['draw_PCD_Photo_CD_Base']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="draw_PCD_Photo_CD_Base16" class="Both" displayName="$(string.name_draw_PCD_Photo_CD_Base16)" explainText="$(string.desc_draw_PCD_Photo_CD_Base16)" presentation="$(presentation.draw_PCD_Photo_CD_Base16)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['draw_PCD_Photo_CD_Base16']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="draw_PCD_Photo_CD_Base4" class="Both" displayName="$(string.name_draw_PCD_Photo_CD_Base4)" explainText="$(string.desc_draw_PCD_Photo_CD_Base4)" presentation="$(presentation.draw_PCD_Photo_CD_Base4)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['draw_PCD_Photo_CD_Base4']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="draw_StarOffice_XML_Draw_Template" class="Both" displayName="$(string.name_draw_StarOffice_XML_Draw_Template)" explainText="$(string.desc_draw_StarOffice_XML_Draw_Template)" presentation="$(presentation.draw_StarOffice_XML_Draw_Template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['draw_StarOffice_XML_Draw_Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="impress8" class="Both" displayName="$(string.name_impress8)" explainText="$(string.desc_impress8)" presentation="$(presentation.impress8)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['impress8']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="impress8_draw" class="Both" displayName="$(string.name_impress8_draw)" explainText="$(string.desc_impress8_draw)" presentation="$(presentation.impress8_draw)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['impress8_draw']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="impress8_template" class="Both" displayName="$(string.name_impress8_template)" explainText="$(string.desc_impress8_template)" presentation="$(presentation.impress8_template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['impress8_template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Impress_MS_PowerPoint_2007_XML" class="Both" displayName="$(string.name_Impress_MS_PowerPoint_2007_XML)" explainText="$(string.desc_Impress_MS_PowerPoint_2007_XML)" presentation="$(presentation.Impress_MS_PowerPoint_2007_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Impress MS PowerPoint 2007 XML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Impress_MS_PowerPoint_2007_XML_AutoPlay" class="Both" displayName="$(string.name_Impress_MS_PowerPoint_2007_XML_AutoPlay)" explainText="$(string.desc_Impress_MS_PowerPoint_2007_XML_AutoPlay)" presentation="$(presentation.Impress_MS_PowerPoint_2007_XML_AutoPlay)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Impress MS PowerPoint 2007 XML AutoPlay']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Impress_MS_PowerPoint_2007_XML_Template" class="Both" displayName="$(string.name_Impress_MS_PowerPoint_2007_XML_Template)" explainText="$(string.desc_Impress_MS_PowerPoint_2007_XML_Template)" presentation="$(presentation.Impress_MS_PowerPoint_2007_XML_Template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Impress MS PowerPoint 2007 XML Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Impress_MS_PowerPoint_2007_XML_VBA" class="Both" displayName="$(string.name_Impress_MS_PowerPoint_2007_XML_VBA)" explainText="$(string.desc_Impress_MS_PowerPoint_2007_XML_VBA)" presentation="$(presentation.Impress_MS_PowerPoint_2007_XML_VBA)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Impress MS PowerPoint 2007 XML VBA']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Impress_Office_Open_XML" class="Both" displayName="$(string.name_Impress_Office_Open_XML)" explainText="$(string.desc_Impress_Office_Open_XML)" presentation="$(presentation.Impress_Office_Open_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Impress Office Open XML']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Impress_Office_Open_XML_AutoPlay" class="Both" displayName="$(string.name_Impress_Office_Open_XML_AutoPlay)" explainText="$(string.desc_Impress_Office_Open_XML_AutoPlay)" presentation="$(presentation.Impress_Office_Open_XML_AutoPlay)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Impress Office Open XML AutoPlay']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Impress_Office_Open_XML_Template" class="Both" displayName="$(string.name_Impress_Office_Open_XML_Template)" explainText="$(string.desc_Impress_Office_Open_XML_Template)" presentation="$(presentation.Impress_Office_Open_XML_Template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Impress Office Open XML Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="impress_StarOffice_XML_Draw" class="Both" displayName="$(string.name_impress_StarOffice_XML_Draw)" explainText="$(string.desc_impress_StarOffice_XML_Draw)" presentation="$(presentation.impress_StarOffice_XML_Draw)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['impress_StarOffice_XML_Draw']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="impress_StarOffice_XML_Impress_Template" class="Both" displayName="$(string.name_impress_StarOffice_XML_Impress_Template)" explainText="$(string.desc_impress_StarOffice_XML_Impress_Template)" presentation="$(presentation.impress_StarOffice_XML_Impress_Template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['impress_StarOffice_XML_Impress_Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="math8" class="Both" displayName="$(string.name_math8)" explainText="$(string.desc_math8)" presentation="$(presentation.math8)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['math8']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MOV__MOV" class="Both" displayName="$(string.name_MOV__MOV)" explainText="$(string.desc_MOV__MOV)" presentation="$(presentation.MOV__MOV)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['MOV - MOV']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="writer8" class="Both" displayName="$(string.name_writer8)" explainText="$(string.desc_writer8)" presentation="$(presentation.writer8)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['writer8']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="writer8_template" class="Both" displayName="$(string.name_writer8_template)" explainText="$(string.desc_writer8_template)" presentation="$(presentation.writer8_template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['writer8_template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="writer_MIZI_Hwp_97" class="Both" displayName="$(string.name_writer_MIZI_Hwp_97)" explainText="$(string.desc_writer_MIZI_Hwp_97)" presentation="$(presentation.writer_MIZI_Hwp_97)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['writer_MIZI_Hwp_97']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="writer_StarOffice_XML_Writer_Template" class="Both" displayName="$(string.name_writer_StarOffice_XML_Writer_Template)" explainText="$(string.desc_writer_StarOffice_XML_Writer_Template)" presentation="$(presentation.writer_StarOffice_XML_Writer_Template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['writer_StarOffice_XML_Writer_Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="writer_globaldocument_StarOffice_XML_Writer_GlobalDocument" class="Both" displayName="$(string.name_writer_globaldocument_StarOffice_XML_Writer_GlobalDocument)" explainText="$(string.desc_writer_globaldocument_StarOffice_XML_Writer_GlobalDocument)" presentation="$(presentation.writer_globaldocument_StarOffice_XML_Writer_GlobalDocument)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['writer_globaldocument_StarOffice_XML_Writer_GlobalDocument']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="writer_web_HTML_help" class="Both" displayName="$(string.name_writer_web_HTML_help)" explainText="$(string.desc_writer_web_HTML_help)" presentation="$(presentation.writer_web_HTML_help)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['writer_web_HTML_help']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="writer_web_StarOffice_XML_Writer_Web_Template" class="Both" displayName="$(string.name_writer_web_StarOffice_XML_Writer_Web_Template)" explainText="$(string.desc_writer_web_StarOffice_XML_Writer_Web_Template)" presentation="$(presentation.writer_web_StarOffice_XML_Writer_Web_Template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['writer_web_StarOffice_XML_Writer_Web_Template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="writerglobal8" class="Both" displayName="$(string.name_writerglobal8)" explainText="$(string.desc_writerglobal8)" presentation="$(presentation.writerglobal8)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['writerglobal8']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="writerglobal8_template" class="Both" displayName="$(string.name_writerglobal8_template)" explainText="$(string.desc_writerglobal8_template)" presentation="$(presentation.writerglobal8_template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['writerglobal8_template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="writerweb8_writer_template" class="Both" displayName="$(string.name_writerweb8_writer_template)" explainText="$(string.desc_writerweb8_writer_template)" presentation="$(presentation.writerweb8_writer_template)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['writerweb8_writer_template']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
