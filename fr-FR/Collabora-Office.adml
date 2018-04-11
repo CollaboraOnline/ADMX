@@ -34,6 +34,8 @@
         <string id="desc_UseUserData">Utiliser les données de l'utilisateur pour les propriétés du document.</string>
         <string id="name_AutoSave">Enregistrement automatique</string>
         <string id="desc_AutoSave">Enregistrer les informations de récupération automatique toutes les __ minutes</string>
+        <string id="name_RecoveryInfo">Disable the autorecovery feature</string>
+        <string id="desc_RecoveryInfo">Disable the autorecovery feature in case of crashes</string>
         <string id="name_CreateBackup">Créer une sauvegarde</string>
         <string id="desc_CreateBackup">Toujours créer une copie de sauvegarde</string>
         <string id="name_EditProperty">Modifier les propriétés du document avant de l'enregistrer</string>
@@ -688,6 +690,10 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
         <checkBox refId="AutoSaveTimeIntervallFinal">Verrouiller le paramètre</checkBox>
         <checkBox refId="AutoSavePromptValue">Enregistrer également automatiquement le document</checkBox>
         <checkBox refId="AutoSavePromptFinal">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="RecoveryInfo">
+        <checkBox refId="Value">Disable the autorecovery feature</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="CreateBackup">
         <checkBox refId="Value">Toujours créer une copie de sauvegarde</checkBox>
