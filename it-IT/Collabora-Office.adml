@@ -129,6 +129,357 @@ Valore predefinito: Macro abilitate</string>
         <string id="desc_EnableExpertConfiguration">Determina se l'utente ha accesso a tutta la configurazione con il pulsante Configurazione Avanzata.</string>
         <string id="name_SecureURL">Posizione dei file attendibili</string>
 
+        <string id="category_Filters">Disabilita file format filters</string>
+
+        <string id="name_ADO_Rowset_XML">ADO Rowset XML</string>
+        <string id="desc_ADO_Rowset_XML">Disabilita il filtro d'importazione per il formato ADO Rowset XML.</string>
+        <string id="name_AbiWord">Documento AbiWord</string>
+        <string id="desc_AbiWord">Disabilita il filtro d'importazione per il formato di documento AbiWord.</string>
+        <string id="name_Apple_Keynote">Apple Keynote 5</string>
+        <string id="desc_Apple_Keynote">Disabilita il filtro d'importazione per il formato Apple Keynote 5.</string>
+        <string id="name_Apple_Numbers">Apple Numbers 2</string>
+        <string id="desc_Apple_Numbers">Disabilita il filtro d'importazione per il formato Apple Numbers 2.</string>
+        <string id="name_Apple_Pages">Apple Pages 4</string>
+        <string id="desc_Apple_Pages">Disabilita il filtro d'importazione per il formato Apple Pages 4.</string>
+        <string id="name_BMP__MS_Windows">BMP - Windows Bitmap</string>
+        <string id="desc_BMP__MS_Windows">Disabilita il filtro d'importazione per il formato BMP - Windows Bitmap.</string>
+        <string id="name_BroadBand_eBook">BroadBand eBook</string>
+        <string id="desc_BroadBand_eBook">Disabilita il filtro d'importazione per il formato BroadBand eBook.</string>
+        <string id="name_CGM__Computer_Graphics_Metafile">CGM - Computer Graphics Metafile</string>
+        <string id="desc_CGM__Computer_Graphics_Metafile">Disabilita il filtro d'importazione per il formato CGM - Computer Graphics Metafile.</string>
+        <string id="name_ClarisWorks">Documento di testo ClarisWorks/AppleWorks</string>
+        <string id="desc_ClarisWorks">Disabilita il filtro d'importazione per il formato dei documenti di testo ClarisWorks/AppleWorks.</string>
+        <string id="name_ClarisWorks_Calc">Foglio di calcolo ClarisWorks/AppleWorks</string>
+        <string id="desc_ClarisWorks_Calc">Disabilita il filtro d'importazione per il formato dei fogli di calcolo ClarisWorks/AppleWorks.</string>
+        <string id="name_ClarisWorks_Draw">Disegno ClarisWorks/AppleWorks</string>
+        <string id="desc_ClarisWorks_Draw">Disabilita il filtro d'importazione per il formato dei disegni ClarisWorks/AppleWorks.</string>
+        <string id="name_ClarisWorks_Impress">Presentazione ClarisWorks/AppleWorks</string>
+        <string id="desc_ClarisWorks_Impress">Disabilita il filtro d'importazione per il formato di presentazioni ClarisWorks/AppleWorks.</string>
+        <string id="name_Claris_Resolve_Calc">Documento ClarisResolve</string>
+        <string id="desc_Claris_Resolve_Calc">Disabilita il filtro d'importazione per il formato dei documenti di testo ClarisResolve.</string>
+        <string id="name_Corel_Draw_Document">Corel Draw</string>
+        <string id="desc_Corel_Draw_Document">Disabilita il filtro d'importazione per il formato Corel Draw.</string>
+        <string id="name_Corel_Presentation_Exchange">Corel Presentation Exchange</string>
+        <string id="desc_Corel_Presentation_Exchange">Disabilita il filtro d'importazione per il formato Corel Presentation Exchange.</string>
+        <string id="name_DIF">Data Interchange Format</string>
+        <string id="desc_DIF">Disabilita il filtro d'importazione per il formato Data Interchange Format.</string>
+        <string id="name_DXF__AutoCAD_Interchange">DXF - AutoCAD Interchange Format</string>
+        <string id="desc_DXF__AutoCAD_Interchange">Disabilita il filtro di importazione per il formato DXF - AutoCAD Interchange Format.</string>
+        <string id="name_DocBook_File">DocBook</string>
+        <string id="desc_DocBook_File">Disabilita il filtro di importazione per il formato DocBook.</string>
+        <string id="name_DosWord">Microsoft Word for DOS</string>
+        <string id="desc_DosWord">Disabilita il filtro di importazione per il formato Microsoft Word per DOS.</string>
+        <string id="name_EMF__MS_Windows_Metafile">EMF - Enhanced Metafile</string>
+        <string id="desc_EMF__MS_Windows_Metafile">Disabilita il filtro di importazione per il formato EMF - Enhanced Metafile.</string>
+        <string id="name_EPS__Encapsulated_PostScript">EPS - Encapsulated PostScript</string>
+        <string id="desc_EPS__Encapsulated_PostScript">Disabilita il filtro di importazione per il formato EPS - Encapsulated PostScript.</string>
+        <string id="name_FictionBook_2">FictionBook 2.0</string>
+        <string id="desc_FictionBook_2">Disabilita il filtro di importazione per il formato FictionBook 2.0.</string>
+        <string id="name_Freehand_Document">Adobe/Macromedia Freehand</string>
+        <string id="desc_Freehand_Document">Disabilita il filtro di importazione per il formato Adobe/Macromedia Freehand.</string>
+        <string id="name_GIF__Graphics_Interchange">GIF - Graphics Interchange Format</string>
+        <string id="desc_GIF__Graphics_Interchange">Disabilita il filtro di importazione per il formato GIF - Graphics Interchange Format.</string>
+        <string id="name_HTML">Documento HTML</string>
+        <string id="desc_HTML">Disabilita il filtro di importazione per il formato dei documenti HTML.</string>
+        <string id="name_HTML_StarCalc">Documento HTML (Calc)</string>
+        <string id="desc_HTML_StarCalc">Disabilita il filtro di importazione per il formato HTML Document (Calc).</string>
+        <string id="name_HTML_StarWriter">Documento HTML (Writer)</string>
+        <string id="desc_HTML_StarWriter">Disabilita il filtro di importazione per il formato HTML Document (Writer).</string>
+        <string id="name_JPG__JPEG">JPEG - Joint Photographic Experts Group</string>
+        <string id="desc_JPG__JPEG">Disabilita il filtro di importazione per il formato JPEG - Joint Photographic Experts Group.</string>
+        <string id="name_Lotus">Lotus 1-2-3</string>
+        <string id="desc_Lotus">Disabilita il filtro di importazione per il formato Lotus 1-2-3.</string>
+        <string id="name_LotusWordPro">Documento Lotus WordPro</string>
+        <string id="desc_LotusWordPro">Disabilita il filtro di importazione per il formato Lotus WordPro Document.</string>
+        <string id="name_MET__OS2_Metafile">MET - OS/2 Metafile</string>
+        <string id="desc_MET__OS2_Metafile">Disabilita il filtro di importazione per il formato MET - OS/2 Metafile.</string>
+        <string id="name_MS_Excel_2003_XML_Orcus">Microsoft Excel 2003 XML</string>
+        <string id="desc_MS_Excel_2003_XML_Orcus">Disabilita il filtro di importazione per il formato Microsoft Excel 2003 XML.</string>
+        <string id="name_MS_Excel_40">Microsoft Excel 4.0</string>
+        <string id="desc_MS_Excel_40">Disabilita il filtro di importazione per il formato Microsoft Excel 4.0.</string>
+        <string id="name_MS_Excel_40_VorlageTemplate">Template di Microsoft Excel 4.0</string>
+        <string id="desc_MS_Excel_40_VorlageTemplate">Disabilita il filtro di importazione per il formato dei modelli Microsoft Excel 4.0.</string>
+        <string id="name_MS_Excel_5095">Microsoft Excel 5.0</string>
+        <string id="desc_MS_Excel_5095">Disabilita il filtro di importazione per il formato Microsoft Excel 5.0.</string>
+        <string id="name_MS_Excel_5095_VorlageTemplate">Template di Microsoft Excel 5.0</string>
+        <string id="desc_MS_Excel_5095_VorlageTemplate">Disabilita il filtro di importazione per il formato dei modelli Microsoft Excel 5.0.</string>
+        <string id="name_MS_Excel_95">Microsoft Excel 95</string>
+        <string id="desc_MS_Excel_95">Disabilita il filtro di importazione per il formato Microsoft Excel 95.</string>
+        <string id="name_MS_Excel_95_VorlageTemplate">Template di Microsoft Excel 95</string>
+        <string id="desc_MS_Excel_95_VorlageTemplate">Disabilita il filtro di importazione per il formato dei modelli Microsoft Excel 95.</string>
+        <string id="name_MS_Excel_97">Microsoft Excel 97-2003</string>
+        <string id="desc_MS_Excel_97">Disabilita il filtro di importazione per il formato Microsoft Excel 97-2003.</string>
+        <string id="name_MS_Excel_97_VorlageTemplate">Template di Microsoft Excel 97-2003</string>
+        <string id="desc_MS_Excel_97_VorlageTemplate">Disabilita il filtro di importazione per il formato dei modelli Microsoft Excel 97-2003.</string>
+        <string id="name_MS_PowerPoint_97">Microsoft PowerPoint 97-2003</string>
+        <string id="desc_MS_PowerPoint_97">Disabilita il filtro di importazione per il formato Microsoft PowerPoint 97-2003.</string>
+        <string id="name_MS_PowerPoint_97_AutoPlay">Microsoft PowerPoint 97-2003 AutoPlay</string>
+        <string id="desc_MS_PowerPoint_97_AutoPlay">Disabilita il filtro di importazione per il formato Microsoft PowerPoint 97-2003 AutoPlay.</string>
+        <string id="name_MS_PowerPoint_97_Vorlage">Template di Microsoft PowerPoint 97-2003</string>
+        <string id="desc_MS_PowerPoint_97_Vorlage">Disabilita il filtro di importazione per il formato dei modelli Microsoft PowerPoint 97-2003.</string>
+        <string id="name_MS_WinWord_5">Microsoft WinWord 1/2/5</string>
+        <string id="desc_MS_WinWord_5">Disabilita il filtro di importazione per il formato Microsoft WinWord 1/2/5.</string>
+        <string id="name_MS_WinWord_60">Microsoft Word 6.0</string>
+        <string id="desc_MS_WinWord_60">Disabilita il filtro di importazione per il formato Microsoft Word 6.0.</string>
+        <string id="name_MS_Word_2003_XML">Microsoft Word 2003 XML</string>
+        <string id="desc_MS_Word_2003_XML">Disabilita il filtro di importazione per il formato Microsoft Word 2003 XML.</string>
+        <string id="name_MS_Word_2007_XML">Microsoft Word 2007-2013 XML</string>
+        <string id="desc_MS_Word_2007_XML">Disabilita il filtro di importazione per il formato Microsoft Word 2007-2013 XML.</string>
+        <string id="name_MS_Word_2007_XML_Template">Template di Microsoft Word 2007-2013 XML</string>
+        <string id="desc_MS_Word_2007_XML_Template">Disabilita il filtro di importazione per il formato dei modelli Microsoft Word 2007-2013 XML.</string>
+        <string id="name_MS_Word_2007_XML_VBA">Microsoft Word 2007-2013 XML VBA</string>
+        <string id="desc_MS_Word_2007_XML_VBA">Disabilita il filtro di importazione per il formato Microsoft Word 2007-2013 XML VBA.</string>
+        <string id="name_MS_Word_95">Microsoft Word 95</string>
+        <string id="desc_MS_Word_95">Disabilita il filtro di importazione per il formato Microsoft Word 95.</string>
+        <string id="name_MS_Word_95_Vorlage">Modello Microsoft Word 95</string>
+        <string id="desc_MS_Word_95_Vorlage">Disabilita il filtro di importazione per il formato dei modelli Microsoft Word 95.</string>
+        <string id="name_MS_Word_97">Microsoft Word 97-2003</string>
+        <string id="desc_MS_Word_97">Disabilita il filtro di importazione per il formato Microsoft Word 97-2003.</string>
+        <string id="name_MS_Word_97_Vorlage">Template di Microsoft Word 97-2003</string>
+        <string id="desc_MS_Word_97_Vorlage">Disabilita il filtro di importazione per il formato dei modelli Microsoft Word 97-2003.</string>
+        <string id="name_MS_Works">Documento Microsoft Works</string>
+        <string id="desc_MS_Works">Disabilita il filtro di importazione per il formato dei documenti Microsoft Works.</string>
+        <string id="name_MS_Works_Calc">Documento Microsoft Works</string>
+        <string id="desc_MS_Works_Calc">Disabilita il filtro di importazione per il formato dei documenti Microsoft Works.</string>
+        <string id="name_MS_Write">Microsoft Write</string>
+        <string id="desc_MS_Write">Disabilita il filtro di importazione per il formato Microsoft Write.</string>
+        <string id="name_MWAW_Bitmap">Legacy Mac Bitmap</string>
+        <string id="desc_MWAW_Bitmap">Disabilita il filtro di importazione per il formato Legacy Mac Bitmap.</string>
+        <string id="name_MWAW_Database">Legacy Mac Database</string>
+        <string id="desc_MWAW_Database">Disabilita il filtro di importazione per il formato Legacy Mac Database.</string>
+        <string id="name_MWAW_Drawing">Legacy Mac Drawing</string>
+        <string id="desc_MWAW_Drawing">Disabilita il filtro di importazione per il formato dei disegni Legacy Mac.</string>
+        <string id="name_MWAW_Presentation">Legacy Mac Presentation</string>
+        <string id="desc_MWAW_Presentation">Disabilita il filtro di importazione per il formato delle presentazioni Legacy Mac.</string>
+        <string id="name_MWAW_Spreadsheet">Legacy Mac Spreadsheet</string>
+        <string id="desc_MWAW_Spreadsheet">Disabilita il filtro di importazione per il formato dei fogli di calcolo Legacy Mac.</string>
+        <string id="name_MWAW_Text_Document">Legacy Mac Text Document</string>
+        <string id="desc_MWAW_Text_Document">Disabilita il filtro di importazione per il formato dei documenti di testo Legacy Mac.</string>
+        <string id="name_MacWrite">Documento MacWrite</string>
+        <string id="desc_MacWrite">Disabilita il filtro di importazione per il formato dei documenti MacWrite.</string>
+        <string id="name_Mac_Word">Microsoft Word per Mac (v1 - v5)</string>
+        <string id="desc_Mac_Word">Disabilita il filtro di importazione per il formato Microsoft Word per Mac (v1 - v5).</string>
+        <string id="name_Mac_Works">Microsoft Works per Mac Text Document (v1 - v4)</string>
+        <string id="desc_Mac_Works">Disabilita il filtro di importazione per il formato di testo Microsoft Works per Mac (v1 - v4).</string>
+        <string id="name_Mac_Works_Calc">Microsoft Works per Mac Spreadsheet (v1 - v4)</string>
+        <string id="desc_Mac_Works_Calc">Disabilita il filtro di importazione per il formato dei fogli di calcolo Microsoft Works per Mac Spreadsheet (v1 - v4).</string>
+        <string id="name_Mariner_Write">Mariner Write Mac Classic v1.6 - v3.5</string>
+        <string id="desc_Mariner_Write">Disabilita il filtro di importazione per il formato Mariner Write Mac Classic v1.6 - v3.5.</string>
+        <string id="name_MathML_XML_Math">MathML 2.0</string>
+        <string id="desc_MathML_XML_Math">Disabilita il filtro di importazione per il formato MathML 2.0.</string>
+        <string id="name_MathType_3x">MathType3.x</string>
+        <string id="desc_MathType_3x">Disabilita il filtro di importazione per il formato MathType3.x.</string>
+        <string id="name_OpenDocument_Drawing_Flat_XML">Disegno Flat XML ODF</string>
+        <string id="desc_OpenDocument_Drawing_Flat_XML">Disabilita il filtro di importazione per il formato dei disegni Flat XML ODF.</string>
+        <string id="name_OpenDocument_Presentation_Flat_XML">Presentazione Flat XML ODF</string>
+        <string id="desc_OpenDocument_Presentation_Flat_XML">Disabilita il filtro di importazione per il formato delle presentazioni Flat XML ODF.</string>
+        <string id="name_OpenDocument_Spreadsheet_Flat_XML">Foglio di calcolo Flat XML ODF</string>
+        <string id="desc_OpenDocument_Spreadsheet_Flat_XML">Disabilita il filtro di importazione per il formato dei fogli di calcolo Flat XML ODF.</string>
+        <string id="name_OpenDocument_Text_Flat_XML">Documento di testo Flat XML ODF</string>
+        <string id="desc_OpenDocument_Text_Flat_XML">Disabilita il filtro di importazione per il formato dei documenti di testo Flat XML ODF.</string>
+        <string id="name_Office_Open_XML_Text">Documento di testo Office Open XML</string>
+        <string id="desc_Office_Open_XML_Text">Disabilita il filtro di importazione per il formato dei documenti di testo Office Open XML.</string>
+        <string id="name_Office_Open_XML_Text_Template">Modello di documento di testo Office Open XML</string>
+        <string id="desc_Office_Open_XML_Text_Template">Disabilita il filtro di importazione per il formato dei template dei documenti di testo Office Open XML.</string>
+        <string id="name_PBM__Portable_Bitmap">PBM - Portable Bitmap</string>
+        <string id="desc_PBM__Portable_Bitmap">Disabilita il filtro di importazione per il formato  PBM - Portable Bitmap.</string>
+        <string id="name_PCT__Mac_Pict">PCT - Mac Pict</string>
+        <string id="desc_PCT__Mac_Pict">Disabilita il filtro di importazione per il formato PCT - Mac Pict.</string>
+        <string id="name_PCX__Zsoft_Paintbrush">PCX - Zsoft Paintbrush</string>
+        <string id="desc_PCX__Zsoft_Paintbrush">Disabilita il filtro di importazione per il formato PCX - Zsoft Paintbrush.</string>
+        <string id="name_PGM__Portable_Graymap">PGM - Portable Graymap</string>
+        <string id="desc_PGM__Portable_Graymap">Disabilita il filtro di importazione per il formato PGM - Portable Graymap.</string>
+        <string id="name_PNG__Portable_Network_Graphic">PNG - Portable Network Graphic</string>
+        <string id="desc_PNG__Portable_Network_Graphic">Disabilita il filtro di importazione per il formato PNG - Portable Network Graphic.</string>
+        <string id="name_PPM__Portable_Pixelmap">PPM - Portable Pixelmap</string>
+        <string id="desc_PPM__Portable_Pixelmap">Disabilita il filtro di importazione per il formato PPM - Portable Pixelmap.</string>
+        <string id="name_PSD__Adobe_Photoshop">PSD - Adobe Photoshop</string>
+        <string id="desc_PSD__Adobe_Photoshop">Disabilita il filtro di importazione per il formato PSD - Adobe Photoshop.</string>
+        <string id="name_PageMaker_Document">Adobe PageMaker</string>
+        <string id="desc_PageMaker_Document">Disabilita il filtro di importazione per il formato Adobe PageMaker.</string>
+        <string id="name_PalmDoc">PalmDoc eBook</string>
+        <string id="desc_PalmDoc">Disabilita il filtro di importazione per il formato PalmDoc eBook.</string>
+        <string id="name_Palm_Text_Document">Documento Palm Text</string>
+        <string id="desc_Palm_Text_Document">Disabilita il filtro di importazione per il formato Palm Text Document.</string>
+        <string id="name_Plucker_eBook">Plucker eBook</string>
+        <string id="desc_Plucker_eBook">Disabilita il filtro di importazione per il formato Plucker eBook.</string>
+        <string id="name_PowerPoint_3">Microsoft PowerPoint 1-4 e 95's</string>
+        <string id="desc_PowerPoint_3">Disabilita il filtro di importazione per il formato Microsoft PowerPoint 1-4 e 95.</string>
+        <string id="name_Publisher_Document">Microsoft Publisher 98-2010</string>
+        <string id="desc_Publisher_Document">Disabilita il filtro di importazione per il formato Microsoft Publisher 98-2010.</string>
+        <string id="name_Quattro_Pro_60">Quattro Pro 6.0</string>
+        <string id="desc_Quattro_Pro_60">Disabilita il filtro di importazione per il formato Quattro Pro 6.0.</string>
+        <string id="name_QXP_Document">QuarkXPress</string>
+        <string id="desc_QXP_Document">Disabilita il filtro di importazione per il formato QuarkXPress.</string>
+        <string id="name_RAS__Sun_Rasterfile">RAS - Sun Raster Image</string>
+        <string id="desc_RAS__Sun_Rasterfile">Disabilita il filtro di importazione per il formato RAS - Sun Raster Image.</string>
+        <string id="name_Rich_Text_Format">Rich Text</string>
+        <string id="desc_Rich_Text_Format">Disabilita il filtro di importazione per il formato Rich Text.</string>
+        <string id="name_Rich_Text_Format_StarCalc">Rich Text Format (Calc)</string>
+        <string id="desc_Rich_Text_Format_StarCalc">Disabilita il filtro di importazione per il formato Rich Text Format (Calc).</string>
+        <string id="name_SVG__Scalable_Vector_Graphics">SVG - Scalable Vector Graphics</string>
+        <string id="desc_SVG__Scalable_Vector_Graphics">Disabilita il filtro di importazione per il formato SVG - Scalable Vector Graphics.</string>
+        <string id="name_SVM__StarView_Metafile">SVM - StarView Metafile</string>
+        <string id="desc_SVM__StarView_Metafile">Disabilita il filtro di importazione per il formato SVM - StarView Metafile.</string>
+        <string id="name_SYLK">SYLK</string>
+        <string id="desc_SYLK">Disabilita il filtro di importazione per il formato SYLK.</string>
+        <string id="name_StarOffice_XML_Base_Report">ODF Database Report</string>
+        <string id="desc_StarOffice_XML_Base_Report">Disabilita il filtro di importazione per il formato ODF Database Report.</string>
+        <string id="name_StarOffice_XML_Base_Report_Chart">OpenOffice.org 1.0 Report Chart</string>
+        <string id="desc_StarOffice_XML_Base_Report_Chart">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Report Chart.</string>
+        <string id="name_StarOffice_Drawing">Disegno nel formato legacy StarOffice</string>
+        <string id="desc_StarOffice_Drawing">Disabilita il filtro di importazione per il formato Legacy StarOffice Drawing.</string>
+        <string id="name_StarOffice_Presentation">Presentazione nel formato legacy StarOffice</string>
+        <string id="desc_StarOffice_Presentation">Disabilita il filtro di importazione per il formato Legacy StarOffice Presentation.</string>
+        <string id="name_StarOffice_Spreadsheet">Foglio di calcolo nel formato legacy StarOffice</string>
+        <string id="desc_StarOffice_Spreadsheet">Disabilita il filtro di importazione per il formato Legacy StarOffice Spreadsheet.</string>
+        <string id="name_StarOffice_Writer">Legacy StarOffice Text Document</string>
+        <string id="desc_StarOffice_Writer">Disabilita il filtro di importazione per il formato Legacy StarOffice Text Document.</string>
+        <string id="name_StarOffice_XML_Base">Database ODF</string>
+        <string id="desc_StarOffice_XML_Base">Disabilita il filtro di importazione per il formato ODF Database.</string>
+        <string id="name_StarOffice_XML_Calc">Foglio di calcolo OpenOffice.org 1.0</string>
+        <string id="desc_StarOffice_XML_Calc">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Spreadsheet.</string>
+        <string id="name_StarOffice_XML_Chart">Diagramma OpenOffice.org 1.0</string>
+        <string id="desc_StarOffice_XML_Chart">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Chart.</string>
+        <string id="name_StarOffice_XML_Draw">Disegno OpenOffice.org 1.0</string>
+        <string id="desc_StarOffice_XML_Draw">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Drawing.</string>
+        <string id="name_StarOffice_XML_Impress">Presentazione OpenOffice.org 1.0</string>
+        <string id="desc_StarOffice_XML_Impress">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Presentation.</string>
+        <string id="name_StarOffice_XML_Math">Formula OpenOffice.org 1.0</string>
+        <string id="desc_StarOffice_XML_Math">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Formula.</string>
+        <string id="name_StarOffice_XML_Writer">Documento di testo OpenOffice.org 1.0</string>
+        <string id="desc_StarOffice_XML_Writer">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Text Document.</string>
+        <string id="name_T602Document">Documento T602</string>
+        <string id="desc_T602Document">Disabilita il filtro di importazione per il formato T602 Document.</string>
+        <string id="name_TGA__Truevision_TARGA">TGA - Truevision Targa</string>
+        <string id="desc_TGA__Truevision_TARGA">Disabilita il filtro di importazione per il formato TGA - Truevision Targa.</string>
+        <string id="name_TIF__Tag_Image_File">TIFF - Tagged Image File Format</string>
+        <string id="desc_TIF__Tag_Image_File">Disabilita il filtro di importazione per il formato TIFF - Tagged Image File Format.</string>
+        <string id="name_Text">Documento di testo</string>
+        <string id="desc_Text">Disabilita il filtro di importazione per il formato testo.</string>
+        <string id="name_Text_StarWriterWeb">Documento di testo (Writer/Web)</string>
+        <string id="desc_Text_StarWriterWeb">Disabilita il filtro di importazione per il formato Text (Writer/Web).</string>
+        <string id="name_Text__txt__csv_StarCalc">Documento di testo CSV</string>
+        <string id="desc_Text__txt__csv_StarCalc">Disabilita il filtro di importazione per il formato Text CSV.</string>
+        <string id="name_Text_encoded">Documento di testo - Scegli la codifica</string>
+        <string id="desc_Text_encoded">Disabilita il filtro di importazione per il formato Text - Choose Encoding.</string>
+        <string id="name_Text_encoded_StarWriterGlobalDocument">Text - Choose Encoding (Master Document)</string>
+        <string id="desc_Text_encoded_StarWriterGlobalDocument">Disabilita il filtro di importazione per il formato Text - Choose Encoding (Master Document).</string>
+        <string id="name_Text_encoded_StarWriterWeb">Text - Choose Encoding (Writer/Web)</string>
+        <string id="desc_Text_encoded_StarWriterWeb">Disabilita il filtro di importazione per il formato Text - Choose Encoding (Writer/Web).</string>
+        <string id="name_UOF_presentation">Unified Office Format presentation</string>
+        <string id="desc_UOF_presentation">Disabilita il filtro di importazione per il formato Unified Office Format presentation.</string>
+        <string id="name_UOF_spreadsheet">Foglio di calcolo Unified Office Format</string>
+        <string id="desc_UOF_spreadsheet">Disabilita il filtro di importazione per il formato Unified Office Format spreadsheet.</string>
+        <string id="name_UOF_text">Unified Office Format text</string>
+        <string id="desc_UOF_text">Disabilita il filtro di importazione per il formato Unified Office Format text.</string>
+        <string id="name_Visio_Document">Microsoft Visio 2000-2013</string>
+        <string id="desc_Visio_Document">Disabilita il filtro di importazione per il formato Microsoft Visio 2000-2013.</string>
+        <string id="name_WMF__MS_Windows_Metafile">WMF - Windows Metafile</string>
+        <string id="desc_WMF__MS_Windows_Metafile">Disabilita il filtro di importazione per il formato WMF - Windows Metafile.</string>
+        <string id="name_WPS_Lotus_Calc">Documento Lotus</string>
+        <string id="desc_WPS_Lotus_Calc">Disabilita il filtro di importazione per il formato Lotus Document.</string>
+        <string id="name_WPS_QPro_Calc">Documento QuattroPro</string>
+        <string id="desc_WPS_QPro_Calc">Disabilita il filtro di importazione per il formato QuattroPro Document.</string>
+        <string id="name_WordPerfect">Documento WordPerfect</string>
+        <string id="desc_WordPerfect">Disabilita il filtro di importazione per il formato WordPerfect Document.</string>
+        <string id="name_WordPerfect_Graphics">WordPerfect Graphics</string>
+        <string id="desc_WordPerfect_Graphics">Disabilita il filtro di importazione per il formato WordPerfect Graphics.</string>
+        <string id="name_WriteNow">Documento WriteNow</string>
+        <string id="desc_WriteNow">Disabilita il filtro di importazione per il formato WriteNow Document.</string>
+        <string id="name_XBM__XConsortium">XBM - X Bitmap</string>
+        <string id="desc_XBM__XConsortium">Disabilita il filtro di importazione per il formato XBM - X Bitmap.</string>
+        <string id="name_XPM">XPM - X PixMap</string>
+        <string id="desc_XPM">Disabilita il filtro di importazione per il formato XPM - X PixMap.</string>
+        <string id="name_ZMF_Document">Zoner Callisto/Draw</string>
+        <string id="desc_ZMF_Document">Disabilita il filtro di importazione per il formato Zoner Callisto/Draw.</string>
+        <string id="name_calc8">Fogli di calcolo ODF</string>
+        <string id="desc_calc8">Disabilita il filtro di importazione per il formato dei fogli di calcolo ODF.</string>
+        <string id="name_calc8_template">ODF Spreadsheet Template</string>
+        <string id="desc_calc8_template">Disabilita il filtro di importazione per il formato ODF Spreadsheet Template.</string>
+        <string id="name_Gnumeric_Spreadsheet">Foglio di calcolo Gnumeric</string>
+        <string id="desc_Gnumeric_Spreadsheet">Disabilita il filtro di importazione per il formato dei fogli di calcolo Gnumeric.</string>
+        <string id="name_calc_HTML_WebQuery">Web Page Query (Calc)</string>
+        <string id="desc_calc_HTML_WebQuery">Disabilita il filtro di importazione per il formato Web Page Query (Calc).</string>
+        <string id="name_Calc_MS_Excel_2007_Binary">Microsoft Excel 2007 Binary</string>
+        <string id="desc_Calc_MS_Excel_2007_Binary">Disabilita il filtro di importazione per il formato Microsoft Excel 2007 Binary.</string>
+        <string id="name_Calc_MS_Excel_2007_VBA_XML">Microsoft Excel 2007-2016 XML (macro abilitate)</string>
+        <string id="desc_Calc_MS_Excel_2007_VBA_XML">Disabilita il filtro di importazione per il formato Microsoft Excel 2007-2016 XML (macro abilitate).</string>
+        <string id="name_Calc_MS_Excel_2007_XML">Microsoft Excel 2007-2013 XML</string>
+        <string id="desc_Calc_MS_Excel_2007_XML">Disabilita il filtro di importazione per il formato Microsoft Excel 2007-2013 XML.</string>
+        <string id="name_Calc_MS_Excel_2007_XML_Template">Modello Microsoft Excel 2007-2013 XML</string>
+        <string id="desc_Calc_MS_Excel_2007_XML_Template">Disabilita il filtro di importazione per il formato dei modelli Microsoft Excel 2007-2013 XML.</string>
+        <string id="name_Calc_Office_Open_XML">Foglio di calcolo Office Open XML</string>
+        <string id="desc_Calc_Office_Open_XML">Disabilita il filtro di importazione per il formato Office Open XML Spreadsheet.</string>
+        <string id="name_Calc_Office_Open_XML_Template">Office Open XML Spreadsheet Template</string>
+        <string id="desc_Calc_Office_Open_XML_Template">Disabilita il filtro di importazione per il formato Office Open XML Spreadsheet Template.</string>
+        <string id="name_calc_StarOffice_XML_Calc_Template">OpenOffice.org 1.0 Spreadsheet Template</string>
+        <string id="desc_calc_StarOffice_XML_Calc_Template">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Spreadsheet Template.</string>
+        <string id="name_chart8">ODF Chart</string>
+        <string id="desc_chart8">Disabilita il filtro di importazione per il formato ODF Chart.</string>
+        <string id="name_dBase">dBASE</string>
+        <string id="desc_dBase">Disabilita il filtro di importazione per il formato dBASE.</string>
+        <string id="name_draw8">ODF Drawing</string>
+        <string id="desc_draw8">Disabilita il filtro di importazione per il formato ODF Drawing.</string>
+        <string id="name_draw8_template">ODF Drawing Template</string>
+        <string id="desc_draw8_template">Disabilita il filtro di importazione per il formato ODF Drawing Template.</string>
+        <string id="name_draw_PCD_Photo_CD_Base">PCD - Kodak Photo CD (768x512)</string>
+        <string id="desc_draw_PCD_Photo_CD_Base">Disabilita il filtro di importazione per il formato PCD - Kodak Photo CD (768x512).</string>
+        <string id="name_draw_PCD_Photo_CD_Base16">PCD - Kodak Photo CD (192x128)</string>
+        <string id="desc_draw_PCD_Photo_CD_Base16">Disabilita il filtro di importazione per il formato PCD - Kodak Photo CD (192x128).</string>
+        <string id="name_draw_PCD_Photo_CD_Base4">PCD - Kodak Photo CD (384x256)</string>
+        <string id="desc_draw_PCD_Photo_CD_Base4">Disabilita il filtro di importazione per il formato PCD - Kodak Photo CD (384x256).</string>
+        <string id="name_draw_StarOffice_XML_Draw_Template">OpenOffice.org 1.0 Drawing Template</string>
+        <string id="desc_draw_StarOffice_XML_Draw_Template">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Drawing Template.</string>
+        <string id="name_impress8">Presentazione ODF</string>
+        <string id="desc_impress8">Disabilita il filtro di importazione per il formato Presentazione ODF.</string>
+        <string id="name_impress8_draw">ODF Drawing (Impress)</string>
+        <string id="desc_impress8_draw">Disabilita il filtro di importazione per il formato ODF Drawing (Impress).</string>
+        <string id="name_impress8_template">ODF Presentation Template</string>
+        <string id="desc_impress8_template">Disabilita il filtro di importazione per il formato ODF Presentation Template.</string>
+        <string id="name_Impress_MS_PowerPoint_2007_XML">Microsoft PowerPoint 2007-2013 XML</string>
+        <string id="desc_Impress_MS_PowerPoint_2007_XML">Disabilita il filtro di importazione per il formato Microsoft PowerPoint 2007-2013 XML.</string>
+        <string id="name_Impress_MS_PowerPoint_2007_XML_AutoPlay">Microsoft PowerPoint 2007-2013 XML AutoPlay</string>
+        <string id="desc_Impress_MS_PowerPoint_2007_XML_AutoPlay">Disabilita il filtro di importazione per il formato Microsoft PowerPoint 2007-2013 XML AutoPlay.</string>
+        <string id="name_Impress_MS_PowerPoint_2007_XML_Template">Microsoft PowerPoint 2007-2013 XML Template</string>
+        <string id="desc_Impress_MS_PowerPoint_2007_XML_Template">Disabilita il filtro di importazione per il formato Microsoft PowerPoint 2007-2013 XML Template.</string>
+        <string id="name_Impress_MS_PowerPoint_2007_XML_VBA">Microsoft PowerPoint 2007-2013 XML VBA</string>
+        <string id="desc_Impress_MS_PowerPoint_2007_XML_VBA">Disabilita il filtro di importazione per il formato Microsoft PowerPoint 2007-2013 XML VBA.</string>
+        <string id="name_Impress_Office_Open_XML">Office Open XML Presentation</string>
+        <string id="desc_Impress_Office_Open_XML">Disabilita il filtro di importazione per il formato Office Open XML Presentation.</string>
+        <string id="name_Impress_Office_Open_XML_AutoPlay">Office Open XML Presentation AutoPlay</string>
+        <string id="desc_Impress_Office_Open_XML_AutoPlay">Disabilita il filtro di importazione per il formato Office Open XML Presentation AutoPlay.</string>
+        <string id="name_Impress_Office_Open_XML_Template">Office Open XML Presentation Template</string>
+        <string id="desc_Impress_Office_Open_XML_Template">Disabilita il filtro di importazione per il formato Office Open XML Presentation Template.</string>
+        <string id="name_impress_StarOffice_XML_Draw">OpenOffice.org 1.0 Drawing (Impress)</string>
+        <string id="desc_impress_StarOffice_XML_Draw">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Drawing (Impress).</string>
+        <string id="name_impress_StarOffice_XML_Impress_Template">OpenOffice.org 1.0 Presentation Template</string>
+        <string id="desc_impress_StarOffice_XML_Impress_Template">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Presentation Template.</string>
+        <string id="name_math8">Formula ODF</string>
+        <string id="desc_math8">Disabilita il filtro di importazione per il formato ODF Formula.</string>
+        <string id="name_MOV__MOV">MOV - QuickTime File Format</string>
+        <string id="desc_MOV__MOV">Disabilita il filtro di importazione per il formato MOV - QuickTime File Format.</string>
+        <string id="name_writer8">Documento di testo ODF</string>
+        <string id="desc_writer8">Disabilita il filtro di importazione per il formato ODF Text Document.</string>
+        <string id="name_writer8_template">ODF Text Document Template</string>
+        <string id="desc_writer8_template">Disabilita il filtro di importazione per il formato ODF Text Document Template.</string>
+        <string id="name_writer_MIZI_Hwp_97">Hangul WP 97</string>
+        <string id="desc_writer_MIZI_Hwp_97">Disabilita il filtro di importazione per il formato Hangul WP 97.</string>
+        <string id="name_writer_StarOffice_XML_Writer_Template">OpenOffice.org 1.0 Text Document Template</string>
+        <string id="desc_writer_StarOffice_XML_Writer_Template">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Text Document Template.</string>
+        <string id="name_writer_globaldocument_StarOffice_XML_Writer_GlobalDocument">OpenOffice.org 1.0 Master Document</string>
+        <string id="desc_writer_globaldocument_StarOffice_XML_Writer_GlobalDocument">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 Master Document.</string>
+        <string id="name_writer_web_HTML_help">Contenuto dell'aiuto</string>
+        <string id="desc_writer_web_HTML_help">Disabilita il filtro di importazione per il formato del contenuto dell'aiuto.</string>
+        <string id="name_writer_web_StarOffice_XML_Writer_Web_Template">OpenOffice.org 1.0 HTML Template</string>
+        <string id="desc_writer_web_StarOffice_XML_Writer_Web_Template">Disabilita il filtro di importazione per il formato OpenOffice.org 1.0 HTML Template.</string>
+        <string id="name_writerglobal8">ODF Master Document</string>
+        <string id="desc_writerglobal8">Disabilita il filtro di importazione per il formato ODF Master Document.</string>
+        <string id="name_writerglobal8_template">ODF Master Document Template</string>
+        <string id="desc_writerglobal8_template">Disabilita il filtro di importazione per il formato ODF Master Document Template.</string>
+        <string id="name_writerweb8_writer_template">HTML Document Template</string>
+        <string id="desc_writerweb8_writer_template">Disabilita il filtro di importazione per il formato HTML Document Template.</string>
+
         <string id="category_OpenCL">OpenCL</string>
         <string id="name_UseOpenCL">Usa OpenCL</string>
         <string id="desc_UseOpenCL">Specifica quando utilizzare OpenCL, se disponibile, per velocizzare alcune operrazioni.</string>
@@ -733,6 +1084,702 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <textBox refId="Value">
           <label>Elenco dei percorsi:</label>
         </textBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="ADO_Rowset_XML">
+        <checkBox refId="Value">Disabilita ADO Rowset XML</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="AbiWord">
+        <checkBox refId="Value">Disabilita AbiWord Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Apple_Keynote">
+        <checkBox refId="Value">Disabilita Apple Keynote 5</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Apple_Numbers">
+        <checkBox refId="Value">Disabilita Apple Numbers 2</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Apple_Pages">
+        <checkBox refId="Value">Disabilita Apple Pages 4</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="BMP__MS_Windows">
+        <checkBox refId="Value">Disabilita BMP - Windows Bitmap</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="BroadBand_eBook">
+        <checkBox refId="Value">Disabilita BroadBand eBook</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="CGM__Computer_Graphics_Metafile">
+        <checkBox refId="Value">Disabilita CGM - Computer Graphics Metafile</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="ClarisWorks">
+        <checkBox refId="Value">Disabilita ClarisWorks/AppleWorks Text Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="ClarisWorks_Calc">
+        <checkBox refId="Value">Disabilita ClarisWorks/AppleWorks Spreadsheet</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="ClarisWorks_Draw">
+        <checkBox refId="Value">Disabilita ClarisWorks/AppleWorks Drawing</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="ClarisWorks_Impress">
+        <checkBox refId="Value">Disabilita ClarisWorks/AppleWorks Presentation</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Claris_Resolve_Calc">
+        <checkBox refId="Value">Disabilita ClarisResolve Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Corel_Draw_Document">
+        <checkBox refId="Value">Disabilita Corel Draw</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Corel_Presentation_Exchange">
+        <checkBox refId="Value">Disabilita Corel Presentation Exchange</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="DIF">
+        <checkBox refId="Value">Disabilita Data Interchange Format</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="DXF__AutoCAD_Interchange">
+        <checkBox refId="Value">Disabilita DXF - AutoCAD Interchange Format</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="DocBook_File">
+        <checkBox refId="Value">Disabilita DocBook</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="DosWord">
+        <checkBox refId="Value">Disabilita Microsoft Word for DOS</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="EMF__MS_Windows_Metafile">
+        <checkBox refId="Value">Disabilita EMF - Enhanced Metafile</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="EPS__Encapsulated_PostScript">
+        <checkBox refId="Value">Disabilita EPS - Encapsulated PostScript</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="FictionBook_2">
+        <checkBox refId="Value">Disabilita FictionBook 2.0</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Freehand_Document">
+        <checkBox refId="Value">Disabilita Adobe/Macromedia Freehand</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="GIF__Graphics_Interchange">
+        <checkBox refId="Value">Disabilita GIF - Graphics Interchange Format</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="HTML">
+        <checkBox refId="Value">Disabilita HTML Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="HTML_StarCalc">
+        <checkBox refId="Value">Disabilita HTML Document (Calc)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="HTML_StarWriter">
+        <checkBox refId="Value">Disabilita HTML Document (Writer)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="JPG__JPEG">
+        <checkBox refId="Value">Disabilita JPEG - Joint Photographic Experts Group</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Lotus">
+        <checkBox refId="Value">Disabilita Lotus 1-2-3</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="LotusWordPro">
+        <checkBox refId="Value">Disabilita Lotus WordPro Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MET__OS2_Metafile">
+        <checkBox refId="Value">Disabilita MET - OS/2 Metafile</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_2003_XML_Orcus">
+        <checkBox refId="Value">Disabilita Microsoft Excel 2003 XML</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_40">
+        <checkBox refId="Value">Disabilita Microsoft Excel 4.0</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_40_VorlageTemplate">
+        <checkBox refId="Value">Disabilita Microsoft Excel 4.0 Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_5095">
+        <checkBox refId="Value">Disabilita Microsoft Excel 5.0</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_5095_VorlageTemplate">
+        <checkBox refId="Value">Disabilita Microsoft Excel 5.0 Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_95">
+        <checkBox refId="Value">Disabilita Microsoft Excel 95</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_95_VorlageTemplate">
+        <checkBox refId="Value">Disabilita Microsoft Excel 95 Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_97">
+        <checkBox refId="Value">Disabilita Microsoft Excel 97-2003</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_97_VorlageTemplate">
+        <checkBox refId="Value">Disabilita Microsoft Excel 97-2003 Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_PowerPoint_97">
+        <checkBox refId="Value">Disabilita Microsoft PowerPoint 97-2003</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_PowerPoint_97_AutoPlay">
+        <checkBox refId="Value">Disabilita Microsoft PowerPoint 97-2003 AutoPlay</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_PowerPoint_97_Vorlage">
+        <checkBox refId="Value">Disabilita Microsoft PowerPoint 97-2003 Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_WinWord_5">
+        <checkBox refId="Value">Disabilita Microsoft WinWord 1/2/5</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_WinWord_60">
+        <checkBox refId="Value">Disabilita Microsoft Word 6.0</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Word_2003_XML">
+        <checkBox refId="Value">Disabilita Microsoft Word 2003 XML</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Word_2007_XML">
+        <checkBox refId="Value">Disabilita Microsoft Word 2007-2013 XML</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Word_2007_XML_Template">
+        <checkBox refId="Value">Disabilita Microsoft Word 2007-2013 XML Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Word_2007_XML_VBA">
+        <checkBox refId="Value">Disabilita Microsoft Word 2007-2013 XML VBA</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Word_95">
+        <checkBox refId="Value">Disabilita Microsoft Word 95</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Word_95_Vorlage">
+        <checkBox refId="Value">Disabilita Microsoft Word 95 Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Word_97">
+        <checkBox refId="Value">Disabilita Microsoft Word 97-2003</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Word_97_Vorlage">
+        <checkBox refId="Value">Disabilita Microsoft Word 97-2003 Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Works">
+        <checkBox refId="Value">Disabilita Microsoft Works Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Works_Calc">
+        <checkBox refId="Value">Disabilita Microsoft Works Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MS_Write">
+        <checkBox refId="Value">Disabilita Microsoft Write</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MWAW_Bitmap">
+        <checkBox refId="Value">Disabilita Legacy Mac Bitmap</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MWAW_Database">
+        <checkBox refId="Value">Disabilita Legacy Mac Database</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MWAW_Drawing">
+        <checkBox refId="Value">Disabilita Legacy Mac Drawing</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MWAW_Presentation">
+        <checkBox refId="Value">Disabilita Legacy Mac Presentation</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MWAW_Spreadsheet">
+        <checkBox refId="Value">Disabilita Legacy Mac Spreadsheet</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MWAW_Text_Document">
+        <checkBox refId="Value">Disabilita Legacy Mac Text Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MacWrite">
+        <checkBox refId="Value">Disabilita MacWrite Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Mac_Word">
+        <checkBox refId="Value">Disabilita Microsoft Word per Mac (v1 - v5)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Mac_Works">
+        <checkBox refId="Value">Disabilita Microsoft Works per Mac Text Document (v1 - v4)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Mac_Works_Calc">
+        <checkBox refId="Value">Disabilita Microsoft Works per Mac Spreadsheet (v1 - v4)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Mariner_Write">
+        <checkBox refId="Value">Disabilita Mariner Write Mac Classic v1.6 - v3.5</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MathML_XML_Math">
+        <checkBox refId="Value">Disabilita MathML 2.0</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MathType_3x">
+        <checkBox refId="Value">Disabilita MathType3.x</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="OpenDocument_Drawing_Flat_XML">
+        <checkBox refId="Value">Disabilita Flat XML ODF Drawing</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="OpenDocument_Presentation_Flat_XML">
+        <checkBox refId="Value">Disabilita Flat XML ODF Presentation</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="OpenDocument_Spreadsheet_Flat_XML">
+        <checkBox refId="Value">Disabilita Flat XML ODF Spreadsheet</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="OpenDocument_Text_Flat_XML">
+        <checkBox refId="Value">Disabilita Flat XML ODF Text Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Office_Open_XML_Text">
+        <checkBox refId="Value">Disabilita Office Open XML Text</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Office_Open_XML_Text_Template">
+        <checkBox refId="Value">Disabilita Office Open XML Text Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="PBM__Portable_Bitmap">
+        <checkBox refId="Value">Disabilita PBM - Portable Bitmap</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="PCT__Mac_Pict">
+        <checkBox refId="Value">Disabilita PCT - Mac Pict</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="PCX__Zsoft_Paintbrush">
+        <checkBox refId="Value">Disabilita PCX - Zsoft Paintbrush</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="PGM__Portable_Graymap">
+        <checkBox refId="Value">Disabilita PGM - Portable Graymap</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="PNG__Portable_Network_Graphic">
+        <checkBox refId="Value">Disabilita PNG - Portable Network Graphic</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="PPM__Portable_Pixelmap">
+        <checkBox refId="Value">Disabilita PPM - Portable Pixelmap</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="PSD__Adobe_Photoshop">
+        <checkBox refId="Value">Disabilita PSD - Adobe Photoshop</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="PageMaker_Document">
+        <checkBox refId="Value">Disabilita Adobe PageMaker</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="PalmDoc">
+        <checkBox refId="Value">Disabilita PalmDoc eBook</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Palm_Text_Document">
+        <checkBox refId="Value">Disabilita Palm Text Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Plucker_eBook">
+        <checkBox refId="Value">Disabilita Plucker eBook</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="PowerPoint_3">
+        <checkBox refId="Value">Disabilita Microsoft PowerPoint 1-4 e 95's</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Publisher_Document">
+        <checkBox refId="Value">Disabilita Microsoft Publisher 98-2010</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Quattro_Pro_60">
+        <checkBox refId="Value">Disabilita Quattro Pro 6.0</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="QXP_Document">
+        <checkBox refId="Value">Disabilita QuarkXPress</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="RAS__Sun_Rasterfile">
+        <checkBox refId="Value">Disabilita RAS - Sun Raster Image</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Rich_Text_Format">
+        <checkBox refId="Value">Disabilita Rich Text</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Rich_Text_Format_StarCalc">
+        <checkBox refId="Value">Disabilita Rich Text Format (Calc)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="SVG__Scalable_Vector_Graphics">
+        <checkBox refId="Value">Disabilita SVG - Scalable Vector Graphics</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="SVM__StarView_Metafile">
+        <checkBox refId="Value">Disabilita SVM - StarView Metafile</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="SYLK">
+        <checkBox refId="Value">Disabilita SYLK</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Base_Report">
+        <checkBox refId="Value">Disabilita ODF Database Report</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Base_Report_Chart">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Report Chart</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_Drawing">
+        <checkBox refId="Value">Disabilita Legacy StarOffice Drawing</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_Presentation">
+        <checkBox refId="Value">Disabilita Legacy StarOffice Presentation</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_Spreadsheet">
+        <checkBox refId="Value">Disabilita Legacy StarOffice Spreadsheet</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_Writer">
+        <checkBox refId="Value">Disabilita Legacy StarOffice Text Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Base">
+        <checkBox refId="Value">Disabilita ODF Database</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Calc">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Spreadsheet</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Chart">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Chart</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Draw">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Drawing</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Impress">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Presentation</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Math">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Formula</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Writer">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Text Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="T602Document">
+        <checkBox refId="Value">Disabilita T602 Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="TGA__Truevision_TARGA">
+        <checkBox refId="Value">Disabilita TGA - Truevision Targa</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="TIF__Tag_Image_File">
+        <checkBox refId="Value">Disabilita TIFF - Tagged Image File Format</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Text">
+        <checkBox refId="Value">Disabilita Text</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Text_StarWriterWeb">
+        <checkBox refId="Value">Disabilita Text (Writer/Web)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Text__txt__csv_StarCalc">
+        <checkBox refId="Value">Disabilita Text CSV</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Text_encoded">
+        <checkBox refId="Value">Disabilita Text - Choose Encoding</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Text_encoded_StarWriterGlobalDocument">
+        <checkBox refId="Value">Disabilita Text - Choose Encoding (Master Document)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Text_encoded_StarWriterWeb">
+        <checkBox refId="Value">Disabilita Text - Choose Encoding (Writer/Web)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="UOF_presentation">
+        <checkBox refId="Value">Disabilita Unified Office Format presentation</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="UOF_spreadsheet">
+        <checkBox refId="Value">Disabilita Unified Office Format spreadsheet</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="UOF_text">
+        <checkBox refId="Value">Disabilita Unified Office Format text</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Visio_Document">
+        <checkBox refId="Value">Disabilita Microsoft Visio 2000-2013</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="WMF__MS_Windows_Metafile">
+        <checkBox refId="Value">Disabilita WMF - Windows Metafile</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="WPS_Lotus_Calc">
+        <checkBox refId="Value">Disabilita Lotus Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="WPS_QPro_Calc">
+        <checkBox refId="Value">Disabilita QuattroPro Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="WordPerfect">
+        <checkBox refId="Value">Disabilita WordPerfect Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="WordPerfect_Graphics">
+        <checkBox refId="Value">Disabilita WordPerfect Graphics</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="WriteNow">
+        <checkBox refId="Value">Disabilita WriteNow Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="XBM__XConsortium">
+        <checkBox refId="Value">Disabilita XBM - X Bitmap</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="XPM">
+        <checkBox refId="Value">Disabilita XPM - X PixMap</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="ZMF_Document">
+        <checkBox refId="Value">Disabilita Zoner Callisto/Draw</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="calc8">
+        <checkBox refId="Value">Disabilita ODF Spreadsheet</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="calc8_template">
+        <checkBox refId="Value">Disabilita ODF Spreadsheet Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Gnumeric_Spreadsheet">
+        <checkBox refId="Value">Disabilita Gnumeric Spreadsheet</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="calc_HTML_WebQuery">
+        <checkBox refId="Value">Disabilita Web Page Query (Calc)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Calc_MS_Excel_2007_Binary">
+        <checkBox refId="Value">Disabilita Microsoft Excel 2007 Binary</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Calc_MS_Excel_2007_VBA_XML">
+        <checkBox refId="Value">Disabilita Microsoft Excel 2007-2016 XML (macro enabled)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Calc_MS_Excel_2007_XML">
+        <checkBox refId="Value">Disabilita Microsoft Excel 2007-2013 XML</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Calc_MS_Excel_2007_XML_Template">
+        <checkBox refId="Value">Disabilita Microsoft Excel 2007-2013 XML Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Calc_Office_Open_XML">
+        <checkBox refId="Value">Disabilita Office Open XML Spreadsheet</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Calc_Office_Open_XML_Template">
+        <checkBox refId="Value">Disabilita Office Open XML Spreadsheet Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="calc_StarOffice_XML_Calc_Template">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Spreadsheet Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="chart8">
+        <checkBox refId="Value">Disabilita ODF Chart</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="dBase">
+        <checkBox refId="Value">Disabilita dBASE</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="draw8">
+        <checkBox refId="Value">Disabilita ODF Drawing</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="draw8_template">
+        <checkBox refId="Value">Disabilita ODF Drawing Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="draw_PCD_Photo_CD_Base">
+        <checkBox refId="Value">Disabilita PCD - Kodak Photo CD (768x512)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="draw_PCD_Photo_CD_Base16">
+        <checkBox refId="Value">Disabilita PCD - Kodak Photo CD (192x128)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="draw_PCD_Photo_CD_Base4">
+        <checkBox refId="Value">Disabilita PCD - Kodak Photo CD (384x256)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="draw_StarOffice_XML_Draw_Template">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Drawing Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="impress8">
+        <checkBox refId="Value">Disabilita ODF Presentation</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="impress8_draw">
+        <checkBox refId="Value">Disabilita ODF Drawing (Impress)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="impress8_template">
+        <checkBox refId="Value">Disabilita ODF Presentation Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Impress_MS_PowerPoint_2007_XML">
+        <checkBox refId="Value">Disabilita Microsoft PowerPoint 2007-2013 XML</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Impress_MS_PowerPoint_2007_XML_AutoPlay">
+        <checkBox refId="Value">Disabilita Microsoft PowerPoint 2007-2013 XML AutoPlay</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Impress_MS_PowerPoint_2007_XML_Template">
+        <checkBox refId="Value">Disabilita Microsoft PowerPoint 2007-2013 XML Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Impress_MS_PowerPoint_2007_XML_VBA">
+        <checkBox refId="Value">Disabilita Microsoft PowerPoint 2007-2013 XML VBA</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Impress_Office_Open_XML">
+        <checkBox refId="Value">Disabilita Office Open XML Presentation</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Impress_Office_Open_XML_AutoPlay">
+        <checkBox refId="Value">Disabilita Office Open XML Presentation AutoPlay</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="Impress_Office_Open_XML_Template">
+        <checkBox refId="Value">Disabilita Office Open XML Presentation Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="impress_StarOffice_XML_Draw">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Drawing (Impress)</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="impress_StarOffice_XML_Impress_Template">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Presentation Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="math8">
+        <checkBox refId="Value">Disabilita ODF Formula</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="MOV__MOV">
+        <checkBox refId="Value">Disabilita MOV - QuickTime File Format</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="writer8">
+        <checkBox refId="Value">Disabilita ODF Text Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="writer8_template">
+        <checkBox refId="Value">Disabilita ODF Text Document Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="writer_MIZI_Hwp_97">
+        <checkBox refId="Value">Disabilita Hangul WP 97</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="writer_StarOffice_XML_Writer_Template">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Text Document Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="writer_globaldocument_StarOffice_XML_Writer_GlobalDocument">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 Master Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="writer_web_HTML_help">
+        <checkBox refId="Value">Disabilita Help content</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="writer_web_StarOffice_XML_Writer_Web_Template">
+        <checkBox refId="Value">Disabilita OpenOffice.org 1.0 HTML Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="writerglobal8">
+        <checkBox refId="Value">Disabilita ODF Master Document</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="writerglobal8_template">
+        <checkBox refId="Value">Disabilita ODF Master Document Template</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="writerweb8_writer_template">
+        <checkBox refId="Value">Disabilita HTML Document Template</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="CaseSensitive">
