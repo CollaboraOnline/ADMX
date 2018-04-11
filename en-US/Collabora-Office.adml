@@ -32,6 +32,8 @@
         <string id="desc_UseUserData">Use user data for document properties</string>
         <string id="name_AutoSave">AutoSave</string>
         <string id="desc_AutoSave">Save AutoRecovery information in every __ minutes</string>
+        <string id="name_RecoveryInfo">Disable the autorecovery feature</string>
+        <string id="desc_RecoveryInfo">Disable the autorecovery feature in case of crashes</string>
         <string id="name_CreateBackup">Create Backup</string>
         <string id="desc_CreateBackup">Always create backup copy</string>
         <string id="name_EditProperty">Edit document properties before saving</string>
@@ -671,6 +673,10 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="AutoSaveTimeIntervallFinal">Final</checkBox>
         <checkBox refId="AutoSavePromptValue">Automatically save the document too</checkBox>
         <checkBox refId="AutoSavePromptFinal">Final</checkBox>
+      </presentation>
+      <presentation id="RecoveryInfo">
+        <checkBox refId="Value">Disable the autorecovery feature</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="CreateBackup">
         <checkBox refId="Value">Always create backup copy</checkBox>
