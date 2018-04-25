@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
-<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>
   </displayName>
   <description>
@@ -13,6 +13,11 @@
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 vagy újabb</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 vagy újabb</string>
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 vagy újabb</string>
+
+        <string id="ValueFlagsNone">None</string>
+        <string id="ValueFlagsFinal">Végleges</string>
+        <string id="ValueFlagsExternalLDAP">From LDAP</string>
+
         <string id="category_LibreOffice">Collabora Office</string>
         <string id="category_Common">Közös</string>
 
@@ -21,6 +26,14 @@
         <string id="desc_UseSystemFileDialog">Megadja, hogy a Windows fájl- és mappaválasztó ablakát kell-e használni. Ha hamis, a beépített platformfüggetlen fájl- és mappaválasztó ablakok lesznek használva.</string>
         <string id="name_CollectUsageInformation">Segítsen a LibreOffice tökéletesítésében</string>
         <string id="desc_CollectUsageInformation">Felhasználási adatok gyűjtése és elküldése a The Document Foundationnek</string>
+
+        <string id="category_LDAPConfigBackend">LDAP configuration backend</string>
+        <string id="name_LDAPConfigBackendSettings">LDAP User Directory</string>
+        <string id="desc_LDAPConfigBackendSettings">Defines how to connect to LDAP server and retrieve user information used in User Data section
+
+Note that the password to bind to LDAP server is stored unencrypted in client system's registry; you should use a restricted search account (only able to perform LDAP searches).
+
+User unique attribute must correspond to the logged on user's Windows user name without domain.</string>
 
         <string id="category_ProductName">Termék neve</string>
         <string id="name_ooName">Termék neve (ooName)</string>
@@ -485,7 +498,22 @@ Alapértelmezés: Makrók engedélyezése</string>
         <string id="desc_UseOpenCL">Megadja, hogy az OpenCL használható-e bizonyos műveletek felgyorsítására, ha rendelkezésre áll.</string>
 
         <string id="UserProfile">Felhasználó adatai</string>
-        <string id="desc_UserProfile">Felhasználói adatok (Cégnév, cím, telefonszám, fax)</string>
+        <string id="UPUserName">User name</string>
+        <string id="desc_UPUserName">User name
+
+When it is set to take from LDAP, then its value is LDAP attribute holding user name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+        <string id="UPCompanyName">Company name</string>
+        <string id="desc_UPCompanyName">Company name
+
+When it is set to take from LDAP, then its value is LDAP attribute holding company name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+        <string id="UPAddress">Address</string>
+        <string id="desc_UPAddress">Address
+
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+        <string id="UPTelephone">Telephone/Fax</string>
+        <string id="desc_UPTelephone">Telephone/Fax
+
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
 
         <string id="category_Paths">Útvonalak</string>
         <string id="name_AutoCorrect">Automatikus javítás fájlok útvonala</string>
@@ -649,6 +677,34 @@ A következő útvonalváltozók használhatók:
 Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</string>
     </stringTable>
     <presentationTable>
+      <presentation id="LDAPConfigBackendSettings">
+        <text>LDAP Server configuration</text>
+        <textBox refId="LDAPUDServerDefinition_Server">
+          <label>Server: </label>
+          <defaultValue>example.com</defaultValue>
+        </textBox>
+        <decimalTextBox refId="LDAPUDServerDefinition_Port" defaultValue="389" spin="false">Port: </decimalTextBox>
+        <text>LDAP Search configuration</text>
+        <textBox refId="LDAPUDSearchUser">
+          <label>Username to bind: </label>
+          <defaultValue>example\bindLdap</defaultValue>
+        </textBox>
+        <textBox refId="LDAPUDSearchPassword">
+          <label>Password to bind: </label>
+        </textBox>
+        <textBox refId="LDAPUDServerDefinition_BaseDN">
+          <label>Base DN for search: </label>
+          <defaultValue>cn=Users,dc=example,dc=com</defaultValue>
+        </textBox>
+        <textBox refId="LDAPUDUserObjectClass">
+          <label>User object class: </label>
+          <defaultValue>user</defaultValue>
+        </textBox>
+        <textBox refId="LDAPUDUserUniqueAttribute">
+          <label>User unique attribute: </label>
+          <defaultValue>sAMAccountName</defaultValue>
+        </textBox>
+      </presentation>
       <presentation id="ooName">
         <text>Megadja a termék nevét.</text>
         <textBox refId="Value">
@@ -805,41 +861,59 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
         <checkBox refId="Value">A rendszer nyomtatási párbeszédablakának használata</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
-      <presentation id="UserProfile">
+      <presentation id="UPUserName">
+        <textBox refId="GivenNameValue">
+          <label>Given Name: </label>
+        </textBox>
+        <dropdownList refId="GivenNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
+        <textBox refId="LastNameValue">
+          <label>Last Name: </label>
+        </textBox>
+        <dropdownList refId="LastNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
+        <textBox refId="InitialsValue">
+          <label>Initials: </label>
+        </textBox>
+        <dropdownList refId="InitialsFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
+      </presentation>
+      <presentation id="UPCompanyName">
         <textBox refId="CompanyNameValue">
           <label>Szervezet:</label>
         </textBox>
-        <checkBox refId="CompanyNameFinal">Végleges</checkBox>
+        <dropdownList refId="CompanyNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <text>Cím</text>
+      </presentation>
+      <presentation id="UPAddress">
         <textBox refId="AddressStreetValue">
           <label>Utca:</label>
         </textBox>
-        <checkBox refId="AddressStreetFinal">Végleges</checkBox>
+        <dropdownList refId="AddressStreetFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressCityValue">
           <label>Város:</label>
         </textBox>
-        <checkBox refId="AddressCityFinal">Végleges</checkBox>
+        <dropdownList refId="AddressCityFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressStateValue">
           <label>Ország/régió</label>
         </textBox>
-        <checkBox refId="AddressStateFinal">Végleges</checkBox>
+        <dropdownList refId="AddressStateFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressPostalCodeValue">
           <label>Irányítószám:</label>
         </textBox>
-        <checkBox refId="AddressPostalCodeFinal">Végleges</checkBox>
+        <dropdownList refId="AddressPostalCodeFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressCountryValue">
           <label>Ország:</label>
         </textBox>
-        <checkBox refId="AddressCountryFinal">Végleges</checkBox>
+        <dropdownList refId="AddressCountryFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <text>Telefon/Fax</text>
+      </presentation>
+      <presentation id="UPTelephone">
         <textBox refId="TelephoneValue">
           <label>Telefon:</label>
         </textBox>
-        <checkBox refId="TelephoneFinal">Végleges</checkBox>
+        <dropdownList refId="TelephoneFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="FaxValue">
           <label>Fax:</label>
         </textBox>
-        <checkBox refId="FaxFinal">Végleges</checkBox>
+        <dropdownList refId="FaxFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>
       <presentation id="WriterSaveAsFormat">
         <text>Mentés mindig ebbe a dokumentumformátumba.</text>

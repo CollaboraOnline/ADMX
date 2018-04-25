@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
-<policyDefinitions revision="1.0" schemaVersion="1.0">
+<policyDefinitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <policyNamespaces>
     <target prefix="LOfC" namespace="Collabora.Policies.LibreOffice" />
     <using prefix="windows" namespace="Microsoft.Policies.Windows" />
@@ -21,6 +21,9 @@
     <category name="LibreOffice" displayName="$(string.category_LibreOffice)" />
     <category name="Common" displayName="$(string.category_Common)">
       <parentCategory ref="LibreOffice" />
+    </category>
+    <category name="LDAPConfigBackend" displayName="$(string.category_LDAPConfigBackend)">
+      <parentCategory ref="Common" />
     </category>
     <category name="ProductName" displayName="$(string.category_ProductName)">
       <parentCategory ref="Common" />
@@ -120,6 +123,19 @@
     </category>
   </categories>
   <policies>
+    <policy name="LDAPConfigBackendSettings" class="Both" displayName="$(string.name_LDAPConfigBackendSettings)" explainText="$(string.desc_LDAPConfigBackendSettings)" presentation="$(presentation.LDAPConfigBackendSettings)" key="Software\Policies\LibreOffice\org.openoffice.LDAP\UserDirectory">
+      <parentCategory ref="LDAPConfigBackend" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <text id="LDAPUDServerDefinition_Server" key="Software\Policies\LibreOffice\org.openoffice.LDAP\UserDirectory\ServerDefinition\Server" valueName="Value" />
+        <decimal id="LDAPUDServerDefinition_Port" key="Software\Policies\LibreOffice\org.openoffice.LDAP\UserDirectory\ServerDefinition\Port" valueName="Value" storeAsText="true" />
+        <text id="LDAPUDSearchUser" key="Software\Policies\LibreOffice\org.openoffice.LDAP\UserDirectory\SearchUser" valueName="Value" />
+        <text id="LDAPUDSearchPassword" key="Software\Policies\LibreOffice\org.openoffice.LDAP\UserDirectory\SearchPassword" valueName="Value" />
+        <text id="LDAPUDServerDefinition_BaseDN" key="Software\Policies\LibreOffice\org.openoffice.LDAP\UserDirectory\ServerDefinition\BaseDN" valueName="Value" />
+        <text id="LDAPUDUserObjectClass" key="Software\Policies\LibreOffice\org.openoffice.LDAP\UserDirectory\UserObjectClass" valueName="Value" />
+        <text id="LDAPUDUserUniqueAttribute" key="Software\Policies\LibreOffice\org.openoffice.LDAP\UserDirectory\UserUniqueAttribute" valueName="Value" />
+      </elements>
+    </policy>
     <policy name="ooName" class="Both" displayName="$(string.name_ooName)" explainText="$(string.desc_ooName)" presentation="$(presentation.ooName)" key="Software\Policies\LibreOffice\org.openoffice.Setup\Product\ooName">
       <parentCategory ref="ProductName" />
       <supportedOn ref="supported_LibreOffice_4_2" />
@@ -932,26 +948,790 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-    <policy name="UserProfile" class="Both" displayName="$(string.UserProfile)" explainText="$(string.desc_UserProfile)" presentation="$(presentation.UserProfile)" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\o">
+    <policy name="UPUserName" class="Both" displayName="$(string.UPUserName)" explainText="$(string.desc_UPUserName)" presentation="$(presentation.UPUserName)" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\givenname">
+      <parentCategory ref="UserProfile" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <text id="GivenNameValue" valueName="Value" />
+        <enum id="GivenNameFlags" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/>
+              <!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\givenname">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\givenname">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\givenname">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
+        <text id="LastNameValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\sn" valueName="Value" />
+        <enum id="LastNameFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\sn" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/>
+              <!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\sn">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\sn">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\sn">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
+        <text id="InitialsValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\initials" valueName="Value" />
+        <enum id="InitialsFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\initials" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/>
+              <!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\initials">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\initials">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\initials">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
+      </elements>
+    </policy>
+    <policy name="UPCompanyName" class="Both" displayName="$(string.UPCompanyName)" explainText="$(string.desc_UPCompanyName)" presentation="$(presentation.UPCompanyName)" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\o">
       <parentCategory ref="UserProfile" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
         <text id="CompanyNameValue" valueName="Value" />
-        <boolean id="CompanyNameFinal" valueName="Final" />
-        <text id="AddressStreetValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\street" valueName="Value" />
-        <boolean id="AddressStreetFinal" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\street" valueName="Final" />
+        <enum id="CompanyNameFlags" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\o">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\o">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\o">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
+      </elements>
+    </policy>
+    <policy name="UPAddress" class="Both" displayName="$(string.UPAddress)" explainText="$(string.desc_UPAddress)" presentation="$(presentation.UPAddress)" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\street">
+      <parentCategory ref="UserProfile" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <text id="AddressStreetValue" valueName="Value" />
+        <enum id="AddressStreetFlags" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\street">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\street">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\street">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
         <text id="AddressCityValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\l" valueName="Value" />
-        <boolean id="AddressCityFinal" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\l" valueName="Final" />
+        <enum id="AddressCityFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\l" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\l">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\l">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\l">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
         <text id="AddressStateValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\st" valueName="Value" />
-        <boolean id="AddressStateFinal" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\st" valueName="Final" />
+        <enum id="AddressStateFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\st" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\st">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\st">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\st">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
         <text id="AddressPostalCodeValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\postalcode" valueName="Value" />
-        <boolean id="AddressPostalCodeFinal" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\postalcode" valueName="Final" />
+        <enum id="AddressPostalCodeFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\postalcode" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\postalcode">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\postalcode">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\postalcode">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
         <text id="AddressCountryValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\c" valueName="Value" />
-        <boolean id="AddressCountryFinal" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\c" valueName="Final" />
-        <text id="TelephoneValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\telephonenumber" valueName="Value" />
-        <boolean id="TelephoneFinal" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\telephonenumber" valueName="Final" />
+        <enum id="AddressCountryFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\c" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\c">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\c">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\c">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
+      </elements>
+    </policy>
+    <policy name="UPTelephone" class="Both" displayName="$(string.UPTelephone)" explainText="$(string.desc_UPTelephone)" presentation="$(presentation.UPTelephone)" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\telephonenumber">
+      <parentCategory ref="UserProfile" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <text id="TelephoneValue" valueName="Value" />
+        <enum id="TelephoneFlags" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\telephonenumber">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\telephonenumber">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\telephonenumber">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
         <text id="FaxValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\facsimiletelephonenumber" valueName="Value" />
-        <boolean id="FaxFinal" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\facsimiletelephonenumber" valueName="Final" />
+        <enum id="FaxFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\facsimiletelephonenumber" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\facsimiletelephonenumber">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\facsimiletelephonenumber">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\facsimiletelephonenumber">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
       </elements>
     </policy>
     <policy name="WriterSaveAsFormat" class="Both" displayName="$(string.SaveAsFormat)" explainText="$(string.desc_SaveAsFormat)" presentation="$(presentation.WriterSaveAsFormat)" key="Software\Policies\LibreOffice\org.openoffice.Setup\Office\Factories\org.openoffice.Setup:Factory['com.sun.star.text.TextDocument']\ooSetupFactoryDefaultFilter">
