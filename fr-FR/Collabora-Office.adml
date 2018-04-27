@@ -2,7 +2,7 @@
 <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
 <!-- Traduction Française (c) 2016 Thierry BOULESTIN - Ministère l'Écologie
      rapporter un bogue ou une amélioration à thierry.boulestin@developpement-durable.gouv.fr -->
-<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>
   </displayName>
   <description>
@@ -15,6 +15,11 @@
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 ou supérieur</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 ou supérieur</string>
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 ou supérieur</string>
+
+        <string id="ValueFlagsNone">None</string>
+        <string id="ValueFlagsFinal">Verrouiller le paramètre</string>
+        <string id="ValueFlagsExternalLDAP">From LDAP</string>
+
         <string id="category_LibreOffice">Collabora Office</string>
         <string id="category_Common">Commun</string>
 
@@ -23,6 +28,14 @@
         <string id="desc_UseSystemFileDialog">Spécifie si les boîtes de dialogue de Windows permettent d'ouvrir et d'enregistrer des documents. Si ce n'est pas le cas, ce sont les boîtes de dialogue de LibreOffice qui seront utilisées.</string>
         <string id="name_CollectUsageInformation">Aider à améliorer LibreOffice</string>
         <string id="desc_CollectUsageInformation">Collecter des données d'usage et les envoyer à The Document Foundation</string>
+
+        <string id="category_LDAPConfigBackend">LDAP configuration backend</string>
+        <string id="name_LDAPConfigBackendSettings">LDAP User Directory</string>
+        <string id="desc_LDAPConfigBackendSettings">Defines how to connect to LDAP server and retrieve user information used in User Data section
+
+Note that the password to bind to LDAP server is stored unencrypted in client system's registry; you should use a restricted search account (only able to perform LDAP searches).
+
+User unique attribute must correspond to the logged on user's Windows user name without domain.</string>
 
         <string id="category_ProductName">Nom du produit</string>
         <string id="name_ooName">Nom du produit (ooName)</string>
@@ -487,7 +500,22 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_UseOpenCL">Détermine si OpenCL peut être utilisé, lorsqu'il est disponible, pour accélérer certaines opérations.</string>
 
         <string id="UserProfile">Données d'identité</string>
-        <string id="desc_UserProfile">Données d'identité (Société, Adresse, Téléphone, Fax)</string>
+        <string id="UPUserName">User name</string>
+        <string id="desc_UPUserName">User name
+
+When it is set to take from LDAP, then its value is LDAP attribute holding user name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+        <string id="UPCompanyName">Company name</string>
+        <string id="desc_UPCompanyName">Company name
+
+When it is set to take from LDAP, then its value is LDAP attribute holding company name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+        <string id="UPAddress">Address</string>
+        <string id="desc_UPAddress">Address
+
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+        <string id="UPTelephone">Telephone/Fax</string>
+        <string id="desc_UPTelephone">Telephone/Fax
+
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
 
         <string id="category_Paths">Chemins</string>
         <string id="name_AutoCorrect">Chemin des fichiers d'AutoCorrection</string>
@@ -665,6 +693,34 @@ $(vlang) = code de la langue actuel (par exemple en-US, fr, hu)
 Les chemins dans les listes de chemin doivent être séparés par des espaces.</string>
     </stringTable>
     <presentationTable>
+      <presentation id="LDAPConfigBackendSettings">
+        <text>LDAP Server configuration</text>
+        <textBox refId="LDAPUDServerDefinition_Server">
+          <label>Server: </label>
+          <defaultValue>example.com</defaultValue>
+        </textBox>
+        <decimalTextBox refId="LDAPUDServerDefinition_Port" defaultValue="389" spin="false">Port: </decimalTextBox>
+        <text>LDAP Search configuration</text>
+        <textBox refId="LDAPUDSearchUser">
+          <label>Username to bind: </label>
+          <defaultValue>example\bindLdap</defaultValue>
+        </textBox>
+        <textBox refId="LDAPUDSearchPassword">
+          <label>Password to bind: </label>
+        </textBox>
+        <textBox refId="LDAPUDServerDefinition_BaseDN">
+          <label>Base DN for search: </label>
+          <defaultValue>cn=Users,dc=example,dc=com</defaultValue>
+        </textBox>
+        <textBox refId="LDAPUDUserObjectClass">
+          <label>User object class: </label>
+          <defaultValue>user</defaultValue>
+        </textBox>
+        <textBox refId="LDAPUDUserUniqueAttribute">
+          <label>User unique attribute: </label>
+          <defaultValue>sAMAccountName</defaultValue>
+        </textBox>
+      </presentation>
       <presentation id="ooName">
         <text>Indique le nom du produit.</text>
         <textBox refId="Value">
@@ -821,41 +877,59 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
         <checkBox refId="Value">Utilisez la boîte de dialogue d'impression du système</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
-      <presentation id="UserProfile">
+      <presentation id="UPUserName">
+        <textBox refId="GivenNameValue">
+          <label>Given Name: </label>
+        </textBox>
+        <dropdownList refId="GivenNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
+        <textBox refId="LastNameValue">
+          <label>Last Name: </label>
+        </textBox>
+        <dropdownList refId="LastNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
+        <textBox refId="InitialsValue">
+          <label>Initials: </label>
+        </textBox>
+        <dropdownList refId="InitialsFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
+      </presentation>
+      <presentation id="UPCompanyName">
         <textBox refId="CompanyNameValue">
           <label>Société :</label>
         </textBox>
-        <checkBox refId="CompanyNameFinal">Verrouiller le paramètre</checkBox>
+        <dropdownList refId="CompanyNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <text>Address</text>
+      </presentation>
+      <presentation id="UPAddress">
         <textBox refId="AddressStreetValue">
           <label>Rue :</label>
         </textBox>
-        <checkBox refId="AddressStreetFinal">Verrouiller le paramètre</checkBox>
+        <dropdownList refId="AddressStreetFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressCityValue">
           <label>Ville :</label>
         </textBox>
-        <checkBox refId="AddressCityFinal">Verrouiller le paramètre</checkBox>
+        <dropdownList refId="AddressCityFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressStateValue">
           <label>Pays :</label>
         </textBox>
-        <checkBox refId="AddressStateFinal">Verrouiller le paramètre</checkBox>
+        <dropdownList refId="AddressStateFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressPostalCodeValue">
           <label>Code postal :</label>
         </textBox>
-        <checkBox refId="AddressPostalCodeFinal">Verrouiller le paramètre</checkBox>
+        <dropdownList refId="AddressPostalCodeFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressCountryValue">
           <label>Région :</label>
         </textBox>
-        <checkBox refId="AddressCountryFinal">Verrouiller le paramètre</checkBox>
+        <dropdownList refId="AddressCountryFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <text>Téléphone / Fax</text>
+      </presentation>
+      <presentation id="UPTelephone">
         <textBox refId="TelephoneValue">
           <label>Téléphone :</label>
         </textBox>
-        <checkBox refId="TelephoneFinal">Verrouiller le paramètre</checkBox>
+        <dropdownList refId="TelephoneFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="FaxValue">
           <label>Fax :</label>
         </textBox>
-        <checkBox refId="FaxFinal">Verrouiller le paramètre</checkBox>
+        <dropdownList refId="FaxFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>
       <presentation id="WriterSaveAsFormat">
         <text>Toujours enregistrer dans ce format de document.</text>

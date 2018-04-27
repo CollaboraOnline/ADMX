@@ -2,7 +2,7 @@
 <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
 <!-- Italian Translation (c) 2015 Marina Latini - Studio Storti srl CC-BY-SA 4.0
      report bugs or improvements to marina@studiostorti.com -->
-<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>
   </displayName>
   <description>
@@ -15,6 +15,11 @@
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 o superiore</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 o superiore</string>
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 o superiore</string>
+
+        <string id="ValueFlagsNone">None</string>
+        <string id="ValueFlagsFinal">Finale</string>
+        <string id="ValueFlagsExternalLDAP">From LDAP</string>
+
         <string id="category_LibreOffice">Collabora Office</string>
         <string id="category_Common">Comune</string>
 
@@ -23,6 +28,14 @@
         <string id="desc_UseSystemFileDialog">Specifica se vengono utilizzate le finestre di dialogo di apertura file e cartelle di Windows. Se falso, saranno utilizzate quelle implementate in LibreOffice.</string>
         <string id="name_CollectUsageInformation">Aiutaci a migliorare LibreOffice</string>
         <string id="desc_CollectUsageInformation">Raccogli i dati di utilizzo e inviali a The Document Foundation</string>
+
+        <string id="category_LDAPConfigBackend">LDAP configuration backend</string>
+        <string id="name_LDAPConfigBackendSettings">LDAP User Directory</string>
+        <string id="desc_LDAPConfigBackendSettings">Defines how to connect to LDAP server and retrieve user information used in User Data section
+
+Note that the password to bind to LDAP server is stored unencrypted in client system's registry; you should use a restricted search account (only able to perform LDAP searches).
+
+User unique attribute must correspond to the logged on user's Windows user name without domain.</string>
 
         <string id="category_ProductName">Nome dell'applicazione</string>
         <string id="name_ooName">Nome del prodotto (ooName)</string>
@@ -487,7 +500,22 @@ Valore predefinito: Macro abilitate</string>
         <string id="desc_UseOpenCL">Specifica quando utilizzare OpenCL, se disponibile, per velocizzare alcune operrazioni.</string>
 
         <string id="UserProfile">Dati utente</string>
-        <string id="desc_UserProfile">Dati utente (Nome azienda, Indirizzo, Telefono, Fax)</string>
+        <string id="UPUserName">User name</string>
+        <string id="desc_UPUserName">User name
+
+When it is set to take from LDAP, then its value is LDAP attribute holding user name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+        <string id="UPCompanyName">Company name</string>
+        <string id="desc_UPCompanyName">Company name
+
+When it is set to take from LDAP, then its value is LDAP attribute holding company name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+        <string id="UPAddress">Address</string>
+        <string id="desc_UPAddress">Address
+
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+        <string id="UPTelephone">Telephone/Fax</string>
+        <string id="desc_UPTelephone">Telephone/Fax
+
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
 
         <string id="category_Paths">Percorsi</string>
         <string id="name_AutoCorrect">Percorsi dei testi di correzione automatica</string>
@@ -649,6 +677,34 @@ Possono essere utilizzate le seguenti variabili dei percorsi:
 I percorsi configurati nella lista dei path devono essere separati da spazi.</string>
     </stringTable>
     <presentationTable>
+      <presentation id="LDAPConfigBackendSettings">
+        <text>LDAP Server configuration</text>
+        <textBox refId="LDAPUDServerDefinition_Server">
+          <label>Server: </label>
+          <defaultValue>example.com</defaultValue>
+        </textBox>
+        <decimalTextBox refId="LDAPUDServerDefinition_Port" defaultValue="389" spin="false">Port: </decimalTextBox>
+        <text>LDAP Search configuration</text>
+        <textBox refId="LDAPUDSearchUser">
+          <label>Username to bind: </label>
+          <defaultValue>example\bindLdap</defaultValue>
+        </textBox>
+        <textBox refId="LDAPUDSearchPassword">
+          <label>Password to bind: </label>
+        </textBox>
+        <textBox refId="LDAPUDServerDefinition_BaseDN">
+          <label>Base DN for search: </label>
+          <defaultValue>cn=Users,dc=example,dc=com</defaultValue>
+        </textBox>
+        <textBox refId="LDAPUDUserObjectClass">
+          <label>User object class: </label>
+          <defaultValue>user</defaultValue>
+        </textBox>
+        <textBox refId="LDAPUDUserUniqueAttribute">
+          <label>User unique attribute: </label>
+          <defaultValue>sAMAccountName</defaultValue>
+        </textBox>
+      </presentation>
       <presentation id="ooName">
         <text>Specifica il nome del prodotto.</text>
         <textBox refId="Value">
@@ -805,41 +861,59 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
         <checkBox refId="Value">Usa le finestre di dialogo di stampa di sistema</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
-      <presentation id="UserProfile">
+      <presentation id="UPUserName">
+        <textBox refId="GivenNameValue">
+          <label>Given Name: </label>
+        </textBox>
+        <dropdownList refId="GivenNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
+        <textBox refId="LastNameValue">
+          <label>Last Name: </label>
+        </textBox>
+        <dropdownList refId="LastNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
+        <textBox refId="InitialsValue">
+          <label>Initials: </label>
+        </textBox>
+        <dropdownList refId="InitialsFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
+      </presentation>
+      <presentation id="UPCompanyName">
         <textBox refId="CompanyNameValue">
           <label>Azienda:</label>
         </textBox>
-        <checkBox refId="CompanyNameFinal">Finale</checkBox>
+        <dropdownList refId="CompanyNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <text>Indirizzo</text>
+      </presentation>
+      <presentation id="UPAddress">
         <textBox refId="AddressStreetValue">
           <label>Via:</label>
         </textBox>
-        <checkBox refId="AddressStreetFinal">Finale</checkBox>
+        <dropdownList refId="AddressStreetFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressCityValue">
           <label>Città:</label>
         </textBox>
-        <checkBox refId="AddressCityFinal">Finale</checkBox>
+        <dropdownList refId="AddressCityFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressStateValue">
           <label>Stato:</label>
         </textBox>
-        <checkBox refId="AddressStateFinal">Finale</checkBox>
+        <dropdownList refId="AddressStateFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressPostalCodeValue">
           <label>CAP:</label>
         </textBox>
-        <checkBox refId="AddressPostalCodeFinal">Finale</checkBox>
+        <dropdownList refId="AddressPostalCodeFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressCountryValue">
           <label>Paese:</label>
         </textBox>
-        <checkBox refId="AddressCountryFinal">Finale</checkBox>
+        <dropdownList refId="AddressCountryFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <text>Telefono/Fax</text>
+      </presentation>
+      <presentation id="UPTelephone">
         <textBox refId="TelephoneValue">
           <label>Telefono:</label>
         </textBox>
-        <checkBox refId="TelephoneFinal">Finale</checkBox>
+        <dropdownList refId="TelephoneFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="FaxValue">
           <label>Fax:</label>
         </textBox>
-        <checkBox refId="FaxFinal">Finale</checkBox>
+        <dropdownList refId="FaxFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>
       <presentation id="WriterSaveAsFormat">
         <text>Salva sempre in questo formato di documento.</text>
