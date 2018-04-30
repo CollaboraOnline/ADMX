@@ -1021,6 +1021,28 @@
               </item>
             </valueList>
           </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\givenname">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe givenname</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
         </enum>
         <text id="LastNameValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\sn" valueName="Value" />
         <enum id="LastNameFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\sn" valueName="Dummy">
@@ -1091,6 +1113,28 @@
               </item>
             </valueList>
           </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\sn">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe sn</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
         </enum>
         <text id="InitialsValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\initials" valueName="Value" />
         <enum id="InitialsFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\initials" valueName="Dummy">
@@ -1157,6 +1201,28 @@
               <item valueName="ExternalBackend">
                 <value>
                   <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\initials">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe initials</string>
                 </value>
               </item>
             </valueList>
@@ -1236,6 +1302,28 @@
               </item>
             </valueList>
           </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\o">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe o</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
         </enum>
       </elements>
     </policy>
@@ -1311,6 +1399,28 @@
               </item>
             </valueList>
           </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\street">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe street</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
         </enum>
         <text id="AddressCityValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\l" valueName="Value" />
         <enum id="AddressCityFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\l" valueName="Dummy">
@@ -1376,6 +1486,28 @@
               <item valueName="ExternalBackend">
                 <value>
                   <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\l">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe l</string>
                 </value>
               </item>
             </valueList>
@@ -1449,6 +1581,28 @@
               </item>
             </valueList>
           </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\st">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe st</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
         </enum>
         <text id="AddressPostalCodeValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\postalcode" valueName="Value" />
         <enum id="AddressPostalCodeFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\postalcode" valueName="Dummy">
@@ -1518,6 +1672,28 @@
               </item>
             </valueList>
           </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\postalcode">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe postalcode</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
         </enum>
         <text id="AddressCountryValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\c" valueName="Value" />
         <enum id="AddressCountryFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\c" valueName="Dummy">
@@ -1583,6 +1759,28 @@
               <item valueName="ExternalBackend">
                 <value>
                   <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\c">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe c</string>
                 </value>
               </item>
             </valueList>
@@ -1662,6 +1860,28 @@
               </item>
             </valueList>
           </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\telephonenumber">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe telephonenumber</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
         </enum>
         <text id="FaxValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\facsimiletelephonenumber" valueName="Value" />
         <enum id="FaxFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\facsimiletelephonenumber" valueName="Dummy">
@@ -1727,6 +1947,28 @@
               <item valueName="ExternalBackend">
                 <value>
                   <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\facsimiletelephonenumber">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe facsimiletelephonenumber</string>
                 </value>
               </item>
             </valueList>
