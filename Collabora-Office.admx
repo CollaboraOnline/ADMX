@@ -334,7 +334,7 @@
         <boolean id="UserPathsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Template']\UserPaths" valueName="Final" />
       </elements>
     </policy>
-    <policy name="MyDocuments" class="Both" displayName="$(string.name_MyDocuments)" explainText="$(string.PathListExplain)" presentation="$(presentation.MyDocuments)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\Variables\Work">
+    <policy name="MyDocuments" class="Both" displayName="$(string.name_MyDocuments)" explainText="$(string.PathListExplain)" presentation="$(presentation.MyDocuments)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Variables\Work">
       <parentCategory ref="Paths" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
