@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
   <displayName>
   </displayName>
   <description>
@@ -13,10 +13,11 @@
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 o más reciente</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 o más reciente</string>
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 o más reciente</string>
+        <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 o más reciente</string>
 
-        <string id="ValueFlagsNone">None</string>
+        <string id="ValueFlagsNone">Ninguno</string>
         <string id="ValueFlagsFinal">Final</string>
-        <string id="ValueFlagsExternalLDAP">From LDAP</string>
+        <string id="ValueFlagsExternalLDAP">Desde LDAP</string>
 
         <string id="category_LibreOffice">Collabora Office</string>
         <string id="category_Common">Comunes</string>
@@ -27,13 +28,13 @@
         <string id="name_CollectUsageInformation">Ayudar a mejorar LibreOffice</string>
         <string id="desc_CollectUsageInformation">Recopilar datos de uso y enviarlos a The Document Foundation</string>
 
-        <string id="category_LDAPConfigBackend">LDAP configuration backend</string>
-        <string id="name_LDAPConfigBackendSettings">LDAP User Directory</string>
-        <string id="desc_LDAPConfigBackendSettings">Defines how to connect to LDAP server and retrieve user information used in User Data section
+        <string id="category_LDAPConfigBackend">Motor de configuración de LDAP</string>
+        <string id="name_LDAPConfigBackendSettings">Directorio de usuario de LDAP</string>
+        <string id="desc_LDAPConfigBackendSettings">Define la manera en que se establecerán conexiones con servidores LDAP y se recuperará la información de los usuarios usada en la sección Datos de usuario.
 
-Note that the password to bind to LDAP server is stored unencrypted in client system's registry; you should use a restricted search account (only able to perform LDAP searches).
+Observe que la contraseña de vinculación con el servidor LDAP se almacena sin cifrar en el registro del sistema cliente; recomendamos que use una cuenta de búsquedas restringida (la cual solo puede realizar búsquedas en LDAP).
 
-User unique attribute must correspond to the logged on user's Windows user name without domain.</string>
+El atributo único de usuario debe corresponderse con el nombre de usuario de la cuenta de Windows, sin el dominio.</string>
 
         <string id="category_ProductName">Nombre de producto</string>
         <string id="name_ooName">Nombre de producto (ooName)</string>
@@ -42,11 +43,11 @@ User unique attribute must correspond to the logged on user's Windows user name 
         <string id="name_UserDefinedSettings">Configuración definida por el usuario</string>
         <string id="desc_UserDefinedSettings">Cargar configuración específica del usuario con el documento</string>
         <string id="name_UseUserData">Utilizar datos de usuario</string>
-        <string id="desc_UseUserData">Utilizar datos de usuario en las propiedades del documento</string>
+        <string id="desc_UseUserData">Utilizar datos de usuario para las propiedades del documento</string>
         <string id="name_AutoSave">Guardado automático</string>
         <string id="desc_AutoSave">Guardar información de recuperación automática cada __ minutos</string>
-        <string id="name_RecoveryInfo">Disable the autorecovery feature</string>
-        <string id="desc_RecoveryInfo">Disable the autorecovery feature in case of crashes</string>
+        <string id="name_RecoveryInfo">Desactivar la función de recuperación automática</string>
+        <string id="desc_RecoveryInfo">Desactivar la función de recuperación automática en caso de cierres inesperados</string>
         <string id="name_CreateBackup">Crear copia de seguridad</string>
         <string id="desc_CreateBackup">Crear siempre una copia de seguridad</string>
         <string id="name_EditProperty">Editar propiedades del documento antes de guardar</string>
@@ -141,201 +142,201 @@ Valor predeterminado: macros activadas</string>
         <string id="desc_EnableExpertConfiguration">Determina si los usuarios pueden acceder a la configuración completa mediante el botón «Configuración para expertos».</string>
         <string id="name_SecureURL">Ubicaciones de archivos de confianza</string>
 
-        <string id="category_Filters">Disable file format filters</string>
+        <string id="category_Filters">Desactivar filtros de formatos de archivo</string>
 
-        <string id="name_ADO_Rowset_XML">ADO Rowset XML</string>
-        <string id="desc_ADO_Rowset_XML">Disable the import filter for ADO Rowset XML file format.</string>
-        <string id="name_AbiWord">AbiWord Document</string>
-        <string id="desc_AbiWord">Disable the import filter for AbiWord Document file format.</string>
+        <string id="name_ADO_Rowset_XML">XML de Ado Rowset</string>
+        <string id="desc_ADO_Rowset_XML">Desactivar el filtro de importación para el formato de archivo XML de ADO Rowset.</string>
+        <string id="name_AbiWord">Documento de AbiWord</string>
+        <string id="desc_AbiWord">Desactivar el filtro de importación para el formato de archivo Documento de AbiWord.</string>
         <string id="name_Apple_Keynote">Apple Keynote 5</string>
-        <string id="desc_Apple_Keynote">Disable the import filter for Apple Keynote 5 file format.</string>
+        <string id="desc_Apple_Keynote">Desactivar el filtro de importación para el formato de archivo Apple Keynote 5.</string>
         <string id="name_Apple_Numbers">Apple Numbers 2</string>
-        <string id="desc_Apple_Numbers">Disable the import filter for Apple Numbers 2 file format.</string>
+        <string id="desc_Apple_Numbers">Desactivar el filtro de importación para el formato de archivo Apple Numbers 2.</string>
         <string id="name_Apple_Pages">Apple Pages 4</string>
-        <string id="desc_Apple_Pages">Disable the import filter for Apple Pages 4 file format.</string>
-        <string id="name_BMP__MS_Windows">BMP - Windows Bitmap</string>
-        <string id="desc_BMP__MS_Windows">Disable the import filter for BMP - Windows Bitmap file format.</string>
-        <string id="name_BroadBand_eBook">BroadBand eBook</string>
-        <string id="desc_BroadBand_eBook">Disable the import filter for BroadBand eBook file format.</string>
-        <string id="name_CGM__Computer_Graphics_Metafile">CGM - Computer Graphics Metafile</string>
-        <string id="desc_CGM__Computer_Graphics_Metafile">Disable the import filter for CGM - Computer Graphics Metafile file format.</string>
-        <string id="name_ClarisWorks">ClarisWorks/AppleWorks Text Document</string>
-        <string id="desc_ClarisWorks">Disable the import filter for ClarisWorks/AppleWorks Text Document file format.</string>
-        <string id="name_ClarisWorks_Calc">ClarisWorks/AppleWorks Spreadsheet</string>
-        <string id="desc_ClarisWorks_Calc">Disable the import filter for ClarisWorks/AppleWorks Spreadsheet file format.</string>
-        <string id="name_ClarisWorks_Draw">ClarisWorks/AppleWorks Drawing</string>
-        <string id="desc_ClarisWorks_Draw">Disable the import filter for ClarisWorks/AppleWorks Drawing file format.</string>
-        <string id="name_ClarisWorks_Impress">ClarisWorks/AppleWorks Presentation</string>
-        <string id="desc_ClarisWorks_Impress">Disable the import filter for ClarisWorks/AppleWorks Presentation file format.</string>
-        <string id="name_Claris_Resolve_Calc">ClarisResolve Document</string>
-        <string id="desc_Claris_Resolve_Calc">Disable the import filter for ClarisResolve Document file format.</string>
-        <string id="name_Corel_Draw_Document">Corel Draw</string>
-        <string id="desc_Corel_Draw_Document">Disable the import filter for Corel Draw file format.</string>
-        <string id="name_Corel_Presentation_Exchange">Corel Presentation Exchange</string>
-        <string id="desc_Corel_Presentation_Exchange">Disable the import filter for Corel Presentation Exchange file format.</string>
-        <string id="name_DIF">Data Interchange Format</string>
-        <string id="desc_DIF">Disable the import filter for Data Interchange Format file format.</string>
-        <string id="name_DXF__AutoCAD_Interchange">DXF - AutoCAD Interchange Format</string>
-        <string id="desc_DXF__AutoCAD_Interchange">Disable the import filter for DXF - AutoCAD Interchange Format file format.</string>
+        <string id="desc_Apple_Pages">Desactivar el filtro de importación para el formato de archivo Apple Pages 4.</string>
+        <string id="name_BMP__MS_Windows">BMP: mapa de bits de Windows</string>
+        <string id="desc_BMP__MS_Windows">Desactivar el filtro de importación para el formato de archivo BMP: mapa de bits de Windows.</string>
+        <string id="name_BroadBand_eBook">Libro electrónico de BroadBand</string>
+        <string id="desc_BroadBand_eBook">Desactivar el filtro de importación para el formato de archivo Libro electrónico de BroadBand.</string>
+        <string id="name_CGM__Computer_Graphics_Metafile">CGM: metarchivo de gráficos por computadora</string>
+        <string id="desc_CGM__Computer_Graphics_Metafile">Desactivar el filtro de importación para el formato de archivo CGM: metarchivo de gráficos por computadora.</string>
+        <string id="name_ClarisWorks">Documento de texto de ClarisWorks/AppleWorks</string>
+        <string id="desc_ClarisWorks">Desactivar el filtro de importación para el formato de archivo Documento de texto de ClarisWorks/AppleWorks.</string>
+        <string id="name_ClarisWorks_Calc">Hoja de cálculo de ClarisWorks/AppleWorks</string>
+        <string id="desc_ClarisWorks_Calc">Desactivar el filtro de importación para el formato de archivo Hoja de cálculo de ClarisWorks/AppleWorks.</string>
+        <string id="name_ClarisWorks_Draw">Dibujo de ClarisWorks/AppleWorks</string>
+        <string id="desc_ClarisWorks_Draw">Desactivar el filtro de importación para el formato de archivo Dibujo de ClarisWorks/AppleWorks.</string>
+        <string id="name_ClarisWorks_Impress">Presentación de ClarisWorks/AppleWorks</string>
+        <string id="desc_ClarisWorks_Impress">Desactivar el filtro de importación para el formato de archivo Presentación de ClarisWorks/AppleWorks.</string>
+        <string id="name_Claris_Resolve_Calc">Documento de ClarisResolve</string>
+        <string id="desc_Claris_Resolve_Calc">Desactivar el filtro de importación para el formato de archivo Documento de ClarisResolve.</string>
+        <string id="name_Corel_Draw_Document">CorelDRAW</string>
+        <string id="desc_Corel_Draw_Document">Desactivar el filtro de importación para el formato de archivo CorelDRAW.</string>
+        <string id="name_Corel_Presentation_Exchange">Intercambio de presentación de Corel</string>
+        <string id="desc_Corel_Presentation_Exchange">Desactivar el filtro de importación para el formato de archivo Intercambio de presentación de Corel.</string>
+        <string id="name_DIF">Formato de intercambio de datos</string>
+        <string id="desc_DIF">Desactivar el filtro de importación para el formato de archivo Formato de intercambio de datos.</string>
+        <string id="name_DXF__AutoCAD_Interchange">DXF: formato de intercambio de AutoCAD</string>
+        <string id="desc_DXF__AutoCAD_Interchange">Desactivar el filtro de importación para el formato de archivo DXF: formato de intercambio de AutoCAD.</string>
         <string id="name_DocBook_File">DocBook</string>
-        <string id="desc_DocBook_File">Disable the import filter for DocBook file format.</string>
-        <string id="name_DosWord">Microsoft Word for DOS</string>
-        <string id="desc_DosWord">Disable the import filter for Microsoft Word for DOS file format.</string>
-        <string id="name_EMF__MS_Windows_Metafile">EMF - Enhanced Metafile</string>
-        <string id="desc_EMF__MS_Windows_Metafile">Disable the import filter for EMF - Enhanced Metafile file format.</string>
-        <string id="name_EPS__Encapsulated_PostScript">EPS - Encapsulated PostScript</string>
-        <string id="desc_EPS__Encapsulated_PostScript">Disable the import filter for EPS - Encapsulated PostScript file format.</string>
+        <string id="desc_DocBook_File">Desactivar el filtro de importación para el formato de archivo Docbook.</string>
+        <string id="name_DosWord">Microsoft Word para DOS</string>
+        <string id="desc_DosWord">Desactivar el filtro de importación para el formato de archivo Microsoft Word para DOS.</string>
+        <string id="name_EMF__MS_Windows_Metafile">EMF: metarchivo mejorado</string>
+        <string id="desc_EMF__MS_Windows_Metafile">Desactivar el filtro de importación para el formato de archivo EMF: metarchivo mejorado.</string>
+        <string id="name_EPS__Encapsulated_PostScript">EPS: PostScript encapsulado</string>
+        <string id="desc_EPS__Encapsulated_PostScript">Desactivar el filtro de importación para el formato de archivo EPS: PostScript encapsulado.</string>
         <string id="name_FictionBook_2">FictionBook 2.0</string>
-        <string id="desc_FictionBook_2">Disable the import filter for FictionBook 2.0 file format.</string>
+        <string id="desc_FictionBook_2">Desactivar el filtro de importación para el formato de archivo FictionBook 2.0.</string>
         <string id="name_Freehand_Document">Adobe/Macromedia Freehand</string>
-        <string id="desc_Freehand_Document">Disable the import filter for Adobe/Macromedia Freehand file format.</string>
-        <string id="name_GIF__Graphics_Interchange">GIF - Graphics Interchange Format</string>
-        <string id="desc_GIF__Graphics_Interchange">Disable the import filter for GIF - Graphics Interchange Format file format.</string>
-        <string id="name_HTML">HTML Document</string>
-        <string id="desc_HTML">Disable the import filter for HTML Document file format.</string>
-        <string id="name_HTML_StarCalc">HTML Document (Calc)</string>
-        <string id="desc_HTML_StarCalc">Disable the import filter for HTML Document (Calc) file format.</string>
-        <string id="name_HTML_StarWriter">HTML Document (Writer)</string>
-        <string id="desc_HTML_StarWriter">Disable the import filter for HTML Document (Writer) file format.</string>
-        <string id="name_JPG__JPEG">JPEG - Joint Photographic Experts Group</string>
-        <string id="desc_JPG__JPEG">Disable the import filter for JPEG - Joint Photographic Experts Group file format.</string>
+        <string id="desc_Freehand_Document">Desactivar el filtro de importación para el formato de archivo Adobe/Macromedia Freehand.</string>
+        <string id="name_GIF__Graphics_Interchange">GIF: formato de intercambio de gráficos</string>
+        <string id="desc_GIF__Graphics_Interchange">Desactivar el filtro de importación para el formato de archivo GIF: formato de intercambio de gráficos.</string>
+        <string id="name_HTML">Documento HTML</string>
+        <string id="desc_HTML">Desactivar el filtro de importación para el formato de archivo Documento HTML.</string>
+        <string id="name_HTML_StarCalc">Documento HTML (Calc)</string>
+        <string id="desc_HTML_StarCalc">Desactivar el filtro de importación para el formato de archivo Documento HTML (Calc).</string>
+        <string id="name_HTML_StarWriter">Documento HTML (Writer)</string>
+        <string id="desc_HTML_StarWriter">Desactivar el filtro de importación para el formato de archivo Documento HTML (Writer).</string>
+        <string id="name_JPG__JPEG">JPEG: Grupo mixto de expertos en fotografía</string>
+        <string id="desc_JPG__JPEG">Desactivar el filtro de importación para el formato de archivo JPEG: Grupo mixto de expertos en fotografía.</string>
         <string id="name_Lotus">Lotus 1-2-3</string>
-        <string id="desc_Lotus">Disable the import filter for Lotus 1-2-3 file format.</string>
-        <string id="name_LotusWordPro">Lotus WordPro Document</string>
-        <string id="desc_LotusWordPro">Disable the import filter for Lotus WordPro Document file format.</string>
-        <string id="name_MET__OS2_Metafile">MET - OS/2 Metafile</string>
-        <string id="desc_MET__OS2_Metafile">Disable the import filter for MET - OS/2 Metafile file format.</string>
-        <string id="name_MS_Excel_2003_XML_Orcus">Microsoft Excel 2003 XML</string>
-        <string id="desc_MS_Excel_2003_XML_Orcus">Disable the import filter for Microsoft Excel 2003 XML file format.</string>
+        <string id="desc_Lotus">Desactivar el filtro de importación para el formato de archivo Lotus 1-2-3.</string>
+        <string id="name_LotusWordPro">Documento de Lotus WordPro</string>
+        <string id="desc_LotusWordPro">Desactivar el filtro de importación para el formato de archivo Documento de Lotus WordPro.</string>
+        <string id="name_MET__OS2_Metafile">MET: metarchivo de OS/2</string>
+        <string id="desc_MET__OS2_Metafile">Desactivar el filtro de importación para el formato de archivo MET: metarchivo de OS/2.</string>
+        <string id="name_MS_Excel_2003_XML_Orcus">XML de Microsoft Excel 2003</string>
+        <string id="desc_MS_Excel_2003_XML_Orcus">Desactivar el filtro de importación para el formato de archivo XML de Microsoft Excel 2003.</string>
         <string id="name_MS_Excel_40">Microsoft Excel 4.0</string>
-        <string id="desc_MS_Excel_40">Disable the import filter for Microsoft Excel 4.0 file format.</string>
-        <string id="name_MS_Excel_40_VorlageTemplate">Microsoft Excel 4.0 Template</string>
-        <string id="desc_MS_Excel_40_VorlageTemplate">Disable the import filter for Microsoft Excel 4.0 Template file format.</string>
+        <string id="desc_MS_Excel_40">Desactivar el filtro de importación para el formato de archivo Microsoft Excel 4.0.</string>
+        <string id="name_MS_Excel_40_VorlageTemplate">Plantilla de Microsoft Excel 4.0</string>
+        <string id="desc_MS_Excel_40_VorlageTemplate">Desactivar el filtro de importación para el formato de archivo Plantilla de Microsoft Excel 4.0.</string>
         <string id="name_MS_Excel_5095">Microsoft Excel 5.0</string>
-        <string id="desc_MS_Excel_5095">Disable the import filter for Microsoft Excel 5.0 file format.</string>
-        <string id="name_MS_Excel_5095_VorlageTemplate">Microsoft Excel 5.0 Template</string>
-        <string id="desc_MS_Excel_5095_VorlageTemplate">Disable the import filter for Microsoft Excel 5.0 Template file format.</string>
+        <string id="desc_MS_Excel_5095">Desactivar el filtro de importación para el formato de archivo Microsoft Excel 5.0.</string>
+        <string id="name_MS_Excel_5095_VorlageTemplate">Plantilla de Microsoft Excel 5.0</string>
+        <string id="desc_MS_Excel_5095_VorlageTemplate">Desactivar el filtro de importación para el formato de archivo Plantilla de Microsoft Excel 5.0.</string>
         <string id="name_MS_Excel_95">Microsoft Excel 95</string>
-        <string id="desc_MS_Excel_95">Disable the import filter for Microsoft Excel 95 file format.</string>
-        <string id="name_MS_Excel_95_VorlageTemplate">Microsoft Excel 95 Template</string>
-        <string id="desc_MS_Excel_95_VorlageTemplate">Disable the import filter for Microsoft Excel 95 Template file format.</string>
-        <string id="name_MS_Excel_97">Microsoft Excel 97-2003</string>
-        <string id="desc_MS_Excel_97">Disable the import filter for Microsoft Excel 97-2003 file format.</string>
-        <string id="name_MS_Excel_97_VorlageTemplate">Microsoft Excel 97-2003 Template</string>
-        <string id="desc_MS_Excel_97_VorlageTemplate">Disable the import filter for Microsoft Excel 97-2003 Template file format.</string>
-        <string id="name_MS_PowerPoint_97">Microsoft PowerPoint 97-2003</string>
-        <string id="desc_MS_PowerPoint_97">Disable the import filter for Microsoft PowerPoint 97-2003 file format.</string>
-        <string id="name_MS_PowerPoint_97_AutoPlay">Microsoft PowerPoint 97-2003 AutoPlay</string>
-        <string id="desc_MS_PowerPoint_97_AutoPlay">Disable the import filter for Microsoft PowerPoint 97-2003 AutoPlay file format.</string>
-        <string id="name_MS_PowerPoint_97_Vorlage">Microsoft PowerPoint 97-2003 Template</string>
-        <string id="desc_MS_PowerPoint_97_Vorlage">Disable the import filter for Microsoft PowerPoint 97-2003 Template file format.</string>
+        <string id="desc_MS_Excel_95">Desactivar el filtro de importación para el formato de archivo Microsoft Excel 95.</string>
+        <string id="name_MS_Excel_95_VorlageTemplate">Plantilla de Microsoft Excel 95</string>
+        <string id="desc_MS_Excel_95_VorlageTemplate">Desactivar el filtro de importación para el formato de archivo Plantilla de Microsoft Excel 95.</string>
+        <string id="name_MS_Excel_97">Microsoft Excel 97–2003</string>
+        <string id="desc_MS_Excel_97">Desactivar el filtro de importación para el formato de archivo Microsoft Excel 97–2003.</string>
+        <string id="name_MS_Excel_97_VorlageTemplate">Plantilla de Microsoft Excel 97–2003</string>
+        <string id="desc_MS_Excel_97_VorlageTemplate">Desactivar el filtro de importación para el formato de archivo Plantilla de Microsoft Excel 97–2003.</string>
+        <string id="name_MS_PowerPoint_97">Microsoft PowerPoint 97–2003</string>
+        <string id="desc_MS_PowerPoint_97">Desactivar el filtro de importación para el formato de archivo Microsoft PowerPoint 97–2003.</string>
+        <string id="name_MS_PowerPoint_97_AutoPlay">Presentación automática de Microsoft PowerPoint 97–2003</string>
+        <string id="desc_MS_PowerPoint_97_AutoPlay">Desactivar el filtro de importación para el formato de archivo Presentación automática de Microsoft PowerPoint 97–2003.</string>
+        <string id="name_MS_PowerPoint_97_Vorlage">Plantilla de Microsoft PowerPoint 97–2003</string>
+        <string id="desc_MS_PowerPoint_97_Vorlage">Desactivar el filtro de importación para el formato de archivo Plantilla de Microsoft PowerPoint 97–2003.</string>
         <string id="name_MS_WinWord_5">Microsoft WinWord 1/2/5</string>
-        <string id="desc_MS_WinWord_5">Disable the import filter for Microsoft WinWord 1/2/5 file format.</string>
+        <string id="desc_MS_WinWord_5">Desactivar el filtro de importación para el formato de archivo Microsoft WinWord 1/2/5.</string>
         <string id="name_MS_WinWord_60">Microsoft Word 6.0</string>
-        <string id="desc_MS_WinWord_60">Disable the import filter for Microsoft Word 6.0 file format.</string>
-        <string id="name_MS_Word_2003_XML">Microsoft Word 2003 XML</string>
-        <string id="desc_MS_Word_2003_XML">Disable the import filter for Microsoft Word 2003 XML file format.</string>
-        <string id="name_MS_Word_2007_XML">Microsoft Word 2007-2013 XML</string>
-        <string id="desc_MS_Word_2007_XML">Disable the import filter for Microsoft Word 2007-2013 XML file format.</string>
-        <string id="name_MS_Word_2007_XML_Template">Microsoft Word 2007-2013 XML Template</string>
-        <string id="desc_MS_Word_2007_XML_Template">Disable the import filter for Microsoft Word 2007-2013 XML Template file format.</string>
-        <string id="name_MS_Word_2007_XML_VBA">Microsoft Word 2007-2013 XML VBA</string>
-        <string id="desc_MS_Word_2007_XML_VBA">Disable the import filter for Microsoft Word 2007-2013 XML VBA file format.</string>
+        <string id="desc_MS_WinWord_60">Desactivar el filtro de importación para el formato de archivo Microsoft Word 6.0.</string>
+        <string id="name_MS_Word_2003_XML">XML de Microsoft Word 2003</string>
+        <string id="desc_MS_Word_2003_XML">Desactivar el filtro de importación para el formato de archivo XML de Microsoft Word 2003.</string>
+        <string id="name_MS_Word_2007_XML">XML de Microsoft Word 2007–2019</string>
+        <string id="desc_MS_Word_2007_XML">Desactivar el filtro de importación para el formato de archivo XML de Microsoft Word 2007–2019.</string>
+        <string id="name_MS_Word_2007_XML_Template">Plantilla XML de Microsoft Word 2007–2019</string>
+        <string id="desc_MS_Word_2007_XML_Template">Desactivar el filtro de importación para el formato de archivo Plantilla XML de Microsoft Word 2007–2019.</string>
+        <string id="name_MS_Word_2007_XML_VBA">VBA XML de Microsoft Word 2007–2019</string>
+        <string id="desc_MS_Word_2007_XML_VBA">Desactivar el filtro de importación para el formato de archivo VBA XML de Microsoft Word 2007–2019.</string>
         <string id="name_MS_Word_95">Microsoft Word 95</string>
-        <string id="desc_MS_Word_95">Disable the import filter for Microsoft Word 95 file format.</string>
-        <string id="name_MS_Word_95_Vorlage">Microsoft Word 95 Template</string>
-        <string id="desc_MS_Word_95_Vorlage">Disable the import filter for Microsoft Word 95 Template file format.</string>
-        <string id="name_MS_Word_97">Microsoft Word 97-2003</string>
-        <string id="desc_MS_Word_97">Disable the import filter for Microsoft Word 97-2003 file format.</string>
-        <string id="name_MS_Word_97_Vorlage">Microsoft Word 97-2003 Template</string>
-        <string id="desc_MS_Word_97_Vorlage">Disable the import filter for Microsoft Word 97-2003 Template file format.</string>
-        <string id="name_MS_Works">Microsoft Works Document</string>
-        <string id="desc_MS_Works">Disable the import filter for Microsoft Works Document file format.</string>
-        <string id="name_MS_Works_Calc">Microsoft Works Document</string>
-        <string id="desc_MS_Works_Calc">Disable the import filter for Microsoft Works Document file format.</string>
+        <string id="desc_MS_Word_95">Desactivar el filtro de importación para el formato de archivo Microsoft Word 95.</string>
+        <string id="name_MS_Word_95_Vorlage">Plantilla de Microsoft Word 95</string>
+        <string id="desc_MS_Word_95_Vorlage">Desactivar el filtro de importación para el formato de archivo Microsoft Word 95.</string>
+        <string id="name_MS_Word_97">Microsoft Word 97–2003</string>
+        <string id="desc_MS_Word_97">Desactivar el filtro de importación para el formato de archivo Microsoft Word 97–2003.</string>
+        <string id="name_MS_Word_97_Vorlage">Plantilla de Microsoft Word 97–2003</string>
+        <string id="desc_MS_Word_97_Vorlage">Desactivar el filtro de importación para el formato de archivo Plantilla de Microsoft Word 97–2003.</string>
+        <string id="name_MS_Works">Documento de Microsoft Works</string>
+        <string id="desc_MS_Works">Desactivar el filtro de importación para el formato de archivo Documento de Microsoft Works.</string>
+        <string id="name_MS_Works_Calc">Documento de Microsoft Works</string>
+        <string id="desc_MS_Works_Calc">Desactivar el filtro de importación para el formato de archivo Documento de Microsoft Works.</string>
         <string id="name_MS_Write">Microsoft Write</string>
-        <string id="desc_MS_Write">Disable the import filter for Microsoft Write file format.</string>
-        <string id="name_MWAW_Bitmap">Legacy Mac Bitmap</string>
-        <string id="desc_MWAW_Bitmap">Disable the import filter for Legacy Mac Bitmap file format.</string>
-        <string id="name_MWAW_Database">Legacy Mac Database</string>
-        <string id="desc_MWAW_Database">Disable the import filter for Legacy Mac Database file format.</string>
-        <string id="name_MWAW_Drawing">Legacy Mac Drawing</string>
-        <string id="desc_MWAW_Drawing">Disable the import filter for Legacy Mac Drawing file format.</string>
-        <string id="name_MWAW_Presentation">Legacy Mac Presentation</string>
-        <string id="desc_MWAW_Presentation">Disable the import filter for Legacy Mac Presentation file format.</string>
-        <string id="name_MWAW_Spreadsheet">Legacy Mac Spreadsheet</string>
-        <string id="desc_MWAW_Spreadsheet">Disable the import filter for Legacy Mac Spreadsheet file format.</string>
-        <string id="name_MWAW_Text_Document">Legacy Mac Text Document</string>
-        <string id="desc_MWAW_Text_Document">Disable the import filter for Legacy Mac Text Document file format.</string>
-        <string id="name_MacWrite">MacWrite Document</string>
-        <string id="desc_MacWrite">Disable the import filter for MacWrite Document file format.</string>
-        <string id="name_Mac_Word">Microsoft Word for Mac (v1 - v5)</string>
-        <string id="desc_Mac_Word">Disable the import filter for Microsoft Word for Mac (v1 - v5) file format.</string>
-        <string id="name_Mac_Works">Microsoft Works for Mac Text Document (v1 - v4)</string>
-        <string id="desc_Mac_Works">Disable the import filter for Microsoft Works for Mac Text Document (v1 - v4) file format.</string>
-        <string id="name_Mac_Works_Calc">Microsoft Works for Mac Spreadsheet (v1 - v4)</string>
-        <string id="desc_Mac_Works_Calc">Disable the import filter for Microsoft Works for Mac Spreadsheet (v1 - v4) file format.</string>
-        <string id="name_Mariner_Write">Mariner Write Mac Classic v1.6 - v3.5</string>
-        <string id="desc_Mariner_Write">Disable the import filter for Mariner Write Mac Classic v1.6 - v3.5 file format.</string>
+        <string id="desc_MS_Write">Desactivar el filtro de importación para el formato de archivo Microsoft Write.</string>
+        <string id="name_MWAW_Bitmap">Mapa de bits heredado de Mac</string>
+        <string id="desc_MWAW_Bitmap">Desactivar el filtro de importación para el formato de archivo Mapa de bits heredado de Mac.</string>
+        <string id="name_MWAW_Database">Base de datos heredada de Mac</string>
+        <string id="desc_MWAW_Database">Desactivar el filtro de importación para el formato de archivo Base de datos heredada de Mac.</string>
+        <string id="name_MWAW_Drawing">Dibujo heredado de Mac</string>
+        <string id="desc_MWAW_Drawing">Desactivar el filtro de importación para el formato de archivo Dibujo heredado de Mac.</string>
+        <string id="name_MWAW_Presentation">Presentación heredada de Mac</string>
+        <string id="desc_MWAW_Presentation">Desactivar el filtro de importación para el formato de archivo Presentación heredada de Mac.</string>
+        <string id="name_MWAW_Spreadsheet">Hoja de cálculo heredada de Mac</string>
+        <string id="desc_MWAW_Spreadsheet">Desactivar el filtro de importación para el formato de archivo Hoja de cálculo heredada de Mac.</string>
+        <string id="name_MWAW_Text_Document">Documento de texto heredado de Mac</string>
+        <string id="desc_MWAW_Text_Document">Desactivar el filtro de importación para el formato de archivo Documento de texto heredado de Mac.</string>
+        <string id="name_MacWrite">Documento de MacWrite</string>
+        <string id="desc_MacWrite">Desactivar el filtro de importación para el formato de archivo Documento de MacWrite.</string>
+        <string id="name_Mac_Word">Microsoft Word para Mac (v. 1–5)</string>
+        <string id="desc_Mac_Word">Desactivar el filtro de importación para el formato de archivo Microsoft Word para Mac (v. 1–5).</string>
+        <string id="name_Mac_Works">Documento de texto de Microsoft Works para Mac (v. 1–4)</string>
+        <string id="desc_Mac_Works">Desactivar el filtro de importación para el formato de archivo Documento de texto de Microsoft Works para Mac (v. 1–4).</string>
+        <string id="name_Mac_Works_Calc">Hoja de cálculo de Microsoft Works para Mac (v. 1–4)</string>
+        <string id="desc_Mac_Works_Calc">Desactivar el filtro de importación para el formato de archivo Hoja de cálculo de Microsoft Works para Mac (v. 1–4).</string>
+        <string id="name_Mariner_Write">Mariner Write Mac Classic v. 1.6–3.5</string>
+        <string id="desc_Mariner_Write">Desactivar el filtro de importación para el formato de archivo Mariner Write Mac Classic v. 1.6–3.5.</string>
         <string id="name_MathML_XML_Math">MathML 2.0</string>
-        <string id="desc_MathML_XML_Math">Disable the import filter for MathML 2.0 file format.</string>
-        <string id="name_MathType_3x">MathType3.x</string>
-        <string id="desc_MathType_3x">Disable the import filter for MathType3.x file format.</string>
-        <string id="name_OpenDocument_Drawing_Flat_XML">Flat XML ODF Drawing</string>
-        <string id="desc_OpenDocument_Drawing_Flat_XML">Disable the import filter for Flat XML ODF Drawing file format.</string>
-        <string id="name_OpenDocument_Presentation_Flat_XML">Flat XML ODF Presentation</string>
-        <string id="desc_OpenDocument_Presentation_Flat_XML">Disable the import filter for Flat XML ODF Presentation file format.</string>
-        <string id="name_OpenDocument_Spreadsheet_Flat_XML">Flat XML ODF Spreadsheet</string>
-        <string id="desc_OpenDocument_Spreadsheet_Flat_XML">Disable the import filter for Flat XML ODF Spreadsheet file format.</string>
-        <string id="name_OpenDocument_Text_Flat_XML">Flat XML ODF Text Document</string>
-        <string id="desc_OpenDocument_Text_Flat_XML">Disable the import filter for Flat XML ODF Text Document file format.</string>
-        <string id="name_Office_Open_XML_Text">Office Open XML Text</string>
-        <string id="desc_Office_Open_XML_Text">Disable the import filter for Office Open XML Text file format.</string>
-        <string id="name_Office_Open_XML_Text_Template">Office Open XML Text Template</string>
-        <string id="desc_Office_Open_XML_Text_Template">Disable the import filter for Office Open XML Text Template file format.</string>
-        <string id="name_PBM__Portable_Bitmap">PBM - Portable Bitmap</string>
-        <string id="desc_PBM__Portable_Bitmap">Disable the import filter for PBM - Portable Bitmap file format.</string>
+        <string id="desc_MathML_XML_Math">Desactivar el filtro de importación para el formato de archivo MathML 2.0.</string>
+        <string id="name_MathType_3x">MathType 3.x</string>
+        <string id="desc_MathType_3x">Desactivar el filtro de importación para el formato de archivo MathType 3.x.</string>
+        <string id="name_OpenDocument_Drawing_Flat_XML">Dibujo ODF en XML plano</string>
+        <string id="desc_OpenDocument_Drawing_Flat_XML">Desactivar el filtro de importación para el formato de archivo Dibujo ODF en XML plano.</string>
+        <string id="name_OpenDocument_Presentation_Flat_XML">Presentación ODF en XML plano</string>
+        <string id="desc_OpenDocument_Presentation_Flat_XML">Desactivar el filtro de importación para el formato de archivo Presentación ODF en XML plano.</string>
+        <string id="name_OpenDocument_Spreadsheet_Flat_XML">Hoja de cálculo ODF en XML plano</string>
+        <string id="desc_OpenDocument_Spreadsheet_Flat_XML">Desactivar el filtro de importación para el formato de archivo Hoja de cálculo ODF en XML plano.</string>
+        <string id="name_OpenDocument_Text_Flat_XML">Documento de texto ODF en XML plano</string>
+        <string id="desc_OpenDocument_Text_Flat_XML">Desactivar el filtro de importación para el formato de archivo Documento de texto ODF en XML plano.</string>
+        <string id="name_Office_Open_XML_Text">Texto de Office Open XML</string>
+        <string id="desc_Office_Open_XML_Text">Desactivar el filtro de importación para el formato de archivo Texto de Office Open XML.</string>
+        <string id="name_Office_Open_XML_Text_Template">Plantilla de texto de Office Open XML</string>
+        <string id="desc_Office_Open_XML_Text_Template">Desactivar el filtro de importación para el formato de archivo Plantilla de texto de Office Open XML.</string>
+        <string id="name_PBM__Portable_Bitmap">PBM: mapa de bits portátil</string>
+        <string id="desc_PBM__Portable_Bitmap">Desactivar el filtro de importación para el formato de archivo PBM: mapa de bits portátil.</string>
         <string id="name_PCT__Mac_Pict">PCT - Mac Pict</string>
         <string id="desc_PCT__Mac_Pict">Disable the import filter for PCT - Mac Pict file format.</string>
         <string id="name_PCX__Zsoft_Paintbrush">PCX - Zsoft Paintbrush</string>
         <string id="desc_PCX__Zsoft_Paintbrush">Disable the import filter for PCX - Zsoft Paintbrush file format.</string>
         <string id="name_PGM__Portable_Graymap">PGM - Portable Graymap</string>
         <string id="desc_PGM__Portable_Graymap">Disable the import filter for PGM - Portable Graymap file format.</string>
-        <string id="name_PNG__Portable_Network_Graphic">PNG - Portable Network Graphic</string>
+        <string id="name_PNG__Portable_Network_Graphic">PNG: gráfico de red portátil</string>
         <string id="desc_PNG__Portable_Network_Graphic">Disable the import filter for PNG - Portable Network Graphic file format.</string>
-        <string id="name_PPM__Portable_Pixelmap">PPM - Portable Pixelmap</string>
+        <string id="name_PPM__Portable_Pixelmap">PPM: mapa de píxeles portátil</string>
         <string id="desc_PPM__Portable_Pixelmap">Disable the import filter for PPM - Portable Pixelmap file format.</string>
-        <string id="name_PSD__Adobe_Photoshop">PSD - Adobe Photoshop</string>
+        <string id="name_PSD__Adobe_Photoshop">PSD: Adobe Photoshop</string>
         <string id="desc_PSD__Adobe_Photoshop">Disable the import filter for PSD - Adobe Photoshop file format.</string>
         <string id="name_PageMaker_Document">Adobe PageMaker</string>
         <string id="desc_PageMaker_Document">Disable the import filter for Adobe PageMaker file format.</string>
-        <string id="name_PalmDoc">PalmDoc eBook</string>
+        <string id="name_PalmDoc">Libro electrónico de PalmDoc</string>
         <string id="desc_PalmDoc">Disable the import filter for PalmDoc eBook file format.</string>
-        <string id="name_Palm_Text_Document">Palm Text Document</string>
+        <string id="name_Palm_Text_Document">Documento de texto de Palm</string>
         <string id="desc_Palm_Text_Document">Disable the import filter for Palm Text Document file format.</string>
-        <string id="name_Plucker_eBook">Plucker eBook</string>
+        <string id="name_Plucker_eBook">Libro electrónico de Plucker</string>
         <string id="desc_Plucker_eBook">Disable the import filter for Plucker eBook file format.</string>
         <string id="name_PowerPoint_3">Microsoft PowerPoint 1-4 and 95's</string>
         <string id="desc_PowerPoint_3">Disable the import filter for Microsoft PowerPoint 1-4 and 95's file format.</string>
-        <string id="name_Publisher_Document">Microsoft Publisher 98-2010</string>
+        <string id="name_Publisher_Document">Microsoft Publisher 98–2010</string>
         <string id="desc_Publisher_Document">Disable the import filter for Microsoft Publisher 98-2010 file format.</string>
         <string id="name_Quattro_Pro_60">Quattro Pro 6.0</string>
-        <string id="desc_Quattro_Pro_60">Disable the import filter for Quattro Pro 6.0 file format.</string>
+        <string id="desc_Quattro_Pro_60">Desactivar el filtro de importación para el formato de archivo Quattro Pro 6.0.</string>
         <string id="name_QXP_Document">QuarkXPress</string>
-        <string id="desc_QXP_Document">Disable the import filter for QuarkXPress file format.</string>
+        <string id="desc_QXP_Document">Desactivar el filtro de importación para el formato de archivo QuarkXPress.</string>
         <string id="name_RAS__Sun_Rasterfile">RAS - Sun Raster Image</string>
         <string id="desc_RAS__Sun_Rasterfile">Disable the import filter for RAS - Sun Raster Image file format.</string>
-        <string id="name_Rich_Text_Format">Rich Text</string>
+        <string id="name_Rich_Text_Format">Texto enriquecido</string>
         <string id="desc_Rich_Text_Format">Disable the import filter for Rich Text file format.</string>
-        <string id="name_Rich_Text_Format_StarCalc">Rich Text Format (Calc)</string>
+        <string id="name_Rich_Text_Format_StarCalc">Formato de texto enriquecido (Calc)</string>
         <string id="desc_Rich_Text_Format_StarCalc">Disable the import filter for Rich Text Format (Calc) file format.</string>
-        <string id="name_SVG__Scalable_Vector_Graphics">SVG - Scalable Vector Graphics</string>
+        <string id="name_SVG__Scalable_Vector_Graphics">SVG: gráficos vectoriales escalables</string>
         <string id="desc_SVG__Scalable_Vector_Graphics">Disable the import filter for SVG - Scalable Vector Graphics file format.</string>
-        <string id="name_SVM__StarView_Metafile">SVM - StarView Metafile</string>
+        <string id="name_SVM__StarView_Metafile">SVM: metarchivo de StarView</string>
         <string id="desc_SVM__StarView_Metafile">Disable the import filter for SVM - StarView Metafile file format.</string>
         <string id="name_SYLK">SYLK</string>
         <string id="desc_SYLK">Disable the import filter for SYLK file format.</string>
-        <string id="name_StarOffice_XML_Base_Report">ODF Database Report</string>
+        <string id="name_StarOffice_XML_Base_Report">Informe de base de datos ODF</string>
         <string id="desc_StarOffice_XML_Base_Report">Disable the import filter for ODF Database Report file format.</string>
         <string id="name_StarOffice_XML_Base_Report_Chart">OpenOffice.org 1.0 Report Chart</string>
         <string id="desc_StarOffice_XML_Base_Report_Chart">Disable the import filter for OpenOffice.org 1.0 Report Chart file format.</string>
@@ -361,65 +362,65 @@ Valor predeterminado: macros activadas</string>
         <string id="desc_StarOffice_XML_Math">Disable the import filter for OpenOffice.org 1.0 Formula file format.</string>
         <string id="name_StarOffice_XML_Writer">OpenOffice.org 1.0 Text Document</string>
         <string id="desc_StarOffice_XML_Writer">Disable the import filter for OpenOffice.org 1.0 Text Document file format.</string>
-        <string id="name_T602Document">T602 Document</string>
-        <string id="desc_T602Document">Disable the import filter for T602 Document file format.</string>
+        <string id="name_T602Document">Documento de T602</string>
+        <string id="desc_T602Document">Desactivar el filtro de importación para el formato de archivo Documento de D602.</string>
         <string id="name_TGA__Truevision_TARGA">TGA - Truevision Targa</string>
         <string id="desc_TGA__Truevision_TARGA">Disable the import filter for TGA - Truevision Targa file format.</string>
         <string id="name_TIF__Tag_Image_File">TIFF - Tagged Image File Format</string>
         <string id="desc_TIF__Tag_Image_File">Disable the import filter for TIFF - Tagged Image File Format file format.</string>
-        <string id="name_Text">Text</string>
+        <string id="name_Text">Texto</string>
         <string id="desc_Text">Disable the import filter for Text file format.</string>
-        <string id="name_Text_StarWriterWeb">Text (Writer/Web)</string>
+        <string id="name_Text_StarWriterWeb">Texto (Writer/Web)</string>
         <string id="desc_Text_StarWriterWeb">Disable the import filter for Text (Writer/Web) file format.</string>
-        <string id="name_Text__txt__csv_StarCalc">Text CSV</string>
+        <string id="name_Text__txt__csv_StarCalc">Texto CSV</string>
         <string id="desc_Text__txt__csv_StarCalc">Disable the import filter for Text CSV file format.</string>
-        <string id="name_Text_encoded">Text - Choose Encoding</string>
+        <string id="name_Text_encoded">Texto (seleccionar codificación)</string>
         <string id="desc_Text_encoded">Disable the import filter for Text - Choose Encoding file format.</string>
-        <string id="name_Text_encoded_StarWriterGlobalDocument">Text - Choose Encoding (Master Document)</string>
+        <string id="name_Text_encoded_StarWriterGlobalDocument">Texto (seleccionar codificación; patrón de documento)</string>
         <string id="desc_Text_encoded_StarWriterGlobalDocument">Disable the import filter for Text - Choose Encoding (Master Document) file format.</string>
-        <string id="name_Text_encoded_StarWriterWeb">Text - Choose Encoding (Writer/Web)</string>
+        <string id="name_Text_encoded_StarWriterWeb">Texto (seleccionar codificación; Writer/Web)</string>
         <string id="desc_Text_encoded_StarWriterWeb">Disable the import filter for Text - Choose Encoding (Writer/Web) file format.</string>
-        <string id="name_UOF_presentation">Unified Office Format presentation</string>
+        <string id="name_UOF_presentation">Presentación en formato de oficina unificado</string>
         <string id="desc_UOF_presentation">Disable the import filter for Unified Office Format presentation file format.</string>
-        <string id="name_UOF_spreadsheet">Unified Office Format spreadsheet</string>
+        <string id="name_UOF_spreadsheet">Hoja de cálculo en formato de oficina unificado</string>
         <string id="desc_UOF_spreadsheet">Disable the import filter for Unified Office Format spreadsheet file format.</string>
-        <string id="name_UOF_text">Unified Office Format text</string>
+        <string id="name_UOF_text">Texto en formato de oficina unificado</string>
         <string id="desc_UOF_text">Disable the import filter for Unified Office Format text file format.</string>
         <string id="name_Visio_Document">Microsoft Visio 2000-2013</string>
         <string id="desc_Visio_Document">Disable the import filter for Microsoft Visio 2000-2013 file format.</string>
-        <string id="name_WMF__MS_Windows_Metafile">WMF - Windows Metafile</string>
+        <string id="name_WMF__MS_Windows_Metafile">WMF: metarchivo de Windows</string>
         <string id="desc_WMF__MS_Windows_Metafile">Disable the import filter for WMF - Windows Metafile file format.</string>
-        <string id="name_WPS_Lotus_Calc">Lotus Document</string>
+        <string id="name_WPS_Lotus_Calc">Documento de Lotus</string>
         <string id="desc_WPS_Lotus_Calc">Disable the import filter for Lotus Document file format.</string>
-        <string id="name_WPS_QPro_Calc">QuattroPro Document</string>
+        <string id="name_WPS_QPro_Calc">Documento de QuattroPro</string>
         <string id="desc_WPS_QPro_Calc">Disable the import filter for QuattroPro Document file format.</string>
-        <string id="name_WordPerfect">WordPerfect Document</string>
+        <string id="name_WordPerfect">Documento de WordPerfect</string>
         <string id="desc_WordPerfect">Disable the import filter for WordPerfect Document file format.</string>
-        <string id="name_WordPerfect_Graphics">WordPerfect Graphics</string>
+        <string id="name_WordPerfect_Graphics">Gráficos de WordPerfect</string>
         <string id="desc_WordPerfect_Graphics">Disable the import filter for WordPerfect Graphics file format.</string>
-        <string id="name_WriteNow">WriteNow Document</string>
+        <string id="name_WriteNow">Documento de WriteNow</string>
         <string id="desc_WriteNow">Disable the import filter for WriteNow Document file format.</string>
-        <string id="name_XBM__XConsortium">XBM - X Bitmap</string>
+        <string id="name_XBM__XConsortium">XBM: mapa de bits de X</string>
         <string id="desc_XBM__XConsortium">Disable the import filter for XBM - X Bitmap file format.</string>
-        <string id="name_XPM">XPM - X PixMap</string>
+        <string id="name_XPM">XPM: mapa de píxeles de X</string>
         <string id="desc_XPM">Disable the import filter for XPM - X PixMap file format.</string>
         <string id="name_ZMF_Document">Zoner Callisto/Draw</string>
         <string id="desc_ZMF_Document">Disable the import filter for Zoner Callisto/Draw file format.</string>
         <string id="name_calc8">Hoja de cálculo ODF</string>
         <string id="desc_calc8">Disable the import filter for ODF Spreadsheet file format.</string>
-        <string id="name_calc8_template">ODF Spreadsheet Template</string>
+        <string id="name_calc8_template">Plantilla de hoja de cálculo ODF</string>
         <string id="desc_calc8_template">Disable the import filter for ODF Spreadsheet Template file format.</string>
-        <string id="name_Gnumeric_Spreadsheet">Gnumeric Spreadsheet</string>
+        <string id="name_Gnumeric_Spreadsheet">Hoja de cálculo de Gnumeric</string>
         <string id="desc_Gnumeric_Spreadsheet">Disable the import filter for Gnumeric Spreadsheet file format.</string>
-        <string id="name_calc_HTML_WebQuery">Web Page Query (Calc)</string>
+        <string id="name_calc_HTML_WebQuery">Consulta de página web (Calc)</string>
         <string id="desc_calc_HTML_WebQuery">Disable the import filter for Web Page Query (Calc) file format.</string>
-        <string id="name_Calc_MS_Excel_2007_Binary">Microsoft Excel 2007 Binary</string>
+        <string id="name_Calc_MS_Excel_2007_Binary">Binario de Microsoft Excel 2007</string>
         <string id="desc_Calc_MS_Excel_2007_Binary">Disable the import filter for Microsoft Excel 2007 Binary file format.</string>
-        <string id="name_Calc_MS_Excel_2007_VBA_XML">Microsoft Excel 2007-2016 XML (macro enabled)</string>
+        <string id="name_Calc_MS_Excel_2007_VBA_XML">XML de Microsoft Excel 2007–2019 (habilitado para macros)</string>
         <string id="desc_Calc_MS_Excel_2007_VBA_XML">Disable the import filter for Microsoft Excel 2007-2016 XML (macro enabled) file format.</string>
-        <string id="name_Calc_MS_Excel_2007_XML">Microsoft Excel 2007-2013 XML</string>
+        <string id="name_Calc_MS_Excel_2007_XML">Microsoft Excel 2007–2019</string>
         <string id="desc_Calc_MS_Excel_2007_XML">Disable the import filter for Microsoft Excel 2007-2013 XML file format.</string>
-        <string id="name_Calc_MS_Excel_2007_XML_Template">Microsoft Excel 2007-2013 XML Template</string>
+        <string id="name_Calc_MS_Excel_2007_XML_Template">Plantilla XML de Microsoft Excel 2007–2019</string>
         <string id="desc_Calc_MS_Excel_2007_XML_Template">Disable the import filter for Microsoft Excel 2007-2013 XML Template file format.</string>
         <string id="name_Calc_Office_Open_XML">Office Open XML Spreadsheet</string>
         <string id="desc_Calc_Office_Open_XML">Disable the import filter for Office Open XML Spreadsheet file format.</string>
@@ -447,29 +448,29 @@ Valor predeterminado: macros activadas</string>
         <string id="desc_impress8">Disable the import filter for ODF Presentation file format.</string>
         <string id="name_impress8_draw">ODF Drawing (Impress)</string>
         <string id="desc_impress8_draw">Disable the import filter for ODF Drawing (Impress) file format.</string>
-        <string id="name_impress8_template">ODF Presentation Template</string>
+        <string id="name_impress8_template">Plantilla de presentación ODF</string>
         <string id="desc_impress8_template">Disable the import filter for ODF Presentation Template file format.</string>
-        <string id="name_Impress_MS_PowerPoint_2007_XML">Microsoft PowerPoint 2007-2013 XML</string>
+        <string id="name_Impress_MS_PowerPoint_2007_XML">XML de Microsoft PowerPoint 2007–2019</string>
         <string id="desc_Impress_MS_PowerPoint_2007_XML">Disable the import filter for Microsoft PowerPoint 2007-2013 XML file format.</string>
         <string id="name_Impress_MS_PowerPoint_2007_XML_AutoPlay">Microsoft PowerPoint 2007-2013 XML AutoPlay</string>
         <string id="desc_Impress_MS_PowerPoint_2007_XML_AutoPlay">Disable the import filter for Microsoft PowerPoint 2007-2013 XML AutoPlay file format.</string>
         <string id="name_Impress_MS_PowerPoint_2007_XML_Template">Microsoft PowerPoint 2007-2013 XML Template</string>
         <string id="desc_Impress_MS_PowerPoint_2007_XML_Template">Disable the import filter for Microsoft PowerPoint 2007-2013 XML Template file format.</string>
-        <string id="name_Impress_MS_PowerPoint_2007_XML_VBA">Microsoft PowerPoint 2007-2013 XML VBA</string>
+        <string id="name_Impress_MS_PowerPoint_2007_XML_VBA">VBA XML de Microsoft PowerPoint 2007–2019</string>
         <string id="desc_Impress_MS_PowerPoint_2007_XML_VBA">Disable the import filter for Microsoft PowerPoint 2007-2013 XML VBA file format.</string>
-        <string id="name_Impress_Office_Open_XML">Office Open XML Presentation</string>
+        <string id="name_Impress_Office_Open_XML">Presentación Office Open XML</string>
         <string id="desc_Impress_Office_Open_XML">Disable the import filter for Office Open XML Presentation file format.</string>
-        <string id="name_Impress_Office_Open_XML_AutoPlay">Office Open XML Presentation AutoPlay</string>
+        <string id="name_Impress_Office_Open_XML_AutoPlay">Presentación automática Office Open XML</string>
         <string id="desc_Impress_Office_Open_XML_AutoPlay">Disable the import filter for Office Open XML Presentation AutoPlay file format.</string>
-        <string id="name_Impress_Office_Open_XML_Template">Office Open XML Presentation Template</string>
+        <string id="name_Impress_Office_Open_XML_Template">Plantilla de presentación Office Open XML</string>
         <string id="desc_Impress_Office_Open_XML_Template">Disable the import filter for Office Open XML Presentation Template file format.</string>
-        <string id="name_impress_StarOffice_XML_Draw">OpenOffice.org 1.0 Drawing (Impress)</string>
+        <string id="name_impress_StarOffice_XML_Draw">Dibujo de OpenOffice.org 1.0 (Impress)</string>
         <string id="desc_impress_StarOffice_XML_Draw">Disable the import filter for OpenOffice.org 1.0 Drawing (Impress) file format.</string>
-        <string id="name_impress_StarOffice_XML_Impress_Template">OpenOffice.org 1.0 Presentation Template</string>
+        <string id="name_impress_StarOffice_XML_Impress_Template">Plantilla de presentación de OpenOffice.org 1.0</string>
         <string id="desc_impress_StarOffice_XML_Impress_Template">Disable the import filter for OpenOffice.org 1.0 Presentation Template file format.</string>
-        <string id="name_math8">ODF Formula</string>
+        <string id="name_math8">Fórmula ODF</string>
         <string id="desc_math8">Disable the import filter for ODF Formula file format.</string>
-        <string id="name_MOV__MOV">MOV - QuickTime File Format</string>
+        <string id="name_MOV__MOV">MOV: formato de archivo de QuickTime</string>
         <string id="desc_MOV__MOV">Disable the import filter for MOV - QuickTime File Format file format.</string>
         <string id="name_writer8">Documento de texto ODF</string>
         <string id="desc_writer8">Disable the import filter for ODF Text Document file format.</string>
@@ -481,15 +482,15 @@ Valor predeterminado: macros activadas</string>
         <string id="desc_writer_StarOffice_XML_Writer_Template">Disable the import filter for OpenOffice.org 1.0 Text Document Template file format.</string>
         <string id="name_writer_globaldocument_StarOffice_XML_Writer_GlobalDocument">OpenOffice.org 1.0 Master Document</string>
         <string id="desc_writer_globaldocument_StarOffice_XML_Writer_GlobalDocument">Disable the import filter for OpenOffice.org 1.0 Master Document file format.</string>
-        <string id="name_writer_web_HTML_help">Help content</string>
-        <string id="desc_writer_web_HTML_help">Disable the import filter for Help content file format.</string>
+        <string id="name_writer_web_HTML_help">Contenido de la ayuda</string>
+        <string id="desc_writer_web_HTML_help">Desactivar el filtro de importación para el formato de archivo Contenido de la ayuda.</string>
         <string id="name_writer_web_StarOffice_XML_Writer_Web_Template">OpenOffice.org 1.0 HTML Template</string>
         <string id="desc_writer_web_StarOffice_XML_Writer_Web_Template">Disable the import filter for OpenOffice.org 1.0 HTML Template file format.</string>
-        <string id="name_writerglobal8">ODF Master Document</string>
-        <string id="desc_writerglobal8">Disable the import filter for ODF Master Document file format.</string>
-        <string id="name_writerglobal8_template">ODF Master Document Template</string>
-        <string id="desc_writerglobal8_template">Disable the import filter for ODF Master Document Template file format.</string>
-        <string id="name_writerweb8_writer_template">HTML Document Template</string>
+        <string id="name_writerglobal8">Patrón de documento ODF</string>
+        <string id="desc_writerglobal8">Desactivar el filtro de importación para el formato de archivo Patrón de documento ODF.</string>
+        <string id="name_writerglobal8_template">Plantilla de patrón de documento ODF</string>
+        <string id="desc_writerglobal8_template">Desactivar el filtro de importación para el formato de archivo Plantilla de patrón de documento ODF.</string>
+        <string id="name_writerweb8_writer_template">Plantilla de documento HTML</string>
         <string id="desc_writerweb8_writer_template">Disable the import filter for HTML Document Template file format.</string>
 
         <string id="category_OpenCL">OpenCL</string>
@@ -505,7 +506,7 @@ When it is set to take from LDAP, then its value is LDAP attribute holding user 
         <string id="desc_UPCompanyName">Company name
 
 When it is set to take from LDAP, then its value is LDAP attribute holding company name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
-        <string id="UPAddress">Address</string>
+        <string id="UPAddress">Dirección</string>
         <string id="desc_UPAddress">Address
 
 When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
@@ -594,17 +595,17 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
         <string id="rtf">Texto enriquecido (RTF)</string>
         <string id="category_WriterDefaultFonts">Tipos de letra predeterminados</string>
         <string id="name_WriterDefaultFontsWestern">Tipos de letra predeterminados (occidental)</string>
-        <string id="desc_WriterDefaultFontsWestern">Specifies the font to be used for Western (Latin, Cyrillic, Greek etc.) text.
+        <string id="desc_WriterDefaultFontsWestern">Especifica el tipo de letra que se empleará para los textos occidentales (alfabetos latinos, cirílicos, griegos, etc.)
 
-The font heights are expressed in millimeters*100, which corresponds to the point size multiplied by 35.2777. For example, to set font size to 12 points, set height to 423.</string>
+Las alturas del tipo de letra se expresan en milímetros*100, equivalentes al tamaño en puntos multiplicado por 35,2777. Por ejemplo, para definir el tamaño de letra a 12 puntos, defina la altura a 423.</string>
         <string id="name_WriterDefaultFontsCJK">Tipos de letra predeterminados (CJK)</string>
-        <string id="desc_WriterDefaultFontsCJK">Specifies the font to be used for Chinese, Japanese and Korean text.
+        <string id="desc_WriterDefaultFontsCJK">Especifica el tipo de letra que se empleará para textos en chino, japonés y coreano.
 
-The font heights are expressed in millimeters*100, which corresponds to the point size multiplied by 35.2777. For example, to set font size to 12 points, set height to 423.</string>
+Las alturas del tipo de letra se expresan en milímetros*100, equivalentes al tamaño en puntos multiplicado por 35,2777. Por ejemplo, para definir el tamaño de letra a 12 puntos, defina la altura a 423.</string>
         <string id="name_WriterDefaultFontsCTL">Tipos de letra predeterminados (CTL)</string>
-        <string id="desc_WriterDefaultFontsCTL">Specifies the font to be used for complex text layout (Arabic, Indian etc.) text.
+        <string id="desc_WriterDefaultFontsCTL">Especifica el tipo de letra que se empleará para textos de disposición compleja (árabe, índico, etc.)
 
-The font heights are expressed in millimeters*100, which corresponds to the point size multiplied by 35.2777. For example, to set font size to 12 points, set height to 423.</string>
+Las alturas del tipo de letra se expresan en milímetros*100, equivalentes al tamaño en puntos multiplicado por 35,2777. Por ejemplo, para definir el tamaño de letra a 12 puntos, defina la altura a 423.</string>
         <string id="name_PrintEmptyPages">Imprimir páginas vacías</string>
         <string id="desc_PrintEmptyPages">Especifica si se deben imprimir las páginas vacías.</string>
         <string id="name_AllSheets">Imprimir solo hojas seleccionadas</string>
@@ -626,14 +627,14 @@ The font heights are expressed in millimeters*100, which corresponds to the poin
         <string id="name_FindLabel">Encontrar automáticamente etiquetas de columnas y filas</string>
         <string id="desc_FindLabel">Especifica si se utilizarán las etiquetas de columnas y celdas para hacer referencia al área de la columna ubicada junto a la celda de texto o al área de la fila situada a la derecha de la celda de texto durante una búsqueda.</string>
         <string id="name_RegularExpressions">Expresiones regulares en fórmulas</string>
-        <string id="desc_RegularExpressions">Specifies whether the calculation uses regular expressions in formulas, e.g. for functions which look up sheet contents.</string>
+        <string id="desc_RegularExpressions">Especifica si el cálculo debe utilizar expresiones regulares en las fórmulas, por ejemplo, para funciones que localizan contenidos en hojas.</string>
         <string id="name_Wildcards">Comodines en fórmulas</string>
-        <string id="desc_Wildcards">Specifies whether the calculation uses wildcards in formulas, e.g. for functions which look up sheet contents.</string>
+        <string id="desc_Wildcards">Especifica si el cálculo debe utilizar comodines en las fórmulas, por ejemplo, para funciones que localizan contenidos en hojas.</string>
 
         <string id="category_Formulas">Fórmulas</string>
         <string id="name_EnglishFunctionName">Nombres de funciones en inglés</string>
         <string id="desc_EnglishFunctionName">Utilizar nombres de funciones ingleses aun en interfaces de usuario traducidas.</string>
-        <string id="name_RecalcMode">Recalculation of spreadsheets on load</string>
+        <string id="name_RecalcMode">Recálculo de hojas de cálculo al cargarlas</string>
         <string id="desc_RecalcMode">Specifies whether to force a hard recalculation of formula cells after load of non-LibreOffice-generated ODF documents and/or OOXML-based Excel documents (2007 and newer).</string>
         <string id="alwaysrecalc">Siempre recalcular</string>
         <string id="neverrecalc">Nunca recalcular</string>
@@ -717,7 +718,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseUserData">
-        <checkBox refId="Value">Utilizar datos de usuario en las propiedades del documento</checkBox>
+        <checkBox refId="Value">Utilizar datos de usuario para las propiedades del documento</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="AutoSave">
@@ -731,7 +732,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="AutoSavePromptFinal">Final</checkBox>
       </presentation>
       <presentation id="RecoveryInfo">
-        <checkBox refId="Value">Disable the autorecovery feature</checkBox>
+        <checkBox refId="Value">Desactivar la función de recuperación automática</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="CreateBackup">
@@ -879,7 +880,6 @@ Set paths in path lists have to be separated by spaces.</string>
           <label>Nombre de empresa:</label>
         </textBox>
         <dropdownList refId="CompanyNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
-        <text>Dirección</text>
       </presentation>
       <presentation id="UPAddress">
         <textBox refId="AddressStreetValue">
@@ -902,7 +902,6 @@ Set paths in path lists have to be separated by spaces.</string>
           <label>País:</label>
         </textBox>
         <dropdownList refId="AddressCountryFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
-        <text>Teléfono/fax</text>
       </presentation>
       <presentation id="UPTelephone">
         <textBox refId="TelephoneValue">
@@ -1862,7 +1861,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="CaseSensitive">
-        <checkBox refId="Value">Case sensitive</checkBox>
+        <checkBox refId="Value">Distinguir mayúsculas y minúsculas</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="Precision">
@@ -1878,11 +1877,11 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="RegularExpressions">
-        <checkBox refId="Value">Enable regular expressions in formulas</checkBox>
+        <checkBox refId="Value">Activar las expresiones regulares en las fórmulas</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="Wildcards">
-        <checkBox refId="Value">Enable wildcards in formulas</checkBox>
+        <checkBox refId="Value">Activar los comodines en las fórmulas</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ShowMergeDialog">
@@ -1923,11 +1922,11 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseOpenGL">
-        <checkBox refId="Value">Use OpenGL for all rendering</checkBox>
+        <checkBox refId="Value">Utilizar OpenGL para toda la representación</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ForceOpenGL">
-        <checkBox refId="Value">Force OpenGL even if blacklisted</checkBox>
+        <checkBox refId="Value">Forzar OpenGL aun si está en la lista negra</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
