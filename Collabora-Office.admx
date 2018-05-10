@@ -15,6 +15,7 @@
       <definition name="supported_LibreOffice_5_0" displayName="$(string.supported_LibreOffice_5_0)" />
       <definition name="supported_LibreOffice_5_1" displayName="$(string.supported_LibreOffice_5_1)" />
       <definition name="supported_LibreOffice_5_3" displayName="$(string.supported_LibreOffice_5_3)" />
+      <definition name="supported_LibreOffice_5_3_49" displayName="$(string.supported_LibreOffice_5_3_49)" />
     </definitions>
   </supportedOn>
   <categories>

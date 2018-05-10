@@ -15,6 +15,7 @@
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 ou supérieur</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 ou supérieur</string>
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 ou supérieur</string>
+        <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 ou supérieur</string>
 
         <string id="ValueFlagsNone">None</string>
         <string id="ValueFlagsFinal">Verrouiller le paramètre</string>
