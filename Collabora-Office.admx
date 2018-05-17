@@ -15,6 +15,7 @@
       <definition name="supported_LibreOffice_5_0" displayName="$(string.supported_LibreOffice_5_0)" />
       <definition name="supported_LibreOffice_5_1" displayName="$(string.supported_LibreOffice_5_1)" />
       <definition name="supported_LibreOffice_5_3" displayName="$(string.supported_LibreOffice_5_3)" />
+      <definition name="supported_LibreOffice_5_3_49" displayName="$(string.supported_LibreOffice_5_3_49)" />
     </definitions>
   </supportedOn>
   <categories>
@@ -284,85 +285,243 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-    <policy name="AutoCorrect" class="Both" displayName="$(string.name_AutoCorrect)" explainText="$(string.PathListExplain)" presentation="$(presentation.AutoCorrect)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['AutoCorrect']\WritePath">
+    <policy name="AutoCorrect" class="Both" displayName="$(string.name_AutoCorrect)" explainText="$(string.PathListExplain)" presentation="$(presentation.AutoCorrect)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['AutoCorrect']\WritePath">
       <parentCategory ref="Paths" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
+      <supportedOn ref="supported_LibreOffice_5_3_49" />
+      <enabledList>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\AutoCorrect" valueName="Value">
+          <value>
+            <string></string>
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\AutoCorrect" valueName="Final">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\AutoCorrect" valueName="Nil">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+      </enabledList>
       <elements>
-        <text id="WritePathValue" valueName="Value" />
+        <text id="WritePathValue" valueName="Value" required="true" />
         <boolean id="WritePathFinal" valueName="Final" />
-        <text id="UserPathsValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['AutoCorrect']\UserPaths" valueName="Value" />
-        <boolean id="UserPathsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['AutoCorrect']\UserPaths" valueName="Final" />
+        <text id="UserPathsValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['AutoCorrect']\UserPaths" valueName="Value" required="true" />
+        <boolean id="UserPathsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['AutoCorrect']\UserPaths" valueName="Final" />
       </elements>
     </policy>
-    <policy name="AutoText" class="Both" displayName="$(string.name_AutoText)" explainText="$(string.PathListExplain)" presentation="$(presentation.AutoText)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['AutoText']\WritePath">
+    <policy name="AutoText" class="Both" displayName="$(string.name_AutoText)" explainText="$(string.PathListExplain)" presentation="$(presentation.AutoText)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['AutoText']\WritePath">
       <parentCategory ref="Paths" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
+      <supportedOn ref="supported_LibreOffice_5_3_49" />
+      <enabledList>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\AutoText" valueName="Value">
+          <value>
+            <string></string>
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\AutoText" valueName="Final">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\AutoText" valueName="Nil">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+      </enabledList>
       <elements>
-        <text id="WritePathValue" valueName="Value" />
+        <text id="WritePathValue" valueName="Value" required="true" />
         <boolean id="WritePathFinal" valueName="Final" />
-        <text id="UserPathsValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['AutoText']\UserPaths" valueName="Value" />
-        <boolean id="UserPathsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['AutoText']\UserPaths" valueName="Final" />
+        <text id="UserPathsValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['AutoText']\UserPaths" valueName="Value" required="true" />
+        <boolean id="UserPathsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['AutoText']\UserPaths" valueName="Final" />
       </elements>
     </policy>
-    <policy name="Dictionary" class="Both" displayName="$(string.name_Dictionary)" explainText="$(string.PathListExplain)" presentation="$(presentation.Dictionary)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Dictionary']\WritePath">
+    <policy name="Dictionary" class="Both" displayName="$(string.name_Dictionary)" explainText="$(string.PathListExplain)" presentation="$(presentation.Dictionary)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Dictionary']\WritePath">
       <parentCategory ref="Paths" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
+      <supportedOn ref="supported_LibreOffice_5_3_49" />
+      <enabledList>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Dictionary" valueName="Value">
+          <value>
+            <string></string>
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Dictionary" valueName="Final">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Dictionary" valueName="Nil">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+      </enabledList>
       <elements>
-        <text id="WritePathValue" valueName="Value" />
+        <text id="WritePathValue" valueName="Value" required="true" />
         <boolean id="WritePathFinal" valueName="Final" />
-        <text id="UserPathsValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Dictionary']\UserPaths" valueName="Value" />
-        <boolean id="UserPathsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Dictionary']\UserPaths" valueName="Final" />
+        <text id="UserPathsValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Dictionary']\UserPaths" valueName="Value" required="true" />
+        <boolean id="UserPathsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Dictionary']\UserPaths" valueName="Final" />
       </elements>
     </policy>
-    <policy name="Gallery" class="Both" displayName="$(string.name_Gallery)" explainText="$(string.PathListExplain)" presentation="$(presentation.Gallery)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Gallery']\WritePath">
+    <policy name="Gallery" class="Both" displayName="$(string.name_Gallery)" explainText="$(string.PathListExplain)" presentation="$(presentation.Gallery)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Gallery']\WritePath">
       <parentCategory ref="Paths" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
+      <supportedOn ref="supported_LibreOffice_5_3_49" />
+      <enabledList>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Gallery" valueName="Value">
+          <value>
+            <string></string>
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Gallery" valueName="Final">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Gallery" valueName="Nil">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+      </enabledList>
       <elements>
-        <text id="WritePathValue" valueName="Value" />
+        <text id="WritePathValue" valueName="Value" required="true" />
         <boolean id="WritePathFinal" valueName="Final" />
-        <text id="UserPathsValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Gallery']\UserPaths" valueName="Value" />
-        <boolean id="UserPathsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Gallery']\UserPaths" valueName="Final" />
+        <text id="UserPathsValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Gallery']\UserPaths" valueName="Value" required="true" />
+        <boolean id="UserPathsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Gallery']\UserPaths" valueName="Final" />
       </elements>
     </policy>
-    <policy name="Templates" class="Both" displayName="$(string.name_Templates)" explainText="$(string.PathListExplain)" presentation="$(presentation.Templates)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Template']\WritePath">
+    <policy name="Templates" class="Both" displayName="$(string.name_Templates)" explainText="$(string.PathListExplain)" presentation="$(presentation.Templates)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Template']\WritePath">
       <parentCategory ref="Paths" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
+      <supportedOn ref="supported_LibreOffice_5_3_49" />
+      <enabledList>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Template" valueName="Value">
+          <value>
+            <string></string>
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Template" valueName="Final">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Template" valueName="Nil">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+      </enabledList>
       <elements>
-        <text id="WritePathValue" valueName="Value" />
+        <text id="WritePathValue" valueName="Value" required="true" />
         <boolean id="WritePathFinal" valueName="Final" />
-        <text id="UserPathsValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Template']\UserPaths" valueName="Value" />
-        <boolean id="UserPathsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Template']\UserPaths" valueName="Final" />
+        <text id="UserPathsValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Template']\UserPaths" valueName="Value" required="true" />
+        <boolean id="UserPathsFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Template']\UserPaths" valueName="Final" />
       </elements>
     </policy>
-    <policy name="MyDocuments" class="Both" displayName="$(string.name_MyDocuments)" explainText="$(string.PathListExplain)" presentation="$(presentation.MyDocuments)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Work']\WritePath">
+    <policy name="MyDocuments" class="Both" displayName="$(string.name_MyDocuments)" explainText="$(string.PathListExplain)" presentation="$(presentation.MyDocuments)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Work']\WritePath">
       <parentCategory ref="Paths" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
+      <supportedOn ref="supported_LibreOffice_5_3_49" />
+      <enabledList>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Info\WorkPathChanged" valueName="Value">
+          <value>
+            <string>true</string>
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Work" valueName="Value">
+          <value>
+            <string></string>
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Work" valueName="Final">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Work" valueName="Nil">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+      </enabledList>
       <elements>
-        <text id="WritePathValue" valueName="Value" />
+        <text id="WritePathValue" valueName="Value" required="true" />
         <boolean id="WritePathFinal" valueName="Final" />
       </elements>
     </policy>
-    <policy name="Graphic" class="Both" displayName="$(string.name_Graphic)" explainText="$(string.PathListExplain)" presentation="$(presentation.Graphic)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Graphic']\WritePath">
+    <policy name="Graphic" class="Both" displayName="$(string.name_Graphic)" explainText="$(string.PathListExplain)" presentation="$(presentation.Graphic)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Graphic']\WritePath">
       <parentCategory ref="Paths" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
+      <supportedOn ref="supported_LibreOffice_5_3_49" />
+      <enabledList>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Graphic" valueName="Value">
+          <value>
+            <string></string>
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Graphic" valueName="Final">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Graphic" valueName="Nil">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+      </enabledList>
       <elements>
-        <text id="WritePathValue" valueName="Value" />
+        <text id="WritePathValue" valueName="Value" required="true" />
         <boolean id="WritePathFinal" valueName="Final" />
       </elements>
     </policy>
-    <policy name="Backup" class="Both" displayName="$(string.name_Backup)" explainText="$(string.PathListExplain)" presentation="$(presentation.Backup)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Backup']\WritePath">
+    <policy name="Backup" class="Both" displayName="$(string.name_Backup)" explainText="$(string.PathListExplain)" presentation="$(presentation.Backup)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Backup']\WritePath">
       <parentCategory ref="Paths" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
+      <supportedOn ref="supported_LibreOffice_5_3_49" />
+      <enabledList>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Backup" valueName="Value">
+          <value>
+            <string></string>
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Backup" valueName="Final">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Backup" valueName="Nil">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+      </enabledList>
       <elements>
-        <text id="WritePathValue" valueName="Value" />
+        <text id="WritePathValue" valueName="Value" required="true" />
         <boolean id="WritePathFinal" valueName="Final" />
       </elements>
     </policy>
-    <policy name="Temp" class="Both" displayName="$(string.name_Temp)" explainText="$(string.PathListExplain)" presentation="$(presentation.Temp)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths:NamedPath['Temp']\WritePath">
+    <policy name="Temp" class="Both" displayName="$(string.name_Temp)" explainText="$(string.PathListExplain)" presentation="$(presentation.Temp)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['Temp']\WritePath">
       <parentCategory ref="Paths" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
+      <supportedOn ref="supported_LibreOffice_5_3_49" />
+      <enabledList>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Temp" valueName="Value">
+          <value>
+            <string></string>
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Temp" valueName="Final">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+        <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Path\Current\Temp" valueName="Nil">
+          <value>
+            <decimal value="1" />
+          </value>
+        </item>
+      </enabledList>
       <elements>
-        <text id="WritePathValue" valueName="Value" />
+        <text id="WritePathValue" valueName="Value" required="true" />
         <boolean id="WritePathFinal" valueName="Final" />
       </elements>
     </policy>

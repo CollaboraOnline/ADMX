@@ -2,7 +2,7 @@
 <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
 <!-- Traduction Française (c) 2016 Thierry BOULESTIN - Ministère l'Écologie
      rapporter un bogue ou une amélioration à thierry.boulestin@developpement-durable.gouv.fr -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
   <displayName>
   </displayName>
   <description>
@@ -15,6 +15,7 @@
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 ou supérieur</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 ou supérieur</string>
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 ou supérieur</string>
+        <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 ou supérieur</string>
 
         <string id="ValueFlagsNone">None</string>
         <string id="ValueFlagsFinal">Verrouiller le paramètre</string>
@@ -750,7 +751,7 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
       </presentation>
       <presentation id="RecoveryInfo">
         <checkBox refId="Value">Disable the autorecovery feature</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="CreateBackup">
         <checkBox refId="Value">Toujours créer une copie de sauvegarde</checkBox>
@@ -897,7 +898,6 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
           <label>Société :</label>
         </textBox>
         <dropdownList refId="CompanyNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
-        <text>Address</text>
       </presentation>
       <presentation id="UPAddress">
         <textBox refId="AddressStreetValue">
@@ -920,7 +920,6 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
           <label>Région :</label>
         </textBox>
         <dropdownList refId="AddressCountryFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
-        <text>Téléphone / Fax</text>
       </presentation>
       <presentation id="UPTelephone">
         <textBox refId="TelephoneValue">

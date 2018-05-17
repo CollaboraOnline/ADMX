@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
   <displayName>
   </displayName>
   <description>
@@ -13,6 +13,7 @@
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 vagy újabb</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 vagy újabb</string>
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 vagy újabb</string>
+        <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 vagy újabb</string>
 
         <string id="ValueFlagsNone">None</string>
         <string id="ValueFlagsFinal">Végleges</string>
@@ -507,7 +508,7 @@ When it is set to take from LDAP, then its value is LDAP attribute holding user 
         <string id="desc_UPCompanyName">Company name
 
 When it is set to take from LDAP, then its value is LDAP attribute holding company name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
-        <string id="UPAddress">Address</string>
+        <string id="UPAddress">Cím</string>
         <string id="desc_UPAddress">Address
 
 When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
@@ -734,7 +735,7 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
       </presentation>
       <presentation id="RecoveryInfo">
         <checkBox refId="Value">Disable the autorecovery feature</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="CreateBackup">
         <checkBox refId="Value">Mindig készítsen biztonsági másolatot</checkBox>
@@ -881,7 +882,6 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
           <label>Szervezet:</label>
         </textBox>
         <dropdownList refId="CompanyNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
-        <text>Cím</text>
       </presentation>
       <presentation id="UPAddress">
         <textBox refId="AddressStreetValue">
@@ -904,7 +904,6 @@ Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</st
           <label>Ország:</label>
         </textBox>
         <dropdownList refId="AddressCountryFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
-        <text>Telefon/Fax</text>
       </presentation>
       <presentation id="UPTelephone">
         <textBox refId="TelephoneValue">
