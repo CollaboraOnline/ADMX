@@ -18,6 +18,7 @@
         <string id="ValueFlagsNone">Ninguno</string>
         <string id="ValueFlagsFinal">Final</string>
         <string id="ValueFlagsExternalLDAP">Desde LDAP</string>
+        <string id="ValueFlagsExternalWin">Desde Windows</string>
 
         <string id="category_LibreOffice">Collabora Office</string>
         <string id="category_Common">Comunes</string>

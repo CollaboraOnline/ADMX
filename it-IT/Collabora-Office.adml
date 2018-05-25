@@ -20,6 +20,7 @@
         <string id="ValueFlagsNone">Nessuno</string>
         <string id="ValueFlagsFinal">Finale</string>
         <string id="ValueFlagsExternalLDAP">Da LDAP</string>
+        <string id="ValueFlagsExternalWin">Da Windows</string>
 
         <string id="category_LibreOffice">Collabora Office</string>
         <string id="category_Common">Comune</string>
