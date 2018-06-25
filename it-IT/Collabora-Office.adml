@@ -530,6 +530,10 @@ Quando è impostato per essere letto da LDAP, il suo valore è l'attributo che c
         <string id="name_Backup">Percorsi delle copie di backup</string>
         <string id="name_Temp">Percorsi dei file temporanei</string>
 
+        <string id="category_Passwords">Passwords</string>
+        <string id="name_TrySystemCredentialsFirst">Use system credentials</string>
+        <string id="desc_TrySystemCredentialsFirst">Specifies if authentication using system credentials should be tried automatically for all resources that support it.</string>
+
         <string id="category_View">Vista</string>
         <string id="name_SymbolStyle">Aspetto delle icone</string>
         <string id="desc_SymbolStyle">Specifica che stile di icone utilizzare per barre degli strumenti, menu, etc: "Auto" effettua una selezione automatica in base al tema del desktop; "predefinito" utilizza il tema predefinito di LibreOffice; gli altri possibili valori sono i nomi dei differenti temi ("Breeze", "Oxygen", "Sifr", etc.).</string>
@@ -1996,6 +2000,10 @@ I percorsi configurati nella lista dei path devono essere separati da spazi.</st
       </presentation>
       <presentation id="SelectPDFExport">
           <checkBox refId="Value">Esporta tutti i PDF come PDF/A</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="TrySystemCredentialsFirst">
+          <checkBox refId="Value">Use system credentials</checkBox>
           <checkBox refId="Final">Finale</checkBox>
       </presentation>
     </presentationTable>

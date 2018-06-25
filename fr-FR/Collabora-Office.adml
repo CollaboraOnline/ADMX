@@ -15,7 +15,7 @@
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 ou supérieur</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 ou supérieur</string>
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 ou supérieur</string>
-        <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 ou supérieur</string>
+        <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 or higher</string>
 
         <string id="ValueFlagsNone">None</string>
         <string id="ValueFlagsFinal">Verrouiller le paramètre</string>
@@ -529,6 +529,10 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
         <string id="name_Graphic">Chemin des fichiers images</string>
         <string id="name_Backup">Chemin des fichiers de sauvegardes</string>
         <string id="name_Temp">Chemin des fichiers temporaires</string>
+
+        <string id="category_Passwords">Passwords</string>
+        <string id="name_TrySystemCredentialsFirst">Use system credentials</string>
+        <string id="desc_TrySystemCredentialsFirst">Specifies if authentication using system credentials should be tried automatically for all resources that support it.</string>
 
         <string id="category_View">Affichage</string>
         <string id="name_SymbolStyle">Style d'icône</string>
@@ -2012,6 +2016,10 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
       </presentation>
       <presentation id="SelectPDFExport">
           <checkBox refId="Value">Exporter tout les PDF au format PDF/A</checkBox>
+          <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="TrySystemCredentialsFirst">
+          <checkBox refId="Value">Use system credentials</checkBox>
           <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
     </presentationTable>
