@@ -527,6 +527,10 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
         <string id="name_Backup">Path of Backup files</string>
         <string id="name_Temp">Path of Temporary files</string>
 
+        <string id="category_Passwords">Passwords</string>
+        <string id="name_TrySystemCredentialsFirst">Use system credentials</string>
+        <string id="desc_TrySystemCredentialsFirst">Specifies if authentication using system credentials should be tried automatically for all resources that support it.</string>
+
         <string id="category_View">View</string>
         <string id="name_SymbolStyle">Icon style</string>
         <string id="desc_SymbolStyle">Specifies which style of the symbols is used for the toolbars, menus, etc.: "Automatic" means chosen according to the desktop; "Default" means the LibreOffice default theme; other possible values are the names of the various icon themes ("Breeze", "Oxygen", "Sifr", etc.).</string>
@@ -1995,6 +1999,10 @@ Set paths in path lists have to be separated by spaces.</string>
       </presentation>
       <presentation id="SelectPDFExport">
           <checkBox refId="Value">Export all the PDF as PDF/A</checkBox>
+          <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="TrySystemCredentialsFirst">
+          <checkBox refId="Value">Use system credentials</checkBox>
           <checkBox refId="Final">Final</checkBox>
       </presentation>
     </presentationTable>

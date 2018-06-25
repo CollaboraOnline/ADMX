@@ -62,6 +62,9 @@
     <category name="Paths" displayName="$(string.category_Paths)">
       <parentCategory ref="Common" />
     </category>
+    <category name="Passwords" displayName="$(string.category_Passwords)">
+      <parentCategory ref="Common" />
+    </category>
     <category name="View" displayName="$(string.category_View)">
       <parentCategory ref="Common" />
     </category>
@@ -5452,6 +5455,21 @@
           </trueValue>
           <falseValue>
             <string>true</string> <!-- intentionally changed -->
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="TrySystemCredentialsFirst" class="Both" displayName="$(string.name_TrySystemCredentialsFirst)" explainText="$(string.desc_TrySystemCredentialsFirst)" presentation="$(presentation.TrySystemCredentialsFirst)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Passwords\TrySystemCredentialsFirst">
+      <parentCategory ref="Passwords" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
           </falseValue>
         </boolean>
         <boolean id="Final" valueName="Final" />
