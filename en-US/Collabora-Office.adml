@@ -55,6 +55,13 @@ User unique attribute must correspond to the logged on user's Windows user name 
         <string id="desc_EditProperty">Specifies that the Properties dialog will appear every time you select the Save As command.</string>
         <string id="name_WarnAlienFormat">Warn the user when saving in a format different from ODF or default</string>
         <string id="desc_WarnAlienFormat">Specifies that the saving format is different from ODF or default.</string>
+        <string id="name_OfficeURIOpenProgramNoWarn">Don't warn about website opening the product when using Office URI</string>
+        <string id="desc_OfficeURIOpenProgramNoWarn">By default, when user clicks an Office URI link, Internet Explorer issues a warning that a website is trying to open a program, and asks for confirmation.
+
+This setting allows to disable the warning for Office URIs supported by the product (ms-word:, ms-excel:, ms-powerpoint:, ms-visio:, ms-access:, vnd.libreoffice.command:). Remember that this setting may be overridden by user if set in user settings.
+
+When enabled, no warning will be issued when user clicks a supported Office URI link.
+When disabled, the warning will be issued in this case.</string>
         <string id="name_HTMLExportBrowser">HTML export browser compatibility</string>
         <string id="desc_HTMLExportBrowser">Specifies the browser for which the HTML export should be optimized</string>
         <string id="IE">Internet Explorer</string>

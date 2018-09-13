@@ -288,6 +288,114 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
+    <policy name="OfficeURIOpenProgramNoWarn" class="Both" displayName="$(string.name_OfficeURIOpenProgramNoWarn)" explainText="$(string.desc_OfficeURIOpenProgramNoWarn)" key="Software\Policies\LibreOffice\OfficeURIOpenProgramNoWarn">
+      <parentCategory ref="LoadandSave" />
+      <supportedOn ref="supported_LibreOffice_5_3" />
+      <enabledList>
+        <item key="Software\Microsoft\Internet Explorer\ProtocolExecute\ms-word" valueName="WarnOnOpen">
+          <value>
+            <decimal value="0"/>
+          </value>
+        </item>
+        <item key="Software\Microsoft\Internet Explorer\ProtocolExecute\ms-powerpoint" valueName="WarnOnOpen">
+          <value>
+            <decimal value="0"/>
+          </value>
+        </item>
+        <item key="Software\Microsoft\Internet Explorer\ProtocolExecute\ms-excel" valueName="WarnOnOpen">
+          <value>
+            <decimal value="0"/>
+          </value>
+        </item>
+        <item key="Software\Microsoft\Internet Explorer\ProtocolExecute\ms-access" valueName="WarnOnOpen">
+          <value>
+            <decimal value="0"/>
+          </value>
+        </item>
+        <item key="Software\Microsoft\Internet Explorer\ProtocolExecute\vnd.libreoffice.command" valueName="WarnOnOpen">
+          <value>
+            <decimal value="0"/>
+          </value>
+        </item>
+        <item key="Software\Wow6432Node\Microsoft\Internet Explorer\ProtocolExecute\ms-word" valueName="WarnOnOpen">
+          <value>
+            <decimal value="0"/>
+          </value>
+        </item>
+        <item key="Software\Wow6432Node\Microsoft\Internet Explorer\ProtocolExecute\ms-powerpoint" valueName="WarnOnOpen">
+          <value>
+            <decimal value="0"/>
+          </value>
+        </item>
+        <item key="Software\Wow6432Node\Microsoft\Internet Explorer\ProtocolExecute\ms-excel" valueName="WarnOnOpen">
+          <value>
+            <decimal value="0"/>
+          </value>
+        </item>
+        <item key="Software\Wow6432Node\Microsoft\Internet Explorer\ProtocolExecute\ms-access" valueName="WarnOnOpen">
+          <value>
+            <decimal value="0"/>
+          </value>
+        </item>
+        <item key="Software\Wow6432Node\Microsoft\Internet Explorer\ProtocolExecute\vnd.libreoffice.command" valueName="WarnOnOpen">
+          <value>
+            <decimal value="0"/>
+          </value>
+        </item>
+      </enabledList>
+      <disabledList>
+        <item key="Software\Microsoft\Internet Explorer\ProtocolExecute\ms-word" valueName="WarnOnOpen">
+          <value>
+            <decimal value="1"/>
+          </value>
+        </item>
+        <item key="Software\Microsoft\Internet Explorer\ProtocolExecute\ms-powerpoint" valueName="WarnOnOpen">
+          <value>
+            <decimal value="1"/>
+          </value>
+        </item>
+        <item key="Software\Microsoft\Internet Explorer\ProtocolExecute\ms-excel" valueName="WarnOnOpen">
+          <value>
+            <decimal value="1"/>
+          </value>
+        </item>
+        <item key="Software\Microsoft\Internet Explorer\ProtocolExecute\ms-access" valueName="WarnOnOpen">
+          <value>
+            <decimal value="1"/>
+          </value>
+        </item>
+        <item key="Software\Microsoft\Internet Explorer\ProtocolExecute\vnd.libreoffice.command" valueName="WarnOnOpen">
+          <value>
+            <decimal value="1"/>
+          </value>
+        </item>
+        <item key="Software\Wow6432Node\Microsoft\Internet Explorer\ProtocolExecute\ms-word" valueName="WarnOnOpen">
+          <value>
+            <decimal value="1"/>
+          </value>
+        </item>
+        <item key="Software\Wow6432Node\Microsoft\Internet Explorer\ProtocolExecute\ms-powerpoint" valueName="WarnOnOpen">
+          <value>
+            <decimal value="1"/>
+          </value>
+        </item>
+        <item key="Software\Wow6432Node\Microsoft\Internet Explorer\ProtocolExecute\ms-excel" valueName="WarnOnOpen">
+          <value>
+            <decimal value="1"/>
+          </value>
+        </item>
+        <item key="Software\Wow6432Node\Microsoft\Internet Explorer\ProtocolExecute\ms-access" valueName="WarnOnOpen">
+          <value>
+            <decimal value="1"/>
+          </value>
+        </item>
+        <item key="Software\Wow6432Node\Microsoft\Internet Explorer\ProtocolExecute\vnd.libreoffice.command" valueName="WarnOnOpen">
+          <value>
+            <decimal value="1"/>
+          </value>
+        </item>
+      </disabledList>
+    </policy>
     <policy name="AutoCorrect" class="Both" displayName="$(string.name_AutoCorrect)" explainText="$(string.PathListExplain)" presentation="$(presentation.AutoCorrect)" key="Software\Policies\LibreOffice\org.openoffice.Office.Paths\Paths\org.openoffice.Office.Paths:NamedPath['AutoCorrect']\WritePath">
       <parentCategory ref="Paths" />
       <supportedOn ref="supported_LibreOffice_5_3_49" />

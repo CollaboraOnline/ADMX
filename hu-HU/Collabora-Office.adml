@@ -55,6 +55,13 @@ User unique attribute must correspond to the logged on user's Windows user name 
         <string id="desc_EditProperty">Megadja, hogy a Mentés másként parancs kiválasztásakor mindig jelenjen meg a Tulajdonságok párbeszédablak.</string>
         <string id="name_WarnAlienFormat">Figyelmeztesse a felhasználót az ODF-től vagy az alapértelmezettől eltérő formátumban mentéskor.</string>
         <string id="desc_WarnAlienFormat">Megadja, hogy a mentési formátum eltér-e az ODF-től vagy az alapértelmezettől.</string>
+        <string id="name_OfficeURIOpenProgramNoWarn">Don't warn about website opening the product when using Office URI</string>
+        <string id="desc_OfficeURIOpenProgramNoWarn">By default, when user clicks an Office URI link, Internet Explorer issues a warning that a website is trying to open a program, and asks for confirmation.
+
+This setting allows to disable the warning for Office URIs supported by the product (ms-word:, ms-excel:, ms-powerpoint:, ms-visio:, ms-access:, vnd.libreoffice.command:). Remember that this setting may be overridden by user if set in user settings.
+
+When enabled, no warning will be issued when user clicks a supported Office URI link.
+When disabled, the warning will be issued in this case.</string>
         <string id="name_HTMLExportBrowser">HTML-export böngészőkompatibilitása</string>
         <string id="desc_HTMLExportBrowser">Megadja, hogy melyik böngészőre legyen a HTML-export optimalizálva</string>
         <string id="IE">Internet Explorer</string>

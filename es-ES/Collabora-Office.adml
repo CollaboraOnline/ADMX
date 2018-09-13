@@ -55,6 +55,13 @@ El atributo único de usuario debe corresponderse con el nombre de usuario de la
         <string id="desc_EditProperty">Especifica que el cuadro de diálogo Propiedades aparezca siempre que selecciona la orden Guardar como.</string>
         <string id="name_WarnAlienFormat">Alertar al usuario cuando se guarde en un formato distinto de ODF o del predeterminado</string>
         <string id="desc_WarnAlienFormat">Especifica que el formato de guardado sea distinto de ODF o del predeterminado.</string>
+        <string id="name_OfficeURIOpenProgramNoWarn">Don't warn about website opening the product when using Office URI</string>
+        <string id="desc_OfficeURIOpenProgramNoWarn">By default, when user clicks an Office URI link, Internet Explorer issues a warning that a website is trying to open a program, and asks for confirmation.
+
+This setting allows to disable the warning for Office URIs supported by the product (ms-word:, ms-excel:, ms-powerpoint:, ms-visio:, ms-access:, vnd.libreoffice.command:). Remember that this setting may be overridden by user if set in user settings.
+
+When enabled, no warning will be issued when user clicks a supported Office URI link.
+When disabled, the warning will be issued in this case.</string>
         <string id="name_HTMLExportBrowser">Compatibilidad con navegadores de exportación a HTML</string>
         <string id="desc_HTMLExportBrowser">Especifica para cuál navegador debe optimizarse la exportación a HTML</string>
         <string id="IE">Internet Explorer</string>
