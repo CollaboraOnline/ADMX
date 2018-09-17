@@ -674,6 +674,7 @@ Spaces and non-ASCII characters must be URL encoded, e.g. space must be written 
 The following path variables can be used:
     $(inst)  = location of installation
     $(user)  = location of user's profile
+    $(username) = users login name without the domain name (since version 5.2)
     $(work)  = user's My Documents folder
     $(home)  = user's home directory
     $(temp)  = location of user's temporary files
