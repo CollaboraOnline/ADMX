@@ -57,6 +57,13 @@ L'attributo univoco dell'utente deve corrispondere al nome utente di Windows sen
         <string id="desc_EditProperty">Specifica che la finestra di dialogo Proprietà sarà visualizzata ogni volta che si seleziona il comando Salva con nome.</string>
         <string id="name_WarnAlienFormat">Avvisa se il salvataggio non è nel formato ODF o nel formato predefinito</string>
         <string id="desc_WarnAlienFormat">Indica che il formato di salvataggio è differente da ODF o dal predefinito</string>
+        <string id="name_OfficeURIOpenProgramNoWarn">Don't warn about website opening the product when using Office URI</string>
+        <string id="desc_OfficeURIOpenProgramNoWarn">By default, when user clicks an Office URI link, Internet Explorer issues a warning that a website is trying to open a program, and asks for confirmation.
+
+This setting allows to disable the warning for Office URIs supported by the product (ms-word:, ms-excel:, ms-powerpoint:, ms-visio:, ms-access:, vnd.libreoffice.command:). Remember that this setting may be overridden by user if set in user settings.
+
+When enabled, no warning will be issued when user clicks a supported Office URI link.
+When disabled, the warning will be issued in this case.</string>
         <string id="name_HTMLExportBrowser">Compatibilità del browser per l'esportazione HTML</string>
         <string id="desc_HTMLExportBrowser">Specifica il browser per cui ottimizzare l'esportazone in HTML</string>
         <string id="IE">Internet Explorer</string>
