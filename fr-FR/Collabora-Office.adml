@@ -15,12 +15,12 @@
         <string id="supported_LibreOffice_5_0">Collabora Office 5.0 ou supérieur</string>
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 ou supérieur</string>
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 ou supérieur</string>
-        <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 or higher</string>
+        <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 ou supérieur</string>
 
-        <string id="ValueFlagsNone">None</string>
+        <string id="ValueFlagsNone">Aucun</string>
         <string id="ValueFlagsFinal">Verrouiller le paramètre</string>
-        <string id="ValueFlagsExternalLDAP">From LDAP</string>
-        <string id="ValueFlagsExternalWin">From Windows</string>
+        <string id="ValueFlagsExternalLDAP">De LDAP</string>
+        <string id="ValueFlagsExternalWin">De Windows</string>
 
         <string id="category_LibreOffice">Collabora Office</string>
         <string id="category_Common">Commun</string>
@@ -31,13 +31,13 @@
         <string id="name_CollectUsageInformation">Aider à améliorer LibreOffice</string>
         <string id="desc_CollectUsageInformation">Collecter des données d'usage et les envoyer à The Document Foundation</string>
 
-        <string id="category_LDAPConfigBackend">LDAP configuration backend</string>
-        <string id="name_LDAPConfigBackendSettings">LDAP User Directory</string>
-        <string id="desc_LDAPConfigBackendSettings">Defines how to connect to LDAP server and retrieve user information used in User Data section
+        <string id="category_LDAPConfigBackend">Backend de configuration LDAP</string>
+        <string id="name_LDAPConfigBackendSettings">Répertoire utilisateur LDAP</string>
+        <string id="desc_LDAPConfigBackendSettings">Définit comment se connecter au serveur LDAP et récupérer les informations utilisateur utilisées dans la section Données utilisateur
 
-Note that the password to bind to LDAP server is stored unencrypted in client system's registry; you should use a restricted search account (only able to perform LDAP searches).
+Notez que le mot de passe à lier au serveur LDAP est stocké en clair dans le registre du système client. vous devez utiliser un compte de recherche restreint (uniquement capable d'effectuer des recherches LDAP).
 
-User unique attribute must correspond to the logged on user's Windows user name without domain.</string>
+L'attribut unique d'utilisateur doit correspondre au nom d'utilisateur Windows de l'utilisateur connecté sans domaine.</string>
 
         <string id="category_ProductName">Nom du produit</string>
         <string id="name_ooName">Nom du produit (ooName)</string>
@@ -49,8 +49,8 @@ User unique attribute must correspond to the logged on user's Windows user name 
         <string id="desc_UseUserData">Utiliser les données de l'utilisateur pour les propriétés du document.</string>
         <string id="name_AutoSave">Enregistrement automatique</string>
         <string id="desc_AutoSave">Enregistrer les informations de récupération automatique toutes les __ minutes</string>
-        <string id="name_RecoveryInfo">Disable the autorecovery feature</string>
-        <string id="desc_RecoveryInfo">Disable the autorecovery feature in case of crashes</string>
+        <string id="name_RecoveryInfo">Désactiver la récupération automatique</string>
+        <string id="desc_RecoveryInfo">Désactiver la récupération automatique en cas de plantage</string>
         <string id="name_CreateBackup">Créer une sauvegarde</string>
         <string id="desc_CreateBackup">Toujours créer une copie de sauvegarde</string>
         <string id="name_EditProperty">Modifier les propriétés du document avant de l'enregistrer</string>
@@ -153,7 +153,7 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_EnableExpertConfiguration">Détermine si l'utilisateur a accès à la configuration avancée via le bouton Ouvrir la configuration avancée.</string>
         <string id="name_SecureURL">Emplacement de fichies de confiances</string>
 
-        <string id="category_Filters">Disable file format filters</string>
+        <string id="category_Filters">Désactiver les filtres de format de fichier</string>
 
         <string id="name_ADO_Rowset_XML">ADO Rowset XML</string>
         <string id="desc_ADO_Rowset_XML">Disable the import filter for ADO Rowset XML file format.</string>
@@ -191,8 +191,8 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_DXF__AutoCAD_Interchange">Disable the import filter for DXF - AutoCAD Interchange Format file format.</string>
         <string id="name_DocBook_File">DocBook</string>
         <string id="desc_DocBook_File">Disable the import filter for DocBook file format.</string>
-        <string id="name_DosWord">Microsoft Word for DOS</string>
-        <string id="desc_DosWord">Disable the import filter for Microsoft Word for DOS file format.</string>
+        <string id="name_DosWord">Microsoft Word pour DOS</string>
+        <string id="desc_DosWord">Désactivez le filtre d'importation pour Microsoft Word pour le format de fichier DOS.</string>
         <string id="name_EMF__MS_Windows_Metafile">EMF - Enhanced Metafile</string>
         <string id="desc_EMF__MS_Windows_Metafile">Disable the import filter for EMF - Enhanced Metafile file format.</string>
         <string id="name_EPS__Encapsulated_PostScript">EPS - Encapsulated PostScript</string>
@@ -203,11 +203,11 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_Freehand_Document">Disable the import filter for Adobe/Macromedia Freehand file format.</string>
         <string id="name_GIF__Graphics_Interchange">GIF - Graphics Interchange Format</string>
         <string id="desc_GIF__Graphics_Interchange">Disable the import filter for GIF - Graphics Interchange Format file format.</string>
-        <string id="name_HTML">HTML Document</string>
+        <string id="name_HTML">Document HTML</string>
         <string id="desc_HTML">Disable the import filter for HTML Document file format.</string>
         <string id="name_HTML_StarCalc">HTML Document (Calc)</string>
         <string id="desc_HTML_StarCalc">Disable the import filter for HTML Document (Calc) file format.</string>
-        <string id="name_HTML_StarWriter">HTML Document (Writer)</string>
+        <string id="name_HTML_StarWriter">Document HTML (Writer)</string>
         <string id="desc_HTML_StarWriter">Disable the import filter for HTML Document (Writer) file format.</string>
         <string id="name_JPG__JPEG">JPEG - Joint Photographic Experts Group</string>
         <string id="desc_JPG__JPEG">Disable the import filter for JPEG - Joint Photographic Experts Group file format.</string>
@@ -281,7 +281,7 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_MWAW_Text_Document">Disable the import filter for Legacy Mac Text Document file format.</string>
         <string id="name_MacWrite">MacWrite Document</string>
         <string id="desc_MacWrite">Disable the import filter for MacWrite Document file format.</string>
-        <string id="name_Mac_Word">Microsoft Word for Mac (v1 - v5)</string>
+        <string id="name_Mac_Word">Microsoft Word pour Mac (v1 - v5)</string>
         <string id="desc_Mac_Word">Disable the import filter for Microsoft Word for Mac (v1 - v5) file format.</string>
         <string id="name_Mac_Works">Microsoft Works for Mac Text Document (v1 - v4)</string>
         <string id="desc_Mac_Works">Disable the import filter for Microsoft Works for Mac Text Document (v1 - v4) file format.</string>
@@ -327,7 +327,7 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_Palm_Text_Document">Disable the import filter for Palm Text Document file format.</string>
         <string id="name_Plucker_eBook">Plucker eBook</string>
         <string id="desc_Plucker_eBook">Disable the import filter for Plucker eBook file format.</string>
-        <string id="name_PowerPoint_3">Microsoft PowerPoint 1-4 and 95's</string>
+        <string id="name_PowerPoint_3">Microsoft PowerPoint 1-4 et 95's</string>
         <string id="desc_PowerPoint_3">Disable the import filter for Microsoft PowerPoint 1-4 and 95's file format.</string>
         <string id="name_Publisher_Document">Microsoft Publisher 98-2010</string>
         <string id="desc_Publisher_Document">Disable the import filter for Microsoft Publisher 98-2010 file format.</string>
@@ -340,19 +340,19 @@ Valeur par défaut : Macros activés</string>
         <string id="name_Rich_Text_Format">Rich Text</string>
         <string id="desc_Rich_Text_Format">Disable the import filter for Rich Text file format.</string>
         <string id="name_Rich_Text_Format_StarCalc">Rich Text Format (Calc)</string>
-        <string id="desc_Rich_Text_Format_StarCalc">Disable the import filter for Rich Text Format (Calc) file format.</string>
+        <string id="desc_Rich_Text_Format_StarCalc">Désactivez le filtre d'importation pour le format de fichier Rich Text Format (Calc).</string>
         <string id="name_SVG__Scalable_Vector_Graphics">SVG - Scalable Vector Graphics</string>
-        <string id="desc_SVG__Scalable_Vector_Graphics">Disable the import filter for SVG - Scalable Vector Graphics file format.</string>
+        <string id="desc_SVG__Scalable_Vector_Graphics">Désactivez le filtre d'importation pour le format de fichier SVG - Scalable Vector Graphics.</string>
         <string id="name_SVM__StarView_Metafile">SVM - StarView Metafile</string>
-        <string id="desc_SVM__StarView_Metafile">Disable the import filter for SVM - StarView Metafile file format.</string>
+        <string id="desc_SVM__StarView_Metafile">Désactivez le filtre d'importation pour le format de fichier SVM - StarView Metafile.</string>
         <string id="name_SYLK">SYLK</string>
-        <string id="desc_SYLK">Disable the import filter for SYLK file format.</string>
+        <string id="desc_SYLK">Désactivez le filtre d'importation pour le format de fichier SYLK.</string>
         <string id="name_StarOffice_XML_Base_Report">ODF Database Report</string>
-        <string id="desc_StarOffice_XML_Base_Report">Disable the import filter for ODF Database Report file format.</string>
+        <string id="desc_StarOffice_XML_Base_Report">Désactivez le filtre d'importation pour le format de fichier ODF Database Report.</string>
         <string id="name_StarOffice_XML_Base_Report_Chart">OpenOffice.org 1.0 Report Chart</string>
-        <string id="desc_StarOffice_XML_Base_Report_Chart">Disable the import filter for OpenOffice.org 1.0 Report Chart file format.</string>
+        <string id="desc_StarOffice_XML_Base_Report_Chart">Désactiver le filtre d'importation pour le format de fichier de rapport graphique OpenOffice.org 1.0.</string>
         <string id="name_StarOffice_Drawing">Legacy StarOffice Drawing</string>
-        <string id="desc_StarOffice_Drawing">Disable the import filter for Legacy StarOffice Drawing file format.</string>
+        <string id="desc_StarOffice_Drawing">Désactivez le filtre d'importation pour le format de fichier Legacy StarOffice Drawing</string>
         <string id="name_StarOffice_Presentation">Legacy StarOffice Presentation</string>
         <string id="desc_StarOffice_Presentation">Disable the import filter for Legacy StarOffice Presentation file format.</string>
         <string id="name_StarOffice_Spreadsheet">Legacy StarOffice Spreadsheet</string>
@@ -361,7 +361,7 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_StarOffice_Writer">Disable the import filter for Legacy StarOffice Text Document file format.</string>
         <string id="name_StarOffice_XML_Base">ODF Database</string>
         <string id="desc_StarOffice_XML_Base">Disable the import filter for ODF Database file format.</string>
-        <string id="name_StarOffice_XML_Calc">OpenOffice.org 1.0 Spreadsheet</string>
+        <string id="name_StarOffice_XML_Calc">Classeur OpenOffice.org 1.0</string>
         <string id="desc_StarOffice_XML_Calc">Disable the import filter for OpenOffice.org 1.0 Spreadsheet file format.</string>
         <string id="name_StarOffice_XML_Chart">OpenOffice.org 1.0 Chart</string>
         <string id="desc_StarOffice_XML_Chart">Disable the import filter for OpenOffice.org 1.0 Chart file format.</string>
@@ -379,12 +379,12 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_TGA__Truevision_TARGA">Disable the import filter for TGA - Truevision Targa file format.</string>
         <string id="name_TIF__Tag_Image_File">TIFF - Tagged Image File Format</string>
         <string id="desc_TIF__Tag_Image_File">Disable the import filter for TIFF - Tagged Image File Format file format.</string>
-        <string id="name_Text">Text</string>
-        <string id="desc_Text">Disable the import filter for Text file format.</string>
-        <string id="name_Text_StarWriterWeb">Text (Writer/Web)</string>
-        <string id="desc_Text_StarWriterWeb">Disable the import filter for Text (Writer/Web) file format.</string>
-        <string id="name_Text__txt__csv_StarCalc">Text CSV</string>
-        <string id="desc_Text__txt__csv_StarCalc">Disable the import filter for Text CSV file format.</string>
+        <string id="name_Text">Texte</string>
+        <string id="desc_Text">Désactiver le filtre d'importation pour le format de fichier texte.</string>
+        <string id="name_Text_StarWriterWeb">Texte (Writer/Web)</string>
+        <string id="desc_Text_StarWriterWeb">Désactivez le filtre d'importation pour le format de fichier Texte (Writer / Web).</string>
+        <string id="name_Text__txt__csv_StarCalc">Texte CSV</string>
+        <string id="desc_Text__txt__csv_StarCalc">Désactiver le filtre d'importation pour le format de fichier texte CSV.</string>
         <string id="name_Text_encoded">Text - Choose Encoding</string>
         <string id="desc_Text_encoded">Disable the import filter for Text - Choose Encoding file format.</string>
         <string id="name_Text_encoded_StarWriterGlobalDocument">Text - Choose Encoding (Master Document)</string>
@@ -465,15 +465,15 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_Impress_MS_PowerPoint_2007_XML">Disable the import filter for Microsoft PowerPoint 2007-2013 XML file format.</string>
         <string id="name_Impress_MS_PowerPoint_2007_XML_AutoPlay">Microsoft PowerPoint 2007-2013 XML AutoPlay</string>
         <string id="desc_Impress_MS_PowerPoint_2007_XML_AutoPlay">Disable the import filter for Microsoft PowerPoint 2007-2013 XML AutoPlay file format.</string>
-        <string id="name_Impress_MS_PowerPoint_2007_XML_Template">Microsoft PowerPoint 2007-2013 XML Template</string>
+        <string id="name_Impress_MS_PowerPoint_2007_XML_Template">Modèle XML Microsoft PowerPoint 2007-2013</string>
         <string id="desc_Impress_MS_PowerPoint_2007_XML_Template">Disable the import filter for Microsoft PowerPoint 2007-2013 XML Template file format.</string>
         <string id="name_Impress_MS_PowerPoint_2007_XML_VBA">Microsoft PowerPoint 2007-2013 XML VBA</string>
         <string id="desc_Impress_MS_PowerPoint_2007_XML_VBA">Disable the import filter for Microsoft PowerPoint 2007-2013 XML VBA file format.</string>
-        <string id="name_Impress_Office_Open_XML">Office Open XML Presentation</string>
+        <string id="name_Impress_Office_Open_XML">Présentation Office Open XML</string>
         <string id="desc_Impress_Office_Open_XML">Disable the import filter for Office Open XML Presentation file format.</string>
         <string id="name_Impress_Office_Open_XML_AutoPlay">Office Open XML Presentation AutoPlay</string>
         <string id="desc_Impress_Office_Open_XML_AutoPlay">Disable the import filter for Office Open XML Presentation AutoPlay file format.</string>
-        <string id="name_Impress_Office_Open_XML_Template">Office Open XML Presentation Template</string>
+        <string id="name_Impress_Office_Open_XML_Template">Modèle de présentation Office Open XML</string>
         <string id="desc_Impress_Office_Open_XML_Template">Disable the import filter for Office Open XML Presentation Template file format.</string>
         <string id="name_impress_StarOffice_XML_Draw">OpenOffice.org 1.0 Drawing (Impress)</string>
         <string id="desc_impress_StarOffice_XML_Draw">Disable the import filter for OpenOffice.org 1.0 Drawing (Impress) file format.</string>
@@ -493,7 +493,7 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_writer_StarOffice_XML_Writer_Template">Disable the import filter for OpenOffice.org 1.0 Text Document Template file format.</string>
         <string id="name_writer_globaldocument_StarOffice_XML_Writer_GlobalDocument">OpenOffice.org 1.0 Master Document</string>
         <string id="desc_writer_globaldocument_StarOffice_XML_Writer_GlobalDocument">Disable the import filter for OpenOffice.org 1.0 Master Document file format.</string>
-        <string id="name_writer_web_HTML_help">Help content</string>
+        <string id="name_writer_web_HTML_help">Contenu de l'aide</string>
         <string id="desc_writer_web_HTML_help">Disable the import filter for Help content file format.</string>
         <string id="name_writer_web_StarOffice_XML_Writer_Web_Template">OpenOffice.org 1.0 HTML Template</string>
         <string id="desc_writer_web_StarOffice_XML_Writer_Web_Template">Disable the import filter for OpenOffice.org 1.0 HTML Template file format.</string>
@@ -509,19 +509,19 @@ Valeur par défaut : Macros activés</string>
         <string id="desc_UseOpenCL">Détermine si OpenCL peut être utilisé, lorsqu'il est disponible, pour accélérer certaines opérations.</string>
 
         <string id="UserProfile">Données d'identité</string>
-        <string id="UPUserName">User name</string>
+        <string id="UPUserName">Nom d'utilisateur</string>
         <string id="desc_UPUserName">User name
 
 When it is set to take from LDAP, then its value is LDAP attribute holding user name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
-        <string id="UPCompanyName">Company name</string>
+        <string id="UPCompanyName">Nom de la compagnie</string>
         <string id="desc_UPCompanyName">Company name
 
 When it is set to take from LDAP, then its value is LDAP attribute holding company name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
-        <string id="UPAddress">Address</string>
+        <string id="UPAddress">Adresse</string>
         <string id="desc_UPAddress">Address
 
 When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
-        <string id="UPTelephone">Telephone/Fax</string>
+        <string id="UPTelephone">Téléphone/Fax</string>
         <string id="desc_UPTelephone">Telephone/Fax
 
 When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
@@ -537,9 +537,9 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
         <string id="name_Backup">Chemin des fichiers de sauvegardes</string>
         <string id="name_Temp">Chemin des fichiers temporaires</string>
 
-        <string id="category_Passwords">Passwords</string>
-        <string id="name_TrySystemCredentialsFirst">Use system credentials</string>
-        <string id="desc_TrySystemCredentialsFirst">Specifies if authentication using system credentials should be tried automatically for all resources that support it.</string>
+        <string id="category_Passwords">Mot de passe</string>
+        <string id="name_TrySystemCredentialsFirst">Utiliser les informations d'identification du système</string>
+        <string id="desc_TrySystemCredentialsFirst">Spécifie si l'authentification à l'aide des informations d'identification du système doit être essayée automatiquement pour toutes les ressources qui la prennent en charge.</string>
 
         <string id="category_View">Affichage</string>
         <string id="name_SymbolStyle">Style d'icône</string>
@@ -687,50 +687,51 @@ Les hauteurs de polices sont exprimées en millimètres * 100, ce qui correspond
         <string id="SaveAsFormat">Enregistrer sous ce format</string>
         <string id="Print">Impression</string>
         <string id="DefaultTemplate">Modèle par défaut</string>
-        <string id="PathListExplain">Les chemins d'accès aux répertoires et fichiers doivent être entrés en utilisant la syntaxe de codage URL, tel que décrit ci-dessous.
-Disque local ou lecteur réseau mappé à une lettre de lecteur, par exemple C:
+        <string id="PathListExplain">Directory and file paths must be entered using file URL syntax, as described below.
+Local drive or network drive mapped to a drive letter, such as C:
     file:///C:/path/file.ext
-Chemin d'accès UNC
+UNC path
     file://server/share/path/file.ext
 
-Espaces et caractères non ASCII doivent utiliser le codage URL, par exemple l'espace doit être écrit %20.
+Spaces and non-ASCII characters must be URL encoded, e.g. space must be written as %20.
 
-Les variables de chemin d'accès suivant peuvent être utilisés :
-$(inst)  = emplacement de l'installation de LibreOffice
-$(user)  = emplacement du profil utilisateur de LibreOffice
-$(work)  = le dossier Mes Documents de l'utilisateur
-$(home)  = répertoire home de l'utilisateur
-$(temp)  = emplacement des fichiers temporaires de l'utilisateur
-$(vlang) = code de la langue actuel (par exemple en-US, fr, hu)
+The following path variables can be used:
+    $(inst)  = location of installation
+    $(user)  = location of user's profile
+    $(username) = users login name without the domain name (since version 5.2)
+    $(work)  = user's My Documents folder
+    $(home)  = user's home directory
+    $(temp)  = location of user's temporary files
+    $(vlang) = current language code (e.g. en-US, fr, hu)
 
-Les chemins dans les listes de chemin doivent être séparés par des espaces.</string>
+Set paths in path lists have to be separated by spaces.</string>
     </stringTable>
     <presentationTable>
       <presentation id="LDAPConfigBackendSettings">
-        <text>LDAP Server configuration</text>
+        <text>Configuration du serveur LDAP</text>
         <textBox refId="LDAPUDServerDefinition_Server">
-          <label>Server: </label>
+          <label>Serveur:</label>
           <defaultValue>example.com</defaultValue>
         </textBox>
-        <decimalTextBox refId="LDAPUDServerDefinition_Port" defaultValue="389" spin="false">Port: </decimalTextBox>
-        <text>LDAP Search configuration</text>
+        <decimalTextBox refId="LDAPUDServerDefinition_Port" defaultValue="389" spin="false">Port:</decimalTextBox>
+        <text>Configuration de la recherche LDAP</text>
         <textBox refId="LDAPUDSearchUser">
-          <label>Username to bind: </label>
-          <defaultValue>example\bindLdap</defaultValue>
+          <label>Nom d'utilisateur à lier :</label>
+          <defaultValue>exemple\bindLdap</defaultValue>
         </textBox>
         <textBox refId="LDAPUDSearchPassword">
-          <label>Password to bind: </label>
+          <label>Mot de passe à lier :</label>
         </textBox>
         <textBox refId="LDAPUDServerDefinition_BaseDN">
-          <label>Base DN for search: </label>
-          <defaultValue>cn=Users,dc=example,dc=com</defaultValue>
+          <label>Base DN pour la recherche :</label>
+          <defaultValue>cn=Users,dc=exemple,dc=com</defaultValue>
         </textBox>
         <textBox refId="LDAPUDUserObjectClass">
-          <label>User object class: </label>
-          <defaultValue>user</defaultValue>
+          <label>Classe d'objet utilisateur :</label>
+          <defaultValue>Utilisateur</defaultValue>
         </textBox>
         <textBox refId="LDAPUDUserUniqueAttribute">
-          <label>User unique attribute: </label>
+          <label>Attribut unique de l'utilisateur :</label>
           <defaultValue>sAMAccountName</defaultValue>
         </textBox>
       </presentation>
@@ -761,7 +762,7 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
         <checkBox refId="AutoSavePromptFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="RecoveryInfo">
-        <checkBox refId="Value">Disable the autorecovery feature</checkBox>
+        <checkBox refId="Value">Désactiver la récupération automatique</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="CreateBackup">
@@ -892,15 +893,15 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
       </presentation>
       <presentation id="UPUserName">
         <textBox refId="GivenNameValue">
-          <label>Given Name: </label>
+          <label>Prénom :</label>
         </textBox>
         <dropdownList refId="GivenNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="LastNameValue">
-          <label>Last Name: </label>
+          <label>Nom de famille :</label>
         </textBox>
         <dropdownList refId="LastNameFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="InitialsValue">
-          <label>Initials: </label>
+          <label>Initiales :</label>
         </textBox>
         <dropdownList refId="InitialsFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>
@@ -1830,63 +1831,63 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="Impress_Office_Open_XML_Template">
-        <checkBox refId="Value">Disable Office Open XML Presentation Template</checkBox>
+        <checkBox refId="Value">Désactiver le modèle de présentation Office Open XML</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="impress_StarOffice_XML_Draw">
-        <checkBox refId="Value">Disable OpenOffice.org 1.0 Drawing (Impress)</checkBox>
+        <checkBox refId="Value">Désactiver OpenOffice.org 1.0 Dessin (Impress)</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="impress_StarOffice_XML_Impress_Template">
-        <checkBox refId="Value">Disable OpenOffice.org 1.0 Presentation Template</checkBox>
+        <checkBox refId="Value">Désactiver le modèle de présentation OpenOffice.org 1.0</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="math8">
-        <checkBox refId="Value">Disable ODF Formula</checkBox>
+        <checkBox refId="Value">Désactiver ODF Formule</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="MOV__MOV">
-        <checkBox refId="Value">Disable MOV - QuickTime File Format</checkBox>
+        <checkBox refId="Value">Désactiver MOV - Format de fichier QuickTime</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="writer8">
-        <checkBox refId="Value">Disable ODF Text Document</checkBox>
+        <checkBox refId="Value">Désactiver ODF Document Texte</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="writer8_template">
-        <checkBox refId="Value">Disable ODF Text Document Template</checkBox>
+        <checkBox refId="Value">Désactiver ODF Modèle de Document Texte</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="writer_MIZI_Hwp_97">
-        <checkBox refId="Value">Disable Hangul WP 97</checkBox>
+        <checkBox refId="Value">Désactiver Hangul WP 97</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="writer_StarOffice_XML_Writer_Template">
-        <checkBox refId="Value">Disable OpenOffice.org 1.0 Text Document Template</checkBox>
+        <checkBox refId="Value">Désactiver le modèle de document texte OpenOffice.org 1.0</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="writer_globaldocument_StarOffice_XML_Writer_GlobalDocument">
-        <checkBox refId="Value">Disable OpenOffice.org 1.0 Master Document</checkBox>
+        <checkBox refId="Value">Désactiver le document maître OpenOffice.org 1.0</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="writer_web_HTML_help">
-        <checkBox refId="Value">Disable Help content</checkBox>
+        <checkBox refId="Value">Désactiver le contenu de l'aide</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="writer_web_StarOffice_XML_Writer_Web_Template">
-        <checkBox refId="Value">Disable OpenOffice.org 1.0 HTML Template</checkBox>
+        <checkBox refId="Value">Désactiver le modèle HTML OpenOffice.org 1.0</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="writerglobal8">
-        <checkBox refId="Value">Disable ODF Master Document</checkBox>
+        <checkBox refId="Value">Désactiver le document maître ODF</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="writerglobal8_template">
-        <checkBox refId="Value">Disable ODF Master Document Template</checkBox>
+        <checkBox refId="Value">Désactiver le modèle de document maître ODF</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="writerweb8_writer_template">
-        <checkBox refId="Value">Disable HTML Document Template</checkBox>
+        <checkBox refId="Value">Désactiver le modèle de document HTML</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="CaseSensitive">
@@ -2026,7 +2027,7 @@ Les chemins dans les listes de chemin doivent être séparés par des espaces.</
           <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="TrySystemCredentialsFirst">
-          <checkBox refId="Value">Use system credentials</checkBox>
+          <checkBox refId="Value">Utiliser les informations d'identification du système</checkBox>
           <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
     </presentationTable>

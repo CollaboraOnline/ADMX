@@ -673,21 +673,24 @@ Le altezze dei caratteri sono espresse in millimetri*100, che corrispondono alla
         <string id="SaveAsFormat">Formato di salvataggio</string>
         <string id="Print">Stampa</string>
         <string id="DefaultTemplate">Modello predefinito</string>
-        <string id="PathListExplain">Le directory e i percorsi dei file devono essere inseriti utilizzando la sintassi descritta di seguito.
+        <string id="PathListExplain">Directory and file paths must be entered using file URL syntax, as described below.
+Local drive or network drive mapped to a drive letter, such as C:
+    file:///C:/path/file.ext
+UNC path
+    file://server/share/path/file.ext
 
-Drive locali o di rete mappati su una lettera, come C: file:///C:/path/file.ext
-UNC path file://server/share/path/file.ext
-Gli spazi e i caratteri non-ASCII devono essere codificati, ad esempio, lo spazio deve essere scritto come %20.
+Spaces and non-ASCII characters must be URL encoded, e.g. space must be written as %20.
 
-Possono essere utilizzate le seguenti variabili dei percorsi:
-    $(inst)  = percorso dell'installazione
-    $(user)  = percorso del profilo utente
-    $(work)  = percorso della cartella Documenti dell'utente
-    $(home)  = percorso della cartella home dell'utente
-    $(temp)  = percorso dei tile temporanei dell'utente
-    $(vlang) = codice lingua attuale (es. en-US, fr, hu)
+The following path variables can be used:
+    $(inst)  = location of installation
+    $(user)  = location of user's profile
+    $(username) = users login name without the domain name (since version 5.2)
+    $(work)  = user's My Documents folder
+    $(home)  = user's home directory
+    $(temp)  = location of user's temporary files
+    $(vlang) = current language code (e.g. en-US, fr, hu)
 
-I percorsi configurati nella lista dei path devono essere separati da spazi.</string>
+Set paths in path lists have to be separated by spaces.</string>
     </stringTable>
     <presentationTable>
       <presentation id="LDAPConfigBackendSettings">

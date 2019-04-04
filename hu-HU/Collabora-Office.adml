@@ -671,23 +671,24 @@ A betűmagasságot a milliméter*100 egység fejezi ki, ami a pontban megadott m
         <string id="SaveAsFormat">Mentési formátum</string>
         <string id="Print">Nyomtatás</string>
         <string id="DefaultTemplate">Alapértelmezett sablon</string>
-        <string id="PathListExplain">A könyvtár- és fájlútvonalakat fájl URL szintaxissal kell megadni, az alábbiak szerint.
-Helyi meghajtó, vagy meghajtóbetűre leképezett hálózati meghajtó, mint például C:
-    file:///C:/útvonal/fájl.kit
-UNC útvonal
-    file://kiszolgáló/megosztás/útvonal/fájl.kit
+        <string id="PathListExplain">Directory and file paths must be entered using file URL syntax, as described below.
+Local drive or network drive mapped to a drive letter, such as C:
+    file:///C:/path/file.ext
+UNC path
+    file://server/share/path/file.ext
 
-A szóközöket és nem ASCII karaktereket URL kódolással kell írni, például a szóköz %20 lesz.
+Spaces and non-ASCII characters must be URL encoded, e.g. space must be written as %20.
 
-A következő útvonalváltozók használhatók:
-    $(inst)  = a telepítés helye
-    $(user)  = a felhasználó profiljának helye
-    $(work)  = a felhasználó Dokumentumok mappája
-    $(home)  = a felhasználó saját könyvtára
-    $(temp)  = a felhasználó ideiglenes fájljainak helye
-    $(vlang) = aktuális nyelvkód (például: en-US, fr, hu)
+The following path variables can be used:
+    $(inst)  = location of installation
+    $(user)  = location of user's profile
+    $(username) = users login name without the domain name (since version 5.2)
+    $(work)  = user's My Documents folder
+    $(home)  = user's home directory
+    $(temp)  = location of user's temporary files
+    $(vlang) = current language code (e.g. en-US, fr, hu)
 
-Az útvonallistákban lévő útvonalakat szóközökkel kell elválasztani.</string>
+Set paths in path lists have to be separated by spaces.</string>
     </stringTable>
     <presentationTable>
       <presentation id="LDAPConfigBackendSettings">
