@@ -16,6 +16,7 @@
       <definition name="supported_LibreOffice_5_1" displayName="$(string.supported_LibreOffice_5_1)" />
       <definition name="supported_LibreOffice_5_3" displayName="$(string.supported_LibreOffice_5_3)" />
       <definition name="supported_LibreOffice_5_3_49" displayName="$(string.supported_LibreOffice_5_3_49)" />
+      <definition name="supported_LibreOffice_6_0_27" displayName="$(string.supported_LibreOffice_6_0_27)" />
     </definitions>
   </supportedOn>
   <categories>
@@ -93,6 +94,12 @@
       <parentCategory ref="Writer" />
     </category>
     <category name="WriterPrint" displayName="$(string.Print)">
+      <parentCategory ref="Writer" />
+    </category>
+    <category name="AutoText" displayName="$(string.category_AutoText)">
+      <parentCategory ref="Writer" />
+    </category>
+    <category name="Forms" displayName="$(string.category_Forms)">
       <parentCategory ref="Writer" />
     </category>
     <category name="Calc" displayName="$(string.category_Calc)">
@@ -5571,6 +5578,51 @@
     <policy name="TrySystemCredentialsFirst" class="Both" displayName="$(string.name_TrySystemCredentialsFirst)" explainText="$(string.desc_TrySystemCredentialsFirst)" presentation="$(presentation.TrySystemCredentialsFirst)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Passwords\TrySystemCredentialsFirst">
       <parentCategory ref="Passwords" />
       <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="AutoTextShowTooltip" class="Both" displayName="$(string.name_AutoTextShowTooltip)" explainText="$(string.desc_AutoTextShowTooltip)" presentation="$(presentation.AutoTextShowTooltip)" key="Software\Policies\LibreOffice\org.openoffice.Office.Writer\AutoFunction\Text\ShowToolTip">
+      <parentCategory ref="AutoText" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MSOFormsMenu" class="Both" displayName="$(string.name_MSOFormsMenu)" explainText="$(string.desc_MSOFormsMenu)" presentation="$(presentation.MSOFormsMenu)" key="Software\Policies\LibreOffice\org.openoffice.Office.Compatibility\View\MSCompatibleFormsMenu">
+      <parentCategory ref="Forms" />
+      <supportedOn ref="supported_LibreOffice_6_0_27" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="MSOLockFiles" class="Both" displayName="$(string.name_MSOLockFiles)" explainText="$(string.desc_MSOLockFiles)" presentation="$(presentation.MSOLockFiles)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Filter\Microsoft\Import\CreateMSOLockFiles">
+      <parentCategory ref="LoadandSave" />
+      <supportedOn ref="supported_LibreOffice_6_0_27" />
       <elements>
         <boolean id="Value" valueName="Value">
           <trueValue>

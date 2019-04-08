@@ -14,6 +14,7 @@
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 vagy újabb</string>
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 vagy újabb</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 or higher</string>
+        <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 or higher</string>
 
         <string id="ValueFlagsNone">None</string>
         <string id="ValueFlagsFinal">Végleges</string>
@@ -67,6 +68,8 @@ When disabled, the warning will be issued in this case.</string>
         <string id="IE">Internet Explorer</string>
         <string id="Firefox">Mozilla Firefox</string>
         <string id="Writer">LibreOffice Writer</string>
+        <string id="name_MSOLockFiles">Create MSO lock file</string>
+        <string id="desc_MSOLockFiles">Specifies if LibreOffice should create Microsoft Office compatible lock files next to the LibreOffice lock files when opening a file. This makes Microsoft Office to be able to read the user name from the lock file and show it for the user.</string>
 
         <string id="category_Experimental">Kísérleti</string>
         <string id="name_ExperimentalMode">Kísérleti funkciók engedélyezése</string>
@@ -623,6 +626,12 @@ A betűmagasságot a milliméter*100 egység fejezi ki, ami a pontban megadott m
         <string id="desc_PrintEmptyPages">Megadja, hogy az üres oldalak nyomtatandók-e.</string>
         <string id="name_AllSheets">Csak a kiválasztott munkalapok nyomtatása</string>
         <string id="desc_AllSheets">Megadja, hogy az összes munkalap nyomtatandó-e csak a kijelöltek helyett.</string>
+        <string id="category_AutoText">AutoText</string>
+        <string id="name_AutoTextShowTooltip">Suggestion</string>
+        <string id="desc_AutoTextShowTooltip">Display remainder of name as suggestion while typing</string>
+        <string id="category_Forms">Forms</string>
+        <string id="name_MSOFormsMenu">MS Office compatible form controls</string>
+        <string id="desc_MSOFormsMenu">Specifies whether Forms menu should be customized for a Microsoft Office compatible workflow. The Microsoft Office compatible Forms menu contains only Microsoft Office compatible form controls.</string>
 
         <string id="category_Calc">Calc</string>
         <string id="ods">ODF-munkafüzet</string>
@@ -2013,6 +2022,18 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="TrySystemCredentialsFirst">
           <checkBox refId="Value">Use system credentials</checkBox>
           <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="AutoTextShowTooltip">
+          <checkBox refId="Value">Display remainder of name as suggestion while typing</checkBox>
+          <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="MSOFormsMenu">
+          <checkBox refId="Value">Reorganize Forms menu to have it MS compatible</checkBox>
+          <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="MSOLockFiles">
+          <checkBox refId="Value">Create MSO lock file</checkBox>
+          <checkBox refId="Final">Final</checkBox>
       </presentation>
     </presentationTable>
   </resources>
