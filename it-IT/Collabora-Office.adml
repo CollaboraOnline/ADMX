@@ -2027,15 +2027,15 @@ Set paths in path lists have to be separated by spaces.</string>
       </presentation>
       <presentation id="AutoTextShowTooltip">
           <checkBox refId="Value">Display remainder of name as suggestion while typing</checkBox>
-          <checkBox refId="Final">Final</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="MSOFormsMenu">
           <checkBox refId="Value">Reorganize Forms menu to have it MS compatible</checkBox>
-          <checkBox refId="Final">Final</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="MSOLockFiles">
           <checkBox refId="Value">Create MSO lock file</checkBox>
-          <checkBox refId="Final">Final</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
       </presentation>
     </presentationTable>
   </resources>
