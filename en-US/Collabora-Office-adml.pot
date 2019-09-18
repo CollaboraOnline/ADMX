@@ -4304,7 +4304,7 @@ msgstr ""
 #: Collabora-Office.adml:633
 #, no-wrap
 msgid ""
-"Specifies whether Forms menu should be customized for a Microsoft Office compatible workflow. The Microsoft Office compatible Forms menu contains only Microsoft Office compatible form controls."
+"Specifies whether Form menu should be customized for a Microsoft Office compatible workflow. The Microsoft Office compatible Form menu contains only Microsoft Office compatible form controls."
 msgstr ""
 
 #. (itstool) path: stringTable/string
@@ -6032,6 +6032,6 @@ msgstr ""
 
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:2030
-msgid "Reorganize Forms menu to have it MS compatible"
+msgid "Reorganize Form menu to have it MS compatible"
 msgstr ""
 

@@ -631,7 +631,7 @@ A betűmagasságot a milliméter*100 egység fejezi ki, ami a pontban megadott m
         <string id="desc_AutoTextShowTooltip">Display remainder of name as suggestion while typing</string>
         <string id="category_Forms">Forms</string>
         <string id="name_MSOFormsMenu">MS Office compatible form controls</string>
-        <string id="desc_MSOFormsMenu">Specifies whether Forms menu should be customized for a Microsoft Office compatible workflow. The Microsoft Office compatible Forms menu contains only Microsoft Office compatible form controls.</string>
+        <string id="desc_MSOFormsMenu">Specifies whether Form menu should be customized for a Microsoft Office compatible workflow. The Microsoft Office compatible Form menu contains only Microsoft Office compatible form controls.</string>
 
         <string id="category_Calc">Calc</string>
         <string id="ods">ODF-munkafüzet</string>
@@ -2028,7 +2028,7 @@ Set paths in path lists have to be separated by spaces.</string>
           <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="MSOFormsMenu">
-          <checkBox refId="Value">Reorganize Forms menu to have it MS compatible</checkBox>
+          <checkBox refId="Value">Reorganize Form menu to have it MS compatible</checkBox>
           <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="MSOLockFiles">
