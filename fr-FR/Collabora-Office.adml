@@ -70,8 +70,8 @@ When disabled, the warning will be issued in this case.</string>
         <string id="IE">Internet Explorer</string>
         <string id="Firefox">Mozilla Firefox</string>
         <string id="Writer">LibreOffice Writer</string>
-        <string id="name_MSOLockFiles">Create MSO lock file</string>
-        <string id="desc_MSOLockFiles">Specifies if LibreOffice should create Microsoft Office compatible lock files next to the LibreOffice lock files when opening a file. This makes Microsoft Office to be able to read the user name from the lock file and show it for the user.</string>
+        <string id="name_MSOLockFiles">Créer fichier de verrouillage MSO</string>
+        <string id="desc_MSOLockFiles">Précise si LibreOffice devrait créer des fichiers de verrouillage compatible Microsoft Office comme LibreOffice quand un nouveau fichier est ouvert. Ceci permet à Microsoft Office d'afficher le nom d'utilisateur depuis le fichier de verrouillage.</string>
 
         <string id="category_Experimental">Fonctions falcutatives (non stabilisées)</string>
         <string id="name_ExperimentalMode">Activer les fonctions expérimentales</string>
