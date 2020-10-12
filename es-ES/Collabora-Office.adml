@@ -630,7 +630,7 @@ Las alturas del tipo de letra se expresan en milímetros*100, equivalentes al ta
         <string id="desc_AutoTextShowTooltip">Mostrar el resto del nombre como sugerencia mientras se escribe</string>
         <string id="category_Forms">Formularios</string>
         <string id="name_MSOFormsMenu">Controles de formulario compatibles con MS Office</string>
-        <string id="desc_MSOFormsMenu">Especifica si se personalizarán los formularios para un workflow compatible con Microsoft Office.  Los formularios compatibles con Microsoft Office contienen únicamente controles compatibles con Microsoft Office</string>
+        <string id="desc_MSOFormsMenu">Especifica si el menu Formulario debe personalizarse para un flujo de trabajo compatible con Microsoft Office. El menu Formulario compatible con Microsoft Office solo contiene controles de formulario compatible con Microsoft Office. </string>
 
         <string id="category_Calc">Calc</string>
         <string id="ods">Hoja de cálculo ODF</string>
@@ -2027,7 +2027,7 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
           <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="MSOFormsMenu">
-          <checkBox refId="Value">Reorganizar formularios para que sean compatibles con MS</checkBox>
+          <checkBox refId="Value">Reorganizar el menú Formulario para que sea compatible con MS</checkBox>
           <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="MSOLockFiles">

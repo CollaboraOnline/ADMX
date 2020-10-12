@@ -16,7 +16,7 @@
         <string id="supported_LibreOffice_5_1">Collabora Office 5.1 o superiore</string>
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 o superiore</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 o superiore</string>
-        <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 or higher</string>
+        <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 o superiore</string>
 
         <string id="ValueFlagsNone">Nessuno</string>
         <string id="ValueFlagsFinal">Finale</string>
@@ -58,20 +58,20 @@ L'attributo univoco dell'utente deve corrispondere al nome utente di Windows sen
         <string id="desc_EditProperty">Specifica che la finestra di dialogo Proprietà sarà visualizzata ogni volta che si seleziona il comando Salva con nome.</string>
         <string id="name_WarnAlienFormat">Avvisa se il salvataggio non è nel formato ODF o nel formato predefinito</string>
         <string id="desc_WarnAlienFormat">Indica che il formato di salvataggio è differente da ODF o dal predefinito</string>
-        <string id="name_OfficeURIOpenProgramNoWarn">Don't warn about website opening the product when using Office URI</string>
-        <string id="desc_OfficeURIOpenProgramNoWarn">By default, when user clicks an Office URI link, Internet Explorer issues a warning that a website is trying to open a program, and asks for confirmation.
+        <string id="name_OfficeURIOpenProgramNoWarn">Non avvertire dell'apertura del sito web quando si utilizza Office URI</string>
+        <string id="desc_OfficeURIOpenProgramNoWarn">Per impostazione predefinita, quando l'utente fa clic su un link URI di Office, Internet Explorer emette un avviso che un sito web sta cercando di aprire un programma e chiede conferma.
 
-This setting allows to disable the warning for Office URIs supported by the product (ms-word:, ms-excel:, ms-powerpoint:, ms-visio:, ms-access:, vnd.libreoffice.command:). Remember that this setting may be overridden by user if set in user settings.
+Questa impostazione permette di disabilitare l'avviso per gli URI di Office supportati dal prodotto (ms-word:, ms-excel:, ms-powerpoint:, ms-visio:, ms-access:, vnd.libreoffice.command:). Ricorda che questa impostazione può essere sovrascritta dall'utente se impostata nelle impostazioni dell'utente.
 
-When enabled, no warning will be issued when user clicks a supported Office URI link.
-When disabled, the warning will be issued in this case.</string>
+Se abilitata, non verrà emesso alcun avviso quando l'utente fa clic su un link URI di Office supportato.
+Se disattivato, l'avviso verrà visualizzato.</string>
         <string id="name_HTMLExportBrowser">Compatibilità del browser per l'esportazione HTML</string>
         <string id="desc_HTMLExportBrowser">Specifica il browser per cui ottimizzare l'esportazone in HTML</string>
         <string id="IE">Internet Explorer</string>
         <string id="Firefox">Mozilla Firefox</string>
         <string id="Writer">LibreOffice Writer</string>
-        <string id="name_MSOLockFiles">Create MSO lock file</string>
-        <string id="desc_MSOLockFiles">Specifies if LibreOffice should create Microsoft Office compatible lock files next to the LibreOffice lock files when opening a file. This makes Microsoft Office to be able to read the user name from the lock file and show it for the user.</string>
+        <string id="name_MSOLockFiles">Crea il file di blocco per MSO</string>
+        <string id="desc_MSOLockFiles">Specifica se LibreOffice deve creare dei file di blocco compatibili con Microsoft Office accanto ai file di blocco di LibreOffice quando si apre un file. Questo rende Microsoft Office in grado di leggere il nome utente dal file di blocco e di mostrarlo all'utente.</string>
 
         <string id="category_Experimental">Avanzate</string>
         <string id="name_ExperimentalMode">Abilita le funzionalità sperimentali</string>
@@ -540,9 +540,9 @@ Quando è impostato per essere letto da LDAP, il suo valore è l'attributo che c
         <string id="name_Backup">Percorsi delle copie di backup</string>
         <string id="name_Temp">Percorsi dei file temporanei</string>
 
-        <string id="category_Passwords">Passwords</string>
-        <string id="name_TrySystemCredentialsFirst">Use system credentials</string>
-        <string id="desc_TrySystemCredentialsFirst">Specifies if authentication using system credentials should be tried automatically for all resources that support it.</string>
+        <string id="category_Passwords">Password</string>
+        <string id="name_TrySystemCredentialsFirst">Utilizza le credenziali di sistema</string>
+        <string id="desc_TrySystemCredentialsFirst">Specifica se l'autenticazione tramite credenziali di sistema deve essere provata automaticamente per tutte le risorse che la supportano.</string>
 
         <string id="category_View">Vista</string>
         <string id="name_SymbolStyle">Aspetto delle icone</string>
@@ -628,12 +628,12 @@ Le altezze dei caratteri sono espresse in millimetri*100, che corrispondono alla
         <string id="desc_PrintEmptyPages">Specifica se stampare le pagine vuote.</string>
         <string id="name_AllSheets">Stampa solo i fogli selezionati</string>
         <string id="desc_AllSheets">Specifica se stampare tutti i fogli o solo i fogli selezionati.</string>
-        <string id="category_AutoText">AutoText</string>
-        <string id="name_AutoTextShowTooltip">Suggestion</string>
-        <string id="desc_AutoTextShowTooltip">Display remainder of name as suggestion while typing</string>
-        <string id="category_Forms">Forms</string>
-        <string id="name_MSOFormsMenu">MS Office compatible form controls</string>
-        <string id="desc_MSOFormsMenu">Specifies whether Form menu should be customized for a Microsoft Office compatible workflow. The Microsoft Office compatible Form menu contains only Microsoft Office compatible form controls.</string>
+        <string id="category_AutoText">Testo automatico</string>
+        <string id="name_AutoTextShowTooltip">Suggerimento</string>
+        <string id="desc_AutoTextShowTooltip">Mostra il resto del nome come suggerimento durante la digitazione</string>
+        <string id="category_Forms">Moduli</string>
+        <string id="name_MSOFormsMenu">Controlli dei moduli compatibili con MS Office</string>
+        <string id="desc_MSOFormsMenu">Specifica se il menu Moduli deve essere personalizzato per un flusso di lavoro compatibile con Microsoft Office. Il menu Moduli compatibile con Microsoft Office contiene solo i controlli dei moduli compatibili con Microsoft Office.</string>
 
         <string id="category_Calc">Calc</string>
         <string id="ods">Fogli di calcolo ODF</string>
@@ -682,24 +682,24 @@ Le altezze dei caratteri sono espresse in millimetri*100, che corrispondono alla
         <string id="SaveAsFormat">Formato di salvataggio</string>
         <string id="Print">Stampa</string>
         <string id="DefaultTemplate">Modello predefinito</string>
-        <string id="PathListExplain">Directory and file paths must be entered using file URL syntax, as described below.
-Local drive or network drive mapped to a drive letter, such as C:
+        <string id="PathListExplain">I percorsi delle directory e dei file devono essere inseriti utilizzando la sintassi degli URL dei file, come descritto di seguito.
+Unità locale o unità di rete mappata su una lettera di unità, come C:
     file:///C:/path/file.ext
-UNC path
+Percorso UNC
     file://server/share/path/file.ext
 
-Spaces and non-ASCII characters must be URL encoded, e.g. space must be written as %20.
+Gli spazi e i caratteri non ASCII devono essere codificati come URL, ad es. lo spazio deve essere scritto come %20.
 
-The following path variables can be used:
-    $(inst)  = location of installation
-    $(user)  = location of user's profile
-    $(username) = users login name without the domain name (since version 5.2)
-    $(work)  = user's My Documents folder
-    $(home)  = user's home directory
-    $(temp)  = location of user's temporary files
-    $(vlang) = current language code (e.g. en-US, fr, hu)
+Si possono utilizzare le seguenti variabili di percorso:
+    $(inst)  = posizione di installazione
+    $(user)  = posizione del profilo utente
+    $(username) = nome di login dell'utente senza il nome a dominio (dalla versione 5.2)
+    $(work)  = cartella Documenti dell'utente
+    $(home)  = directory Home dell'utente
+    $(temp)  = posizione dei file temporanei dell'utente
+    $(vlang) = codice della lingua corrente (ad es. en-US, fr, hu)
 
-Set paths in path lists have to be separated by spaces.</string>
+I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</string>
     </stringTable>
     <presentationTable>
       <presentation id="LDAPConfigBackendSettings">
@@ -2022,19 +2022,19 @@ Set paths in path lists have to be separated by spaces.</string>
           <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="TrySystemCredentialsFirst">
-          <checkBox refId="Value">Use system credentials</checkBox>
+          <checkBox refId="Value">Utilizza le credenziali di sistema</checkBox>
           <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="AutoTextShowTooltip">
-          <checkBox refId="Value">Display remainder of name as suggestion while typing</checkBox>
+          <checkBox refId="Value">Mostra il resto del nome come suggerimento durante la digitazione</checkBox>
           <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="MSOFormsMenu">
-          <checkBox refId="Value">Reorganize Form menu to have it MS compatible</checkBox>
+          <checkBox refId="Value">Riorganizzare il menu del modulo per renderlo compatibile con MS Office</checkBox>
           <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="MSOLockFiles">
-          <checkBox refId="Value">Create MSO lock file</checkBox>
+          <checkBox refId="Value">Crea il file di blocco per MSO</checkBox>
           <checkBox refId="Final">Finale</checkBox>
       </presentation>
     </presentationTable>
