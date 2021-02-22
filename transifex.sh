@@ -3,7 +3,7 @@
 read -p "Enter Transifex user name: " user
 read -s -p "Password: " password
 url="https://www.transifex.com/api/2/project/collabora-office-libreoffice-windows-group-policy-template-amdx/resource/collabora-office-admlpot/translation"
-declare -a langs=("it" "hu" "fr" "es")
+declare -a langs=("it" "hu" "fr" "es" "de")
 
 for i in ${langs[@]}
 do
@@ -43,6 +43,18 @@ index 943a5f8..bb79d73 100644
  <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
 +<!-- Italian Translation (c) 2015 Marina Latini - Studio Storti srl CC-BY-SA 4.0
 +     report bugs or improvements to marina@studiostorti.com -->
+ <policyDefinitionResources revision="1.0" schemaVersion="1.0">
+   <displayName>
+   </displayName>
+diff --git b/de-DE/Collabora-Office.adml a/de-DE/Collabora-Office.adml
+index 943a5f8..bb79d73 100644
+--- b/de-DE/Collabora-Office.adml
++++ a/de-DE/Collabora-Office.adml
+@@ -1,5 +1,7 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
++<!-- German Translation (c) 2020 Julian Kalinowski - Dataport AöR CC-BY-SA 4.0
++     report bugs or improvements to Julian.Kalinowski@dataport.de -->
  <policyDefinitionResources revision="1.0" schemaVersion="1.0">
    <displayName>
    </displayName>
