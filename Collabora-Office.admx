@@ -17,6 +17,7 @@
       <definition name="supported_LibreOffice_5_3" displayName="$(string.supported_LibreOffice_5_3)" />
       <definition name="supported_LibreOffice_5_3_49" displayName="$(string.supported_LibreOffice_5_3_49)" />
       <definition name="supported_LibreOffice_6_0_27" displayName="$(string.supported_LibreOffice_6_0_27)" />
+      <definition name="supported_LibreOffice_7_1" displayName="$(string.supported_LibreOffice_7_1)" />
     </definitions>
   </supportedOn>
   <categories>
@@ -2439,6 +2440,36 @@
       </elements>
     </policy>
     <policy name="CollectUsageInformation" class="Both" displayName="$(string.name_CollectUsageInformation)" explainText="$(string.desc_CollectUsageInformation)" presentation="$(presentation.CollectUsageInformation)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\CollectUsageInformation">
+      <parentCategory ref="General" />
+      <supportedOn ref="supported_LibreOffice_5_1" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ShowTipOfTheDay" class="Both" displayName="$(string.name_ShowTipOfTheDay)" explainText="$(string.desc_ShowTipOfTheDay)" presentation="$(presentation.ShowTipOfTheDay)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\ShowTipOfTheDay">
+      <parentCategory ref="General" />
+      <supportedOn ref="supported_LibreOffice_5_1" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="CrashReport" class="Both" displayName="$(string.name_CrashReport)" explainText="$(string.desc_CrashReport)" presentation="$(presentation.CrashReport)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\CrashReport">
       <parentCategory ref="General" />
       <supportedOn ref="supported_LibreOffice_5_1" />
       <elements>
