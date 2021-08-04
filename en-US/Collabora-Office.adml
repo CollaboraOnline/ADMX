@@ -15,6 +15,7 @@
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 or higher</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 or higher</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 or higher</string>
+        <string id="supported_LibreOffice_7_1">LibreOffice 7.1 or higher</string>
 
         <string id="ValueFlagsNone">None</string>
         <string id="ValueFlagsFinal">Final</string>
@@ -29,6 +30,11 @@
         <string id="desc_UseSystemFileDialog">Determines if Windows' file and folder picker should be used. If false, the built-in platform independent file/folder picker implementations will be used.</string>
         <string id="name_CollectUsageInformation">Help improve LibreOffice</string>
         <string id="desc_CollectUsageInformation">Collect usage data and send it to The Document Foundation</string>
+      
+        <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
+        <string id="desc_ShowTipOfTheDay">Show Tip of the Day on application launch</string>
+        <string id="name_CrashReport">Send Crash Reports</string>
+        <string id="desc_CrashReport">Send crash reports to The Document Foundation</string>
 
         <string id="category_LDAPConfigBackend">LDAP configuration backend</string>
         <string id="name_LDAPConfigBackendSettings">LDAP User Directory</string>
@@ -47,11 +53,11 @@ User unique attribute must correspond to the logged on user's Windows user name 
         <string id="name_UseUserData">Use User Data</string>
         <string id="desc_UseUserData">Use user data for document properties</string>
         <string id="name_AutoSave">AutoSave</string>
-        <string id="desc_AutoSave">Save AutoRecovery information in every __ minutes</string>
+        <string id="desc_AutoSave">Save AutoRecovery information every __ minutes</string>
         <string id="name_RecoveryInfo">Disable the autorecovery feature</string>
         <string id="desc_RecoveryInfo">Disable the autorecovery feature in case of crashes</string>
         <string id="name_CreateBackup">Create Backup</string>
-        <string id="desc_CreateBackup">Always create backup copy</string>
+        <string id="desc_CreateBackup">Always create a backup copy</string>
         <string id="name_EditProperty">Edit document properties before saving</string>
         <string id="desc_EditProperty">Specifies that the Properties dialog will appear every time you select the Save As command.</string>
         <string id="name_WarnAlienFormat">Warn the user when saving in a format different from ODF or default</string>
@@ -877,6 +883,14 @@ Set paths in path lists have to be separated by spaces.</string>
       </presentation>
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Collect usage data and send it to The Document Foundation</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="ShowTipOfTheDay">
+        <checkBox refId="Value">Show Tip of the Day on launch</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="CrashReport">
+        <checkBox refId="Value">Send crash reports to The Document Foundation</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
