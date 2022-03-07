@@ -3,7 +3,7 @@
 read -p "Enter Transifex user name: " user
 read -s -p "Password: " password
 url="https://www.transifex.com/api/2/project/collabora-office-libreoffice-windows-group-policy-template-amdx/resource/collabora-office-admlpot/translation"
-declare -a langs=("it" "hu" "fr" "es")
+declare -a langs=("it" "hu" "fr" "es" "de" "pt" "tr")
 
 for i in ${langs[@]}
 do
