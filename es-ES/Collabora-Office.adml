@@ -602,6 +602,22 @@ Cuando algúno se configura para utilizar LDAP su valor es el atributo LDAP que 
         <string id="name_SelectPDFExport">Seleccione las opciones de exportación a PDF preferidas</string>
         <string id="desc_SelectPDFExport">Seleccione las opciones de exportación a PDF predeterminadas</string>
 
+        <string id="category_Infobars">Infobars</string>
+        <string id="name_InfobarReadonly">Read-only</string>
+        <string id="desc_InfobarReadonly">Whether the Infobar shown in read-only docs is enabled</string>
+        <string id="name_InfobarSignature">Signature</string>
+        <string id="desc_InfobarSignature">Whether the Infobar showing the Digital Signature state is enabled</string>
+        <string id="name_InfobarDonate">Donate</string>
+        <string id="desc_InfobarDonate">Whether the Infobar showing the call for donations is enabled</string>
+        <string id="name_InfobarGetInvolved">Get Involved</string>
+        <string id="desc_InfobarGetInvolved">Whether the Infobar showing the call to 'Get Involved' is enabled</string>
+        <string id="name_InfobarHyphenationMissing">Hyphenation Missing</string>
+        <string id="desc_InfobarHyphenationMissing">Whether an Infobar is shown when Hyphenation Info is missing for a document</string>
+        <string id="name_InfobarWhatsNew">What's New</string>
+        <string id="desc_InfobarWhatsNew">Whether an Infobar is shown when the major version number has changed</string>
+        <string id="name_InfobarHiddenTrackChanges">Hidden Track Changes</string>
+        <string id="desc_InfobarHiddenTrackChanges">Whether an Infobar is shown when hidden Track Changes settings or data are there in a document</string>
+
         <string id="category_Writer">Writer</string>
         <string id="desc_SaveAsFormat">Guardar siempre en este formato de documento. Observe que solo el Formato de Documentos Abiertos (ODF) garantiza la integridad de datos.</string>
         <string id="odt">Documento de texto ODF</string>
@@ -2032,6 +2048,34 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
       </presentation>
       <presentation id="MSOLockFiles">
           <checkBox refId="Value">Crear fichero de bloqueo MSO</checkBox>
+          <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="InfobarReadonly">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="InfobarSignature">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="InfobarDonate">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="InfobarGetInvolved">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="InfobarHyphenationMissing">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="InfobarWhatsNew">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="InfobarHiddenTrackChanges">
+          <checkBox refId="Value">Disable</checkBox>
           <checkBox refId="Final">Final</checkBox>
       </presentation>
     </presentationTable>
