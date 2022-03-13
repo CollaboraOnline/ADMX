@@ -7,280 +7,280 @@
   </description>
   <resources>
     <stringTable>
-        <string id="supported_LibreOffice_4_2">LibreOffice-from-Collabora 4.2 or higher</string>
-        <string id="supported_LibreOffice_4_3">LibreOffice-from-Collabora 4.3 or higher</string>
-        <string id="supported_LibreOffice_4_4">LibreOffice-from-Collabora 4.4 or higher</string>
-        <string id="supported_LibreOffice_5_0">Collabora Office 5.0 or higher</string>
-        <string id="supported_LibreOffice_5_1">Collabora Office 5.1 or higher</string>
-        <string id="supported_LibreOffice_5_3">Collabora Office 5.3 or higher</string>
-        <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 or higher</string>
-        <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 or higher</string>
+        <string id="supported_LibreOffice_4_2">LibreOffice-from-Collabora 4.2 ou superior</string>
+        <string id="supported_LibreOffice_4_3">LibreOffice-from-Collabora 4.3 ou superior</string>
+        <string id="supported_LibreOffice_4_4">LibreOffice-from-Collabora 4.4 or superior</string>
+        <string id="supported_LibreOffice_5_0">Collabora Office 5.0 ou superior</string>
+        <string id="supported_LibreOffice_5_1">Collabora Office 5.1 ou superior</string>
+        <string id="supported_LibreOffice_5_3">Collabora Office 5.3 ou superior</string>
+        <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 ou superior</string>
+        <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 ou superior</string>
 
-        <string id="ValueFlagsNone">None</string>
+        <string id="ValueFlagsNone">Nenhum</string>
         <string id="ValueFlagsFinal">Final</string>
-        <string id="ValueFlagsExternalLDAP">From LDAP</string>
-        <string id="ValueFlagsExternalWin">From Windows</string>
+        <string id="ValueFlagsExternalLDAP">De LDAP</string>
+        <string id="ValueFlagsExternalWin">Do Windows</string>
 
         <string id="category_LibreOffice">Collabora Office</string>
-        <string id="category_Common">Common</string>
+        <string id="category_Common">Comum</string>
 
-        <string id="category_General">General</string>
-        <string id="name_UseSystemFileDialog">Use System File Dialog</string>
-        <string id="desc_UseSystemFileDialog">Determines if Windows' file and folder picker should be used. If false, the built-in platform independent file/folder picker implementations will be used.</string>
-        <string id="name_CollectUsageInformation">Help improve LibreOffice</string>
-        <string id="desc_CollectUsageInformation">Collect usage data and send it to The Document Foundation</string>
+        <string id="category_General">Geral</string>
+        <string id="name_UseSystemFileDialog">Use a Caixa de Diálogo do Arquivo de Sistema</string>
+        <string id="desc_UseSystemFileDialog">Determina se o seletor de arquivos e pastas do Windows deve ser usado. Se não,  a plataforma embutida independente de arquivos / pastas será usada.</string>
+        <string id="name_CollectUsageInformation">Ajude a melhorar o LibreOffice</string>
+        <string id="desc_CollectUsageInformation">Colete dados de uso e envie-os para The Document Foundation</string>
 
-        <string id="category_LDAPConfigBackend">LDAP configuration backend</string>
-        <string id="name_LDAPConfigBackendSettings">LDAP User Directory</string>
-        <string id="desc_LDAPConfigBackendSettings">Defines how to connect to LDAP server and retrieve user information used in User Data section
+        <string id="category_LDAPConfigBackend">Back-end de configuração LDAP</string>
+        <string id="name_LDAPConfigBackendSettings">LDAP Diretório do Usuário</string>
+        <string id="desc_LDAPConfigBackendSettings">Define como se conectar ao servidor LDAP e recuperar as informações do usuário usadas na seção Dados do Usuário
 
-Note that the password to bind to LDAP server is stored unencrypted in client system's registry; you should use a restricted search account (only able to perform LDAP searches).
+Observe que a senha para vincular ao servidor LDAP é armazenada sem criptografia no registro do sistema do cliente; você deve usar uma conta de pesquisa restrita (capaz somente de realizar pesquisas LDAP).
 
-User unique attribute must correspond to the logged on user's Windows user name without domain.</string>
+O atributo exclusivo do usuário deve corresponder ao nome de usuário do Windows do usuário logado, sem domínio.</string>
 
-        <string id="category_ProductName">Product name</string>
-        <string id="name_ooName">Product name (ooName)</string>
-        <string id="desc_ooName">Specifies the name of the product.</string>
-        <string id="category_LoadandSave">Load and Save</string>
-        <string id="name_UserDefinedSettings">User Defined Settings</string>
-        <string id="desc_UserDefinedSettings">Load user-specific settings with the document</string>
-        <string id="name_UseUserData">Use User Data</string>
-        <string id="desc_UseUserData">Use user data for document properties</string>
-        <string id="name_AutoSave">AutoSave</string>
-        <string id="desc_AutoSave">Save AutoRecovery information in every __ minutes</string>
-        <string id="name_RecoveryInfo">Disable the autorecovery feature</string>
-        <string id="desc_RecoveryInfo">Disable the autorecovery feature in case of crashes</string>
-        <string id="name_CreateBackup">Create Backup</string>
-        <string id="desc_CreateBackup">Always create backup copy</string>
-        <string id="name_EditProperty">Edit document properties before saving</string>
-        <string id="desc_EditProperty">Specifies that the Properties dialog will appear every time you select the Save As command.</string>
-        <string id="name_WarnAlienFormat">Warn the user when saving in a format different from ODF or default</string>
-        <string id="desc_WarnAlienFormat">Specifies that the saving format is different from ODF or default.</string>
-        <string id="name_OfficeURIOpenProgramNoWarn">Don't warn about website opening the product when using Office URI</string>
-        <string id="desc_OfficeURIOpenProgramNoWarn">By default, when user clicks an Office URI link, Internet Explorer issues a warning that a website is trying to open a program, and asks for confirmation.
+        <string id="category_ProductName">Nome do Produto</string>
+        <string id="name_ooName">Nome do Produto </string>
+        <string id="desc_ooName">Especifica o nome do produto.</string>
+        <string id="category_LoadandSave">Carrega e Salva</string>
+        <string id="name_UserDefinedSettings">Configurações Definidas do Usuário</string>
+        <string id="desc_UserDefinedSettings">Carrega configurações específicas do usuário com o documento</string>
+        <string id="name_UseUserData">Usar Dados do Usuário</string>
+        <string id="desc_UseUserData">Use os dados do usuário para as propriedades do documento</string>
+        <string id="name_AutoSave">Salvamento Automático</string>
+        <string id="desc_AutoSave">Informação de recuperação automática salva a cada __ mintuto(s)</string>
+        <string id="name_RecoveryInfo">Desative o recurso de recuperação automática</string>
+        <string id="desc_RecoveryInfo">Desative o recurso de recuperação automática em caso de falhas</string>
+        <string id="name_CreateBackup">Criar Backup</string>
+        <string id="desc_CreateBackup">Sempre criar cópia de backup </string>
+        <string id="name_EditProperty">Editar propriedades do documento antes de salvar</string>
+        <string id="desc_EditProperty">Especifica que a caixa de diálogo Propriedades aparecerá sempre que você selecionar o comando Salvar Como.</string>
+        <string id="name_WarnAlienFormat">Avisa o usuário ao salvar em um formato diferente de ODF ou padrão</string>
+        <string id="desc_WarnAlienFormat">Especifica que o formato salvo é diferente de ODF ou padão.</string>
+        <string id="name_OfficeURIOpenProgramNoWarn">Não avise sobre o site abrir o produto ao usar o URI do Office</string>
+        <string id="desc_OfficeURIOpenProgramNoWarn">Por padrão, quando o usuário clica em um link de URI do Office, o Internet Explorer emite um aviso de que um site está tentando abrir um programa e pede confirmação.
 
-This setting allows to disable the warning for Office URIs supported by the product (ms-word:, ms-excel:, ms-powerpoint:, ms-visio:, ms-access:, vnd.libreoffice.command:). Remember that this setting may be overridden by user if set in user settings.
+Esta configuração permite desativar o aviso para URIs do Office suportados pelos produtos (ms-word :, ms-excel :, ms-powerpoint :, ms-visio :, ms-access :, vnd.libreoffice.command :). Lembre-se de que esta configuração pode ser substituída pelo usuário se definida nas configurações do usuário.
 
-When enabled, no warning will be issued when user clicks a supported Office URI link.
-When disabled, the warning will be issued in this case.</string>
-        <string id="name_HTMLExportBrowser">HTML export browser compatibility</string>
-        <string id="desc_HTMLExportBrowser">Specifies the browser for which the HTML export should be optimized</string>
+Quando habilitado, nenhum aviso será emitido quando o usuário clicar em um link de suporte do URI do Office.
+Quando desativado, o aviso será emitido.</string>
+        <string id="name_HTMLExportBrowser">Compatibilidade do navegador de exportação de HTML</string>
+        <string id="desc_HTMLExportBrowser">Especifica o navegador para o qual a exportação de HTML deve ser otimizada</string>
         <string id="IE">Internet Explorer</string>
         <string id="Firefox">Mozilla Firefox</string>
         <string id="Writer">LibreOffice Writer</string>
-        <string id="name_MSOLockFiles">Create MSO lock file</string>
-        <string id="desc_MSOLockFiles">Specifies if LibreOffice should create Microsoft Office compatible lock files next to the LibreOffice lock files when opening a file. This makes Microsoft Office to be able to read the user name from the lock file and show it for the user.</string>
+        <string id="name_MSOLockFiles">Criar arquivo de bloqueio MSO</string>
+        <string id="desc_MSOLockFiles">Especifica se o LibreOffice deve criar arquivos de bloqueio compatíveis com o Microsoft Office junto aos arquivos de bloqueio do LibreOffice ao abrir um arquivo. Isso torna o Microsoft Office capaz de ler o nome de usuário do arquivo de bloqueio e mostrá-lo para o usuário.</string>
 
         <string id="category_Experimental">Experimental</string>
-        <string id="name_ExperimentalMode">Enable experimental features</string>
-        <string id="desc_ExperimentalMode">Determines if various experimental, and potentially unstable features should be enabled in the user interface.</string>
-        <string id="name_MacroRecorderMode">Enable macro recording (limited)</string>
-        <string id="desc_MacroRecorderMode">Determines if the limited, and awkward code producing macro recorder should be enabled in the user interface.</string>
-        <string id="category_FileandPrintdialogs">File and Print dialogs</string>
-        <string id="name_UseSystemPrintDialog">Use System Print Dialog</string>
-        <string id="desc_UseSystemPrintDialog">Determines if Windows' print dialog should be used. If false, the built-in platform independent print dialog implementations will be used.</string>
+        <string id="name_ExperimentalMode">Ativar recursos experimentais</string>
+        <string id="desc_ExperimentalMode">Determina se vários recursos experimentais e potencialmente instáveis devem ser habilitados na interface do usuário.</string>
+        <string id="name_MacroRecorderMode">Habilitar gravação de macro (limitado)</string>
+        <string id="desc_MacroRecorderMode">Determina se o gravador de macro de produção de código limitado e estranho deve ser ativado na interface do usuário.</string>
+        <string id="category_FileandPrintdialogs">Caixa de diálogos de arquivo e impressão</string>
+        <string id="name_UseSystemPrintDialog">Use a Caixa de Diálogo de Impressão do Sistema</string>
+        <string id="desc_UseSystemPrintDialog">Determina se a caixa de diálogo de impressão do Windows deve ser usada. Caso contrário, a plataforma embutida independente, da caixa de diálogo da impressora, será usada.</string>
 
-        <string id="category_History">History</string>
-        <string id="name_HistorySize">History Size</string>
-        <string id="desc_HistorySize">Sets size of the history list.</string>
-        <string id="name_HistoryPickListSize">History Pick List Size</string>
-        <string id="desc_HistoryPickListSize">Sets size of the picklist shown inside the Recent Documents menu.</string>
+        <string id="category_History">Histórico</string>
+        <string id="name_HistorySize">Tamanho do Histórico</string>
+        <string id="desc_HistorySize">Define o tamanho da lista de histórico.</string>
+        <string id="name_HistoryPickListSize">Tamanho da Lista de Seleção de Histórico</string>
+        <string id="desc_HistoryPickListSize">Define o tamanho da lista de seleção mostrada no menu Documentos Recentes.</string>
 
-        <string id="category_Localization">Localization</string>
-        <string id="name_DefaultLocale">Default document language (Western)</string>
-        <string id="desc_DefaultLocale">Specifies the default document language - Western.</string>
-        <string id="name_DefaultLocale_CJK">Default document language (CJK)</string>
-        <string id="desc_DefaultLocale_CJK">Specifies the default document language - Chinese, Japanese, Korean.</string>
-        <string id="name_DefaultLocale_CTL">Default document language (CTL)</string>
-        <string id="desc_DefaultLocale_CTL">Specifies the default document language - complex text layout (e.g. Arabic, Indian etc., scripts).</string>
-        <string id="name_UILocale">User interface language</string>
-        <string id="desc_UILocale">Specifies the user interface (UI) language. An empty string means: use the desktop's UI language if possible.</string>
-        <string id="name_Locale">Locale</string>
-        <string id="desc_Locale">Contains the user's desktop locale setting.</string>
-        <string id="name_ooSetupCurrency">Currency</string>
-        <string id="desc_ooSetupCurrency">Indicates the currency settings defined by the user. By default, this label is empty and the currency defined by system locale.</string>
+        <string id="category_Localization">Localização</string>
+        <string id="name_DefaultLocale">Idioma padrão do documento (Ocidental)</string>
+        <string id="desc_DefaultLocale">Especifica o idioma padrão do documento - Ocidental.</string>
+        <string id="name_DefaultLocale_CJK">Idioma padrão do documento (CJK)</string>
+        <string id="desc_DefaultLocale_CJK">Especifica o idioma padrão do documento - chinês, japonês, coreano.</string>
+        <string id="name_DefaultLocale_CTL">Idioma padrão do documento (CTL)</string>
+        <string id="desc_DefaultLocale_CTL">Especifica o idioma padrão do documento - layout de texto complexo (por exemplo, árabe, indiano etc., scripts).</string>
+        <string id="name_UILocale">Idioma da interface do usuário</string>
+        <string id="desc_UILocale">Especifica o idioma da interface do usuário (IU). Uma string vazia significa: se possível, use o idioma da IU da área de trabalho.</string>
+        <string id="name_Locale">Localidade</string>
+        <string id="desc_Locale">Contém a configuração de localidade da área de trabalho do usuário.</string>
+        <string id="name_ooSetupCurrency">Moeda</string>
+        <string id="desc_ooSetupCurrency">Indica as configurações de moeda definidas pelo usuário. Por padrão, este campo está vazio e a moeda é definida pela localidade do sistema.</string>
         <string id="name_DecimalSeparatorAsLocale">Decimal separator as locale</string>
-        <string id="desc_DecimalSeparatorAsLocale">Indicates that the decimal separator (dot or comma) is used as appropriate for the selected locale instead of the one related to the default keyboard layout.</string>
-        <string id="name_IgnoreLanguageChange">Ignore language change</string>
-        <string id="desc_IgnoreLanguageChange">Indicates whether changes to the system input language/keyboard will be ignored. If ignored, when new text is typed that text will follow the language of the document or current paragraph, not the current system language.</string>
+        <string id="desc_DecimalSeparatorAsLocale">Indica que o separador decimal (ponto ou vírgula) é usado conforme o que é utilizado no local selecionado ao invés daquele relacionado ao layout de teclado padrão.</string>
+        <string id="name_IgnoreLanguageChange">Ignorar mudança de idioma</string>
+        <string id="desc_IgnoreLanguageChange">Indica se as alterações no idioma/teclado do sistema serão ignoradas. Se forem ignoradas, quando um novo texto for digitado, esse texto seguirá o idioma do documento ou do parágrafo atual, não o idioma do sistema atual.</string>
 
-        <string id="category_Security">Security</string>
-        <string id="name_RemovePersonalInfoOnSaving">Remove personal information on saving</string>
-        <string id="desc_RemovePersonalInfoOnSaving">Specifies whether to remove personal information on saving.
+        <string id="category_Security">Segurança</string>
+        <string id="name_RemovePersonalInfoOnSaving">Remova informações pessoais ao salvar</string>
+        <string id="desc_RemovePersonalInfoOnSaving">Especifica se deve remover informações pessoais ao salvar.
 
-Default value: Do not remove</string>
-        <string id="name_RecommendPasswordProtection">Recommend password protection on saving</string>
-        <string id="desc_RecommendPasswordProtection">Specifies whether to recommend password protection when saving documents.
+Valor padrão: não remova</string>
+        <string id="name_RecommendPasswordProtection">Recomendar proteção de senha ao salvar</string>
+        <string id="desc_RecommendPasswordProtection">Especifica se recomenda proteção por senha ao salvar documentos.
 
-Default value: Do not recommend</string>
-        <string id="name_HyperlinksWithCtrlClick">Ctrl-click required to follow hyperlinks</string>
-        <string id="desc_HyperlinksWithCtrlClick">Specifies whether Ctrl-click is required to follow hyperlinks.
-Default value: Ctrl-click</string>
-        <string id="name_WarnSaveOrSendDoc">Security warnings when saving or sending</string>
-        <string id="desc_WarnSaveOrSendDoc">Specifies whether to warn when saving or sending documents with personal/hidden data.
+Valor padrão: não recomendado</string>
+        <string id="name_HyperlinksWithCtrlClick">Ctrl-click obrigatório para abrir os hiperlinks</string>
+        <string id="desc_HyperlinksWithCtrlClick">Especifica se Ctrl-click é obrigatório para abrir os hiperlinks.
+Valor padrão: Ctrl-click</string>
+        <string id="name_WarnSaveOrSendDoc">Avisos de segurança ao salvar ou enviar</string>
+        <string id="desc_WarnSaveOrSendDoc">Especifica se deve avisar ao salvar ou enviar documentos com dados pessoais/ocultos.
 
-Default value: Do not warn</string>
-        <string id="name_WarnSignDoc">Security warnings when signing</string>
-        <string id="desc_WarnSignDoc">Specifies whether to warn when signing documents with personal/hidden data.
+Valor padrão: não avisar</string>
+        <string id="name_WarnSignDoc">Avisos de segurança ao assinar</string>
+        <string id="desc_WarnSignDoc">Especifica quando avisar ao assinar documentos com dados pessoais / ocultos.
 
-Default value: Warn</string>
-        <string id="name_WarnPrintDoc">Security warnings when printing</string>
-        <string id="desc_WarnPrintDoc">Specifies whether to warn when printing documents with personal/hidden data.
+Valor padrão: Aviso</string>
+        <string id="name_WarnPrintDoc">Avisos de segurança ao imprimir</string>
+        <string id="desc_WarnPrintDoc">Especifica se avisa ao imprimir documentos com dados pessoais / ocultos.
 
-Default value: Do not warn</string>
-        <string id="name_WarnCreatePDF">Security warnings when creating PDF</string>
-        <string id="desc_WarnCreatePDF">Specifies whether to warn when creating PDF documents with personal/hidden data.
+Valor padrão: sem aviso</string>
+        <string id="name_WarnCreatePDF">Avisos de segurança ao criar PDF</string>
+        <string id="desc_WarnCreatePDF">Especifica se avisa ao criar documentos PDF com dados pessoais / ocultos.
 
-Default value: Do not warn</string>
-        <string id="name_MacroSecurityLevel">Macro security level</string>
-        <string id="desc_MacroSecurityLevel">Level of Macro security. Range 0 (lowest) - 3 (highest).
+Valor padrão: não avisar</string>
+        <string id="name_MacroSecurityLevel">Nível de segurança macro</string>
+        <string id="desc_MacroSecurityLevel">Nível de segurança macro. Intervalo 0 (menor) - 3 (maior).
 
-- Low (not recommended). All macros will be executed without confirmation. Use this setting only if you are certain that all documents that will be opened are safe.
-- Medium. Confirmation required before executing macros from untrusted sources.
-- High. Only signed macros from trusted sources are allowed to run. Unsigned macros are disabled.
-- Very high. Only macros from trusted file locations are allowed to run. All other macros, regardless whether signed or not, are disabled.
+- Baixo (não recomendado). Todas as macros serão executadas sem confirmação. Use esta configuração apenas se tiver certeza de que todos os documentos que serão abertos são seguros.
+- Médio. A confirmação é necessária antes de executar macros de fontes não confiáveis.
+- Alto. Apenas macros marcados como fontes confiáveis podem ser executadas. Macros não marcados como fonte confiável estão desabilitadas.
+- Muito alto. Apenas macros de locais de arquivos confiáveis ​​podem ser executados. Todas as outras macros, independentemente de serem marcados como fonte confiável ou não, são desabilitadas.
 
-Default value: High</string>
-        <string id="low">Low (not recommended)</string>
-        <string id="medium">Medium</string>
-        <string id="high">High</string>
-        <string id="veryhigh">Very high</string>
-        <string id="name_DisableMacrosExecution">Disable macro execution</string>
-        <string id="desc_DisableMacrosExecution">Specifies whether the macro execution is disabled in general. If it is set to true, the MacroSecurityLevel is ignored. If it is set to false, the mentioned entry specifies the level of macro security.
+Valor padrão: alto</string>
+        <string id="low">Baixo (não recomendado)</string>
+        <string id="medium">Médio</string>
+        <string id="high">Alto</string>
+        <string id="veryhigh">Muito alto</string>
+        <string id="name_DisableMacrosExecution">Desabilitar execução de macro</string>
+        <string id="desc_DisableMacrosExecution">Especifica se a execução da macro está desabilitada. Se for definido como desabilitada, o Nível de Segurança da Macro será ignorado. Se for definido habilitada, a entrada mencionada especifica o nível de segurança da macro.
 
-Default value: Macros enabled</string>
-        <string id="name_EnableExpertConfiguration">Enable Expert Configuration</string>
-        <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
-        <string id="name_SecureURL">Trusted file locations</string>
+Valor padrão: Macros habilitados</string>
+        <string id="name_EnableExpertConfiguration">Habilitar Configuração para Especialista</string>
+        <string id="desc_EnableExpertConfiguration">Determina se o usuário tem acesso a toda a configuração por meio do botão Configuração de Especialista.</string>
+        <string id="name_SecureURL">Locais de arquivos confiáveis</string>
 
-        <string id="category_Filters">Disable file format filters</string>
+        <string id="category_Filters">Desativar filtros de formato de arquivo</string>
 
-        <string id="name_ADO_Rowset_XML">ADO Rowset XML</string>
-        <string id="desc_ADO_Rowset_XML">Disable the import filter for ADO Rowset XML file format.</string>
-        <string id="name_AbiWord">AbiWord Document</string>
-        <string id="desc_AbiWord">Disable the import filter for AbiWord Document file format.</string>
+        <string id="name_ADO_Rowset_XML">Conjunto de Linhas ADO do XML</string>
+        <string id="desc_ADO_Rowset_XML">Desative o filtro de importação para o formato de arquivo XML do Conjunto de Linhas ADO.</string>
+        <string id="name_AbiWord">Documento AbiWord </string>
+        <string id="desc_AbiWord">Desative o filtro de importação para o formato de arquivo de documento AbiWord.</string>
         <string id="name_Apple_Keynote">Apple Keynote 5</string>
-        <string id="desc_Apple_Keynote">Disable the import filter for Apple Keynote 5 file format.</string>
+        <string id="desc_Apple_Keynote">Desative o filtro de importação para o formato de arquivo Apple Keynote 5.</string>
         <string id="name_Apple_Numbers">Apple Numbers 2</string>
-        <string id="desc_Apple_Numbers">Disable the import filter for Apple Numbers 2 file format.</string>
+        <string id="desc_Apple_Numbers">Desative o filtro de importação para o formato de arquivo Apple Numbers 2.</string>
         <string id="name_Apple_Pages">Apple Pages 4</string>
-        <string id="desc_Apple_Pages">Disable the import filter for Apple Pages 4 file format.</string>
+        <string id="desc_Apple_Pages">Desative o filtro de importação para o formato de arquivo Apple Pages 4.</string>
         <string id="name_BMP__MS_Windows">BMP - Windows Bitmap</string>
-        <string id="desc_BMP__MS_Windows">Disable the import filter for BMP - Windows Bitmap file format.</string>
+        <string id="desc_BMP__MS_Windows">Desative o filtro de importação para o formato de arquivo BMP - Windows Bitmap.</string>
         <string id="name_BroadBand_eBook">BroadBand eBook</string>
-        <string id="desc_BroadBand_eBook">Disable the import filter for BroadBand eBook file format.</string>
+        <string id="desc_BroadBand_eBook">Desative o filtro de importação para o formato de arquivo BroadBand eBook.</string>
         <string id="name_CGM__Computer_Graphics_Metafile">CGM - Computer Graphics Metafile</string>
-        <string id="desc_CGM__Computer_Graphics_Metafile">Disable the import filter for CGM - Computer Graphics Metafile file format.</string>
-        <string id="name_ClarisWorks">ClarisWorks/AppleWorks Text Document</string>
-        <string id="desc_ClarisWorks">Disable the import filter for ClarisWorks/AppleWorks Text Document file format.</string>
-        <string id="name_ClarisWorks_Calc">ClarisWorks/AppleWorks Spreadsheet</string>
-        <string id="desc_ClarisWorks_Calc">Disable the import filter for ClarisWorks/AppleWorks Spreadsheet file format.</string>
+        <string id="desc_CGM__Computer_Graphics_Metafile">Desative o filtro de importação para o formato de arquivo CGM - Computer Graphics Metafile.</string>
+        <string id="name_ClarisWorks">ClarisWorks/AppleWorks Documento de Texto</string>
+        <string id="desc_ClarisWorks">Desative o filtro de importação para o formato de arquivo de Documento de Texto ClarisWorks/AppleWorks.</string>
+        <string id="name_ClarisWorks_Calc">ClarisWorks/AppleWorks Planilha</string>
+        <string id="desc_ClarisWorks_Calc">Desative o filtro de importação para o formato de arquivo Planilha ClarisWorks/AppleWorks.</string>
         <string id="name_ClarisWorks_Draw">ClarisWorks/AppleWorks Drawing</string>
-        <string id="desc_ClarisWorks_Draw">Disable the import filter for ClarisWorks/AppleWorks Drawing file format.</string>
-        <string id="name_ClarisWorks_Impress">ClarisWorks/AppleWorks Presentation</string>
-        <string id="desc_ClarisWorks_Impress">Disable the import filter for ClarisWorks/AppleWorks Presentation file format.</string>
-        <string id="name_Claris_Resolve_Calc">ClarisResolve Document</string>
-        <string id="desc_Claris_Resolve_Calc">Disable the import filter for ClarisResolve Document file format.</string>
+        <string id="desc_ClarisWorks_Draw">Desative o filtro de importação para o formato de arquivo Drawing ClarisWorks/AppleWorks.</string>
+        <string id="name_ClarisWorks_Impress">ClarisWorks/AppleWorks Apresentação</string>
+        <string id="desc_ClarisWorks_Impress">Desative o filtro de importação para o formato de arquivo ClarisWorks/AppleWorks Apresentação.</string>
+        <string id="name_Claris_Resolve_Calc">ClarisResolve Documento</string>
+        <string id="desc_Claris_Resolve_Calc">Desative o filtro de importação para o formato de arquivo ClarisResolve Documento.</string>
         <string id="name_Corel_Draw_Document">Corel Draw</string>
-        <string id="desc_Corel_Draw_Document">Disable the import filter for Corel Draw file format.</string>
+        <string id="desc_Corel_Draw_Document">Desative o filtro de importação para o formato de arquivo Corel Draw.</string>
         <string id="name_Corel_Presentation_Exchange">Corel Presentation Exchange</string>
-        <string id="desc_Corel_Presentation_Exchange">Disable the import filter for Corel Presentation Exchange file format.</string>
+        <string id="desc_Corel_Presentation_Exchange">Desative o filtro de importação para o formato de arquivo Corel Presentation Exchange.</string>
         <string id="name_DIF">Data Interchange Format</string>
-        <string id="desc_DIF">Disable the import filter for Data Interchange Format file format.</string>
+        <string id="desc_DIF">Desative o filtro de importação para o formato de arquivo Data Interchange Format.</string>
         <string id="name_DXF__AutoCAD_Interchange">DXF - AutoCAD Interchange Format</string>
-        <string id="desc_DXF__AutoCAD_Interchange">Disable the import filter for DXF - AutoCAD Interchange Format file format.</string>
+        <string id="desc_DXF__AutoCAD_Interchange">Desative o filtro de importação para o formato de arquivo DXF - AutoCAD Interchange Format.</string>
         <string id="name_DocBook_File">DocBook</string>
-        <string id="desc_DocBook_File">Disable the import filter for DocBook file format.</string>
-        <string id="name_DosWord">Microsoft Word for DOS</string>
-        <string id="desc_DosWord">Disable the import filter for Microsoft Word for DOS file format.</string>
+        <string id="desc_DocBook_File">Desative o filtro de importação para o formato de arquivo DocBook.</string>
+        <string id="name_DosWord">Microsoft Word para DOS</string>
+        <string id="desc_DosWord">Desative o filtro de importação para o formato de arquivo do Microsoft Word para DOS.</string>
         <string id="name_EMF__MS_Windows_Metafile">EMF - Enhanced Metafile</string>
-        <string id="desc_EMF__MS_Windows_Metafile">Disable the import filter for EMF - Enhanced Metafile file format.</string>
+        <string id="desc_EMF__MS_Windows_Metafile">Desative o filtro de importação para o formato de arquivo EMF - Enhanced Metafile.</string>
         <string id="name_EPS__Encapsulated_PostScript">EPS - Encapsulated PostScript</string>
-        <string id="desc_EPS__Encapsulated_PostScript">Disable the import filter for EPS - Encapsulated PostScript file format.</string>
+        <string id="desc_EPS__Encapsulated_PostScript">Desative o filtro de importação para EPS - formato de arquivo Encapsulated PostScript.</string>
         <string id="name_FictionBook_2">FictionBook 2.0</string>
-        <string id="desc_FictionBook_2">Disable the import filter for FictionBook 2.0 file format.</string>
+        <string id="desc_FictionBook_2">Desative o filtro de importação para o formato de arquivo FictionBook 2.0.</string>
         <string id="name_Freehand_Document">Adobe/Macromedia Freehand</string>
-        <string id="desc_Freehand_Document">Disable the import filter for Adobe/Macromedia Freehand file format.</string>
+        <string id="desc_Freehand_Document">Desative o filtro de importação para o formato de arquivo Adobe/Macromedia Freehand.</string>
         <string id="name_GIF__Graphics_Interchange">GIF - Graphics Interchange Format</string>
-        <string id="desc_GIF__Graphics_Interchange">Disable the import filter for GIF - Graphics Interchange Format file format.</string>
-        <string id="name_HTML">HTML Document</string>
-        <string id="desc_HTML">Disable the import filter for HTML Document file format.</string>
-        <string id="name_HTML_StarCalc">HTML Document (Calc)</string>
-        <string id="desc_HTML_StarCalc">Disable the import filter for HTML Document (Calc) file format.</string>
-        <string id="name_HTML_StarWriter">HTML Document (Writer)</string>
-        <string id="desc_HTML_StarWriter">Disable the import filter for HTML Document (Writer) file format.</string>
+        <string id="desc_GIF__Graphics_Interchange">Desative o filtro de importação para o formato de arquivo GIF - Graphics Interchange Format.</string>
+        <string id="name_HTML">Documento HTML </string>
+        <string id="desc_HTML">Desative o filtro de importação para o formato de arquivo de documento HTML.</string>
+        <string id="name_HTML_StarCalc">Documento HTML (Calc)</string>
+        <string id="desc_HTML_StarCalc">Desative o filtro de importação para o formato de arquivo de documento HTML (Calc).</string>
+        <string id="name_HTML_StarWriter">Documento HTML (Writer)</string>
+        <string id="desc_HTML_StarWriter">Desative o filtro de importação para o formato de arquivo de documento HTML (Writer).</string>
         <string id="name_JPG__JPEG">JPEG - Joint Photographic Experts Group</string>
-        <string id="desc_JPG__JPEG">Disable the import filter for JPEG - Joint Photographic Experts Group file format.</string>
+        <string id="desc_JPG__JPEG">Desative o filtro de importação para o formato de arquivo JPEG - Joint Photographic Experts Group.</string>
         <string id="name_Lotus">Lotus 1-2-3</string>
-        <string id="desc_Lotus">Disable the import filter for Lotus 1-2-3 file format.</string>
-        <string id="name_LotusWordPro">Lotus WordPro Document</string>
-        <string id="desc_LotusWordPro">Disable the import filter for Lotus WordPro Document file format.</string>
+        <string id="desc_Lotus">Desative o filtro de importação para o formato de arquivo Lotus 1-2-3.</string>
+        <string id="name_LotusWordPro">Documento Lotus WordPro </string>
+        <string id="desc_LotusWordPro">Desative o filtro de importação para o formato de arquivo de documento do Lotus WordPro.</string>
         <string id="name_MET__OS2_Metafile">MET - OS/2 Metafile</string>
-        <string id="desc_MET__OS2_Metafile">Disable the import filter for MET - OS/2 Metafile file format.</string>
+        <string id="desc_MET__OS2_Metafile">Desative o filtro de importação para o formato de arquivo MET - OS / 2 Metafile.</string>
         <string id="name_MS_Excel_2003_XML_Orcus">Microsoft Excel 2003 XML</string>
-        <string id="desc_MS_Excel_2003_XML_Orcus">Disable the import filter for Microsoft Excel 2003 XML file format.</string>
+        <string id="desc_MS_Excel_2003_XML_Orcus">Desative o filtro de importação para o formato de arquivo XML do Microsoft Excel 2003.</string>
         <string id="name_MS_Excel_40">Microsoft Excel 4.0</string>
-        <string id="desc_MS_Excel_40">Disable the import filter for Microsoft Excel 4.0 file format.</string>
+        <string id="desc_MS_Excel_40">Desative o filtro de importação para o formato de arquivo do Microsoft Excel 4.0.</string>
         <string id="name_MS_Excel_40_VorlageTemplate">Microsoft Excel 4.0 Template</string>
-        <string id="desc_MS_Excel_40_VorlageTemplate">Disable the import filter for Microsoft Excel 4.0 Template file format.</string>
+        <string id="desc_MS_Excel_40_VorlageTemplate">Desative o filtro de importação para o formato de arquivo Template Microsoft Excel 4.0.</string>
         <string id="name_MS_Excel_5095">Microsoft Excel 5.0</string>
-        <string id="desc_MS_Excel_5095">Disable the import filter for Microsoft Excel 5.0 file format.</string>
+        <string id="desc_MS_Excel_5095">Desative o filtro de importação para o formato de arquivo do Microsoft Excel 5.0.</string>
         <string id="name_MS_Excel_5095_VorlageTemplate">Microsoft Excel 5.0 Template</string>
-        <string id="desc_MS_Excel_5095_VorlageTemplate">Disable the import filter for Microsoft Excel 5.0 Template file format.</string>
+        <string id="desc_MS_Excel_5095_VorlageTemplate">Desative o filtro de importação para o formato de arquivo Template do Microsoft Excel 5.0.</string>
         <string id="name_MS_Excel_95">Microsoft Excel 95</string>
-        <string id="desc_MS_Excel_95">Disable the import filter for Microsoft Excel 95 file format.</string>
+        <string id="desc_MS_Excel_95">Desative o filtro de importação para o formato de arquivo do Microsoft Excel 95.</string>
         <string id="name_MS_Excel_95_VorlageTemplate">Microsoft Excel 95 Template</string>
-        <string id="desc_MS_Excel_95_VorlageTemplate">Disable the import filter for Microsoft Excel 95 Template file format.</string>
+        <string id="desc_MS_Excel_95_VorlageTemplate">Desative o filtro de importação para o formato de arquivo Template do Microsoft Excel 95.</string>
         <string id="name_MS_Excel_97">Microsoft Excel 97-2003</string>
-        <string id="desc_MS_Excel_97">Disable the import filter for Microsoft Excel 97-2003 file format.</string>
+        <string id="desc_MS_Excel_97">Desative o filtro de importação para o formato de arquivo do Microsoft Excel 97-2003.</string>
         <string id="name_MS_Excel_97_VorlageTemplate">Microsoft Excel 97-2003 Template</string>
-        <string id="desc_MS_Excel_97_VorlageTemplate">Disable the import filter for Microsoft Excel 97-2003 Template file format.</string>
+        <string id="desc_MS_Excel_97_VorlageTemplate">Desative o filtro de importação para o formato de arquivo Template do Microsoft Excel 97-2003.</string>
         <string id="name_MS_PowerPoint_97">Microsoft PowerPoint 97-2003</string>
-        <string id="desc_MS_PowerPoint_97">Disable the import filter for Microsoft PowerPoint 97-2003 file format.</string>
+        <string id="desc_MS_PowerPoint_97">Desative o filtro de importação para o formato de arquivo do Microsoft PowerPoint 97-2003.</string>
         <string id="name_MS_PowerPoint_97_AutoPlay">Microsoft PowerPoint 97-2003 AutoPlay</string>
-        <string id="desc_MS_PowerPoint_97_AutoPlay">Disable the import filter for Microsoft PowerPoint 97-2003 AutoPlay file format.</string>
+        <string id="desc_MS_PowerPoint_97_AutoPlay">Desative o filtro de importação para o formato de arquivo AutoPlay do Microsoft PowerPoint 97-2003.</string>
         <string id="name_MS_PowerPoint_97_Vorlage">Microsoft PowerPoint 97-2003 Template</string>
-        <string id="desc_MS_PowerPoint_97_Vorlage">Disable the import filter for Microsoft PowerPoint 97-2003 Template file format.</string>
+        <string id="desc_MS_PowerPoint_97_Vorlage">Desative o filtro de importação para o formato de arquivo Template do Microsoft PowerPoint 97-2003.</string>
         <string id="name_MS_WinWord_5">Microsoft WinWord 1/2/5</string>
-        <string id="desc_MS_WinWord_5">Disable the import filter for Microsoft WinWord 1/2/5 file format.</string>
+        <string id="desc_MS_WinWord_5">Desative o filtro de importação para o formato de arquivo Microsoft WinWord 1/2/5.</string>
         <string id="name_MS_WinWord_60">Microsoft Word 6.0</string>
-        <string id="desc_MS_WinWord_60">Disable the import filter for Microsoft Word 6.0 file format.</string>
+        <string id="desc_MS_WinWord_60">Desative o filtro de importação para o formato de arquivo do Microsoft Word 6.0.</string>
         <string id="name_MS_Word_2003_XML">Microsoft Word 2003 XML</string>
-        <string id="desc_MS_Word_2003_XML">Disable the import filter for Microsoft Word 2003 XML file format.</string>
+        <string id="desc_MS_Word_2003_XML">Desative o filtro de importação para o formato de arquivo XML do Microsoft Word 2003.</string>
         <string id="name_MS_Word_2007_XML">Microsoft Word 2007-2013 XML</string>
-        <string id="desc_MS_Word_2007_XML">Disable the import filter for Microsoft Word 2007-2013 XML file format.</string>
+        <string id="desc_MS_Word_2007_XML">Desative o filtro de importação para o formato de arquivo XML do Microsoft Word 2007-2013.</string>
         <string id="name_MS_Word_2007_XML_Template">Microsoft Word 2007-2013 XML Template</string>
-        <string id="desc_MS_Word_2007_XML_Template">Disable the import filter for Microsoft Word 2007-2013 XML Template file format.</string>
+        <string id="desc_MS_Word_2007_XML_Template">Desative o filtro de importação para o formato de arquivo Template XML do Microsoft Word 2007-2013.</string>
         <string id="name_MS_Word_2007_XML_VBA">Microsoft Word 2007-2013 XML VBA</string>
-        <string id="desc_MS_Word_2007_XML_VBA">Disable the import filter for Microsoft Word 2007-2013 XML VBA file format.</string>
+        <string id="desc_MS_Word_2007_XML_VBA">Desative o filtro de importação para o formato de arquivo VBA XML do Microsoft Word 2007-2013.</string>
         <string id="name_MS_Word_95">Microsoft Word 95</string>
-        <string id="desc_MS_Word_95">Disable the import filter for Microsoft Word 95 file format.</string>
+        <string id="desc_MS_Word_95">Desative o filtro de importação para o formato de arquivo do Microsoft Word 95.</string>
         <string id="name_MS_Word_95_Vorlage">Microsoft Word 95 Template</string>
-        <string id="desc_MS_Word_95_Vorlage">Disable the import filter for Microsoft Word 95 Template file format.</string>
+        <string id="desc_MS_Word_95_Vorlage">Desative o filtro de importação para o formato de arquivo Template do Microsoft Word 95.</string>
         <string id="name_MS_Word_97">Microsoft Word 97-2003</string>
-        <string id="desc_MS_Word_97">Disable the import filter for Microsoft Word 97-2003 file format.</string>
+        <string id="desc_MS_Word_97">Desative o filtro de importação para o formato de arquivo Microsoft Word 97-2003.</string>
         <string id="name_MS_Word_97_Vorlage">Microsoft Word 97-2003 Template</string>
-        <string id="desc_MS_Word_97_Vorlage">Disable the import filter for Microsoft Word 97-2003 Template file format.</string>
+        <string id="desc_MS_Word_97_Vorlage">Desative o filtro de importação para o formato de arquivo Template do Microsoft Word 97-2003.</string>
         <string id="name_MS_Works">Microsoft Works Document</string>
-        <string id="desc_MS_Works">Disable the import filter for Microsoft Works Document file format.</string>
+        <string id="desc_MS_Works">Desative o filtro de importação para o formato de arquivo de Documento do Microsoft Works.</string>
         <string id="name_MS_Works_Calc">Microsoft Works Document</string>
-        <string id="desc_MS_Works_Calc">Disable the import filter for Microsoft Works Document file format.</string>
+        <string id="desc_MS_Works_Calc">Desative o filtro de importação para o formato de arquivo de Documento do Microsoft Works.</string>
         <string id="name_MS_Write">Microsoft Write</string>
-        <string id="desc_MS_Write">Disable the import filter for Microsoft Write file format.</string>
+        <string id="desc_MS_Write">Desative o filtro de importação para o formato de arquivo Microsoft Write.</string>
         <string id="name_MWAW_Bitmap">Legacy Mac Bitmap</string>
-        <string id="desc_MWAW_Bitmap">Disable the import filter for Legacy Mac Bitmap file format.</string>
+        <string id="desc_MWAW_Bitmap">Desative o filtro de importação para o formato de arquivo Legacy Bitmap Mac.</string>
         <string id="name_MWAW_Database">Legacy Mac Database</string>
-        <string id="desc_MWAW_Database">Disable the import filter for Legacy Mac Database file format.</string>
+        <string id="desc_MWAW_Database">Desative o filtro de importação para o formato de arquivo Legacy Mac Database.</string>
         <string id="name_MWAW_Drawing">Legacy Mac Drawing</string>
-        <string id="desc_MWAW_Drawing">Disable the import filter for Legacy Mac Drawing file format.</string>
-        <string id="name_MWAW_Presentation">Legacy Mac Presentation</string>
-        <string id="desc_MWAW_Presentation">Disable the import filter for Legacy Mac Presentation file format.</string>
-        <string id="name_MWAW_Spreadsheet">Legacy Mac Spreadsheet</string>
-        <string id="desc_MWAW_Spreadsheet">Disable the import filter for Legacy Mac Spreadsheet file format.</string>
-        <string id="name_MWAW_Text_Document">Legacy Mac Text Document</string>
-        <string id="desc_MWAW_Text_Document">Disable the import filter for Legacy Mac Text Document file format.</string>
+        <string id="desc_MWAW_Drawing">Desative o filtro de importação para o formato de arquivo Legacy Mac Drawing.</string>
+        <string id="name_MWAW_Presentation">Apresentação Legacy Mac </string>
+        <string id="desc_MWAW_Presentation">Desative o filtro de importação para o formato de arquivo Apresentação Legacy Mac.</string>
+        <string id="name_MWAW_Spreadsheet">Planilha Legacy Mac </string>
+        <string id="desc_MWAW_Spreadsheet">Desative o filtro de importação para o formato de arquivo Planilha Legacy Mac.</string>
+        <string id="name_MWAW_Text_Document">Documento de Texto Legacy Mac </string>
+        <string id="desc_MWAW_Text_Document">Desative o filtro de importação para o formato de arquivo Documento de Texto Legacy Mac.</string>
         <string id="name_MacWrite">MacWrite Document</string>
-        <string id="desc_MacWrite">Disable the import filter for MacWrite Document file format.</string>
+        <string id="desc_MacWrite">Desative o filtro de importação para o formato de arquivo de Documento MacWrite.</string>
         <string id="name_Mac_Word">Microsoft Word for Mac (v1 - v5)</string>
         <string id="desc_Mac_Word">Disable the import filter for Microsoft Word for Mac (v1 - v5) file format.</string>
         <string id="name_Mac_Works">Microsoft Works for Mac Text Document (v1 - v4)</string>
@@ -744,7 +744,7 @@ Set paths in path lists have to be separated by spaces.</string>
         </textBox>
       </presentation>
       <presentation id="ooName">
-        <text>Specifies the name of the product.</text>
+        <text>Especifica o nome do produto.</text>
         <textBox refId="Value">
           <label>Value: </label>
           <defaultValue>Collabora Office</defaultValue>
@@ -752,17 +752,17 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UserDefinedSettings">
-        <checkBox refId="Value">Load user-specific settings with the document</checkBox>
+        <checkBox refId="Value">Carrega configurações específicas do usuário com o documento</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseUserData">
-        <checkBox refId="Value">Use user data for document properties</checkBox>
+        <checkBox refId="Value">Use os dados do usuário para as propriedades do documento</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="AutoSave">
         <checkBox refId="Value">Save AutoRecovery information</checkBox>
         <checkBox refId="Final">Final</checkBox>
-        <text>Save AutoRecovery information in every __ minutes</text>
+        <text>Informação de recuperação automática salva a cada __ mintuto(s)</text>
         <text>Type: integer [1..60]</text>
         <decimalTextBox refId="AutoSaveTimeIntervallValue" defaultValue="15" spin="true">Value</decimalTextBox>
         <checkBox refId="AutoSaveTimeIntervallFinal">Final</checkBox>
@@ -770,19 +770,19 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="AutoSavePromptFinal">Final</checkBox>
       </presentation>
       <presentation id="RecoveryInfo">
-        <checkBox refId="Value">Disable the autorecovery feature</checkBox>
+        <checkBox refId="Value">Desative o recurso de recuperação automática</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="CreateBackup">
-        <checkBox refId="Value">Always create backup copy</checkBox>
+        <checkBox refId="Value">Sempre criar cópia de backup </checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="EditProperty">
-        <checkBox refId="Value">Edit document properties before saving</checkBox>
+        <checkBox refId="Value">Editar propriedades do documento antes de salvar</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="WarnAlienFormat">
-        <checkBox refId="Value">Warn the user when saving in a format different from ODF or default</checkBox>
+        <checkBox refId="Value">Avisa o usuário ao salvar em um formato diferente de ODF ou padrão</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="AutoCorrect">
@@ -888,15 +888,15 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="WritePathFinal">Final</checkBox>
       </presentation>
       <presentation id="UseSystemFileDialog">
-        <checkBox refId="Value">Use System File Dialog</checkBox>
+        <checkBox refId="Value">Use a Caixa de Diálogo do Arquivo de Sistema</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="CollectUsageInformation">
-        <checkBox refId="Value">Collect usage data and send it to The Document Foundation</checkBox>
+        <checkBox refId="Value">Colete dados de uso e envie-os para The Document Foundation</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
-        <checkBox refId="Value">Use System Print Dialog</checkBox>
+        <checkBox refId="Value">Use a Caixa de Diálogo de Impressão do Sistema</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UPUserName">
@@ -1096,11 +1096,11 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="WriterDefaultFontsCTLIndexFontSizeFinal">Final</checkBox>
       </presentation>
       <presentation id="ExperimentalMode">
-        <checkBox refId="Value">Enable experimental features</checkBox>
+        <checkBox refId="Value">Ativar recursos experimentais</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="MacroRecorderMode">
-        <checkBox refId="Value">Enable macro recording (limited)</checkBox>
+        <checkBox refId="Value">Habilitar gravação de macro (limitado)</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="HistorySize">
@@ -1156,31 +1156,31 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="RemovePersonalInfoOnSaving">
-        <checkBox refId="Value" defaultItem="0">Remove personal information on saving</checkBox>
+        <checkBox refId="Value" defaultItem="0">Remova informações pessoais ao salvar</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="RecommendPasswordProtection">
-        <checkBox refId="Value" defaultItem="0">Recommend password protection on saving</checkBox>
+        <checkBox refId="Value" defaultItem="0">Recomendar proteção de senha ao salvar</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="HyperlinksWithCtrlClick">
-        <checkBox refId="Value" defaultItem="0">Ctrl-click required to follow hyperlinks</checkBox>
+        <checkBox refId="Value" defaultItem="0">Ctrl-click obrigatório para abrir os hiperlinks</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="WarnSaveOrSendDoc">
-        <checkBox refId="Value" defaultItem="0">Security warnings when saving or sending</checkBox>
+        <checkBox refId="Value" defaultItem="0">Avisos de segurança ao salvar ou enviar</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="WarnSignDoc">
-        <checkBox refId="Value" defaultItem="0">Security warnings when signing</checkBox>
+        <checkBox refId="Value" defaultItem="0">Avisos de segurança ao assinar</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="WarnPrintDoc">
-        <checkBox refId="Value" defaultItem="0">Security warnings when printing</checkBox>
+        <checkBox refId="Value" defaultItem="0">Avisos de segurança ao imprimir</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="WarnCreatePDF">
-        <checkBox refId="Value" defaultItem="0">Security warnings when creating PDF</checkBox>
+        <checkBox refId="Value" defaultItem="0">Avisos de segurança ao criar PDF</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="MacroSecurityLevel">
@@ -1188,11 +1188,11 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="DisableMacrosExecution">
-        <checkBox refId="Value">Disable macro execution</checkBox>
+        <checkBox refId="Value">Desabilitar execução de macro</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="EnableExpertConfiguration">
-        <checkBox refId="Value">Enable Expert Configuration</checkBox>
+        <checkBox refId="Value">Habilitar Configuração para Especialista</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="SecureURL">
@@ -2047,7 +2047,7 @@ Set paths in path lists have to be separated by spaces.</string>
           <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="MSOLockFiles">
-          <checkBox refId="Value">Create MSO lock file</checkBox>
+          <checkBox refId="Value">Criar arquivo de bloqueio MSO</checkBox>
           <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="InfobarReadonly">

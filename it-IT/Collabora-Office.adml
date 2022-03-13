@@ -2055,31 +2055,31 @@ I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</
       </presentation>
       <presentation id="InfobarReadonly">
           <checkBox refId="Value">Disable</checkBox>
-          <checkBox refId="Final">Final</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="InfobarSignature">
           <checkBox refId="Value">Disable</checkBox>
-          <checkBox refId="Final">Final</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="InfobarDonate">
           <checkBox refId="Value">Disable</checkBox>
-          <checkBox refId="Final">Final</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="InfobarGetInvolved">
           <checkBox refId="Value">Disable</checkBox>
-          <checkBox refId="Final">Final</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="InfobarHyphenationMissing">
           <checkBox refId="Value">Disable</checkBox>
-          <checkBox refId="Final">Final</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="InfobarWhatsNew">
           <checkBox refId="Value">Disable</checkBox>
-          <checkBox refId="Final">Final</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="InfobarHiddenTrackChanges">
           <checkBox refId="Value">Disable</checkBox>
-          <checkBox refId="Final">Final</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
       </presentation>
     </presentationTable>
   </resources>
