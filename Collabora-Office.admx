@@ -17,6 +17,7 @@
       <definition name="supported_LibreOffice_5_3" displayName="$(string.supported_LibreOffice_5_3)" />
       <definition name="supported_LibreOffice_5_3_49" displayName="$(string.supported_LibreOffice_5_3_49)" />
       <definition name="supported_LibreOffice_6_0_27" displayName="$(string.supported_LibreOffice_6_0_27)" />
+      <definition name="supported_LibreOffice_7_0" displayName="$(string.supported_LibreOffice_7_0)" />
     </definitions>
   </supportedOn>
   <categories>
@@ -758,6 +759,51 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
+  <policy name="UseSkia" class="Both" displayName="$(string.name_UseSkia)" explainText="$(string.desc_UseSkia)" presentation="$(presentation.UseSkia)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\UseSkia">
+      <parentCategory ref="View" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ForceSkia" class="Both" displayName="$(string.name_ForceSkia)" explainText="$(string.desc_ForceSkia)" presentation="$(presentation.ForceSkia)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\ForceSkia">
+        <parentCategory ref="View" />
+        <supportedOn ref="supported_LibreOffice_7_0" />
+        <elements>
+          <boolean id="Value" valueName="Value">
+            <trueValue>
+              <string>true</string>
+            </trueValue>
+            <falseValue>
+              <string>false</string>
+            </falseValue>
+          </boolean>
+          <boolean id="Final" valueName="Final" />
+        </elements>
+      </policy>
+      <policy name="ForceSkiaRaster" class="Both" displayName="$(string.name_ForceSkiaRaster)" explainText="$(string.desc_ForceSkiaRaster)" presentation="$(presentation.ForceSkiaRaster)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\ForceSkiaRaster">
+        <parentCategory ref="View" />
+        <supportedOn ref="supported_LibreOffice_7_0" />
+        <elements>
+          <boolean id="Value" valueName="Value">
+            <trueValue>
+              <string>true</string>
+            </trueValue>
+            <falseValue>
+              <string>false</string>
+            </falseValue>
+          </boolean>
+          <boolean id="Final" valueName="Final" />
+        </elements>
+      </policy>
     <policy name="UseSystemFileDialog" class="Both" displayName="$(string.name_UseSystemFileDialog)" explainText="$(string.desc_UseSystemFileDialog)" presentation="$(presentation.UseSystemFileDialog)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\UseSystemFileDialog">
       <parentCategory ref="General" />
       <supportedOn ref="supported_LibreOffice_4_2" />
