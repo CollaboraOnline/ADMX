@@ -15,6 +15,7 @@
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 vagy újabb</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 vagy újabb</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 vagy újabb</string>
+		<string id="supported_LibreOffice_7_0">Collabora Office 7 or higher</string>
 
         <string id="ValueFlagsNone">Nincs</string>
         <string id="ValueFlagsFinal">Végleges</string>
@@ -559,7 +560,13 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
         <string id="desc_UseOpenGL">Megadja, hogy használandó-e az OpenGL megjelenítés az azt támogató VCL háttérprogramokban.</string>
         <string id="name_ForceOpenGL">OpenGL kényszerítése</string>
         <string id="desc_ForceOpenGL">Megadja, hogy használandó-e az OpenGL megjelenítés az azt támogató VCL háttérprogramokban. Ez akkor is kényszeríti az OpenGL használatát, ha a feketelista blokkolná az OpenGL illesztőprogramot.</string>
-
+		<string id="name_UseSkia">UseSkia</string>
+        <string id="desc_UseSkia">Specifies if Skia rendering should be used in VCL backends supporting it.</string>
+        <string id="name_ForceSkia">Force Skia</string>
+        <string id="desc_ForceSkia">Specifies if Skia rendering should be used in VCL backends supporting it. This one forces the use of Skia even if the blacklist would block the Skia driver.</string>
+		<string id="name_ForceSkiaRaster">Force Skia Raster</string>
+        <string id="desc_ForceSkiaRaster">Specifies if Skia Raster rendering should be used in VCL backends supporting it. This one forces the use of Skia Raster even if the blacklist would block the Skia driver.</string>
+		
         <string id="category_Print">Nyomtatás</string>
         <string id="name_ConvertToGreyscales">Színek konvertálása szürkeárnyalatra</string>
         <string id="desc_ConvertToGreyscales">Csak szürkeárnyalatos kimenet generálandó-e az összes objektumból.</string>
@@ -1967,6 +1974,18 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="ForceOpenGL">
         <checkBox refId="Value">Az OpenGL kényszerítése, még ha feketelistán is van</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+	  <presentation id="UseSkia">
+        <checkBox refId="Value">Use Skia for all rendering</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="ForceSkia">
+        <checkBox refId="Value">Force Skia even if blacklisted</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+	  <presentation id="ForceSkiaRaster">
+        <checkBox refId="Value">Force Skia Raster even if blacklisted</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
         <checkBox refId="Value">Színek konvertálása szürkeárnyalatra</checkBox>
