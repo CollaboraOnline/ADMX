@@ -15,6 +15,7 @@
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 veya üzeri</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 veya üzeri</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 veya üzeri</string>
+        <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
 
         <string id="ValueFlagsNone">Hiçbiri</string>
         <string id="ValueFlagsFinal">Son</string>
@@ -29,6 +30,8 @@
         <string id="desc_UseSystemFileDialog">Windows'un dosya ve dizin seçicisinin kullanılması gerekip gerekmediğini belirler. Yanlışsa, yerleşik platformdan bağımsız dosya/dizin seçici uygulamaları kullanılacaktır.</string>
         <string id="name_CollectUsageInformation">LibreOffice'i geliştirmeye yardımcı olun</string>
         <string id="desc_CollectUsageInformation">Kullanım verilerini toplayın ve The Document Foundation'a gönderin</string>
+        <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
+        <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
 
         <string id="category_LDAPConfigBackend">LDAP yapılandırma arkaucu</string>
         <string id="name_LDAPConfigBackendSettings">LDAP Kullanıcı Dizini</string>
@@ -894,6 +897,10 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Kullanım verilerini toplayın ve The Document Foundation'a gönderin</checkBox>
         <checkBox refId="Final">Son</checkBox>
+      </presentation>
+      <presentation id="ShowTipOfTheDay">
+        <checkBox refId="Value">Show Tip of the Day</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">Use System Print Dialog</checkBox>

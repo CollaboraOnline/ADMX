@@ -17,6 +17,7 @@
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 o superiore</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 o superiore</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 o superiore</string>
+        <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
 
         <string id="ValueFlagsNone">Nessuno</string>
         <string id="ValueFlagsFinal">Finale</string>
@@ -31,6 +32,8 @@
         <string id="desc_UseSystemFileDialog">Specifica se vengono utilizzate le finestre di dialogo di apertura file e cartelle di Windows. Se falso, saranno utilizzate quelle implementate in LibreOffice.</string>
         <string id="name_CollectUsageInformation">Aiutaci a migliorare LibreOffice</string>
         <string id="desc_CollectUsageInformation">Raccogli i dati di utilizzo e inviali a The Document Foundation</string>
+        <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
+        <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
 
         <string id="category_LDAPConfigBackend">Configurazione del backend LDAP</string>
         <string id="name_LDAPConfigBackendSettings">Directory degli utenti LDAP</string>
@@ -897,6 +900,10 @@ I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Raccogli i dati di utilizzo e inviali a The Document Foundation</checkBox>
         <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="ShowTipOfTheDay">
+        <checkBox refId="Value">Show Tip of the Day</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">Usa le finestre di dialogo di stampa di sistema</checkBox>

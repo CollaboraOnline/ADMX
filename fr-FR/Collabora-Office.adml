@@ -17,6 +17,7 @@
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 ou supérieur</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 ou supérieur</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 ou supérieur</string>
+        <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
 
         <string id="ValueFlagsNone">Aucun</string>
         <string id="ValueFlagsFinal">Verrouiller le paramètre</string>
@@ -31,6 +32,8 @@
         <string id="desc_UseSystemFileDialog">Spécifie si les boîtes de dialogue de Windows permettent d'ouvrir et d'enregistrer des documents. Si ce n'est pas le cas, ce sont les boîtes de dialogue de LibreOffice qui seront utilisées.</string>
         <string id="name_CollectUsageInformation">Aider à améliorer LibreOffice</string>
         <string id="desc_CollectUsageInformation">Collecter des données d'usage et les envoyer à The Document Foundation</string>
+        <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
+        <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
 
         <string id="category_LDAPConfigBackend">Backend de configuration LDAP</string>
         <string id="name_LDAPConfigBackendSettings">Répertoire utilisateur LDAP</string>
@@ -911,6 +914,10 @@ Les chemins définis dans une liste doivent être séparés par des espaces.</st
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Collecter des données d'usage et les envoyer à The Document Foundation</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="ShowTipOfTheDay">
+        <checkBox refId="Value">Show Tip of the Day</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">Utilisez la boîte de dialogue d'impression du système</checkBox>
