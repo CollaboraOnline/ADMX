@@ -15,6 +15,7 @@
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 or higher</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 or higher</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 or higher</string>
+        <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
 
         <string id="ValueFlagsNone">None</string>
         <string id="ValueFlagsFinal">Final</string>
@@ -29,6 +30,8 @@
         <string id="desc_UseSystemFileDialog">Determines if Windows' file and folder picker should be used. If false, the built-in platform independent file/folder picker implementations will be used.</string>
         <string id="name_CollectUsageInformation">Help improve LibreOffice</string>
         <string id="desc_CollectUsageInformation">Collect usage data and send it to The Document Foundation</string>
+        <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
+        <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
 
         <string id="category_LDAPConfigBackend">LDAP configuration backend</string>
         <string id="name_LDAPConfigBackendSettings">LDAP User Directory</string>
@@ -893,6 +896,10 @@ Set paths in path lists have to be separated by spaces.</string>
       </presentation>
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Collect usage data and send it to The Document Foundation</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="ShowTipOfTheDay">
+        <checkBox refId="Value">Show Tip of the Day</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">

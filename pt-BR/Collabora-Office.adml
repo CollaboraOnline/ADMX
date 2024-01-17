@@ -15,6 +15,7 @@
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 ou superior</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 ou superior</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 ou superior</string>
+        <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
 
         <string id="ValueFlagsNone">Nenhum</string>
         <string id="ValueFlagsFinal">Final</string>
@@ -29,6 +30,8 @@
         <string id="desc_UseSystemFileDialog">Determina se o seletor de arquivos e pastas do Windows deve ser usado. Se não,  a plataforma embutida independente de arquivos / pastas será usada.</string>
         <string id="name_CollectUsageInformation">Ajude a melhorar o LibreOffice</string>
         <string id="desc_CollectUsageInformation">Colete dados de uso e envie-os para The Document Foundation</string>
+        <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
+        <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
 
         <string id="category_LDAPConfigBackend">Back-end de configuração LDAP</string>
         <string id="name_LDAPConfigBackendSettings">LDAP Diretório do Usuário</string>
@@ -893,6 +896,10 @@ Set paths in path lists have to be separated by spaces.</string>
       </presentation>
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Colete dados de uso e envie-os para The Document Foundation</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="ShowTipOfTheDay">
+        <checkBox refId="Value">Show Tip of the Day</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
