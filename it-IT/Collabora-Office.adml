@@ -17,6 +17,7 @@
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 o superiore</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 o superiore</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 o superiore</string>
+        <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
 
         <string id="ValueFlagsNone">Nessuno</string>
         <string id="ValueFlagsFinal">Finale</string>
@@ -31,6 +32,8 @@
         <string id="desc_UseSystemFileDialog">Specifica se vengono utilizzate le finestre di dialogo di apertura file e cartelle di Windows. Se falso, saranno utilizzate quelle implementate in LibreOffice.</string>
         <string id="name_CollectUsageInformation">Aiutaci a migliorare LibreOffice</string>
         <string id="desc_CollectUsageInformation">Raccogli i dati di utilizzo e inviali a The Document Foundation</string>
+        <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
+        <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
 
         <string id="category_LDAPConfigBackend">Configurazione del backend LDAP</string>
         <string id="name_LDAPConfigBackendSettings">Directory degli utenti LDAP</string>
@@ -605,6 +608,22 @@ Quando è impostato per essere letto da LDAP, il suo valore è l'attributo che c
         <string id="name_SelectPDFExport">Seleziona le opzioni di esportazione in PDF preferite</string>
         <string id="desc_SelectPDFExport">Seleziona le opzioni predefinite di esportazione in PDF</string>
 
+        <string id="category_Infobars">Infobars</string>
+        <string id="name_InfobarReadonly">Read-only</string>
+        <string id="desc_InfobarReadonly">Whether the Infobar shown in read-only docs is enabled</string>
+        <string id="name_InfobarSignature">Signature</string>
+        <string id="desc_InfobarSignature">Whether the Infobar showing the Digital Signature state is enabled</string>
+        <string id="name_InfobarDonate">Donate</string>
+        <string id="desc_InfobarDonate">Whether the Infobar showing the call for donations is enabled</string>
+        <string id="name_InfobarGetInvolved">Get Involved</string>
+        <string id="desc_InfobarGetInvolved">Whether the Infobar showing the call to 'Get Involved' is enabled</string>
+        <string id="name_InfobarHyphenationMissing">Hyphenation Missing</string>
+        <string id="desc_InfobarHyphenationMissing">Whether an Infobar is shown when Hyphenation Info is missing for a document</string>
+        <string id="name_InfobarWhatsNew">What's New</string>
+        <string id="desc_InfobarWhatsNew">Whether an Infobar is shown when the major version number has changed</string>
+        <string id="name_InfobarHiddenTrackChanges">Hidden Track Changes</string>
+        <string id="desc_InfobarHiddenTrackChanges">Whether an Infobar is shown when hidden Track Changes settings or data are there in a document</string>
+
         <string id="category_Writer">Writer</string>
         <string id="desc_SaveAsFormat">Salva sempre in questo formato di documento. Solo il formato Open Document (ODF), garantisce una completa integrità dei dati.</string>
         <string id="odt">Documento di testo ODF</string>
@@ -881,6 +900,10 @@ I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Raccogli i dati di utilizzo e inviali a The Document Foundation</checkBox>
         <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="ShowTipOfTheDay">
+        <checkBox refId="Value">Show Tip of the Day</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">Usa le finestre di dialogo di stampa di sistema</checkBox>
@@ -2035,6 +2058,34 @@ I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</
       </presentation>
       <presentation id="MSOLockFiles">
           <checkBox refId="Value">Crea il file di blocco per MSO</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="InfobarReadonly">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="InfobarSignature">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="InfobarDonate">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="InfobarGetInvolved">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="InfobarHyphenationMissing">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="InfobarWhatsNew">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="InfobarHiddenTrackChanges">
+          <checkBox refId="Value">Disable</checkBox>
           <checkBox refId="Final">Finale</checkBox>
       </presentation>
     </presentationTable>

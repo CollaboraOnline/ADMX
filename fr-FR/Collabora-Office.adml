@@ -17,6 +17,7 @@
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 ou supérieur</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 ou supérieur</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 ou supérieur</string>
+        <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
 
         <string id="ValueFlagsNone">Aucun</string>
         <string id="ValueFlagsFinal">Verrouiller le paramètre</string>
@@ -31,6 +32,8 @@
         <string id="desc_UseSystemFileDialog">Spécifie si les boîtes de dialogue de Windows permettent d'ouvrir et d'enregistrer des documents. Si ce n'est pas le cas, ce sont les boîtes de dialogue de LibreOffice qui seront utilisées.</string>
         <string id="name_CollectUsageInformation">Aider à améliorer LibreOffice</string>
         <string id="desc_CollectUsageInformation">Collecter des données d'usage et les envoyer à The Document Foundation</string>
+        <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
+        <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
 
         <string id="category_LDAPConfigBackend">Backend de configuration LDAP</string>
         <string id="name_LDAPConfigBackendSettings">Répertoire utilisateur LDAP</string>
@@ -619,6 +622,22 @@ Remplacer par : Saisissez le nom de la police de substitution.</string>
         <string id="name_SelectPDFExport">Définir les options préférées d'export en PDF</string>
         <string id="desc_SelectPDFExport">Définir les options par défaut d'export en PDF</string>
 
+        <string id="category_Infobars">Infobars</string>
+        <string id="name_InfobarReadonly">Read-only</string>
+        <string id="desc_InfobarReadonly">Whether the Infobar shown in read-only docs is enabled</string>
+        <string id="name_InfobarSignature">Signature</string>
+        <string id="desc_InfobarSignature">Whether the Infobar showing the Digital Signature state is enabled</string>
+        <string id="name_InfobarDonate">Donate</string>
+        <string id="desc_InfobarDonate">Whether the Infobar showing the call for donations is enabled</string>
+        <string id="name_InfobarGetInvolved">Get Involved</string>
+        <string id="desc_InfobarGetInvolved">Whether the Infobar showing the call to 'Get Involved' is enabled</string>
+        <string id="name_InfobarHyphenationMissing">Hyphenation Missing</string>
+        <string id="desc_InfobarHyphenationMissing">Whether an Infobar is shown when Hyphenation Info is missing for a document</string>
+        <string id="name_InfobarWhatsNew">What's New</string>
+        <string id="desc_InfobarWhatsNew">Whether an Infobar is shown when the major version number has changed</string>
+        <string id="name_InfobarHiddenTrackChanges">Hidden Track Changes</string>
+        <string id="desc_InfobarHiddenTrackChanges">Whether an Infobar is shown when hidden Track Changes settings or data are there in a document</string>
+
         <string id="category_Writer">Writer</string>
         <string id="desc_SaveAsFormat">Toujours enregistrer dans ce format de document. S'il vous plaît noter que seul le format Open Document (ODF) garantit l'intégrité complète des données.</string>
         <string id="odt">Texte ODF</string>
@@ -895,6 +914,10 @@ Les chemins définis dans une liste doivent être séparés par des espaces.</st
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Collecter des données d'usage et les envoyer à The Document Foundation</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="ShowTipOfTheDay">
+        <checkBox refId="Value">Show Tip of the Day</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">Utilisez la boîte de dialogue d'impression du système</checkBox>
@@ -2049,6 +2072,34 @@ Les chemins définis dans une liste doivent être séparés par des espaces.</st
       </presentation>
       <presentation id="MSOLockFiles">
           <checkBox refId="Value">Créer un fichier de verrouillage MSO</checkBox>
+          <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="InfobarReadonly">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="InfobarSignature">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="InfobarDonate">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="InfobarGetInvolved">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="InfobarHyphenationMissing">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="InfobarWhatsNew">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="InfobarHiddenTrackChanges">
+          <checkBox refId="Value">Disable</checkBox>
           <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
     </presentationTable>

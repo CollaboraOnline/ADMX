@@ -3,7 +3,7 @@
 read -p "Enter Transifex user name: " user
 read -s -p "Password: " password
 url="https://www.transifex.com/api/2/project/collabora-office-libreoffice-windows-group-policy-template-amdx/resource/collabora-office-admlpot/translation"
-declare -a langs=("it" "hu" "fr" "es")
+declare -a langs=("it" "hu" "fr" "es" "de" "pt_BR" "tr")
 
 for i in ${langs[@]}
 do
@@ -13,10 +13,15 @@ do
 		echo -e "\nERROR - $connectionResponse - ERROR\n"
 		exit 1
 	else
+		if [ $i = "pt_BR" ]; then
+			dir="pt-BR"
+		else
+			dir="$i-*"
+		fi
 		curl -L --user $user:$password -X GET $l10nUrl -o $i.po
 		msgfmt -cvo $i.mo $i.po
-		itstool -m $i.mo -o $i-* en-US/Collabora-Office.adml
-		unix2dos $i-*/Collabora-Office.adml
+		itstool -m $i.mo -o $dir en-US/Collabora-Office.adml
+		unix2dos $dir/Collabora-Office.adml
 		rm $i.po $i.mo
 	fi
 done

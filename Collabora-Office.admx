@@ -17,6 +17,7 @@
       <definition name="supported_LibreOffice_5_3" displayName="$(string.supported_LibreOffice_5_3)" />
       <definition name="supported_LibreOffice_5_3_49" displayName="$(string.supported_LibreOffice_5_3_49)" />
       <definition name="supported_LibreOffice_6_0_27" displayName="$(string.supported_LibreOffice_6_0_27)" />
+      <definition name="supported_LibreOffice_6_4" displayName="$(string.supported_LibreOffice_6_4)" />
       <definition name="supported_LibreOffice_7_1" displayName="$(string.supported_LibreOffice_7_1)" />
     </definitions>
   </supportedOn>
@@ -80,6 +81,9 @@
       <parentCategory ref="Common" />
     </category>
     <category name="PDFExport" displayName="$(string.category_PDFExport)">
+        <parentCategory ref="Common" />
+    </category>
+    <category name="Infobars" displayName="$(string.category_Infobars)">
         <parentCategory ref="Common" />
     </category>
     <category name="Writer" displayName="$(string.category_Writer)">
@@ -744,6 +748,36 @@
     <policy name="ForceOpenGL" class="Both" displayName="$(string.name_ForceOpenGL)" explainText="$(string.desc_ForceOpenGL)" presentation="$(presentation.ForceOpenGL)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\ForceOpenGL">
       <parentCategory ref="View" />
       <supportedOn ref="supported_LibreOffice_5_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="CollectUsageInformation" class="Both" displayName="$(string.name_CollectUsageInformation)" explainText="$(string.desc_CollectUsageInformation)" presentation="$(presentation.CollectUsageInformation)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\CollectUsageInformation">
+      <parentCategory ref="General" />
+      <supportedOn ref="supported_LibreOffice_5_1" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ShowTipOfTheDay" class="Both" displayName="$(string.name_ShowTipOfTheDay)" explainText="$(string.desc_ShowTipOfTheDay)" presentation="$(presentation.ShowTipOfTheDay)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\ShowTipOfTheDay">
+      <parentCategory ref="General" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
       <elements>
         <boolean id="Value" valueName="Value">
           <trueValue>
@@ -2512,7 +2546,7 @@
       <parentCategory ref="History" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
-        <decimal id="Value" valueName="Value" minValue="1" maxValue="1000" storeAsText="true" />
+        <decimal id="Value" valueName="Value" minValue="0" maxValue="1000" storeAsText="true" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
@@ -2520,7 +2554,7 @@
       <parentCategory ref="History" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
-        <decimal id="Value" valueName="Value" minValue="1" maxValue="100" storeAsText="true" />
+        <decimal id="Value" valueName="Value" minValue="0" maxValue="100" storeAsText="true" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
@@ -5661,6 +5695,111 @@
           </trueValue>
           <falseValue>
             <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="InfobarReadonly" class="Both" displayName="$(string.name_InfobarReadonly)" explainText="$(string.desc_InfobarReadonly)" presentation="$(presentation.InfobarReadonly)" key="Software\Policies\LibreOffice\org.openoffice.Office.UI.Infobar\Enabled\Readonly">
+      <parentCategory ref="Infobars" />
+      <supportedOn ref="supported_LibreOffice_6_0_27" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="InfobarSignature" class="Both" displayName="$(string.name_InfobarSignature)" explainText="$(string.desc_InfobarSignature)" presentation="$(presentation.InfobarSignature)" key="Software\Policies\LibreOffice\org.openoffice.Office.UI.Infobar\Enabled\Signature">
+      <parentCategory ref="Infobars" />
+      <supportedOn ref="supported_LibreOffice_6_0_27" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="InfobarDonate" class="Both" displayName="$(string.name_InfobarDonate)" explainText="$(string.desc_InfobarDonate)" presentation="$(presentation.InfobarDonate)" key="Software\Policies\LibreOffice\org.openoffice.Office.UI.Infobar\Enabled\Donate">
+      <parentCategory ref="Infobars" />
+      <supportedOn ref="supported_LibreOffice_6_0_27" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="InfobarGetInvolved" class="Both" displayName="$(string.name_InfobarGetInvolved)" explainText="$(string.desc_InfobarGetInvolved)" presentation="$(presentation.InfobarGetInvolved)" key="Software\Policies\LibreOffice\org.openoffice.Office.UI.Infobar\Enabled\GetInvolved">
+      <parentCategory ref="Infobars" />
+      <supportedOn ref="supported_LibreOffice_6_0_27" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="InfobarHyphenationMissing" class="Both" displayName="$(string.name_InfobarHyphenationMissing)" explainText="$(string.desc_InfobarHyphenationMissing)" presentation="$(presentation.InfobarHyphenationMissing)" key="Software\Policies\LibreOffice\org.openoffice.Office.UI.Infobar\Enabled\HyphenationMissing">
+      <parentCategory ref="Infobars" />
+      <supportedOn ref="supported_LibreOffice_6_0_27" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="InfobarWhatsNew" class="Both" displayName="$(string.name_InfobarWhatsNew)" explainText="$(string.desc_InfobarWhatsNew)" presentation="$(presentation.InfobarWhatsNew)" key="Software\Policies\LibreOffice\org.openoffice.Office.UI.Infobar\Enabled\WhatsNew">
+      <parentCategory ref="Infobars" />
+      <supportedOn ref="supported_LibreOffice_6_0_27" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="InfobarHiddenTrackChanges" class="Both" displayName="$(string.name_InfobarHiddenTrackChanges)" explainText="$(string.desc_InfobarHiddenTrackChanges)" presentation="$(presentation.InfobarHiddenTrackChanges)" key="Software\Policies\LibreOffice\org.openoffice.Office.UI.Infobar\Enabled\HiddenTrackChanges">
+      <parentCategory ref="Infobars" />
+      <supportedOn ref="supported_LibreOffice_6_0_27" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
           </falseValue>
         </boolean>
         <boolean id="Final" valueName="Final" />

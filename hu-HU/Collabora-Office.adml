@@ -15,6 +15,7 @@
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 vagy újabb</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 vagy újabb</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 vagy újabb</string>
+        <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
 
         <string id="ValueFlagsNone">Nincs</string>
         <string id="ValueFlagsFinal">Végleges</string>
@@ -29,6 +30,8 @@
         <string id="desc_UseSystemFileDialog">Megadja, hogy a Windows fájl- és mappaválasztó ablakát kell-e használni. Ha hamis, a beépített platformfüggetlen fájl- és mappaválasztó ablakok lesznek használva.</string>
         <string id="name_CollectUsageInformation">Segítsen a LibreOffice tökéletesítésében</string>
         <string id="desc_CollectUsageInformation">Felhasználási adatok gyűjtése és elküldése a The Document Foundationnek</string>
+        <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
+        <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
 
         <string id="category_LDAPConfigBackend">LDAP configuration backend</string>
         <string id="name_LDAPConfigBackendSettings">LDAP User Directory</string>
@@ -603,6 +606,22 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
         <string id="name_SelectPDFExport">Válassza ki a használandó PDF exportálási beállításokat</string>
         <string id="desc_SelectPDFExport">Válassza ki az alapértelmezett PDF exportálási beállításokat</string>
 
+        <string id="category_Infobars">Infobars</string>
+        <string id="name_InfobarReadonly">Read-only</string>
+        <string id="desc_InfobarReadonly">Whether the Infobar shown in read-only docs is enabled</string>
+        <string id="name_InfobarSignature">Signature</string>
+        <string id="desc_InfobarSignature">Whether the Infobar showing the Digital Signature state is enabled</string>
+        <string id="name_InfobarDonate">Donate</string>
+        <string id="desc_InfobarDonate">Whether the Infobar showing the call for donations is enabled</string>
+        <string id="name_InfobarGetInvolved">Get Involved</string>
+        <string id="desc_InfobarGetInvolved">Whether the Infobar showing the call to 'Get Involved' is enabled</string>
+        <string id="name_InfobarHyphenationMissing">Hyphenation Missing</string>
+        <string id="desc_InfobarHyphenationMissing">Whether an Infobar is shown when Hyphenation Info is missing for a document</string>
+        <string id="name_InfobarWhatsNew">What's New</string>
+        <string id="desc_InfobarWhatsNew">Whether an Infobar is shown when the major version number has changed</string>
+        <string id="name_InfobarHiddenTrackChanges">Hidden Track Changes</string>
+        <string id="desc_InfobarHiddenTrackChanges">Whether an Infobar is shown when hidden Track Changes settings or data are there in a document</string>
+
         <string id="category_Writer">Writer</string>
         <string id="desc_SaveAsFormat">Mentés mindig ebbe a dokumentumformátumba. Ne feledje, hogy csak az Open Document Format (ODF) garantál teljes adatintegritást.</string>
         <string id="odt">ODF-szövegesdokumentum</string>
@@ -879,6 +898,10 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Felhasználási adatok gyűjtése és elküldése a The Document Foundationnek</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="ShowTipOfTheDay">
+        <checkBox refId="Value">Show Tip of the Day</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">A rendszer nyomtatási párbeszédablakának használata</checkBox>
@@ -2033,6 +2056,34 @@ Set paths in path lists have to be separated by spaces.</string>
       </presentation>
       <presentation id="MSOLockFiles">
           <checkBox refId="Value">Create MSO lock file</checkBox>
+          <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="InfobarReadonly">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="InfobarSignature">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="InfobarDonate">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="InfobarGetInvolved">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="InfobarHyphenationMissing">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="InfobarWhatsNew">
+          <checkBox refId="Value">Disable</checkBox>
+          <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="InfobarHiddenTrackChanges">
+          <checkBox refId="Value">Disable</checkBox>
           <checkBox refId="Final">Végleges</checkBox>
       </presentation>
     </presentationTable>
