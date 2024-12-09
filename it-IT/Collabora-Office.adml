@@ -18,6 +18,7 @@
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 o superiore</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 o superiore</string>
         <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
+        <string id="supported_CO_24_04_11">Collabora Office 24.04.11 or higher</string>
 
         <string id="ValueFlagsNone">Nessuno</string>
         <string id="ValueFlagsFinal">Finale</string>
@@ -719,6 +720,8 @@ Si possono utilizzare le seguenti variabili di percorso:
     $(vlang) = codice della lingua corrente (ad es. en-US, fr, hu)
 
 I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</string>
+        <string id="name_ViewerAppMode">Viewer mode</string>
+        <string id="desc_ViewerAppMode">Disable all editind capabilities of the application; open all documents read-only</string>
     </stringTable>
     <presentationTable>
       <presentation id="LDAPConfigBackendSettings">
@@ -2087,6 +2090,10 @@ I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</
       <presentation id="InfobarHiddenTrackChanges">
           <checkBox refId="Value">Disable</checkBox>
           <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="ViewerAppMode">
+          <checkBox refId="Value">Enable Viewer mode</checkBox>
+          <checkBox refId="Final">Final</checkBox>
       </presentation>
     </presentationTable>
   </resources>

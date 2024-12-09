@@ -18,6 +18,7 @@
       <definition name="supported_LibreOffice_5_3_49" displayName="$(string.supported_LibreOffice_5_3_49)" />
       <definition name="supported_LibreOffice_6_0_27" displayName="$(string.supported_LibreOffice_6_0_27)" />
       <definition name="supported_LibreOffice_6_4" displayName="$(string.supported_LibreOffice_6_4)" />
+      <definition name="supported_CO_24_04_11" displayName="$(string.supported_CO_24_04_11)" />
     </definitions>
   </supportedOn>
   <categories>
@@ -2760,6 +2761,21 @@
       <elements>
         <text id="Value" valueName="Value" />
         <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ViewerAppMode" class="Both" displayName="$(string.name_ViewerAppMode)" explainText="$(string.desc_ViewerAppMode)" presentation="$(presentation.ViewerAppMode)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\ViewerAppMode">
+      <parentCategory ref="General" />
+      <supportedOn ref="supported_CO_24_04_11" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final"/>
       </elements>
     </policy>
     <policy name="ADO_Rowset_XML" class="Both" displayName="$(string.name_ADO_Rowset_XML)" explainText="$(string.desc_ADO_Rowset_XML)" presentation="$(presentation.ADO_Rowset_XML)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['ADO Rowset XML']\Enabled">

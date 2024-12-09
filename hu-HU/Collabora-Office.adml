@@ -16,6 +16,7 @@
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 vagy újabb</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 vagy újabb</string>
         <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
+        <string id="supported_CO_24_04_11">Collabora Office 24.04.11 or higher</string>
 
         <string id="ValueFlagsNone">Nincs</string>
         <string id="ValueFlagsFinal">Végleges</string>
@@ -717,6 +718,8 @@ The following path variables can be used:
     $(vlang) = current language code (e.g. en-US, fr, hu)
 
 Set paths in path lists have to be separated by spaces.</string>
+        <string id="name_ViewerAppMode">Viewer mode</string>
+        <string id="desc_ViewerAppMode">Disable all editind capabilities of the application; open all documents read-only</string>
     </stringTable>
     <presentationTable>
       <presentation id="LDAPConfigBackendSettings">
@@ -2085,6 +2088,10 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="InfobarHiddenTrackChanges">
           <checkBox refId="Value">Disable</checkBox>
           <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="ViewerAppMode">
+          <checkBox refId="Value">Enable Viewer mode</checkBox>
+          <checkBox refId="Final">Final</checkBox>
       </presentation>
     </presentationTable>
   </resources>
