@@ -16,7 +16,7 @@
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 veya üzeri</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 veya üzeri</string>
         <string id="supported_LibreOffice_6_4">Collabora Office 6.4 veya üzeri</string>
-	<string id="supported_LibreOffice_7_0">Collabora Office 7 veya üzeri</string>
+	<string id="supported_LibreOffice_7_0">Collabora Office 21.06 veya üzeri</string>
         <string id="supported_CO_24_04_11">Collabora Office 24.04.11 veya üzeri</string>
 
         <string id="ValueFlagsNone">Hiçbiri</string>

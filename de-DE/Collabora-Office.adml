@@ -16,7 +16,7 @@
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 oder höher</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 oder höher</string>
         <string id="supported_LibreOffice_6_4">Collabora Office 6.4 oder höher</string>
-	<string id="supported_LibreOffice_7_0">Collabora Office 7 oder höher</string>
+	<string id="supported_LibreOffice_7_0">Collabora Office 21.06 oder höher</string>
         <string id="supported_CO_24_04_11">Collabora Office 24.04.11 oder höher</string>
 
         <string id="ValueFlagsNone">Keine</string>
