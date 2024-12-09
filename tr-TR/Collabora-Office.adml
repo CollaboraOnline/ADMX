@@ -17,6 +17,7 @@
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 veya üzeri</string>
         <string id="supported_LibreOffice_6_4">Collabora Office 6.4 veya üzeri</string>
 	<string id="supported_LibreOffice_7_0">Collabora Office 7 veya üzeri</string>
+        <string id="supported_CO_24_04_11">Collabora Office 24.04.11 veya üzeri</string>
 
         <string id="ValueFlagsNone">Hiçbiri</string>
         <string id="ValueFlagsFinal">Son</string>
@@ -562,11 +563,11 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
         <string id="desc_UseOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it.</string>
         <string id="name_ForceOpenGL">Force OpenGL</string>
         <string id="desc_ForceOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it. This one forces the use of OpenGL even if the blacklist would block the OpenGL driver.</string>
-		<string id="name_UseSkia">UseSkia</string>
+        <string id="name_UseSkia">UseSkia</string>
         <string id="desc_UseSkia">Specifies if Skia rendering should be used in VCL backends supporting it.</string>
         <string id="name_ForceSkia">Force Skia</string>
         <string id="desc_ForceSkia">Specifies if Skia rendering should be used in VCL backends supporting it. This one forces the use of Skia even if the blacklist would block the Skia driver.</string>
-		<string id="name_ForceSkiaRaster">Force Skia Raster</string>
+        <string id="name_ForceSkiaRaster">Force Skia Raster</string>
         <string id="desc_ForceSkiaRaster">Specifies if Skia Raster rendering should be used in VCL backends supporting it. This one forces the use of Skia Raster even if the blacklist would block the Skia driver.</string>
 
         <string id="category_Print">Print</string>
@@ -723,6 +724,8 @@ The following path variables can be used:
     $(vlang) = current language code (e.g. en-US, fr, hu)
 
 Set paths in path lists have to be separated by spaces.</string>
+        <string id="name_ViewerAppMode">Viewer mode</string>
+        <string id="desc_ViewerAppMode">Disable all editind capabilities of the application; open all documents read-only</string>
     </stringTable>
     <presentationTable>
       <presentation id="LDAPConfigBackendSettings">
@@ -2103,6 +2106,10 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="InfobarHiddenTrackChanges">
           <checkBox refId="Value">Disable</checkBox>
           <checkBox refId="Final">Son</checkBox>
+      </presentation>
+      <presentation id="ViewerAppMode">
+          <checkBox refId="Value">Enable Viewer mode</checkBox>
+          <checkBox refId="Final">Final</checkBox>
       </presentation>
     </presentationTable>
   </resources>

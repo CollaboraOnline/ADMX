@@ -563,13 +563,13 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
         <string id="desc_UseOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it.</string>
         <string id="name_ForceOpenGL">Force OpenGL</string>
         <string id="desc_ForceOpenGL">Specifies if OpenGL rendering should be used in VCL backends supporting it. This one forces the use of OpenGL even if the blacklist would block the OpenGL driver.</string>
-		<string id="name_UseSkia">UseSkia</string>
+        <string id="name_UseSkia">UseSkia</string>
         <string id="desc_UseSkia">Specifies if Skia rendering should be used in VCL backends supporting it.</string>
         <string id="name_ForceSkia">Force Skia</string>
         <string id="desc_ForceSkia">Specifies if Skia rendering should be used in VCL backends supporting it. This one forces the use of Skia even if the blacklist would block the Skia driver.</string>
-		<string id="name_ForceSkiaRaster">Force Skia Raster</string>
+        <string id="name_ForceSkiaRaster">Force Skia Raster</string>
         <string id="desc_ForceSkiaRaster">Specifies if Skia Raster rendering should be used in VCL backends supporting it. This one forces the use of Skia Raster even if the blacklist would block the Skia driver.</string>
-		
+
         <string id="category_Print">Print</string>
         <string id="name_ConvertToGreyscales">Convert colors to grayscale</string>
         <string id="desc_ConvertToGreyscales">Indicates whether to create only grayscale output of all objects.</string>
@@ -1996,7 +1996,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Value">Force Skia Raster even if blacklisted</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
-	  <presentation id="ConvertToGreyscales">
+      <presentation id="ConvertToGreyscales">
         <checkBox refId="Value">Convert colors to grayscale</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>

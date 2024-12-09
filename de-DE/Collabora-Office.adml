@@ -15,8 +15,9 @@
         <string id="supported_LibreOffice_5_3">Collabora Office 5.3 oder höher</string>
         <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 oder höher</string>
         <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 oder höher</string>
-        <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
-        <string id="supported_CO_24_04_11">Collabora Office 24.04.11 or higher</string>
+        <string id="supported_LibreOffice_6_4">Collabora Office 6.4 oder höher</string>
+	<string id="supported_LibreOffice_7_0">Collabora Office 7 oder höher</string>
+        <string id="supported_CO_24_04_11">Collabora Office 24.04.11 oder höher</string>
 
         <string id="ValueFlagsNone">Keine</string>
         <string id="ValueFlagsFinal">Gesperrt</string>
@@ -563,6 +564,12 @@ Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige W
         <string id="desc_UseOpenGL">Legt fest, ob OpenGL Rendering in den VCL Backends verwendet werden soll.</string>
         <string id="name_ForceOpenGL">Erzwinge OpenGL</string>
         <string id="desc_ForceOpenGL">Legt fest, ob OpenGL Rendering in den VCL Backends verwendet werden soll. Diese Option erzwingt die Verwendung von OpenGL, selbst, wenn der OpenGL-Treiber auf der Blacklist steht.</string>
+        <string id="name_UseSkia">UseSkia</string>
+        <string id="desc_UseSkia">Specifies if Skia rendering should be used in VCL backends supporting it.</string>
+        <string id="name_ForceSkia">Force Skia</string>
+        <string id="desc_ForceSkia">Specifies if Skia rendering should be used in VCL backends supporting it. This one forces the use of Skia even if the blacklist would block the Skia driver.</string>
+        <string id="name_ForceSkiaRaster">Force Skia Raster</string>
+        <string id="desc_ForceSkiaRaster">Specifies if Skia Raster rendering should be used in VCL backends supporting it. This one forces the use of Skia Raster even if the blacklist would block the Skia driver.</string>
 
         <string id="category_Print">Drucken</string>
         <string id="name_ConvertToGreyscales">Farben in Graustufen umwandeln</string>
@@ -1977,6 +1984,18 @@ Pfade in Pfadlisten müssen durch Leerzeichen getrennt werden.</string>
       <presentation id="ForceOpenGL">
         <checkBox refId="Value">OpenGL trotz Negativliste erzwingen</checkBox>
         <checkBox refId="Final">Gesperrt</checkBox>
+      </presentation>
+	  <presentation id="UseSkia">
+        <checkBox refId="Value">Use Skia for all rendering</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="ForceSkia">
+        <checkBox refId="Value">Force Skia even if blacklisted</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+	  <presentation id="ForceSkiaRaster">
+        <checkBox refId="Value">Force Skia Raster even if blacklisted</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
         <checkBox refId="Value">Farben in Graustufen umwandeln</checkBox>
