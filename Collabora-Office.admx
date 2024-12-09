@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
-<policyDefinitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0"
+  xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <policyNamespaces>
     <target prefix="LOfC" namespace="Collabora.Policies.LibreOffice" />
     <using prefix="windows" namespace="Microsoft.Policies.Windows" />
@@ -82,10 +84,10 @@
       <parentCategory ref="Common" />
     </category>
     <category name="PDFExport" displayName="$(string.category_PDFExport)">
-        <parentCategory ref="Common" />
+      <parentCategory ref="Common" />
     </category>
     <category name="Infobars" displayName="$(string.category_Infobars)">
-        <parentCategory ref="Common" />
+      <parentCategory ref="Common" />
     </category>
     <category name="Writer" displayName="$(string.category_Writer)">
       <parentCategory ref="LibreOffice" />
@@ -245,17 +247,17 @@
       <parentCategory ref="LoadandSave" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
-         <boolean id="Value" valueName="Value">
-            <trueValue>
-               <string>false</string>
-            </trueValue>
-            <falseValue>
-               <string>true</string>
-            </falseValue>
-         </boolean>
-         <boolean id="Final" valueName="Final" />
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
       </elements>
-   </policy>
+    </policy>
     <policy name="CreateBackup" class="Both" displayName="$(string.name_CreateBackup)" explainText="$(string.desc_CreateBackup)" presentation="$(presentation.CreateBackup)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Save\Document\CreateBackup">
       <parentCategory ref="LoadandSave" />
       <supportedOn ref="supported_LibreOffice_4_2" />
@@ -649,7 +651,7 @@
         <boolean id="WritePathFinal" valueName="Final" />
       </elements>
     </policy>
-    <policy name="SymbolStyle" class="Both" displayName="$(string.name_SymbolStyle)"  explainText="$(string.desc_SymbolStyle)" presentation="$(presentation.SymbolStyle)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\SymbolStyle">
+    <policy name="SymbolStyle" class="Both" displayName="$(string.name_SymbolStyle)" explainText="$(string.desc_SymbolStyle)" presentation="$(presentation.SymbolStyle)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\SymbolStyle">
       <parentCategory ref="View" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
@@ -761,7 +763,7 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-  <policy name="UseSkia" class="Both" displayName="$(string.name_UseSkia)" explainText="$(string.desc_UseSkia)" presentation="$(presentation.UseSkia)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\UseSkia">
+    <policy name="UseSkia" class="Both" displayName="$(string.name_UseSkia)" explainText="$(string.desc_UseSkia)" presentation="$(presentation.UseSkia)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\UseSkia">
       <parentCategory ref="View" />
       <supportedOn ref="supported_LibreOffice_7_0" />
       <elements>
@@ -777,35 +779,35 @@
       </elements>
     </policy>
     <policy name="ForceSkia" class="Both" displayName="$(string.name_ForceSkia)" explainText="$(string.desc_ForceSkia)" presentation="$(presentation.ForceSkia)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\ForceSkia">
-        <parentCategory ref="View" />
-        <supportedOn ref="supported_LibreOffice_7_0" />
-        <elements>
-          <boolean id="Value" valueName="Value">
-            <trueValue>
-              <string>true</string>
-            </trueValue>
-            <falseValue>
-              <string>false</string>
-            </falseValue>
-          </boolean>
-          <boolean id="Final" valueName="Final" />
-        </elements>
-      </policy>
-      <policy name="ForceSkiaRaster" class="Both" displayName="$(string.name_ForceSkiaRaster)" explainText="$(string.desc_ForceSkiaRaster)" presentation="$(presentation.ForceSkiaRaster)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\ForceSkiaRaster">
-        <parentCategory ref="View" />
-        <supportedOn ref="supported_LibreOffice_7_0" />
-        <elements>
-          <boolean id="Value" valueName="Value">
-            <trueValue>
-              <string>true</string>
-            </trueValue>
-            <falseValue>
-              <string>false</string>
-            </falseValue>
-          </boolean>
-          <boolean id="Final" valueName="Final" />
-        </elements>
-      </policy>
+      <parentCategory ref="View" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ForceSkiaRaster" class="Both" displayName="$(string.name_ForceSkiaRaster)" explainText="$(string.desc_ForceSkiaRaster)" presentation="$(presentation.ForceSkiaRaster)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\ForceSkiaRaster">
+      <parentCategory ref="View" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
     <policy name="CollectUsageInformation" class="Both" displayName="$(string.name_CollectUsageInformation)" explainText="$(string.desc_CollectUsageInformation)" presentation="$(presentation.CollectUsageInformation)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\CollectUsageInformation">
       <parentCategory ref="General" />
       <supportedOn ref="supported_LibreOffice_5_1" />
@@ -1028,9 +1030,10 @@
     </policy>
     <policy name="FontPair_0" class="Both" displayName="$(string.name_FontPair_0)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse">
       <parentCategory ref="FontSubstitutions" />
-      <supportedOn ref="supported_LibreOffice_4_2" /><!-- ??? -->
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <!-- ??? -->
       <elements>
-        <boolean id="Always"         key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\Always"         valueName="Value" >
+        <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\Always" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1038,7 +1041,7 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <boolean id="OnScreenOnly"   key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\OnScreenOnly"   valueName="Value" >
+        <boolean id="OnScreenOnly" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\OnScreenOnly" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1046,16 +1049,17 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <text    id="ReplaceFont"    key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\ReplaceFont"    valueName="Value" />
-        <text    id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\SubstituteFont" valueName="Value" />
+        <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\ReplaceFont" valueName="Value" />
+        <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\SubstituteFont" valueName="Value" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="FontPair_1" class="Both" displayName="$(string.name_FontPair_1)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse">
       <parentCategory ref="FontSubstitutions" />
-      <supportedOn ref="supported_LibreOffice_4_2" /><!-- ??? -->
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <!-- ??? -->
       <elements>
-        <boolean id="Always"         key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\Always"         valueName="Value" >
+        <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\Always" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1063,7 +1067,7 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <boolean id="OnScreenOnly"   key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\OnScreenOnly"   valueName="Value" >
+        <boolean id="OnScreenOnly" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\OnScreenOnly" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1071,16 +1075,17 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <text    id="ReplaceFont"    key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\ReplaceFont"    valueName="Value" />
-        <text    id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\SubstituteFont" valueName="Value" />
+        <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\ReplaceFont" valueName="Value" />
+        <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\SubstituteFont" valueName="Value" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="FontPair_2" class="Both" displayName="$(string.name_FontPair_2)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse">
       <parentCategory ref="FontSubstitutions" />
-      <supportedOn ref="supported_LibreOffice_4_2" /><!-- ??? -->
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <!-- ??? -->
       <elements>
-        <boolean id="Always"         key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\Always"         valueName="Value" >
+        <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\Always" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1088,7 +1093,7 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <boolean id="OnScreenOnly"   key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\OnScreenOnly"   valueName="Value" >
+        <boolean id="OnScreenOnly" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\OnScreenOnly" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1096,16 +1101,17 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <text    id="ReplaceFont"    key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\ReplaceFont"    valueName="Value" />
-        <text    id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\SubstituteFont" valueName="Value" />
+        <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\ReplaceFont" valueName="Value" />
+        <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\SubstituteFont" valueName="Value" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="FontPair_3" class="Both" displayName="$(string.name_FontPair_3)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse">
       <parentCategory ref="FontSubstitutions" />
-      <supportedOn ref="supported_LibreOffice_4_2" /><!-- ??? -->
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <!-- ??? -->
       <elements>
-        <boolean id="Always"         key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\Always"         valueName="Value" >
+        <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\Always" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1113,7 +1119,7 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <boolean id="OnScreenOnly"   key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\OnScreenOnly"   valueName="Value" >
+        <boolean id="OnScreenOnly" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\OnScreenOnly" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1121,16 +1127,17 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <text    id="ReplaceFont"    key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\ReplaceFont"    valueName="Value" />
-        <text    id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\SubstituteFont" valueName="Value" />
+        <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\ReplaceFont" valueName="Value" />
+        <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\SubstituteFont" valueName="Value" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="FontPair_4" class="Both" displayName="$(string.name_FontPair_4)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse">
       <parentCategory ref="FontSubstitutions" />
-      <supportedOn ref="supported_LibreOffice_4_2" /><!-- ??? -->
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <!-- ??? -->
       <elements>
-        <boolean id="Always"         key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\Always"         valueName="Value" >
+        <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\Always" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1138,7 +1145,7 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <boolean id="OnScreenOnly"   key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\OnScreenOnly"   valueName="Value" >
+        <boolean id="OnScreenOnly" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\OnScreenOnly" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1146,16 +1153,17 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <text    id="ReplaceFont"    key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\ReplaceFont"    valueName="Value" />
-        <text    id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\SubstituteFont" valueName="Value" />
+        <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\ReplaceFont" valueName="Value" />
+        <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\SubstituteFont" valueName="Value" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="FontPair_5" class="Both" displayName="$(string.name_FontPair_5)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse">
       <parentCategory ref="FontSubstitutions" />
-      <supportedOn ref="supported_LibreOffice_4_2" /><!-- ??? -->
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <!-- ??? -->
       <elements>
-        <boolean id="Always"         key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\Always"         valueName="Value" >
+        <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\Always" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1163,7 +1171,7 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <boolean id="OnScreenOnly"   key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\OnScreenOnly"   valueName="Value" >
+        <boolean id="OnScreenOnly" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\OnScreenOnly" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1171,16 +1179,17 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <text    id="ReplaceFont"    key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\ReplaceFont"    valueName="Value" />
-        <text    id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\SubstituteFont" valueName="Value" />
+        <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\ReplaceFont" valueName="Value" />
+        <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\SubstituteFont" valueName="Value" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="FontPair_6" class="Both" displayName="$(string.name_FontPair_6)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse">
       <parentCategory ref="FontSubstitutions" />
-      <supportedOn ref="supported_LibreOffice_4_2" /><!-- ??? -->
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <!-- ??? -->
       <elements>
-        <boolean id="Always"         key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\Always"         valueName="Value" >
+        <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\Always" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1188,7 +1197,7 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <boolean id="OnScreenOnly"   key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\OnScreenOnly"   valueName="Value" >
+        <boolean id="OnScreenOnly" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\OnScreenOnly" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1196,16 +1205,17 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <text    id="ReplaceFont"    key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\ReplaceFont"    valueName="Value" />
-        <text    id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\SubstituteFont" valueName="Value" />
+        <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\ReplaceFont" valueName="Value" />
+        <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\SubstituteFont" valueName="Value" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="FontPair_7" class="Both" displayName="$(string.name_FontPair_7)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse">
       <parentCategory ref="FontSubstitutions" />
-      <supportedOn ref="supported_LibreOffice_4_2" /><!-- ??? -->
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <!-- ??? -->
       <elements>
-        <boolean id="Always"         key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\Always"         valueName="Value" >
+        <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\Always" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1213,7 +1223,7 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <boolean id="OnScreenOnly"   key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\OnScreenOnly"   valueName="Value" >
+        <boolean id="OnScreenOnly" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\OnScreenOnly" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1221,16 +1231,17 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <text    id="ReplaceFont"    key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\ReplaceFont"    valueName="Value" />
-        <text    id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\SubstituteFont" valueName="Value" />
+        <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\ReplaceFont" valueName="Value" />
+        <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\SubstituteFont" valueName="Value" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="FontPair_8" class="Both" displayName="$(string.name_FontPair_8)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse">
       <parentCategory ref="FontSubstitutions" />
-      <supportedOn ref="supported_LibreOffice_4_2" /><!-- ??? -->
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <!-- ??? -->
       <elements>
-        <boolean id="Always"         key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\Always"         valueName="Value" >
+        <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\Always" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1238,7 +1249,7 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <boolean id="OnScreenOnly"   key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\OnScreenOnly"   valueName="Value" >
+        <boolean id="OnScreenOnly" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\OnScreenOnly" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1246,16 +1257,17 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <text    id="ReplaceFont"    key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\ReplaceFont"    valueName="Value" />
-        <text    id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\SubstituteFont" valueName="Value" />
+        <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\ReplaceFont" valueName="Value" />
+        <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\SubstituteFont" valueName="Value" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="FontPair_9" class="Both" displayName="$(string.name_FontPair_9)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse">
       <parentCategory ref="FontSubstitutions" />
-      <supportedOn ref="supported_LibreOffice_4_2" /><!-- ??? -->
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <!-- ??? -->
       <elements>
-        <boolean id="Always"         key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\Always"         valueName="Value" >
+        <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\Always" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1263,7 +1275,7 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <boolean id="OnScreenOnly"   key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\OnScreenOnly"   valueName="Value" >
+        <boolean id="OnScreenOnly" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\OnScreenOnly" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -1271,26 +1283,26 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <text    id="ReplaceFont"    key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\ReplaceFont"    valueName="Value" />
-        <text    id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\SubstituteFont" valueName="Value" />
+        <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\ReplaceFont" valueName="Value" />
+        <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\SubstituteFont" valueName="Value" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="SelectPDFExport" class="Both" displayName="$(string.name_SelectPDFExport)" explainText="$(string.desc_SelectPDFExport)" presentation="$(presentation.SelectPDFExport)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Filter\PDF\SelectPDFVersion">
-        <parentCategory ref="PDFExport" />
-        <supportedOn ref="supported_LibreOffice_4_2" />
-        <elements>
-          <boolean id="Value" valueName="Value">
-            <trueValue>
-              <string>true</string>
-            </trueValue>
-            <falseValue>
-              <string>false</string>
-            </falseValue>
-          </boolean>
-          <boolean id="Final" valueName="Final" />
-        </elements>
-      </policy>
+      <parentCategory ref="PDFExport" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
     <policy name="UseSystemPrintDialog" class="Both" displayName="$(string.name_UseSystemPrintDialog)" explainText="$(string.desc_UseSystemPrintDialog)" presentation="$(presentation.UseSystemPrintDialog)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\UseSystemPrintDialog">
       <parentCategory ref="FileandPrintdialogs" />
       <supportedOn ref="supported_LibreOffice_4_2" />
@@ -1596,7 +1608,8 @@
         <enum id="CompanyNameFlags" valueName="Dummy">
           <item displayName="$(string.ValueFlagsNone)">
             <value>
-              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+              <decimal value="0"/>
+              <!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
             </value>
             <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\o">
               <item valueName="Final">
@@ -1693,7 +1706,8 @@
         <enum id="AddressStreetFlags" valueName="Dummy">
           <item displayName="$(string.ValueFlagsNone)">
             <value>
-              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+              <decimal value="0"/>
+              <!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
             </value>
             <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\street">
               <item valueName="Final">
@@ -1784,7 +1798,8 @@
         <enum id="AddressCityFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\l" valueName="Dummy">
           <item displayName="$(string.ValueFlagsNone)">
             <value>
-              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+              <decimal value="0"/>
+              <!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
             </value>
             <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\l">
               <item valueName="Final">
@@ -1875,7 +1890,8 @@
         <enum id="AddressStateFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\st" valueName="Dummy">
           <item displayName="$(string.ValueFlagsNone)">
             <value>
-              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+              <decimal value="0"/>
+              <!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
             </value>
             <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\st">
               <item valueName="Final">
@@ -1966,7 +1982,8 @@
         <enum id="AddressPostalCodeFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\postalcode" valueName="Dummy">
           <item displayName="$(string.ValueFlagsNone)">
             <value>
-              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+              <decimal value="0"/>
+              <!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
             </value>
             <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\postalcode">
               <item valueName="Final">
@@ -2057,7 +2074,8 @@
         <enum id="AddressCountryFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\c" valueName="Dummy">
           <item displayName="$(string.ValueFlagsNone)">
             <value>
-              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+              <decimal value="0"/>
+              <!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
             </value>
             <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\c">
               <item valueName="Final">
@@ -2154,7 +2172,8 @@
         <enum id="TelephoneFlags" valueName="Dummy">
           <item displayName="$(string.ValueFlagsNone)">
             <value>
-              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+              <decimal value="0"/>
+              <!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
             </value>
             <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\telephonenumber">
               <item valueName="Final">
@@ -2245,7 +2264,8 @@
         <enum id="FaxFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\facsimiletelephonenumber" valueName="Dummy">
           <item displayName="$(string.ValueFlagsNone)">
             <value>
-              <decimal value="0"/><!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
+              <decimal value="0"/>
+              <!-- We have to use this dummy value, so that GP editor could differentiate which value is active -->
             </value>
             <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\facsimiletelephonenumber">
               <item valueName="Final">
@@ -5647,10 +5667,10 @@
       <elements>
         <boolean id="Value" valueName="Value">
           <trueValue>
-            <string>false</string> <!-- intentionally changed -->
+            <string>false</string>            <!-- intentionally changed -->
           </trueValue>
           <falseValue>
-            <string>true</string> <!-- intentionally changed -->
+            <string>true</string>            <!-- intentionally changed -->
           </falseValue>
         </boolean>
         <boolean id="Final" valueName="Final" />
