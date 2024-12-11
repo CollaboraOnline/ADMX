@@ -913,7 +913,7 @@ I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</
       </presentation>
       <presentation id="ShowTipOfTheDay">
         <checkBox refId="Value">Show Tip of the Day</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">Usa le finestre di dialogo di stampa di sistema</checkBox>
@@ -1989,15 +1989,15 @@ I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</
       </presentation>
       <presentation id="UseSkia">
         <checkBox refId="Value">Use Skia for all rendering</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="ForceSkia">
         <checkBox refId="Value">Force Skia even if blacklisted</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="ForceSkiaRaster">
         <checkBox refId="Value">Force Skia Raster even if blacklisted</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
         <checkBox refId="Value">Converti i colori in scale di grigio</checkBox>
@@ -2112,7 +2112,7 @@ I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</
       </presentation>
       <presentation id="ViewerAppMode">
         <checkBox refId="Value">Enable Viewer mode</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
       </presentation>
     </presentationTable>
   </resources>

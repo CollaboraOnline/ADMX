@@ -911,7 +911,7 @@ Pfade in Pfadlisten müssen durch Leerzeichen getrennt werden.</string>
       </presentation>
       <presentation id="ShowTipOfTheDay">
         <checkBox refId="Value">Show Tip of the Day</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Gesperrt</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
         <checkBox refId="Value">Druckdialog des Systems verwenden</checkBox>
@@ -1987,15 +1987,15 @@ Pfade in Pfadlisten müssen durch Leerzeichen getrennt werden.</string>
       </presentation>
       <presentation id="UseSkia">
         <checkBox refId="Value">Use Skia for all rendering</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Gesperrt</checkBox>
       </presentation>
       <presentation id="ForceSkia">
         <checkBox refId="Value">Force Skia even if blacklisted</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Gesperrt</checkBox>
       </presentation>
       <presentation id="ForceSkiaRaster">
         <checkBox refId="Value">Force Skia Raster even if blacklisted</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Gesperrt</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
         <checkBox refId="Value">Farben in Graustufen umwandeln</checkBox>
@@ -2110,7 +2110,7 @@ Pfade in Pfadlisten müssen durch Leerzeichen getrennt werden.</string>
       </presentation>
       <presentation id="ViewerAppMode">
         <checkBox refId="Value">Enable Viewer mode</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Gesperrt</checkBox>
       </presentation>
     </presentationTable>
   </resources>
