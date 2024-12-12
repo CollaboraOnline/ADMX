@@ -4807,7 +4807,7 @@ msgstr ""
 #: Collabora-Office.adml:728
 #, no-wrap
 msgid ""
-"Disable all editind capabilities of the application; open all documents read-only"
+"Disable all editing capabilities of the application and open all documents read-only."
 msgstr ""
 
 #. (itstool) path: presentation/text

@@ -725,7 +725,7 @@ The following path variables can be used:
 
 Set paths in path lists have to be separated by spaces.</string>
       <string id="name_ViewerAppMode">Viewer mode</string>
-      <string id="desc_ViewerAppMode">Disable all editind capabilities of the application; open all documents read-only</string>
+      <string id="desc_ViewerAppMode">Disable all editing capabilities of the application and open all documents read-only.</string>
     </stringTable>
     <presentationTable>
       <presentation id="LDAPConfigBackendSettings">

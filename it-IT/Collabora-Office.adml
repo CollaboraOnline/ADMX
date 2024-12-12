@@ -728,7 +728,7 @@ Si possono utilizzare le seguenti variabili di percorso:
 
 I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</string>
       <string id="name_ViewerAppMode">Viewer mode</string>
-      <string id="desc_ViewerAppMode">Disable all editind capabilities of the application; open all documents read-only</string>
+      <string id="desc_ViewerAppMode">Disable all editing capabilities of the application and open all documents read-only.</string>
     </stringTable>
     <presentationTable>
       <presentation id="LDAPConfigBackendSettings">
