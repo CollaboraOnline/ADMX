@@ -2539,7 +2539,7 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-    <policy name="WriterDefaultTemplate" class="Both" displayName="$(string.DefaultTemplate)" explainText="$(string.desc_WriterDefaultTemplate)" presentation="$(presentation.WriterDefaultTemplate)" key="Software\Policies\LibreOffice\org.openoffice.Setup\Office\Factories\Factory['com.sun.star.text.TextDocument']">
+    <policy name="WriterDefaultTemplate" class="Both" displayName="$(string.DefaultTemplate)" explainText="$(string.desc_WriterDefaultTemplate)" presentation="$(presentation.WriterDefaultTemplate)" key="Software\Policies\LibreOffice\org.openoffice.Setup\Office\Factories\Factory['com.sun.star.text.TextDocument']\ooSetupFactoryTemplateFile">
       <parentCategory ref="WriterDefaultTemplate" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
@@ -2547,7 +2547,7 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-    <policy name="CalcDefaultTemplate" class="Both" displayName="$(string.DefaultTemplate)" explainText="$(string.desc_CalcDefaultTemplate)" presentation="$(presentation.CalcDefaultTemplate)" key="Software\Policies\LibreOffice\org.openoffice.Setup\Office\Factories\Factory['com.sun.star.sheet.SpreadsheetDocument']">
+    <policy name="CalcDefaultTemplate" class="Both" displayName="$(string.DefaultTemplate)" explainText="$(string.desc_CalcDefaultTemplate)" presentation="$(presentation.CalcDefaultTemplate)" key="Software\Policies\LibreOffice\org.openoffice.Setup\Office\Factories\Factory['com.sun.star.sheet.SpreadsheetDocument']\ooSetupFactoryTemplateFile">
       <parentCategory ref="CalcDefaultTemplate" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
@@ -2555,7 +2555,7 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-    <policy name="ImpressDefaultTemplate" class="Both" displayName="$(string.DefaultTemplate)" explainText="$(string.desc_ImpressDefaultTemplate)" presentation="$(presentation.ImpressDefaultTemplate)" key="Software\Policies\LibreOffice\org.openoffice.Setup\Office\Factories\Factory['com.sun.star.presentation.PresentationDocument']">
+    <policy name="ImpressDefaultTemplate" class="Both" displayName="$(string.DefaultTemplate)" explainText="$(string.desc_ImpressDefaultTemplate)" presentation="$(presentation.ImpressDefaultTemplate)" key="Software\Policies\LibreOffice\org.openoffice.Setup\Office\Factories\Factory['com.sun.star.presentation.PresentationDocument']\ooSetupFactoryTemplateFile">
       <parentCategory ref="ImpressDefaultTemplate" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
