@@ -5601,7 +5601,7 @@
         <boolean id="ODFFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Formula\Load\ODFRecalcMode" valueName="Final" />
       </elements>
     </policy>
-    <policy name="EmptyMergedCells" class="Both" displayName="$(string.name_EmptyMergedCells)" explainText="$(string.desc_EmptyMergedCells)" presentation="$(presentation.EmptyMergedCells)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Compatibility\MergeCells\ShowDialog">
+    <policy name="EmptyMergedCells" class="Both" displayName="$(string.name_EmptyMergedCells)" explainText="$(string.desc_EmptyMergedCells)" presentation="$(presentation.EmptyMergedCells)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Compatibility\MergeCells\EmptyMergedCells">
       <parentCategory ref="MergeCells" />
       <supportedOn ref="supported_LibreOffice_5_3" />
       <elements>
