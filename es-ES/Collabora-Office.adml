@@ -30,6 +30,8 @@
       <string id="category_General">Generales</string>
       <string id="name_UseSystemFileDialog">Usar diálogo de apertura de archivos del sistema</string>
       <string id="desc_UseSystemFileDialog">Determina si se debe utilizar el selector de archivos y carpetas de Windows. Si el valor es falso, se empleará el cuadro de diálogo multiplataforma incorporado.</string>
+      <string id="name_AllowOverrideLocking">Allow override document locking</string>
+      <string id="desc_AllowOverrideLocking">Specifies whether the user is allowed to override the document locking mechanism in LibreOffice/Collabora Office. If disabled and the document is already opened by another user, the current user can open a document only as a copy or in read only mode.</string>
       <string id="name_CollectUsageInformation">Ayudar a mejorar LibreOffice</string>
       <string id="desc_CollectUsageInformation">Recopilar datos de uso y enviarlos a The Document Foundation</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
@@ -903,6 +905,10 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">Usar diálogo de apertura de archivos del sistema</checkBox>
         <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="AllowOverrideLocking">
+        <checkBox refId="Value">Enable or disable override locking</checkBox>
+        <checkBox refId="Final">Prevent the user from changing this setting</checkBox>
       </presentation>
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Recopilar datos de uso y enviarlos a The Document Foundation</checkBox>

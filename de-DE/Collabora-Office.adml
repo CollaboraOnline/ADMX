@@ -30,6 +30,8 @@
       <string id="category_General">Allgemein</string>
       <string id="name_UseSystemFileDialog">Dateidialoge des Systems verwenden</string>
       <string id="desc_UseSystemFileDialog">Legt fest, ob der Windows Dialog zum Wählen von Dateien und Ordnern (z.B. beim "Speichern unter") genutzt werden soll. Falls nicht, werden integrierte plattformübergreifende Implementierungen genutzt.</string>
+      <string id="name_AllowOverrideLocking">Allow override document locking</string>
+      <string id="desc_AllowOverrideLocking">Specifies whether the user is allowed to override the document locking mechanism in LibreOffice/Collabora Office. If disabled and the document is already opened by another user, the current user can open a document only as a copy or in read only mode.</string>
       <string id="name_CollectUsageInformation">Mithelfen, LibreOffice zu verbessern</string>
       <string id="desc_CollectUsageInformation">Nutzungsdaten sammeln und an die The Document Foundation senden</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
@@ -904,6 +906,10 @@ Pfade in Pfadlisten müssen durch Leerzeichen getrennt werden.</string>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">Dateidialoge des Systems verwenden</checkBox>
         <checkBox refId="Final">Gesperrt</checkBox>
+      </presentation>
+      <presentation id="AllowOverrideLocking">
+        <checkBox refId="Value">Enable or disable override locking</checkBox>
+        <checkBox refId="Final">Prevent the user from changing this setting</checkBox>
       </presentation>
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Nutzungsdaten sammeln und an die The Document Foundation senden</checkBox>

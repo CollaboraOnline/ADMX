@@ -30,6 +30,8 @@
       <string id="category_General">Geral</string>
       <string id="name_UseSystemFileDialog">Use a Caixa de Diálogo do Arquivo de Sistema</string>
       <string id="desc_UseSystemFileDialog">Determina se o seletor de arquivos e pastas do Windows deve ser usado. Se não,  a plataforma embutida independente de arquivos / pastas será usada.</string>
+      <string id="name_AllowOverrideLocking">Allow override document locking</string>
+      <string id="desc_AllowOverrideLocking">Specifies whether the user is allowed to override the document locking mechanism in LibreOffice/Collabora Office. If disabled and the document is already opened by another user, the current user can open a document only as a copy or in read only mode.</string>
       <string id="name_CollectUsageInformation">Ajude a melhorar o LibreOffice</string>
       <string id="desc_CollectUsageInformation">Colete dados de uso e envie-os para The Document Foundation</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
@@ -903,6 +905,10 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">Use a Caixa de Diálogo do Arquivo de Sistema</checkBox>
         <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="AllowOverrideLocking">
+        <checkBox refId="Value">Enable or disable override locking</checkBox>
+        <checkBox refId="Final">Prevent the user from changing this setting</checkBox>
       </presentation>
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Colete dados de uso e envie-os para The Document Foundation</checkBox>

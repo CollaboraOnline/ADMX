@@ -30,6 +30,8 @@
       <string id="category_General">Általános</string>
       <string id="name_UseSystemFileDialog">A rendszer fájl párbeszédablakának használata</string>
       <string id="desc_UseSystemFileDialog">Megadja, hogy a Windows fájl- és mappaválasztó ablakát kell-e használni. Ha hamis, a beépített platformfüggetlen fájl- és mappaválasztó ablakok lesznek használva.</string>
+      <string id="name_AllowOverrideLocking">Allow override document locking</string>
+      <string id="desc_AllowOverrideLocking">Specifies whether the user is allowed to override the document locking mechanism in LibreOffice/Collabora Office. If disabled and the document is already opened by another user, the current user can open a document only as a copy or in read only mode.</string>
       <string id="name_CollectUsageInformation">Segítsen a LibreOffice tökéletesítésében</string>
       <string id="desc_CollectUsageInformation">Felhasználási adatok gyűjtése és elküldése a The Document Foundationnek</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
@@ -904,6 +906,10 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">A rendszer fájl párbeszédablakának használata</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="AllowOverrideLocking">
+        <checkBox refId="Value">Enable or disable override locking</checkBox>
+        <checkBox refId="Final">Prevent the user from changing this setting</checkBox>
       </presentation>
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Felhasználási adatok gyűjtése és elküldése a The Document Foundationnek</checkBox>
