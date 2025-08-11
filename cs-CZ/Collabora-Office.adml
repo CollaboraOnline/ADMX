@@ -30,6 +30,8 @@
       <string id="category_General">Obecné</string>
       <string id="name_UseSystemFileDialog">Použít systémový souborový dialog</string>
       <string id="desc_UseSystemFileDialog">Determines if Windows' file and folder picker should be used. If false, the built-in platform independent file/folder picker implementations will be used.</string>
+      <string id="name_AllowOverrideLocking">Allow override document locking</string>
+      <string id="desc_AllowOverrideLocking">Specifies whether the user is allowed to override the document locking mechanism in LibreOffice/Collabora Office. If disabled and the document is already opened by another user, the current user can open a document only as a copy or in read only mode.</string>
       <string id="name_CollectUsageInformation">Pomozte vylepšit LibreOffice</string>
       <string id="desc_CollectUsageInformation">Shromažďovat údaje o používání a posílat je do The Document Foundation</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
@@ -903,6 +905,10 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">Použít systémový souborový dialog</checkBox>
         <checkBox refId="Final">Konečné</checkBox>
+      </presentation>
+      <presentation id="AllowOverrideLocking">
+        <checkBox refId="Value">Enable or disable override locking</checkBox>
+        <checkBox refId="Final">Prevent the user from changing this setting</checkBox>
       </presentation>
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Shromažďovat údaje o používání a posílat je do The Document Foundation</checkBox>

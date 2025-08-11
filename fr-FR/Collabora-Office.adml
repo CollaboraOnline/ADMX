@@ -32,6 +32,8 @@
       <string id="category_General">Général</string>
       <string id="name_UseSystemFileDialog">Utilisez la boîte de dialogue fichier du système</string>
       <string id="desc_UseSystemFileDialog">Spécifie si les boîtes de dialogue de Windows permettent d'ouvrir et d'enregistrer des documents. Si ce n'est pas le cas, ce sont les boîtes de dialogue de LibreOffice qui seront utilisées.</string>
+      <string id="name_AllowOverrideLocking">Autorisez le contournement du verrouillage d'un document</string>
+      <string id="desc_AllowOverrideLocking">Détermine si l'utilisateur peut contourner le verrouillage de document dans LibreOffice/Collabora Office. Si désactivé et que le document est déjà ouvert par un autre utilisateur, l'utilisateur actuel ne pourra l'ouvrir qu'en copie ou en mode lecture seule.</string>
       <string id="name_CollectUsageInformation">Aider à améliorer LibreOffice</string>
       <string id="desc_CollectUsageInformation">Collecter des données d'usage et les envoyer à The Document Foundation</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
@@ -919,6 +921,10 @@ Les chemins définis dans une liste doivent être séparés par des espaces.</st
       </presentation>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">Utilisez la boîte de dialogue fichier du système</checkBox>
+        <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="AllowOverrideLocking">
+        <checkBox refId="Value">Activer ou désactiver le contournement du verrouillage</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="CollectUsageInformation">

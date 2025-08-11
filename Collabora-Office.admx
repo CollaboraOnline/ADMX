@@ -853,6 +853,21 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
+    <policy name="AllowOverrideLocking" class="User" displayName="$(string.name_AllowOverrideLocking)" explainText="$(string.desc_AllowOverrideLocking)" presentation="$(presentation.AllowOverrideLocking)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\AllowOverrideLocking">
+      <parentCategory ref="General" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
     <policy name="ConvertToGreyscales" class="Both" displayName="$(string.name_ConvertToGreyscales)" explainText="$(string.desc_ConvertToGreyscales)" presentation="$(presentation.ConvertToGreyscales)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Print\Option\Printer\ConvertToGreyscales">
       <parentCategory ref="Print" />
       <supportedOn ref="supported_LibreOffice_4_2" />

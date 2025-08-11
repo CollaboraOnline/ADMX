@@ -32,6 +32,8 @@
       <string id="category_General">Generale</string>
       <string id="name_UseSystemFileDialog">Utilizza le finestre di dialogo di sistema</string>
       <string id="desc_UseSystemFileDialog">Specifica se vengono utilizzate le finestre di dialogo di apertura file e cartelle di Windows. Se falso, saranno utilizzate quelle implementate in LibreOffice.</string>
+      <string id="name_AllowOverrideLocking">Allow override document locking</string>
+      <string id="desc_AllowOverrideLocking">Specifies whether the user is allowed to override the document locking mechanism in LibreOffice/Collabora Office. If disabled and the document is already opened by another user, the current user can open a document only as a copy or in read only mode.</string>
       <string id="name_CollectUsageInformation">Aiutaci a migliorare LibreOffice</string>
       <string id="desc_CollectUsageInformation">Raccogli i dati di utilizzo e inviali a The Document Foundation</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
@@ -906,6 +908,10 @@ I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">Utilizza le finestre di dialogo di sistema</checkBox>
         <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="AllowOverrideLocking">
+        <checkBox refId="Value">Enable or disable override locking</checkBox>
+        <checkBox refId="Final">Prevent the user from changing this setting</checkBox>
       </presentation>
       <presentation id="CollectUsageInformation">
         <checkBox refId="Value">Raccogli i dati di utilizzo e inviali a The Document Foundation</checkBox>
