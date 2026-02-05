@@ -26,6 +26,8 @@
 
       <string id="category_LibreOffice">Collabora Office</string>
       <string id="category_Common">Comunes</string>
+      <string id="name_BuiltInHelpNotInstalledPopUp">Warn if local help is not installed</string>
+      <string id="desc_BuiltInHelpNotInstalledPopUp">If checked a pop up is shown when local help is not installed</string>
 
       <string id="category_General">Generales</string>
       <string id="name_UseSystemFileDialog">Usar diálogo de apertura de archivos del sistema</string>
@@ -768,6 +770,10 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
       </presentation>
       <presentation id="UserDefinedSettings">
         <checkBox refId="Value">Cargar configuración específica del usuario con el documento</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="BuiltInHelpNotInstalledPopUp">
+        <checkBox refId="Value">Enable pop up warning local help is not installed</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseUserData">

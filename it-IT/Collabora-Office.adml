@@ -28,6 +28,8 @@
 
       <string id="category_LibreOffice">Collabora Office</string>
       <string id="category_Common">Comune</string>
+      <string id="name_BuiltInHelpNotInstalledPopUp">Avvisa se l'help locale non è installato</string>
+      <string id="desc_BuiltInHelpNotInstalledPopUp">Se abilitato, un pop up mostra se l'help locale non è installato</string>
 
       <string id="category_General">Generale</string>
       <string id="name_UseSystemFileDialog">Utilizza le finestre di dialogo di sistema</string>
@@ -772,6 +774,10 @@ I percorsi impostati nelle liste dei percorsi devono essere separati da spazi.</
       <presentation id="UserDefinedSettings">
         <checkBox refId="Value">Carica le impostazioni specifiche dell'utente con il documento</checkBox>
         <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="BuiltInHelpNotInstalledPopUp">
+        <checkBox refId="Value">Abiliti il pop up che avvisa chje l'help locale non è installato</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseUserData">
         <checkBox refId="Value">Utilizza i dati utente per le proprietà del documento</checkBox>

@@ -178,6 +178,21 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
+    <policy name="BuiltInHelpNotInstalledPopUp" class="Both" displayName="$(string.name_BuiltInHelpNotInstalledPopUp)" explainText="$(string.desc_BuiltInHelpNotInstalledPopUp)" presentation="$(presentation.BuiltInHelpNotInstalledPopUp)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Help\BuiltInHelpNotInstalledPopUp">
+      <parentCategory ref="General" />
+      <supportedOn ref="supported_LibreOffice_7" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
     <policy name="HTMLExportBrowser" class="Both" displayName="$(string.name_HTMLExportBrowser)" explainText="$(string.desc_HTMLExportBrowser)" presentation="$(presentation.HTMLExportBrowser)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Filter\HTML\Export\Browser">
       <parentCategory ref="LoadandSave" />
       <supportedOn ref="supported_LibreOffice_4_2" />
