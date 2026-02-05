@@ -26,6 +26,8 @@
 
       <string id="category_LibreOffice">Collabora Office</string>
       <string id="category_Common">Közös</string>
+      <string id="name_BuiltInHelpNotInstalledPopUp">Warn if local help is not installed</string>
+      <string id="desc_BuiltInHelpNotInstalledPopUp">If checked a pop up is shown when local help is not installed</string>
 
       <string id="category_General">Általános</string>
       <string id="name_UseSystemFileDialog">A rendszer fájl párbeszédablakának használata</string>
@@ -770,6 +772,10 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="UserDefinedSettings">
         <checkBox refId="Value">Felhasználói beállítások betöltése a dokumentummal együtt</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="BuiltInHelpNotInstalledPopUp">
+        <checkBox refId="Value">Enable pop up warning local help is not installed</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseUserData">
         <checkBox refId="Value">Felhasználói adatok használata a dokumentum tulajdonságaiban</checkBox>

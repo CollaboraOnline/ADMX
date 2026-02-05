@@ -26,6 +26,8 @@
 
       <string id="category_LibreOffice">Collabora Office</string>
       <string id="category_Common">Společné</string>
+      <string id="name_BuiltInHelpNotInstalledPopUp">Warn if local help is not installed</string>
+      <string id="desc_BuiltInHelpNotInstalledPopUp">If checked a pop up is shown when local help is not installed</string>
 
       <string id="category_General">Obecné</string>
       <string id="name_UseSystemFileDialog">Použít systémový souborový dialog</string>
@@ -769,6 +771,10 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="UserDefinedSettings">
         <checkBox refId="Value">Načíst s dokumentem i nastavení konkrétního uživatele</checkBox>
         <checkBox refId="Final">Konečné</checkBox>
+      </presentation>
+      <presentation id="BuiltInHelpNotInstalledPopUp">
+        <checkBox refId="Value">Enable pop up warning local help is not installed</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseUserData">
         <checkBox refId="Value">Použít pro vlastnosti dokumentu údaje o uživateli</checkBox>
