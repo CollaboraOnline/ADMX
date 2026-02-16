@@ -161,7 +161,9 @@ Valor predeterminado: macros activadas</string>
       <string id="name_EnableExpertConfiguration">Activar configuración para expertos</string>
       <string id="desc_EnableExpertConfiguration">Determina si los usuarios pueden acceder a la configuración completa mediante el botón «Configuración para expertos».</string>
       <string id="name_SecureURL">Ubicaciones de archivos de confianza</string>
-
+      <string id="name_DisableExtensionInstallation">Disable extension installation</string>
+      <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions.</string>
+      
       <string id="category_Filters">Desactivar filtros de formatos de archivo</string>
 
       <string id="name_ADO_Rowset_XML">XML de Ado Rowset</string>
@@ -1229,6 +1231,14 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
         <textBox refId="Value">
           <label>Lista de rutas:</label>
         </textBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionInstallation">
+        <checkBox refId="Value">Disable extension installation</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionRemoval">
+        <checkBox refId="Value">Disable extension removal</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ADO_Rowset_XML">

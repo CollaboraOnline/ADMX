@@ -161,7 +161,9 @@ Valor padrão: Macros habilitados</string>
       <string id="name_EnableExpertConfiguration">Habilitar Configuração para Especialista</string>
       <string id="desc_EnableExpertConfiguration">Determina se o usuário tem acesso a toda a configuração por meio do botão Configuração de Especialista.</string>
       <string id="name_SecureURL">Locais de arquivos confiáveis</string>
-
+      <string id="name_DisableExtensionInstallation">Disable extension installation</string>
+      <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions.</string>
+      
       <string id="category_Filters">Desativar filtros de formato de arquivo</string>
 
       <string id="name_ADO_Rowset_XML">Conjunto de Linhas ADO do XML</string>
@@ -1229,6 +1231,14 @@ Set paths in path lists have to be separated by spaces.</string>
         <textBox refId="Value">
           <label>Path list: </label>
         </textBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionInstallation">
+        <checkBox refId="Value">Disable extension installation</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionRemoval">
+        <checkBox refId="Value">Disable extension removal</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ADO_Rowset_XML">

@@ -164,7 +164,9 @@ Valeur par défaut : Macros activés</string>
       <string id="name_EnableExpertConfiguration">Activer la configuration avancée</string>
       <string id="desc_EnableExpertConfiguration">Détermine si l'utilisateur a accès à la configuration avancée via le bouton Ouvrir la configuration avancée.</string>
       <string id="name_SecureURL">Emplacement de fichies de confiances</string>
-
+      <string id="name_DisableExtensionInstallation">Disable extension installation</string>
+      <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions.</string>
+      
       <string id="category_Filters">Désactiver les filtres de format de fichier</string>
 
       <string id="name_ADO_Rowset_XML">ADO Rowset XML</string>
@@ -1247,6 +1249,14 @@ Les chemins définis dans une liste doivent être séparés par des espaces.</st
           <label>Liste de(s) chemin(s) :</label>
         </textBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionInstallation">
+        <checkBox refId="Value">Disable extension installation</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionRemoval">
+        <checkBox refId="Value">Disable extension removal</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ADO_Rowset_XML">
         <checkBox refId="Value">Disable ADO Rowset XML</checkBox>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
+<!--  -->
 <policyDefinitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0"
   xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
@@ -2856,6 +2857,36 @@
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
         <text id="Value" valueName="Value" />
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="DisableExtensionInstallation" class="Both" displayName="$(string.name_DisableExtensionInstallation)" explainText="$(string.desc_DisableExtensionInstallation)" presentation="$(presentation.DisableExtensionInstallation)" key="Software\Policies\LibreOffice\org.openoffice.Office.ExtensionManager\ExtensionSecurity\DisableExtensionInstallation">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="DisableExtensionRemoval" class="Both" displayName="$(string.name_DisableExtensionRemoval)" explainText="$(string.desc_DisableExtensionRemoval)" presentation="$(presentation.DisableExtensionRemoval)" key="Software\Policies\LibreOffice\org.openoffice.Office.ExtensionManager\ExtensionSecurity\DisableExtensionRemoval">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>

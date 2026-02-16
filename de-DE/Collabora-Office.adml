@@ -162,7 +162,9 @@ Standardeinstellung: Makros aktiviert</string>
       <string id="name_EnableExpertConfiguration">Experteneinstellungen aktivieren</string>
       <string id="desc_EnableExpertConfiguration">Legt fest, ob der Nutzer über den Button "Experteneinstellungen" Zugriff auf die gesamte Konfiguration hat.</string>
       <string id="name_SecureURL">Vertrauenswürdige Speicherorte</string>
-
+      <string id="name_DisableExtensionInstallation">Disable extension installation</string>
+      <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions.</string>
+      
       <string id="category_Filters">Deaktiviere Dateiformatfilter</string>
 
       <string id="name_ADO_Rowset_XML">ADO Rowset XML</string>
@@ -1231,6 +1233,14 @@ Pfade in Pfadlisten müssen durch Leerzeichen getrennt werden.</string>
           <label>Pfadliste:</label>
         </textBox>
         <checkBox refId="Final">Gesperrt</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionInstallation">
+        <checkBox refId="Value">Disable extension installation</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionRemoval">
+        <checkBox refId="Value">Disable extension removal</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ADO_Rowset_XML">
         <checkBox refId="Value">Deaktiviere ADO Rowset XML</checkBox>
