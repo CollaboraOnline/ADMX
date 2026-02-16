@@ -159,6 +159,8 @@ Default value: Macros enabled</string>
       <string id="name_EnableExpertConfiguration">Enable Expert Configuration</string>
       <string id="desc_EnableExpertConfiguration">Determines if the user has access to the entire configuration via the Expert Configuration button.</string>
       <string id="name_SecureURL">Trusted file locations</string>
+      <string id="name_DisableExtensionInstallation">Disable extension installation</string>
+      <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions.</string>
 
       <string id="category_Filters">Disable file format filters</string>
 
@@ -1224,6 +1226,14 @@ Set paths in path lists have to be separated by spaces.</string>
           <label>Path list: </label>
         </textBox>
         <checkBox refId="Final">Konečné</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionInstallation">
+        <checkBox refId="Value">Disable extension installation</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionRemoval">
+        <checkBox refId="Value">Disable extension removal</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ADO_Rowset_XML">
         <checkBox refId="Value">Disable ADO Rowset XML</checkBox>

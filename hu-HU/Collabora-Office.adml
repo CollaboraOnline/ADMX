@@ -160,7 +160,9 @@ Alapértelmezés: Makrók engedélyezése</string>
       <string id="name_EnableExpertConfiguration">Speciális beállítások engedélyezése</string>
       <string id="desc_EnableExpertConfiguration">Megadja, hogy a felhasználó hozzáfér-e minden beállításhoz a Speciális beállítások gombbal.</string>
       <string id="name_SecureURL">Megbízható fájlelérési útvonalak</string>
-
+      <string id="name_DisableExtensionInstallation">Disable extension installation</string>
+      <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions.</string>
+      
       <string id="category_Filters">Disable file format filters</string>
 
       <string id="name_ADO_Rowset_XML">ADO Rowset XML</string>
@@ -1225,6 +1227,14 @@ Set paths in path lists have to be separated by spaces.</string>
           <label>Útvonallista:</label>
         </textBox>
         <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionInstallation">
+        <checkBox refId="Value">Disable extension installation</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionRemoval">
+        <checkBox refId="Value">Disable extension removal</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ADO_Rowset_XML">
         <checkBox refId="Value">Disable ADO Rowset XML</checkBox>
