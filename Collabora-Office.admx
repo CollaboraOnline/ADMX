@@ -2777,7 +2777,7 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-    <policy name="WarnCreatePDF" class="Both" displayName="$(string.name_WarnCreatePDF)" explainText="$(string.name_WarnCreatePDF)" presentation="$(presentation.WarnCreatePDF)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\WarnCreatePDF">
+    <policy name="WarnCreatePDF" class="Both" displayName="$(string.name_WarnCreatePDF)" explainText="$(string.desc_WarnCreatePDF)" presentation="$(presentation.WarnCreatePDF)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\WarnCreatePDF">
       <parentCategory ref="Security" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
