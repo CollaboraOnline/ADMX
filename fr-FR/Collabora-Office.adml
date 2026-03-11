@@ -166,7 +166,9 @@ Valeur par défaut : Macros activés</string>
       <string id="name_SecureURL">Emplacement de fichies de confiances</string>
       <string id="name_DisableExtensionInstallation">Disable extension installation</string>
       <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions.</string>
-      
+      <string id="name_DisableExtensionRemoval">Disable extension removal</string>
+      <string id="desc_DisableExtensionRemoval">Disable the possibility to remove installed extensions.</string>
+
       <string id="category_Filters">Désactiver les filtres de format de fichier</string>
 
       <string id="name_ADO_Rowset_XML">ADO Rowset XML</string>

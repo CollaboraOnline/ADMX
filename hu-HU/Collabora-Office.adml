@@ -164,7 +164,9 @@ Alapértelmezés: Makrók engedélyezése</string>
       <string id="name_SecureURL">Megbízható fájlelérési útvonalak</string>
       <string id="name_DisableExtensionInstallation">Disable extension installation</string>
       <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions.</string>
-      
+      <string id="name_DisableExtensionRemoval">Disable extension removal</string>
+      <string id="desc_DisableExtensionRemoval">Disable the possibility to remove installed extensions.</string>
+
       <string id="category_Filters">Disable file format filters</string>
 
       <string id="name_ADO_Rowset_XML">ADO Rowset XML</string>

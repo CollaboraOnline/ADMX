@@ -163,7 +163,9 @@ Valor predeterminado: macros activadas</string>
       <string id="name_SecureURL">Ubicaciones de archivos de confianza</string>
       <string id="name_DisableExtensionInstallation">Disable extension installation</string>
       <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions.</string>
-      
+      <string id="name_DisableExtensionRemoval">Disable extension removal</string>
+      <string id="desc_DisableExtensionRemoval">Disable the possibility to remove installed extensions.</string>
+
       <string id="category_Filters">Desactivar filtros de formatos de archivo</string>
 
       <string id="name_ADO_Rowset_XML">XML de Ado Rowset</string>
