@@ -27,7 +27,7 @@
       <string id="category_LibreOffice">Collabora Office</string>
       <string id="category_Common">Common</string>
       <string id="name_BuiltInHelpNotInstalledPopUp">Warn if local help is not installed</string>
-      <string id="desc_BuiltInHelpNotInstalledPopUp">If checked a pop up is shown when local help is not installed</string>
+      <string id="desc_BuiltInHelpNotInstalledPopUp">If checked, a pop-up is shown when local help is not installed</string>
 
       <string id="category_General">General</string>
       <string id="name_UseSystemFileDialog">Use System File Dialog</string>
@@ -778,7 +778,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="BuiltInHelpNotInstalledPopUp">
-        <checkBox refId="Value">Enable pop up warning local help is not installed</checkBox>
+        <checkBox refId="Value">Warn when local help is not installed</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseUserData">

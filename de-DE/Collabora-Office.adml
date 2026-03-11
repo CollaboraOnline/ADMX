@@ -27,7 +27,7 @@
       <string id="category_LibreOffice">Collabora Office</string>
       <string id="category_Common">Übergreifend</string>
       <string id="name_BuiltInHelpNotInstalledPopUp">Warn if local help is not installed</string>
-      <string id="desc_BuiltInHelpNotInstalledPopUp">If checked a pop up is shown when local help is not installed</string>
+      <string id="desc_BuiltInHelpNotInstalledPopUp">If checked, a pop-up is shown when local help is not installed</string>
 
       <string id="category_General">Allgemein</string>
       <string id="name_UseSystemFileDialog">Dateidialoge des Systems verwenden</string>
@@ -776,7 +776,7 @@ Pfade in Pfadlisten müssen durch Leerzeichen getrennt werden.</string>
         <checkBox refId="Final">Gesperrt</checkBox>
       </presentation>
       <presentation id="BuiltInHelpNotInstalledPopUp">
-        <checkBox refId="Value">Enable pop up warning local help is not installed</checkBox>
+        <checkBox refId="Value">Warn when local help is not installed</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseUserData">

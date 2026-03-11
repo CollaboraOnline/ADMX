@@ -452,7 +452,7 @@ msgstr ""
 #: Collabora-Office.adml:30
 #, no-wrap
 msgid ""
-"If checked a pop up is shown when local help is not installed"
+"If checked, a pop-up is shown when local help is not installed"
 msgstr ""
 
 #. (itstool) path: stringTable/string
@@ -4916,7 +4916,7 @@ msgstr ""
 
 #. (itstool) path: presentation/checkBox
 #: Collabora-Office.adml:776
-msgid "Enable pop up warning local help is not installed"
+msgid "Warn when local help is not installed"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox

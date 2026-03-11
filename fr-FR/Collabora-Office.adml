@@ -29,7 +29,7 @@
       <string id="category_LibreOffice">Collabora Office</string>
       <string id="category_Common">Commun</string>
       <string id="name_BuiltInHelpNotInstalledPopUp">Warn if local help is not installed</string>
-      <string id="desc_BuiltInHelpNotInstalledPopUp">If checked a pop up is shown when local help is not installed</string>
+      <string id="desc_BuiltInHelpNotInstalledPopUp">If checked, a pop-up is shown when local help is not installed</string>
 
       <string id="category_General">Général</string>
       <string id="name_UseSystemFileDialog">Utilisez la boîte de dialogue fichier du système</string>
@@ -792,7 +792,7 @@ Les chemins définis dans une liste doivent être séparés par des espaces.</st
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="BuiltInHelpNotInstalledPopUp">
-        <checkBox refId="Value">Enable pop up warning local help is not installed</checkBox>
+        <checkBox refId="Value">Warn when local help is not installed</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UseUserData">
