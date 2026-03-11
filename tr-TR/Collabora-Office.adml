@@ -1240,13 +1240,6 @@ Set paths in path lists have to be separated by spaces.</string>
       <presentation id="DisableExtensionRemoval">
         <checkBox refId="Value">Disable extension removal</checkBox>
         <checkBox refId="Final">Final</checkBox>
-      </presentation>      <presentation id="DisableExtensionInstallation">
-        <checkBox refId="Value">Disable extension installation</checkBox>
-        <checkBox refId="Final">Final</checkBox>
-      </presentation>
-      <presentation id="DisableExtensionRemoval">
-        <checkBox refId="Value">Disable extension removal</checkBox>
-        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ADO_Rowset_XML">
         <checkBox refId="Value">Disable ADO Rowset XML</checkBox>
