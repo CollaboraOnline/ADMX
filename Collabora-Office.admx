@@ -2702,6 +2702,81 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
+    <policy name="KeepRedlineInfoOnSaving" class="Both" displayName="$(string.name_KeepRedlineInfoOnSaving)" explainText="$(string.desc_KeepRedlineInfoOnSaving)" presentation="$(presentation.KeepRedlineInfoOnSaving)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\KeepRedlineInfoOnSaving">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="KeepDocUserInfoOnSaving" class="Both" displayName="$(string.name_KeepDocUserInfoOnSaving)" explainText="$(string.desc_KeepDocUserInfoOnSaving)" presentation="$(presentation.KeepDocUserInfoOnSaving)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\KeepDocUserInfoOnSaving">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="KeepNoteAuthorDateInfoOnSaving" class="Both" displayName="$(string.name_KeepNoteAuthorDateInfoOnSaving)" explainText="$(string.desc_KeepNoteAuthorDateInfoOnSaving)" presentation="$(presentation.KeepNoteAuthorDateInfoOnSaving)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\KeepNoteAuthorDateInfoOnSaving">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="KeepDocVersionInfoOnSaving" class="Both" displayName="$(string.name_KeepDocVersionInfoOnSaving)" explainText="$(string.desc_KeepDocVersionInfoOnSaving)" presentation="$(presentation.KeepDocVersionInfoOnSaving)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\KeepDocVersionInfoOnSaving">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="KeepDocPrinterSettingsOnSaving" class="Both" displayName="$(string.name_KeepDocPrinterSettingsOnSaving)" explainText="$(string.desc_KeepDocPrinterSettingsOnSaving)" presentation="$(presentation.KeepDocPrinterSettingsOnSaving)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\KeepDocPrinterSettingsOnSaving">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
     <policy name="RecommendPasswordProtection" class="Both" displayName="$(string.name_RecommendPasswordProtection)" explainText="$(string.desc_RecommendPasswordProtection)" presentation="$(presentation.RecommendPasswordProtection)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\RecommendPasswordProtection">
       <parentCategory ref="Security" />
       <supportedOn ref="supported_LibreOffice_4_2" />
@@ -2720,6 +2795,21 @@
     <policy name="HyperlinksWithCtrlClick" class="Both" displayName="$(string.name_HyperlinksWithCtrlClick)" explainText="$(string.desc_HyperlinksWithCtrlClick)" presentation="$(presentation.HyperlinksWithCtrlClick)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\HyperlinksWithCtrlClick">
       <parentCategory ref="Security" />
       <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="BlockUntrustedRefererLinks" class="Both" displayName="$(string.name_BlockUntrustedRefererLinks)" explainText="$(string.desc_BlockUntrustedRefererLinks)" presentation="$(presentation.BlockUntrustedRefererLinks)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\BlockUntrustedRefererLinks">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
       <elements>
         <boolean id="Value" valueName="Value">
           <trueValue>

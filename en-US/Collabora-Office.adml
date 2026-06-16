@@ -118,6 +118,16 @@ When disabled, the warning will be issued in this case.</string>
       <string id="desc_RemovePersonalInfoOnSaving">Specifies whether to remove personal information on saving.
 
 Default value: Do not remove</string>
+      <string id="name_KeepRedlineInfoOnSaving">Keep track changes information</string>
+      <string id="desc_KeepRedlineInfoOnSaving">Specifies whether to keep track changes information on saving if "Remove personal information on saving" is enabled.</string>
+      <string id="name_KeepDocUserInfoOnSaving">Keep document user information</string>
+      <string id="desc_KeepDocUserInfoOnSaving">Specifies whether to keep document user information on saving if "Remove personal information on saving" is enabled.</string>
+      <string id="name_KeepNoteAuthorDateInfoOnSaving">Keep author name and date of notes</string>
+      <string id="desc_KeepNoteAuthorDateInfoOnSaving">Specifies whether to keep note author and date information on saving if "Remove personal information on saving" is enabled.</string>
+      <string id="name_KeepDocVersionInfoOnSaving">Keep document version information</string>
+      <string id="desc_KeepDocVersionInfoOnSaving">Specifies whether to keep document version information on saving if "Remove personal information on saving" is enabled.</string>
+      <string id="name_KeepDocPrinterSettingsOnSaving">Keep printer settings</string>
+      <string id="desc_KeepDocPrinterSettingsOnSaving">Specifies whether to keep printer settings on saving if "Remove personal information on saving" is enabled.</string>
       <string id="name_RecommendPasswordProtection">Recommend password protection on saving</string>
       <string id="desc_RecommendPasswordProtection">Specifies whether to recommend password protection when saving documents.
 
@@ -125,6 +135,8 @@ Default value: Do not recommend</string>
       <string id="name_HyperlinksWithCtrlClick">Ctrl-click required to follow hyperlinks</string>
       <string id="desc_HyperlinksWithCtrlClick">Specifies whether Ctrl-click is required to follow hyperlinks.
 Default value: Ctrl-click</string>
+      <string id="name_BlockUntrustedRefererLinks">Block links from documents not among the trusted locations</string>
+      <string id="desc_BlockUntrustedRefererLinks">Specifies whether to block any links originating from documents that are not among the trusted locations.</string>
       <string id="name_WarnSaveOrSendDoc">Security warnings when saving or sending</string>
       <string id="desc_WarnSaveOrSendDoc">Specifies whether to warn when saving or sending documents with personal/hidden data.
 
@@ -1193,12 +1205,36 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Value" defaultItem="0">Remove personal information on saving</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
+      <presentation id="KeepRedlineInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep track changes information</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="KeepDocUserInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep document user information</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="KeepNoteAuthorDateInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep author name and date of notes</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="KeepDocVersionInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep document version information</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="KeepDocPrinterSettingsOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep printer settings</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
       <presentation id="RecommendPasswordProtection">
         <checkBox refId="Value" defaultItem="0">Recommend password protection on saving</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="HyperlinksWithCtrlClick">
         <checkBox refId="Value" defaultItem="0">Ctrl-click required to follow hyperlinks</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="BlockUntrustedRefererLinks">
+        <checkBox refId="Value" defaultItem="0">Block links from documents not among the trusted locations</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="WarnSaveOrSendDoc">

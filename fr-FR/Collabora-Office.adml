@@ -120,6 +120,16 @@ S'il est désactivé, l'avertissement sera émis dans ce cas.</string>
       <string id="desc_RemovePersonalInfoOnSaving">Indique s'il faut supprimer les informations personnelles lors de la sauvegarde.
 
 Valeur par défaut : Ne pas recommander</string>
+      <string id="name_KeepRedlineInfoOnSaving">Keep track changes information</string>
+      <string id="desc_KeepRedlineInfoOnSaving">Specifies whether to keep track changes information on saving if "Remove personal information on saving" is enabled.</string>
+      <string id="name_KeepDocUserInfoOnSaving">Keep document user information</string>
+      <string id="desc_KeepDocUserInfoOnSaving">Specifies whether to keep document user information on saving if "Remove personal information on saving" is enabled.</string>
+      <string id="name_KeepNoteAuthorDateInfoOnSaving">Keep author name and date of notes</string>
+      <string id="desc_KeepNoteAuthorDateInfoOnSaving">Specifies whether to keep note author and date information on saving if "Remove personal information on saving" is enabled.</string>
+      <string id="name_KeepDocVersionInfoOnSaving">Keep document version information</string>
+      <string id="desc_KeepDocVersionInfoOnSaving">Specifies whether to keep document version information on saving if "Remove personal information on saving" is enabled.</string>
+      <string id="name_KeepDocPrinterSettingsOnSaving">Keep printer settings</string>
+      <string id="desc_KeepDocPrinterSettingsOnSaving">Specifies whether to keep printer settings on saving if "Remove personal information on saving" is enabled.</string>
       <string id="name_RecommendPasswordProtection">Protection par mot de passe recommandé lors de l'enregistrement</string>
       <string id="desc_RecommendPasswordProtection">Indique s'il faut recommander la protection par mot de passe lors de l'enregistrement des documents.
 
@@ -128,6 +138,8 @@ Valeur par défaut : Ne pas recommander</string>
       <string id="desc_HyperlinksWithCtrlClick">Spécifie si Ctrl-Clic est tenu de suivre les liens hypertexte.
 
 Valeur par défaut : Ctrl-click</string>
+      <string id="name_BlockUntrustedRefererLinks">Block links from documents not among the trusted locations</string>
+      <string id="desc_BlockUntrustedRefererLinks">Specifies whether to block any links originating from documents that are not among the trusted locations.</string>
       <string id="name_WarnSaveOrSendDoc">Avertissements de sécurité lors de l'enregistrement ou de l'envoi</string>
       <string id="desc_WarnSaveOrSendDoc">Spécifie s'il faut avertir lors de l'enregistrement ou de envoi de documents avec des données personnelles/caché.
 
@@ -1209,6 +1221,26 @@ Les chemins définis dans une liste doivent être séparés par des espaces.</st
         <checkBox refId="Value" defaultItem="0">Supprimer les informations personnelles lors de l'enregistrement</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
       </presentation>
+      <presentation id="KeepRedlineInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep track changes information</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="KeepDocUserInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep document user information</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="KeepNoteAuthorDateInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep author name and date of notes</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="KeepDocVersionInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep document version information</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="KeepDocPrinterSettingsOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep printer settings</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
       <presentation id="RecommendPasswordProtection">
         <checkBox refId="Value" defaultItem="0">Protection par mot de passe recommandé lors de l'enregistrement</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
@@ -1216,6 +1248,10 @@ Les chemins définis dans une liste doivent être séparés par des espaces.</st
       <presentation id="HyperlinksWithCtrlClick">
         <checkBox refId="Value" defaultItem="0">Ctrl-clic pour suivre les liens hypertexte</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="BlockUntrustedRefererLinks">
+        <checkBox refId="Value" defaultItem="0">Block links from documents not among the trusted locations</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="WarnSaveOrSendDoc">
         <checkBox refId="Value" defaultItem="0">Avertissements de sécurité lors de l'enregistrement ou de l'envoi</checkBox>

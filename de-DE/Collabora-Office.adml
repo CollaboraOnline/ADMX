@@ -117,6 +117,16 @@ Wenn aktiviert, wird keine Warnung ausgegeben, wenn der Nutzer einen unterstütz
       <string id="desc_RemovePersonalInfoOnSaving">Legt fest, ob persönliche Informationen beim Speichern entfernt werden sollen.
 
 Standardwert: Deaktiviert</string>
+      <string id="name_KeepRedlineInfoOnSaving">Keep track changes information</string>
+      <string id="desc_KeepRedlineInfoOnSaving">Specifies whether to keep track changes information on saving if "Remove personal information on saving" is enabled.</string>
+      <string id="name_KeepDocUserInfoOnSaving">Keep document user information</string>
+      <string id="desc_KeepDocUserInfoOnSaving">Specifies whether to keep document user information on saving if "Remove personal information on saving" is enabled.</string>
+      <string id="name_KeepNoteAuthorDateInfoOnSaving">Keep author name and date of notes</string>
+      <string id="desc_KeepNoteAuthorDateInfoOnSaving">Specifies whether to keep note author and date information on saving if "Remove personal information on saving" is enabled.</string>
+      <string id="name_KeepDocVersionInfoOnSaving">Keep document version information</string>
+      <string id="desc_KeepDocVersionInfoOnSaving">Specifies whether to keep document version information on saving if "Remove personal information on saving" is enabled.</string>
+      <string id="name_KeepDocPrinterSettingsOnSaving">Keep printer settings</string>
+      <string id="desc_KeepDocPrinterSettingsOnSaving">Specifies whether to keep printer settings on saving if "Remove personal information on saving" is enabled.</string>
       <string id="name_RecommendPasswordProtection">Kennwortschutz beim Speichern empfehlen</string>
       <string id="desc_RecommendPasswordProtection">Legt fest, ob ein Passwortschutz empfohlen werden soll, wenn Dokumente abgespeichert werden.
 
@@ -125,6 +135,8 @@ Standardwert: Deaktiviert</string>
       <string id="desc_HyperlinksWithCtrlClick">Legt fest, ob Strg beim Klicken gehalten werden muss, um Hyperlinks zu folgen.
 
 Standardwert: Aktiviert</string>
+      <string id="name_BlockUntrustedRefererLinks">Block links from documents not among the trusted locations</string>
+      <string id="desc_BlockUntrustedRefererLinks">Specifies whether to block any links originating from documents that are not among the trusted locations.</string>
       <string id="name_WarnSaveOrSendDoc">Sicherheitswarnungen beim Speichern oder Senden</string>
       <string id="desc_WarnSaveOrSendDoc">Legt fest, ob beim Speichern oder Senden von Dokumenten mit persönlichen oder versteckten Daten gewarnt werden soll.
 
@@ -1193,6 +1205,26 @@ Pfade in Pfadlisten müssen durch Leerzeichen getrennt werden.</string>
         <checkBox refId="Value" defaultItem="0">Persönliche Informationen beim Speichern entfernen</checkBox>
         <checkBox refId="Final">Gesperrt</checkBox>
       </presentation>
+      <presentation id="KeepRedlineInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep track changes information</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="KeepDocUserInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep document user information</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="KeepNoteAuthorDateInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep author name and date of notes</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="KeepDocVersionInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep document version information</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="KeepDocPrinterSettingsOnSaving">
+        <checkBox refId="Value" defaultItem="0">Keep printer settings</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
       <presentation id="RecommendPasswordProtection">
         <checkBox refId="Value" defaultItem="0">Kennwortschutz beim Speichern empfehlen</checkBox>
         <checkBox refId="Final">Gesperrt</checkBox>
@@ -1200,6 +1232,10 @@ Pfade in Pfadlisten müssen durch Leerzeichen getrennt werden.</string>
       <presentation id="HyperlinksWithCtrlClick">
         <checkBox refId="Value" defaultItem="0">Strg beim Klicken halten, um Hyperlinks zu folgen</checkBox>
         <checkBox refId="Final">Gesperrt</checkBox>
+      </presentation>
+      <presentation id="BlockUntrustedRefererLinks">
+        <checkBox refId="Value" defaultItem="0">Block links from documents not among the trusted locations</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="WarnSaveOrSendDoc">
         <checkBox refId="Value" defaultItem="0">Sicherheitswarnungen beim Speichern oder Senden</checkBox>
