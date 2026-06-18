@@ -552,16 +552,6 @@ Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige W
 
 Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige Wert das LDAP-Attribut. Die LDAP-Backend-Konfiguration legt fest, wie die Verbindung zum LDAP-Server aufgebaut wird.</string>
 
-      <string id="category_Paths">Pfade</string>
-      <string id="name_AutoCorrect">Pfad für AutoKorrektur</string>
-      <string id="name_AutoText">Pfad für AutoText</string>
-      <string id="name_Dictionary">Pfad für Wörterbücher</string>
-      <string id="name_Gallery">Pfad für Gallerien</string>
-      <string id="name_Templates">Pfad für Dokumentvorlagen</string>
-      <string id="name_MyDocuments">Pfad für das Verzeichnis "Meine Dokumente"</string>
-      <string id="name_Graphic">Pfad für Bilder</string>
-      <string id="name_Backup">Pfad für Sicherungskopien</string>
-      <string id="name_Temp">Pfad für temporäre Dateien</string>
 
       <string id="category_Passwords">Passwörter</string>
       <string id="name_TrySystemCredentialsFirst">Nutze Zugangsdaten des Betriebssystems</string>
@@ -852,108 +842,6 @@ Pfade in Pfadlisten müssen durch Leerzeichen getrennt werden.</string>
       <presentation id="WarnAlienFormat">
         <checkBox refId="Value">Warnen, wenn in einem anderen Format als ODF oder dem Standardformat gespeichert wird</checkBox>
         <checkBox refId="Final">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="AutoCorrect">
-        <text>Schreibpfad für AutoKorrektur-Dateien. Dies ist das Verzeichnis, in welches neue Dateien des Nutzers geschrieben werden.</text>
-        <textBox refId="WritePathValue">
-          <label>Pfad:</label>
-          <defaultValue>$(user)/autocorr</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Gesperrt</checkBox>
-        <text>Benutzerpfade für AutoKorrektur-Dateien</text>
-        <textBox refId="UserPathsValue">
-          <label>Pfadliste:</label>
-          <defaultValue>$(inst)/share/autocorr $(user)/autocorr</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="AutoText">
-        <text>Schreibpfad für AutoText-Dateien. Dies ist das Verzeichnis, in welches neue Dateien des Nutzers geschrieben werden.</text>
-        <textBox refId="WritePathValue">
-          <label>Pfad:</label>
-          <defaultValue>$(user)/autotext</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Gesperrt</checkBox>
-        <text>Benutzerpfade für AutoText-Dateien</text>
-        <textBox refId="UserPathsValue">
-          <label>Pfadliste:</label>
-          <defaultValue>$(inst)/share/autotext/$(vlang) $(user)/autotext</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="Dictionary">
-        <text>Schreibpfad für Wörterbuch-Dateien. Dies ist das Verzeichnis, in welches neue Dateien des Nutzers geschrieben werden.</text>
-        <textBox refId="WritePathValue">
-          <label>Pfad:</label>
-          <defaultValue>$(user)/wordbook</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Gesperrt</checkBox>
-        <text>Benutzerpfade für Wörterbuch-Dateien</text>
-        <textBox refId="UserPathsValue">
-          <label>Pfadliste:</label>
-          <defaultValue>$(inst)/share/wordbook $(inst)/share/wordbook/$(vlang) $(user)/wordbook</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="Gallery">
-        <text>Schreibpfad für Gallerie-Dateien. Dies ist das Verzeichnis, in welches neue Dateien des Nutzers geschrieben werden.</text>
-        <textBox refId="WritePathValue">
-          <label>Pfad:</label>
-          <defaultValue>$(user)/gallery</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Gesperrt</checkBox>
-        <text>Benutzerpfade für Gallerie-Dateien</text>
-        <textBox refId="UserPathsValue">
-          <label>Pfadliste:</label>
-          <defaultValue>$(inst)/share/gallery $(user)/gallery</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="Templates">
-        <text>Schreibpfad für Dokumentvorlagen-Dateien. Dies ist das Verzeichnis, in welches neue Dateien des Nutzers geschrieben werden.</text>
-        <textBox refId="WritePathValue">
-          <label>Pfad:</label>
-          <defaultValue>$(user)/template</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Gesperrt</checkBox>
-        <text>Benutzerpfade für Dokumentvorlagen-Dateien</text>
-        <textBox refId="UserPathsValue">
-          <label>Pfadliste:</label>
-          <defaultValue>$(user)/template</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="MyDocuments">
-        <text>Pfad zum Arbeitsverzeichnis</text>
-        <textBox refId="WritePathValue">
-          <label>Pfad:</label>
-          <defaultValue>$(work)</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="Graphic">
-        <text>Schreibpfad für Bilddateien. Dies ist das Verzeichnis, in welches neue Dateien des Nutzers geschrieben werden.</text>
-        <textBox refId="WritePathValue">
-          <label>Pfad:</label>
-          <defaultValue>$(user)/gallery</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="Backup">
-        <text>Schreibpfad für Sicherungskopien. Dies ist das Verzeichnis, in welches neue Dateien des Nutzers geschrieben werden.</text>
-        <textBox refId="WritePathValue">
-          <label>Pfad:</label>
-          <defaultValue>$(user)/backup</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="Temp">
-        <text>Schreibpfad für Temporäre Dateien. Dies ist das Verzeichnis, in welches neue Dateien des Nutzers geschrieben werden.</text>
-        <textBox refId="WritePathValue">
-          <label>Pfad:</label>
-          <defaultValue>$(temp)</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Gesperrt</checkBox>
       </presentation>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">Dateidialoge des Systems verwenden</checkBox>

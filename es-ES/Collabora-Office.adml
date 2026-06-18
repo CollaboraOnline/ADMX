@@ -551,16 +551,6 @@ Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene
 
 Cuando algúno se configura para utilizar LDAP su valor es el atributo LDAP que contiene el teléfono o fax; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.</string>
 
-      <string id="category_Paths">Rutas</string>
-      <string id="name_AutoCorrect">Ruta de archivos de corrección automática</string>
-      <string id="name_AutoText">Ruta de archivos de texto automático</string>
-      <string id="name_Dictionary">Ruta de archivos de diccionario</string>
-      <string id="name_Gallery">Ruta de archivos de la Galería</string>
-      <string id="name_Templates">Ruta de plantillas</string>
-      <string id="name_MyDocuments">Ruta de carpeta Mis documentos</string>
-      <string id="name_Graphic">Ruta de imágenes</string>
-      <string id="name_Backup">Ruta de copias de seguridad</string>
-      <string id="name_Temp">Ruta de archivos temporales</string>
 
       <string id="category_Passwords">Contraseñas</string>
       <string id="name_TrySystemCredentialsFirst">Usar las credenciales del sistema</string>
@@ -851,108 +841,6 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
       <presentation id="WarnAlienFormat">
         <checkBox refId="Value">Alertar al usuario cuando se guarde en un formato distinto de ODF o del predeterminado</checkBox>
         <checkBox refId="Final">Final</checkBox>
-      </presentation>
-      <presentation id="AutoCorrect">
-        <text>Ruta de escritura de ficheros de Autocorrección.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
-        <textBox refId="WritePathValue">
-          <label>Ruta:</label>
-          <defaultValue>$(user)/autocorr</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
-        <text>Rutas de usuario de los archivos de Autocorrección</text>
-        <textBox refId="UserPathsValue">
-          <label>Lista de rutas:</label>
-          <defaultValue>$(inst)/share/autocorr $(user)/autocorr</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Final</checkBox>
-      </presentation>
-      <presentation id="AutoText">
-        <text>Ruta de escritura de ficheros de AutoTexto.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
-        <textBox refId="WritePathValue">
-          <label>Ruta:</label>
-          <defaultValue>$(user)/autotext</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
-        <text>Rutas de usuario de los archivos de AutoTexto</text>
-        <textBox refId="UserPathsValue">
-          <label>Lista de rutas:</label>
-          <defaultValue>$(inst)/share/autotext/$(vlang) $(user)/autotext</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Final</checkBox>
-      </presentation>
-      <presentation id="Dictionary">
-        <text>Ruta de escritura de ficheros de Diccionario.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
-        <textBox refId="WritePathValue">
-          <label>Ruta:</label>
-          <defaultValue>$(user)/wordbook</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
-        <text>Rutas de usuario de los archivos de Diccionario</text>
-        <textBox refId="UserPathsValue">
-          <label>Lista de rutas:</label>
-          <defaultValue>$(inst)/share/wordbook $(inst)/share/wordbook/$(vlang) $(user)/wordbook</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Final</checkBox>
-      </presentation>
-      <presentation id="Gallery">
-        <text>Ruta de escritura de ficheros de Galería.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
-        <textBox refId="WritePathValue">
-          <label>Ruta:</label>
-          <defaultValue>$(user)/gallery</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
-        <text>Rutas de usuario de los archivos de Galería</text>
-        <textBox refId="UserPathsValue">
-          <label>Lista de rutas:</label>
-          <defaultValue>$(inst)/share/gallery $(user)/gallery</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Final</checkBox>
-      </presentation>
-      <presentation id="Templates">
-        <text>Ruta de escritura de ficheros de Plantillas.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
-        <textBox refId="WritePathValue">
-          <label>Ruta:</label>
-          <defaultValue>$(user)/template</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
-        <text>Rutas de usuario de los archivos de Plantillas</text>
-        <textBox refId="UserPathsValue">
-          <label>Lista de rutas:</label>
-          <defaultValue>$(user)/template</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Final</checkBox>
-      </presentation>
-      <presentation id="MyDocuments">
-        <text>Ubicación de la carpeta Mis documentos.</text>
-        <textBox refId="WritePathValue">
-          <label>Ruta:</label>
-          <defaultValue>$(work)</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
-      </presentation>
-      <presentation id="Graphic">
-        <text>Ruta de escritura de ficheros de Imagen.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
-        <textBox refId="WritePathValue">
-          <label>Ruta:</label>
-          <defaultValue>$(user)/gallery</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
-      </presentation>
-      <presentation id="Backup">
-        <text>Ruta de escritura de ficheros de Backup.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
-        <textBox refId="WritePathValue">
-          <label>Ruta:</label>
-          <defaultValue>$(user)/backup</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
-      </presentation>
-      <presentation id="Temp">
-        <text>Ruta de escritura de ficheros Temporales.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
-        <textBox refId="WritePathValue">
-          <label>Ruta:</label>
-          <defaultValue>$(temp)</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Final</checkBox>
       </presentation>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">Usar diálogo de apertura de archivos del sistema</checkBox>

@@ -554,16 +554,6 @@ Si une partie est défini comme provenant LDAP, alors sa valeur est un attribut 
 
 Si une partie est défini comme provenant LDAP, alors sa valeur est un attribut LDAP; les paramètres de configuration du backend LDAP déterminent comment se connecter au serveur LDAP.</string>
 
-      <string id="category_Paths">Chemins</string>
-      <string id="name_AutoCorrect">Chemin des fichiers d'AutoCorrection</string>
-      <string id="name_AutoText">Chemin des fichiers AutoTexte</string>
-      <string id="name_Dictionary">Chemin des Dictionaires</string>
-      <string id="name_Gallery">Chemin des fichiers de la Galerie</string>
-      <string id="name_Templates">Chemin des modèles</string>
-      <string id="name_MyDocuments">Chemin du dossier Mes Documents</string>
-      <string id="name_Graphic">Chemin des fichiers images</string>
-      <string id="name_Backup">Chemin des fichiers de sauvegardes</string>
-      <string id="name_Temp">Chemin des fichiers temporaires</string>
 
       <string id="category_Passwords">Mot de passe</string>
       <string id="name_TrySystemCredentialsFirst">Utiliser les informations d'identification du système</string>
@@ -868,108 +858,6 @@ Les chemins définis dans une liste doivent être séparés par des espaces.</st
       <presentation id="WarnAlienFormat">
         <checkBox refId="Value">Avertir l'utilisateur quand il sauvegarde un fichier dans format autre que .ODF ou celui défini par défaut.</checkBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
-      </presentation>
-      <presentation id="AutoCorrect">
-        <text>Donnez le chemin des fichiers d'AutoCorrection. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
-        <textBox refId="WritePathValue">
-          <label>Chemin :</label>
-          <defaultValue>$(user)/autocorr</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
-        <text>Donnez le chemin des fichiers d'AutoCorrection</text>
-        <textBox refId="UserPathsValue">
-          <label>Liste de(s) chemin(s) :</label>
-          <defaultValue>$(inst)/share/autocorr $(user)/autocorr</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Verrouiller le paramètre</checkBox>
-      </presentation>
-      <presentation id="AutoText">
-        <text>Donnez le chemin des fichiers AutoTexte. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
-        <textBox refId="WritePathValue">
-          <label>Chemin :</label>
-          <defaultValue>$(user)/autotext</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
-        <text>Donnez le chemin des fichiers AutoTexte</text>
-        <textBox refId="UserPathsValue">
-          <label>Liste de(s) chemin(s) :</label>
-          <defaultValue>$(inst)/share/autotext/$(vlang) $(user)/autotext</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Verrouiller le paramètre</checkBox>
-      </presentation>
-      <presentation id="Dictionary">
-        <text>Donnez le chemin des Dictionaires. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
-        <textBox refId="WritePathValue">
-          <label>Chemin :</label>
-          <defaultValue>$(user)/wordbook</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
-        <text>Chemin utilisateur des Dictionaires</text>
-        <textBox refId="UserPathsValue">
-          <label>Liste de(s) chemin(s) :</label>
-          <defaultValue>$(inst)/share/wordbook $(inst)/share/wordbook/$(vlang) $(user)/wordbook</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Verrouiller le paramètre</checkBox>
-      </presentation>
-      <presentation id="Gallery">
-        <text>Donnez le chemin de la Galerie. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
-        <textBox refId="WritePathValue">
-          <label>Chemin :</label>
-          <defaultValue>$(user)/gallery</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
-        <text>Chemin utilisateur de la Gallerie</text>
-        <textBox refId="UserPathsValue">
-          <label>Liste de(s) chemin(s) :</label>
-          <defaultValue>$(inst)/share/gallery $(user)/gallery</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Verrouiller le paramètre</checkBox>
-      </presentation>
-      <presentation id="Templates">
-        <text>Donnez le chemin des modèles. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
-        <textBox refId="WritePathValue">
-          <label>Chemin :</label>
-          <defaultValue>$(user)/template</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
-        <text>Chemin utilisateur des modèles</text>
-        <textBox refId="UserPathsValue">
-          <label>Liste de(s) chemin(s) :</label>
-          <defaultValue>$(user)/template</defaultValue>
-        </textBox>
-        <checkBox refId="UserPathsFinal">Verrouiller le paramètre</checkBox>
-      </presentation>
-      <presentation id="MyDocuments">
-        <text>Emplacement du dossier Mes Documents.</text>
-        <textBox refId="WritePathValue">
-          <label>Chemin :</label>
-          <defaultValue>$(work)</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
-      </presentation>
-      <presentation id="Graphic">
-        <text>Donnez le chemin des fichiers image. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
-        <textBox refId="WritePathValue">
-          <label>Chemin :</label>
-          <defaultValue>$(user)/gallery</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
-      </presentation>
-      <presentation id="Backup">
-        <text>Donnez le chemin des fichiers de sauvegarde. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
-        <textBox refId="WritePathValue">
-          <label>Chemin :</label>
-          <defaultValue>$(user)/backup</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
-      </presentation>
-      <presentation id="Temp">
-        <text>Donnez le chemin des fichiers Temporaires. C'est l'endroit où les nouveaux fichiers utilisateur sont écrits.</text>
-        <textBox refId="WritePathValue">
-          <label>Chemin :</label>
-          <defaultValue>$(temp)</defaultValue>
-        </textBox>
-        <checkBox refId="WritePathFinal">Verrouiller le paramètre</checkBox>
       </presentation>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">Utilisez la boîte de dialogue fichier du système</checkBox>
