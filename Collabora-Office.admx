@@ -1327,18 +1327,47 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-    <policy name="SelectPDFExport" class="Both" displayName="$(string.name_SelectPDFExport)" explainText="$(string.desc_SelectPDFExport)" presentation="$(presentation.SelectPDFExport)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Filter\PDF\SelectPDFVersion">
+    <policy name="SelectPDFExport" class="Both" displayName="$(string.name_SelectPDFExport)" explainText="$(string.desc_SelectPDFExport)" presentation="$(presentation.SelectPDFExport)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Filter\PDF\Export\SelectPdfVersion">
       <parentCategory ref="PDFExport" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
-        <boolean id="Value" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
+        <enum id="Value" valueName="Value">
+          <item displayName="$(string.pdf_DefaultVersion)">
+            <value>
+              <string>0</string>
+            </value>
+          </item>
+          <item displayName="$(string.pdf_PDF_A_1)">
+            <value>
+              <string>1</string>
+            </value>
+          </item>
+          <item displayName="$(string.pdf_PDF_A_2)">
+            <value>
+              <string>2</string>
+            </value>
+          </item>
+          <item displayName="$(string.pdf_PDF_A_3)">
+            <value>
+              <string>3</string>
+            </value>
+          </item>
+          <item displayName="$(string.pdf_PDF_1_4)">
+            <value>
+              <string>14</string>
+            </value>
+          </item>
+          <item displayName="$(string.pdf_PDF_1_5)">
+            <value>
+              <string>15</string>
+            </value>
+          </item>
+          <item displayName="$(string.pdf_PDF_1_6)">
+            <value>
+              <string>16</string>
+            </value>
+          </item>
+        </enum>
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>

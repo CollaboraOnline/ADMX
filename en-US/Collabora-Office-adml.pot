@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-06-18 12:20+0200\n"
+"POT-Creation-Date: 2026-06-18 15:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,43 +96,41 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:23
-#: en-US/Collabora-Office.adml:809
-#: en-US/Collabora-Office.adml:813
-#: en-US/Collabora-Office.adml:817
-#: en-US/Collabora-Office.adml:821
-#: en-US/Collabora-Office.adml:825
-#: en-US/Collabora-Office.adml:829
-#: en-US/Collabora-Office.adml:831
-#: en-US/Collabora-Office.adml:835
-#: en-US/Collabora-Office.adml:839
-#: en-US/Collabora-Office.adml:843
-#: en-US/Collabora-Office.adml:847
-#: en-US/Collabora-Office.adml:855
-#: en-US/Collabora-Office.adml:861
-#: en-US/Collabora-Office.adml:869
-#: en-US/Collabora-Office.adml:875
-#: en-US/Collabora-Office.adml:883
-#: en-US/Collabora-Office.adml:889
-#: en-US/Collabora-Office.adml:897
-#: en-US/Collabora-Office.adml:903
-#: en-US/Collabora-Office.adml:911
-#: en-US/Collabora-Office.adml:917
-#: en-US/Collabora-Office.adml:925
-#: en-US/Collabora-Office.adml:933
-#: en-US/Collabora-Office.adml:941
-#: en-US/Collabora-Office.adml:949
-#: en-US/Collabora-Office.adml:953
-#: en-US/Collabora-Office.adml:961
-#: en-US/Collabora-Office.adml:965
-#: en-US/Collabora-Office.adml:969
-#: en-US/Collabora-Office.adml:1026
-#: en-US/Collabora-Office.adml:1031
-#: en-US/Collabora-Office.adml:1036
-#: en-US/Collabora-Office.adml:1042
-#: en-US/Collabora-Office.adml:1048
-#: en-US/Collabora-Office.adml:1054
+#: en-US/Collabora-Office.adml:816
+#: en-US/Collabora-Office.adml:820
+#: en-US/Collabora-Office.adml:824
+#: en-US/Collabora-Office.adml:828
+#: en-US/Collabora-Office.adml:832
+#: en-US/Collabora-Office.adml:836
+#: en-US/Collabora-Office.adml:838
+#: en-US/Collabora-Office.adml:842
+#: en-US/Collabora-Office.adml:846
+#: en-US/Collabora-Office.adml:850
+#: en-US/Collabora-Office.adml:854
+#: en-US/Collabora-Office.adml:862
+#: en-US/Collabora-Office.adml:868
+#: en-US/Collabora-Office.adml:876
+#: en-US/Collabora-Office.adml:882
+#: en-US/Collabora-Office.adml:890
+#: en-US/Collabora-Office.adml:896
+#: en-US/Collabora-Office.adml:904
+#: en-US/Collabora-Office.adml:910
+#: en-US/Collabora-Office.adml:918
+#: en-US/Collabora-Office.adml:924
+#: en-US/Collabora-Office.adml:932
+#: en-US/Collabora-Office.adml:940
+#: en-US/Collabora-Office.adml:948
+#: en-US/Collabora-Office.adml:956
+#: en-US/Collabora-Office.adml:960
+#: en-US/Collabora-Office.adml:968
+#: en-US/Collabora-Office.adml:972
+#: en-US/Collabora-Office.adml:976
+#: en-US/Collabora-Office.adml:1033
+#: en-US/Collabora-Office.adml:1038
+#: en-US/Collabora-Office.adml:1043
+#: en-US/Collabora-Office.adml:1049
+#: en-US/Collabora-Office.adml:1055
 #: en-US/Collabora-Office.adml:1061
-#: en-US/Collabora-Office.adml:1063
 #: en-US/Collabora-Office.adml:1068
 #: en-US/Collabora-Office.adml:1070
 #: en-US/Collabora-Office.adml:1075
@@ -141,8 +139,8 @@ msgstr ""
 #: en-US/Collabora-Office.adml:1084
 #: en-US/Collabora-Office.adml:1089
 #: en-US/Collabora-Office.adml:1091
+#: en-US/Collabora-Office.adml:1096
 #: en-US/Collabora-Office.adml:1098
-#: en-US/Collabora-Office.adml:1100
 #: en-US/Collabora-Office.adml:1105
 #: en-US/Collabora-Office.adml:1107
 #: en-US/Collabora-Office.adml:1112
@@ -151,8 +149,8 @@ msgstr ""
 #: en-US/Collabora-Office.adml:1121
 #: en-US/Collabora-Office.adml:1126
 #: en-US/Collabora-Office.adml:1128
+#: en-US/Collabora-Office.adml:1133
 #: en-US/Collabora-Office.adml:1135
-#: en-US/Collabora-Office.adml:1137
 #: en-US/Collabora-Office.adml:1142
 #: en-US/Collabora-Office.adml:1144
 #: en-US/Collabora-Office.adml:1149
@@ -161,269 +159,271 @@ msgstr ""
 #: en-US/Collabora-Office.adml:1158
 #: en-US/Collabora-Office.adml:1163
 #: en-US/Collabora-Office.adml:1165
-#: en-US/Collabora-Office.adml:1169
-#: en-US/Collabora-Office.adml:1173
-#: en-US/Collabora-Office.adml:1177
-#: en-US/Collabora-Office.adml:1181
-#: en-US/Collabora-Office.adml:1187
-#: en-US/Collabora-Office.adml:1193
-#: en-US/Collabora-Office.adml:1199
-#: en-US/Collabora-Office.adml:1205
-#: en-US/Collabora-Office.adml:1211
-#: en-US/Collabora-Office.adml:1217
-#: en-US/Collabora-Office.adml:1221
-#: en-US/Collabora-Office.adml:1225
-#: en-US/Collabora-Office.adml:1229
-#: en-US/Collabora-Office.adml:1233
-#: en-US/Collabora-Office.adml:1237
-#: en-US/Collabora-Office.adml:1241
-#: en-US/Collabora-Office.adml:1245
-#: en-US/Collabora-Office.adml:1249
-#: en-US/Collabora-Office.adml:1253
-#: en-US/Collabora-Office.adml:1257
-#: en-US/Collabora-Office.adml:1261
-#: en-US/Collabora-Office.adml:1265
-#: en-US/Collabora-Office.adml:1269
-#: en-US/Collabora-Office.adml:1273
-#: en-US/Collabora-Office.adml:1277
-#: en-US/Collabora-Office.adml:1281
-#: en-US/Collabora-Office.adml:1285
-#: en-US/Collabora-Office.adml:1289
+#: en-US/Collabora-Office.adml:1170
+#: en-US/Collabora-Office.adml:1172
+#: en-US/Collabora-Office.adml:1176
+#: en-US/Collabora-Office.adml:1180
+#: en-US/Collabora-Office.adml:1184
+#: en-US/Collabora-Office.adml:1188
+#: en-US/Collabora-Office.adml:1194
+#: en-US/Collabora-Office.adml:1200
+#: en-US/Collabora-Office.adml:1206
+#: en-US/Collabora-Office.adml:1212
+#: en-US/Collabora-Office.adml:1218
+#: en-US/Collabora-Office.adml:1224
+#: en-US/Collabora-Office.adml:1228
+#: en-US/Collabora-Office.adml:1232
+#: en-US/Collabora-Office.adml:1236
+#: en-US/Collabora-Office.adml:1240
+#: en-US/Collabora-Office.adml:1244
+#: en-US/Collabora-Office.adml:1248
+#: en-US/Collabora-Office.adml:1252
+#: en-US/Collabora-Office.adml:1256
+#: en-US/Collabora-Office.adml:1260
+#: en-US/Collabora-Office.adml:1264
+#: en-US/Collabora-Office.adml:1268
+#: en-US/Collabora-Office.adml:1272
+#: en-US/Collabora-Office.adml:1276
+#: en-US/Collabora-Office.adml:1280
+#: en-US/Collabora-Office.adml:1284
+#: en-US/Collabora-Office.adml:1288
+#: en-US/Collabora-Office.adml:1292
 #: en-US/Collabora-Office.adml:1296
-#: en-US/Collabora-Office.adml:1300
-#: en-US/Collabora-Office.adml:1304
-#: en-US/Collabora-Office.adml:1308
-#: en-US/Collabora-Office.adml:1312
-#: en-US/Collabora-Office.adml:1316
-#: en-US/Collabora-Office.adml:1320
-#: en-US/Collabora-Office.adml:1324
-#: en-US/Collabora-Office.adml:1328
-#: en-US/Collabora-Office.adml:1332
-#: en-US/Collabora-Office.adml:1336
-#: en-US/Collabora-Office.adml:1340
-#: en-US/Collabora-Office.adml:1344
-#: en-US/Collabora-Office.adml:1348
-#: en-US/Collabora-Office.adml:1352
-#: en-US/Collabora-Office.adml:1356
-#: en-US/Collabora-Office.adml:1360
-#: en-US/Collabora-Office.adml:1364
-#: en-US/Collabora-Office.adml:1368
-#: en-US/Collabora-Office.adml:1372
-#: en-US/Collabora-Office.adml:1376
-#: en-US/Collabora-Office.adml:1380
-#: en-US/Collabora-Office.adml:1384
-#: en-US/Collabora-Office.adml:1388
-#: en-US/Collabora-Office.adml:1392
-#: en-US/Collabora-Office.adml:1396
-#: en-US/Collabora-Office.adml:1400
-#: en-US/Collabora-Office.adml:1404
-#: en-US/Collabora-Office.adml:1408
-#: en-US/Collabora-Office.adml:1412
-#: en-US/Collabora-Office.adml:1416
-#: en-US/Collabora-Office.adml:1420
-#: en-US/Collabora-Office.adml:1424
-#: en-US/Collabora-Office.adml:1428
-#: en-US/Collabora-Office.adml:1432
-#: en-US/Collabora-Office.adml:1436
-#: en-US/Collabora-Office.adml:1440
-#: en-US/Collabora-Office.adml:1444
-#: en-US/Collabora-Office.adml:1448
-#: en-US/Collabora-Office.adml:1452
-#: en-US/Collabora-Office.adml:1456
-#: en-US/Collabora-Office.adml:1460
-#: en-US/Collabora-Office.adml:1464
-#: en-US/Collabora-Office.adml:1468
-#: en-US/Collabora-Office.adml:1472
-#: en-US/Collabora-Office.adml:1476
-#: en-US/Collabora-Office.adml:1480
-#: en-US/Collabora-Office.adml:1484
-#: en-US/Collabora-Office.adml:1488
-#: en-US/Collabora-Office.adml:1492
-#: en-US/Collabora-Office.adml:1496
-#: en-US/Collabora-Office.adml:1500
-#: en-US/Collabora-Office.adml:1504
-#: en-US/Collabora-Office.adml:1508
-#: en-US/Collabora-Office.adml:1512
-#: en-US/Collabora-Office.adml:1516
-#: en-US/Collabora-Office.adml:1520
-#: en-US/Collabora-Office.adml:1524
-#: en-US/Collabora-Office.adml:1528
-#: en-US/Collabora-Office.adml:1532
-#: en-US/Collabora-Office.adml:1536
-#: en-US/Collabora-Office.adml:1540
-#: en-US/Collabora-Office.adml:1544
-#: en-US/Collabora-Office.adml:1548
-#: en-US/Collabora-Office.adml:1552
-#: en-US/Collabora-Office.adml:1556
-#: en-US/Collabora-Office.adml:1560
-#: en-US/Collabora-Office.adml:1564
-#: en-US/Collabora-Office.adml:1568
-#: en-US/Collabora-Office.adml:1572
-#: en-US/Collabora-Office.adml:1576
-#: en-US/Collabora-Office.adml:1580
-#: en-US/Collabora-Office.adml:1584
-#: en-US/Collabora-Office.adml:1588
-#: en-US/Collabora-Office.adml:1592
-#: en-US/Collabora-Office.adml:1596
-#: en-US/Collabora-Office.adml:1600
-#: en-US/Collabora-Office.adml:1604
-#: en-US/Collabora-Office.adml:1608
-#: en-US/Collabora-Office.adml:1612
-#: en-US/Collabora-Office.adml:1616
-#: en-US/Collabora-Office.adml:1620
-#: en-US/Collabora-Office.adml:1624
-#: en-US/Collabora-Office.adml:1628
-#: en-US/Collabora-Office.adml:1632
-#: en-US/Collabora-Office.adml:1636
-#: en-US/Collabora-Office.adml:1640
-#: en-US/Collabora-Office.adml:1644
-#: en-US/Collabora-Office.adml:1648
-#: en-US/Collabora-Office.adml:1652
-#: en-US/Collabora-Office.adml:1656
-#: en-US/Collabora-Office.adml:1660
-#: en-US/Collabora-Office.adml:1664
-#: en-US/Collabora-Office.adml:1668
-#: en-US/Collabora-Office.adml:1672
-#: en-US/Collabora-Office.adml:1676
-#: en-US/Collabora-Office.adml:1680
-#: en-US/Collabora-Office.adml:1684
-#: en-US/Collabora-Office.adml:1688
-#: en-US/Collabora-Office.adml:1692
-#: en-US/Collabora-Office.adml:1696
-#: en-US/Collabora-Office.adml:1700
-#: en-US/Collabora-Office.adml:1704
-#: en-US/Collabora-Office.adml:1708
-#: en-US/Collabora-Office.adml:1712
-#: en-US/Collabora-Office.adml:1716
-#: en-US/Collabora-Office.adml:1720
-#: en-US/Collabora-Office.adml:1724
-#: en-US/Collabora-Office.adml:1728
-#: en-US/Collabora-Office.adml:1732
-#: en-US/Collabora-Office.adml:1736
-#: en-US/Collabora-Office.adml:1740
-#: en-US/Collabora-Office.adml:1744
-#: en-US/Collabora-Office.adml:1748
-#: en-US/Collabora-Office.adml:1752
-#: en-US/Collabora-Office.adml:1756
-#: en-US/Collabora-Office.adml:1760
-#: en-US/Collabora-Office.adml:1764
-#: en-US/Collabora-Office.adml:1768
-#: en-US/Collabora-Office.adml:1772
-#: en-US/Collabora-Office.adml:1776
-#: en-US/Collabora-Office.adml:1780
-#: en-US/Collabora-Office.adml:1784
-#: en-US/Collabora-Office.adml:1788
-#: en-US/Collabora-Office.adml:1792
-#: en-US/Collabora-Office.adml:1796
-#: en-US/Collabora-Office.adml:1800
-#: en-US/Collabora-Office.adml:1804
-#: en-US/Collabora-Office.adml:1808
-#: en-US/Collabora-Office.adml:1812
-#: en-US/Collabora-Office.adml:1816
-#: en-US/Collabora-Office.adml:1820
-#: en-US/Collabora-Office.adml:1824
-#: en-US/Collabora-Office.adml:1828
-#: en-US/Collabora-Office.adml:1832
-#: en-US/Collabora-Office.adml:1836
-#: en-US/Collabora-Office.adml:1840
-#: en-US/Collabora-Office.adml:1844
-#: en-US/Collabora-Office.adml:1848
-#: en-US/Collabora-Office.adml:1852
-#: en-US/Collabora-Office.adml:1856
-#: en-US/Collabora-Office.adml:1860
-#: en-US/Collabora-Office.adml:1864
-#: en-US/Collabora-Office.adml:1868
-#: en-US/Collabora-Office.adml:1872
-#: en-US/Collabora-Office.adml:1876
-#: en-US/Collabora-Office.adml:1880
-#: en-US/Collabora-Office.adml:1884
-#: en-US/Collabora-Office.adml:1888
-#: en-US/Collabora-Office.adml:1892
-#: en-US/Collabora-Office.adml:1896
-#: en-US/Collabora-Office.adml:1900
-#: en-US/Collabora-Office.adml:1904
-#: en-US/Collabora-Office.adml:1908
-#: en-US/Collabora-Office.adml:1912
-#: en-US/Collabora-Office.adml:1916
-#: en-US/Collabora-Office.adml:1920
-#: en-US/Collabora-Office.adml:1924
-#: en-US/Collabora-Office.adml:1928
-#: en-US/Collabora-Office.adml:1932
-#: en-US/Collabora-Office.adml:1936
-#: en-US/Collabora-Office.adml:1940
-#: en-US/Collabora-Office.adml:1944
-#: en-US/Collabora-Office.adml:1948
-#: en-US/Collabora-Office.adml:1952
-#: en-US/Collabora-Office.adml:1956
-#: en-US/Collabora-Office.adml:1960
-#: en-US/Collabora-Office.adml:1964
-#: en-US/Collabora-Office.adml:1968
-#: en-US/Collabora-Office.adml:1972
-#: en-US/Collabora-Office.adml:1976
-#: en-US/Collabora-Office.adml:1980
-#: en-US/Collabora-Office.adml:1984
-#: en-US/Collabora-Office.adml:1988
-#: en-US/Collabora-Office.adml:1992
-#: en-US/Collabora-Office.adml:1996
-#: en-US/Collabora-Office.adml:2000
-#: en-US/Collabora-Office.adml:2004
-#: en-US/Collabora-Office.adml:2008
-#: en-US/Collabora-Office.adml:2012
-#: en-US/Collabora-Office.adml:2016
-#: en-US/Collabora-Office.adml:2020
-#: en-US/Collabora-Office.adml:2024
-#: en-US/Collabora-Office.adml:2028
-#: en-US/Collabora-Office.adml:2032
-#: en-US/Collabora-Office.adml:2036
-#: en-US/Collabora-Office.adml:2040
-#: en-US/Collabora-Office.adml:2045
+#: en-US/Collabora-Office.adml:1303
+#: en-US/Collabora-Office.adml:1307
+#: en-US/Collabora-Office.adml:1311
+#: en-US/Collabora-Office.adml:1315
+#: en-US/Collabora-Office.adml:1319
+#: en-US/Collabora-Office.adml:1323
+#: en-US/Collabora-Office.adml:1327
+#: en-US/Collabora-Office.adml:1331
+#: en-US/Collabora-Office.adml:1335
+#: en-US/Collabora-Office.adml:1339
+#: en-US/Collabora-Office.adml:1343
+#: en-US/Collabora-Office.adml:1347
+#: en-US/Collabora-Office.adml:1351
+#: en-US/Collabora-Office.adml:1355
+#: en-US/Collabora-Office.adml:1359
+#: en-US/Collabora-Office.adml:1363
+#: en-US/Collabora-Office.adml:1367
+#: en-US/Collabora-Office.adml:1371
+#: en-US/Collabora-Office.adml:1375
+#: en-US/Collabora-Office.adml:1379
+#: en-US/Collabora-Office.adml:1383
+#: en-US/Collabora-Office.adml:1387
+#: en-US/Collabora-Office.adml:1391
+#: en-US/Collabora-Office.adml:1395
+#: en-US/Collabora-Office.adml:1399
+#: en-US/Collabora-Office.adml:1403
+#: en-US/Collabora-Office.adml:1407
+#: en-US/Collabora-Office.adml:1411
+#: en-US/Collabora-Office.adml:1415
+#: en-US/Collabora-Office.adml:1419
+#: en-US/Collabora-Office.adml:1423
+#: en-US/Collabora-Office.adml:1427
+#: en-US/Collabora-Office.adml:1431
+#: en-US/Collabora-Office.adml:1435
+#: en-US/Collabora-Office.adml:1439
+#: en-US/Collabora-Office.adml:1443
+#: en-US/Collabora-Office.adml:1447
+#: en-US/Collabora-Office.adml:1451
+#: en-US/Collabora-Office.adml:1455
+#: en-US/Collabora-Office.adml:1459
+#: en-US/Collabora-Office.adml:1463
+#: en-US/Collabora-Office.adml:1467
+#: en-US/Collabora-Office.adml:1471
+#: en-US/Collabora-Office.adml:1475
+#: en-US/Collabora-Office.adml:1479
+#: en-US/Collabora-Office.adml:1483
+#: en-US/Collabora-Office.adml:1487
+#: en-US/Collabora-Office.adml:1491
+#: en-US/Collabora-Office.adml:1495
+#: en-US/Collabora-Office.adml:1499
+#: en-US/Collabora-Office.adml:1503
+#: en-US/Collabora-Office.adml:1507
+#: en-US/Collabora-Office.adml:1511
+#: en-US/Collabora-Office.adml:1515
+#: en-US/Collabora-Office.adml:1519
+#: en-US/Collabora-Office.adml:1523
+#: en-US/Collabora-Office.adml:1527
+#: en-US/Collabora-Office.adml:1531
+#: en-US/Collabora-Office.adml:1535
+#: en-US/Collabora-Office.adml:1539
+#: en-US/Collabora-Office.adml:1543
+#: en-US/Collabora-Office.adml:1547
+#: en-US/Collabora-Office.adml:1551
+#: en-US/Collabora-Office.adml:1555
+#: en-US/Collabora-Office.adml:1559
+#: en-US/Collabora-Office.adml:1563
+#: en-US/Collabora-Office.adml:1567
+#: en-US/Collabora-Office.adml:1571
+#: en-US/Collabora-Office.adml:1575
+#: en-US/Collabora-Office.adml:1579
+#: en-US/Collabora-Office.adml:1583
+#: en-US/Collabora-Office.adml:1587
+#: en-US/Collabora-Office.adml:1591
+#: en-US/Collabora-Office.adml:1595
+#: en-US/Collabora-Office.adml:1599
+#: en-US/Collabora-Office.adml:1603
+#: en-US/Collabora-Office.adml:1607
+#: en-US/Collabora-Office.adml:1611
+#: en-US/Collabora-Office.adml:1615
+#: en-US/Collabora-Office.adml:1619
+#: en-US/Collabora-Office.adml:1623
+#: en-US/Collabora-Office.adml:1627
+#: en-US/Collabora-Office.adml:1631
+#: en-US/Collabora-Office.adml:1635
+#: en-US/Collabora-Office.adml:1639
+#: en-US/Collabora-Office.adml:1643
+#: en-US/Collabora-Office.adml:1647
+#: en-US/Collabora-Office.adml:1651
+#: en-US/Collabora-Office.adml:1655
+#: en-US/Collabora-Office.adml:1659
+#: en-US/Collabora-Office.adml:1663
+#: en-US/Collabora-Office.adml:1667
+#: en-US/Collabora-Office.adml:1671
+#: en-US/Collabora-Office.adml:1675
+#: en-US/Collabora-Office.adml:1679
+#: en-US/Collabora-Office.adml:1683
+#: en-US/Collabora-Office.adml:1687
+#: en-US/Collabora-Office.adml:1691
+#: en-US/Collabora-Office.adml:1695
+#: en-US/Collabora-Office.adml:1699
+#: en-US/Collabora-Office.adml:1703
+#: en-US/Collabora-Office.adml:1707
+#: en-US/Collabora-Office.adml:1711
+#: en-US/Collabora-Office.adml:1715
+#: en-US/Collabora-Office.adml:1719
+#: en-US/Collabora-Office.adml:1723
+#: en-US/Collabora-Office.adml:1727
+#: en-US/Collabora-Office.adml:1731
+#: en-US/Collabora-Office.adml:1735
+#: en-US/Collabora-Office.adml:1739
+#: en-US/Collabora-Office.adml:1743
+#: en-US/Collabora-Office.adml:1747
+#: en-US/Collabora-Office.adml:1751
+#: en-US/Collabora-Office.adml:1755
+#: en-US/Collabora-Office.adml:1759
+#: en-US/Collabora-Office.adml:1763
+#: en-US/Collabora-Office.adml:1767
+#: en-US/Collabora-Office.adml:1771
+#: en-US/Collabora-Office.adml:1775
+#: en-US/Collabora-Office.adml:1779
+#: en-US/Collabora-Office.adml:1783
+#: en-US/Collabora-Office.adml:1787
+#: en-US/Collabora-Office.adml:1791
+#: en-US/Collabora-Office.adml:1795
+#: en-US/Collabora-Office.adml:1799
+#: en-US/Collabora-Office.adml:1803
+#: en-US/Collabora-Office.adml:1807
+#: en-US/Collabora-Office.adml:1811
+#: en-US/Collabora-Office.adml:1815
+#: en-US/Collabora-Office.adml:1819
+#: en-US/Collabora-Office.adml:1823
+#: en-US/Collabora-Office.adml:1827
+#: en-US/Collabora-Office.adml:1831
+#: en-US/Collabora-Office.adml:1835
+#: en-US/Collabora-Office.adml:1839
+#: en-US/Collabora-Office.adml:1843
+#: en-US/Collabora-Office.adml:1847
+#: en-US/Collabora-Office.adml:1851
+#: en-US/Collabora-Office.adml:1855
+#: en-US/Collabora-Office.adml:1859
+#: en-US/Collabora-Office.adml:1863
+#: en-US/Collabora-Office.adml:1867
+#: en-US/Collabora-Office.adml:1871
+#: en-US/Collabora-Office.adml:1875
+#: en-US/Collabora-Office.adml:1879
+#: en-US/Collabora-Office.adml:1883
+#: en-US/Collabora-Office.adml:1887
+#: en-US/Collabora-Office.adml:1891
+#: en-US/Collabora-Office.adml:1895
+#: en-US/Collabora-Office.adml:1899
+#: en-US/Collabora-Office.adml:1903
+#: en-US/Collabora-Office.adml:1907
+#: en-US/Collabora-Office.adml:1911
+#: en-US/Collabora-Office.adml:1915
+#: en-US/Collabora-Office.adml:1919
+#: en-US/Collabora-Office.adml:1923
+#: en-US/Collabora-Office.adml:1927
+#: en-US/Collabora-Office.adml:1931
+#: en-US/Collabora-Office.adml:1935
+#: en-US/Collabora-Office.adml:1939
+#: en-US/Collabora-Office.adml:1943
+#: en-US/Collabora-Office.adml:1947
+#: en-US/Collabora-Office.adml:1951
+#: en-US/Collabora-Office.adml:1955
+#: en-US/Collabora-Office.adml:1959
+#: en-US/Collabora-Office.adml:1963
+#: en-US/Collabora-Office.adml:1967
+#: en-US/Collabora-Office.adml:1971
+#: en-US/Collabora-Office.adml:1975
+#: en-US/Collabora-Office.adml:1979
+#: en-US/Collabora-Office.adml:1983
+#: en-US/Collabora-Office.adml:1987
+#: en-US/Collabora-Office.adml:1991
+#: en-US/Collabora-Office.adml:1995
+#: en-US/Collabora-Office.adml:1999
+#: en-US/Collabora-Office.adml:2003
+#: en-US/Collabora-Office.adml:2007
+#: en-US/Collabora-Office.adml:2011
+#: en-US/Collabora-Office.adml:2015
+#: en-US/Collabora-Office.adml:2019
+#: en-US/Collabora-Office.adml:2023
+#: en-US/Collabora-Office.adml:2027
+#: en-US/Collabora-Office.adml:2031
+#: en-US/Collabora-Office.adml:2035
+#: en-US/Collabora-Office.adml:2039
+#: en-US/Collabora-Office.adml:2043
 #: en-US/Collabora-Office.adml:2047
-#: en-US/Collabora-Office.adml:2051
-#: en-US/Collabora-Office.adml:2055
-#: en-US/Collabora-Office.adml:2057
-#: en-US/Collabora-Office.adml:2061
-#: en-US/Collabora-Office.adml:2065
-#: en-US/Collabora-Office.adml:2069
-#: en-US/Collabora-Office.adml:2073
-#: en-US/Collabora-Office.adml:2077
-#: en-US/Collabora-Office.adml:2081
-#: en-US/Collabora-Office.adml:2085
-#: en-US/Collabora-Office.adml:2090
-#: en-US/Collabora-Office.adml:2094
-#: en-US/Collabora-Office.adml:2098
-#: en-US/Collabora-Office.adml:2102
-#: en-US/Collabora-Office.adml:2106
-#: en-US/Collabora-Office.adml:2110
-#: en-US/Collabora-Office.adml:2112
-#: en-US/Collabora-Office.adml:2116
-#: en-US/Collabora-Office.adml:2120
-#: en-US/Collabora-Office.adml:2124
-#: en-US/Collabora-Office.adml:2128
-#: en-US/Collabora-Office.adml:2132
-#: en-US/Collabora-Office.adml:2144
-#: en-US/Collabora-Office.adml:2148
-#: en-US/Collabora-Office.adml:2152
-#: en-US/Collabora-Office.adml:2156
-#: en-US/Collabora-Office.adml:2160
-#: en-US/Collabora-Office.adml:2164
-#: en-US/Collabora-Office.adml:2168
-#: en-US/Collabora-Office.adml:2172
-#: en-US/Collabora-Office.adml:2176
-#: en-US/Collabora-Office.adml:2180
-#: en-US/Collabora-Office.adml:2184
-#: en-US/Collabora-Office.adml:2188
-#: en-US/Collabora-Office.adml:2192
-#: en-US/Collabora-Office.adml:2196
-#: en-US/Collabora-Office.adml:2200
-#: en-US/Collabora-Office.adml:2204
-#: en-US/Collabora-Office.adml:2208
-#: en-US/Collabora-Office.adml:2212
-#: en-US/Collabora-Office.adml:2216
-#: en-US/Collabora-Office.adml:2220
-#: en-US/Collabora-Office.adml:2224
-#: en-US/Collabora-Office.adml:2228
-#: en-US/Collabora-Office.adml:2232
-#: en-US/Collabora-Office.adml:2238
+#: en-US/Collabora-Office.adml:2052
+#: en-US/Collabora-Office.adml:2054
+#: en-US/Collabora-Office.adml:2058
+#: en-US/Collabora-Office.adml:2062
+#: en-US/Collabora-Office.adml:2064
+#: en-US/Collabora-Office.adml:2068
+#: en-US/Collabora-Office.adml:2072
+#: en-US/Collabora-Office.adml:2076
+#: en-US/Collabora-Office.adml:2080
+#: en-US/Collabora-Office.adml:2084
+#: en-US/Collabora-Office.adml:2088
+#: en-US/Collabora-Office.adml:2092
+#: en-US/Collabora-Office.adml:2097
+#: en-US/Collabora-Office.adml:2101
+#: en-US/Collabora-Office.adml:2105
+#: en-US/Collabora-Office.adml:2109
+#: en-US/Collabora-Office.adml:2113
+#: en-US/Collabora-Office.adml:2117
+#: en-US/Collabora-Office.adml:2119
+#: en-US/Collabora-Office.adml:2123
+#: en-US/Collabora-Office.adml:2127
+#: en-US/Collabora-Office.adml:2131
+#: en-US/Collabora-Office.adml:2135
+#: en-US/Collabora-Office.adml:2139
+#: en-US/Collabora-Office.adml:2151
+#: en-US/Collabora-Office.adml:2155
+#: en-US/Collabora-Office.adml:2159
+#: en-US/Collabora-Office.adml:2163
+#: en-US/Collabora-Office.adml:2167
+#: en-US/Collabora-Office.adml:2171
+#: en-US/Collabora-Office.adml:2175
+#: en-US/Collabora-Office.adml:2179
+#: en-US/Collabora-Office.adml:2183
+#: en-US/Collabora-Office.adml:2187
+#: en-US/Collabora-Office.adml:2191
+#: en-US/Collabora-Office.adml:2195
+#: en-US/Collabora-Office.adml:2199
+#: en-US/Collabora-Office.adml:2203
+#: en-US/Collabora-Office.adml:2207
+#: en-US/Collabora-Office.adml:2211
+#: en-US/Collabora-Office.adml:2215
+#: en-US/Collabora-Office.adml:2219
+#: en-US/Collabora-Office.adml:2223
+#: en-US/Collabora-Office.adml:2227
+#: en-US/Collabora-Office.adml:2231
+#: en-US/Collabora-Office.adml:2235
+#: en-US/Collabora-Office.adml:2239
+#: en-US/Collabora-Office.adml:2245
 #, no-wrap
 msgid ""
 "Final"
@@ -446,7 +446,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: textBox/defaultValue
 #: en-US/Collabora-Office.adml:27
-#: en-US/Collabora-Office.adml:807
+#: en-US/Collabora-Office.adml:814
 #, no-wrap
 msgid ""
 "Collabora Office"
@@ -483,7 +483,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:33
-#: en-US/Collabora-Office.adml:952
+#: en-US/Collabora-Office.adml:959
 #, no-wrap
 msgid ""
 "Use System File Dialog"
@@ -520,7 +520,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:38
-#: en-US/Collabora-Office.adml:960
+#: en-US/Collabora-Office.adml:967
 #, no-wrap
 msgid ""
 "Collect usage data and send it to The Document Foundation"
@@ -529,7 +529,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:39
-#: en-US/Collabora-Office.adml:964
+#: en-US/Collabora-Office.adml:971
 #, no-wrap
 msgid ""
 "Show Tip of the Day"
@@ -584,7 +584,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/text
 #: en-US/Collabora-Office.adml:52
-#: en-US/Collabora-Office.adml:804
+#: en-US/Collabora-Office.adml:811
 #, no-wrap
 msgid ""
 "Specifies the name of the product."
@@ -607,7 +607,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:55
-#: en-US/Collabora-Office.adml:812
+#: en-US/Collabora-Office.adml:819
 #, no-wrap
 msgid ""
 "Load user-specific settings with the document"
@@ -623,7 +623,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:57
-#: en-US/Collabora-Office.adml:820
+#: en-US/Collabora-Office.adml:827
 #, no-wrap
 msgid ""
 "Use user data for document properties"
@@ -639,7 +639,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/text
 #: en-US/Collabora-Office.adml:59
-#: en-US/Collabora-Office.adml:826
+#: en-US/Collabora-Office.adml:833
 #, no-wrap
 msgid ""
 "Save AutoRecovery information in every __ minutes"
@@ -648,7 +648,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:60
-#: en-US/Collabora-Office.adml:834
+#: en-US/Collabora-Office.adml:841
 #, no-wrap
 msgid ""
 "Disable the autorecovery feature"
@@ -671,7 +671,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:63
-#: en-US/Collabora-Office.adml:838
+#: en-US/Collabora-Office.adml:845
 #, no-wrap
 msgid ""
 "Always create backup copy"
@@ -680,7 +680,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:64
-#: en-US/Collabora-Office.adml:842
+#: en-US/Collabora-Office.adml:849
 #, no-wrap
 msgid ""
 "Edit document properties before saving"
@@ -696,7 +696,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:66
-#: en-US/Collabora-Office.adml:846
+#: en-US/Collabora-Office.adml:853
 #, no-wrap
 msgid ""
 "Warn the user when saving in a format different from ODF or default"
@@ -766,7 +766,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:80
-#: en-US/Collabora-Office.adml:2163
+#: en-US/Collabora-Office.adml:2170
 #, no-wrap
 msgid ""
 "Create MSO lock file"
@@ -789,7 +789,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:84
-#: en-US/Collabora-Office.adml:1168
+#: en-US/Collabora-Office.adml:1175
 #, no-wrap
 msgid ""
 "Enable experimental features"
@@ -805,7 +805,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:86
-#: en-US/Collabora-Office.adml:1172
+#: en-US/Collabora-Office.adml:1179
 #, no-wrap
 msgid ""
 "Enable macro recording (limited)"
@@ -828,7 +828,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:89
-#: en-US/Collabora-Office.adml:968
+#: en-US/Collabora-Office.adml:975
 #, no-wrap
 msgid ""
 "Use System Print Dialog"
@@ -1005,7 +1005,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:117
-#: en-US/Collabora-Office.adml:1228
+#: en-US/Collabora-Office.adml:1235
 #, no-wrap
 msgid ""
 "Remove personal information on saving"
@@ -1023,7 +1023,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:121
-#: en-US/Collabora-Office.adml:1232
+#: en-US/Collabora-Office.adml:1239
 #, no-wrap
 msgid ""
 "Keep track changes information"
@@ -1039,7 +1039,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:123
-#: en-US/Collabora-Office.adml:1236
+#: en-US/Collabora-Office.adml:1243
 #, no-wrap
 msgid ""
 "Keep document user information"
@@ -1055,7 +1055,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:125
-#: en-US/Collabora-Office.adml:1240
+#: en-US/Collabora-Office.adml:1247
 #, no-wrap
 msgid ""
 "Keep author name and date of notes"
@@ -1071,7 +1071,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:127
-#: en-US/Collabora-Office.adml:1244
+#: en-US/Collabora-Office.adml:1251
 #, no-wrap
 msgid ""
 "Keep document version information"
@@ -1087,7 +1087,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:129
-#: en-US/Collabora-Office.adml:1248
+#: en-US/Collabora-Office.adml:1255
 #, no-wrap
 msgid ""
 "Keep printer settings"
@@ -1103,7 +1103,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:131
-#: en-US/Collabora-Office.adml:1252
+#: en-US/Collabora-Office.adml:1259
 #, no-wrap
 msgid ""
 "Recommend password protection on saving"
@@ -1121,7 +1121,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:135
-#: en-US/Collabora-Office.adml:1256
+#: en-US/Collabora-Office.adml:1263
 #, no-wrap
 msgid ""
 "Ctrl-click required to follow hyperlinks"
@@ -1138,7 +1138,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:138
-#: en-US/Collabora-Office.adml:1260
+#: en-US/Collabora-Office.adml:1267
 #, no-wrap
 msgid ""
 "Block links from documents not among the trusted locations"
@@ -1154,7 +1154,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:140
-#: en-US/Collabora-Office.adml:1264
+#: en-US/Collabora-Office.adml:1271
 #, no-wrap
 msgid ""
 "Security warnings when saving or sending"
@@ -1172,7 +1172,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:144
-#: en-US/Collabora-Office.adml:1268
+#: en-US/Collabora-Office.adml:1275
 #, no-wrap
 msgid ""
 "Security warnings when signing"
@@ -1190,7 +1190,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:148
-#: en-US/Collabora-Office.adml:1272
+#: en-US/Collabora-Office.adml:1279
 #, no-wrap
 msgid ""
 "Security warnings when printing"
@@ -1208,7 +1208,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:152
-#: en-US/Collabora-Office.adml:1276
+#: en-US/Collabora-Office.adml:1283
 #, no-wrap
 msgid ""
 "Security warnings when creating PDF"
@@ -1275,7 +1275,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:169
-#: en-US/Collabora-Office.adml:1284
+#: en-US/Collabora-Office.adml:1291
 #, no-wrap
 msgid ""
 "Disable macro execution"
@@ -1293,7 +1293,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:173
-#: en-US/Collabora-Office.adml:1288
+#: en-US/Collabora-Office.adml:1295
 #, no-wrap
 msgid ""
 "Enable Expert Configuration"
@@ -1316,7 +1316,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:177
-#: en-US/Collabora-Office.adml:1299
+#: en-US/Collabora-Office.adml:1306
 #, no-wrap
 msgid ""
 "Disable extension installation"
@@ -1332,7 +1332,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:179
-#: en-US/Collabora-Office.adml:1303
+#: en-US/Collabora-Office.adml:1310
 #, no-wrap
 msgid ""
 "Disable extension removal"
@@ -3951,7 +3951,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:567
-#: en-US/Collabora-Office.adml:2151
+#: en-US/Collabora-Office.adml:2158
 #, no-wrap
 msgid ""
 "Use system credentials"
@@ -3995,9 +3995,10 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/text
 #: en-US/Collabora-Office.adml:574
-#: en-US/Collabora-Office.adml:1057
-#: en-US/Collabora-Office.adml:1094
-#: en-US/Collabora-Office.adml:1131
+#: en-US/Collabora-Office.adml:773
+#: en-US/Collabora-Office.adml:1064
+#: en-US/Collabora-Office.adml:1101
+#: en-US/Collabora-Office.adml:1138
 #, no-wrap
 msgid ""
 "Default"
@@ -4140,7 +4141,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:595
-#: en-US/Collabora-Office.adml:2084
+#: en-US/Collabora-Office.adml:2091
 #, no-wrap
 msgid ""
 "Convert colors to grayscale"
@@ -4172,7 +4173,7 @@ msgstr ""
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:601
 #: en-US/Collabora-Office.adml:602
-#: en-US/Collabora-Office.adml:2093
+#: en-US/Collabora-Office.adml:2100
 #, no-wrap
 msgid ""
 "Support assistive technology tools"
@@ -4181,7 +4182,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:603
-#: en-US/Collabora-Office.adml:2097
+#: en-US/Collabora-Office.adml:2104
 #, no-wrap
 msgid ""
 "Use text selections cursor in read-only text documents"
@@ -4197,7 +4198,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:605
-#: en-US/Collabora-Office.adml:2101
+#: en-US/Collabora-Office.adml:2108
 #, no-wrap
 msgid ""
 "Allow animated graphics"
@@ -4213,7 +4214,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:607
-#: en-US/Collabora-Office.adml:2105
+#: en-US/Collabora-Office.adml:2112
 #, no-wrap
 msgid ""
 "Allow animated text"
@@ -4229,7 +4230,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:609
-#: en-US/Collabora-Office.adml:2109
+#: en-US/Collabora-Office.adml:2116
 #, no-wrap
 msgid ""
 "Help tips disappear after..."
@@ -4245,7 +4246,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:611
-#: en-US/Collabora-Office.adml:2115
+#: en-US/Collabora-Office.adml:2122
 #, no-wrap
 msgid ""
 "Automatically detect high contrast mode of operating system"
@@ -4261,7 +4262,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:613
-#: en-US/Collabora-Office.adml:2119
+#: en-US/Collabora-Office.adml:2126
 #, no-wrap
 msgid ""
 "Use automatic font color for screen display"
@@ -4277,7 +4278,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:615
-#: en-US/Collabora-Office.adml:2123
+#: en-US/Collabora-Office.adml:2130
 #, no-wrap
 msgid ""
 "Use system colors for page previews"
@@ -4621,7 +4622,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:674
-#: en-US/Collabora-Office.adml:2050
+#: en-US/Collabora-Office.adml:2057
 #, no-wrap
 msgid ""
 "Print only selected sheets"
@@ -4651,7 +4652,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:678
-#: en-US/Collabora-Office.adml:2155
+#: en-US/Collabora-Office.adml:2162
 #, no-wrap
 msgid ""
 "Display remainder of name as suggestion while typing"
@@ -4723,7 +4724,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:692
-#: en-US/Collabora-Office.adml:2007
+#: en-US/Collabora-Office.adml:2014
 #, no-wrap
 msgid ""
 "Precision as shown"
@@ -4739,7 +4740,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:694
-#: en-US/Collabora-Office.adml:2011
+#: en-US/Collabora-Office.adml:2018
 #, no-wrap
 msgid ""
 "Search criteria = and &lt;&gt; must apply to whole cells"
@@ -4755,7 +4756,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:696
-#: en-US/Collabora-Office.adml:2015
+#: en-US/Collabora-Office.adml:2022
 #, no-wrap
 msgid ""
 "Automatically find column and row labels"
@@ -4862,7 +4863,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:713
-#: en-US/Collabora-Office.adml:2027
+#: en-US/Collabora-Office.adml:2034
 #, no-wrap
 msgid ""
 "Show Merge Cells dialog"
@@ -4885,7 +4886,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:716
-#: en-US/Collabora-Office.adml:2031
+#: en-US/Collabora-Office.adml:2038
 #, no-wrap
 msgid ""
 "Empty merged cells"
@@ -5009,7 +5010,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:753
-#: en-US/Collabora-Office.adml:2199
+#: en-US/Collabora-Office.adml:2206
 #, no-wrap
 msgid ""
 "Load printer settings with the document"
@@ -5067,7 +5068,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:761
-#: en-US/Collabora-Office.adml:2215
+#: en-US/Collabora-Office.adml:2222
 #, no-wrap
 msgid ""
 "Export form fields as widgets"
@@ -5083,7 +5084,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:763
-#: en-US/Collabora-Office.adml:2219
+#: en-US/Collabora-Office.adml:2226
 #, no-wrap
 msgid ""
 "Export placeholder fields to PDF"
@@ -5099,7 +5100,7 @@ msgstr ""
 #. (itstool) path: stringTable/string
 #. (itstool) path: presentation/checkBox
 #: en-US/Collabora-Office.adml:765
-#: en-US/Collabora-Office.adml:2223
+#: en-US/Collabora-Office.adml:2230
 #, no-wrap
 msgid ""
 "Create single print jobs"
@@ -5154,1514 +5155,1556 @@ msgid ""
 "Specifies whether numbers in a table are recognized or if they are saved in a text format."
 msgstr ""
 
-#. (itstool) path: presentation/text
+#. (itstool) path: stringTable/string
+#: en-US/Collabora-Office.adml:774
+#, no-wrap
+msgid ""
+"PDF/A-1"
+msgstr ""
+
+#. (itstool) path: stringTable/string
+#: en-US/Collabora-Office.adml:775
+#, no-wrap
+msgid ""
+"PDF/A-2 (LibreOffice since 6.3)"
+msgstr ""
+
+#. (itstool) path: stringTable/string
 #: en-US/Collabora-Office.adml:776
+#, no-wrap
+msgid ""
+"PDF/A-3 (LibreOffice since 6.4)"
+msgstr ""
+
+#. (itstool) path: stringTable/string
+#: en-US/Collabora-Office.adml:777
+#, no-wrap
+msgid ""
+"PDF 1.4 (LibreOffice until 6.1)"
+msgstr ""
+
+#. (itstool) path: stringTable/string
+#: en-US/Collabora-Office.adml:778
+#, no-wrap
+msgid ""
+"PDF 1.5 (LibreOffice since 6.1)"
+msgstr ""
+
+#. (itstool) path: stringTable/string
+#: en-US/Collabora-Office.adml:779
+#, no-wrap
+msgid ""
+"PDF 1.6 (LibreOffice since 7.0)"
+msgstr ""
+
+#. (itstool) path: presentation/text
+#: en-US/Collabora-Office.adml:783
 msgid "LDAP Server configuration"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:778
+#: en-US/Collabora-Office.adml:785
 msgid "Server:"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:779
+#: en-US/Collabora-Office.adml:786
 msgid "example.com"
 msgstr ""
 
 #. (itstool) path: presentation/decimalTextBox
-#: en-US/Collabora-Office.adml:781
+#: en-US/Collabora-Office.adml:788
 msgid "Port:"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:782
+#: en-US/Collabora-Office.adml:789
 msgid "LDAP Search configuration"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:784
+#: en-US/Collabora-Office.adml:791
 msgid "Username to bind:"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:785
+#: en-US/Collabora-Office.adml:792
 msgid "example\\bindLdap"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:788
+#: en-US/Collabora-Office.adml:795
 msgid "Password to bind:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:791
+#: en-US/Collabora-Office.adml:798
 msgid "Base DN for search:"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:792
+#: en-US/Collabora-Office.adml:799
 msgid "cn=Users,dc=example,dc=com"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:795
+#: en-US/Collabora-Office.adml:802
 msgid "User object class:"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:796
+#: en-US/Collabora-Office.adml:803
 msgid "user"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:799
+#: en-US/Collabora-Office.adml:806
 msgid "User unique attribute:"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:800
+#: en-US/Collabora-Office.adml:807
 msgid "sAMAccountName"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:806
+#: en-US/Collabora-Office.adml:813
 msgid "Value:"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:816
+#: en-US/Collabora-Office.adml:823
 msgid "Warn when local help is not installed"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:824
+#: en-US/Collabora-Office.adml:831
 msgid "Save AutoRecovery information"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:827
+#: en-US/Collabora-Office.adml:834
 msgid "Type: integer [1..60]"
 msgstr ""
 
 #. (itstool) path: presentation/decimalTextBox
 #. (itstool) path: presentation/dropdownList
-#: en-US/Collabora-Office.adml:828
-#: en-US/Collabora-Office.adml:1025
-#: en-US/Collabora-Office.adml:1030
-#: en-US/Collabora-Office.adml:1035
+#: en-US/Collabora-Office.adml:835
+#: en-US/Collabora-Office.adml:1032
+#: en-US/Collabora-Office.adml:1037
+#: en-US/Collabora-Office.adml:1042
 msgid "Value"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:830
+#: en-US/Collabora-Office.adml:837
 msgid "Automatically save the document too"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:850
+#: en-US/Collabora-Office.adml:857
 msgid "WritePath of AutoCorrect files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:852
-#: en-US/Collabora-Office.adml:866
-#: en-US/Collabora-Office.adml:880
-#: en-US/Collabora-Office.adml:894
-#: en-US/Collabora-Office.adml:908
-#: en-US/Collabora-Office.adml:922
-#: en-US/Collabora-Office.adml:930
-#: en-US/Collabora-Office.adml:938
-#: en-US/Collabora-Office.adml:946
+#: en-US/Collabora-Office.adml:859
+#: en-US/Collabora-Office.adml:873
+#: en-US/Collabora-Office.adml:887
+#: en-US/Collabora-Office.adml:901
+#: en-US/Collabora-Office.adml:915
+#: en-US/Collabora-Office.adml:929
+#: en-US/Collabora-Office.adml:937
+#: en-US/Collabora-Office.adml:945
+#: en-US/Collabora-Office.adml:953
 msgid "Path:"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:853
+#: en-US/Collabora-Office.adml:860
 msgid "$(user)/autocorr"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:856
+#: en-US/Collabora-Office.adml:863
 msgid "UserPaths of AutoCorrect files"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:858
-#: en-US/Collabora-Office.adml:872
-#: en-US/Collabora-Office.adml:886
-#: en-US/Collabora-Office.adml:900
-#: en-US/Collabora-Office.adml:914
-#: en-US/Collabora-Office.adml:1294
+#: en-US/Collabora-Office.adml:865
+#: en-US/Collabora-Office.adml:879
+#: en-US/Collabora-Office.adml:893
+#: en-US/Collabora-Office.adml:907
+#: en-US/Collabora-Office.adml:921
+#: en-US/Collabora-Office.adml:1301
 msgid "Path list:"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:859
+#: en-US/Collabora-Office.adml:866
 msgid "$(inst)/share/autocorr $(user)/autocorr"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:864
+#: en-US/Collabora-Office.adml:871
 msgid "WritePath of AutoText files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:867
+#: en-US/Collabora-Office.adml:874
 msgid "$(user)/autotext"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:870
+#: en-US/Collabora-Office.adml:877
 msgid "UserPaths of AutoText files"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:873
+#: en-US/Collabora-Office.adml:880
 msgid "$(inst)/share/autotext/$(vlang) $(user)/autotext"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:878
+#: en-US/Collabora-Office.adml:885
 msgid "WritePath of Dictionary files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:881
+#: en-US/Collabora-Office.adml:888
 msgid "$(user)/wordbook"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:884
+#: en-US/Collabora-Office.adml:891
 msgid "UserPaths of Dictionary files"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:887
+#: en-US/Collabora-Office.adml:894
 msgid "$(inst)/share/wordbook $(inst)/share/wordbook/$(vlang) $(user)/wordbook"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:892
+#: en-US/Collabora-Office.adml:899
 msgid "WritePath of Gallery files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:895
-#: en-US/Collabora-Office.adml:931
+#: en-US/Collabora-Office.adml:902
+#: en-US/Collabora-Office.adml:938
 msgid "$(user)/gallery"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:898
+#: en-US/Collabora-Office.adml:905
 msgid "UserPaths of Gallery files"
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:901
+#: en-US/Collabora-Office.adml:908
 msgid "$(inst)/share/gallery $(user)/gallery"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:906
+#: en-US/Collabora-Office.adml:913
 msgid "WritePath of Templates files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:909
-#: en-US/Collabora-Office.adml:915
+#: en-US/Collabora-Office.adml:916
+#: en-US/Collabora-Office.adml:922
 msgid "$(user)/template"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:912
+#: en-US/Collabora-Office.adml:919
 msgid "UserPaths of Templates files"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:920
+#: en-US/Collabora-Office.adml:927
 msgid "Location of My Documents folder."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:923
+#: en-US/Collabora-Office.adml:930
 msgid "$(work)"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:928
+#: en-US/Collabora-Office.adml:935
 msgid "WritePath of Image files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:936
+#: en-US/Collabora-Office.adml:943
 msgid "WritePath of Backup files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:939
+#: en-US/Collabora-Office.adml:946
 msgid "$(user)/backup"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:944
+#: en-US/Collabora-Office.adml:951
 msgid "WritePath of Temporary files. It is the location where new user files are written."
 msgstr ""
 
 #. (itstool) path: textBox/defaultValue
-#: en-US/Collabora-Office.adml:947
+#: en-US/Collabora-Office.adml:954
 msgid "$(temp)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:956
+#: en-US/Collabora-Office.adml:963
 msgid "Enable or disable override locking"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:957
+#: en-US/Collabora-Office.adml:964
 msgid "Prevent the user from changing this setting"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:973
+#: en-US/Collabora-Office.adml:980
 msgid "Given Name:"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: en-US/Collabora-Office.adml:975
-#: en-US/Collabora-Office.adml:979
-#: en-US/Collabora-Office.adml:983
-#: en-US/Collabora-Office.adml:989
-#: en-US/Collabora-Office.adml:995
-#: en-US/Collabora-Office.adml:999
-#: en-US/Collabora-Office.adml:1003
-#: en-US/Collabora-Office.adml:1007
-#: en-US/Collabora-Office.adml:1011
-#: en-US/Collabora-Office.adml:1017
-#: en-US/Collabora-Office.adml:1021
+#: en-US/Collabora-Office.adml:982
+#: en-US/Collabora-Office.adml:986
+#: en-US/Collabora-Office.adml:990
+#: en-US/Collabora-Office.adml:996
+#: en-US/Collabora-Office.adml:1002
+#: en-US/Collabora-Office.adml:1006
+#: en-US/Collabora-Office.adml:1010
+#: en-US/Collabora-Office.adml:1014
+#: en-US/Collabora-Office.adml:1018
+#: en-US/Collabora-Office.adml:1024
+#: en-US/Collabora-Office.adml:1028
 msgid "Flags:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:977
+#: en-US/Collabora-Office.adml:984
 msgid "Last Name:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:981
+#: en-US/Collabora-Office.adml:988
 msgid "Initials:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:987
+#: en-US/Collabora-Office.adml:994
 msgid "Company Name:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:993
+#: en-US/Collabora-Office.adml:1000
 msgid "Street:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:997
+#: en-US/Collabora-Office.adml:1004
 msgid "City:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:1001
+#: en-US/Collabora-Office.adml:1008
 msgid "State:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:1005
+#: en-US/Collabora-Office.adml:1012
 msgid "ZIP code:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:1009
+#: en-US/Collabora-Office.adml:1016
 msgid "Country:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:1015
+#: en-US/Collabora-Office.adml:1022
 msgid "Telephone:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:1019
+#: en-US/Collabora-Office.adml:1026
 msgid "Fax:"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:1024
-#: en-US/Collabora-Office.adml:1029
-#: en-US/Collabora-Office.adml:1034
+#: en-US/Collabora-Office.adml:1031
+#: en-US/Collabora-Office.adml:1036
+#: en-US/Collabora-Office.adml:1041
 msgid "Always save in this document format."
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:1040
-#: en-US/Collabora-Office.adml:1046
-#: en-US/Collabora-Office.adml:1052
+#: en-US/Collabora-Office.adml:1047
+#: en-US/Collabora-Office.adml:1053
+#: en-US/Collabora-Office.adml:1059
 msgid "File URL:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:1059
 #: en-US/Collabora-Office.adml:1066
 #: en-US/Collabora-Office.adml:1073
 #: en-US/Collabora-Office.adml:1080
 #: en-US/Collabora-Office.adml:1087
-#: en-US/Collabora-Office.adml:1096
+#: en-US/Collabora-Office.adml:1094
 #: en-US/Collabora-Office.adml:1103
 #: en-US/Collabora-Office.adml:1110
 #: en-US/Collabora-Office.adml:1117
 #: en-US/Collabora-Office.adml:1124
-#: en-US/Collabora-Office.adml:1133
+#: en-US/Collabora-Office.adml:1131
 #: en-US/Collabora-Office.adml:1140
 #: en-US/Collabora-Office.adml:1147
 #: en-US/Collabora-Office.adml:1154
 #: en-US/Collabora-Office.adml:1161
+#: en-US/Collabora-Office.adml:1168
 msgid "Font:"
 msgstr ""
 
 #. (itstool) path: presentation/decimalTextBox
-#: en-US/Collabora-Office.adml:1062
 #: en-US/Collabora-Office.adml:1069
 #: en-US/Collabora-Office.adml:1076
 #: en-US/Collabora-Office.adml:1083
 #: en-US/Collabora-Office.adml:1090
-#: en-US/Collabora-Office.adml:1099
+#: en-US/Collabora-Office.adml:1097
 #: en-US/Collabora-Office.adml:1106
 #: en-US/Collabora-Office.adml:1113
 #: en-US/Collabora-Office.adml:1120
 #: en-US/Collabora-Office.adml:1127
-#: en-US/Collabora-Office.adml:1136
+#: en-US/Collabora-Office.adml:1134
 #: en-US/Collabora-Office.adml:1143
 #: en-US/Collabora-Office.adml:1150
 #: en-US/Collabora-Office.adml:1157
 #: en-US/Collabora-Office.adml:1164
-#: en-US/Collabora-Office.adml:1176
-#: en-US/Collabora-Office.adml:1180
+#: en-US/Collabora-Office.adml:1171
+#: en-US/Collabora-Office.adml:1183
+#: en-US/Collabora-Office.adml:1187
 msgid "Size:"
-msgstr ""
-
-#. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:1064
-#: en-US/Collabora-Office.adml:1101
-#: en-US/Collabora-Office.adml:1138
-msgid "Heading"
 msgstr ""
 
 #. (itstool) path: presentation/text
 #: en-US/Collabora-Office.adml:1071
 #: en-US/Collabora-Office.adml:1108
 #: en-US/Collabora-Office.adml:1145
-msgid "List"
+msgid "Heading"
 msgstr ""
 
 #. (itstool) path: presentation/text
 #: en-US/Collabora-Office.adml:1078
 #: en-US/Collabora-Office.adml:1115
 #: en-US/Collabora-Office.adml:1152
-msgid "Caption"
+msgid "List"
 msgstr ""
 
 #. (itstool) path: presentation/text
 #: en-US/Collabora-Office.adml:1085
 #: en-US/Collabora-Office.adml:1122
 #: en-US/Collabora-Office.adml:1159
+msgid "Caption"
+msgstr ""
+
+#. (itstool) path: presentation/text
+#: en-US/Collabora-Office.adml:1092
+#: en-US/Collabora-Office.adml:1129
+#: en-US/Collabora-Office.adml:1166
 msgid "Index"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:1185
-#: en-US/Collabora-Office.adml:1191
-#: en-US/Collabora-Office.adml:1197
-#: en-US/Collabora-Office.adml:1203
+#: en-US/Collabora-Office.adml:1192
+#: en-US/Collabora-Office.adml:1198
+#: en-US/Collabora-Office.adml:1204
+#: en-US/Collabora-Office.adml:1210
 msgid "Language code:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:1209
+#: en-US/Collabora-Office.adml:1216
 msgid "Locale:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:1215
+#: en-US/Collabora-Office.adml:1222
 msgid "Currency code:"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1220
+#: en-US/Collabora-Office.adml:1227
 msgid "Decimal separator key same as locale setting"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1224
+#: en-US/Collabora-Office.adml:1231
 msgid "Ignore system input language"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: en-US/Collabora-Office.adml:1280
+#: en-US/Collabora-Office.adml:1287
 msgid "Macro security level:"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:1292
+#: en-US/Collabora-Office.adml:1299
 msgid "Document macros are always executed, if they have been opened from one of the following locations."
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1307
+#: en-US/Collabora-Office.adml:1314
 msgid "Disable ADO Rowset XML"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1311
+#: en-US/Collabora-Office.adml:1318
 msgid "Disable AbiWord Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1315
+#: en-US/Collabora-Office.adml:1322
 msgid "Disable Apple Keynote 5"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1319
+#: en-US/Collabora-Office.adml:1326
 msgid "Disable Apple Numbers 2"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1323
+#: en-US/Collabora-Office.adml:1330
 msgid "Disable Apple Pages 4"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1327
+#: en-US/Collabora-Office.adml:1334
 msgid "Disable BMP - Windows Bitmap"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1331
+#: en-US/Collabora-Office.adml:1338
 msgid "Disable BroadBand eBook"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1335
+#: en-US/Collabora-Office.adml:1342
 msgid "Disable CGM - Computer Graphics Metafile"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1339
+#: en-US/Collabora-Office.adml:1346
 msgid "Disable ClarisWorks/AppleWorks Text Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1343
+#: en-US/Collabora-Office.adml:1350
 msgid "Disable ClarisWorks/AppleWorks Spreadsheet"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1347
+#: en-US/Collabora-Office.adml:1354
 msgid "Disable ClarisWorks/AppleWorks Drawing"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1351
+#: en-US/Collabora-Office.adml:1358
 msgid "Disable ClarisWorks/AppleWorks Presentation"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1355
+#: en-US/Collabora-Office.adml:1362
 msgid "Disable ClarisResolve Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1359
+#: en-US/Collabora-Office.adml:1366
 msgid "Disable Corel Draw"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1363
+#: en-US/Collabora-Office.adml:1370
 msgid "Disable Corel Presentation Exchange"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1367
+#: en-US/Collabora-Office.adml:1374
 msgid "Disable Data Interchange Format"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1371
+#: en-US/Collabora-Office.adml:1378
 msgid "Disable DXF - AutoCAD Interchange Format"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1375
+#: en-US/Collabora-Office.adml:1382
 msgid "Disable DocBook"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1379
+#: en-US/Collabora-Office.adml:1386
 msgid "Disable Microsoft Word for DOS"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1383
+#: en-US/Collabora-Office.adml:1390
 msgid "Disable EMF - Enhanced Metafile"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1387
+#: en-US/Collabora-Office.adml:1394
 msgid "Disable EPS - Encapsulated PostScript"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1391
+#: en-US/Collabora-Office.adml:1398
 msgid "Disable FictionBook 2.0"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1395
+#: en-US/Collabora-Office.adml:1402
 msgid "Disable Adobe/Macromedia Freehand"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1399
+#: en-US/Collabora-Office.adml:1406
 msgid "Disable GIF - Graphics Interchange Format"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1403
+#: en-US/Collabora-Office.adml:1410
 msgid "Disable HTML Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1407
+#: en-US/Collabora-Office.adml:1414
 msgid "Disable HTML Document (Calc)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1411
+#: en-US/Collabora-Office.adml:1418
 msgid "Disable HTML Document (Writer)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1415
+#: en-US/Collabora-Office.adml:1422
 msgid "Disable JPEG - Joint Photographic Experts Group"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1419
+#: en-US/Collabora-Office.adml:1426
 msgid "Disable Lotus 1-2-3"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1423
+#: en-US/Collabora-Office.adml:1430
 msgid "Disable Lotus WordPro Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1427
+#: en-US/Collabora-Office.adml:1434
 msgid "Disable MET - OS/2 Metafile"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1431
+#: en-US/Collabora-Office.adml:1438
 msgid "Disable Microsoft Excel 2003 XML"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1435
+#: en-US/Collabora-Office.adml:1442
 msgid "Disable Microsoft Excel 4.0"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1439
+#: en-US/Collabora-Office.adml:1446
 msgid "Disable Microsoft Excel 4.0 Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1443
+#: en-US/Collabora-Office.adml:1450
 msgid "Disable Microsoft Excel 5.0"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1447
+#: en-US/Collabora-Office.adml:1454
 msgid "Disable Microsoft Excel 5.0 Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1451
+#: en-US/Collabora-Office.adml:1458
 msgid "Disable Microsoft Excel 95"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1455
+#: en-US/Collabora-Office.adml:1462
 msgid "Disable Microsoft Excel 95 Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1459
+#: en-US/Collabora-Office.adml:1466
 msgid "Disable Microsoft Excel 97-2003"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1463
+#: en-US/Collabora-Office.adml:1470
 msgid "Disable Microsoft Excel 97-2003 Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1467
+#: en-US/Collabora-Office.adml:1474
 msgid "Disable Microsoft PowerPoint 97-2003"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1471
+#: en-US/Collabora-Office.adml:1478
 msgid "Disable Microsoft PowerPoint 97-2003 AutoPlay"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1475
+#: en-US/Collabora-Office.adml:1482
 msgid "Disable Microsoft PowerPoint 97-2003 Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1479
+#: en-US/Collabora-Office.adml:1486
 msgid "Disable Microsoft WinWord 1/2/5"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1483
+#: en-US/Collabora-Office.adml:1490
 msgid "Disable Microsoft Word 6.0"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1487
+#: en-US/Collabora-Office.adml:1494
 msgid "Disable Microsoft Word 2003 XML"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1491
+#: en-US/Collabora-Office.adml:1498
 msgid "Disable Microsoft Word 2007-2013 XML"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1495
+#: en-US/Collabora-Office.adml:1502
 msgid "Disable Microsoft Word 2007-2013 XML Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1499
+#: en-US/Collabora-Office.adml:1506
 msgid "Disable Microsoft Word 2007-2013 XML VBA"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1503
+#: en-US/Collabora-Office.adml:1510
 msgid "Disable Microsoft Word 95"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1507
+#: en-US/Collabora-Office.adml:1514
 msgid "Disable Microsoft Word 95 Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1511
+#: en-US/Collabora-Office.adml:1518
 msgid "Disable Microsoft Word 97-2003"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1515
+#: en-US/Collabora-Office.adml:1522
 msgid "Disable Microsoft Word 97-2003 Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1519
-#: en-US/Collabora-Office.adml:1523
+#: en-US/Collabora-Office.adml:1526
+#: en-US/Collabora-Office.adml:1530
 msgid "Disable Microsoft Works Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1527
+#: en-US/Collabora-Office.adml:1534
 msgid "Disable Microsoft Write"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1531
+#: en-US/Collabora-Office.adml:1538
 msgid "Disable Legacy Mac Bitmap"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1535
+#: en-US/Collabora-Office.adml:1542
 msgid "Disable Legacy Mac Database"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1539
+#: en-US/Collabora-Office.adml:1546
 msgid "Disable Legacy Mac Drawing"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1543
+#: en-US/Collabora-Office.adml:1550
 msgid "Disable Legacy Mac Presentation"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1547
+#: en-US/Collabora-Office.adml:1554
 msgid "Disable Legacy Mac Spreadsheet"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1551
+#: en-US/Collabora-Office.adml:1558
 msgid "Disable Legacy Mac Text Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1555
+#: en-US/Collabora-Office.adml:1562
 msgid "Disable MacWrite Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1559
+#: en-US/Collabora-Office.adml:1566
 msgid "Disable Microsoft Word for Mac (v1 - v5)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1563
+#: en-US/Collabora-Office.adml:1570
 msgid "Disable Microsoft Works for Mac Text Document (v1 - v4)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1567
+#: en-US/Collabora-Office.adml:1574
 msgid "Disable Microsoft Works for Mac Spreadsheet (v1 - v4)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1571
+#: en-US/Collabora-Office.adml:1578
 msgid "Disable Mariner Write Mac Classic v1.6 - v3.5"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1575
+#: en-US/Collabora-Office.adml:1582
 msgid "Disable MathML 2.0"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1579
+#: en-US/Collabora-Office.adml:1586
 msgid "Disable MathType3.x"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1583
+#: en-US/Collabora-Office.adml:1590
 msgid "Disable Flat XML ODF Drawing"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1587
+#: en-US/Collabora-Office.adml:1594
 msgid "Disable Flat XML ODF Presentation"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1591
+#: en-US/Collabora-Office.adml:1598
 msgid "Disable Flat XML ODF Spreadsheet"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1595
+#: en-US/Collabora-Office.adml:1602
 msgid "Disable Flat XML ODF Text Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1599
+#: en-US/Collabora-Office.adml:1606
 msgid "Disable Office Open XML Text"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1603
+#: en-US/Collabora-Office.adml:1610
 msgid "Disable Office Open XML Text Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1607
+#: en-US/Collabora-Office.adml:1614
 msgid "Disable PBM - Portable Bitmap"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1611
+#: en-US/Collabora-Office.adml:1618
 msgid "Disable PCT - Mac Pict"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1615
+#: en-US/Collabora-Office.adml:1622
 msgid "Disable PCX - Zsoft Paintbrush"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1619
+#: en-US/Collabora-Office.adml:1626
 msgid "Disable PGM - Portable Graymap"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1623
+#: en-US/Collabora-Office.adml:1630
 msgid "Disable PNG - Portable Network Graphic"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1627
+#: en-US/Collabora-Office.adml:1634
 msgid "Disable PPM - Portable Pixelmap"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1631
+#: en-US/Collabora-Office.adml:1638
 msgid "Disable PSD - Adobe Photoshop"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1635
+#: en-US/Collabora-Office.adml:1642
 msgid "Disable Adobe PageMaker"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1639
+#: en-US/Collabora-Office.adml:1646
 msgid "Disable PalmDoc eBook"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1643
+#: en-US/Collabora-Office.adml:1650
 msgid "Disable Palm Text Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1647
+#: en-US/Collabora-Office.adml:1654
 msgid "Disable Plucker eBook"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1651
+#: en-US/Collabora-Office.adml:1658
 msgid "Disable Microsoft PowerPoint 1-4 and 95's"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1655
+#: en-US/Collabora-Office.adml:1662
 msgid "Disable Microsoft Publisher 98-2010"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1659
+#: en-US/Collabora-Office.adml:1666
 msgid "Disable Quattro Pro 6.0"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1663
+#: en-US/Collabora-Office.adml:1670
 msgid "Disable QuarkXPress"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1667
+#: en-US/Collabora-Office.adml:1674
 msgid "Disable RAS - Sun Raster Image"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1671
+#: en-US/Collabora-Office.adml:1678
 msgid "Disable Rich Text"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1675
+#: en-US/Collabora-Office.adml:1682
 msgid "Disable Rich Text Format (Calc)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1679
+#: en-US/Collabora-Office.adml:1686
 msgid "Disable SVG - Scalable Vector Graphics"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1683
+#: en-US/Collabora-Office.adml:1690
 msgid "Disable SVM - StarView Metafile"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1687
+#: en-US/Collabora-Office.adml:1694
 msgid "Disable SYLK"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1691
+#: en-US/Collabora-Office.adml:1698
 msgid "Disable ODF Database Report"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1695
+#: en-US/Collabora-Office.adml:1702
 msgid "Disable OpenOffice.org 1.0 Report Chart"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1699
+#: en-US/Collabora-Office.adml:1706
 msgid "Disable Legacy StarOffice Drawing"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1703
+#: en-US/Collabora-Office.adml:1710
 msgid "Disable Legacy StarOffice Presentation"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1707
+#: en-US/Collabora-Office.adml:1714
 msgid "Disable Legacy StarOffice Spreadsheet"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1711
+#: en-US/Collabora-Office.adml:1718
 msgid "Disable Legacy StarOffice Text Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1715
+#: en-US/Collabora-Office.adml:1722
 msgid "Disable ODF Database"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1719
+#: en-US/Collabora-Office.adml:1726
 msgid "Disable OpenOffice.org 1.0 Spreadsheet"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1723
+#: en-US/Collabora-Office.adml:1730
 msgid "Disable OpenOffice.org 1.0 Chart"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1727
+#: en-US/Collabora-Office.adml:1734
 msgid "Disable OpenOffice.org 1.0 Drawing"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1731
+#: en-US/Collabora-Office.adml:1738
 msgid "Disable OpenOffice.org 1.0 Presentation"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1735
+#: en-US/Collabora-Office.adml:1742
 msgid "Disable OpenOffice.org 1.0 Formula"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1739
+#: en-US/Collabora-Office.adml:1746
 msgid "Disable OpenOffice.org 1.0 Text Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1743
+#: en-US/Collabora-Office.adml:1750
 msgid "Disable T602 Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1747
+#: en-US/Collabora-Office.adml:1754
 msgid "Disable TGA - Truevision Targa"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1751
+#: en-US/Collabora-Office.adml:1758
 msgid "Disable TIFF - Tagged Image File Format"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1755
+#: en-US/Collabora-Office.adml:1762
 msgid "Disable Text"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1759
+#: en-US/Collabora-Office.adml:1766
 msgid "Disable Text (Writer/Web)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1763
+#: en-US/Collabora-Office.adml:1770
 msgid "Disable Text CSV"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1767
+#: en-US/Collabora-Office.adml:1774
 msgid "Disable Text - Choose Encoding"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1771
+#: en-US/Collabora-Office.adml:1778
 msgid "Disable Text - Choose Encoding (Master Document)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1775
+#: en-US/Collabora-Office.adml:1782
 msgid "Disable Text - Choose Encoding (Writer/Web)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1779
+#: en-US/Collabora-Office.adml:1786
 msgid "Disable Unified Office Format presentation"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1783
+#: en-US/Collabora-Office.adml:1790
 msgid "Disable Unified Office Format spreadsheet"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1787
+#: en-US/Collabora-Office.adml:1794
 msgid "Disable Unified Office Format text"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1791
+#: en-US/Collabora-Office.adml:1798
 msgid "Disable Microsoft Visio 2000-2013"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1795
+#: en-US/Collabora-Office.adml:1802
 msgid "Disable WMF - Windows Metafile"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1799
+#: en-US/Collabora-Office.adml:1806
 msgid "Disable Lotus Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1803
+#: en-US/Collabora-Office.adml:1810
 msgid "Disable QuattroPro Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1807
+#: en-US/Collabora-Office.adml:1814
 msgid "Disable WordPerfect Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1811
+#: en-US/Collabora-Office.adml:1818
 msgid "Disable WordPerfect Graphics"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1815
+#: en-US/Collabora-Office.adml:1822
 msgid "Disable WriteNow Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1819
+#: en-US/Collabora-Office.adml:1826
 msgid "Disable XBM - X Bitmap"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1823
+#: en-US/Collabora-Office.adml:1830
 msgid "Disable XPM - X PixMap"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1827
+#: en-US/Collabora-Office.adml:1834
 msgid "Disable Zoner Callisto/Draw"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1831
+#: en-US/Collabora-Office.adml:1838
 msgid "Disable ODF Spreadsheet"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1835
+#: en-US/Collabora-Office.adml:1842
 msgid "Disable ODF Spreadsheet Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1839
+#: en-US/Collabora-Office.adml:1846
 msgid "Disable Gnumeric Spreadsheet"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1843
+#: en-US/Collabora-Office.adml:1850
 msgid "Disable Web Page Query (Calc)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1847
+#: en-US/Collabora-Office.adml:1854
 msgid "Disable Microsoft Excel 2007 Binary"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1851
+#: en-US/Collabora-Office.adml:1858
 msgid "Disable Microsoft Excel 2007-2016 XML (macro enabled)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1855
+#: en-US/Collabora-Office.adml:1862
 msgid "Disable Microsoft Excel 2007-2013 XML"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1859
+#: en-US/Collabora-Office.adml:1866
 msgid "Disable Microsoft Excel 2007-2013 XML Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1863
+#: en-US/Collabora-Office.adml:1870
 msgid "Disable Office Open XML Spreadsheet"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1867
+#: en-US/Collabora-Office.adml:1874
 msgid "Disable Office Open XML Spreadsheet Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1871
+#: en-US/Collabora-Office.adml:1878
 msgid "Disable OpenOffice.org 1.0 Spreadsheet Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1875
+#: en-US/Collabora-Office.adml:1882
 msgid "Disable ODF Chart"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1879
+#: en-US/Collabora-Office.adml:1886
 msgid "Disable dBASE"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1883
+#: en-US/Collabora-Office.adml:1890
 msgid "Disable ODF Drawing"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1887
+#: en-US/Collabora-Office.adml:1894
 msgid "Disable ODF Drawing Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1891
+#: en-US/Collabora-Office.adml:1898
 msgid "Disable PCD - Kodak Photo CD (768x512)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1895
+#: en-US/Collabora-Office.adml:1902
 msgid "Disable PCD - Kodak Photo CD (192x128)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1899
+#: en-US/Collabora-Office.adml:1906
 msgid "Disable PCD - Kodak Photo CD (384x256)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1903
+#: en-US/Collabora-Office.adml:1910
 msgid "Disable OpenOffice.org 1.0 Drawing Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1907
+#: en-US/Collabora-Office.adml:1914
 msgid "Disable ODF Presentation"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1911
+#: en-US/Collabora-Office.adml:1918
 msgid "Disable ODF Drawing (Impress)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1915
+#: en-US/Collabora-Office.adml:1922
 msgid "Disable ODF Presentation Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1919
+#: en-US/Collabora-Office.adml:1926
 msgid "Disable Microsoft PowerPoint 2007-2013 XML"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1923
+#: en-US/Collabora-Office.adml:1930
 msgid "Disable Microsoft PowerPoint 2007-2013 XML AutoPlay"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1927
+#: en-US/Collabora-Office.adml:1934
 msgid "Disable Microsoft PowerPoint 2007-2013 XML Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1931
+#: en-US/Collabora-Office.adml:1938
 msgid "Disable Microsoft PowerPoint 2007-2013 XML VBA"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1935
+#: en-US/Collabora-Office.adml:1942
 msgid "Disable Office Open XML Presentation"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1939
+#: en-US/Collabora-Office.adml:1946
 msgid "Disable Office Open XML Presentation AutoPlay"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1943
+#: en-US/Collabora-Office.adml:1950
 msgid "Disable Office Open XML Presentation Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1947
+#: en-US/Collabora-Office.adml:1954
 msgid "Disable OpenOffice.org 1.0 Drawing (Impress)"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1951
+#: en-US/Collabora-Office.adml:1958
 msgid "Disable OpenOffice.org 1.0 Presentation Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1955
+#: en-US/Collabora-Office.adml:1962
 msgid "Disable ODF Formula"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1959
+#: en-US/Collabora-Office.adml:1966
 msgid "Disable MOV - QuickTime File Format"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1963
+#: en-US/Collabora-Office.adml:1970
 msgid "Disable ODF Text Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1967
+#: en-US/Collabora-Office.adml:1974
 msgid "Disable ODF Text Document Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1971
+#: en-US/Collabora-Office.adml:1978
 msgid "Disable Hangul WP 97"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1975
+#: en-US/Collabora-Office.adml:1982
 msgid "Disable OpenOffice.org 1.0 Text Document Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1979
+#: en-US/Collabora-Office.adml:1986
 msgid "Disable OpenOffice.org 1.0 Master Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1983
+#: en-US/Collabora-Office.adml:1990
 msgid "Disable Help content"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1987
+#: en-US/Collabora-Office.adml:1994
 msgid "Disable OpenOffice.org 1.0 HTML Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1991
+#: en-US/Collabora-Office.adml:1998
 msgid "Disable ODF Master Document"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1995
+#: en-US/Collabora-Office.adml:2002
 msgid "Disable ODF Master Document Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:1999
+#: en-US/Collabora-Office.adml:2006
 msgid "Disable HTML Document Template"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2003
+#: en-US/Collabora-Office.adml:2010
 msgid "Case sensitive"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2019
+#: en-US/Collabora-Office.adml:2026
 msgid "Enable regular expressions in formulas"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2023
+#: en-US/Collabora-Office.adml:2030
 msgid "Enable wildcards in formulas"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2035
+#: en-US/Collabora-Office.adml:2042
 msgid "Print empty pages"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2039
+#: en-US/Collabora-Office.adml:2046
 msgid "Use English function names"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:2043
+#: en-US/Collabora-Office.adml:2050
 msgid "Recalculation on file load"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: en-US/Collabora-Office.adml:2044
+#: en-US/Collabora-Office.adml:2051
 msgid "Excel 2007 and newer:"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: en-US/Collabora-Office.adml:2046
+#: en-US/Collabora-Office.adml:2053
 msgid "ODF spreadsheet (not saved by LibreOffice):"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: en-US/Collabora-Office.adml:2054
+#: en-US/Collabora-Office.adml:2061
 msgid "Icon style:"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: en-US/Collabora-Office.adml:2056
+#: en-US/Collabora-Office.adml:2063
 msgid "Icon size:"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2060
+#: en-US/Collabora-Office.adml:2067
 msgid "Allow use of OpenCL"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2064
+#: en-US/Collabora-Office.adml:2071
 msgid "Use OpenGL for all rendering"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2068
+#: en-US/Collabora-Office.adml:2075
 msgid "Force OpenGL even if blacklisted"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2072
+#: en-US/Collabora-Office.adml:2079
 msgid "Use Skia for all rendering"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2076
+#: en-US/Collabora-Office.adml:2083
 msgid "Force Skia even if blacklisted"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2080
+#: en-US/Collabora-Office.adml:2087
 msgid "Force Skia Raster even if blacklisted"
 msgstr ""
 
 #. (itstool) path: presentation/text
-#: en-US/Collabora-Office.adml:2088
+#: en-US/Collabora-Office.adml:2095
 msgid "Specifies if a warning should be displayed in case the printout contains transparent objects."
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2089
+#: en-US/Collabora-Office.adml:2096
 msgid "Transparency"
 msgstr ""
 
 #. (itstool) path: presentation/decimalTextBox
-#: en-US/Collabora-Office.adml:2111
+#: en-US/Collabora-Office.adml:2118
 msgid "seconds"
 msgstr ""
 
 #. (itstool) path: presentation/dropdownList
-#: en-US/Collabora-Office.adml:2127
+#: en-US/Collabora-Office.adml:2134
 msgid "Browser:"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2131
+#: en-US/Collabora-Office.adml:2138
 msgid "Use Font Substitutions table"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2133
+#: en-US/Collabora-Office.adml:2140
 msgid "Hide Tools - Options - LibreOffice - Fonts page"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2136
+#: en-US/Collabora-Office.adml:2143
 msgid "Always"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2137
+#: en-US/Collabora-Office.adml:2144
 msgid "On Screen Only"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:2139
+#: en-US/Collabora-Office.adml:2146
 msgid "Replace Font:"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:2142
+#: en-US/Collabora-Office.adml:2149
 msgid "Substitute Font:"
 msgstr ""
 
-#. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2147
-msgid "Export all the PDF as PDF/A"
+#. (itstool) path: presentation/dropdownList
+#: en-US/Collabora-Office.adml:2154
+msgid "PDF version:"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2159
+#: en-US/Collabora-Office.adml:2166
 msgid "Reorganize Form menu to have it MS compatible"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2167
-#: en-US/Collabora-Office.adml:2171
-#: en-US/Collabora-Office.adml:2175
-#: en-US/Collabora-Office.adml:2179
-#: en-US/Collabora-Office.adml:2183
-#: en-US/Collabora-Office.adml:2187
-#: en-US/Collabora-Office.adml:2191
+#: en-US/Collabora-Office.adml:2174
+#: en-US/Collabora-Office.adml:2178
+#: en-US/Collabora-Office.adml:2182
+#: en-US/Collabora-Office.adml:2186
+#: en-US/Collabora-Office.adml:2190
+#: en-US/Collabora-Office.adml:2194
+#: en-US/Collabora-Office.adml:2198
 msgid "Disable"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2195
+#: en-US/Collabora-Office.adml:2202
 msgid "Enable Viewer mode"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2203
+#: en-US/Collabora-Office.adml:2210
 msgid "Check document events"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2207
+#: en-US/Collabora-Office.adml:2214
 msgid "Extended Tips"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2211
+#: en-US/Collabora-Office.adml:2218
 msgid "Enable update check"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2227
+#: en-US/Collabora-Office.adml:2234
 msgid "Create bulleted and numbered lists while type"
 msgstr ""
 
 #. (itstool) path: presentation/checkBox
-#: en-US/Collabora-Office.adml:2231
+#: en-US/Collabora-Office.adml:2238
 msgid "Recognize numbers in tables"
 msgstr ""
 
 #. (itstool) path: textBox/label
-#: en-US/Collabora-Office.adml:2236
+#: en-US/Collabora-Office.adml:2243
 msgid "Min Words:"
 msgstr ""
 

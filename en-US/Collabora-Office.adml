@@ -770,6 +770,13 @@ Set paths in path lists have to be separated by spaces.</string>
       <string id="desc_WordCompletionMinWordLen">Sets the value for the minimum word length for word completion.</string>
       <string id="name_TableNumberRecognition">Number recognition</string>
       <string id="desc_TableNumberRecognition">Specifies whether numbers in a table are recognized or if they are saved in a text format.</string>
+      <string id="pdf_DefaultVersion">Default</string>
+      <string id="pdf_PDF_A_1">PDF/A-1</string>
+      <string id="pdf_PDF_A_2">PDF/A-2 (LibreOffice since 6.3)</string>
+      <string id="pdf_PDF_A_3">PDF/A-3 (LibreOffice since 6.4)</string>
+      <string id="pdf_PDF_1_4">PDF 1.4 (LibreOffice until 6.1)</string>
+      <string id="pdf_PDF_1_5">PDF 1.5 (LibreOffice since 6.1)</string>
+      <string id="pdf_PDF_1_6">PDF 1.6 (LibreOffice since 7.0)</string>
     </stringTable>
     <presentationTable>
       <presentation id="LDAPConfigBackendSettings">
@@ -2144,7 +2151,7 @@ Set paths in path lists have to be separated by spaces.</string>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="SelectPDFExport">
-        <checkBox refId="Value">Export all the PDF as PDF/A</checkBox>
+        <dropdownList refId="Value" defaultItem="0">PDF version: </dropdownList>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="TrySystemCredentialsFirst">
