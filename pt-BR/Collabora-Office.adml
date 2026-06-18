@@ -746,6 +746,29 @@ The following path variables can be used:
 Set paths in path lists have to be separated by spaces.</string>
       <string id="name_ViewerAppMode">Viewer mode</string>
       <string id="desc_ViewerAppMode">Disable all editing capabilities of the application and open all documents read-only.</string>
+      <string id="category_CommonHelp">Help</string>
+      <string id="category_Table">Table</string>
+      <string id="category_Jobs">Jobs</string>
+      <string id="name_LoadPrinter">Load printer settings with the document</string>
+      <string id="desc_LoadPrinter">Specifies if the printer settings will be loaded with the document.</string>
+      <string id="name_CheckDocumentEvents">Check Document Events</string>
+      <string id="desc_CheckDocumentEvents">Warn on load when a document binds an event to a macro</string>
+      <string id="name_HelpExtendedTip">Extended tips</string>
+      <string id="desc_HelpExtendedTip">Activates the extended help in tooltips</string>
+      <string id="name_UpdateCheckEnabled">Update check enabled</string>
+      <string id="desc_UpdateCheckEnabled">Enable automatic update check</string>
+      <string id="name_PDFExportFormFields">Export form fields as widgets</string>
+      <string id="desc_PDFExportFormFields">Specifies whether form fields are exported as widgets or only their fixed print representation is exported.</string>
+      <string id="name_PDFExportPlaceholders">Export placeholder fields to PDF</string>
+      <string id="desc_PDFExportPlaceholders">Specifies if placeholder fields are exported to PDF.</string>
+      <string id="name_PrintSinglePrintJob">Create single print jobs</string>
+      <string id="desc_PrintSinglePrintJob">Controls the print output to avoid problems with duplex printing and odd page numbers.</string>
+      <string id="name_AutoTextApplyNumbering">Bulleted and numbered lists</string>
+      <string id="desc_AutoTextApplyNumbering">Specifies whether a numbered or bulleted text is created automatically while typing.</string>
+      <string id="name_WordCompletionMinWordLen">Word completion minimum word length</string>
+      <string id="desc_WordCompletionMinWordLen">Sets the value for the minimum word length for word completion.</string>
+      <string id="name_TableNumberRecognition">Number recognition</string>
+      <string id="desc_TableNumberRecognition">Specifies whether numbers in a table are recognized or if they are saved in a text format.</string>
     </stringTable>
     <presentationTable>
       <presentation id="LDAPConfigBackendSettings">
@@ -2169,6 +2192,48 @@ Set paths in path lists have to be separated by spaces.</string>
       </presentation>
       <presentation id="ViewerAppMode">
         <checkBox refId="Value">Enable Viewer mode</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="LoadPrinter">
+        <checkBox refId="Value">Load printer settings with the document</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="CheckDocumentEvents">
+        <checkBox refId="Value">Check document events</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="HelpExtendedTip">
+        <checkBox refId="Value">Extended Tips</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="UpdateCheckEnabled">
+        <checkBox refId="Value">Enable update check</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="PDFExportFormFields">
+        <checkBox refId="Value">Export form fields as widgets</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="PDFExportPlaceholders">
+        <checkBox refId="Value">Export placeholder fields to PDF</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="PrintSinglePrintJob">
+        <checkBox refId="Value">Create single print jobs</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="AutoTextApplyNumbering">
+        <checkBox refId="Value">Create bulleted and numbered lists while type</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="TableNumberRecognition">
+        <checkBox refId="Value">Recognize numbers in tables</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="WordCompletionMinWordLen">
+        <textBox refId="WordCompletionMinWordLenValue">
+          <label>Min Words: </label>
+        </textBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
     </presentationTable>
