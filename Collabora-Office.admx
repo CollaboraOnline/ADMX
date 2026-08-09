@@ -186,7 +186,7 @@
     </policy>
     <policy name="BuiltInHelpNotInstalledPopUp" class="Both" displayName="$(string.name_BuiltInHelpNotInstalledPopUp)" explainText="$(string.desc_BuiltInHelpNotInstalledPopUp)" presentation="$(presentation.BuiltInHelpNotInstalledPopUp)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Help\BuiltInHelpNotInstalledPopUp">
       <parentCategory ref="General" />
-      <supportedOn ref="supported_LibreOffice_7" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
       <elements>
         <boolean id="Value" valueName="Value">
           <trueValue>
