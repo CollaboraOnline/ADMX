@@ -71,6 +71,9 @@
     <category name="View" displayName="$(string.category_View)">
       <parentCategory ref="Common" />
     </category>
+    <category name="UserInterface" displayName="$(string.category_UserInterface)">
+      <parentCategory ref="Common" />
+    </category>
     <category name="Print" displayName="$(string.category_Print)">
       <parentCategory ref="Common" />
     </category>
@@ -497,6 +500,266 @@
           </item>
         </enum>
         <boolean id="SizeFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\SymbolSet" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ToolbarModeWriter" class="Both" displayName="$(string.name_ToolbarModeWriter)" explainText="$(string.desc_ToolbarMode)" presentation="$(presentation.ToolbarMode)" key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\Applications\Writer/#fuse\Active">
+      <parentCategory ref="UserInterface" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <enum id="Value" valueName="Value">
+          <item displayName="$(string.toolbarmode_Default)">
+            <value>
+              <string>Default</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveWriter" valueName="Value">
+                <value>
+                  <string>Default</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_Tabbed)">
+            <value>
+              <string>notebookbar.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveWriter" valueName="Value">
+                <value>
+                  <string>notebookbar.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_TabbedCompact)">
+            <value>
+              <string>notebookbar_compact.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveWriter" valueName="Value">
+                <value>
+                  <string>notebookbar_compact.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_GroupedbarCompact)">
+            <value>
+              <string>notebookbar_groupedbar_compact.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveWriter" valueName="Value">
+                <value>
+                  <string>notebookbar_groupedbar_compact.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_ContextualSingle)">
+            <value>
+              <string>notebookbar_single.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveWriter" valueName="Value">
+                <value>
+                  <string>notebookbar_single.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
+      </elements>
+    </policy>
+    <policy name="ToolbarModeCalc" class="Both" displayName="$(string.name_ToolbarModeCalc)" explainText="$(string.desc_ToolbarMode)" presentation="$(presentation.ToolbarMode)" key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\Applications\Calc/#fuse\Active">
+      <parentCategory ref="UserInterface" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <enum id="Value" valueName="Value">
+          <item displayName="$(string.toolbarmode_Default)">
+            <value>
+              <string>Default</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveCalc" valueName="Value">
+                <value>
+                  <string>Default</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_Tabbed)">
+            <value>
+              <string>notebookbar.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveCalc" valueName="Value">
+                <value>
+                  <string>notebookbar.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_TabbedCompact)">
+            <value>
+              <string>notebookbar_compact.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveCalc" valueName="Value">
+                <value>
+                  <string>notebookbar_compact.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_GroupedbarCompact)">
+            <value>
+              <string>notebookbar_groupedbar_compact.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveCalc" valueName="Value">
+                <value>
+                  <string>notebookbar_groupedbar_compact.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
+      </elements>
+    </policy>
+    <policy name="ToolbarModeImpress" class="Both" displayName="$(string.name_ToolbarModeImpress)" explainText="$(string.desc_ToolbarMode)" presentation="$(presentation.ToolbarMode)" key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\Applications\Impress/#fuse\Active">
+      <parentCategory ref="UserInterface" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <enum id="Value" valueName="Value">
+          <item displayName="$(string.toolbarmode_Default)">
+            <value>
+              <string>Default</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveImpress" valueName="Value">
+                <value>
+                  <string>Default</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_Tabbed)">
+            <value>
+              <string>notebookbar.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveImpress" valueName="Value">
+                <value>
+                  <string>notebookbar.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_TabbedCompact)">
+            <value>
+              <string>notebookbar_compact.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveImpress" valueName="Value">
+                <value>
+                  <string>notebookbar_compact.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_GroupedbarCompact)">
+            <value>
+              <string>notebookbar_groupedbar_compact.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveImpress" valueName="Value">
+                <value>
+                  <string>notebookbar_groupedbar_compact.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_ContextualSingle)">
+            <value>
+              <string>notebookbar_single.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveImpress" valueName="Value">
+                <value>
+                  <string>notebookbar_single.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
+      </elements>
+    </policy>
+    <policy name="ToolbarModeDraw" class="Both" displayName="$(string.name_ToolbarModeDraw)" explainText="$(string.desc_ToolbarMode)" presentation="$(presentation.ToolbarMode)" key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\Applications\Draw/#fuse\Active">
+      <parentCategory ref="UserInterface" />
+      <supportedOn ref="supported_LibreOffice_7_0" />
+      <elements>
+        <enum id="Value" valueName="Value">
+          <item displayName="$(string.toolbarmode_Default)">
+            <value>
+              <string>Default</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveDraw" valueName="Value">
+                <value>
+                  <string>Default</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_Tabbed)">
+            <value>
+              <string>notebookbar.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveDraw" valueName="Value">
+                <value>
+                  <string>notebookbar.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_TabbedCompact)">
+            <value>
+              <string>notebookbar_compact.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveDraw" valueName="Value">
+                <value>
+                  <string>notebookbar_compact.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_GroupedbarCompact)">
+            <value>
+              <string>notebookbar_groupedbar_compact.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveDraw" valueName="Value">
+                <value>
+                  <string>notebookbar_groupedbar_compact.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.toolbarmode_ContextualSingle)">
+            <value>
+              <string>notebookbar_single.ui</string>
+            </value>
+            <valueList>
+              <item key="Software\Policies\LibreOffice\org.openoffice.Office.UI.ToolbarMode\ActiveDraw" valueName="Value">
+                <value>
+                  <string>notebookbar_single.ui</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
       </elements>
     </policy>
     <policy name="UseOpenCL" class="Both" displayName="$(string.name_UseOpenCL)" explainText="$(string.desc_UseOpenCL)" presentation="$(presentation.UseOpenCL)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\UseOpenCL">

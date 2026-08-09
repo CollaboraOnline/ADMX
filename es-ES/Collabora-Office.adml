@@ -580,6 +580,22 @@ Cuando algúno se configura para utilizar LDAP su valor es el atributo LDAP que 
       <string id="name_ForceSkiaRaster">Force Skia Raster</string>
       <string id="desc_ForceSkiaRaster">Specifies if Skia Raster rendering should be used in VCL backends supporting it. This one forces the use of Skia Raster even if the blacklist would block the Skia driver.</string>
 
+      <string id="category_UserInterface">User Interface</string>
+      <string id="name_ToolbarModeWriter">User interface of Writer</string>
+      <string id="name_ToolbarModeCalc">User interface of Calc</string>
+      <string id="name_ToolbarModeImpress">User interface of Impress</string>
+      <string id="name_ToolbarModeDraw">User interface of Draw</string>
+      <string id="desc_ToolbarMode">Selects the toolbar layout the application starts with. This is the same setting the user can change in View - User Interface.
+
+The policy supplies the value for users who have not picked a user interface themselves. A user who changes the user interface later keeps that choice, because the setting stored in the user profile takes precedence over the policy.
+
+Only the Standard Toolbar and the notebookbar based layouts can be applied this way. Single Toolbar and Sidebar are not offered, because their toolbar and sidebar arrangement is only built when the user switches to them from within the application.</string>
+      <string id="toolbarmode_Default">Standard Toolbar</string>
+      <string id="toolbarmode_Tabbed">Tabbed</string>
+      <string id="toolbarmode_TabbedCompact">Tabbed Compact</string>
+      <string id="toolbarmode_GroupedbarCompact">Groupedbar Compact</string>
+      <string id="toolbarmode_ContextualSingle">Contextual Single</string>
+
       <string id="category_Print">Imprimir</string>
       <string id="name_ConvertToGreyscales">Convertir colores a escala de grises</string>
       <string id="desc_ConvertToGreyscales">Indica si se debe crear solo salida en escala de grises para todos los objetos.</string>
@@ -1949,6 +1965,9 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
         <checkBox refId="Final">Final</checkBox>
         <dropdownList refId="SizeValue" defaultItem="0">Tamaño de iconos:</dropdownList>
         <checkBox refId="SizeFinal">Final</checkBox>
+      </presentation>
+      <presentation id="ToolbarMode">
+        <dropdownList refId="Value" defaultItem="0">User interface: </dropdownList>
       </presentation>
       <presentation id="UseOpenCL">
         <checkBox refId="Value">Permitir uso de OpenCL</checkBox>
