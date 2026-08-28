@@ -550,6 +550,18 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
       <string id="desc_UPTelephone">Telephone/Fax
 
 When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+      <string id="UPMail">E-mailová adresa</string>
+      <string id="desc_UPMail">E-mailová adresa
+
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+      <string id="UPTitle">Titul</string>
+      <string id="desc_UPTitle">Titul
+
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+      <string id="UPPosition">Pozice</string>
+      <string id="desc_UPPosition">Pozice
+
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
 
 
       <string id="category_Passwords">Hesla</string>
@@ -921,14 +933,36 @@ Set paths in path lists have to be separated by spaces.</string>
         <dropdownList refId="AddressCountryFlags" noSort="true" defaultItem="0">Příznaky:</dropdownList>
       </presentation>
       <presentation id="UPTelephone">
+        <textBox refId="HomePhoneValue">
+          <label>Telefon (domů):</label>
+        </textBox>
+        <dropdownList refId="HomePhoneFlags" noSort="true" defaultItem="0">Příznaky:</dropdownList>
         <textBox refId="TelephoneValue">
-          <label>Telefon:</label>
+          <label>Telefon (práce):</label>
         </textBox>
         <dropdownList refId="TelephoneFlags" noSort="true" defaultItem="0">Příznaky:</dropdownList>
         <textBox refId="FaxValue">
           <label>Fax:</label>
         </textBox>
         <dropdownList refId="FaxFlags" noSort="true" defaultItem="0">Příznaky:</dropdownList>
+      </presentation>
+      <presentation id="UPMail">
+        <textBox refId="MailValue">
+          <label>E-mailová adresa:</label>
+        </textBox>
+        <dropdownList refId="MailFlags" noSort="true" defaultItem="0">Příznaky:</dropdownList>
+      </presentation>
+      <presentation id="UPTitle">
+        <textBox refId="TitleValue">
+          <label>Titul:</label>
+        </textBox>
+        <dropdownList refId="TitleFlags" noSort="true" defaultItem="0">Příznaky:</dropdownList>
+      </presentation>
+      <presentation id="UPPosition">
+        <textBox refId="PositionValue">
+          <label>Pozice:</label>
+        </textBox>
+        <dropdownList refId="PositionFlags" noSort="true" defaultItem="0">Příznaky:</dropdownList>
       </presentation>
       <presentation id="WriterSaveAsFormat">
         <text>Vždy ukládat v tomto formátu dokumentu.</text>

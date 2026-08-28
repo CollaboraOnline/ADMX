@@ -553,6 +553,20 @@ Si une partie est défini comme provenant LDAP, alors sa valeur est un attribut 
       <string id="desc_UPTelephone">Téléphone/Fax
 
 Si une partie est défini comme provenant LDAP, alors sa valeur est un attribut LDAP; les paramètres de configuration du backend LDAP déterminent comment se connecter au serveur LDAP.</string>
+      <string id="UPMail">Adresse électronique</string>
+      <string id="desc_UPMail">Adresse électronique
+
+Si une partie est défini comme provenant LDAP, alors sa valeur est un attribut LDAP; les paramètres de configuration du backend LDAP déterminent comment se connecter au serveur LDAP.</string>
+      <string id="UPTitle">Titre</string>
+      <string id="desc_UPTitle">Titre
+
+Si une partie est défini comme provenant LDAP, alors sa valeur est un attribut LDAP; les paramètres de configuration du backend LDAP déterminent comment se connecter au serveur LDAP.</string>
+      <string id="UPPosition">Fonction</string>
+      <string id="desc_UPPosition">Fonction
+
+Si une partie est défini comme provenant LDAP, alors sa valeur est un attribut LDAP; les paramètres de configuration du backend LDAP déterminent comment se connecter au serveur LDAP.
+
+Note : « De Windows » laisse ce champ vide, le connecteur Windows ne l'alimente jamais.</string>
 
 
       <string id="category_Passwords">Mot de passe</string>
@@ -938,14 +952,36 @@ Les chemins définis dans une liste doivent être séparés par des espaces.</st
         <dropdownList refId="AddressCountryFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>
       <presentation id="UPTelephone">
+        <textBox refId="HomePhoneValue">
+          <label>Téléphone (personnel) :</label>
+        </textBox>
+        <dropdownList refId="HomePhoneFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="TelephoneValue">
-          <label>Téléphone :</label>
+          <label>Téléphone (professionnel) :</label>
         </textBox>
         <dropdownList refId="TelephoneFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="FaxValue">
           <label>Fax :</label>
         </textBox>
         <dropdownList refId="FaxFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
+      </presentation>
+      <presentation id="UPMail">
+        <textBox refId="MailValue">
+          <label>Adresse électronique :</label>
+        </textBox>
+        <dropdownList refId="MailFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
+      </presentation>
+      <presentation id="UPTitle">
+        <textBox refId="TitleValue">
+          <label>Titre :</label>
+        </textBox>
+        <dropdownList refId="TitleFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
+      </presentation>
+      <presentation id="UPPosition">
+        <textBox refId="PositionValue">
+          <label>Fonction :</label>
+        </textBox>
+        <dropdownList refId="PositionFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>
       <presentation id="WriterSaveAsFormat">
         <text>Toujours enregistrer dans ce format de document.</text>
