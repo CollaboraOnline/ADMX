@@ -2443,6 +2443,388 @@
             </valueList>
           </item>
         </enum>
+        <text id="HomePhoneValue" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\homephone" valueName="Value" />
+        <enum id="HomePhoneFlags" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\homephone" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\homephone">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\homephone">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\homephone">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\homephone">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe homephone</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
+      </elements>
+    </policy>
+    <policy name="UPMail" class="Both" displayName="$(string.UPMail)" explainText="$(string.desc_UPMail)" presentation="$(presentation.UPMail)" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\mail">
+      <parentCategory ref="UserProfile" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <text id="MailValue" valueName="Value" />
+        <enum id="MailFlags" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\mail">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\mail">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\mail">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\mail">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe mail</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
+      </elements>
+    </policy>
+    <policy name="UPTitle" class="Both" displayName="$(string.UPTitle)" explainText="$(string.desc_UPTitle)" presentation="$(presentation.UPTitle)" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\title">
+      <parentCategory ref="UserProfile" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <text id="TitleValue" valueName="Value" />
+        <enum id="TitleFlags" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\title">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\title">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\title">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\title">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe title</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
+      </elements>
+    </policy>
+    <policy name="UPPosition" class="Both" displayName="$(string.UPPosition)" explainText="$(string.desc_UPPosition)" presentation="$(presentation.UPPosition)" key="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\position">
+      <parentCategory ref="UserProfile" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <text id="PositionValue" valueName="Value" />
+        <enum id="PositionFlags" valueName="Dummy">
+          <item displayName="$(string.ValueFlagsNone)">
+            <value>
+              <decimal value="0"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\position">
+              <item valueName="Final">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsFinal)">
+            <value>
+              <decimal value="1"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\position">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="0"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <delete/>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalLDAP)">
+            <value>
+              <decimal value="2"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\position">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.LdapUserProfileBe</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+          <item displayName="$(string.ValueFlagsExternalWin)">
+            <value>
+              <decimal value="3"/>
+            </value>
+            <valueList defaultKey="Software\Policies\LibreOffice\org.openoffice.UserProfile\Data\position">
+              <item valueName="Final">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="External">
+                <value>
+                  <decimal value="1"/>
+                </value>
+              </item>
+              <item valueName="ExternalBackend">
+                <value>
+                  <string>com.sun.star.configuration.backend.WinUserInfoBe position</string>
+                </value>
+              </item>
+            </valueList>
+          </item>
+        </enum>
       </elements>
     </policy>
     <policy name="WriterSaveAsFormat" class="Both" displayName="$(string.SaveAsFormat)" explainText="$(string.desc_SaveAsFormat)" presentation="$(presentation.WriterSaveAsFormat)" key="Software\Policies\LibreOffice\org.openoffice.Setup\Office\Factories\org.openoffice.Setup:Factory['com.sun.star.text.TextDocument']\ooSetupFactoryDefaultFilter">

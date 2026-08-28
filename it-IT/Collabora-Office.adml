@@ -553,6 +553,18 @@ Quando è impostato per essere letto da LDAP, il suo valore è l'attributo LDAP 
       <string id="desc_UPTelephone">Telefono/Fax
 
 Quando è impostato per essere letto da LDAP, il suo valore è l'attributo che contiene il telefono/fax; Le impostazioni del back-end di configurazione LDAP determinano come collegarsi al server LDAP.</string>
+      <string id="UPMail">Indirizzo e-mail</string>
+      <string id="desc_UPMail">Indirizzo e-mail
+
+Quando è impostato per essere letto da LDAP, il suo valore è l'attributo LDAP che contiene l'indirizzo; Le impostazioni del back-end di configurazione LDAP determinano come collegarsi al server LDAP.</string>
+      <string id="UPTitle">Titolo</string>
+      <string id="desc_UPTitle">Titolo
+
+Quando è impostato per essere letto da LDAP, il suo valore è l'attributo LDAP che contiene l'indirizzo; Le impostazioni del back-end di configurazione LDAP determinano come collegarsi al server LDAP.</string>
+      <string id="UPPosition">Posizione</string>
+      <string id="desc_UPPosition">Posizione
+
+Quando è impostato per essere letto da LDAP, il suo valore è l'attributo LDAP che contiene l'indirizzo; Le impostazioni del back-end di configurazione LDAP determinano come collegarsi al server LDAP.</string>
 
 
       <string id="category_Passwords">Password</string>
@@ -994,14 +1006,36 @@ For example, the following policy requires at least eight characters, including 
         <dropdownList refId="AddressCountryFlags" noSort="true" defaultItem="0">Opzioni:</dropdownList>
       </presentation>
       <presentation id="UPTelephone">
+        <textBox refId="HomePhoneValue">
+          <label>Telefono (casa):</label>
+        </textBox>
+        <dropdownList refId="HomePhoneFlags" noSort="true" defaultItem="0">Opzioni:</dropdownList>
         <textBox refId="TelephoneValue">
-          <label>Telefono:</label>
+          <label>Telefono (ufficio):</label>
         </textBox>
         <dropdownList refId="TelephoneFlags" noSort="true" defaultItem="0">Opzioni:</dropdownList>
         <textBox refId="FaxValue">
           <label>Fax:</label>
         </textBox>
         <dropdownList refId="FaxFlags" noSort="true" defaultItem="0">Opzioni:</dropdownList>
+      </presentation>
+      <presentation id="UPMail">
+        <textBox refId="MailValue">
+          <label>Indirizzo e-mail:</label>
+        </textBox>
+        <dropdownList refId="MailFlags" noSort="true" defaultItem="0">Opzioni:</dropdownList>
+      </presentation>
+      <presentation id="UPTitle">
+        <textBox refId="TitleValue">
+          <label>Titolo:</label>
+        </textBox>
+        <dropdownList refId="TitleFlags" noSort="true" defaultItem="0">Opzioni:</dropdownList>
+      </presentation>
+      <presentation id="UPPosition">
+        <textBox refId="PositionValue">
+          <label>Posizione:</label>
+        </textBox>
+        <dropdownList refId="PositionFlags" noSort="true" defaultItem="0">Opzioni:</dropdownList>
       </presentation>
       <presentation id="WriterSaveAsFormat">
         <text>Salva sempre in questo formato di documento.</text>

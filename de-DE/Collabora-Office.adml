@@ -551,6 +551,18 @@ Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige W
       <string id="desc_UPTelephone">Telefon/Fax
 
 Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige Wert das LDAP-Attribut. Die LDAP-Backend-Konfiguration legt fest, wie die Verbindung zum LDAP-Server aufgebaut wird.</string>
+      <string id="UPMail">E-Mail-Adresse</string>
+      <string id="desc_UPMail">E-Mail-Adresse
+
+Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige Wert das LDAP-Attribut. Die LDAP-Backend-Konfiguration legt fest, wie die Verbindung zum LDAP-Server aufgebaut wird.</string>
+      <string id="UPTitle">Titel</string>
+      <string id="desc_UPTitle">Titel
+
+Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige Wert das LDAP-Attribut. Die LDAP-Backend-Konfiguration legt fest, wie die Verbindung zum LDAP-Server aufgebaut wird.</string>
+      <string id="UPPosition">Position</string>
+      <string id="desc_UPPosition">Position
+
+Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige Wert das LDAP-Attribut. Die LDAP-Backend-Konfiguration legt fest, wie die Verbindung zum LDAP-Server aufgebaut wird.</string>
 
 
       <string id="category_Passwords">Passwörter</string>
@@ -992,14 +1004,36 @@ For example, the following policy requires at least eight characters, including 
         <dropdownList refId="AddressCountryFlags" noSort="true" defaultItem="0">Flags:</dropdownList>
       </presentation>
       <presentation id="UPTelephone">
+        <textBox refId="HomePhoneValue">
+          <label>Telefon (privat):</label>
+        </textBox>
+        <dropdownList refId="HomePhoneFlags" noSort="true" defaultItem="0">Flags:</dropdownList>
         <textBox refId="TelephoneValue">
-          <label>Telefon:</label>
+          <label>Telefon (geschäftlich):</label>
         </textBox>
         <dropdownList refId="TelephoneFlags" noSort="true" defaultItem="0">Flags:</dropdownList>
         <textBox refId="FaxValue">
           <label>Fax:</label>
         </textBox>
         <dropdownList refId="FaxFlags" noSort="true" defaultItem="0">Flags:</dropdownList>
+      </presentation>
+      <presentation id="UPMail">
+        <textBox refId="MailValue">
+          <label>E-Mail-Adresse:</label>
+        </textBox>
+        <dropdownList refId="MailFlags" noSort="true" defaultItem="0">Flags:</dropdownList>
+      </presentation>
+      <presentation id="UPTitle">
+        <textBox refId="TitleValue">
+          <label>Titel:</label>
+        </textBox>
+        <dropdownList refId="TitleFlags" noSort="true" defaultItem="0">Flags:</dropdownList>
+      </presentation>
+      <presentation id="UPPosition">
+        <textBox refId="PositionValue">
+          <label>Position:</label>
+        </textBox>
+        <dropdownList refId="PositionFlags" noSort="true" defaultItem="0">Flags:</dropdownList>
       </presentation>
       <presentation id="WriterSaveAsFormat">
         <text>Immer in diesem Dokumentenformat speichern.</text>
