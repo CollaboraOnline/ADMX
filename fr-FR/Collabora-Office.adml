@@ -995,7 +995,7 @@ For example, the following policy requires at least eight characters, including 
         </textBox>
         <dropdownList refId="AddressCityFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressStateValue">
-          <label>Pays :</label>
+          <label>Région :</label>
         </textBox>
         <dropdownList refId="AddressStateFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressPostalCodeValue">
@@ -1003,7 +1003,7 @@ For example, the following policy requires at least eight characters, including 
         </textBox>
         <dropdownList refId="AddressPostalCodeFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="AddressCountryValue">
-          <label>Région :</label>
+          <label>Pays :</label>
         </textBox>
         <dropdownList refId="AddressCountryFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>
