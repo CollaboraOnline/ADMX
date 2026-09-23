@@ -33,12 +33,53 @@ Resource "$(string.something)" referenced in attribute displayName could not be 
 File Path\to\something.admx, line xxx, column xxx
 
 ## Localization notes
-[ITS Tool](http://itstool.org) is used to extract strings from adml file, and merge them back. The very simple `adml.its` file in this repository should be copied into e.g. `/usr/local/share/itstool/its/`. It sets one `preserveSpaceRule`.
+[ITS Tool](http://itstool.org) is used to extract strings from the adml file,
+and merge them back. The very simple `adml.its` file in this repository sets
+one `preserveSpaceRule`; pass it with `-i adml.its`.
 
-Create the pot from the adml file:
+### Updating the pot file
+
+After changing strings in `en-US/Collabora-Office.adml`, regenerate the pot:
 
     itstool -i adml.its -o en-US/Collabora-Office-adml.pot en-US/Collabora-Office.adml
 
-Merge the translated strings to the adml file:
+If the pot is not picked up by Transifex automatically, upload it with the
+Transifex CLI (see below):
 
-    itstool -m Collabora-Office-adml.mo -o it-IT/ Collabora-Office.adml
+    tx push --source
+
+### Updating translations from Transifex
+
+One-time setup:
+
+1. Install the [Transifex CLI](https://developers.transifex.com/docs/cli),
+   for example:
+
+       mkdir -p ~/.local/bin
+       curl -sL https://github.com/transifex/cli/releases/download/v1.6.17/tx-linux-amd64.tar.gz | tar -xz -C ~/.local/bin tx
+       tx --version
+
+   Make sure `~/.local/bin` is in your `PATH`. `msgfmt` (gettext) and
+   `itstool` are needed too.
+
+2. Create an API token at https://app.transifex.com/user/settings/api/ and
+   put it into `~/.transifexrc`:
+
+       [https://app.transifex.com]
+       rest_hostname = https://rest.api.transifex.com
+       token = <your token>
+
+   Alternatively, pass it in the `TX_TOKEN` environment variable.
+
+The project and the resource are configured in `.tx/config`. To update the
+translations, run:
+
+    ./transifex.sh
+
+It pulls the translations into `translations/` (ignored by git and removed
+at the end), merges each of them into its adml file with itstool, and adds
+back the credits of the French and Italian translators. Check the result
+before committing:
+
+    xmllint --noout */Collabora-Office.adml
+    git diff --stat
