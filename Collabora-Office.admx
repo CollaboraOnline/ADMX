@@ -6191,7 +6191,7 @@
             </value>
           </item>
         </enum>
-        <boolean id="ODFFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Formula\Load\ODFRecalcMode" valueName="Final" />
+        <boolean id="ODFFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Formula\Load\ODFRecalcMode" valueName="Final" />
       </elements>
     </policy>
     <policy name="EmptyMergedCells" class="Both" displayName="$(string.name_EmptyMergedCells)" explainText="$(string.desc_EmptyMergedCells)" presentation="$(presentation.EmptyMergedCells)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Compatibility\MergeCells\EmptyMergedCells">
