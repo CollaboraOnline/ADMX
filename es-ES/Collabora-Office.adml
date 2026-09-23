@@ -15,9 +15,9 @@
       <string id="supported_LibreOffice_5_3">Collabora Office 5.3 o más reciente</string>
       <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 o más reciente</string>
       <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 o más reciente</string>
-      <string id="supported_LibreOffice_6_4">Collabora Office 6.4 o más reciente</string>
-      <string id="supported_LibreOffice_7_0">Collabora Office 21.06 o más reciente</string>
-      <string id="supported_CO_24_04_11">Collabora Office 24.04.11 o más reciente</string>
+      <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
+      <string id="supported_LibreOffice_7_0">Collabora Office 21.06 or higher</string>
+      <string id="supported_CO_24_04_11">Collabora Office 24.04.11 or higher</string>
 
       <string id="ValueFlagsNone">Ninguno</string>
       <string id="ValueFlagsFinal">Final</string>
@@ -35,15 +35,17 @@
       <string id="name_AllowOverrideLocking">Allow override document locking</string>
       <string id="desc_AllowOverrideLocking">Specifies whether the user is allowed to override the document locking mechanism in LibreOffice/Collabora Office. If disabled and the document is already opened by another user, the current user can open a document only as a copy or in read only mode.</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
-      <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
+      <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
 
       <string id="category_LDAPConfigBackend">Motor de configuración de LDAP</string>
       <string id="name_LDAPConfigBackendSettings">Directorio de usuario de LDAP</string>
-      <string id="desc_LDAPConfigBackendSettings">Define la manera en que se establecerán conexiones con servidores LDAP y se recuperará la información de los usuarios usada en la sección Datos de usuario.
+      <string id="desc_LDAPConfigBackendSettings">Defines how to connect to LDAP server and retrieve user information used in User Data section
 
-Observe que la contraseña de vinculación con el servidor LDAP se almacena sin cifrar en el registro del sistema cliente; recomendamos que use una cuenta de búsquedas restringida (la cual solo puede realizar búsquedas en LDAP).
+Note that the password to bind to LDAP server is stored unencrypted in client system's registry; you should use a restricted search account (only able to perform LDAP searches).
 
-El atributo único de usuario debe corresponderse con el nombre de usuario de la cuenta de Windows, sin el dominio.</string>
+User unique attribute must correspond to the logged on user's Windows user name without domain.
+
+This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
 
       <string id="category_ProductName">Nombre de producto</string>
       <string id="name_ooName">Nombre de producto (ooName)</string>
@@ -114,7 +116,7 @@ Si está deshabilitada se mostrará el mensaje de advertencia.</string>
       <string id="name_UILocale">Idioma de interfaz de usuario</string>
       <string id="desc_UILocale">Especifica el idioma de la interfaz de usuario (IU). Si la cadena está vacía, se utilizará el idioma del sistema si es posible.</string>
       <string id="name_Locale">Configuración regional</string>
-      <string id="desc_Locale">Contiene la configuración regional del escritorio del usuario.</string>
+      <string id="desc_Locale">Specifies the locale setting (Tools - Options - Languages and Locales - General), for example en-US or de-DE. When empty, the locale of the operating system is used.</string>
       <string id="name_ooSetupCurrency">Moneda</string>
       <string id="desc_ooSetupCurrency">Indica la configuración de moneda definida por el usuario. De manera predeterminada, esta etiqueta está vacía y la moneda la define la configuración regional del sistema.</string>
       <string id="name_DecimalSeparatorAsLocale">Separador decimal según configuración regional</string>
@@ -182,10 +184,11 @@ Valor predeterminado: macros activadas</string>
       <string id="name_EnableExpertConfiguration">Activar configuración para expertos</string>
       <string id="desc_EnableExpertConfiguration">Determina si los usuarios pueden acceder a la configuración completa mediante el botón «Configuración para expertos».</string>
       <string id="name_SecureURL">Ubicaciones de archivos de confianza</string>
+
       <string id="name_DisableExtensionInstallation">Disable extension installation</string>
-      <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions.</string>
+      <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_DisableExtensionRemoval">Disable extension removal</string>
-      <string id="desc_DisableExtensionRemoval">Disable the possibility to remove installed extensions.</string>
+      <string id="desc_DisableExtensionRemoval">Disable the possibility to remove installed extensions. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
 
       <string id="category_Filters">Desactivar filtros de formatos de archivo</string>
 
@@ -248,7 +251,7 @@ Valor predeterminado: macros activadas</string>
       <string id="name_Lotus">Lotus 1-2-3</string>
       <string id="desc_Lotus">Desactivar el filtro de importación para el formato de archivo Lotus 1-2-3.</string>
       <string id="name_LotusWordPro">Documento de Lotus WordPro</string>
-      <string id="desc_LotusWordPro">Desactivar el filtro de importación para el formato de archivo Documento de Lotus WordPro.</string>
+      <string id="desc_LotusWordPro">Disable the import filter for Lotus WordPro Document file format. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_MET__OS2_Metafile">MET: metarchivo de OS/2</string>
       <string id="desc_MET__OS2_Metafile">Desactivar el filtro de importación para el formato de archivo MET: metarchivo de OS/2.</string>
       <string id="name_MS_Excel_2003_XML_Orcus">XML de Microsoft Excel 2003</string>
@@ -382,9 +385,9 @@ Valor predeterminado: macros activadas</string>
       <string id="name_SYLK">SYLK</string>
       <string id="desc_SYLK">Desactivar el filtro de importación para el formato de archivo SYLK</string>
       <string id="name_StarOffice_XML_Base_Report">Informe de base de datos ODF</string>
-      <string id="desc_StarOffice_XML_Base_Report">Desactivar el filtro de importación para el formato de archivo Informe de base de datos ODF</string>
+      <string id="desc_StarOffice_XML_Base_Report">Disable the import filter for ODF Database Report file format. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_StarOffice_XML_Base_Report_Chart">Grafico de Informes de OpenOffice.org 1.0</string>
-      <string id="desc_StarOffice_XML_Base_Report_Chart">Desactivar el filtro de importación para el formato de archivo Grafico de Informes de OpenOffice.org 1.0</string>
+      <string id="desc_StarOffice_XML_Base_Report_Chart">Disable the import filter for OpenOffice.org 1.0 Report Chart file format. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_StarOffice_Drawing">Dibujo StarOffice de versiones antiguas</string>
       <string id="desc_StarOffice_Drawing">Desactivar el filtro de importación para el formato de archivo Dibujo StarOffice de versiones antiguas</string>
       <string id="name_StarOffice_Presentation">Presentación StarOffice de versiones antiguas</string>
@@ -394,7 +397,7 @@ Valor predeterminado: macros activadas</string>
       <string id="name_StarOffice_Writer">Documento de texto de StarOffice de versiones antiguas</string>
       <string id="desc_StarOffice_Writer">Desactivar el filtro de importación para el formato de archivo Documento de texto de StarOffice de versiones antiguas</string>
       <string id="name_StarOffice_XML_Base">Base de datos ODF</string>
-      <string id="desc_StarOffice_XML_Base">Desactivar el filtro de importación para el formato de archivo Base de datos ODF</string>
+      <string id="desc_StarOffice_XML_Base">Disable the import filter for ODF Database file format. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_StarOffice_XML_Calc">Hoja de cálculo OpenOffice.org 1.0</string>
       <string id="desc_StarOffice_XML_Calc">Desactivar el filtro de importación para el formato de archivo Hoja de cálculo OpenOffice.org 1.0</string>
       <string id="name_StarOffice_XML_Chart">Gráfico OpenOffice.org 1.0</string>
@@ -544,45 +547,45 @@ Valor predeterminado: macros activadas</string>
 
       <string id="UserProfile">Datos de usuario</string>
       <string id="UPUserName">Nombre de Usuario</string>
-      <string id="desc_UPUserName">Nombre de Usuario
+      <string id="desc_UPUserName">User name
 
-Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene el nombre de usuario; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.</string>
+When it is set to take from LDAP, then its value is LDAP attribute holding user name; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
       <string id="UPCompanyName">Nombre de Empresa</string>
-      <string id="desc_UPCompanyName">Nombre de Empresa
+      <string id="desc_UPCompanyName">Company name
 
-Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene el nombre de la empresa; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.</string>
+When it is set to take from LDAP, then its value is LDAP attribute holding company name; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
       <string id="UPAddress">Dirección</string>
-      <string id="desc_UPAddress">Dirección
+      <string id="desc_UPAddress">Address
 
-Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene la dirección; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.</string>
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
       <string id="UPTelephone">Telefono/Fax</string>
-      <string id="desc_UPTelephone">Telefono/Fax
+      <string id="desc_UPTelephone">Telephone/Fax
 
-Cuando algúno se configura para utilizar LDAP su valor es el atributo LDAP que contiene el teléfono o fax; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.</string>
-      <string id="UPMail">Dirección de correo electrónico</string>
-      <string id="desc_UPMail">Dirección de correo electrónico
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
+      <string id="UPMail">E-mail address</string>
+      <string id="desc_UPMail">E-mail address
 
-Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene la dirección de correo electrónico; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.</string>
-      <string id="UPTitle">Título</string>
-      <string id="desc_UPTitle">Título
+When it is set to take from LDAP, then its value is LDAP attribute holding e-mail address; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
+      <string id="UPTitle">Title</string>
+      <string id="desc_UPTitle">Title
 
-Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene el título; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.</string>
-      <string id="UPPosition">Cargo</string>
-      <string id="desc_UPPosition">Cargo
+When it is set to take from LDAP, then its value is LDAP attribute holding title; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
+      <string id="UPPosition">Position</string>
+      <string id="desc_UPPosition">Position
 
-Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene el cargo; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.
+When it is set to take from LDAP, then its value is LDAP attribute holding position; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.
 
-Nota: «Desde Windows» deja este campo vacío, ya que la infraestructura de Windows nunca lo rellena.</string>
-      <string id="category_Paths">Rutas</string>
-      <string id="name_AutoCorrect">Ruta de archivos de corrección automática</string>
-      <string id="name_AutoText">Ruta de archivos de texto automático</string>
-      <string id="name_Dictionary">Ruta de archivos de diccionario</string>
-      <string id="name_Gallery">Ruta de archivos de la Galería</string>
-      <string id="name_Templates">Ruta de plantillas</string>
-      <string id="name_MyDocuments">Ruta de carpeta Mis documentos</string>
-      <string id="name_Graphic">Ruta de imágenes</string>
-      <string id="name_Backup">Ruta de copias de seguridad</string>
-      <string id="name_Temp">Ruta de archivos temporales</string>
+Note: "From Windows" leaves this field empty, as the Windows backend never fills it.</string>
+      <string id="category_Paths">Paths</string>
+      <string id="name_AutoCorrect">Path of AutoCorrect files</string>
+      <string id="name_AutoText">Path of AutoText files</string>
+      <string id="name_Dictionary">Path of Dictionary files</string>
+      <string id="name_Gallery">Path of Gallery files</string>
+      <string id="name_Templates">Path of Template files</string>
+      <string id="name_MyDocuments">Path of My Documents folder</string>
+      <string id="name_Graphic">Path of Image files</string>
+      <string id="name_Backup">Path of Backup files</string>
+      <string id="name_Temp">Path of Temporary files</string>
 
 
       <string id="category_Passwords">Contraseñas</string>
@@ -591,7 +594,7 @@ Nota: «Desde Windows» deja este campo vacío, ya que la infraestructura de Win
 
       <string id="category_View">Ver</string>
       <string id="name_SymbolStyle">Estilo de iconos</string>
-      <string id="desc_SymbolStyle">Especifica cuál estilo de iconos se utiliza en las barras de herramientas, los menús, etc.: «Automatic» define un valor adecuado para el entorno de escritorio; los otros valores posibles son los nombres de los distintos temas de iconos («Breeze», «Oxygen», «Sifr», etc.).</string>
+      <string id="desc_SymbolStyle">Specifies the icon theme of the toolbars, menus, etc. "Automatic" means chosen according to the desktop, the default is Colibre. Collabora Office supports only Colibre and Colibre (dark), the other icon themes only take effect in Collabora Office Classic and LibreOffice.</string>
       <string id="auto">Automático</string>
       <string id="colibre">Colibre</string>
       <string id="colibre_dark">Colibre (dark)</string>
@@ -606,11 +609,11 @@ Nota: «Desde Windows» deja este campo vacío, ya que la infraestructura de Win
       <string id="small">Pequeños</string>
       <string id="large">Grandes</string>
       <string id="name_UseSkia">UseSkia</string>
-      <string id="desc_UseSkia">Specifies if Skia rendering should be used in VCL backends supporting it.</string>
+      <string id="desc_UseSkia">Specifies if Skia rendering should be used in VCL backends supporting it. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_ForceSkia">Force Skia</string>
-      <string id="desc_ForceSkia">Specifies if Skia rendering should be used in VCL backends supporting it. This one forces the use of Skia even if the blacklist would block the Skia driver.</string>
+      <string id="desc_ForceSkia">Specifies if Skia rendering should be used in VCL backends supporting it. This one forces the use of Skia even if the blacklist would block the Skia driver. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_ForceSkiaRaster">Force Skia Raster</string>
-      <string id="desc_ForceSkiaRaster">Specifies if Skia Raster rendering should be used in VCL backends supporting it. This one forces the use of Skia Raster even if the blacklist would block the Skia driver.</string>
+      <string id="desc_ForceSkiaRaster">Specifies if Skia Raster rendering should be used in VCL backends supporting it. This one forces the use of Skia Raster even if the blacklist would block the Skia driver. This setting only takes effect in Collabora Office Classic and LibreOffice 26.2 or older.</string>
       <string id="name_ForceSkiaGPU">Force Skia GPU</string>
       <string id="desc_ForceSkiaGPU">Specifies if Skia hardware acceleration should be used in VCL backends supporting it. This one forces the use of Skia hardware acceleration instead of Skia software rendering. This setting only takes effect in LibreOffice.</string>
 
@@ -623,7 +626,9 @@ Nota: «Desde Windows» deja este campo vacío, ya que la infraestructura de Win
 
 The policy supplies the value for users who have not picked a user interface themselves. A user who changes the user interface later keeps that choice, because the setting stored in the user profile takes precedence over the policy.
 
-Only the Standard Toolbar and the notebookbar based layouts can be applied this way. Single Toolbar and Sidebar are not offered, because their toolbar and sidebar arrangement is only built when the user switches to them from within the application.</string>
+Only the Standard Toolbar and the notebookbar based layouts can be applied this way. Single Toolbar and Sidebar are not offered, because their toolbar and sidebar arrangement is only built when the user switches to them from within the application.
+
+The notebookbar based layouts only take effect in Collabora Office Classic and LibreOffice. Collabora Office only has the Standard Toolbar.</string>
       <string id="toolbarmode_Default">Standard Toolbar</string>
       <string id="toolbarmode_Tabbed">Tabbed</string>
       <string id="toolbarmode_TabbedCompact">Tabbed Compact</string>
@@ -788,7 +793,7 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
       <string id="name_HelpExtendedTip">Extended tips</string>
       <string id="desc_HelpExtendedTip">Activates the extended help in tooltips</string>
       <string id="name_UpdateCheckEnabled">Update check enabled</string>
-      <string id="desc_UpdateCheckEnabled">Enable automatic update check</string>
+      <string id="desc_UpdateCheckEnabled">Enable automatic update check. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_PDFExportFormFields">Export form fields as widgets</string>
       <string id="desc_PDFExportFormFields">Specifies whether form fields are exported as widgets or only their fixed print representation is exported.</string>
       <string id="name_PDFExportPlaceholders">Export placeholder fields to PDF</string>
@@ -799,7 +804,7 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
       <string id="desc_WordCompletionMinWordLen">Sets the value for the minimum word length for word completion.</string>
       <string id="name_TableNumberRecognition">Number recognition</string>
       <string id="desc_TableNumberRecognition">Specifies whether numbers in a table are recognized or if they are saved in a text format.</string>
-      <string id="pdf_DefaultVersion">Default</string>
+      <string id="pdf_DefaultVersion">Predeterminado</string>
       <string id="pdf_PDF_A_1">PDF/A-1</string>
       <string id="pdf_PDF_A_2">PDF/A-2 (LibreOffice since 6.3)</string>
       <string id="pdf_PDF_A_3">PDF/A-3 (LibreOffice since 6.4)</string>
@@ -814,13 +819,13 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
       <string id="supported_CO_25_04">Collabora Office 25.04 or higher</string>
       <string id="supported_LibreOffice_26_8">LibreOffice 26.8 or higher</string>
 
-      <string id="proxy_none">None</string>
+      <string id="proxy_none">Ninguno</string>
       <string id="proxy_system">System</string>
       <string id="proxy_manual">Manual</string>
       <string id="exotic_refuse">Refuse to load</string>
       <string id="exotic_ask">Ask the user</string>
       <string id="exotic_load">Always load</string>
-      <string id="link_always">Always</string>
+      <string id="link_always">Siempre</string>
       <string id="link_never">Never</string>
       <string id="link_onrequest">On request</string>
       <string id="name_ProxyType">Proxy configuration</string>
@@ -956,13 +961,13 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="AutoCorrect">
-        <text>Ruta de escritura de ficheros de Autocorrección.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
+        <text>WritePath of AutoCorrect files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Ruta:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/autocorr</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Final</checkBox>
-        <text>Rutas de usuario de los archivos de Autocorrección</text>
+        <text>UserPaths of AutoCorrect files</text>
         <textBox refId="UserPathsValue">
           <label>Lista de rutas:</label>
           <defaultValue>$(inst)/share/autocorr $(user)/autocorr</defaultValue>
@@ -970,13 +975,13 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="UserPathsFinal">Final</checkBox>
       </presentation>
       <presentation id="AutoText">
-        <text>Ruta de escritura de ficheros de AutoTexto.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
+        <text>WritePath of AutoText files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Ruta:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/autotext</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Final</checkBox>
-        <text>Rutas de usuario de los archivos de AutoTexto</text>
+        <text>UserPaths of AutoText files</text>
         <textBox refId="UserPathsValue">
           <label>Lista de rutas:</label>
           <defaultValue>$(inst)/share/autotext/$(vlang) $(user)/autotext</defaultValue>
@@ -984,13 +989,13 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="UserPathsFinal">Final</checkBox>
       </presentation>
       <presentation id="Dictionary">
-        <text>Ruta de escritura de ficheros de Diccionario.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
+        <text>WritePath of Dictionary files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Ruta:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/wordbook</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Final</checkBox>
-        <text>Rutas de usuario de los archivos de Diccionario</text>
+        <text>UserPaths of Dictionary files</text>
         <textBox refId="UserPathsValue">
           <label>Lista de rutas:</label>
           <defaultValue>$(inst)/share/wordbook $(inst)/share/wordbook/$(vlang) $(user)/wordbook</defaultValue>
@@ -998,13 +1003,13 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="UserPathsFinal">Final</checkBox>
       </presentation>
       <presentation id="Gallery">
-        <text>Ruta de escritura de ficheros de Galería.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
+        <text>WritePath of Gallery files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Ruta:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/gallery</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Final</checkBox>
-        <text>Rutas de usuario de los archivos de Galería</text>
+        <text>UserPaths of Gallery files</text>
         <textBox refId="UserPathsValue">
           <label>Lista de rutas:</label>
           <defaultValue>$(inst)/share/gallery $(user)/gallery</defaultValue>
@@ -1012,13 +1017,13 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="UserPathsFinal">Final</checkBox>
       </presentation>
       <presentation id="Templates">
-        <text>Ruta de escritura de ficheros de Plantillas.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
+        <text>WritePath of Templates files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Ruta:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/template</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Final</checkBox>
-        <text>Rutas de usuario de los archivos de Plantillas</text>
+        <text>UserPaths of Templates files</text>
         <textBox refId="UserPathsValue">
           <label>Lista de rutas:</label>
           <defaultValue>$(user)/template</defaultValue>
@@ -1026,33 +1031,33 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="UserPathsFinal">Final</checkBox>
       </presentation>
       <presentation id="MyDocuments">
-        <text>Ubicación de la carpeta Mis documentos.</text>
+        <text>Location of My Documents folder.</text>
         <textBox refId="WritePathValue">
-          <label>Ruta:</label>
+          <label>Path: </label>
           <defaultValue>$(work)</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Final</checkBox>
       </presentation>
       <presentation id="Graphic">
-        <text>Ruta de escritura de ficheros de Imagen.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
+        <text>WritePath of Image files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Ruta:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/gallery</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Final</checkBox>
       </presentation>
       <presentation id="Backup">
-        <text>Ruta de escritura de ficheros de Backup.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
+        <text>WritePath of Backup files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Ruta:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/backup</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Final</checkBox>
       </presentation>
       <presentation id="Temp">
-        <text>Ruta de escritura de ficheros Temporales.  Esta es la ruta donde se ubicarán los nuevos archivos</text>
+        <text>WritePath of Temporary files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Ruta:</label>
+          <label>Path: </label>
           <defaultValue>$(temp)</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Final</checkBox>
@@ -1117,11 +1122,11 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="UPTelephone">
         <textBox refId="HomePhoneValue">
-          <label>Teléfono (particular):</label>
+          <label>Phone (home): </label>
         </textBox>
         <dropdownList refId="HomePhoneFlags" noSort="true" defaultItem="0">Parámetros:</dropdownList>
         <textBox refId="TelephoneValue">
-          <label>Teléfono (trabajo):</label>
+          <label>Phone (work): </label>
         </textBox>
         <dropdownList refId="TelephoneFlags" noSort="true" defaultItem="0">Parámetros:</dropdownList>
         <textBox refId="FaxValue">
@@ -1131,19 +1136,19 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="UPMail">
         <textBox refId="MailValue">
-          <label>Dirección de correo electrónico:</label>
+          <label>E-mail address: </label>
         </textBox>
         <dropdownList refId="MailFlags" noSort="true" defaultItem="0">Parámetros:</dropdownList>
       </presentation>
       <presentation id="UPTitle">
         <textBox refId="TitleValue">
-          <label>Título:</label>
+          <label>Title: </label>
         </textBox>
         <dropdownList refId="TitleFlags" noSort="true" defaultItem="0">Parámetros:</dropdownList>
       </presentation>
       <presentation id="UPPosition">
         <textBox refId="PositionValue">
-          <label>Cargo:</label>
+          <label>Position: </label>
         </textBox>
         <dropdownList refId="PositionFlags" noSort="true" defaultItem="0">Parámetros:</dropdownList>
       </presentation>

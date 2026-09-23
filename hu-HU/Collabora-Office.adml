@@ -15,9 +15,9 @@
       <string id="supported_LibreOffice_5_3">Collabora Office 5.3 vagy újabb</string>
       <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 vagy újabb</string>
       <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 vagy újabb</string>
-      <string id="supported_LibreOffice_6_4">Collabora Office 6.4 vagy újabb</string>
-      <string id="supported_LibreOffice_7_0">Collabora Office 21.06 vagy újabb</string>
-      <string id="supported_CO_24_04_11">Collabora Office 24.04.11 vagy újabb</string>
+      <string id="supported_LibreOffice_6_4">Collabora Office 6.4 or higher</string>
+      <string id="supported_LibreOffice_7_0">Collabora Office 21.06 or higher</string>
+      <string id="supported_CO_24_04_11">Collabora Office 24.04.11 or higher</string>
 
       <string id="ValueFlagsNone">Nincs</string>
       <string id="ValueFlagsFinal">Végleges</string>
@@ -35,7 +35,7 @@
       <string id="name_AllowOverrideLocking">Allow override document locking</string>
       <string id="desc_AllowOverrideLocking">Specifies whether the user is allowed to override the document locking mechanism in LibreOffice/Collabora Office. If disabled and the document is already opened by another user, the current user can open a document only as a copy or in read only mode.</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
-      <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
+      <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
 
       <string id="category_LDAPConfigBackend">LDAP configuration backend</string>
       <string id="name_LDAPConfigBackendSettings">LDAP User Directory</string>
@@ -43,7 +43,9 @@
 
 Note that the password to bind to LDAP server is stored unencrypted in client system's registry; you should use a restricted search account (only able to perform LDAP searches).
 
-User unique attribute must correspond to the logged on user's Windows user name without domain.</string>
+User unique attribute must correspond to the logged on user's Windows user name without domain.
+
+This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
 
       <string id="category_ProductName">Termék neve</string>
       <string id="name_ooName">Termék neve (ooName)</string>
@@ -114,7 +116,7 @@ When disabled, the warning will be issued in this case.</string>
       <string id="name_UILocale">Felhasználói felület nyelve</string>
       <string id="desc_UILocale">Megadja a felhasználói felület nyelvét. Ha nincs megadva, akkor az asztali környezet nyelvét használja, ha lehet.</string>
       <string id="name_Locale">Területi beállítás</string>
-      <string id="desc_Locale">A felhasználó rendszerének területi beállítását tartalmazza.</string>
+      <string id="desc_Locale">Specifies the locale setting (Tools - Options - Languages and Locales - General), for example en-US or de-DE. When empty, the locale of the operating system is used.</string>
       <string id="name_ooSetupCurrency">Pénznem</string>
       <string id="desc_ooSetupCurrency">A felhasználó által megadott pénznembeállítások. Alapesetben ez üres, és a pénznemet a rendszer területi beállítása adja meg.</string>
       <string id="name_DecimalSeparatorAsLocale">Tizedeselválasztó egyezik a területi beállítással</string>
@@ -183,10 +185,11 @@ Alapértelmezés: Makrók engedélyezése</string>
       <string id="name_EnableExpertConfiguration">Speciális beállítások engedélyezése</string>
       <string id="desc_EnableExpertConfiguration">Megadja, hogy a felhasználó hozzáfér-e minden beállításhoz a Speciális beállítások gombbal.</string>
       <string id="name_SecureURL">Megbízható fájlelérési útvonalak</string>
+
       <string id="name_DisableExtensionInstallation">Disable extension installation</string>
-      <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions.</string>
+      <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_DisableExtensionRemoval">Disable extension removal</string>
-      <string id="desc_DisableExtensionRemoval">Disable the possibility to remove installed extensions.</string>
+      <string id="desc_DisableExtensionRemoval">Disable the possibility to remove installed extensions. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
 
       <string id="category_Filters">Disable file format filters</string>
 
@@ -249,7 +252,7 @@ Alapértelmezés: Makrók engedélyezése</string>
       <string id="name_Lotus">Lotus 1-2-3</string>
       <string id="desc_Lotus">Disable the import filter for Lotus 1-2-3 file format.</string>
       <string id="name_LotusWordPro">Lotus WordPro Document</string>
-      <string id="desc_LotusWordPro">Disable the import filter for Lotus WordPro Document file format.</string>
+      <string id="desc_LotusWordPro">Disable the import filter for Lotus WordPro Document file format. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_MET__OS2_Metafile">MET - OS/2 Metafile</string>
       <string id="desc_MET__OS2_Metafile">Disable the import filter for MET - OS/2 Metafile file format.</string>
       <string id="name_MS_Excel_2003_XML_Orcus">Microsoft Excel 2003 XML</string>
@@ -383,9 +386,9 @@ Alapértelmezés: Makrók engedélyezése</string>
       <string id="name_SYLK">SYLK</string>
       <string id="desc_SYLK">Disable the import filter for SYLK file format.</string>
       <string id="name_StarOffice_XML_Base_Report">ODF Database Report</string>
-      <string id="desc_StarOffice_XML_Base_Report">Disable the import filter for ODF Database Report file format.</string>
+      <string id="desc_StarOffice_XML_Base_Report">Disable the import filter for ODF Database Report file format. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_StarOffice_XML_Base_Report_Chart">OpenOffice.org 1.0 Report Chart</string>
-      <string id="desc_StarOffice_XML_Base_Report_Chart">Disable the import filter for OpenOffice.org 1.0 Report Chart file format.</string>
+      <string id="desc_StarOffice_XML_Base_Report_Chart">Disable the import filter for OpenOffice.org 1.0 Report Chart file format. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_StarOffice_Drawing">Legacy StarOffice Drawing</string>
       <string id="desc_StarOffice_Drawing">Disable the import filter for Legacy StarOffice Drawing file format.</string>
       <string id="name_StarOffice_Presentation">Legacy StarOffice Presentation</string>
@@ -395,7 +398,7 @@ Alapértelmezés: Makrók engedélyezése</string>
       <string id="name_StarOffice_Writer">Legacy StarOffice Text Document</string>
       <string id="desc_StarOffice_Writer">Disable the import filter for Legacy StarOffice Text Document file format.</string>
       <string id="name_StarOffice_XML_Base">ODF Database</string>
-      <string id="desc_StarOffice_XML_Base">Disable the import filter for ODF Database file format.</string>
+      <string id="desc_StarOffice_XML_Base">Disable the import filter for ODF Database file format. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_StarOffice_XML_Calc">OpenOffice.org 1.0 Spreadsheet</string>
       <string id="desc_StarOffice_XML_Calc">Disable the import filter for OpenOffice.org 1.0 Spreadsheet file format.</string>
       <string id="name_StarOffice_XML_Chart">OpenOffice.org 1.0 Chart</string>
@@ -547,43 +550,43 @@ Alapértelmezés: Makrók engedélyezése</string>
       <string id="UPUserName">User name</string>
       <string id="desc_UPUserName">User name
 
-When it is set to take from LDAP, then its value is LDAP attribute holding user name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+When it is set to take from LDAP, then its value is LDAP attribute holding user name; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
       <string id="UPCompanyName">Company name</string>
       <string id="desc_UPCompanyName">Company name
 
-When it is set to take from LDAP, then its value is LDAP attribute holding company name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+When it is set to take from LDAP, then its value is LDAP attribute holding company name; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
       <string id="UPAddress">Cím</string>
       <string id="desc_UPAddress">Address
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
       <string id="UPTelephone">Telephone/Fax</string>
       <string id="desc_UPTelephone">Telephone/Fax
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
-      <string id="UPMail">E-mail cím</string>
-      <string id="desc_UPMail">E-mail cím
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
+      <string id="UPMail">E-mail address</string>
+      <string id="desc_UPMail">E-mail address
 
-Ha az LDAP-ból való beolvasás van beállítva, akkor az érték az e-mail címet tartalmazó LDAP-attribútum; az LDAP-konfigurációs háttérprogram beállításai határozzák meg, hogyan kell csatlakozni az LDAP-kiszolgálóhoz.</string>
-      <string id="UPTitle">Megszólítás</string>
-      <string id="desc_UPTitle">Megszólítás
+When it is set to take from LDAP, then its value is LDAP attribute holding e-mail address; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
+      <string id="UPTitle">Title</string>
+      <string id="desc_UPTitle">Title
 
-Ha az LDAP-ból való beolvasás van beállítva, akkor az érték a megszólítást tartalmazó LDAP-attribútum; az LDAP-konfigurációs háttérprogram beállításai határozzák meg, hogyan kell csatlakozni az LDAP-kiszolgálóhoz.</string>
-      <string id="UPPosition">Beosztás</string>
-      <string id="desc_UPPosition">Beosztás
+When it is set to take from LDAP, then its value is LDAP attribute holding title; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
+      <string id="UPPosition">Position</string>
+      <string id="desc_UPPosition">Position
 
-Ha az LDAP-ból való beolvasás van beállítva, akkor az érték a beosztást tartalmazó LDAP-attribútum; az LDAP-konfigurációs háttérprogram beállításai határozzák meg, hogyan kell csatlakozni az LDAP-kiszolgálóhoz.
+When it is set to take from LDAP, then its value is LDAP attribute holding position; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.
 
-Megjegyzés: a „Windowsból” beállítás üresen hagyja ezt a mezőt, mert a Windows háttérprogram soha nem tölti ki.</string>
-      <string id="category_Paths">Útvonalak</string>
-      <string id="name_AutoCorrect">Automatikus javítás fájlok útvonala</string>
-      <string id="name_AutoText">Szövegblokk fájlok útvonala</string>
-      <string id="name_Dictionary">Szótár fájlok útvonala</string>
-      <string id="name_Gallery">Galéria fájlok útvonala</string>
-      <string id="name_Templates">Sablon fájlok útvonala</string>
-      <string id="name_MyDocuments">Dokumentumok mappa útvonala</string>
-      <string id="name_Graphic">Kép fájlok útvonala</string>
-      <string id="name_Backup">Másolat fájlok útvonala</string>
-      <string id="name_Temp">Ideiglenes fájlok útvonala</string>
+Note: "From Windows" leaves this field empty, as the Windows backend never fills it.</string>
+      <string id="category_Paths">Paths</string>
+      <string id="name_AutoCorrect">Path of AutoCorrect files</string>
+      <string id="name_AutoText">Path of AutoText files</string>
+      <string id="name_Dictionary">Path of Dictionary files</string>
+      <string id="name_Gallery">Path of Gallery files</string>
+      <string id="name_Templates">Path of Template files</string>
+      <string id="name_MyDocuments">Path of My Documents folder</string>
+      <string id="name_Graphic">Path of Image files</string>
+      <string id="name_Backup">Path of Backup files</string>
+      <string id="name_Temp">Path of Temporary files</string>
 
 
       <string id="category_Passwords">Passwords</string>
@@ -592,7 +595,7 @@ Megjegyzés: a „Windowsból” beállítás üresen hagyja ezt a mezőt, mert 
 
       <string id="category_View">Nézet</string>
       <string id="name_SymbolStyle">Ikonstílus</string>
-      <string id="desc_SymbolStyle">Az eszköztárak, menük stb. stílusát adja meg, például: „Automatikus” = az asztali környezetnek megfelelő, „Alapértelmezett” = a LibreOffice alapértelmezett témája; a további lehetséges értékek a különböző ikontémák nevei („Breeze”, „Oxygen”, „Sifr” stb.).</string>
+      <string id="desc_SymbolStyle">Specifies the icon theme of the toolbars, menus, etc. "Automatic" means chosen according to the desktop, the default is Colibre. Collabora Office supports only Colibre and Colibre (dark), the other icon themes only take effect in Collabora Office Classic and LibreOffice.</string>
       <string id="auto">Automatikus</string>
       <string id="colibre">Colibre</string>
       <string id="colibre_dark">Colibre (dark)</string>
@@ -607,11 +610,11 @@ Megjegyzés: a „Windowsból” beállítás üresen hagyja ezt a mezőt, mert 
       <string id="small">Kicsi</string>
       <string id="large">Nagy</string>
       <string id="name_UseSkia">UseSkia</string>
-      <string id="desc_UseSkia">Specifies if Skia rendering should be used in VCL backends supporting it.</string>
+      <string id="desc_UseSkia">Specifies if Skia rendering should be used in VCL backends supporting it. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_ForceSkia">Force Skia</string>
-      <string id="desc_ForceSkia">Specifies if Skia rendering should be used in VCL backends supporting it. This one forces the use of Skia even if the blacklist would block the Skia driver.</string>
+      <string id="desc_ForceSkia">Specifies if Skia rendering should be used in VCL backends supporting it. This one forces the use of Skia even if the blacklist would block the Skia driver. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_ForceSkiaRaster">Force Skia Raster</string>
-      <string id="desc_ForceSkiaRaster">Specifies if Skia Raster rendering should be used in VCL backends supporting it. This one forces the use of Skia Raster even if the blacklist would block the Skia driver.</string>
+      <string id="desc_ForceSkiaRaster">Specifies if Skia Raster rendering should be used in VCL backends supporting it. This one forces the use of Skia Raster even if the blacklist would block the Skia driver. This setting only takes effect in Collabora Office Classic and LibreOffice 26.2 or older.</string>
       <string id="name_ForceSkiaGPU">Force Skia GPU</string>
       <string id="desc_ForceSkiaGPU">Specifies if Skia hardware acceleration should be used in VCL backends supporting it. This one forces the use of Skia hardware acceleration instead of Skia software rendering. This setting only takes effect in LibreOffice.</string>
 
@@ -624,7 +627,9 @@ Megjegyzés: a „Windowsból” beállítás üresen hagyja ezt a mezőt, mert 
 
 The policy supplies the value for users who have not picked a user interface themselves. A user who changes the user interface later keeps that choice, because the setting stored in the user profile takes precedence over the policy.
 
-Only the Standard Toolbar and the notebookbar based layouts can be applied this way. Single Toolbar and Sidebar are not offered, because their toolbar and sidebar arrangement is only built when the user switches to them from within the application.</string>
+Only the Standard Toolbar and the notebookbar based layouts can be applied this way. Single Toolbar and Sidebar are not offered, because their toolbar and sidebar arrangement is only built when the user switches to them from within the application.
+
+The notebookbar based layouts only take effect in Collabora Office Classic and LibreOffice. Collabora Office only has the Standard Toolbar.</string>
       <string id="toolbarmode_Default">Standard Toolbar</string>
       <string id="toolbarmode_Tabbed">Tabbed</string>
       <string id="toolbarmode_TabbedCompact">Tabbed Compact</string>
@@ -789,7 +794,7 @@ Set paths in path lists have to be separated by spaces.</string>
       <string id="name_HelpExtendedTip">Extended tips</string>
       <string id="desc_HelpExtendedTip">Activates the extended help in tooltips</string>
       <string id="name_UpdateCheckEnabled">Update check enabled</string>
-      <string id="desc_UpdateCheckEnabled">Enable automatic update check</string>
+      <string id="desc_UpdateCheckEnabled">Enable automatic update check. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_PDFExportFormFields">Export form fields as widgets</string>
       <string id="desc_PDFExportFormFields">Specifies whether form fields are exported as widgets or only their fixed print representation is exported.</string>
       <string id="name_PDFExportPlaceholders">Export placeholder fields to PDF</string>
@@ -800,7 +805,7 @@ Set paths in path lists have to be separated by spaces.</string>
       <string id="desc_WordCompletionMinWordLen">Sets the value for the minimum word length for word completion.</string>
       <string id="name_TableNumberRecognition">Number recognition</string>
       <string id="desc_TableNumberRecognition">Specifies whether numbers in a table are recognized or if they are saved in a text format.</string>
-      <string id="pdf_DefaultVersion">Default</string>
+      <string id="pdf_DefaultVersion">Alapértelmezett</string>
       <string id="pdf_PDF_A_1">PDF/A-1</string>
       <string id="pdf_PDF_A_2">PDF/A-2 (LibreOffice since 6.3)</string>
       <string id="pdf_PDF_A_3">PDF/A-3 (LibreOffice since 6.4)</string>
@@ -815,13 +820,13 @@ Set paths in path lists have to be separated by spaces.</string>
       <string id="supported_CO_25_04">Collabora Office 25.04 or higher</string>
       <string id="supported_LibreOffice_26_8">LibreOffice 26.8 or higher</string>
 
-      <string id="proxy_none">None</string>
+      <string id="proxy_none">Nincs</string>
       <string id="proxy_system">System</string>
       <string id="proxy_manual">Manual</string>
       <string id="exotic_refuse">Refuse to load</string>
       <string id="exotic_ask">Ask the user</string>
       <string id="exotic_load">Always load</string>
-      <string id="link_always">Always</string>
+      <string id="link_always">Mindig</string>
       <string id="link_never">Never</string>
       <string id="link_onrequest">On request</string>
       <string id="name_ProxyType">Proxy configuration</string>
@@ -924,7 +929,7 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="BuiltInHelpNotInstalledPopUp">
         <checkBox refId="Value">Warn when local help is not installed</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="UseUserData">
         <checkBox refId="Value">Felhasználói adatok használata a dokumentum tulajdonságaiban</checkBox>
@@ -957,13 +962,13 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="AutoCorrect">
-        <text>Az automatikus javítás fájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <text>WritePath of AutoCorrect files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Útvonal:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/autocorr</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Végleges</checkBox>
-        <text>Automatikus javítás fájlok UserPath-jai</text>
+        <text>UserPaths of AutoCorrect files</text>
         <textBox refId="UserPathsValue">
           <label>Útvonallista:</label>
           <defaultValue>$(inst)/share/autocorr $(user)/autocorr</defaultValue>
@@ -971,13 +976,13 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="UserPathsFinal">Végleges</checkBox>
       </presentation>
       <presentation id="AutoText">
-        <text>A szövegblokk fájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <text>WritePath of AutoText files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Útvonal:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/autotext</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Végleges</checkBox>
-        <text>Szövegblokk fájlok UserPath-jai</text>
+        <text>UserPaths of AutoText files</text>
         <textBox refId="UserPathsValue">
           <label>Útvonallista:</label>
           <defaultValue>$(inst)/share/autotext/$(vlang) $(user)/autotext</defaultValue>
@@ -985,13 +990,13 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="UserPathsFinal">Végleges</checkBox>
       </presentation>
       <presentation id="Dictionary">
-        <text>A szótárfájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <text>WritePath of Dictionary files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Útvonal:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/wordbook</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Végleges</checkBox>
-        <text>Szótár fájlok UserPath-jai</text>
+        <text>UserPaths of Dictionary files</text>
         <textBox refId="UserPathsValue">
           <label>Útvonallista:</label>
           <defaultValue>$(inst)/share/wordbook $(inst)/share/wordbook/$(vlang) $(user)/wordbook</defaultValue>
@@ -999,13 +1004,13 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="UserPathsFinal">Végleges</checkBox>
       </presentation>
       <presentation id="Gallery">
-        <text>A galéria fájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <text>WritePath of Gallery files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Útvonal:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/gallery</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Végleges</checkBox>
-        <text>Galéria fájlok UserPath-jai</text>
+        <text>UserPaths of Gallery files</text>
         <textBox refId="UserPathsValue">
           <label>Útvonallista:</label>
           <defaultValue>$(inst)/share/gallery $(user)/gallery</defaultValue>
@@ -1013,13 +1018,13 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="UserPathsFinal">Végleges</checkBox>
       </presentation>
       <presentation id="Templates">
-        <text>A sablon fájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <text>WritePath of Templates files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Útvonal:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/template</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Végleges</checkBox>
-        <text>Sablon fájlok UserPath-jai</text>
+        <text>UserPaths of Templates files</text>
         <textBox refId="UserPathsValue">
           <label>Útvonallista:</label>
           <defaultValue>$(user)/template</defaultValue>
@@ -1027,33 +1032,33 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="UserPathsFinal">Végleges</checkBox>
       </presentation>
       <presentation id="MyDocuments">
-        <text>A Dokumentumok mappa helye.</text>
+        <text>Location of My Documents folder.</text>
         <textBox refId="WritePathValue">
-          <label>Útvonal:</label>
+          <label>Path: </label>
           <defaultValue>$(work)</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Végleges</checkBox>
       </presentation>
       <presentation id="Graphic">
-        <text>A képfájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <text>WritePath of Image files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Útvonal:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/gallery</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Végleges</checkBox>
       </presentation>
       <presentation id="Backup">
-        <text>A biztonsági mentés fájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <text>WritePath of Backup files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Útvonal:</label>
+          <label>Path: </label>
           <defaultValue>$(user)/backup</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Végleges</checkBox>
       </presentation>
       <presentation id="Temp">
-        <text>A biztonsági mentés fájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <text>WritePath of Temporary files. It is the location where new user files are written.</text>
         <textBox refId="WritePathValue">
-          <label>Útvonal:</label>
+          <label>Path: </label>
           <defaultValue>$(temp)</defaultValue>
         </textBox>
         <checkBox refId="WritePathFinal">Végleges</checkBox>
@@ -1118,11 +1123,11 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="UPTelephone">
         <textBox refId="HomePhoneValue">
-          <label>Telefon (otthoni):</label>
+          <label>Phone (home): </label>
         </textBox>
         <dropdownList refId="HomePhoneFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="TelephoneValue">
-          <label>Telefon (munkahelyi):</label>
+          <label>Phone (work): </label>
         </textBox>
         <dropdownList refId="TelephoneFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="FaxValue">
@@ -1132,19 +1137,19 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="UPMail">
         <textBox refId="MailValue">
-          <label>E-mail cím:</label>
+          <label>E-mail address: </label>
         </textBox>
         <dropdownList refId="MailFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>
       <presentation id="UPTitle">
         <textBox refId="TitleValue">
-          <label>Megszólítás:</label>
+          <label>Title: </label>
         </textBox>
         <dropdownList refId="TitleFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>
       <presentation id="UPPosition">
         <textBox refId="PositionValue">
-          <label>Beosztás:</label>
+          <label>Position: </label>
         </textBox>
         <dropdownList refId="PositionFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>
@@ -1328,23 +1333,23 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="IsSpellAuto">
         <checkBox refId="Value">Check spelling as you type</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="IsSpellUpperCase">
         <checkBox refId="Value">Check uppercase words</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="IsSpellWithDigits">
         <checkBox refId="Value">Check words with numbers</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="IsSpellSpecial">
         <checkBox refId="Value">Check special regions</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="GrammarIsAutoCheck">
         <checkBox refId="Value">Check grammar as you type</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="UILocale">
         <textBox refId="Value">
@@ -1378,23 +1383,23 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="KeepRedlineInfoOnSaving">
         <checkBox refId="Value" defaultItem="0">Keep track changes information</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="KeepDocUserInfoOnSaving">
         <checkBox refId="Value" defaultItem="0">Keep document user information</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="KeepNoteAuthorDateInfoOnSaving">
         <checkBox refId="Value" defaultItem="0">Keep author name and date of notes</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="KeepDocVersionInfoOnSaving">
         <checkBox refId="Value" defaultItem="0">Keep document version information</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="KeepDocPrinterSettingsOnSaving">
         <checkBox refId="Value" defaultItem="0">Keep printer settings</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="RecommendPasswordProtection">
         <checkBox refId="Value" defaultItem="0">Jelszavas védelem javasolása mentéskor</checkBox>
@@ -1406,7 +1411,7 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="BlockUntrustedRefererLinks">
         <checkBox refId="Value" defaultItem="0">Block links from documents not among the trusted locations</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="WarnSaveOrSendDoc">
         <checkBox refId="Value" defaultItem="0">Biztonsági figyelmeztetések mentéskor vagy küldéskor</checkBox>
@@ -1445,11 +1450,11 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="DisableExtensionInstallation">
         <checkBox refId="Value">Disable extension installation</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="DisableExtensionRemoval">
         <checkBox refId="Value">Disable extension removal</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="ADO_Rowset_XML">
         <checkBox refId="Value">Disable ADO Rowset XML</checkBox>
@@ -2225,7 +2230,7 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="ForceSkiaGPU">
         <checkBox refId="Value">Force Skia hardware acceleration</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
         <checkBox refId="Value">Színek konvertálása szürkeárnyalatra</checkBox>
@@ -2276,7 +2281,7 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="SelectPDFExport">
         <dropdownList refId="Value" defaultItem="0">PDF version: </dropdownList>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="TrySystemCredentialsFirst">
         <checkBox refId="Value">Use system credentials</checkBox>
@@ -2328,137 +2333,137 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="LoadPrinter">
         <checkBox refId="Value">Load printer settings with the document</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="CheckDocumentEvents">
         <checkBox refId="Value">Check document events</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="HelpExtendedTip">
         <checkBox refId="Value">Extended Tips</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="UpdateCheckEnabled">
         <checkBox refId="Value">Enable update check</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="PDFExportFormFields">
         <checkBox refId="Value">Export form fields as widgets</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="PDFExportPlaceholders">
         <checkBox refId="Value">Export placeholder fields to PDF</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="AutoTextApplyNumbering">
         <checkBox refId="Value">Create bulleted and numbered lists while type</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="TableNumberRecognition">
         <checkBox refId="Value">Recognize numbers in tables</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="WordCompletionMinWordLen">
         <textBox refId="WordCompletionMinWordLenValue">
           <label>Min Words: </label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="ProxyType">
         <dropdownList refId="Value" defaultItem="1">Proxy configuration: </dropdownList>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="AllowInsecureProtocols">
         <checkBox refId="Value" defaultItem="1">Allow insecure network protocols</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="DisableActiveContent">
         <checkBox refId="Value" defaultItem="0">Disable active content</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="DisableOLEAutomation">
         <checkBox refId="Value" defaultItem="0">Disable OLE Automation</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="DisablePythonRuntime">
         <checkBox refId="Value" defaultItem="0">Disable the Python runtime</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="AllowedDocumentEventURLs">
         <textBox refId="Value">
           <label>Script URL list: </label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="LoadExoticFileFormats">
         <dropdownList refId="Value" defaultItem="0">Rarely used file formats: </dropdownList>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="TSAURLs">
         <textBox refId="Value">
           <label>TSA URL list: </label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="PasswordPolicy">
         <textBox refId="Value">
           <label>Regular expression: </label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="PasswordUseStorage">
         <checkBox refId="Value" defaultItem="0">Save passwords persistently</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="AuthenticateUsingSystemCredentials">
         <textBox refId="Value">
           <label>URL list: </label>
         </textBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="CalcUpdateLink">
         <dropdownList refId="Value" defaultItem="2">Update links: </dropdownList>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="WriterUpdateLink">
         <dropdownList refId="Value" defaultItem="1">Update links: </dropdownList>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="EPUB">
         <checkBox refId="Value">Disable EPUB Document</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="Microsoft_Multiplan">
         <checkBox refId="Value">Disable Microsoft Multiplan</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="PocketWord_File">
         <checkBox refId="Value">Disable Pocket Word</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="writer_globaldocument_StarOffice_XML_Writer">
         <checkBox refId="Value">Disable OpenOffice.org 1.0 Text Document (from Master Document)</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="writer_web_StarOffice_XML_Writer">
         <checkBox refId="Value">Disable OpenOffice.org 1.0 Text Document (from HTML Document)</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="XHTML_Calc_File">
         <checkBox refId="Value">Disable XHTML (Calc)</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="XHTML_Draw_File">
         <checkBox refId="Value">Disable XHTML (Draw)</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="XHTML_Impress_File">
         <checkBox refId="Value">Disable XHTML (Impress)</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="XHTML_Writer_File">
         <checkBox refId="Value">Disable XHTML (Writer)</checkBox>
-        <checkBox refId="Final">Final</checkBox>
+        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
     </presentationTable>
   </resources>
