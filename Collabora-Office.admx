@@ -6254,7 +6254,7 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-    <policy name="AllSheets" class="Both" displayName="$(string.name_AllSheets)" explainText="$(string.desc_AllSheets)" presentation="$(presentation.AllSheets)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Print\Page\AllSheets">
+    <policy name="AllSheets" class="Both" displayName="$(string.name_AllSheets)" explainText="$(string.desc_AllSheets)" presentation="$(presentation.AllSheets)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Print\Other\AllSheets">
       <parentCategory ref="CalcPrint" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
