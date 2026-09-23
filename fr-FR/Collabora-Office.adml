@@ -102,6 +102,17 @@ S'il est désactivé, l'avertissement sera émis dans ce cas.</string>
       <string id="desc_DefaultLocale_CJK">Spécifie la langue par défaut du document - Chinois, Japonais, Coréen.</string>
       <string id="name_DefaultLocale_CTL">Langue par défaut des documents (CTL)</string>
       <string id="desc_DefaultLocale_CTL">Spécifie la langue par défaut du document - mise en page de texte complexe (par exemple: Arabe, Indien etc., scripts).</string>
+      <string id="category_WritingAids">Writing Aids</string>
+      <string id="name_IsSpellAuto">Check spelling as you type</string>
+      <string id="desc_IsSpellAuto">Specifies whether spelling is checked automatically while typing (Tools - Options - Languages and Locales - Writing Aids - Check spelling as you type).</string>
+      <string id="name_IsSpellUpperCase">Check uppercase words</string>
+      <string id="desc_IsSpellUpperCase">Specifies whether words written in capital letters are included in the spelling check.</string>
+      <string id="name_IsSpellWithDigits">Check words with numbers</string>
+      <string id="desc_IsSpellWithDigits">Specifies whether words that contain numbers as well as letters are included in the spelling check.</string>
+      <string id="name_IsSpellSpecial">Check special regions</string>
+      <string id="desc_IsSpellSpecial">Specifies whether headers, footers and frames are included in the spelling check.</string>
+      <string id="name_GrammarIsAutoCheck">Check grammar as you type</string>
+      <string id="desc_GrammarIsAutoCheck">Specifies whether grammar is checked automatically while typing, using the installed grammar checkers.</string>
       <string id="name_UILocale">Langue de l'interface utilisateur</string>
       <string id="desc_UILocale">Spécifie la langue de l'interface utilisateur. Une chaîne vide signifie : utiliser la langue de l'interface de l'ordinateur si possible.</string>
       <string id="name_Locale">Locale</string>
@@ -1218,6 +1229,26 @@ For example, the following policy requires at least eight characters, including 
           <label>Code de la langue :</label>
         </textBox>
         <checkBox refId="Final">Verrouiller le paramètre</checkBox>
+      </presentation>
+      <presentation id="IsSpellAuto">
+        <checkBox refId="Value">Check spelling as you type</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellUpperCase">
+        <checkBox refId="Value">Check uppercase words</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellWithDigits">
+        <checkBox refId="Value">Check words with numbers</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellSpecial">
+        <checkBox refId="Value">Check special regions</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="GrammarIsAutoCheck">
+        <checkBox refId="Value">Check grammar as you type</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UILocale">
         <textBox refId="Value">

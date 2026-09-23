@@ -57,6 +57,9 @@
     <category name="Localization" displayName="$(string.category_Localization)">
       <parentCategory ref="Common" />
     </category>
+    <category name="WritingAids" displayName="$(string.category_WritingAids)">
+      <parentCategory ref="Common" />
+    </category>
     <category name="Security" displayName="$(string.category_Security)">
       <parentCategory ref="Common" />
     </category>
@@ -3409,6 +3412,81 @@
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
         <text id="Value" valueName="Value" />
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="IsSpellAuto" class="Both" displayName="$(string.name_IsSpellAuto)" explainText="$(string.desc_IsSpellAuto)" presentation="$(presentation.IsSpellAuto)" key="Software\Policies\LibreOffice\org.openoffice.Office.Linguistic\SpellChecking\IsSpellAuto">
+      <parentCategory ref="WritingAids" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="IsSpellUpperCase" class="Both" displayName="$(string.name_IsSpellUpperCase)" explainText="$(string.desc_IsSpellUpperCase)" presentation="$(presentation.IsSpellUpperCase)" key="Software\Policies\LibreOffice\org.openoffice.Office.Linguistic\SpellChecking\IsSpellUpperCase">
+      <parentCategory ref="WritingAids" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="IsSpellWithDigits" class="Both" displayName="$(string.name_IsSpellWithDigits)" explainText="$(string.desc_IsSpellWithDigits)" presentation="$(presentation.IsSpellWithDigits)" key="Software\Policies\LibreOffice\org.openoffice.Office.Linguistic\SpellChecking\IsSpellWithDigits">
+      <parentCategory ref="WritingAids" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="IsSpellSpecial" class="Both" displayName="$(string.name_IsSpellSpecial)" explainText="$(string.desc_IsSpellSpecial)" presentation="$(presentation.IsSpellSpecial)" key="Software\Policies\LibreOffice\org.openoffice.Office.Linguistic\SpellChecking\IsSpellSpecial">
+      <parentCategory ref="WritingAids" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="GrammarIsAutoCheck" class="Both" displayName="$(string.name_GrammarIsAutoCheck)" explainText="$(string.desc_GrammarIsAutoCheck)" presentation="$(presentation.GrammarIsAutoCheck)" key="Software\Policies\LibreOffice\org.openoffice.Office.Linguistic\GrammarChecking\IsAutoCheck">
+      <parentCategory ref="WritingAids" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>

@@ -100,6 +100,17 @@ Si está deshabilitada se mostrará el mensaje de advertencia.</string>
       <string id="desc_DefaultLocale_CJK">Especifica el idioma predeterminado de los documentos en modalidad para chino, japonés y coreano.</string>
       <string id="name_DefaultLocale_CTL">Idioma predeterminado de documentos (CTL)</string>
       <string id="desc_DefaultLocale_CTL">Especifica el idioma de Disposición compleja de textos predeterminado de los documentos (p. ej., aquellos que usan sistemas de escritura índicos, árabe, etc.)</string>
+      <string id="category_WritingAids">Writing Aids</string>
+      <string id="name_IsSpellAuto">Check spelling as you type</string>
+      <string id="desc_IsSpellAuto">Specifies whether spelling is checked automatically while typing (Tools - Options - Languages and Locales - Writing Aids - Check spelling as you type).</string>
+      <string id="name_IsSpellUpperCase">Check uppercase words</string>
+      <string id="desc_IsSpellUpperCase">Specifies whether words written in capital letters are included in the spelling check.</string>
+      <string id="name_IsSpellWithDigits">Check words with numbers</string>
+      <string id="desc_IsSpellWithDigits">Specifies whether words that contain numbers as well as letters are included in the spelling check.</string>
+      <string id="name_IsSpellSpecial">Check special regions</string>
+      <string id="desc_IsSpellSpecial">Specifies whether headers, footers and frames are included in the spelling check.</string>
+      <string id="name_GrammarIsAutoCheck">Check grammar as you type</string>
+      <string id="desc_GrammarIsAutoCheck">Specifies whether grammar is checked automatically while typing, using the installed grammar checkers.</string>
       <string id="name_UILocale">Idioma de interfaz de usuario</string>
       <string id="desc_UILocale">Especifica el idioma de la interfaz de usuario (IU). Si la cadena está vacía, se utilizará el idioma del sistema si es posible.</string>
       <string id="name_Locale">Configuración regional</string>
@@ -1200,6 +1211,26 @@ For example, the following policy requires at least eight characters, including 
         <textBox refId="Value">
           <label>Código de idioma</label>
         </textBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellAuto">
+        <checkBox refId="Value">Check spelling as you type</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellUpperCase">
+        <checkBox refId="Value">Check uppercase words</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellWithDigits">
+        <checkBox refId="Value">Check words with numbers</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellSpecial">
+        <checkBox refId="Value">Check special regions</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="GrammarIsAutoCheck">
+        <checkBox refId="Value">Check grammar as you type</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UILocale">

@@ -102,6 +102,17 @@ When disabled, the warning will be issued in this case.</string>
       <string id="desc_DefaultLocale_CJK">Specifies the default document language - Chinese, Japanese, Korean.</string>
       <string id="name_DefaultLocale_CTL">Default document language (CTL)</string>
       <string id="desc_DefaultLocale_CTL">Specifies the default document language - complex text layout (e.g. Arabic, Indian etc., scripts).</string>
+      <string id="category_WritingAids">Writing Aids</string>
+      <string id="name_IsSpellAuto">Check spelling as you type</string>
+      <string id="desc_IsSpellAuto">Specifies whether spelling is checked automatically while typing (Tools - Options - Languages and Locales - Writing Aids - Check spelling as you type).</string>
+      <string id="name_IsSpellUpperCase">Check uppercase words</string>
+      <string id="desc_IsSpellUpperCase">Specifies whether words written in capital letters are included in the spelling check.</string>
+      <string id="name_IsSpellWithDigits">Check words with numbers</string>
+      <string id="desc_IsSpellWithDigits">Specifies whether words that contain numbers as well as letters are included in the spelling check.</string>
+      <string id="name_IsSpellSpecial">Check special regions</string>
+      <string id="desc_IsSpellSpecial">Specifies whether headers, footers and frames are included in the spelling check.</string>
+      <string id="name_GrammarIsAutoCheck">Check grammar as you type</string>
+      <string id="desc_GrammarIsAutoCheck">Specifies whether grammar is checked automatically while typing, using the installed grammar checkers.</string>
       <string id="name_UILocale">User interface language</string>
       <string id="desc_UILocale">Specifies the user interface (UI) language. An empty string means: use the desktop's UI language if possible.</string>
       <string id="name_Locale">Locale</string>
@@ -1205,6 +1216,26 @@ For example, the following policy requires at least eight characters, including 
         <textBox refId="Value">
           <label>Language code: </label>
         </textBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellAuto">
+        <checkBox refId="Value">Check spelling as you type</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellUpperCase">
+        <checkBox refId="Value">Check uppercase words</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellWithDigits">
+        <checkBox refId="Value">Check words with numbers</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellSpecial">
+        <checkBox refId="Value">Check special regions</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="GrammarIsAutoCheck">
+        <checkBox refId="Value">Check grammar as you type</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UILocale">

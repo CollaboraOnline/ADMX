@@ -100,6 +100,17 @@ When disabled, the warning will be issued in this case.</string>
       <string id="desc_DefaultLocale_CJK">Megadja az alapértelmezett kínai, japán, koreai dokumentumnyelvet.</string>
       <string id="name_DefaultLocale_CTL">Alapértelmezett dokumentumnyelv (CTL)</string>
       <string id="desc_DefaultLocale_CTL">Megadja a komplex megjelenítésű dokumentumok alapértelmezett nyelvét (például arab, indiai stb. írásokhoz).</string>
+      <string id="category_WritingAids">Writing Aids</string>
+      <string id="name_IsSpellAuto">Check spelling as you type</string>
+      <string id="desc_IsSpellAuto">Specifies whether spelling is checked automatically while typing (Tools - Options - Languages and Locales - Writing Aids - Check spelling as you type).</string>
+      <string id="name_IsSpellUpperCase">Check uppercase words</string>
+      <string id="desc_IsSpellUpperCase">Specifies whether words written in capital letters are included in the spelling check.</string>
+      <string id="name_IsSpellWithDigits">Check words with numbers</string>
+      <string id="desc_IsSpellWithDigits">Specifies whether words that contain numbers as well as letters are included in the spelling check.</string>
+      <string id="name_IsSpellSpecial">Check special regions</string>
+      <string id="desc_IsSpellSpecial">Specifies whether headers, footers and frames are included in the spelling check.</string>
+      <string id="name_GrammarIsAutoCheck">Check grammar as you type</string>
+      <string id="desc_GrammarIsAutoCheck">Specifies whether grammar is checked automatically while typing, using the installed grammar checkers.</string>
       <string id="name_UILocale">Felhasználói felület nyelve</string>
       <string id="desc_UILocale">Megadja a felhasználói felület nyelvét. Ha nincs megadva, akkor az asztali környezet nyelvét használja, ha lehet.</string>
       <string id="name_Locale">Területi beállítás</string>
@@ -1202,6 +1213,26 @@ For example, the following policy requires at least eight characters, including 
           <label>Nyelvkód:</label>
         </textBox>
         <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="IsSpellAuto">
+        <checkBox refId="Value">Check spelling as you type</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellUpperCase">
+        <checkBox refId="Value">Check uppercase words</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellWithDigits">
+        <checkBox refId="Value">Check words with numbers</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="IsSpellSpecial">
+        <checkBox refId="Value">Check special regions</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="GrammarIsAutoCheck">
+        <checkBox refId="Value">Check grammar as you type</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="UILocale">
         <textBox refId="Value">
