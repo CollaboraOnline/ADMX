@@ -105,7 +105,7 @@ When disabled, the warning will be issued in this case.</string>
       <string id="name_UILocale">User interface language</string>
       <string id="desc_UILocale">Specifies the user interface (UI) language. An empty string means: use the desktop's UI language if possible.</string>
       <string id="name_Locale">Locale</string>
-      <string id="desc_Locale">Contains the user's desktop locale setting.</string>
+      <string id="desc_Locale">Specifies the locale setting (Tools - Options - Languages and Locales - General), for example en-US or de-DE. When empty, the locale of the operating system is used.</string>
       <string id="name_ooSetupCurrency">Currency</string>
       <string id="desc_ooSetupCurrency">Indicates the currency settings defined by the user. By default, this label is empty and the currency defined by system locale.</string>
       <string id="name_DecimalSeparatorAsLocale">Decimal separator as locale</string>

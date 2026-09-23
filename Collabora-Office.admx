@@ -3084,7 +3084,7 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-    <policy name="Locale" class="Both" displayName="$(string.name_Locale)" explainText="$(string.desc_Locale)" presentation="$(presentation.Locale)" key="Software\Policies\LibreOffice\org.openoffice.Setup\L10N\Locale">
+    <policy name="Locale" class="Both" displayName="$(string.name_Locale)" explainText="$(string.desc_Locale)" presentation="$(presentation.Locale)" key="Software\Policies\LibreOffice\org.openoffice.Setup\L10N\ooSetupSystemLocale">
       <parentCategory ref="Localization" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
