@@ -37,7 +37,7 @@
       <string id="name_CollectUsageInformation">Help improve LibreOffice</string>
       <string id="desc_CollectUsageInformation">Collect usage data and send it to The Document Foundation</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
-      <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
+      <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
 
       <string id="category_LDAPConfigBackend">LDAP configuration backend</string>
       <string id="name_LDAPConfigBackendSettings">LDAP User Directory</string>
@@ -45,7 +45,9 @@
 
 Note that the password to bind to LDAP server is stored unencrypted in client system's registry; you should use a restricted search account (only able to perform LDAP searches).
 
-User unique attribute must correspond to the logged on user's Windows user name without domain.</string>
+User unique attribute must correspond to the logged on user's Windows user name without domain.
+
+This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
 
       <string id="category_ProductName">Product name</string>
       <string id="name_ooName">Product name (ooName)</string>
@@ -175,9 +177,9 @@ Default value: Macros enabled</string>
       <string id="name_SecureURL">Trusted file locations</string>
 
       <string id="name_DisableExtensionInstallation">Disable extension installation</string>
-      <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions.</string>
+      <string id="desc_DisableExtensionInstallation">Disable the possibility to install extensions. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_DisableExtensionRemoval">Disable extension removal</string>
-      <string id="desc_DisableExtensionRemoval">Disable the possibility to remove installed extensions.</string>
+      <string id="desc_DisableExtensionRemoval">Disable the possibility to remove installed extensions. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
 
       <string id="category_Filters">Disable file format filters</string>
 
@@ -240,7 +242,7 @@ Default value: Macros enabled</string>
       <string id="name_Lotus">Lotus 1-2-3</string>
       <string id="desc_Lotus">Disable the import filter for Lotus 1-2-3 file format.</string>
       <string id="name_LotusWordPro">Lotus WordPro Document</string>
-      <string id="desc_LotusWordPro">Disable the import filter for Lotus WordPro Document file format.</string>
+      <string id="desc_LotusWordPro">Disable the import filter for Lotus WordPro Document file format. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_MET__OS2_Metafile">MET - OS/2 Metafile</string>
       <string id="desc_MET__OS2_Metafile">Disable the import filter for MET - OS/2 Metafile file format.</string>
       <string id="name_MS_Excel_2003_XML_Orcus">Microsoft Excel 2003 XML</string>
@@ -374,9 +376,9 @@ Default value: Macros enabled</string>
       <string id="name_SYLK">SYLK</string>
       <string id="desc_SYLK">Disable the import filter for SYLK file format.</string>
       <string id="name_StarOffice_XML_Base_Report">ODF Database Report</string>
-      <string id="desc_StarOffice_XML_Base_Report">Disable the import filter for ODF Database Report file format.</string>
+      <string id="desc_StarOffice_XML_Base_Report">Disable the import filter for ODF Database Report file format. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_StarOffice_XML_Base_Report_Chart">OpenOffice.org 1.0 Report Chart</string>
-      <string id="desc_StarOffice_XML_Base_Report_Chart">Disable the import filter for OpenOffice.org 1.0 Report Chart file format.</string>
+      <string id="desc_StarOffice_XML_Base_Report_Chart">Disable the import filter for OpenOffice.org 1.0 Report Chart file format. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_StarOffice_Drawing">Legacy StarOffice Drawing</string>
       <string id="desc_StarOffice_Drawing">Disable the import filter for Legacy StarOffice Drawing file format.</string>
       <string id="name_StarOffice_Presentation">Legacy StarOffice Presentation</string>
@@ -386,7 +388,7 @@ Default value: Macros enabled</string>
       <string id="name_StarOffice_Writer">Legacy StarOffice Text Document</string>
       <string id="desc_StarOffice_Writer">Disable the import filter for Legacy StarOffice Text Document file format.</string>
       <string id="name_StarOffice_XML_Base">ODF Database</string>
-      <string id="desc_StarOffice_XML_Base">Disable the import filter for ODF Database file format.</string>
+      <string id="desc_StarOffice_XML_Base">Disable the import filter for ODF Database file format. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_StarOffice_XML_Calc">OpenOffice.org 1.0 Spreadsheet</string>
       <string id="desc_StarOffice_XML_Calc">Disable the import filter for OpenOffice.org 1.0 Spreadsheet file format.</string>
       <string id="name_StarOffice_XML_Chart">OpenOffice.org 1.0 Chart</string>
@@ -538,19 +540,19 @@ Default value: Macros enabled</string>
       <string id="UPUserName">User name</string>
       <string id="desc_UPUserName">User name
 
-When it is set to take from LDAP, then its value is LDAP attribute holding user name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+When it is set to take from LDAP, then its value is LDAP attribute holding user name; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
       <string id="UPCompanyName">Company name</string>
       <string id="desc_UPCompanyName">Company name
 
-When it is set to take from LDAP, then its value is LDAP attribute holding company name; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+When it is set to take from LDAP, then its value is LDAP attribute holding company name; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
       <string id="UPAddress">Address</string>
       <string id="desc_UPAddress">Address
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
       <string id="UPTelephone">Telephone/Fax</string>
       <string id="desc_UPTelephone">Telephone/Fax
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
       <string id="UPMail">E-mail address</string>
       <string id="desc_UPMail">E-mail address
 
@@ -609,7 +611,9 @@ Note: "From Windows" leaves this field empty, as the Windows backend never fills
 
 The policy supplies the value for users who have not picked a user interface themselves. A user who changes the user interface later keeps that choice, because the setting stored in the user profile takes precedence over the policy.
 
-Only the Standard Toolbar and the notebookbar based layouts can be applied this way. Single Toolbar and Sidebar are not offered, because their toolbar and sidebar arrangement is only built when the user switches to them from within the application.</string>
+Only the Standard Toolbar and the notebookbar based layouts can be applied this way. Single Toolbar and Sidebar are not offered, because their toolbar and sidebar arrangement is only built when the user switches to them from within the application.
+
+The notebookbar based layouts only take effect in Collabora Office Classic and LibreOffice. Collabora Office only has the Standard Toolbar.</string>
       <string id="toolbarmode_Default">Standard Toolbar</string>
       <string id="toolbarmode_Tabbed">Tabbed</string>
       <string id="toolbarmode_TabbedCompact">Tabbed Compact</string>
@@ -782,7 +786,7 @@ Set paths in path lists have to be separated by spaces.</string>
       <string id="name_HelpExtendedTip">Extended tips</string>
       <string id="desc_HelpExtendedTip">Activates the extended help in tooltips</string>
       <string id="name_UpdateCheckEnabled">Update check enabled</string>
-      <string id="desc_UpdateCheckEnabled">Enable automatic update check</string>
+      <string id="desc_UpdateCheckEnabled">Enable automatic update check. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
       <string id="name_PDFExportFormFields">Export form fields as widgets</string>
       <string id="desc_PDFExportFormFields">Specifies whether form fields are exported as widgets or only their fixed print representation is exported.</string>
       <string id="name_PDFExportPlaceholders">Export placeholder fields to PDF</string>
