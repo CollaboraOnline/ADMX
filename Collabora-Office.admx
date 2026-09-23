@@ -796,36 +796,6 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-    <policy name="UseOpenGL" class="Both" displayName="$(string.name_UseOpenGL)" explainText="$(string.desc_UseOpenGL)" presentation="$(presentation.UseOpenGL)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\UseOpenGL">
-      <parentCategory ref="View" />
-      <supportedOn ref="supported_LibreOffice_5_0" />
-      <elements>
-        <boolean id="Value" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
-        <boolean id="Final" valueName="Final" />
-      </elements>
-    </policy>
-    <policy name="ForceOpenGL" class="Both" displayName="$(string.name_ForceOpenGL)" explainText="$(string.desc_ForceOpenGL)" presentation="$(presentation.ForceOpenGL)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\ForceOpenGL">
-      <parentCategory ref="View" />
-      <supportedOn ref="supported_LibreOffice_5_0" />
-      <elements>
-        <boolean id="Value" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
-        <boolean id="Final" valueName="Final" />
-      </elements>
-    </policy>
     <policy name="UseSkia" class="Both" displayName="$(string.name_UseSkia)" explainText="$(string.desc_UseSkia)" presentation="$(presentation.UseSkia)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\UseSkia">
       <parentCategory ref="View" />
       <supportedOn ref="supported_LibreOffice_7_0" />
@@ -874,21 +844,6 @@
     <policy name="ForceSkiaGPU" class="Both" displayName="$(string.name_ForceSkiaGPU)" explainText="$(string.desc_ForceSkiaGPU)" presentation="$(presentation.ForceSkiaGPU)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\VCL\ForceSkiaGPU">
       <parentCategory ref="View" />
       <supportedOn ref="supported_LibreOffice_26_8" />
-      <elements>
-        <boolean id="Value" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
-        <boolean id="Final" valueName="Final" />
-      </elements>
-    </policy>
-    <policy name="CollectUsageInformation" class="Both" displayName="$(string.name_CollectUsageInformation)" explainText="$(string.desc_CollectUsageInformation)" presentation="$(presentation.CollectUsageInformation)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\CollectUsageInformation">
-      <parentCategory ref="General" />
-      <supportedOn ref="supported_LibreOffice_5_1" />
       <elements>
         <boolean id="Value" valueName="Value">
           <trueValue>
@@ -976,52 +931,7 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
-    <policy name="EnableATToolSupport" class="Both" displayName="$(string.name_EnableATToolSupport)" explainText="$(string.desc_EnableATToolSupport)" presentation="$(presentation.EnableATToolSupport)" key="Software\Policies\LibreOffice\org.openoffice.VCL\Settings\org.openoffice.VCL:ConfigurableSettings['Accessibility']\EnableATToolSupport">
-      <parentCategory ref="Accessibility" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
-      <elements>
-        <boolean id="Value" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
-        <boolean id="Final" valueName="Final" />
-      </elements>
-    </policy>
     <policy name="IsSelectionInReadonly" class="Both" displayName="$(string.name_IsSelectionInReadonly)" explainText="$(string.desc_IsSelectionInReadonly)" presentation="$(presentation.IsSelectionInReadonly)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Accessibility\IsSelectionInReadonly">
-      <parentCategory ref="Accessibility" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
-      <elements>
-        <boolean id="Value" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
-        <boolean id="Final" valueName="Final" />
-      </elements>
-    </policy>
-    <policy name="IsAllowAnimatedGraphics" class="Both" displayName="$(string.name_IsAllowAnimatedGraphics)" explainText="$(string.desc_IsAllowAnimatedGraphics)" presentation="$(presentation.IsAllowAnimatedGraphics)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Accessibility\IsAllowAnimatedGraphics">
-      <parentCategory ref="Accessibility" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
-      <elements>
-        <boolean id="Value" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
-        <boolean id="Final" valueName="Final" />
-      </elements>
-    </policy>
-    <policy name="IsAllowAnimatedText" class="Both" displayName="$(string.name_IsAllowAnimatedText)" explainText="$(string.desc_IsAllowAnimatedText)" presentation="$(presentation.IsAllowAnimatedText)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Accessibility\IsAllowAnimatedText">
       <parentCategory ref="Accessibility" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
@@ -1051,21 +961,6 @@
         <boolean id="Final" valueName="Final" />
         <decimal id="HelpTipsDisappearValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Accessibility\HelpTipSeconds" valueName="Value" minValue="1" maxValue="99" storeAsText="true" />
         <boolean id="HelpTipsDisappearFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Accessibility\HelpTipSeconds" valueName="Final" />
-      </elements>
-    </policy>
-    <policy name="AutoDetectSystemHC" class="Both" displayName="$(string.name_AutoDetectSystemHC)" explainText="$(string.desc_AutoDetectSystemHC)" presentation="$(presentation.AutoDetectSystemHC)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Accessibility\AutoDetectSystemHC">
-      <parentCategory ref="Accessibility" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
-      <elements>
-        <boolean id="Value" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
-        <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
     <policy name="IsAutomaticFontColor" class="Both" displayName="$(string.name_IsAutomaticFontColor)" explainText="$(string.desc_IsAutomaticFontColor)" presentation="$(presentation.IsAutomaticFontColor)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Accessibility\IsAutomaticFontColor">
@@ -6970,21 +6865,6 @@
     </policy>
     <policy name="PDFExportPlaceholders" class="Both" displayName="$(string.name_PDFExportPlaceholders)" explainText="$(string.desc_PDFExportPlaceholders)" presentation="$(presentation.PDFExportPlaceholders)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Filter\PDF\Export\ExportPlaceholders">
       <parentCategory ref="PDFExport" />
-      <supportedOn ref="supported_LibreOffice_4_2" />
-      <elements>
-        <boolean id="Value" valueName="Value">
-          <trueValue>
-            <string>true</string>
-          </trueValue>
-          <falseValue>
-            <string>false</string>
-          </falseValue>
-        </boolean>
-        <boolean id="Final" valueName="Final" />
-      </elements>
-    </policy>
-    <policy name="WriterPrintSinglePrintJob" class="Both" displayName="$(string.name_PrintSinglePrintJob)" explainText="$(string.desc_PrintSinglePrintJob)" presentation="$(presentation.PrintSinglePrintJob)" key="Software\Policies\LibreOffice\org.openoffice.Office.Writer\Print\Output\SinglePrintJob">
-      <parentCategory ref="WriterPrint" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
         <boolean id="Value" valueName="Value">

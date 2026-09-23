@@ -34,8 +34,6 @@
       <string id="desc_UseSystemFileDialog">Legt fest, ob der Windows Dialog zum Wählen von Dateien und Ordnern (z.B. beim "Speichern unter") genutzt werden soll. Falls nicht, werden integrierte plattformübergreifende Implementierungen genutzt.</string>
       <string id="name_AllowOverrideLocking">Allow override document locking</string>
       <string id="desc_AllowOverrideLocking">Specifies whether the user is allowed to override the document locking mechanism in LibreOffice/Collabora Office. If disabled and the document is already opened by another user, the current user can open a document only as a copy or in read only mode.</string>
-      <string id="name_CollectUsageInformation">Mithelfen, LibreOffice zu verbessern</string>
-      <string id="desc_CollectUsageInformation">Nutzungsdaten sammeln und an die The Document Foundation senden</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
       <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
 
@@ -585,10 +583,6 @@ Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige W
       <string id="sukapura_dark">Sukapura (dark)</string>
       <string id="small">Klein</string>
       <string id="large">Groß</string>
-      <string id="name_UseOpenGL">OpenGL verwenden</string>
-      <string id="desc_UseOpenGL">Legt fest, ob OpenGL Rendering in den VCL Backends verwendet werden soll.</string>
-      <string id="name_ForceOpenGL">Erzwinge OpenGL</string>
-      <string id="desc_ForceOpenGL">Legt fest, ob OpenGL Rendering in den VCL Backends verwendet werden soll. Diese Option erzwingt die Verwendung von OpenGL, selbst, wenn der OpenGL-Treiber auf der Blacklist steht.</string>
       <string id="name_UseSkia">UseSkia</string>
       <string id="desc_UseSkia">Specifies if Skia rendering should be used in VCL backends supporting it.</string>
       <string id="name_ForceSkia">Force Skia</string>
@@ -621,18 +615,10 @@ Only the Standard Toolbar and the notebookbar based layouts can be applied this 
       <string id="desc_PrinterWarnings">Druckerwarnungen</string>
 
       <string id="category_Accessibility">Barrierefreiheit</string>
-      <string id="name_EnableATToolSupport">Unterstützung behindertengerechter Zugangsprogramme</string>
-      <string id="desc_EnableATToolSupport">Unterstützung behindertengerechter Zugangsprogramme</string>
       <string id="name_IsSelectionInReadonly">Textauswahlcursor in schreibgeschützten Textdokumenten verwenden</string>
       <string id="desc_IsSelectionInReadonly">Bestimmt, ob der Cursor auch in schreibgeschützten Texten angezeigt wird</string>
-      <string id="name_IsAllowAnimatedGraphics">Animierte Bilder zulassen</string>
-      <string id="desc_IsAllowAnimatedGraphics">Bestimmt, ob grafische Animationen in allen Anwendungen zugelassen werden sollen, d.h. animierte GIFs und Objekte in Impress während einer Präsentation, animierte Grafikvorschauen (Gallerie, Einfügen - Bild..., Animationswerkzeuge in Impress).</string>
-      <string id="name_IsAllowAnimatedText">Animierten Text zulassen</string>
-      <string id="desc_IsAllowAnimatedText">Bestimmt, ob Textanimationen wie Blinken und Scrollen in allen Anwendungen zugelassen werden sollen.</string>
       <string id="name_HelpTipsDisappear">Hilfe-Tooltip verschwinden nach...</string>
       <string id="desc_HelpTipsDisappear">Aktiviert oder deaktiviert den automatischen Time-Out von Hilfe-Tooltips. Es kann eine Zeitspanne (n) von 1 bis 99 Sekunden angegeben werden. Wenn diese Option deaktiviert ist, kann die Esc Taste gedrückt werden, um den Hilfe-Tooltip auszublenden.</string>
-      <string id="name_AutoDetectSystemHC">Kontrastdarstellungsmodus des Betriebssystems automatisch erkennen</string>
-      <string id="desc_AutoDetectSystemHC">Aktiviert die automatische Erkennung des Hochkontrastmodus der Desktopumgebung. Einige Betriebssysteme bieten diese Option nicht explizit an, aber erlauben es dem Benutzer, ein Farbschema zu wählen, welches implizit Hochkontrastkonform ist. Dies wird durch diese Einstellung erkannt.</string>
       <string id="name_IsAutomaticFontColor">Systemschriftfarbe für Bildschirmdarstellung nutzen</string>
       <string id="desc_IsAutomaticFontColor">Überschreibt alle Textfarbenattribute eines Dokuments für die Bildschirmanzeige.</string>
       <string id="name_IsForPagePreviews">Systemfarben für Druckvorschauen verwenden</string>
@@ -785,8 +771,6 @@ Pfade in Pfadlisten müssen durch Leerzeichen getrennt werden.</string>
       <string id="desc_PDFExportFormFields">Specifies whether form fields are exported as widgets or only their fixed print representation is exported.</string>
       <string id="name_PDFExportPlaceholders">Export placeholder fields to PDF</string>
       <string id="desc_PDFExportPlaceholders">Specifies if placeholder fields are exported to PDF.</string>
-      <string id="name_PrintSinglePrintJob">Create single print jobs</string>
-      <string id="desc_PrintSinglePrintJob">Controls the print output to avoid problems with duplex printing and odd page numbers.</string>
       <string id="name_AutoTextApplyNumbering">Bulleted and numbered lists</string>
       <string id="desc_AutoTextApplyNumbering">Specifies whether a numbered or bulleted text is created automatically while typing.</string>
       <string id="name_WordCompletionMinWordLen">Word completion minimum word length</string>
@@ -956,10 +940,6 @@ For example, the following policy requires at least eight characters, including 
       <presentation id="AllowOverrideLocking">
         <checkBox refId="Value">Enable or disable override locking</checkBox>
         <checkBox refId="Final">Prevent the user from changing this setting</checkBox>
-      </presentation>
-      <presentation id="CollectUsageInformation">
-        <checkBox refId="Value">Nutzungsdaten sammeln und an die The Document Foundation senden</checkBox>
-        <checkBox refId="Final">Gesperrt</checkBox>
       </presentation>
       <presentation id="ShowTipOfTheDay">
         <checkBox refId="Value">Show Tip of the Day</checkBox>
@@ -2086,14 +2066,6 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="Value">Erlaube die Nutzung von OpenCL</checkBox>
         <checkBox refId="Final">Gesperrt</checkBox>
       </presentation>
-      <presentation id="UseOpenGL">
-        <checkBox refId="Value">Nutze OpenGL für das gesamte Rendering</checkBox>
-        <checkBox refId="Final">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="ForceOpenGL">
-        <checkBox refId="Value">OpenGL trotz Negativliste erzwingen</checkBox>
-        <checkBox refId="Final">Gesperrt</checkBox>
-      </presentation>
       <presentation id="UseSkia">
         <checkBox refId="Value">Use Skia for all rendering</checkBox>
         <checkBox refId="Final">Gesperrt</checkBox>
@@ -2119,20 +2091,8 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="Value">Transparenz</checkBox>
         <checkBox refId="Final">Gesperrt</checkBox>
       </presentation>
-      <presentation id="EnableATToolSupport">
-        <checkBox refId="Value">Unterstützung behindertengerechter Zugangsprogramme</checkBox>
-        <checkBox refId="Final">Gesperrt</checkBox>
-      </presentation>
       <presentation id="IsSelectionInReadonly">
         <checkBox refId="Value">Textauswahlcursor in schreibgeschützten Textdokumenten verwenden</checkBox>
-        <checkBox refId="Final">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="IsAllowAnimatedGraphics">
-        <checkBox refId="Value">Animierte Bilder zulassen</checkBox>
-        <checkBox refId="Final">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="IsAllowAnimatedText">
-        <checkBox refId="Value">Animierten Text zulassen</checkBox>
         <checkBox refId="Final">Gesperrt</checkBox>
       </presentation>
       <presentation id="HelpTipsDisappear">
@@ -2140,10 +2100,6 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="Final">Gesperrt</checkBox>
         <decimalTextBox refId="HelpTipsDisappearValue" defaultValue="4" spin="true">Sekunden</decimalTextBox>
         <checkBox refId="HelpTipsDisappearFinal">Gesperrt</checkBox>
-      </presentation>
-      <presentation id="AutoDetectSystemHC">
-        <checkBox refId="Value">Kontrastdarstellungsmodus des Betriebssystems automatisch erkennen</checkBox>
-        <checkBox refId="Final">Gesperrt</checkBox>
       </presentation>
       <presentation id="IsAutomaticFontColor">
         <checkBox refId="Value">Systemschriftfarbe für Bildschirmdarstellung nutzen</checkBox>
@@ -2247,10 +2203,6 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="PDFExportPlaceholders">
         <checkBox refId="Value">Export placeholder fields to PDF</checkBox>
-        <checkBox refId="Final">Final</checkBox>
-      </presentation>
-      <presentation id="PrintSinglePrintJob">
-        <checkBox refId="Value">Create single print jobs</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="AutoTextApplyNumbering">

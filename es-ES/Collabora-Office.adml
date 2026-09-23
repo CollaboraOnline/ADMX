@@ -34,8 +34,6 @@
       <string id="desc_UseSystemFileDialog">Determina si se debe utilizar el selector de archivos y carpetas de Windows. Si el valor es falso, se empleará el cuadro de diálogo multiplataforma incorporado.</string>
       <string id="name_AllowOverrideLocking">Allow override document locking</string>
       <string id="desc_AllowOverrideLocking">Specifies whether the user is allowed to override the document locking mechanism in LibreOffice/Collabora Office. If disabled and the document is already opened by another user, the current user can open a document only as a copy or in read only mode.</string>
-      <string id="name_CollectUsageInformation">Ayudar a mejorar LibreOffice</string>
-      <string id="desc_CollectUsageInformation">Recopilar datos de uso y enviarlos a The Document Foundation</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
       <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
 
@@ -584,10 +582,6 @@ Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene
       <string id="sukapura_dark">Sukapura (dark)</string>
       <string id="small">Pequeños</string>
       <string id="large">Grandes</string>
-      <string id="name_UseOpenGL">Utilizar OpenGL</string>
-      <string id="desc_UseOpenGL">Especifica si se debe utilizar la representación con OpenGL en los motores de VLC que lo admiten.</string>
-      <string id="name_ForceOpenGL">Forzar OpenGL</string>
-      <string id="desc_ForceOpenGL">Especifica si se debe utilizar la representación con OpenGL en los motores de VCL que lo admiten. Esta opción fuerza el uso de OpenGL aun si la lista negra prohíbe el controlador OpenGL.</string>
       <string id="name_UseSkia">UseSkia</string>
       <string id="desc_UseSkia">Specifies if Skia rendering should be used in VCL backends supporting it.</string>
       <string id="name_ForceSkia">Force Skia</string>
@@ -620,18 +614,10 @@ Only the Standard Toolbar and the notebookbar based layouts can be applied this 
       <string id="desc_PrinterWarnings">Alertas de impresora</string>
 
       <string id="category_Accessibility">Accesibilidad</string>
-      <string id="name_EnableATToolSupport">Compatibilidad con herramientas de tecnología de asistencia</string>
-      <string id="desc_EnableATToolSupport">Compatibilidad con herramientas de tecnología de asistencia</string>
       <string id="name_IsSelectionInReadonly">Usar cursor de selección de texto en documentos de solo lectura</string>
       <string id="desc_IsSelectionInReadonly">Indica si se mostrará el cursor en los documentos de texto de solo lectura.</string>
-      <string id="name_IsAllowAnimatedGraphics">Permitir gráficos animados</string>
-      <string id="desc_IsAllowAnimatedGraphics">Indica si se deben permitir animaciones de gráficos en todas las aplicaciones, p. ej., GIF animados y objetos de Impress durante una presentación y previsualizaciones de animaciones (Galería, menú Insertar &gt; Imagen y la Herramienta de animaciones en Impress).</string>
-      <string id="name_IsAllowAnimatedText">Permitir texto animado</string>
-      <string id="desc_IsAllowAnimatedText">Indica si se deben permitir las animaciones de texto, como parpadeos y desplazamientos, en todas las aplicaciones.</string>
       <string id="name_HelpTipsDisappear">Las descripciones emergentes desaparecen tras…</string>
       <string id="desc_HelpTipsDisappear">Activa o desactiva el límite de tiempo de las descripciones emergentes. Puede especificar una duración (n) de entre 1 y 99 segundos. Si se desactiva esta opción, oprima Esc para cerrar la descripción emergente.</string>
-      <string id="name_AutoDetectSystemHC">Detectar automáticamente modo de contraste alto del sistema operativo</string>
-      <string id="desc_AutoDetectSystemHC">Activa la detección automática de la modalidad de contraste alto del sistema. Algunos sistemas operativos no proporcionan esta opción explícitamente; en cambio, ofrecen la posibilidad de seleccionar combinaciones de colores equivalentes, que son reconocidas cuando se activa esta opción.</string>
       <string id="name_IsAutomaticFontColor">Utilizar color de letra automático para mostrar texto en pantalla</string>
       <string id="desc_IsAutomaticFontColor">Invalida todos los atributos de color de texto definidos en un documento únicamente durante su visualización.</string>
       <string id="name_IsForPagePreviews">Utilizar colores del sistema en previsualizaciones de páginas</string>
@@ -784,8 +770,6 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
       <string id="desc_PDFExportFormFields">Specifies whether form fields are exported as widgets or only their fixed print representation is exported.</string>
       <string id="name_PDFExportPlaceholders">Export placeholder fields to PDF</string>
       <string id="desc_PDFExportPlaceholders">Specifies if placeholder fields are exported to PDF.</string>
-      <string id="name_PrintSinglePrintJob">Create single print jobs</string>
-      <string id="desc_PrintSinglePrintJob">Controls the print output to avoid problems with duplex printing and odd page numbers.</string>
       <string id="name_AutoTextApplyNumbering">Bulleted and numbered lists</string>
       <string id="desc_AutoTextApplyNumbering">Specifies whether a numbered or bulleted text is created automatically while typing.</string>
       <string id="name_WordCompletionMinWordLen">Word completion minimum word length</string>
@@ -955,10 +939,6 @@ For example, the following policy requires at least eight characters, including 
       <presentation id="AllowOverrideLocking">
         <checkBox refId="Value">Enable or disable override locking</checkBox>
         <checkBox refId="Final">Prevent the user from changing this setting</checkBox>
-      </presentation>
-      <presentation id="CollectUsageInformation">
-        <checkBox refId="Value">Recopilar datos de uso y enviarlos a The Document Foundation</checkBox>
-        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ShowTipOfTheDay">
         <checkBox refId="Value">Show Tip of the Day</checkBox>
@@ -2085,14 +2065,6 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="Value">Permitir uso de OpenCL</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
-      <presentation id="UseOpenGL">
-        <checkBox refId="Value">Utilizar OpenGL para toda la representación</checkBox>
-        <checkBox refId="Final">Final</checkBox>
-      </presentation>
-      <presentation id="ForceOpenGL">
-        <checkBox refId="Value">Forzar OpenGL aun si está en la lista negra</checkBox>
-        <checkBox refId="Final">Final</checkBox>
-      </presentation>
       <presentation id="UseSkia">
         <checkBox refId="Value">Use Skia for all rendering</checkBox>
         <checkBox refId="Final">Final</checkBox>
@@ -2118,20 +2090,8 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="Value">Transparencia</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
-      <presentation id="EnableATToolSupport">
-        <checkBox refId="Value">Compatibilidad con herramientas de tecnología de asistencia</checkBox>
-        <checkBox refId="Final">Final</checkBox>
-      </presentation>
       <presentation id="IsSelectionInReadonly">
         <checkBox refId="Value">Usar cursor de selección de texto en documentos de solo lectura</checkBox>
-        <checkBox refId="Final">Final</checkBox>
-      </presentation>
-      <presentation id="IsAllowAnimatedGraphics">
-        <checkBox refId="Value">Permitir gráficos animados</checkBox>
-        <checkBox refId="Final">Final</checkBox>
-      </presentation>
-      <presentation id="IsAllowAnimatedText">
-        <checkBox refId="Value">Permitir texto animado</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="HelpTipsDisappear">
@@ -2139,10 +2099,6 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="Final">Final</checkBox>
         <decimalTextBox refId="HelpTipsDisappearValue" defaultValue="4" spin="true">segundos</decimalTextBox>
         <checkBox refId="HelpTipsDisappearFinal">Final</checkBox>
-      </presentation>
-      <presentation id="AutoDetectSystemHC">
-        <checkBox refId="Value">Detectar automáticamente modo de contraste alto del sistema operativo</checkBox>
-        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="IsAutomaticFontColor">
         <checkBox refId="Value">Utilizar color de letra automático para mostrar texto en pantalla</checkBox>
@@ -2246,10 +2202,6 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="PDFExportPlaceholders">
         <checkBox refId="Value">Export placeholder fields to PDF</checkBox>
-        <checkBox refId="Final">Final</checkBox>
-      </presentation>
-      <presentation id="PrintSinglePrintJob">
-        <checkBox refId="Value">Create single print jobs</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="AutoTextApplyNumbering">

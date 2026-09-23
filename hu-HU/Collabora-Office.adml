@@ -34,8 +34,6 @@
       <string id="desc_UseSystemFileDialog">Megadja, hogy a Windows fájl- és mappaválasztó ablakát kell-e használni. Ha hamis, a beépített platformfüggetlen fájl- és mappaválasztó ablakok lesznek használva.</string>
       <string id="name_AllowOverrideLocking">Allow override document locking</string>
       <string id="desc_AllowOverrideLocking">Specifies whether the user is allowed to override the document locking mechanism in LibreOffice/Collabora Office. If disabled and the document is already opened by another user, the current user can open a document only as a copy or in read only mode.</string>
-      <string id="name_CollectUsageInformation">Segítsen a LibreOffice tökéletesítésében</string>
-      <string id="desc_CollectUsageInformation">Felhasználási adatok gyűjtése és elküldése a The Document Foundationnek</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
       <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup</string>
 
@@ -585,10 +583,6 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
       <string id="sukapura_dark">Sukapura (dark)</string>
       <string id="small">Kicsi</string>
       <string id="large">Nagy</string>
-      <string id="name_UseOpenGL">OpenGL használata</string>
-      <string id="desc_UseOpenGL">Megadja, hogy használandó-e az OpenGL megjelenítés az azt támogató VCL háttérprogramokban.</string>
-      <string id="name_ForceOpenGL">OpenGL kényszerítése</string>
-      <string id="desc_ForceOpenGL">Megadja, hogy használandó-e az OpenGL megjelenítés az azt támogató VCL háttérprogramokban. Ez akkor is kényszeríti az OpenGL használatát, ha a feketelista blokkolná az OpenGL illesztőprogramot.</string>
       <string id="name_UseSkia">UseSkia</string>
       <string id="desc_UseSkia">Specifies if Skia rendering should be used in VCL backends supporting it.</string>
       <string id="name_ForceSkia">Force Skia</string>
@@ -621,18 +615,10 @@ Only the Standard Toolbar and the notebookbar based layouts can be applied this 
       <string id="desc_PrinterWarnings">Figyelmeztetések nyomtatáskor</string>
 
       <string id="category_Accessibility">Akadálymentesítés</string>
-      <string id="name_EnableATToolSupport">Kisegítő technológiai eszközök támogatása</string>
-      <string id="desc_EnableATToolSupport">Kisegítő technológiai eszközök támogatása</string>
       <string id="name_IsSelectionInReadonly">Szövegkijelölő kurzor használata a csak olvasható dokumentumokban</string>
       <string id="desc_IsSelectionInReadonly">Jelzi, hogy a kurzor megjelenik-e a csak olvasható szövegekben.</string>
-      <string id="name_IsAllowAnimatedGraphics">Animált grafika engedélyezése</string>
-      <string id="desc_IsAllowAnimatedGraphics">Jelzi, hogy a grafikus animáció engedélyezett-e az összes alkalmazásban, azaz animált GIF-ek és objektumok az Impressben bemutató közben, animált grafikus előnézetek (Galéria, Beszúrás - Kép, Impress animációs eszköze).</string>
-      <string id="name_IsAllowAnimatedText">Animált szöveg engedélyezése</string>
-      <string id="desc_IsAllowAnimatedText">Jelzi, hogy az összes szöveganimáció, mint a villogás és görgetés engedélyezett-e az összes alkalmazásban.</string>
       <string id="name_HelpTipsDisappear">Súgótippek eltűnnek</string>
       <string id="desc_HelpTipsDisappear">Engedélyezi vagy letiltja a súgótippek automatikus időkorlátját. 1 és 99 mp közti idő adható meg. Ha ez a beállítás le van tiltva, akkor a súgótipp az Esc billentyűvel zárható be.</string>
-      <string id="name_AutoDetectSystemHC">Az operációs rendszer magas kontrasztú módjának automatikus felismerése</string>
-      <string id="desc_AutoDetectSystemHC">Engedélyezi az asztali környezethez beállított nagy kontrasztú mód automatikus felismerését. Egyes rendszerek nem biztosítják kifejezetten ezt a beállítást, de lehetővé teszik nagy kontrasztú színséma választását, ami felismerhető, ha ez a beállítás engedélyezett.</string>
       <string id="name_IsAutomaticFontColor">A képernyőn használt betűszín automatikus kiválasztása</string>
       <string id="desc_IsAutomaticFontColor">Felülbírálja az összes szövegszín-jellemzőt a dokumentumban, de csak a megjelenítéshez.</string>
       <string id="name_IsForPagePreviews">Rendszerszínek használata a nyomtatási képhez</string>
@@ -785,8 +771,6 @@ Set paths in path lists have to be separated by spaces.</string>
       <string id="desc_PDFExportFormFields">Specifies whether form fields are exported as widgets or only their fixed print representation is exported.</string>
       <string id="name_PDFExportPlaceholders">Export placeholder fields to PDF</string>
       <string id="desc_PDFExportPlaceholders">Specifies if placeholder fields are exported to PDF.</string>
-      <string id="name_PrintSinglePrintJob">Create single print jobs</string>
-      <string id="desc_PrintSinglePrintJob">Controls the print output to avoid problems with duplex printing and odd page numbers.</string>
       <string id="name_AutoTextApplyNumbering">Bulleted and numbered lists</string>
       <string id="desc_AutoTextApplyNumbering">Specifies whether a numbered or bulleted text is created automatically while typing.</string>
       <string id="name_WordCompletionMinWordLen">Word completion minimum word length</string>
@@ -956,10 +940,6 @@ For example, the following policy requires at least eight characters, including 
       <presentation id="AllowOverrideLocking">
         <checkBox refId="Value">Enable or disable override locking</checkBox>
         <checkBox refId="Final">Prevent the user from changing this setting</checkBox>
-      </presentation>
-      <presentation id="CollectUsageInformation">
-        <checkBox refId="Value">Felhasználási adatok gyűjtése és elküldése a The Document Foundationnek</checkBox>
-        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="ShowTipOfTheDay">
         <checkBox refId="Value">Show Tip of the Day</checkBox>
@@ -2086,14 +2066,6 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="Value">Az OpenCL használatának engedélyezése</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
-      <presentation id="UseOpenGL">
-        <checkBox refId="Value">Az OpenGL használata minden megjelenítéshez</checkBox>
-        <checkBox refId="Final">Végleges</checkBox>
-      </presentation>
-      <presentation id="ForceOpenGL">
-        <checkBox refId="Value">Az OpenGL kényszerítése, még ha feketelistán is van</checkBox>
-        <checkBox refId="Final">Végleges</checkBox>
-      </presentation>
       <presentation id="UseSkia">
         <checkBox refId="Value">Use Skia for all rendering</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
@@ -2119,20 +2091,8 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="Value">Átlátszóság</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
-      <presentation id="EnableATToolSupport">
-        <checkBox refId="Value">Kisegítő technológiai eszközök támogatása</checkBox>
-        <checkBox refId="Final">Végleges</checkBox>
-      </presentation>
       <presentation id="IsSelectionInReadonly">
         <checkBox refId="Value">Szövegkijelölő kurzor használata a csak olvasható dokumentumokban</checkBox>
-        <checkBox refId="Final">Végleges</checkBox>
-      </presentation>
-      <presentation id="IsAllowAnimatedGraphics">
-        <checkBox refId="Value">Animált grafika engedélyezése</checkBox>
-        <checkBox refId="Final">Végleges</checkBox>
-      </presentation>
-      <presentation id="IsAllowAnimatedText">
-        <checkBox refId="Value">Animált szöveg engedélyezése</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="HelpTipsDisappear">
@@ -2140,10 +2100,6 @@ For example, the following policy requires at least eight characters, including 
         <checkBox refId="Final">Végleges</checkBox>
         <decimalTextBox refId="HelpTipsDisappearValue" defaultValue="4" spin="true">másodperc</decimalTextBox>
         <checkBox refId="HelpTipsDisappearFinal">Végleges</checkBox>
-      </presentation>
-      <presentation id="AutoDetectSystemHC">
-        <checkBox refId="Value">Az operációs rendszer magas kontrasztú módjának automatikus felismerése</checkBox>
-        <checkBox refId="Final">Végleges</checkBox>
       </presentation>
       <presentation id="IsAutomaticFontColor">
         <checkBox refId="Value">A képernyőn használt betűszín automatikus kiválasztása</checkBox>
@@ -2247,10 +2203,6 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="PDFExportPlaceholders">
         <checkBox refId="Value">Export placeholder fields to PDF</checkBox>
-        <checkBox refId="Final">Final</checkBox>
-      </presentation>
-      <presentation id="PrintSinglePrintJob">
-        <checkBox refId="Value">Create single print jobs</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="AutoTextApplyNumbering">
