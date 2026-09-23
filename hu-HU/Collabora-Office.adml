@@ -573,13 +573,16 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
       <string id="name_SymbolStyle">Ikonstílus</string>
       <string id="desc_SymbolStyle">Az eszköztárak, menük stb. stílusát adja meg, például: „Automatikus” = az asztali környezetnek megfelelő, „Alapértelmezett” = a LibreOffice alapértelmezett témája; a további lehetséges értékek a különböző ikontémák nevei („Breeze”, „Oxygen”, „Sifr” stb.).</string>
       <string id="auto">Automatikus</string>
-      <string id="default">Alapértelmezett</string>
-      <string id="tango">Tango</string>
+      <string id="colibre">Colibre</string>
+      <string id="colibre_dark">Colibre (dark)</string>
       <string id="breeze">Breeze</string>
-      <string id="oxygen">Oxygen</string>
+      <string id="breeze_dark">Breeze (dark)</string>
+      <string id="elementary">Elementary</string>
+      <string id="karasa_jaga">Karasa Jaga</string>
       <string id="sifr">Sifr</string>
-      <string id="galaxy">Galaxy</string>
-      <string id="hicontrast">Nagy kontraszt</string>
+      <string id="sifr_dark">Sifr (dark)</string>
+      <string id="sukapura">Sukapura</string>
+      <string id="sukapura_dark">Sukapura (dark)</string>
       <string id="small">Kicsi</string>
       <string id="large">Nagy</string>
       <string id="name_UseOpenGL">OpenGL használata</string>

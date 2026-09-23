@@ -573,15 +573,18 @@ Note: "From Windows" leaves this field empty, as the Windows backend never fills
 
       <string id="category_View">View</string>
       <string id="name_SymbolStyle">Icon style</string>
-      <string id="desc_SymbolStyle">Specifies which style of the symbols is used for the toolbars, menus, etc.: "Automatic" means chosen according to the desktop; "Default" means the LibreOffice default theme; other possible values are the names of the various icon themes ("Breeze", "Oxygen", "Sifr", etc.).</string>
+      <string id="desc_SymbolStyle">Specifies the icon theme of the toolbars, menus, etc. "Automatic" means chosen according to the desktop, the default is Colibre. Collabora Office supports only Colibre and Colibre (dark), the other icon themes only take effect in Collabora Office Classic and LibreOffice.</string>
       <string id="auto">Automatic</string>
-      <string id="default">Default</string>
-      <string id="tango">Tango</string>
+      <string id="colibre">Colibre</string>
+      <string id="colibre_dark">Colibre (dark)</string>
       <string id="breeze">Breeze</string>
-      <string id="oxygen">Oxygen</string>
+      <string id="breeze_dark">Breeze (dark)</string>
+      <string id="elementary">Elementary</string>
+      <string id="karasa_jaga">Karasa Jaga</string>
       <string id="sifr">Sifr</string>
-      <string id="galaxy">Galaxy</string>
-      <string id="hicontrast">Hicontrast</string>
+      <string id="sifr_dark">Sifr (dark)</string>
+      <string id="sukapura">Sukapura</string>
+      <string id="sukapura_dark">Sukapura (dark)</string>
       <string id="small">Small</string>
       <string id="large">Large</string>
       <string id="name_UseOpenGL">Use OpenGL</string>

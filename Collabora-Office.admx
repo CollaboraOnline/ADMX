@@ -448,14 +448,14 @@
               <string>auto</string>
             </value>
           </item>
-          <item displayName="$(string.default)">
+          <item displayName="$(string.colibre)">
             <value>
-              <string>default</string>
+              <string>colibre</string>
             </value>
           </item>
-          <item displayName="$(string.tango)">
+          <item displayName="$(string.colibre_dark)">
             <value>
-              <string>tango</string>
+              <string>colibre_dark</string>
             </value>
           </item>
           <item displayName="$(string.breeze)">
@@ -463,9 +463,19 @@
               <string>breeze</string>
             </value>
           </item>
-          <item displayName="$(string.oxygen)">
+          <item displayName="$(string.breeze_dark)">
             <value>
-              <string>oxygen</string>
+              <string>breeze_dark</string>
+            </value>
+          </item>
+          <item displayName="$(string.elementary)">
+            <value>
+              <string>elementary</string>
+            </value>
+          </item>
+          <item displayName="$(string.karasa_jaga)">
+            <value>
+              <string>karasa_jaga</string>
             </value>
           </item>
           <item displayName="$(string.sifr)">
@@ -473,14 +483,19 @@
               <string>sifr</string>
             </value>
           </item>
-          <item displayName="$(string.galaxy)">
+          <item displayName="$(string.sifr_dark)">
             <value>
-              <string>galaxy</string>
+              <string>sifr_dark</string>
             </value>
           </item>
-          <item displayName="$(string.hicontrast)">
+          <item displayName="$(string.sukapura)">
             <value>
-              <string>hicontrast</string>
+              <string>sukapura</string>
+            </value>
+          </item>
+          <item displayName="$(string.sukapura_dark)">
+            <value>
+              <string>sukapura_dark</string>
             </value>
           </item>
         </enum>
