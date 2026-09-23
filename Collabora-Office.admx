@@ -1093,7 +1093,6 @@
     <policy name="FontPair_0" class="Both" displayName="$(string.name_FontPair_0)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse">
       <parentCategory ref="FontSubstitutions" />
       <supportedOn ref="supported_LibreOffice_4_2" />
-      <!-- ??? -->
       <elements>
         <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\Always" valueName="Value">
           <trueValue>
@@ -1113,13 +1112,53 @@
         </boolean>
         <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\ReplaceFont" valueName="Value" />
         <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\SubstituteFont" valueName="Value" />
-        <boolean id="Final" valueName="Final" />
+        <boolean id="Final" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\Always" valueName="Final">
+          <trueValue>
+            <decimal value="1" />
+          </trueValue>
+          <falseValue>
+            <decimal value="0" />
+          </falseValue>
+          <trueList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+          </trueList>
+          <falseList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_0/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+          </falseList>
+        </boolean>
       </elements>
     </policy>
     <policy name="FontPair_1" class="Both" displayName="$(string.name_FontPair_1)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse">
       <parentCategory ref="FontSubstitutions" />
       <supportedOn ref="supported_LibreOffice_4_2" />
-      <!-- ??? -->
       <elements>
         <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\Always" valueName="Value">
           <trueValue>
@@ -1139,13 +1178,53 @@
         </boolean>
         <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\ReplaceFont" valueName="Value" />
         <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\SubstituteFont" valueName="Value" />
-        <boolean id="Final" valueName="Final" />
+        <boolean id="Final" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\Always" valueName="Final">
+          <trueValue>
+            <decimal value="1" />
+          </trueValue>
+          <falseValue>
+            <decimal value="0" />
+          </falseValue>
+          <trueList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+          </trueList>
+          <falseList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_1/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+          </falseList>
+        </boolean>
       </elements>
     </policy>
     <policy name="FontPair_2" class="Both" displayName="$(string.name_FontPair_2)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse">
       <parentCategory ref="FontSubstitutions" />
       <supportedOn ref="supported_LibreOffice_4_2" />
-      <!-- ??? -->
       <elements>
         <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\Always" valueName="Value">
           <trueValue>
@@ -1165,13 +1244,53 @@
         </boolean>
         <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\ReplaceFont" valueName="Value" />
         <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\SubstituteFont" valueName="Value" />
-        <boolean id="Final" valueName="Final" />
+        <boolean id="Final" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\Always" valueName="Final">
+          <trueValue>
+            <decimal value="1" />
+          </trueValue>
+          <falseValue>
+            <decimal value="0" />
+          </falseValue>
+          <trueList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+          </trueList>
+          <falseList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_2/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+          </falseList>
+        </boolean>
       </elements>
     </policy>
     <policy name="FontPair_3" class="Both" displayName="$(string.name_FontPair_3)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse">
       <parentCategory ref="FontSubstitutions" />
       <supportedOn ref="supported_LibreOffice_4_2" />
-      <!-- ??? -->
       <elements>
         <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\Always" valueName="Value">
           <trueValue>
@@ -1191,13 +1310,53 @@
         </boolean>
         <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\ReplaceFont" valueName="Value" />
         <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\SubstituteFont" valueName="Value" />
-        <boolean id="Final" valueName="Final" />
+        <boolean id="Final" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\Always" valueName="Final">
+          <trueValue>
+            <decimal value="1" />
+          </trueValue>
+          <falseValue>
+            <decimal value="0" />
+          </falseValue>
+          <trueList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+          </trueList>
+          <falseList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_3/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+          </falseList>
+        </boolean>
       </elements>
     </policy>
     <policy name="FontPair_4" class="Both" displayName="$(string.name_FontPair_4)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse">
       <parentCategory ref="FontSubstitutions" />
       <supportedOn ref="supported_LibreOffice_4_2" />
-      <!-- ??? -->
       <elements>
         <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\Always" valueName="Value">
           <trueValue>
@@ -1217,13 +1376,53 @@
         </boolean>
         <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\ReplaceFont" valueName="Value" />
         <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\SubstituteFont" valueName="Value" />
-        <boolean id="Final" valueName="Final" />
+        <boolean id="Final" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\Always" valueName="Final">
+          <trueValue>
+            <decimal value="1" />
+          </trueValue>
+          <falseValue>
+            <decimal value="0" />
+          </falseValue>
+          <trueList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+          </trueList>
+          <falseList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_4/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+          </falseList>
+        </boolean>
       </elements>
     </policy>
     <policy name="FontPair_5" class="Both" displayName="$(string.name_FontPair_5)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse">
       <parentCategory ref="FontSubstitutions" />
       <supportedOn ref="supported_LibreOffice_4_2" />
-      <!-- ??? -->
       <elements>
         <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\Always" valueName="Value">
           <trueValue>
@@ -1243,13 +1442,53 @@
         </boolean>
         <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\ReplaceFont" valueName="Value" />
         <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\SubstituteFont" valueName="Value" />
-        <boolean id="Final" valueName="Final" />
+        <boolean id="Final" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\Always" valueName="Final">
+          <trueValue>
+            <decimal value="1" />
+          </trueValue>
+          <falseValue>
+            <decimal value="0" />
+          </falseValue>
+          <trueList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+          </trueList>
+          <falseList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_5/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+          </falseList>
+        </boolean>
       </elements>
     </policy>
     <policy name="FontPair_6" class="Both" displayName="$(string.name_FontPair_6)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse">
       <parentCategory ref="FontSubstitutions" />
       <supportedOn ref="supported_LibreOffice_4_2" />
-      <!-- ??? -->
       <elements>
         <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\Always" valueName="Value">
           <trueValue>
@@ -1269,13 +1508,53 @@
         </boolean>
         <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\ReplaceFont" valueName="Value" />
         <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\SubstituteFont" valueName="Value" />
-        <boolean id="Final" valueName="Final" />
+        <boolean id="Final" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\Always" valueName="Final">
+          <trueValue>
+            <decimal value="1" />
+          </trueValue>
+          <falseValue>
+            <decimal value="0" />
+          </falseValue>
+          <trueList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+          </trueList>
+          <falseList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_6/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+          </falseList>
+        </boolean>
       </elements>
     </policy>
     <policy name="FontPair_7" class="Both" displayName="$(string.name_FontPair_7)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse">
       <parentCategory ref="FontSubstitutions" />
       <supportedOn ref="supported_LibreOffice_4_2" />
-      <!-- ??? -->
       <elements>
         <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\Always" valueName="Value">
           <trueValue>
@@ -1295,13 +1574,53 @@
         </boolean>
         <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\ReplaceFont" valueName="Value" />
         <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\SubstituteFont" valueName="Value" />
-        <boolean id="Final" valueName="Final" />
+        <boolean id="Final" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\Always" valueName="Final">
+          <trueValue>
+            <decimal value="1" />
+          </trueValue>
+          <falseValue>
+            <decimal value="0" />
+          </falseValue>
+          <trueList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+          </trueList>
+          <falseList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_7/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+          </falseList>
+        </boolean>
       </elements>
     </policy>
     <policy name="FontPair_8" class="Both" displayName="$(string.name_FontPair_8)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse">
       <parentCategory ref="FontSubstitutions" />
       <supportedOn ref="supported_LibreOffice_4_2" />
-      <!-- ??? -->
       <elements>
         <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\Always" valueName="Value">
           <trueValue>
@@ -1321,13 +1640,53 @@
         </boolean>
         <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\ReplaceFont" valueName="Value" />
         <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\SubstituteFont" valueName="Value" />
-        <boolean id="Final" valueName="Final" />
+        <boolean id="Final" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\Always" valueName="Final">
+          <trueValue>
+            <decimal value="1" />
+          </trueValue>
+          <falseValue>
+            <decimal value="0" />
+          </falseValue>
+          <trueList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+          </trueList>
+          <falseList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_8/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+          </falseList>
+        </boolean>
       </elements>
     </policy>
     <policy name="FontPair_9" class="Both" displayName="$(string.name_FontPair_9)" explainText="$(string.desc_FontPair)" presentation="$(presentation.FontPair)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse">
       <parentCategory ref="FontSubstitutions" />
       <supportedOn ref="supported_LibreOffice_4_2" />
-      <!-- ??? -->
       <elements>
         <boolean id="Always" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\Always" valueName="Value">
           <trueValue>
@@ -1347,7 +1706,48 @@
         </boolean>
         <text id="ReplaceFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\ReplaceFont" valueName="Value" />
         <text id="SubstituteFont" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\SubstituteFont" valueName="Value" />
-        <boolean id="Final" valueName="Final" />
+        <boolean id="Final" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\Always" valueName="Final">
+          <trueValue>
+            <decimal value="1" />
+          </trueValue>
+          <falseValue>
+            <decimal value="0" />
+          </falseValue>
+          <trueList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="1" />
+              </value>
+            </item>
+          </trueList>
+          <falseList>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\OnScreenOnly" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\ReplaceFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+            <item key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Font\Substitution\FontPairs\_9/#fuse\SubstituteFont" valueName="Final">
+              <value>
+                <decimal value="0" />
+              </value>
+            </item>
+          </falseList>
+        </boolean>
       </elements>
     </policy>
     <policy name="SelectPDFExport" class="Both" displayName="$(string.name_SelectPDFExport)" explainText="$(string.desc_SelectPDFExport)" presentation="$(presentation.SelectPDFExport)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Filter\PDF\Export\SelectPdfVersion">
