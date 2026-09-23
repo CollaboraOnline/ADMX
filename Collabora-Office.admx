@@ -259,7 +259,7 @@
         <boolean id="Final" valueName="Final" />
         <decimal id="AutoSaveTimeIntervallValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Recovery\AutoSave\TimeIntervall" valueName="Value" minValue="1" maxValue="60" storeAsText="true" />
         <boolean id="AutoSaveTimeIntervallFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Recovery\AutoSave\TimeIntervall" valueName="Final" />
-        <boolean id="AutoSavePromptValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Save\Document\AutoSavePrompt" valueName="Value">
+        <boolean id="AutoSavePromptValue" key="Software\Policies\LibreOffice\org.openoffice.Office.Recovery\AutoSave\UserAutoSaveEnabled" valueName="Value">
           <trueValue>
             <string>true</string>
           </trueValue>
@@ -267,7 +267,7 @@
             <string>false</string>
           </falseValue>
         </boolean>
-        <boolean id="AutoSavePromptFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Save\Document\AutoSavePrompt" valueName="Final" />
+        <boolean id="AutoSavePromptFinal" key="Software\Policies\LibreOffice\org.openoffice.Office.Recovery\AutoSave\UserAutoSaveEnabled" valueName="Final" />
       </elements>
     </policy>
     <policy name="RecoveryInfo" class="Both" displayName="$(string.name_RecoveryInfo)" explainText="$(string.desc_RecoveryInfo)" presentation="$(presentation.RecoveryInfo)" key="Software\Policies\LibreOffice\org.openoffice.Office.Recovery\RecoveryInfo\Enabled">
