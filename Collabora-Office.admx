@@ -3040,7 +3040,7 @@
       <parentCategory ref="History" />
       <supportedOn ref="supported_LibreOffice_4_2" />
       <elements>
-        <decimal id="Value" valueName="Value" minValue="0" maxValue="1000" storeAsText="true" />
+        <decimal id="Value" valueName="Value" minValue="0" maxValue="100" storeAsText="true" />
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
