@@ -1,0 +1,8 @@
+[main]
+host = https://app.transifex.com
+
+[o:collabora-productivity-ltd:p:collabora-office-libreoffice-windows-group-policy-template-amdx:r:collabora-office-admlpot]
+file_filter = translations/<lang>.po
+source_file = en-US/Collabora-Office-adml.pot
+type = PO
+minimum_perc = 0

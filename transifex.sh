@@ -1,30 +1,33 @@
 #!/bin/bash
+#
+# Pull the translations from Transifex and merge them into the ADML files.
+#
+# Needs the Transifex CLI (https://developers.transifex.com/docs/cli), msgfmt
+# and itstool. The CLI reads the API token from ~/.transifexrc or from the
+# TX_TOKEN environment variable, see
+# https://developers.transifex.com/docs/cli#authentication
+# The project and the resource are configured in .tx/config.
 
-read -p "Enter Transifex user name: " user
-read -s -p "Password: " password
-url="https://www.transifex.com/api/2/project/collabora-office-libreoffice-windows-group-policy-template-amdx/resource/collabora-office-admlpot/translation"
-declare -a langs=("it" "hu" "fr" "es" "de" "pt_BR" "tr")
+set -e
+cd "$(dirname "$0")"
 
-for i in ${langs[@]}
+declare -a langs=("cs" "de" "es" "fr" "hu" "it" "pt_BR" "tr")
+
+tx pull --translations --force --languages "$(IFS=,; echo "${langs[*]}")"
+
+for i in "${langs[@]}"
 do
-	l10nUrl="$url/$i/?mode=default&file"
-	connectionResponse=$(curl -L --user $user:$password -X GET $l10nUrl);
-	if [ "Authorization Required" == "${connectionResponse}" ]; then
-		echo -e "\nERROR - $connectionResponse - ERROR\n"
-		exit 1
+	if [ "$i" = "pt_BR" ]; then
+		dir="pt-BR"
 	else
-		if [ $i = "pt_BR" ]; then
-			dir="pt-BR"
-		else
-			dir="$i-*"
-		fi
-		curl -L --user $user:$password -X GET $l10nUrl -o $i.po
-		msgfmt -cvo $i.mo $i.po
-		itstool -m $i.mo -o $dir en-US/Collabora-Office.adml
-		unix2dos $dir/Collabora-Office.adml
-		rm $i.po $i.mo
+		dir=$(echo "$i"-*)
 	fi
+	po="translations/$i.po"
+	msgfmt -cvo "$i.mo" "$po"
+	itstool -i adml.its -m "$i.mo" -o "$dir" en-US/Collabora-Office.adml
+	rm "$i.mo"
 done
+rm -rf translations
 
 patch -p1 << 'EOF'
 diff --git b/fr-FR/Collabora-Office.adml a/fr-FR/Collabora-Office.adml
