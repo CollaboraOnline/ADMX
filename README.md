@@ -3,7 +3,9 @@ Collabora Office / LibreOffice Windows Group Policy Template
 
 For more info visit https://www.collaboraoffice.com/windows-group-policy-admx/
 
-Pull requests are welcome. Please help with translations at [Transifex](https://www.transifex.com/collabora-productivity-ltd/collabora-office-libreoffice-windows-group-policy-template-amdx/).
+Pull requests are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md). Please help with translations at [Transifex](https://explore.transifex.com/collabora-productivity-ltd/collabora-office-libreoffice-windows-group-policy-template-amdx/).
+
+The template is licensed under [CC-BY-SA 4.0](LICENSE).
 
 ### caution! 
 When you add a "policy" in the admx file, add the corresponding "presentation" in all adml. Not just in your language.
@@ -17,7 +19,7 @@ File Path\to\something.admx, line xxx, column xxx
 
 Create the pot from the adml file:
 
-    itstool -o Collabora-Office-adml.pot Collabora-Office.adml
+    itstool -i adml.its -o en-US/Collabora-Office-adml.pot en-US/Collabora-Office.adml
 
 Merge the translated strings to the adml file:
 
