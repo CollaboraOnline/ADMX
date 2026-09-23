@@ -574,6 +574,16 @@ Ha az LDAP-ból való beolvasás van beállítva, akkor az érték a megszólít
 Ha az LDAP-ból való beolvasás van beállítva, akkor az érték a beosztást tartalmazó LDAP-attribútum; az LDAP-konfigurációs háttérprogram beállításai határozzák meg, hogyan kell csatlakozni az LDAP-kiszolgálóhoz.
 
 Megjegyzés: a „Windowsból” beállítás üresen hagyja ezt a mezőt, mert a Windows háttérprogram soha nem tölti ki.</string>
+      <string id="category_Paths">Útvonalak</string>
+      <string id="name_AutoCorrect">Automatikus javítás fájlok útvonala</string>
+      <string id="name_AutoText">Szövegblokk fájlok útvonala</string>
+      <string id="name_Dictionary">Szótár fájlok útvonala</string>
+      <string id="name_Gallery">Galéria fájlok útvonala</string>
+      <string id="name_Templates">Sablon fájlok útvonala</string>
+      <string id="name_MyDocuments">Dokumentumok mappa útvonala</string>
+      <string id="name_Graphic">Kép fájlok útvonala</string>
+      <string id="name_Backup">Másolat fájlok útvonala</string>
+      <string id="name_Temp">Ideiglenes fájlok útvonala</string>
 
 
       <string id="category_Passwords">Passwords</string>
@@ -945,6 +955,108 @@ For example, the following policy requires at least eight characters, including 
       <presentation id="WarnAlienFormat">
         <checkBox refId="Value">Figyelmeztesse a felhasználót az ODF-től vagy az alapértelmezettől eltérő formátumban mentéskor.</checkBox>
         <checkBox refId="Final">Végleges</checkBox>
+      </presentation>
+      <presentation id="AutoCorrect">
+        <text>Az automatikus javítás fájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <textBox refId="WritePathValue">
+          <label>Útvonal:</label>
+          <defaultValue>$(user)/autocorr</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Végleges</checkBox>
+        <text>Automatikus javítás fájlok UserPath-jai</text>
+        <textBox refId="UserPathsValue">
+          <label>Útvonallista:</label>
+          <defaultValue>$(inst)/share/autocorr $(user)/autocorr</defaultValue>
+        </textBox>
+        <checkBox refId="UserPathsFinal">Végleges</checkBox>
+      </presentation>
+      <presentation id="AutoText">
+        <text>A szövegblokk fájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <textBox refId="WritePathValue">
+          <label>Útvonal:</label>
+          <defaultValue>$(user)/autotext</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Végleges</checkBox>
+        <text>Szövegblokk fájlok UserPath-jai</text>
+        <textBox refId="UserPathsValue">
+          <label>Útvonallista:</label>
+          <defaultValue>$(inst)/share/autotext/$(vlang) $(user)/autotext</defaultValue>
+        </textBox>
+        <checkBox refId="UserPathsFinal">Végleges</checkBox>
+      </presentation>
+      <presentation id="Dictionary">
+        <text>A szótárfájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <textBox refId="WritePathValue">
+          <label>Útvonal:</label>
+          <defaultValue>$(user)/wordbook</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Végleges</checkBox>
+        <text>Szótár fájlok UserPath-jai</text>
+        <textBox refId="UserPathsValue">
+          <label>Útvonallista:</label>
+          <defaultValue>$(inst)/share/wordbook $(inst)/share/wordbook/$(vlang) $(user)/wordbook</defaultValue>
+        </textBox>
+        <checkBox refId="UserPathsFinal">Végleges</checkBox>
+      </presentation>
+      <presentation id="Gallery">
+        <text>A galéria fájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <textBox refId="WritePathValue">
+          <label>Útvonal:</label>
+          <defaultValue>$(user)/gallery</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Végleges</checkBox>
+        <text>Galéria fájlok UserPath-jai</text>
+        <textBox refId="UserPathsValue">
+          <label>Útvonallista:</label>
+          <defaultValue>$(inst)/share/gallery $(user)/gallery</defaultValue>
+        </textBox>
+        <checkBox refId="UserPathsFinal">Végleges</checkBox>
+      </presentation>
+      <presentation id="Templates">
+        <text>A sablon fájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <textBox refId="WritePathValue">
+          <label>Útvonal:</label>
+          <defaultValue>$(user)/template</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Végleges</checkBox>
+        <text>Sablon fájlok UserPath-jai</text>
+        <textBox refId="UserPathsValue">
+          <label>Útvonallista:</label>
+          <defaultValue>$(user)/template</defaultValue>
+        </textBox>
+        <checkBox refId="UserPathsFinal">Végleges</checkBox>
+      </presentation>
+      <presentation id="MyDocuments">
+        <text>A Dokumentumok mappa helye.</text>
+        <textBox refId="WritePathValue">
+          <label>Útvonal:</label>
+          <defaultValue>$(work)</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Végleges</checkBox>
+      </presentation>
+      <presentation id="Graphic">
+        <text>A képfájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <textBox refId="WritePathValue">
+          <label>Útvonal:</label>
+          <defaultValue>$(user)/gallery</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Végleges</checkBox>
+      </presentation>
+      <presentation id="Backup">
+        <text>A biztonsági mentés fájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <textBox refId="WritePathValue">
+          <label>Útvonal:</label>
+          <defaultValue>$(user)/backup</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Végleges</checkBox>
+      </presentation>
+      <presentation id="Temp">
+        <text>A biztonsági mentés fájlok WritePath-ja. Az új felhasználói fájlok ide kerülnek kiírásra.</text>
+        <textBox refId="WritePathValue">
+          <label>Útvonal:</label>
+          <defaultValue>$(temp)</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Végleges</checkBox>
       </presentation>
       <presentation id="UseSystemFileDialog">
         <checkBox refId="Value">A rendszer fájl párbeszédablakának használata</checkBox>
