@@ -22,6 +22,9 @@
       <definition name="supported_LibreOffice_6_4" displayName="$(string.supported_LibreOffice_6_4)" />
       <definition name="supported_LibreOffice_7_0" displayName="$(string.supported_LibreOffice_7_0)" />
       <definition name="supported_CO_24_04_11" displayName="$(string.supported_CO_24_04_11)" />
+      <definition name="supported_CO_22_05" displayName="$(string.supported_CO_22_05)" />
+      <definition name="supported_CO_24_04" displayName="$(string.supported_CO_24_04)" />
+      <definition name="supported_CO_25_04" displayName="$(string.supported_CO_25_04)" />
     </definitions>
   </supportedOn>
   <categories>
@@ -6205,6 +6208,344 @@
           </trueValue>
           <falseValue>
             <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="ProxyType" class="Both" displayName="$(string.name_ProxyType)" explainText="$(string.desc_ProxyType)" presentation="$(presentation.ProxyType)" key="Software\Policies\LibreOffice\org.openoffice.Inet\Settings\ooInetProxyType">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <enum id="Value" valueName="Value">
+          <item displayName="$(string.proxy_none)">
+            <value>
+              <string>0</string>
+            </value>
+          </item>
+          <item displayName="$(string.proxy_system)">
+            <value>
+              <string>1</string>
+            </value>
+          </item>
+          <item displayName="$(string.proxy_manual)">
+            <value>
+              <string>2</string>
+            </value>
+          </item>
+        </enum>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="AllowInsecureProtocols" class="Both" displayName="$(string.name_AllowInsecureProtocols)" explainText="$(string.desc_AllowInsecureProtocols)" presentation="$(presentation.AllowInsecureProtocols)" key="Software\Policies\LibreOffice\org.openoffice.Office.Security\Net\AllowInsecureProtocols">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_CO_24_04" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="DisableActiveContent" class="Both" displayName="$(string.name_DisableActiveContent)" explainText="$(string.desc_DisableActiveContent)" presentation="$(presentation.DisableActiveContent)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\DisableActiveContent">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_CO_24_04" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="DisableOLEAutomation" class="Both" displayName="$(string.name_DisableOLEAutomation)" explainText="$(string.desc_DisableOLEAutomation)" presentation="$(presentation.DisableOLEAutomation)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\DisableOLEAutomation">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_CO_25_04" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="DisablePythonRuntime" class="Both" displayName="$(string.name_DisablePythonRuntime)" explainText="$(string.desc_DisablePythonRuntime)" presentation="$(presentation.DisablePythonRuntime)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\DisablePythonRuntime">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_CO_25_04" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="AllowedDocumentEventURLs" class="Both" displayName="$(string.name_AllowedDocumentEventURLs)" explainText="$(string.desc_AllowedDocumentEventURLs)" presentation="$(presentation.AllowedDocumentEventURLs)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\AllowedDocumentEventURLs">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_CO_22_05" />
+      <elements>
+        <text id="Value" valueName="Value" />
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="LoadExoticFileFormats" class="Both" displayName="$(string.name_LoadExoticFileFormats)" explainText="$(string.desc_LoadExoticFileFormats)" presentation="$(presentation.LoadExoticFileFormats)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\LoadExoticFileFormats">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
+      <elements>
+        <enum id="Value" valueName="Value">
+          <item displayName="$(string.exotic_refuse)">
+            <value>
+              <string>0</string>
+            </value>
+          </item>
+          <item displayName="$(string.exotic_ask)">
+            <value>
+              <string>1</string>
+            </value>
+          </item>
+          <item displayName="$(string.exotic_load)">
+            <value>
+              <string>2</string>
+            </value>
+          </item>
+        </enum>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="TSAURLs" class="Both" displayName="$(string.name_TSAURLs)" explainText="$(string.desc_TSAURLs)" presentation="$(presentation.TSAURLs)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\TSAURLs">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_LibreOffice_5_0" />
+      <elements>
+        <text id="Value" valueName="Value" />
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PasswordPolicy" class="Both" displayName="$(string.name_PasswordPolicy)" explainText="$(string.desc_PasswordPolicy)" presentation="$(presentation.PasswordPolicy)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\PasswordPolicy">
+      <parentCategory ref="Security" />
+      <supportedOn ref="supported_CO_24_04" />
+      <elements>
+        <text id="Value" valueName="Value" />
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PasswordUseStorage" class="Both" displayName="$(string.name_PasswordUseStorage)" explainText="$(string.desc_PasswordUseStorage)" presentation="$(presentation.PasswordUseStorage)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Passwords\UseStorage">
+      <parentCategory ref="Passwords" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="AuthenticateUsingSystemCredentials" class="Both" displayName="$(string.name_AuthenticateUsingSystemCredentials)" explainText="$(string.desc_AuthenticateUsingSystemCredentials)" presentation="$(presentation.AuthenticateUsingSystemCredentials)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Passwords\AuthenticateUsingSystemCredentials">
+      <parentCategory ref="Passwords" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <text id="Value" valueName="Value" />
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="CalcUpdateLink" class="Both" displayName="$(string.name_CalcUpdateLink)" explainText="$(string.desc_CalcUpdateLink)" presentation="$(presentation.CalcUpdateLink)" key="Software\Policies\LibreOffice\org.openoffice.Office.Calc\Content\Update\Link">
+      <parentCategory ref="Calc" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <enum id="Value" valueName="Value">
+          <item displayName="$(string.link_always)">
+            <value>
+              <string>0</string>
+            </value>
+          </item>
+          <item displayName="$(string.link_never)">
+            <value>
+              <string>1</string>
+            </value>
+          </item>
+          <item displayName="$(string.link_onrequest)">
+            <value>
+              <string>2</string>
+            </value>
+          </item>
+        </enum>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="WriterUpdateLink" class="Both" displayName="$(string.name_WriterUpdateLink)" explainText="$(string.desc_WriterUpdateLink)" presentation="$(presentation.WriterUpdateLink)" key="Software\Policies\LibreOffice\org.openoffice.Office.Writer\Content\Update\Link">
+      <parentCategory ref="Writer" />
+      <supportedOn ref="supported_LibreOffice_4_2" />
+      <elements>
+        <enum id="Value" valueName="Value">
+          <item displayName="$(string.link_never)">
+            <value>
+              <string>0</string>
+            </value>
+          </item>
+          <item displayName="$(string.link_onrequest)">
+            <value>
+              <string>1</string>
+            </value>
+          </item>
+          <item displayName="$(string.link_always)">
+            <value>
+              <string>2</string>
+            </value>
+          </item>
+        </enum>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="EPUB" class="Both" displayName="$(string.name_EPUB)" explainText="$(string.desc_EPUB)" presentation="$(presentation.EPUB)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['EPUB']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="Microsoft_Multiplan" class="Both" displayName="$(string.name_Microsoft_Multiplan)" explainText="$(string.desc_Microsoft_Multiplan)" presentation="$(presentation.Microsoft_Multiplan)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['Microsoft Multiplan']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="PocketWord_File" class="Both" displayName="$(string.name_PocketWord_File)" explainText="$(string.desc_PocketWord_File)" presentation="$(presentation.PocketWord_File)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['PocketWord File']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="writer_globaldocument_StarOffice_XML_Writer" class="Both" displayName="$(string.name_writer_globaldocument_StarOffice_XML_Writer)" explainText="$(string.desc_writer_globaldocument_StarOffice_XML_Writer)" presentation="$(presentation.writer_globaldocument_StarOffice_XML_Writer)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['writer_globaldocument_StarOffice_XML_Writer']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="writer_web_StarOffice_XML_Writer" class="Both" displayName="$(string.name_writer_web_StarOffice_XML_Writer)" explainText="$(string.desc_writer_web_StarOffice_XML_Writer)" presentation="$(presentation.writer_web_StarOffice_XML_Writer)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['writer_web_StarOffice_XML_Writer']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="XHTML_Calc_File" class="Both" displayName="$(string.name_XHTML_Calc_File)" explainText="$(string.desc_XHTML_Calc_File)" presentation="$(presentation.XHTML_Calc_File)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['XHTML Calc File']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="XHTML_Draw_File" class="Both" displayName="$(string.name_XHTML_Draw_File)" explainText="$(string.desc_XHTML_Draw_File)" presentation="$(presentation.XHTML_Draw_File)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['XHTML Draw File']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="XHTML_Impress_File" class="Both" displayName="$(string.name_XHTML_Impress_File)" explainText="$(string.desc_XHTML_Impress_File)" presentation="$(presentation.XHTML_Impress_File)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['XHTML Impress File']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="XHTML_Writer_File" class="Both" displayName="$(string.name_XHTML_Writer_File)" explainText="$(string.desc_XHTML_Writer_File)" presentation="$(presentation.XHTML_Writer_File)" key="Software\Policies\LibreOffice\org.openoffice.TypeDetection.Filter\Filters\org.openoffice.TypeDetection.Filter:Filter['XHTML Writer File']\Enabled">
+      <parentCategory ref="Filters" />
+      <supportedOn ref="supported_LibreOffice_6_4" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
           </falseValue>
         </boolean>
         <boolean id="Final" valueName="Final" />

@@ -782,6 +782,76 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
       <string id="pdf_PDF_1_4">PDF 1.4 (LibreOffice until 6.1)</string>
       <string id="pdf_PDF_1_5">PDF 1.5 (LibreOffice since 6.1)</string>
       <string id="pdf_PDF_1_6">PDF 1.6 (LibreOffice since 7.0)</string>
+
+      <string id="supported_CO_22_05">Collabora Office 22.05 or higher</string>
+      <string id="supported_CO_24_04">Collabora Office 24.04 or higher</string>
+      <string id="supported_CO_25_04">Collabora Office 25.04 or higher</string>
+
+      <string id="proxy_none">None</string>
+      <string id="proxy_system">System</string>
+      <string id="proxy_manual">Manual</string>
+      <string id="exotic_refuse">Refuse to load</string>
+      <string id="exotic_ask">Ask the user</string>
+      <string id="exotic_load">Always load</string>
+      <string id="link_always">Always</string>
+      <string id="link_never">Never</string>
+      <string id="link_onrequest">On request</string>
+      <string id="name_ProxyType">Proxy configuration</string>
+      <string id="desc_ProxyType">Specifies how the proxy server for network connections is selected.
+
+None: connect directly, without a proxy.
+System: use the proxy settings of the operating system.
+Manual: use the proxy servers specified in the application settings.</string>
+      <string id="name_AllowInsecureProtocols">Allow insecure network protocols</string>
+      <string id="desc_AllowInsecureProtocols">Specifies whether unencrypted network protocols such as HTTP, SMTP and FTP may be used. If disabled, only encrypted connections are made.</string>
+      <string id="name_DisableActiveContent">Disable active content</string>
+      <string id="desc_DisableActiveContent">Specifies whether active content in documents is disabled. If enabled, embedded OLE objects are not activated and DDE links are not updated.</string>
+      <string id="name_DisableOLEAutomation">Disable OLE Automation</string>
+      <string id="desc_DisableOLEAutomation">Specifies whether the OLE Automation interface is disabled. If enabled, other applications cannot control Collabora Office through OLE Automation.</string>
+      <string id="name_DisablePythonRuntime">Disable the Python runtime</string>
+      <string id="desc_DisablePythonRuntime">Specifies whether the Python runtime is disabled. If enabled, macros, scripts and extensions written in Python do not work.</string>
+      <string id="name_AllowedDocumentEventURLs">Macros allowed to run from document events</string>
+      <string id="desc_AllowedDocumentEventURLs">List of script URLs that document events (for example opening a document) are allowed to call. An entry can be a full script URL, the beginning of one, or a regular expression, for example:
+    vnd.sun.star.script:Standard.Module1.Main?language=Basic&amp;location=user
+    vnd.sun.star.script:Standard.Module1
+    .*location=application.*
+
+Separate the entries with spaces. If this policy is not set, all document event URLs are allowed.</string>
+      <string id="name_LoadExoticFileFormats">Loading of rarely used file formats</string>
+      <string id="desc_LoadExoticFileFormats">Specifies how files in rarely used legacy formats are handled when they are opened.</string>
+      <string id="name_TSAURLs">Time stamping authority URLs</string>
+      <string id="desc_TSAURLs">List of Time Stamping Authority (TSA) servers that can be selected when signing a PDF export. Separate the URLs with spaces.</string>
+      <string id="name_PasswordPolicy">Password policy</string>
+      <string id="desc_PasswordPolicy">Regular expression that a password must match when the user sets a password to protect or encrypt a document. A password that does not match is refused.
+
+For example, the following policy requires at least eight characters, including at least one uppercase letter, one lowercase letter and one digit:
+    ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$</string>
+      <string id="name_PasswordUseStorage">Save passwords persistently</string>
+      <string id="desc_PasswordUseStorage">Specifies whether passwords for web connections can be saved persistently in the user profile.</string>
+      <string id="name_AuthenticateUsingSystemCredentials">URLs accessed with system credentials</string>
+      <string id="desc_AuthenticateUsingSystemCredentials">List of URLs that are accessed with the system credentials of the user. Separate the URLs with spaces.</string>
+      <string id="name_CalcUpdateLink">Update links when loading</string>
+      <string id="desc_CalcUpdateLink">Specifies whether links to external data in spreadsheets are updated when a document is loaded.</string>
+      <string id="name_WriterUpdateLink">Update links when loading</string>
+      <string id="desc_WriterUpdateLink">Specifies whether links to other documents in text documents are updated when a document is loaded.</string>
+      <string id="name_EPUB">EPUB Document</string>
+      <string id="desc_EPUB">Disable the export filter for EPUB Document file format.</string>
+      <string id="name_Microsoft_Multiplan">Microsoft Multiplan</string>
+      <string id="desc_Microsoft_Multiplan">Disable the import filter for Microsoft Multiplan file format.</string>
+      <string id="name_PocketWord_File">Pocket Word</string>
+      <string id="desc_PocketWord_File">Disable the import filter for Pocket Word file format.</string>
+      <string id="name_writer_globaldocument_StarOffice_XML_Writer">OpenOffice.org 1.0 Text Document (from Master Document)</string>
+      <string id="desc_writer_globaldocument_StarOffice_XML_Writer">Disable the filter that saves master documents in OpenOffice.org 1.0 Text Document file format.</string>
+      <string id="name_writer_web_StarOffice_XML_Writer">OpenOffice.org 1.0 Text Document (from HTML Document)</string>
+      <string id="desc_writer_web_StarOffice_XML_Writer">Disable the filter that saves HTML documents in OpenOffice.org 1.0 Text Document file format.</string>
+      <string id="name_XHTML_Calc_File">XHTML (Calc)</string>
+      <string id="desc_XHTML_Calc_File">Disable the export filter for XHTML (Calc) file format.</string>
+      <string id="name_XHTML_Draw_File">XHTML (Draw)</string>
+      <string id="desc_XHTML_Draw_File">Disable the export filter for XHTML (Draw) file format.</string>
+      <string id="name_XHTML_Impress_File">XHTML (Impress)</string>
+      <string id="desc_XHTML_Impress_File">Disable the export filter for XHTML (Impress) file format.</string>
+      <string id="name_XHTML_Writer_File">XHTML (Writer)</string>
+      <string id="desc_XHTML_Writer_File">Disable the export filter for XHTML (Writer) file format.</string>
     </stringTable>
     <presentationTable>
       <presentation id="LDAPConfigBackendSettings">
@@ -2148,6 +2218,102 @@ Las rutas en listas de rutas se deben separar con espacios.</string>
         <textBox refId="WordCompletionMinWordLenValue">
           <label>Min Words: </label>
         </textBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="ProxyType">
+        <dropdownList refId="Value" defaultItem="1">Proxy configuration: </dropdownList>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="AllowInsecureProtocols">
+        <checkBox refId="Value" defaultItem="1">Allow insecure network protocols</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="DisableActiveContent">
+        <checkBox refId="Value" defaultItem="0">Disable active content</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="DisableOLEAutomation">
+        <checkBox refId="Value" defaultItem="0">Disable OLE Automation</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="DisablePythonRuntime">
+        <checkBox refId="Value" defaultItem="0">Disable the Python runtime</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="AllowedDocumentEventURLs">
+        <textBox refId="Value">
+          <label>Script URL list: </label>
+        </textBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="LoadExoticFileFormats">
+        <dropdownList refId="Value" defaultItem="0">Rarely used file formats: </dropdownList>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="TSAURLs">
+        <textBox refId="Value">
+          <label>TSA URL list: </label>
+        </textBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="PasswordPolicy">
+        <textBox refId="Value">
+          <label>Regular expression: </label>
+        </textBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="PasswordUseStorage">
+        <checkBox refId="Value" defaultItem="0">Save passwords persistently</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="AuthenticateUsingSystemCredentials">
+        <textBox refId="Value">
+          <label>URL list: </label>
+        </textBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="CalcUpdateLink">
+        <dropdownList refId="Value" defaultItem="2">Update links: </dropdownList>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="WriterUpdateLink">
+        <dropdownList refId="Value" defaultItem="1">Update links: </dropdownList>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="EPUB">
+        <checkBox refId="Value">Disable EPUB Document</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="Microsoft_Multiplan">
+        <checkBox refId="Value">Disable Microsoft Multiplan</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="PocketWord_File">
+        <checkBox refId="Value">Disable Pocket Word</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="writer_globaldocument_StarOffice_XML_Writer">
+        <checkBox refId="Value">Disable OpenOffice.org 1.0 Text Document (from Master Document)</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="writer_web_StarOffice_XML_Writer">
+        <checkBox refId="Value">Disable OpenOffice.org 1.0 Text Document (from HTML Document)</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="XHTML_Calc_File">
+        <checkBox refId="Value">Disable XHTML (Calc)</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="XHTML_Draw_File">
+        <checkBox refId="Value">Disable XHTML (Draw)</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="XHTML_Impress_File">
+        <checkBox refId="Value">Disable XHTML (Impress)</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="XHTML_Writer_File">
+        <checkBox refId="Value">Disable XHTML (Writer)</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
     </presentationTable>
