@@ -2849,7 +2849,7 @@
           </item>
           <item displayName="$(string.rtf)">
             <value>
-              <string>RTF</string>
+              <string>Rich Text Format</string>
             </value>
           </item>
         </enum>
