@@ -7,7 +7,25 @@ Pull requests are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md). Please help w
 
 The template is licensed under [CC-BY-SA 4.0](LICENSE).
 
-### caution! 
+## Installation
+
+Copy `Collabora-Office.admx` into the `PolicyDefinitions` folder, and each
+`<language>/Collabora-Office.adml` into the matching language subfolder, for
+example `PolicyDefinitions\en-US`. For a domain, use the central store
+`\\<domain>\SYSVOL\<domain>\Policies\PolicyDefinitions`; for a single
+computer, `C:\Windows\PolicyDefinitions`.
+
+Download the files themselves, either with the green "Code" button -
+"Download ZIP", or by opening a file on GitHub and clicking "Download raw
+file". Saving a file with "Save link as..." from the GitHub file list saves
+the HTML web page instead, and the Group Policy Management Console then
+fails with "DTD is prohibited". The `.admx` and `.adml` files must start with
+`<?xml version="1.0" encoding="utf-8"?>`.
+
+## Notes for contributors
+See also [CONTRIBUTING.md](CONTRIBUTING.md).
+
+### caution!
 When you add a "policy" in the admx file, add the corresponding "presentation" in all adml. Not just in your language.
 Otherwise, this causes the following error for users of these adml files:
 
