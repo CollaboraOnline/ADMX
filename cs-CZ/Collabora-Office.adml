@@ -594,6 +594,8 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
       <string id="desc_ForceSkia">Specifies if Skia rendering should be used in VCL backends supporting it. This one forces the use of Skia even if the blacklist would block the Skia driver.</string>
       <string id="name_ForceSkiaRaster">Force Skia Raster</string>
       <string id="desc_ForceSkiaRaster">Specifies if Skia Raster rendering should be used in VCL backends supporting it. This one forces the use of Skia Raster even if the blacklist would block the Skia driver.</string>
+      <string id="name_ForceSkiaGPU">Force Skia GPU</string>
+      <string id="desc_ForceSkiaGPU">Specifies if Skia hardware acceleration should be used in VCL backends supporting it. This one forces the use of Skia hardware acceleration instead of Skia software rendering. This setting only takes effect in LibreOffice.</string>
 
       <string id="category_UserInterface">User Interface</string>
       <string id="name_ToolbarModeWriter">User interface of Writer</string>
@@ -803,6 +805,7 @@ Set paths in path lists have to be separated by spaces.</string>
       <string id="supported_CO_22_05">Collabora Office 22.05 or higher</string>
       <string id="supported_CO_24_04">Collabora Office 24.04 or higher</string>
       <string id="supported_CO_25_04">Collabora Office 25.04 or higher</string>
+      <string id="supported_LibreOffice_26_8">LibreOffice 26.8 or higher</string>
 
       <string id="proxy_none">None</string>
       <string id="proxy_system">System</string>
@@ -2101,6 +2104,10 @@ For example, the following policy requires at least eight characters, including 
       <presentation id="ForceSkiaRaster">
         <checkBox refId="Value">Force Skia Raster even if blacklisted</checkBox>
         <checkBox refId="Final">Konečné</checkBox>
+      </presentation>
+      <presentation id="ForceSkiaGPU">
+        <checkBox refId="Value">Force Skia hardware acceleration</checkBox>
+        <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="ConvertToGreyscales">
         <checkBox refId="Value">Převést barvy na stupně šedé</checkBox>
