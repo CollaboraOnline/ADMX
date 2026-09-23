@@ -554,15 +554,15 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
       <string id="UPMail">E-mail address</string>
       <string id="desc_UPMail">E-mail address
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+When it is set to take from LDAP, then its value is LDAP attribute holding e-mail address; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
       <string id="UPTitle">Title</string>
       <string id="desc_UPTitle">Title
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+When it is set to take from LDAP, then its value is LDAP attribute holding title; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.</string>
       <string id="UPPosition">Position</string>
       <string id="desc_UPPosition">Position
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.
+When it is set to take from LDAP, then its value is LDAP attribute holding position; LDAP configuration backend settings determine how to connect to LDAP server. Taking the value from LDAP only works in Collabora Office Classic and LibreOffice.
 
 Note: "From Windows" leaves this field empty, as the Windows backend never fills it.</string>
 
@@ -999,11 +999,11 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="UPTelephone">
         <textBox refId="HomePhoneValue">
-          <label>Phone (home):</label>
+          <label>Phone (home): </label>
         </textBox>
         <dropdownList refId="HomePhoneFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="TelephoneValue">
-          <label>Phone (work):</label>
+          <label>Phone (work): </label>
         </textBox>
         <dropdownList refId="TelephoneFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
         <textBox refId="FaxValue">
@@ -1013,19 +1013,19 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="UPMail">
         <textBox refId="MailValue">
-          <label>E-mail address:</label>
+          <label>E-mail address: </label>
         </textBox>
         <dropdownList refId="MailFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>
       <presentation id="UPTitle">
         <textBox refId="TitleValue">
-          <label>Title:</label>
+          <label>Title: </label>
         </textBox>
         <dropdownList refId="TitleFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>
       <presentation id="UPPosition">
         <textBox refId="PositionValue">
-          <label>Position:</label>
+          <label>Position: </label>
         </textBox>
         <dropdownList refId="PositionFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>

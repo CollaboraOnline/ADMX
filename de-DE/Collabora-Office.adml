@@ -552,15 +552,17 @@ Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige W
       <string id="UPMail">E-Mail-Adresse</string>
       <string id="desc_UPMail">E-Mail-Adresse
 
-Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige Wert das LDAP-Attribut. Die LDAP-Backend-Konfiguration legt fest, wie die Verbindung zum LDAP-Server aufgebaut wird.</string>
+Wenn 'Aus LDAP' eingestellt ist, bestimmt dieser Wert das LDAP-Attribut, welches die E-Mail-Adresse hält. Die LDAP-Backend-Konfiguration legt fest, wie die Verbindung zum LDAP-Server aufgebaut wird.</string>
       <string id="UPTitle">Titel</string>
       <string id="desc_UPTitle">Titel
 
-Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige Wert das LDAP-Attribut. Die LDAP-Backend-Konfiguration legt fest, wie die Verbindung zum LDAP-Server aufgebaut wird.</string>
+Wenn 'Aus LDAP' eingestellt ist, bestimmt dieser Wert das LDAP-Attribut, welches den Titel hält. Die LDAP-Backend-Konfiguration legt fest, wie die Verbindung zum LDAP-Server aufgebaut wird.</string>
       <string id="UPPosition">Position</string>
       <string id="desc_UPPosition">Position
 
-Wenn für einen Bestandteil 'Aus LDAP' eingestellt ist, bestimmt der jeweilige Wert das LDAP-Attribut. Die LDAP-Backend-Konfiguration legt fest, wie die Verbindung zum LDAP-Server aufgebaut wird.</string>
+Wenn 'Aus LDAP' eingestellt ist, bestimmt dieser Wert das LDAP-Attribut, welches die Position hält. Die LDAP-Backend-Konfiguration legt fest, wie die Verbindung zum LDAP-Server aufgebaut wird.
+
+Hinweis: 'Aus Windows' lässt dieses Feld leer, da das Windows-Backend es nie befüllt.</string>
 
 
       <string id="category_Passwords">Passwörter</string>

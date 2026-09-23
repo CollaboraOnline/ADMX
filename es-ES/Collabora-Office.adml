@@ -551,15 +551,17 @@ Cuando algúno se configura para utilizar LDAP su valor es el atributo LDAP que 
       <string id="UPMail">Dirección de correo electrónico</string>
       <string id="desc_UPMail">Dirección de correo electrónico
 
-Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene la dirección; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.</string>
+Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene la dirección de correo electrónico; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.</string>
       <string id="UPTitle">Título</string>
       <string id="desc_UPTitle">Título
 
-Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene la dirección; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.</string>
+Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene el título; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.</string>
       <string id="UPPosition">Cargo</string>
       <string id="desc_UPPosition">Cargo
 
-Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene la dirección; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.</string>
+Cuando se configura para utilizar LDAP su valor es el atributo LDAP que contiene el cargo; La configuración de la infraestructura LDAP determina como conectar con el servidor LDAP.
+
+Nota: «Desde Windows» deja este campo vacío, ya que la infraestructura de Windows nunca lo rellena.</string>
 
 
       <string id="category_Passwords">Contraseñas</string>

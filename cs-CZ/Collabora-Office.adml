@@ -551,15 +551,17 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
       <string id="UPMail">E-mailová adresa</string>
       <string id="desc_UPMail">E-mailová adresa
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+When it is set to take from LDAP, then its value is LDAP attribute holding e-mail address; LDAP configuration backend settings determine how to connect to LDAP server.</string>
       <string id="UPTitle">Titul</string>
       <string id="desc_UPTitle">Titul
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+When it is set to take from LDAP, then its value is LDAP attribute holding title; LDAP configuration backend settings determine how to connect to LDAP server.</string>
       <string id="UPPosition">Pozice</string>
       <string id="desc_UPPosition">Pozice
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+When it is set to take from LDAP, then its value is LDAP attribute holding position; LDAP configuration backend settings determine how to connect to LDAP server.
+
+Note: "Z Windows" leaves this field empty, as the Windows backend never fills it.</string>
 
 
       <string id="category_Passwords">Hesla</string>

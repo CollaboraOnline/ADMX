@@ -554,15 +554,15 @@ Si une partie est défini comme provenant LDAP, alors sa valeur est un attribut 
       <string id="UPMail">Adresse électronique</string>
       <string id="desc_UPMail">Adresse électronique
 
-Si une partie est défini comme provenant LDAP, alors sa valeur est un attribut LDAP; les paramètres de configuration du backend LDAP déterminent comment se connecter au serveur LDAP.</string>
+S'il est défini comme provenant de LDAP, alors sa valeur est l'attribut LDAP contenant l'adresse électronique; les paramètres de configuration du backend LDAP déterminent comment se connecter au serveur LDAP.</string>
       <string id="UPTitle">Titre</string>
       <string id="desc_UPTitle">Titre
 
-Si une partie est défini comme provenant LDAP, alors sa valeur est un attribut LDAP; les paramètres de configuration du backend LDAP déterminent comment se connecter au serveur LDAP.</string>
+S'il est défini comme provenant de LDAP, alors sa valeur est l'attribut LDAP contenant le titre; les paramètres de configuration du backend LDAP déterminent comment se connecter au serveur LDAP.</string>
       <string id="UPPosition">Fonction</string>
       <string id="desc_UPPosition">Fonction
 
-Si une partie est défini comme provenant LDAP, alors sa valeur est un attribut LDAP; les paramètres de configuration du backend LDAP déterminent comment se connecter au serveur LDAP.
+S'il est défini comme provenant de LDAP, alors sa valeur est l'attribut LDAP contenant la fonction; les paramètres de configuration du backend LDAP déterminent comment se connecter au serveur LDAP.
 
 Note : « De Windows » laisse ce champ vide, le connecteur Windows ne l'alimente jamais.</string>
 

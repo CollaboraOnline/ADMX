@@ -552,15 +552,17 @@ When any part is set to take from LDAP, then its value is LDAP attribute; LDAP c
       <string id="UPMail">E-mail cím</string>
       <string id="desc_UPMail">E-mail cím
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
-      <string id="UPTitle">Cím</string>
-      <string id="desc_UPTitle">Cím
+Ha az LDAP-ból való beolvasás van beállítva, akkor az érték az e-mail címet tartalmazó LDAP-attribútum; az LDAP-konfigurációs háttérprogram beállításai határozzák meg, hogyan kell csatlakozni az LDAP-kiszolgálóhoz.</string>
+      <string id="UPTitle">Megszólítás</string>
+      <string id="desc_UPTitle">Megszólítás
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+Ha az LDAP-ból való beolvasás van beállítva, akkor az érték a megszólítást tartalmazó LDAP-attribútum; az LDAP-konfigurációs háttérprogram beállításai határozzák meg, hogyan kell csatlakozni az LDAP-kiszolgálóhoz.</string>
       <string id="UPPosition">Beosztás</string>
       <string id="desc_UPPosition">Beosztás
 
-When any part is set to take from LDAP, then its value is LDAP attribute; LDAP configuration backend settings determine how to connect to LDAP server.</string>
+Ha az LDAP-ból való beolvasás van beállítva, akkor az érték a beosztást tartalmazó LDAP-attribútum; az LDAP-konfigurációs háttérprogram beállításai határozzák meg, hogyan kell csatlakozni az LDAP-kiszolgálóhoz.
+
+Megjegyzés: a „Windowsból” beállítás üresen hagyja ezt a mezőt, mert a Windows háttérprogram soha nem tölti ki.</string>
 
 
       <string id="category_Passwords">Passwords</string>
@@ -1013,7 +1015,7 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="UPTitle">
         <textBox refId="TitleValue">
-          <label>Cím:</label>
+          <label>Megszólítás:</label>
         </textBox>
         <dropdownList refId="TitleFlags" noSort="true" defaultItem="0">Flags: </dropdownList>
       </presentation>

@@ -554,15 +554,17 @@ Quando è impostato per essere letto da LDAP, il suo valore è l'attributo che c
       <string id="UPMail">Indirizzo e-mail</string>
       <string id="desc_UPMail">Indirizzo e-mail
 
-Quando è impostato per essere letto da LDAP, il suo valore è l'attributo LDAP che contiene l'indirizzo; Le impostazioni del back-end di configurazione LDAP determinano come collegarsi al server LDAP.</string>
+Quando è impostato per essere letto da LDAP, il suo valore è l'attributo LDAP che contiene l'indirizzo e-mail; Le impostazioni del back-end di configurazione LDAP determinano come collegarsi al server LDAP.</string>
       <string id="UPTitle">Titolo</string>
       <string id="desc_UPTitle">Titolo
 
-Quando è impostato per essere letto da LDAP, il suo valore è l'attributo LDAP che contiene l'indirizzo; Le impostazioni del back-end di configurazione LDAP determinano come collegarsi al server LDAP.</string>
+Quando è impostato per essere letto da LDAP, il suo valore è l'attributo LDAP che contiene il titolo; Le impostazioni del back-end di configurazione LDAP determinano come collegarsi al server LDAP.</string>
       <string id="UPPosition">Posizione</string>
       <string id="desc_UPPosition">Posizione
 
-Quando è impostato per essere letto da LDAP, il suo valore è l'attributo LDAP che contiene l'indirizzo; Le impostazioni del back-end di configurazione LDAP determinano come collegarsi al server LDAP.</string>
+Quando è impostato per essere letto da LDAP, il suo valore è l'attributo LDAP che contiene la posizione; Le impostazioni del back-end di configurazione LDAP determinano come collegarsi al server LDAP.
+
+Nota: «Da Windows» lascia questo campo vuoto, perché il back-end di Windows non lo compila mai.</string>
 
 
       <string id="category_Passwords">Password</string>
