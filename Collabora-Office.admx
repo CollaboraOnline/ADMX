@@ -1375,9 +1375,9 @@
               <string>3</string>
             </value>
           </item>
-          <item displayName="$(string.pdf_PDF_1_4)">
+          <item displayName="$(string.pdf_PDF_A_4)">
             <value>
-              <string>14</string>
+              <string>4</string>
             </value>
           </item>
           <item displayName="$(string.pdf_PDF_1_5)">
@@ -1388,6 +1388,16 @@
           <item displayName="$(string.pdf_PDF_1_6)">
             <value>
               <string>16</string>
+            </value>
+          </item>
+          <item displayName="$(string.pdf_PDF_1_7)">
+            <value>
+              <string>17</string>
+            </value>
+          </item>
+          <item displayName="$(string.pdf_PDF_2_0)">
+            <value>
+              <string>20</string>
             </value>
           </item>
         </enum>

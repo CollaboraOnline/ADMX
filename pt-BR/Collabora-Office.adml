@@ -791,9 +791,11 @@ Set paths in path lists have to be separated by spaces.</string>
       <string id="pdf_PDF_A_1">PDF/A-1</string>
       <string id="pdf_PDF_A_2">PDF/A-2 (LibreOffice since 6.3)</string>
       <string id="pdf_PDF_A_3">PDF/A-3 (LibreOffice since 6.4)</string>
-      <string id="pdf_PDF_1_4">PDF 1.4 (LibreOffice until 6.1)</string>
+      <string id="pdf_PDF_A_4">PDF/A-4</string>
       <string id="pdf_PDF_1_5">PDF 1.5 (LibreOffice since 6.1)</string>
       <string id="pdf_PDF_1_6">PDF 1.6 (LibreOffice since 7.0)</string>
+      <string id="pdf_PDF_1_7">PDF 1.7</string>
+      <string id="pdf_PDF_2_0">PDF 2.0</string>
 
       <string id="supported_CO_22_05">Collabora Office 22.05 or higher</string>
       <string id="supported_CO_24_04">Collabora Office 24.04 or higher</string>
