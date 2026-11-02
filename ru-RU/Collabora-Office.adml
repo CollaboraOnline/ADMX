@@ -1,0 +1,2470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
+<!-- Russian Translation (c) 2026 Serg (https://github.com/itcboss) CC-BY-SA 4.0 -->
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName>
+  </displayName>
+  <description>
+  </description>
+  <resources>
+    <stringTable>
+      <string id="supported_LibreOffice_4_2">LibreOffice-from-Collabora 4.2 или выше</string>
+      <string id="supported_LibreOffice_4_3">LibreOffice-from-Collabora 4.3 или выше</string>
+      <string id="supported_LibreOffice_4_4">LibreOffice-from-Collabora 4.4 или выше</string>
+      <string id="supported_LibreOffice_5_0">Collabora Office 5.0 или выше</string>
+      <string id="supported_LibreOffice_5_1">Collabora Office 5.1 или выше</string>
+      <string id="supported_LibreOffice_5_3">Collabora Office 5.3 или выше</string>
+      <string id="supported_LibreOffice_5_3_49">Collabora Office 5.3-49 или выше</string>
+      <string id="supported_LibreOffice_6_0_27">Collabora Office 6.0-27 или выше</string>
+      <string id="supported_LibreOffice_6_4">Collabora Office 6.4 или выше</string>
+      <string id="supported_LibreOffice_7_0">Collabora Office 21.06 или выше</string>
+      <string id="supported_CO_24_04_11">Collabora Office 24.04.11 или выше</string>
+
+      <string id="ValueFlagsNone">Нет</string>
+      <string id="ValueFlagsFinal">Окончательное</string>
+      <string id="ValueFlagsExternalLDAP">Из LDAP</string>
+      <string id="ValueFlagsExternalWin">Из Windows</string>
+
+      <string id="category_LibreOffice">Collabora Office</string>
+      <string id="category_Common">Основные</string>
+      <string id="name_BuiltInHelpNotInstalledPopUp">Предупреждать, если локальная справка не установлена</string>
+      <string id="desc_BuiltInHelpNotInstalledPopUp">Если флажок установлен, при отсутствии локальной справки отображается всплывающее окно</string>
+
+      <string id="category_General">Общие</string>
+      <string id="name_UseSystemFileDialog">Использовать системный диалог выбора файлов</string>
+      <string id="desc_UseSystemFileDialog">Определяет, следует ли использовать системные диалоги выбора файлов и папок Windows. Если параметр отключён, используются встроенные платформонезависимые диалоги выбора файлов и папок.</string>
+      <string id="name_AllowOverrideLocking">Разрешить обход блокировки документов</string>
+      <string id="desc_AllowOverrideLocking">Определяет, может ли пользователь обходить механизм блокировки документов в LibreOffice/Collabora Office. Если параметр отключён и документ уже открыт другим пользователем, текущий пользователь может открыть документ только в виде копии или в режиме «только чтение».</string>
+      <string id="name_ShowTipOfTheDay">Показывать «Совет дня»</string>
+      <string id="desc_ShowTipOfTheDay">Показывать диалог «Совет дня» при запуске. Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+
+      <string id="category_LDAPConfigBackend">Серверная часть конфигурации LDAP</string>
+      <string id="name_LDAPConfigBackendSettings">Каталог пользователей LDAP</string>
+      <string id="desc_LDAPConfigBackendSettings">Определяет, как подключаться к серверу LDAP и получать сведения о пользователе, используемые в разделе «Данные пользователя».
+
+Обратите внимание: пароль для привязки к серверу LDAP хранится в реестре клиентской системы в незашифрованном виде; следует использовать учётную запись поиска с ограниченными правами (позволяющую только выполнять поиск в LDAP).
+
+Уникальный атрибут пользователя должен соответствовать имени пользователя Windows, выполнившего вход, без домена.
+
+Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+
+      <string id="category_ProductName">Название продукта</string>
+      <string id="name_ooName">Название продукта (ooName)</string>
+      <string id="desc_ooName">Задаёт название продукта.</string>
+      <string id="category_LoadandSave">Загрузка и сохранение</string>
+      <string id="name_UserDefinedSettings">Пользовательские параметры</string>
+      <string id="desc_UserDefinedSettings">Загружать пользовательские параметры вместе с документом</string>
+      <string id="name_UseUserData">Использовать данные пользователя</string>
+      <string id="desc_UseUserData">Использовать данные пользователя для свойств документа</string>
+      <string id="name_AutoSave">Автосохранение</string>
+      <string id="desc_AutoSave">Сохранять информацию для автовосстановления каждые __ минут</string>
+      <string id="name_RecoveryInfo">Отключить функцию автовосстановления</string>
+      <string id="desc_RecoveryInfo">Отключить функцию автовосстановления в случае сбоев</string>
+      <string id="name_CreateBackup">Создавать резервную копию</string>
+      <string id="desc_CreateBackup">Всегда создавать резервную копию</string>
+      <string id="name_EditProperty">Изменять свойства документа перед сохранением</string>
+      <string id="desc_EditProperty">Указывает, что диалог «Свойства» будет отображаться при каждом выборе команды «Сохранить как».</string>
+      <string id="name_WarnAlienFormat">Предупреждать пользователя при сохранении в формате, отличном от ODF или формата по умолчанию</string>
+      <string id="desc_WarnAlienFormat">Указывает, что формат сохранения отличается от ODF или формата по умолчанию.</string>
+      <string id="name_OfficeURIOpenProgramNoWarn">Не предупреждать об открытии продукта веб-сайтом при использовании URI Office</string>
+      <string id="desc_OfficeURIOpenProgramNoWarn">По умолчанию, когда пользователь щёлкает ссылку URI Office, Internet Explorer выводит предупреждение о том, что веб-сайт пытается открыть программу, и запрашивает подтверждение.
+
+Этот параметр позволяет отключить предупреждение для URI Office, поддерживаемых продуктом (ms-word:, ms-excel:, ms-powerpoint:, ms-visio:, ms-access:, vnd.libreoffice.command:). Помните, что пользователь может переопределить этот параметр, если он задан в пользовательских настройках.
+
+Если параметр включён, при щелчке поддерживаемой ссылки URI Office предупреждение не выводится.
+Если параметр отключён, в этом случае предупреждение выводится.</string>
+      <string id="name_HTMLExportBrowser">Совместимость HTML-экспорта с браузером</string>
+      <string id="desc_HTMLExportBrowser">Определяет браузер, для которого следует оптимизировать HTML-экспорт</string>
+      <string id="IE">Internet Explorer</string>
+      <string id="Firefox">Mozilla Firefox</string>
+      <string id="Writer">LibreOffice Writer</string>
+      <string id="name_MSOLockFiles">Создавать файл блокировки MSO</string>
+      <string id="desc_MSOLockFiles">Определяет, должен ли LibreOffice при открытии файла создавать рядом со своими файлами блокировки файлы блокировки, совместимые с Microsoft Office. Это позволяет Microsoft Office считывать имя пользователя из файла блокировки и показывать его пользователю.</string>
+
+      <string id="category_Experimental">Экспериментальные функции</string>
+      <string id="name_ExperimentalMode">Включить экспериментальные функции</string>
+      <string id="desc_ExperimentalMode">Определяет, следует ли включать в пользовательском интерфейсе различные экспериментальные и потенциально нестабильные функции.</string>
+      <string id="name_MacroRecorderMode">Включить запись макросов (ограниченную)</string>
+      <string id="desc_MacroRecorderMode">Определяет, следует ли включать в пользовательском интерфейсе ограниченный и неудобный рекордер макросов, генерирующий код.</string>
+      <string id="category_FileandPrintdialogs">Диалоги файлов и печати</string>
+      <string id="name_UseSystemPrintDialog">Использовать системный диалог печати</string>
+      <string id="desc_UseSystemPrintDialog">Определяет, следует ли использовать системный диалог печати Windows. Если параметр отключён, используются встроенные платформонезависимые диалоги печати.</string>
+
+      <string id="category_History">Журнал</string>
+      <string id="name_HistorySize">Размер журнала</string>
+      <string id="desc_HistorySize">Задаёт размер списка журнала.</string>
+      <string id="name_HistoryPickListSize">Размер списка выбора из журнала</string>
+      <string id="desc_HistoryPickListSize">Задаёт размер списка выбора, отображаемого в меню «Последние документы».</string>
+
+      <string id="category_Localization">Локализация</string>
+      <string id="name_DefaultLocale">Язык документов по умолчанию (западный)</string>
+      <string id="desc_DefaultLocale">Задаёт язык документов по умолчанию — западный.</string>
+      <string id="name_DefaultLocale_CJK">Язык документов по умолчанию (CJK)</string>
+      <string id="desc_DefaultLocale_CJK">Задаёт язык документов по умолчанию — китайский, японский, корейский.</string>
+      <string id="name_DefaultLocale_CTL">Язык документов по умолчанию (CTL)</string>
+      <string id="desc_DefaultLocale_CTL">Задаёт язык документов по умолчанию — языки со сложной компоновкой текста (например, арабский, индийские и др.).</string>
+      <string id="category_WritingAids">Средства правописания</string>
+      <string id="name_IsSpellAuto">Проверять орфографию при вводе</string>
+      <string id="desc_IsSpellAuto">Определяет, выполняется ли автоматическая проверка орфографии при вводе текста (Сервис - Параметры - Языковые параметры - Средства правописания - Автоматическая проверка орфографии).</string>
+      <string id="name_IsSpellUpperCase">Проверять слова из прописных букв</string>
+      <string id="desc_IsSpellUpperCase">Определяет, включаются ли в проверку орфографии слова, написанные прописными буквами.</string>
+      <string id="name_IsSpellWithDigits">Проверять слова с цифрами</string>
+      <string id="desc_IsSpellWithDigits">Определяет, включаются ли в проверку орфографии слова, содержащие как цифры, так и буквы.</string>
+      <string id="name_IsSpellSpecial">Проверять особые области</string>
+      <string id="desc_IsSpellSpecial">Определяет, включаются ли в проверку орфографии колонтитулы и врезки.</string>
+      <string id="name_GrammarIsAutoCheck">Проверять грамматику при вводе</string>
+      <string id="desc_GrammarIsAutoCheck">Определяет, выполняется ли автоматическая проверка грамматики при вводе текста с помощью установленных модулей проверки грамматики.</string>
+      <string id="name_UILocale">Язык пользовательского интерфейса</string>
+      <string id="desc_UILocale">Задаёт язык пользовательского интерфейса (UI). Пустая строка означает: по возможности использовать язык интерфейса рабочего стола.</string>
+      <string id="name_Locale">Языковой стандарт</string>
+      <string id="desc_Locale">Задаёт языковой стандарт (Сервис - Параметры - Языковые параметры - Общие), например ru-RU или de-DE. Если значение пусто, используется языковой стандарт операционной системы.</string>
+      <string id="name_ooSetupCurrency">Валюта</string>
+      <string id="desc_ooSetupCurrency">Указывает параметры валюты, заданные пользователем. По умолчанию это поле пусто, и используется валюта, определяемая системным языковым стандартом.</string>
+      <string id="name_DecimalSeparatorAsLocale">Десятичный разделитель по языковому стандарту</string>
+      <string id="desc_DecimalSeparatorAsLocale">Указывает, что десятичный разделитель (точка или запятая) выбирается в соответствии с выбранным языковым стандартом, а не по раскладке клавиатуры по умолчанию.</string>
+      <string id="name_IgnoreLanguageChange">Игнорировать смену языка</string>
+      <string id="desc_IgnoreLanguageChange">Указывает, игнорируются ли изменения системного языка ввода или раскладки клавиатуры. Если изменения игнорируются, вводимый новый текст будет следовать языку документа или текущего абзаца, а не текущему системному языку.</string>
+
+      <string id="category_Security">Безопасность</string>
+      <string id="name_RemovePersonalInfoOnSaving">Удалять персональные данные при сохранении</string>
+      <string id="desc_RemovePersonalInfoOnSaving">Определяет, удалять ли персональные данные при сохранении.
+
+Значение по умолчанию: не удалять</string>
+      <string id="name_KeepRedlineInfoOnSaving">Сохранять сведения о записанных изменениях</string>
+      <string id="desc_KeepRedlineInfoOnSaving">Определяет, сохранять ли сведения о записанных изменениях при сохранении, если включён параметр «Удалять персональные данные при сохранении».</string>
+      <string id="name_KeepDocUserInfoOnSaving">Сохранять сведения о пользователе документа</string>
+      <string id="desc_KeepDocUserInfoOnSaving">Определяет, сохранять ли сведения о пользователе документа при сохранении, если включён параметр «Удалять персональные данные при сохранении».</string>
+      <string id="name_KeepNoteAuthorDateInfoOnSaving">Сохранять имя автора и дату примечаний</string>
+      <string id="desc_KeepNoteAuthorDateInfoOnSaving">Определяет, сохранять ли имя автора и дату примечаний при сохранении, если включён параметр «Удалять персональные данные при сохранении».</string>
+      <string id="name_KeepDocVersionInfoOnSaving">Сохранять сведения о версиях документа</string>
+      <string id="desc_KeepDocVersionInfoOnSaving">Определяет, сохранять ли сведения о версиях документа при сохранении, если включён параметр «Удалять персональные данные при сохранении».</string>
+      <string id="name_KeepDocPrinterSettingsOnSaving">Сохранять параметры принтера</string>
+      <string id="desc_KeepDocPrinterSettingsOnSaving">Определяет, сохранять ли параметры принтера при сохранении, если включён параметр «Удалять персональные данные при сохранении».</string>
+      <string id="name_RecommendPasswordProtection">Рекомендовать защиту паролем при сохранении</string>
+      <string id="desc_RecommendPasswordProtection">Определяет, рекомендовать ли защиту паролем при сохранении документов.
+
+Значение по умолчанию: не рекомендовать</string>
+      <string id="name_HyperlinksWithCtrlClick">Для перехода по гиперссылкам требуется щелчок с Ctrl</string>
+      <string id="desc_HyperlinksWithCtrlClick">Определяет, требуется ли щелчок с Ctrl для перехода по гиперссылкам.
+Значение по умолчанию: щелчок с Ctrl</string>
+      <string id="name_BlockUntrustedRefererLinks">Блокировать ссылки из документов, расположенных вне надёжных расположений</string>
+      <string id="desc_BlockUntrustedRefererLinks">Определяет, блокировать ли все ссылки из документов, которые находятся не в надёжных расположениях.</string>
+      <string id="name_WarnSaveOrSendDoc">Предупреждения безопасности при сохранении или отправке</string>
+      <string id="desc_WarnSaveOrSendDoc">Определяет, предупреждать ли при сохранении или отправке документов, содержащих персональные или скрытые данные.
+
+Значение по умолчанию: не предупреждать</string>
+      <string id="name_WarnSignDoc">Предупреждения безопасности при подписании</string>
+      <string id="desc_WarnSignDoc">Определяет, предупреждать ли при подписании документов, содержащих персональные или скрытые данные.
+
+Значение по умолчанию: предупреждать</string>
+      <string id="name_WarnPrintDoc">Предупреждения безопасности при печати</string>
+      <string id="desc_WarnPrintDoc">Определяет, предупреждать ли при печати документов, содержащих персональные или скрытые данные.
+
+Значение по умолчанию: не предупреждать</string>
+      <string id="name_WarnCreatePDF">Предупреждения безопасности при создании PDF</string>
+      <string id="desc_WarnCreatePDF">Определяет, предупреждать ли при создании PDF-документов, содержащих персональные или скрытые данные.
+
+Значение по умолчанию: не предупреждать</string>
+      <string id="name_MacroSecurityLevel">Уровень безопасности макросов</string>
+      <string id="desc_MacroSecurityLevel">Уровень безопасности макросов. Диапазон от 0 (самый низкий) до 3 (самый высокий).
+
+- Низкий (не рекомендуется). Все макросы выполняются без подтверждения. Используйте этот параметр, только если вы уверены, что все открываемые документы безопасны.
+- Средний. Перед выполнением макросов из ненадёжных источников требуется подтверждение.
+- Высокий. Разрешено выполнять только подписанные макросы из надёжных источников. Неподписанные макросы отключены.
+- Очень высокий. Разрешено выполнять только макросы из надёжных расположений файлов. Все остальные макросы, независимо от наличия подписи, отключены.
+
+Значение по умолчанию: высокий</string>
+      <string id="low">Низкий (не рекомендуется)</string>
+      <string id="medium">Средний</string>
+      <string id="high">Высокий</string>
+      <string id="veryhigh">Очень высокий</string>
+      <string id="name_DisableMacrosExecution">Отключить выполнение макросов</string>
+      <string id="desc_DisableMacrosExecution">Определяет, отключено ли выполнение макросов в целом. Если задано значение true, параметр MacroSecurityLevel игнорируется. Если задано значение false, уровень безопасности макросов определяется указанным параметром.
+
+Значение по умолчанию: макросы включены</string>
+      <string id="name_EnableExpertConfiguration">Включить экспертные настройки</string>
+      <string id="desc_EnableExpertConfiguration">Определяет, имеет ли пользователь доступ ко всей конфигурации с помощью кнопки «Экспертные настройки».</string>
+      <string id="name_SecureURL">Надёжные расположения файлов</string>
+
+      <string id="name_DisableExtensionInstallation">Отключить установку расширений</string>
+      <string id="desc_DisableExtensionInstallation">Отключает возможность установки расширений. Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+      <string id="name_DisableExtensionRemoval">Отключить удаление расширений</string>
+      <string id="desc_DisableExtensionRemoval">Отключает возможность удаления установленных расширений. Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+
+      <string id="category_Filters">Отключить фильтры форматов файлов</string>
+
+      <string id="name_ADO_Rowset_XML">ADO Rowset XML</string>
+      <string id="desc_ADO_Rowset_XML">Отключить фильтр импорта для формата файлов «ADO Rowset XML».</string>
+      <string id="name_AbiWord">AbiWord Document</string>
+      <string id="desc_AbiWord">Отключить фильтр импорта для формата файлов «AbiWord Document».</string>
+      <string id="name_Apple_Keynote">Apple Keynote 5</string>
+      <string id="desc_Apple_Keynote">Отключить фильтр импорта для формата файлов «Apple Keynote 5».</string>
+      <string id="name_Apple_Numbers">Apple Numbers 2</string>
+      <string id="desc_Apple_Numbers">Отключить фильтр импорта для формата файлов «Apple Numbers 2».</string>
+      <string id="name_Apple_Pages">Apple Pages 4</string>
+      <string id="desc_Apple_Pages">Отключить фильтр импорта для формата файлов «Apple Pages 4».</string>
+      <string id="name_BMP__MS_Windows">BMP - Windows Bitmap</string>
+      <string id="desc_BMP__MS_Windows">Отключить фильтр импорта для формата файлов «BMP - Windows Bitmap».</string>
+      <string id="name_BroadBand_eBook">BroadBand eBook</string>
+      <string id="desc_BroadBand_eBook">Отключить фильтр импорта для формата файлов «BroadBand eBook».</string>
+      <string id="name_CGM__Computer_Graphics_Metafile">CGM - Computer Graphics Metafile</string>
+      <string id="desc_CGM__Computer_Graphics_Metafile">Отключить фильтр импорта для формата файлов «CGM - Computer Graphics Metafile».</string>
+      <string id="name_ClarisWorks">ClarisWorks/AppleWorks Text Document</string>
+      <string id="desc_ClarisWorks">Отключить фильтр импорта для формата файлов «ClarisWorks/AppleWorks Text Document».</string>
+      <string id="name_ClarisWorks_Calc">ClarisWorks/AppleWorks Spreadsheet</string>
+      <string id="desc_ClarisWorks_Calc">Отключить фильтр импорта для формата файлов «ClarisWorks/AppleWorks Spreadsheet».</string>
+      <string id="name_ClarisWorks_Draw">ClarisWorks/AppleWorks Drawing</string>
+      <string id="desc_ClarisWorks_Draw">Отключить фильтр импорта для формата файлов «ClarisWorks/AppleWorks Drawing».</string>
+      <string id="name_ClarisWorks_Impress">ClarisWorks/AppleWorks Presentation</string>
+      <string id="desc_ClarisWorks_Impress">Отключить фильтр импорта для формата файлов «ClarisWorks/AppleWorks Presentation».</string>
+      <string id="name_Claris_Resolve_Calc">ClarisResolve Document</string>
+      <string id="desc_Claris_Resolve_Calc">Отключить фильтр импорта для формата файлов «ClarisResolve Document».</string>
+      <string id="name_Corel_Draw_Document">Corel Draw</string>
+      <string id="desc_Corel_Draw_Document">Отключить фильтр импорта для формата файлов «Corel Draw».</string>
+      <string id="name_Corel_Presentation_Exchange">Corel Presentation Exchange</string>
+      <string id="desc_Corel_Presentation_Exchange">Отключить фильтр импорта для формата файлов «Corel Presentation Exchange».</string>
+      <string id="name_DIF">Data Interchange Format</string>
+      <string id="desc_DIF">Отключить фильтр импорта для формата файлов «Data Interchange Format».</string>
+      <string id="name_DXF__AutoCAD_Interchange">DXF - AutoCAD Interchange Format</string>
+      <string id="desc_DXF__AutoCAD_Interchange">Отключить фильтр импорта для формата файлов «DXF - AutoCAD Interchange Format».</string>
+      <string id="name_DocBook_File">DocBook</string>
+      <string id="desc_DocBook_File">Отключить фильтр импорта для формата файлов «DocBook».</string>
+      <string id="name_DosWord">Microsoft Word for DOS</string>
+      <string id="desc_DosWord">Отключить фильтр импорта для формата файлов «Microsoft Word for DOS».</string>
+      <string id="name_EMF__MS_Windows_Metafile">EMF - Enhanced Metafile</string>
+      <string id="desc_EMF__MS_Windows_Metafile">Отключить фильтр импорта для формата файлов «EMF - Enhanced Metafile».</string>
+      <string id="name_EPS__Encapsulated_PostScript">EPS - Encapsulated PostScript</string>
+      <string id="desc_EPS__Encapsulated_PostScript">Отключить фильтр импорта для формата файлов «EPS - Encapsulated PostScript».</string>
+      <string id="name_FictionBook_2">FictionBook 2.0</string>
+      <string id="desc_FictionBook_2">Отключить фильтр импорта для формата файлов «FictionBook 2.0».</string>
+      <string id="name_Freehand_Document">Adobe/Macromedia Freehand</string>
+      <string id="desc_Freehand_Document">Отключить фильтр импорта для формата файлов «Adobe/Macromedia Freehand».</string>
+      <string id="name_GIF__Graphics_Interchange">GIF - Graphics Interchange Format</string>
+      <string id="desc_GIF__Graphics_Interchange">Отключить фильтр импорта для формата файлов «GIF - Graphics Interchange Format».</string>
+      <string id="name_HTML">HTML Document</string>
+      <string id="desc_HTML">Отключить фильтр импорта для формата файлов «HTML Document».</string>
+      <string id="name_HTML_StarCalc">HTML Document (Calc)</string>
+      <string id="desc_HTML_StarCalc">Отключить фильтр импорта для формата файлов «HTML Document (Calc)».</string>
+      <string id="name_HTML_StarWriter">HTML Document (Writer)</string>
+      <string id="desc_HTML_StarWriter">Отключить фильтр импорта для формата файлов «HTML Document (Writer)».</string>
+      <string id="name_JPG__JPEG">JPEG - Joint Photographic Experts Group</string>
+      <string id="desc_JPG__JPEG">Отключить фильтр импорта для формата файлов «JPEG - Joint Photographic Experts Group».</string>
+      <string id="name_Lotus">Lotus 1-2-3</string>
+      <string id="desc_Lotus">Отключить фильтр импорта для формата файлов «Lotus 1-2-3».</string>
+      <string id="name_LotusWordPro">Lotus WordPro Document</string>
+      <string id="desc_LotusWordPro">Отключить фильтр импорта для формата файлов «Lotus WordPro Document». Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+      <string id="name_MET__OS2_Metafile">MET - OS/2 Metafile</string>
+      <string id="desc_MET__OS2_Metafile">Отключить фильтр импорта для формата файлов «MET - OS/2 Metafile».</string>
+      <string id="name_MS_Excel_2003_XML_Orcus">Microsoft Excel 2003 XML</string>
+      <string id="desc_MS_Excel_2003_XML_Orcus">Отключить фильтр импорта для формата файлов «Microsoft Excel 2003 XML».</string>
+      <string id="name_MS_Excel_40">Microsoft Excel 4.0</string>
+      <string id="desc_MS_Excel_40">Отключить фильтр импорта для формата файлов «Microsoft Excel 4.0».</string>
+      <string id="name_MS_Excel_40_VorlageTemplate">Microsoft Excel 4.0 Template</string>
+      <string id="desc_MS_Excel_40_VorlageTemplate">Отключить фильтр импорта для формата файлов «Microsoft Excel 4.0 Template».</string>
+      <string id="name_MS_Excel_5095">Microsoft Excel 5.0</string>
+      <string id="desc_MS_Excel_5095">Отключить фильтр импорта для формата файлов «Microsoft Excel 5.0».</string>
+      <string id="name_MS_Excel_5095_VorlageTemplate">Microsoft Excel 5.0 Template</string>
+      <string id="desc_MS_Excel_5095_VorlageTemplate">Отключить фильтр импорта для формата файлов «Microsoft Excel 5.0 Template».</string>
+      <string id="name_MS_Excel_95">Microsoft Excel 95</string>
+      <string id="desc_MS_Excel_95">Отключить фильтр импорта для формата файлов «Microsoft Excel 95».</string>
+      <string id="name_MS_Excel_95_VorlageTemplate">Microsoft Excel 95 Template</string>
+      <string id="desc_MS_Excel_95_VorlageTemplate">Отключить фильтр импорта для формата файлов «Microsoft Excel 95 Template».</string>
+      <string id="name_MS_Excel_97">Microsoft Excel 97-2003</string>
+      <string id="desc_MS_Excel_97">Отключить фильтр импорта для формата файлов «Microsoft Excel 97-2003».</string>
+      <string id="name_MS_Excel_97_VorlageTemplate">Microsoft Excel 97-2003 Template</string>
+      <string id="desc_MS_Excel_97_VorlageTemplate">Отключить фильтр импорта для формата файлов «Microsoft Excel 97-2003 Template».</string>
+      <string id="name_MS_PowerPoint_97">Microsoft PowerPoint 97-2003</string>
+      <string id="desc_MS_PowerPoint_97">Отключить фильтр импорта для формата файлов «Microsoft PowerPoint 97-2003».</string>
+      <string id="name_MS_PowerPoint_97_AutoPlay">Microsoft PowerPoint 97-2003 AutoPlay</string>
+      <string id="desc_MS_PowerPoint_97_AutoPlay">Отключить фильтр импорта для формата файлов «Microsoft PowerPoint 97-2003 AutoPlay».</string>
+      <string id="name_MS_PowerPoint_97_Vorlage">Microsoft PowerPoint 97-2003 Template</string>
+      <string id="desc_MS_PowerPoint_97_Vorlage">Отключить фильтр импорта для формата файлов «Microsoft PowerPoint 97-2003 Template».</string>
+      <string id="name_MS_WinWord_5">Microsoft WinWord 1/2/5</string>
+      <string id="desc_MS_WinWord_5">Отключить фильтр импорта для формата файлов «Microsoft WinWord 1/2/5».</string>
+      <string id="name_MS_WinWord_60">Microsoft Word 6.0</string>
+      <string id="desc_MS_WinWord_60">Отключить фильтр импорта для формата файлов «Microsoft Word 6.0».</string>
+      <string id="name_MS_Word_2003_XML">Microsoft Word 2003 XML</string>
+      <string id="desc_MS_Word_2003_XML">Отключить фильтр импорта для формата файлов «Microsoft Word 2003 XML».</string>
+      <string id="name_MS_Word_2007_XML">Microsoft Word 2007-2013 XML</string>
+      <string id="desc_MS_Word_2007_XML">Отключить фильтр импорта для формата файлов «Microsoft Word 2007-2013 XML».</string>
+      <string id="name_MS_Word_2007_XML_Template">Microsoft Word 2007-2013 XML Template</string>
+      <string id="desc_MS_Word_2007_XML_Template">Отключить фильтр импорта для формата файлов «Microsoft Word 2007-2013 XML Template».</string>
+      <string id="name_MS_Word_2007_XML_VBA">Microsoft Word 2007-2013 XML VBA</string>
+      <string id="desc_MS_Word_2007_XML_VBA">Отключить фильтр импорта для формата файлов «Microsoft Word 2007-2013 XML VBA».</string>
+      <string id="name_MS_Word_95">Microsoft Word 95</string>
+      <string id="desc_MS_Word_95">Отключить фильтр импорта для формата файлов «Microsoft Word 95».</string>
+      <string id="name_MS_Word_95_Vorlage">Microsoft Word 95 Template</string>
+      <string id="desc_MS_Word_95_Vorlage">Отключить фильтр импорта для формата файлов «Microsoft Word 95 Template».</string>
+      <string id="name_MS_Word_97">Microsoft Word 97-2003</string>
+      <string id="desc_MS_Word_97">Отключить фильтр импорта для формата файлов «Microsoft Word 97-2003».</string>
+      <string id="name_MS_Word_97_Vorlage">Microsoft Word 97-2003 Template</string>
+      <string id="desc_MS_Word_97_Vorlage">Отключить фильтр импорта для формата файлов «Microsoft Word 97-2003 Template».</string>
+      <string id="name_MS_Works">Microsoft Works Document</string>
+      <string id="desc_MS_Works">Отключить фильтр импорта для формата файлов «Microsoft Works Document».</string>
+      <string id="name_MS_Works_Calc">Microsoft Works Document</string>
+      <string id="desc_MS_Works_Calc">Отключить фильтр импорта для формата файлов «Microsoft Works Document».</string>
+      <string id="name_MS_Write">Microsoft Write</string>
+      <string id="desc_MS_Write">Отключить фильтр импорта для формата файлов «Microsoft Write».</string>
+      <string id="name_MWAW_Bitmap">Legacy Mac Bitmap</string>
+      <string id="desc_MWAW_Bitmap">Отключить фильтр импорта для формата файлов «Legacy Mac Bitmap».</string>
+      <string id="name_MWAW_Database">Legacy Mac Database</string>
+      <string id="desc_MWAW_Database">Отключить фильтр импорта для формата файлов «Legacy Mac Database».</string>
+      <string id="name_MWAW_Drawing">Legacy Mac Drawing</string>
+      <string id="desc_MWAW_Drawing">Отключить фильтр импорта для формата файлов «Legacy Mac Drawing».</string>
+      <string id="name_MWAW_Presentation">Legacy Mac Presentation</string>
+      <string id="desc_MWAW_Presentation">Отключить фильтр импорта для формата файлов «Legacy Mac Presentation».</string>
+      <string id="name_MWAW_Spreadsheet">Legacy Mac Spreadsheet</string>
+      <string id="desc_MWAW_Spreadsheet">Отключить фильтр импорта для формата файлов «Legacy Mac Spreadsheet».</string>
+      <string id="name_MWAW_Text_Document">Legacy Mac Text Document</string>
+      <string id="desc_MWAW_Text_Document">Отключить фильтр импорта для формата файлов «Legacy Mac Text Document».</string>
+      <string id="name_MacWrite">MacWrite Document</string>
+      <string id="desc_MacWrite">Отключить фильтр импорта для формата файлов «MacWrite Document».</string>
+      <string id="name_Mac_Word">Microsoft Word for Mac (v1 - v5)</string>
+      <string id="desc_Mac_Word">Отключить фильтр импорта для формата файлов «Microsoft Word for Mac (v1 - v5)».</string>
+      <string id="name_Mac_Works">Microsoft Works for Mac Text Document (v1 - v4)</string>
+      <string id="desc_Mac_Works">Отключить фильтр импорта для формата файлов «Microsoft Works for Mac Text Document (v1 - v4)».</string>
+      <string id="name_Mac_Works_Calc">Microsoft Works for Mac Spreadsheet (v1 - v4)</string>
+      <string id="desc_Mac_Works_Calc">Отключить фильтр импорта для формата файлов «Microsoft Works for Mac Spreadsheet (v1 - v4)».</string>
+      <string id="name_Mariner_Write">Mariner Write Mac Classic v1.6 - v3.5</string>
+      <string id="desc_Mariner_Write">Отключить фильтр импорта для формата файлов «Mariner Write Mac Classic v1.6 - v3.5».</string>
+      <string id="name_MathML_XML_Math">MathML 2.0</string>
+      <string id="desc_MathML_XML_Math">Отключить фильтр импорта для формата файлов «MathML 2.0».</string>
+      <string id="name_MathType_3x">MathType3.x</string>
+      <string id="desc_MathType_3x">Отключить фильтр импорта для формата файлов «MathType3.x».</string>
+      <string id="name_OpenDocument_Drawing_Flat_XML">Flat XML ODF Drawing</string>
+      <string id="desc_OpenDocument_Drawing_Flat_XML">Отключить фильтр импорта для формата файлов «Flat XML ODF Drawing».</string>
+      <string id="name_OpenDocument_Presentation_Flat_XML">Flat XML ODF Presentation</string>
+      <string id="desc_OpenDocument_Presentation_Flat_XML">Отключить фильтр импорта для формата файлов «Flat XML ODF Presentation».</string>
+      <string id="name_OpenDocument_Spreadsheet_Flat_XML">Flat XML ODF Spreadsheet</string>
+      <string id="desc_OpenDocument_Spreadsheet_Flat_XML">Отключить фильтр импорта для формата файлов «Flat XML ODF Spreadsheet».</string>
+      <string id="name_OpenDocument_Text_Flat_XML">Flat XML ODF Text Document</string>
+      <string id="desc_OpenDocument_Text_Flat_XML">Отключить фильтр импорта для формата файлов «Flat XML ODF Text Document».</string>
+      <string id="name_Office_Open_XML_Text">Office Open XML Text</string>
+      <string id="desc_Office_Open_XML_Text">Отключить фильтр импорта для формата файлов «Office Open XML Text».</string>
+      <string id="name_Office_Open_XML_Text_Template">Office Open XML Text Template</string>
+      <string id="desc_Office_Open_XML_Text_Template">Отключить фильтр импорта для формата файлов «Office Open XML Text Template».</string>
+      <string id="name_PBM__Portable_Bitmap">PBM - Portable Bitmap</string>
+      <string id="desc_PBM__Portable_Bitmap">Отключить фильтр импорта для формата файлов «PBM - Portable Bitmap».</string>
+      <string id="name_PCT__Mac_Pict">PCT - Mac Pict</string>
+      <string id="desc_PCT__Mac_Pict">Отключить фильтр импорта для формата файлов «PCT - Mac Pict».</string>
+      <string id="name_PCX__Zsoft_Paintbrush">PCX - Zsoft Paintbrush</string>
+      <string id="desc_PCX__Zsoft_Paintbrush">Отключить фильтр импорта для формата файлов «PCX - Zsoft Paintbrush».</string>
+      <string id="name_PGM__Portable_Graymap">PGM - Portable Graymap</string>
+      <string id="desc_PGM__Portable_Graymap">Отключить фильтр импорта для формата файлов «PGM - Portable Graymap».</string>
+      <string id="name_PNG__Portable_Network_Graphic">PNG - Portable Network Graphic</string>
+      <string id="desc_PNG__Portable_Network_Graphic">Отключить фильтр импорта для формата файлов «PNG - Portable Network Graphic».</string>
+      <string id="name_PPM__Portable_Pixelmap">PPM - Portable Pixelmap</string>
+      <string id="desc_PPM__Portable_Pixelmap">Отключить фильтр импорта для формата файлов «PPM - Portable Pixelmap».</string>
+      <string id="name_PSD__Adobe_Photoshop">PSD - Adobe Photoshop</string>
+      <string id="desc_PSD__Adobe_Photoshop">Отключить фильтр импорта для формата файлов «PSD - Adobe Photoshop».</string>
+      <string id="name_PageMaker_Document">Adobe PageMaker</string>
+      <string id="desc_PageMaker_Document">Отключить фильтр импорта для формата файлов «Adobe PageMaker».</string>
+      <string id="name_PalmDoc">PalmDoc eBook</string>
+      <string id="desc_PalmDoc">Отключить фильтр импорта для формата файлов «PalmDoc eBook».</string>
+      <string id="name_Palm_Text_Document">Palm Text Document</string>
+      <string id="desc_Palm_Text_Document">Отключить фильтр импорта для формата файлов «Palm Text Document».</string>
+      <string id="name_Plucker_eBook">Plucker eBook</string>
+      <string id="desc_Plucker_eBook">Отключить фильтр импорта для формата файлов «Plucker eBook».</string>
+      <string id="name_PowerPoint_3">Microsoft PowerPoint 1-4 and 95's</string>
+      <string id="desc_PowerPoint_3">Отключить фильтр импорта для формата файлов «Microsoft PowerPoint 1-4 and 95's».</string>
+      <string id="name_Publisher_Document">Microsoft Publisher 98-2010</string>
+      <string id="desc_Publisher_Document">Отключить фильтр импорта для формата файлов «Microsoft Publisher 98-2010».</string>
+      <string id="name_Quattro_Pro_60">Quattro Pro 6.0</string>
+      <string id="desc_Quattro_Pro_60">Отключить фильтр импорта для формата файлов «Quattro Pro 6.0».</string>
+      <string id="name_QXP_Document">QuarkXPress</string>
+      <string id="desc_QXP_Document">Отключить фильтр импорта для формата файлов «QuarkXPress».</string>
+      <string id="name_RAS__Sun_Rasterfile">RAS - Sun Raster Image</string>
+      <string id="desc_RAS__Sun_Rasterfile">Отключить фильтр импорта для формата файлов «RAS - Sun Raster Image».</string>
+      <string id="name_Rich_Text_Format">Rich Text</string>
+      <string id="desc_Rich_Text_Format">Отключить фильтр импорта для формата файлов «Rich Text».</string>
+      <string id="name_Rich_Text_Format_StarCalc">Rich Text Format (Calc)</string>
+      <string id="desc_Rich_Text_Format_StarCalc">Отключить фильтр импорта для формата файлов «Rich Text Format (Calc)».</string>
+      <string id="name_SVG__Scalable_Vector_Graphics">SVG - Scalable Vector Graphics</string>
+      <string id="desc_SVG__Scalable_Vector_Graphics">Отключить фильтр импорта для формата файлов «SVG - Scalable Vector Graphics».</string>
+      <string id="name_SVM__StarView_Metafile">SVM - StarView Metafile</string>
+      <string id="desc_SVM__StarView_Metafile">Отключить фильтр импорта для формата файлов «SVM - StarView Metafile».</string>
+      <string id="name_SYLK">SYLK</string>
+      <string id="desc_SYLK">Отключить фильтр импорта для формата файлов «SYLK».</string>
+      <string id="name_StarOffice_XML_Base_Report">ODF Database Report</string>
+      <string id="desc_StarOffice_XML_Base_Report">Отключить фильтр импорта для формата файлов «ODF Database Report». Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+      <string id="name_StarOffice_XML_Base_Report_Chart">OpenOffice.org 1.0 Report Chart</string>
+      <string id="desc_StarOffice_XML_Base_Report_Chart">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Report Chart». Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+      <string id="name_StarOffice_Drawing">Legacy StarOffice Drawing</string>
+      <string id="desc_StarOffice_Drawing">Отключить фильтр импорта для формата файлов «Legacy StarOffice Drawing».</string>
+      <string id="name_StarOffice_Presentation">Legacy StarOffice Presentation</string>
+      <string id="desc_StarOffice_Presentation">Отключить фильтр импорта для формата файлов «Legacy StarOffice Presentation».</string>
+      <string id="name_StarOffice_Spreadsheet">Legacy StarOffice Spreadsheet</string>
+      <string id="desc_StarOffice_Spreadsheet">Отключить фильтр импорта для формата файлов «Legacy StarOffice Spreadsheet».</string>
+      <string id="name_StarOffice_Writer">Legacy StarOffice Text Document</string>
+      <string id="desc_StarOffice_Writer">Отключить фильтр импорта для формата файлов «Legacy StarOffice Text Document».</string>
+      <string id="name_StarOffice_XML_Base">ODF Database</string>
+      <string id="desc_StarOffice_XML_Base">Отключить фильтр импорта для формата файлов «ODF Database». Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+      <string id="name_StarOffice_XML_Calc">OpenOffice.org 1.0 Spreadsheet</string>
+      <string id="desc_StarOffice_XML_Calc">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Spreadsheet».</string>
+      <string id="name_StarOffice_XML_Chart">OpenOffice.org 1.0 Chart</string>
+      <string id="desc_StarOffice_XML_Chart">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Chart».</string>
+      <string id="name_StarOffice_XML_Draw">OpenOffice.org 1.0 Drawing</string>
+      <string id="desc_StarOffice_XML_Draw">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Drawing».</string>
+      <string id="name_StarOffice_XML_Impress">OpenOffice.org 1.0 Presentation</string>
+      <string id="desc_StarOffice_XML_Impress">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Presentation».</string>
+      <string id="name_StarOffice_XML_Math">OpenOffice.org 1.0 Formula</string>
+      <string id="desc_StarOffice_XML_Math">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Formula».</string>
+      <string id="name_StarOffice_XML_Writer">OpenOffice.org 1.0 Text Document</string>
+      <string id="desc_StarOffice_XML_Writer">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Text Document».</string>
+      <string id="name_T602Document">T602 Document</string>
+      <string id="desc_T602Document">Отключить фильтр импорта для формата файлов «T602 Document».</string>
+      <string id="name_TGA__Truevision_TARGA">TGA - Truevision Targa</string>
+      <string id="desc_TGA__Truevision_TARGA">Отключить фильтр импорта для формата файлов «TGA - Truevision Targa».</string>
+      <string id="name_TIF__Tag_Image_File">TIFF - Tagged Image File Format</string>
+      <string id="desc_TIF__Tag_Image_File">Отключить фильтр импорта для формата файлов «TIFF - Tagged Image File Format».</string>
+      <string id="name_Text">Text</string>
+      <string id="desc_Text">Отключить фильтр импорта для формата файлов «Text».</string>
+      <string id="name_Text_StarWriterWeb">Text (Writer/Web)</string>
+      <string id="desc_Text_StarWriterWeb">Отключить фильтр импорта для формата файлов «Text (Writer/Web)».</string>
+      <string id="name_Text__txt__csv_StarCalc">Text CSV</string>
+      <string id="desc_Text__txt__csv_StarCalc">Отключить фильтр импорта для формата файлов «Text CSV».</string>
+      <string id="name_Text_encoded">Text - Choose Encoding</string>
+      <string id="desc_Text_encoded">Отключить фильтр импорта для формата файлов «Text - Choose Encoding».</string>
+      <string id="name_Text_encoded_StarWriterGlobalDocument">Text - Choose Encoding (Master Document)</string>
+      <string id="desc_Text_encoded_StarWriterGlobalDocument">Отключить фильтр импорта для формата файлов «Text - Choose Encoding (Master Document)».</string>
+      <string id="name_Text_encoded_StarWriterWeb">Text - Choose Encoding (Writer/Web)</string>
+      <string id="desc_Text_encoded_StarWriterWeb">Отключить фильтр импорта для формата файлов «Text - Choose Encoding (Writer/Web)».</string>
+      <string id="name_UOF_presentation">Unified Office Format presentation</string>
+      <string id="desc_UOF_presentation">Отключить фильтр импорта для формата файлов «Unified Office Format presentation».</string>
+      <string id="name_UOF_spreadsheet">Unified Office Format spreadsheet</string>
+      <string id="desc_UOF_spreadsheet">Отключить фильтр импорта для формата файлов «Unified Office Format spreadsheet».</string>
+      <string id="name_UOF_text">Unified Office Format text</string>
+      <string id="desc_UOF_text">Отключить фильтр импорта для формата файлов «Unified Office Format text».</string>
+      <string id="name_Visio_Document">Microsoft Visio 2000-2013</string>
+      <string id="desc_Visio_Document">Отключить фильтр импорта для формата файлов «Microsoft Visio 2000-2013».</string>
+      <string id="name_WMF__MS_Windows_Metafile">WMF - Windows Metafile</string>
+      <string id="desc_WMF__MS_Windows_Metafile">Отключить фильтр импорта для формата файлов «WMF - Windows Metafile».</string>
+      <string id="name_WPS_Lotus_Calc">Lotus Document</string>
+      <string id="desc_WPS_Lotus_Calc">Отключить фильтр импорта для формата файлов «Lotus Document».</string>
+      <string id="name_WPS_QPro_Calc">QuattroPro Document</string>
+      <string id="desc_WPS_QPro_Calc">Отключить фильтр импорта для формата файлов «QuattroPro Document».</string>
+      <string id="name_WordPerfect">WordPerfect Document</string>
+      <string id="desc_WordPerfect">Отключить фильтр импорта для формата файлов «WordPerfect Document».</string>
+      <string id="name_WordPerfect_Graphics">WordPerfect Graphics</string>
+      <string id="desc_WordPerfect_Graphics">Отключить фильтр импорта для формата файлов «WordPerfect Graphics».</string>
+      <string id="name_WriteNow">WriteNow Document</string>
+      <string id="desc_WriteNow">Отключить фильтр импорта для формата файлов «WriteNow Document».</string>
+      <string id="name_XBM__XConsortium">XBM - X Bitmap</string>
+      <string id="desc_XBM__XConsortium">Отключить фильтр импорта для формата файлов «XBM - X Bitmap».</string>
+      <string id="name_XPM">XPM - X PixMap</string>
+      <string id="desc_XPM">Отключить фильтр импорта для формата файлов «XPM - X PixMap».</string>
+      <string id="name_ZMF_Document">Zoner Callisto/Draw</string>
+      <string id="desc_ZMF_Document">Отключить фильтр импорта для формата файлов «Zoner Callisto/Draw».</string>
+      <string id="name_calc8">ODF Spreadsheet</string>
+      <string id="desc_calc8">Отключить фильтр импорта для формата файлов «ODF Spreadsheet».</string>
+      <string id="name_calc8_template">ODF Spreadsheet Template</string>
+      <string id="desc_calc8_template">Отключить фильтр импорта для формата файлов «ODF Spreadsheet Template».</string>
+      <string id="name_Gnumeric_Spreadsheet">Gnumeric Spreadsheet</string>
+      <string id="desc_Gnumeric_Spreadsheet">Отключить фильтр импорта для формата файлов «Gnumeric Spreadsheet».</string>
+      <string id="name_calc_HTML_WebQuery">Web Page Query (Calc)</string>
+      <string id="desc_calc_HTML_WebQuery">Отключить фильтр импорта для формата файлов «Web Page Query (Calc)».</string>
+      <string id="name_Calc_MS_Excel_2007_Binary">Microsoft Excel 2007 Binary</string>
+      <string id="desc_Calc_MS_Excel_2007_Binary">Отключить фильтр импорта для формата файлов «Microsoft Excel 2007 Binary».</string>
+      <string id="name_Calc_MS_Excel_2007_VBA_XML">Microsoft Excel 2007-2016 XML (macro enabled)</string>
+      <string id="desc_Calc_MS_Excel_2007_VBA_XML">Отключить фильтр импорта для формата файлов «Microsoft Excel 2007-2016 XML (macro enabled)».</string>
+      <string id="name_Calc_MS_Excel_2007_XML">Microsoft Excel 2007-2013 XML</string>
+      <string id="desc_Calc_MS_Excel_2007_XML">Отключить фильтр импорта для формата файлов «Microsoft Excel 2007-2013 XML».</string>
+      <string id="name_Calc_MS_Excel_2007_XML_Template">Microsoft Excel 2007-2013 XML Template</string>
+      <string id="desc_Calc_MS_Excel_2007_XML_Template">Отключить фильтр импорта для формата файлов «Microsoft Excel 2007-2013 XML Template».</string>
+      <string id="name_Calc_Office_Open_XML">Office Open XML Spreadsheet</string>
+      <string id="desc_Calc_Office_Open_XML">Отключить фильтр импорта для формата файлов «Office Open XML Spreadsheet».</string>
+      <string id="name_Calc_Office_Open_XML_Template">Office Open XML Spreadsheet Template</string>
+      <string id="desc_Calc_Office_Open_XML_Template">Отключить фильтр импорта для формата файлов «Office Open XML Spreadsheet Template».</string>
+      <string id="name_calc_StarOffice_XML_Calc_Template">OpenOffice.org 1.0 Spreadsheet Template</string>
+      <string id="desc_calc_StarOffice_XML_Calc_Template">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Spreadsheet Template».</string>
+      <string id="name_chart8">ODF Chart</string>
+      <string id="desc_chart8">Отключить фильтр импорта для формата файлов «ODF Chart».</string>
+      <string id="name_dBase">dBASE</string>
+      <string id="desc_dBase">Отключить фильтр импорта для формата файлов «dBASE».</string>
+      <string id="name_draw8">ODF Drawing</string>
+      <string id="desc_draw8">Отключить фильтр импорта для формата файлов «ODF Drawing».</string>
+      <string id="name_draw8_template">ODF Drawing Template</string>
+      <string id="desc_draw8_template">Отключить фильтр импорта для формата файлов «ODF Drawing Template».</string>
+      <string id="name_draw_PCD_Photo_CD_Base">PCD - Kodak Photo CD (768x512)</string>
+      <string id="desc_draw_PCD_Photo_CD_Base">Отключить фильтр импорта для формата файлов «PCD - Kodak Photo CD (768x512)».</string>
+      <string id="name_draw_PCD_Photo_CD_Base16">PCD - Kodak Photo CD (192x128)</string>
+      <string id="desc_draw_PCD_Photo_CD_Base16">Отключить фильтр импорта для формата файлов «PCD - Kodak Photo CD (192x128)».</string>
+      <string id="name_draw_PCD_Photo_CD_Base4">PCD - Kodak Photo CD (384x256)</string>
+      <string id="desc_draw_PCD_Photo_CD_Base4">Отключить фильтр импорта для формата файлов «PCD - Kodak Photo CD (384x256)».</string>
+      <string id="name_draw_StarOffice_XML_Draw_Template">OpenOffice.org 1.0 Drawing Template</string>
+      <string id="desc_draw_StarOffice_XML_Draw_Template">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Drawing Template».</string>
+      <string id="name_impress8">ODF Presentation</string>
+      <string id="desc_impress8">Отключить фильтр импорта для формата файлов «ODF Presentation».</string>
+      <string id="name_impress8_draw">ODF Drawing (Impress)</string>
+      <string id="desc_impress8_draw">Отключить фильтр импорта для формата файлов «ODF Drawing (Impress)».</string>
+      <string id="name_impress8_template">ODF Presentation Template</string>
+      <string id="desc_impress8_template">Отключить фильтр импорта для формата файлов «ODF Presentation Template».</string>
+      <string id="name_Impress_MS_PowerPoint_2007_XML">Microsoft PowerPoint 2007-2013 XML</string>
+      <string id="desc_Impress_MS_PowerPoint_2007_XML">Отключить фильтр импорта для формата файлов «Microsoft PowerPoint 2007-2013 XML».</string>
+      <string id="name_Impress_MS_PowerPoint_2007_XML_AutoPlay">Microsoft PowerPoint 2007-2013 XML AutoPlay</string>
+      <string id="desc_Impress_MS_PowerPoint_2007_XML_AutoPlay">Отключить фильтр импорта для формата файлов «Microsoft PowerPoint 2007-2013 XML AutoPlay».</string>
+      <string id="name_Impress_MS_PowerPoint_2007_XML_Template">Microsoft PowerPoint 2007-2013 XML Template</string>
+      <string id="desc_Impress_MS_PowerPoint_2007_XML_Template">Отключить фильтр импорта для формата файлов «Microsoft PowerPoint 2007-2013 XML Template».</string>
+      <string id="name_Impress_MS_PowerPoint_2007_XML_VBA">Microsoft PowerPoint 2007-2013 XML VBA</string>
+      <string id="desc_Impress_MS_PowerPoint_2007_XML_VBA">Отключить фильтр импорта для формата файлов «Microsoft PowerPoint 2007-2013 XML VBA».</string>
+      <string id="name_Impress_Office_Open_XML">Office Open XML Presentation</string>
+      <string id="desc_Impress_Office_Open_XML">Отключить фильтр импорта для формата файлов «Office Open XML Presentation».</string>
+      <string id="name_Impress_Office_Open_XML_AutoPlay">Office Open XML Presentation AutoPlay</string>
+      <string id="desc_Impress_Office_Open_XML_AutoPlay">Отключить фильтр импорта для формата файлов «Office Open XML Presentation AutoPlay».</string>
+      <string id="name_Impress_Office_Open_XML_Template">Office Open XML Presentation Template</string>
+      <string id="desc_Impress_Office_Open_XML_Template">Отключить фильтр импорта для формата файлов «Office Open XML Presentation Template».</string>
+      <string id="name_impress_StarOffice_XML_Draw">OpenOffice.org 1.0 Drawing (Impress)</string>
+      <string id="desc_impress_StarOffice_XML_Draw">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Drawing (Impress)».</string>
+      <string id="name_impress_StarOffice_XML_Impress_Template">OpenOffice.org 1.0 Presentation Template</string>
+      <string id="desc_impress_StarOffice_XML_Impress_Template">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Presentation Template».</string>
+      <string id="name_math8">ODF Formula</string>
+      <string id="desc_math8">Отключить фильтр импорта для формата файлов «ODF Formula».</string>
+      <string id="name_MOV__MOV">MOV - QuickTime File Format</string>
+      <string id="desc_MOV__MOV">Отключить фильтр импорта для формата файлов «MOV - QuickTime File Format».</string>
+      <string id="name_writer8">ODF Text Document</string>
+      <string id="desc_writer8">Отключить фильтр импорта для формата файлов «ODF Text Document».</string>
+      <string id="name_writer8_template">ODF Text Document Template</string>
+      <string id="desc_writer8_template">Отключить фильтр импорта для формата файлов «ODF Text Document Template».</string>
+      <string id="name_writer_MIZI_Hwp_97">Hangul WP 97</string>
+      <string id="desc_writer_MIZI_Hwp_97">Отключить фильтр импорта для формата файлов «Hangul WP 97».</string>
+      <string id="name_writer_StarOffice_XML_Writer_Template">OpenOffice.org 1.0 Text Document Template</string>
+      <string id="desc_writer_StarOffice_XML_Writer_Template">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Text Document Template».</string>
+      <string id="name_writer_globaldocument_StarOffice_XML_Writer_GlobalDocument">OpenOffice.org 1.0 Master Document</string>
+      <string id="desc_writer_globaldocument_StarOffice_XML_Writer_GlobalDocument">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 Master Document».</string>
+      <string id="name_writer_web_HTML_help">Содержимое справки</string>
+      <string id="desc_writer_web_HTML_help">Отключить фильтр импорта для формата файлов «содержимое справки».</string>
+      <string id="name_writer_web_StarOffice_XML_Writer_Web_Template">OpenOffice.org 1.0 HTML Template</string>
+      <string id="desc_writer_web_StarOffice_XML_Writer_Web_Template">Отключить фильтр импорта для формата файлов «OpenOffice.org 1.0 HTML Template».</string>
+      <string id="name_writerglobal8">ODF Master Document</string>
+      <string id="desc_writerglobal8">Отключить фильтр импорта для формата файлов «ODF Master Document».</string>
+      <string id="name_writerglobal8_template">ODF Master Document Template</string>
+      <string id="desc_writerglobal8_template">Отключить фильтр импорта для формата файлов «ODF Master Document Template».</string>
+      <string id="name_writerweb8_writer_template">HTML Document Template</string>
+      <string id="desc_writerweb8_writer_template">Отключить фильтр импорта для формата файлов «HTML Document Template».</string>
+
+      <string id="category_OpenCL">OpenCL</string>
+      <string id="name_UseOpenCL">Использовать OpenCL</string>
+      <string id="desc_UseOpenCL">Определяет, можно ли использовать OpenCL (при наличии) для ускорения некоторых операций.</string>
+
+      <string id="UserProfile">Данные пользователя</string>
+      <string id="UPUserName">Имя пользователя</string>
+      <string id="desc_UPUserName">Имя пользователя
+
+Если выбрано получение из LDAP, значением является атрибут LDAP, содержащий имя пользователя; параметры серверной части конфигурации LDAP определяют, как подключаться к серверу LDAP. Получение значения из LDAP работает только в Collabora Office Classic и LibreOffice.</string>
+      <string id="UPCompanyName">Название организации</string>
+      <string id="desc_UPCompanyName">Название организации
+
+Если выбрано получение из LDAP, значением является атрибут LDAP, содержащий название организации; параметры серверной части конфигурации LDAP определяют, как подключаться к серверу LDAP. Получение значения из LDAP работает только в Collabora Office Classic и LibreOffice.</string>
+      <string id="UPAddress">Адрес</string>
+      <string id="desc_UPAddress">Адрес
+
+Если для какой-либо части выбрано получение из LDAP, значением является атрибут LDAP; параметры серверной части конфигурации LDAP определяют, как подключаться к серверу LDAP. Получение значения из LDAP работает только в Collabora Office Classic и LibreOffice.</string>
+      <string id="UPTelephone">Телефон/факс</string>
+      <string id="desc_UPTelephone">Телефон/факс
+
+Если для какой-либо части выбрано получение из LDAP, значением является атрибут LDAP; параметры серверной части конфигурации LDAP определяют, как подключаться к серверу LDAP. Получение значения из LDAP работает только в Collabora Office Classic и LibreOffice.</string>
+      <string id="UPMail">Адрес электронной почты</string>
+      <string id="desc_UPMail">Адрес электронной почты
+
+Если выбрано получение из LDAP, значением является атрибут LDAP, содержащий адрес электронной почты; параметры серверной части конфигурации LDAP определяют, как подключаться к серверу LDAP. Получение значения из LDAP работает только в Collabora Office Classic и LibreOffice.</string>
+      <string id="UPTitle">Звание</string>
+      <string id="desc_UPTitle">Звание
+
+Если выбрано получение из LDAP, значением является атрибут LDAP, содержащий звание; параметры серверной части конфигурации LDAP определяют, как подключаться к серверу LDAP. Получение значения из LDAP работает только в Collabora Office Classic и LibreOffice.</string>
+      <string id="UPPosition">Должность</string>
+      <string id="desc_UPPosition">Должность
+
+Если выбрано получение из LDAP, значением является атрибут LDAP, содержащий должность; параметры серверной части конфигурации LDAP определяют, как подключаться к серверу LDAP. Получение значения из LDAP работает только в Collabora Office Classic и LibreOffice.
+
+Примечание: при выборе «Из Windows» это поле остаётся пустым, так как серверная часть Windows никогда его не заполняет.</string>
+      <string id="category_Paths">Пути</string>
+      <string id="name_AutoCorrect">Путь к файлам автозамены</string>
+      <string id="name_AutoText">Путь к файлам автотекста</string>
+      <string id="name_Dictionary">Путь к файлам словарей</string>
+      <string id="name_Gallery">Путь к файлам галереи</string>
+      <string id="name_Templates">Путь к файлам шаблонов</string>
+      <string id="name_MyDocuments">Путь к папке «Мои документы»</string>
+      <string id="name_Graphic">Путь к файлам изображений</string>
+      <string id="name_Backup">Путь к файлам резервных копий</string>
+      <string id="name_Temp">Путь к временным файлам</string>
+
+
+      <string id="category_Passwords">Пароли</string>
+      <string id="name_TrySystemCredentialsFirst">Использовать системные учётные данные</string>
+      <string id="desc_TrySystemCredentialsFirst">Определяет, следует ли автоматически пытаться использовать проверку подлинности с системными учётными данными для всех ресурсов, которые её поддерживают.</string>
+
+      <string id="category_View">Вид</string>
+      <string id="name_SymbolStyle">Стиль значков</string>
+      <string id="desc_SymbolStyle">Задаёт тему значков панелей инструментов, меню и т. д. «Автоматически» означает выбор в соответствии с рабочим столом, по умолчанию используется Colibre. Collabora Office поддерживает только Colibre и Colibre (тёмная), остальные темы значков действуют только в Collabora Office Classic и LibreOffice.</string>
+      <string id="auto">Автоматически</string>
+      <string id="colibre">Colibre</string>
+      <string id="colibre_dark">Colibre (тёмная)</string>
+      <string id="breeze">Breeze</string>
+      <string id="breeze_dark">Breeze (тёмная)</string>
+      <string id="elementary">Elementary</string>
+      <string id="karasa_jaga">Karasa Jaga</string>
+      <string id="sifr">Sifr</string>
+      <string id="sifr_dark">Sifr (тёмная)</string>
+      <string id="sukapura">Sukapura</string>
+      <string id="sukapura_dark">Sukapura (тёмная)</string>
+      <string id="small">Маленькие</string>
+      <string id="large">Большие</string>
+      <string id="name_UseSkia">UseSkia</string>
+      <string id="desc_UseSkia">Определяет, следует ли использовать отрисовку Skia в серверных частях VCL, которые её поддерживают. Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+      <string id="name_ForceSkia">Принудительно использовать Skia</string>
+      <string id="desc_ForceSkia">Определяет, следует ли использовать отрисовку Skia в серверных частях VCL, которые её поддерживают. Этот параметр принудительно включает Skia, даже если драйвер Skia заблокирован чёрным списком. Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+      <string id="name_ForceSkiaRaster">Принудительно использовать Skia Raster</string>
+      <string id="desc_ForceSkiaRaster">Определяет, следует ли использовать растровую отрисовку Skia Raster в серверных частях VCL, которые её поддерживают. Этот параметр принудительно включает Skia Raster, даже если драйвер Skia заблокирован чёрным списком. Этот параметр действует только в Collabora Office Classic и LibreOffice версии 26.2 и более ранних.</string>
+      <string id="name_ForceSkiaGPU">Принудительно использовать Skia GPU</string>
+      <string id="desc_ForceSkiaGPU">Определяет, следует ли использовать аппаратное ускорение Skia в серверных частях VCL, которые его поддерживают. Этот параметр принудительно включает аппаратное ускорение Skia вместо программной отрисовки Skia. Этот параметр действует только в LibreOffice.</string>
+
+      <string id="category_UserInterface">Пользовательский интерфейс</string>
+      <string id="name_ToolbarModeWriter">Интерфейс Writer</string>
+      <string id="name_ToolbarModeCalc">Интерфейс Calc</string>
+      <string id="name_ToolbarModeImpress">Интерфейс Impress</string>
+      <string id="name_ToolbarModeDraw">Интерфейс Draw</string>
+      <string id="desc_ToolbarMode">Выбирает раскладку панелей инструментов, с которой запускается приложение. Это тот же параметр, который пользователь может изменить в меню «Вид - Пользовательский интерфейс».
+
+Политика задаёт значение для пользователей, которые не выбрали интерфейс самостоятельно. Если пользователь позже изменит интерфейс, его выбор сохраняется, поскольку параметр, хранящийся в профиле пользователя, имеет приоритет над политикой.
+
+Таким способом можно применить только стандартную панель инструментов и раскладки на основе ленты (Notebookbar). Режимы «Одна панель инструментов» и «Боковая панель» не предлагаются, так как расположение их панелей инструментов и боковой панели формируется только тогда, когда пользователь переключается на них из самого приложения.
+
+Раскладки на основе ленты (Notebookbar) действуют только в Collabora Office Classic и LibreOffice. В Collabora Office доступна только стандартная панель инструментов.</string>
+      <string id="toolbarmode_Default">Стандартная панель инструментов</string>
+      <string id="toolbarmode_Tabbed">Вкладки</string>
+      <string id="toolbarmode_TabbedCompact">Вкладки (компактный)</string>
+      <string id="toolbarmode_GroupedbarCompact">Сгруппированная панель (компактный)</string>
+      <string id="toolbarmode_ContextualSingle">Контекстная одиночная панель</string>
+
+      <string id="category_Print">Печать</string>
+      <string id="name_ConvertToGreyscales">Преобразовывать цвета в оттенки серого</string>
+      <string id="desc_ConvertToGreyscales">Указывает, создавать ли вывод всех объектов только в оттенках серого.</string>
+      <string id="name_PrinterWarnings">Предупреждения принтера</string>
+      <string id="desc_PrinterWarnings">Предупреждения принтера</string>
+
+      <string id="category_Accessibility">Специальные возможности</string>
+      <string id="name_IsSelectionInReadonly">Использовать курсор выделения текста в текстовых документах только для чтения</string>
+      <string id="desc_IsSelectionInReadonly">Указывает, отображается ли курсор в текстах только для чтения.</string>
+      <string id="name_HelpTipsDisappear">Подсказки исчезают через...</string>
+      <string id="desc_HelpTipsDisappear">Включает или отключает автоматическое закрытие подсказок по тайм-ауту. Можно указать длительность (n) от 1 до 99 секунд. Если параметр отключён, для закрытия подсказки нажмите клавишу Esc.</string>
+      <string id="name_IsAutomaticFontColor">Использовать автоматический цвет шрифта для экранного отображения</string>
+      <string id="desc_IsAutomaticFontColor">Переопределяет все атрибуты цвета текста, заданные в документе, только для отображения на экране.</string>
+      <string id="name_IsForPagePreviews">Использовать системные цвета для просмотра страниц</string>
+      <string id="desc_IsForPagePreviews">Включает использование цветов высокой контрастности вместо отображения обычных (исходных) цветов WYSIWYG.</string>
+
+      <string id="category_FontSubstitutions">Замена шрифтов</string>
+      <string id="name_UseFontSubstitutions">Использовать замену шрифтов</string>
+      <string id="desc_UseFontSubstitutions">Позволяет LibreOffice использовать таблицу замены шрифтов</string>
+      <string id="name_FontPair_0">Пара шрифтов 0</string>
+      <string id="name_FontPair_1">Пара шрифтов 1</string>
+      <string id="name_FontPair_2">Пара шрифтов 2</string>
+      <string id="name_FontPair_3">Пара шрифтов 3</string>
+      <string id="name_FontPair_4">Пара шрифтов 4</string>
+      <string id="name_FontPair_5">Пара шрифтов 5</string>
+      <string id="name_FontPair_6">Пара шрифтов 6</string>
+      <string id="name_FontPair_7">Пара шрифтов 7</string>
+      <string id="name_FontPair_8">Пара шрифтов 8</string>
+      <string id="name_FontPair_9">Пара шрифтов 9</string>
+      <string id="desc_FontPair">Определяет пару для замены шрифта</string>
+
+      <string id="category_PDFExport">Экспорт в PDF</string>
+      <string id="name_SelectPDFExport">Выберите предпочтительные параметры экспорта в PDF</string>
+      <string id="desc_SelectPDFExport">Выберите параметры экспорта в PDF по умолчанию</string>
+
+      <string id="category_Infobars">Информационные панели</string>
+      <string id="name_InfobarReadonly">Только чтение</string>
+      <string id="desc_InfobarReadonly">Включена ли информационная панель, отображаемая в документах только для чтения</string>
+      <string id="name_InfobarSignature">Подпись</string>
+      <string id="desc_InfobarSignature">Включена ли информационная панель, показывающая состояние цифровой подписи</string>
+      <string id="name_InfobarDonate">Пожертвование</string>
+      <string id="desc_InfobarDonate">Включена ли информационная панель с призывом к пожертвованиям</string>
+      <string id="name_InfobarGetInvolved">Принять участие</string>
+      <string id="desc_InfobarGetInvolved">Включена ли информационная панель с призывом «Принять участие»</string>
+      <string id="name_InfobarHyphenationMissing">Отсутствует перенос слов</string>
+      <string id="desc_InfobarHyphenationMissing">Отображается ли информационная панель, если для документа отсутствуют сведения о переносе слов</string>
+      <string id="name_InfobarWhatsNew">Что нового</string>
+      <string id="desc_InfobarWhatsNew">Отображается ли информационная панель при изменении номера основной версии</string>
+      <string id="name_InfobarHiddenTrackChanges">Скрытые записанные изменения</string>
+      <string id="desc_InfobarHiddenTrackChanges">Отображается ли информационная панель, если в документе есть скрытые параметры или данные записи изменений</string>
+
+      <string id="category_Writer">Writer</string>
+      <string id="desc_SaveAsFormat">Всегда сохранять в этом формате документов. Обратите внимание, что только формат Open Document Format (ODF) гарантирует полную целостность данных.</string>
+      <string id="odt">ODF Text Document</string>
+      <string id="docx">Microsoft Word 2007/2010 XML</string>
+      <string id="doc">Microsoft Word 97/2000/XP/2003</string>
+      <string id="rtf">Rich Text (RTF)</string>
+      <string id="category_WriterDefaultFonts">Шрифты по умолчанию</string>
+      <string id="name_WriterDefaultFontsWestern">Шрифты по умолчанию (западные)</string>
+      <string id="desc_WriterDefaultFontsWestern">Задаёт шрифт для западного текста (латиница, кириллица, греческий и др.).
+
+Высота шрифта выражается в миллиметрах*100, что соответствует размеру в пунктах, умноженному на 35,2777. Например, чтобы задать размер шрифта 12 пунктов, укажите высоту 423.</string>
+      <string id="name_WriterDefaultFontsCJK">Шрифты по умолчанию (CJK)</string>
+      <string id="desc_WriterDefaultFontsCJK">Задаёт шрифт для китайского, японского и корейского текста.
+
+Высота шрифта выражается в миллиметрах*100, что соответствует размеру в пунктах, умноженному на 35,2777. Например, чтобы задать размер шрифта 12 пунктов, укажите высоту 423.</string>
+      <string id="name_WriterDefaultFontsCTL">Шрифты по умолчанию (CTL)</string>
+      <string id="desc_WriterDefaultFontsCTL">Задаёт шрифт для текста со сложной компоновкой (арабский, индийские языки и др.).
+
+Высота шрифта выражается в миллиметрах*100, что соответствует размеру в пунктах, умноженному на 35,2777. Например, чтобы задать размер шрифта 12 пунктов, укажите высоту 423.</string>
+      <string id="name_PrintEmptyPages">Печатать пустые страницы</string>
+      <string id="desc_PrintEmptyPages">Определяет, печатаются ли пустые страницы.</string>
+      <string id="name_AllSheets">Печатать только выбранные листы</string>
+      <string id="desc_AllSheets">Определяет, печатаются ли все листы вместо только выбранных листов.</string>
+      <string id="category_AutoText">Автотекст</string>
+      <string id="name_AutoTextShowTooltip">Подсказка</string>
+      <string id="desc_AutoTextShowTooltip">Отображать оставшуюся часть имени как подсказку при вводе</string>
+      <string id="category_Forms">Формы</string>
+      <string id="name_MSOFormsMenu">Элементы управления форм, совместимые с MS Office</string>
+      <string id="desc_MSOFormsMenu">Определяет, следует ли настроить меню «Форма» для рабочего процесса, совместимого с Microsoft Office. Совместимое с Microsoft Office меню «Форма» содержит только элементы управления форм, совместимые с Microsoft Office.</string>
+
+      <string id="category_Calc">Calc</string>
+      <string id="ods">ODF Spreadsheet</string>
+      <string id="xlsx">Microsoft Excel 2007/2010 XML</string>
+      <string id="xls">Microsoft Excel 97-2003 XLS</string>
+
+      <string id="category_Calculate">Вычисления</string>
+
+      <string id="name_CaseSensitive">С учётом регистра</string>
+      <string id="desc_CaseSensitive">Различать прописные и строчные буквы в тексте при сравнении содержимого ячеек</string>
+      <string id="name_Precision">Точность как на экране</string>
+      <string id="desc_Precision">Определяет, используются ли при вычислениях округлённые значения, отображаемые на листе.</string>
+      <string id="name_SearchCriteria">Критерии поиска = и &lt;&gt; должны применяться к ячейкам целиком</string>
+      <string id="desc_SearchCriteria">Определяет, должны ли критерии поиска в формулах совпадать с содержимым ячейки целиком.</string>
+      <string id="name_FindLabel">Автоматически находить заголовки столбцов и строк</string>
+      <string id="desc_FindLabel">Определяет, используются ли заголовки столбцов и строк для обращения к области столбца под текстовой ячейкой или к области строки справа от текстовой ячейки при выполнении поиска.</string>
+      <string id="name_RegularExpressions">Регулярные выражения в формулах</string>
+      <string id="desc_RegularExpressions">Определяет, используются ли при вычислениях регулярные выражения в формулах, например в функциях, выполняющих поиск по содержимому листа.</string>
+      <string id="name_Wildcards">Подстановочные знаки в формулах</string>
+      <string id="desc_Wildcards">Определяет, используются ли при вычислениях подстановочные знаки в формулах, например в функциях, выполняющих поиск по содержимому листа.</string>
+
+      <string id="category_Formulas">Формулы</string>
+      <string id="name_EnglishFunctionName">Английские имена функций</string>
+      <string id="desc_EnglishFunctionName">Использовать английские имена функций, даже если интерфейс локализован.</string>
+      <string id="name_RecalcMode">Пересчёт электронных таблиц при загрузке</string>
+      <string id="desc_RecalcMode">Определяет, выполнять ли принудительный полный пересчёт ячеек с формулами после загрузки документов ODF, созданных не в LibreOffice, и/или документов Excel на основе OOXML (2007 и новее).</string>
+      <string id="alwaysrecalc">Всегда пересчитывать</string>
+      <string id="neverrecalc">Никогда не пересчитывать</string>
+      <string id="promptrecalc">Запрашивать у пользователя</string>
+
+      <string id="category_MergeCells">Объединение ячеек</string>
+      <string id="name_ShowMergeDialog">Показывать диалог «Объединение ячеек»</string>
+      <string id="desc_ShowMergeDialog">Определяет, показывается ли диалог «Объединение ячеек», если некоторые ячейки не пусты.</string>
+      <string id="desc_EmptyMergedCells">Определяет, очищать ли содержимое скрытых ячеек (как это делает Excel).</string>
+      <string id="name_EmptyMergedCells">Очищать объединённые ячейки</string>
+
+      <string id="category_Impress">Impress</string>
+      <string id="odp">ODF Presentation</string>
+      <string id="pptx">Microsoft PowerPoint 2007/2010 XML</string>
+      <string id="ppt">Microsoft PowerPoint 97/2000/XP/2003</string>
+
+      <string id="desc_WriterDefaultTemplate">Задаёт URL файла стандартного шаблона для текстовых документов.</string>
+      <string id="desc_CalcDefaultTemplate">Задаёт URL файла стандартного шаблона для электронных таблиц.</string>
+      <string id="desc_ImpressDefaultTemplate">Задаёт URL файла стандартного шаблона для презентаций.</string>
+
+      <string id="SaveAsFormat">Формат сохранения</string>
+      <string id="Print">Печать</string>
+      <string id="DefaultTemplate">Шаблон по умолчанию</string>
+      <string id="PathListExplain">Пути к каталогам и файлам необходимо вводить в синтаксисе URL файла, как описано ниже.
+Локальный диск или сетевой диск, сопоставленный букве диска, например C:
+    file:///C:/path/file.ext
+UNC-путь
+    file://server/share/path/file.ext
+
+Пробелы и символы, отличные от ASCII, должны быть закодированы в URL; например, пробел необходимо записывать как %20.
+
+Можно использовать следующие переменные путей:
+    $(inst)  = расположение установки
+    $(user)  = расположение профиля пользователя
+    $(username) = имя входа пользователя без имени домена (начиная с версии 5.2)
+    $(work)  = папка «Мои документы» пользователя
+    $(home)  = домашний каталог пользователя
+    $(temp)  = расположение временных файлов пользователя
+    $(vlang) = текущий код языка (например, ru-RU, fr, hu)
+
+Пути в списках путей необходимо разделять пробелами.</string>
+      <string id="name_ViewerAppMode">Режим просмотра</string>
+      <string id="desc_ViewerAppMode">Отключить все возможности редактирования в приложении и открывать все документы только для чтения.</string>
+      <string id="category_CommonHelp">Справка</string>
+      <string id="category_Table">Таблица</string>
+      <string id="category_Jobs">Задания</string>
+      <string id="name_LoadPrinter">Загружать параметры принтера вместе с документом</string>
+      <string id="desc_LoadPrinter">Определяет, загружаются ли параметры принтера вместе с документом.</string>
+      <string id="name_CheckDocumentEvents">Проверять события документа</string>
+      <string id="desc_CheckDocumentEvents">Предупреждать при загрузке, если документ связывает событие с макросом</string>
+      <string id="name_HelpExtendedTip">Расширенные подсказки</string>
+      <string id="desc_HelpExtendedTip">Включает расширенную справку во всплывающих подсказках</string>
+      <string id="name_UpdateCheckEnabled">Проверка обновлений включена</string>
+      <string id="desc_UpdateCheckEnabled">Включить автоматическую проверку обновлений. Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+      <string id="name_PDFExportFormFields">Экспортировать поля форм как виджеты</string>
+      <string id="desc_PDFExportFormFields">Определяет, экспортируются ли поля форм как виджеты или только их фиксированное представление для печати.</string>
+      <string id="name_PDFExportPlaceholders">Экспортировать поля-заполнители в PDF</string>
+      <string id="desc_PDFExportPlaceholders">Определяет, экспортируются ли поля-заполнители в PDF.</string>
+      <string id="name_AutoTextApplyNumbering">Маркированные и нумерованные списки</string>
+      <string id="desc_AutoTextApplyNumbering">Определяет, создаётся ли нумерованный или маркированный текст автоматически при вводе.</string>
+      <string id="name_WordCompletionMinWordLen">Минимальная длина слова для автозавершения слов</string>
+      <string id="desc_WordCompletionMinWordLen">Задаёт минимальную длину слова для автозавершения слов.</string>
+      <string id="name_TableNumberRecognition">Распознавание чисел</string>
+      <string id="desc_TableNumberRecognition">Определяет, распознаются ли числа в таблице или они сохраняются в текстовом формате.</string>
+      <string id="pdf_DefaultVersion">По умолчанию</string>
+      <string id="pdf_PDF_A_1">PDF/A-1</string>
+      <string id="pdf_PDF_A_2">PDF/A-2 (LibreOffice, начиная с 6.3)</string>
+      <string id="pdf_PDF_A_3">PDF/A-3 (LibreOffice, начиная с 6.4)</string>
+      <string id="pdf_PDF_A_4">PDF/A-4</string>
+      <string id="pdf_PDF_1_5">PDF 1.5 (LibreOffice, начиная с 6.1)</string>
+      <string id="pdf_PDF_1_6">PDF 1.6 (LibreOffice, начиная с 7.0)</string>
+      <string id="pdf_PDF_1_7">PDF 1.7</string>
+      <string id="pdf_PDF_2_0">PDF 2.0</string>
+
+      <string id="supported_CO_22_05">Collabora Office 22.05 или выше</string>
+      <string id="supported_CO_24_04">Collabora Office 24.04 или выше</string>
+      <string id="supported_CO_25_04">Collabora Office 25.04 или выше</string>
+      <string id="supported_LibreOffice_26_8">LibreOffice 26.8 или выше</string>
+
+      <string id="proxy_none">Нет</string>
+      <string id="proxy_system">Системный</string>
+      <string id="proxy_manual">Вручную</string>
+      <string id="exotic_refuse">Отказывать в загрузке</string>
+      <string id="exotic_ask">Спрашивать пользователя</string>
+      <string id="exotic_load">Всегда загружать</string>
+      <string id="link_always">Всегда</string>
+      <string id="link_never">Никогда</string>
+      <string id="link_onrequest">По запросу</string>
+      <string id="name_ProxyType">Настройка прокси-сервера</string>
+      <string id="desc_ProxyType">Определяет, как выбирается прокси-сервер для сетевых подключений.
+
+Нет: подключаться напрямую, без прокси-сервера.
+Системный: использовать параметры прокси операционной системы.
+Вручную: использовать прокси-серверы, указанные в параметрах приложения.</string>
+      <string id="name_AllowInsecureProtocols">Разрешить небезопасные сетевые протоколы</string>
+      <string id="desc_AllowInsecureProtocols">Определяет, можно ли использовать незашифрованные сетевые протоколы, такие как HTTP, SMTP и FTP. Если параметр отключён, устанавливаются только зашифрованные подключения.</string>
+      <string id="name_DisableActiveContent">Отключить активное содержимое</string>
+      <string id="desc_DisableActiveContent">Определяет, отключено ли активное содержимое в документах. Если параметр включён, внедрённые объекты OLE не активируются, а связи DDE не обновляются.</string>
+      <string id="name_DisableOLEAutomation">Отключить автоматизацию OLE</string>
+      <string id="desc_DisableOLEAutomation">Определяет, отключён ли интерфейс автоматизации OLE. Если параметр включён, другие приложения не могут управлять Collabora Office через автоматизацию OLE.</string>
+      <string id="name_DisablePythonRuntime">Отключить среду выполнения Python</string>
+      <string id="desc_DisablePythonRuntime">Определяет, отключена ли среда выполнения Python. Если параметр включён, макросы, скрипты и расширения, написанные на Python, не работают.</string>
+      <string id="name_AllowedDocumentEventURLs">Макросы, разрешённые для запуска из событий документа</string>
+      <string id="desc_AllowedDocumentEventURLs">Список URL-адресов скриптов, которые разрешено вызывать из событий документа (например, при открытии документа). Запись может быть полным URL-адресом скрипта, его началом или регулярным выражением, например:
+    vnd.sun.star.script:Standard.Module1.Main?language=Basic&amp;location=user
+    vnd.sun.star.script:Standard.Module1
+    .*location=application.*
+
+Разделяйте записи пробелами. Если эта политика не задана, разрешены все URL-адреса событий документа.</string>
+      <string id="name_LoadExoticFileFormats">Загрузка редко используемых форматов файлов</string>
+      <string id="desc_LoadExoticFileFormats">Определяет, как обрабатываются файлы в редко используемых устаревших форматах при их открытии.</string>
+      <string id="name_TSAURLs">URL-адреса службы меток времени</string>
+      <string id="desc_TSAURLs">Список серверов службы меток времени (TSA), которые можно выбрать при подписании экспортируемого PDF. Разделяйте URL-адреса пробелами.</string>
+      <string id="name_PasswordPolicy">Политика паролей</string>
+      <string id="desc_PasswordPolicy">Регулярное выражение, которому должен соответствовать пароль, когда пользователь задаёт пароль для защиты или шифрования документа. Пароль, не соответствующий выражению, отклоняется.
+
+Например, следующая политика требует не менее восьми символов, включая как минимум одну прописную букву, одну строчную букву и одну цифру:
+    ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$</string>
+      <string id="name_PasswordUseStorage">Сохранять пароли постоянно</string>
+      <string id="desc_PasswordUseStorage">Определяет, можно ли постоянно сохранять в профиле пользователя пароли для веб-подключений.</string>
+      <string id="name_AuthenticateUsingSystemCredentials">URL-адреса, доступ к которым выполняется с системными учётными данными</string>
+      <string id="desc_AuthenticateUsingSystemCredentials">Список URL-адресов, доступ к которым выполняется с системными учётными данными пользователя. Разделяйте URL-адреса пробелами.</string>
+      <string id="name_CalcUpdateLink">Обновлять связи при загрузке</string>
+      <string id="desc_CalcUpdateLink">Определяет, обновляются ли связи с внешними данными в электронных таблицах при загрузке документа.</string>
+      <string id="name_WriterUpdateLink">Обновлять связи при загрузке</string>
+      <string id="desc_WriterUpdateLink">Определяет, обновляются ли связи с другими документами в текстовых документах при загрузке документа.</string>
+      <string id="name_EPUB">EPUB Document</string>
+      <string id="desc_EPUB">Отключить фильтр экспорта для формата файлов «EPUB Document».</string>
+      <string id="name_Microsoft_Multiplan">Microsoft Multiplan</string>
+      <string id="desc_Microsoft_Multiplan">Отключить фильтр импорта для формата файлов «Microsoft Multiplan».</string>
+      <string id="name_PocketWord_File">Pocket Word</string>
+      <string id="desc_PocketWord_File">Отключить фильтр импорта для формата файлов «Pocket Word».</string>
+      <string id="name_writer_globaldocument_StarOffice_XML_Writer">OpenOffice.org 1.0 Text Document (from Master Document)</string>
+      <string id="desc_writer_globaldocument_StarOffice_XML_Writer">Отключить фильтр, сохраняющий главные документы в формате файлов «OpenOffice.org 1.0 Text Document».</string>
+      <string id="name_writer_web_StarOffice_XML_Writer">OpenOffice.org 1.0 Text Document (from HTML Document)</string>
+      <string id="desc_writer_web_StarOffice_XML_Writer">Отключить фильтр, сохраняющий HTML-документы в формате файлов «OpenOffice.org 1.0 Text Document».</string>
+      <string id="name_XHTML_Calc_File">XHTML (Calc)</string>
+      <string id="desc_XHTML_Calc_File">Отключить фильтр экспорта для формата файлов «XHTML (Calc)».</string>
+      <string id="name_XHTML_Draw_File">XHTML (Draw)</string>
+      <string id="desc_XHTML_Draw_File">Отключить фильтр экспорта для формата файлов «XHTML (Draw)».</string>
+      <string id="name_XHTML_Impress_File">XHTML (Impress)</string>
+      <string id="desc_XHTML_Impress_File">Отключить фильтр экспорта для формата файлов «XHTML (Impress)».</string>
+      <string id="name_XHTML_Writer_File">XHTML (Writer)</string>
+      <string id="desc_XHTML_Writer_File">Отключить фильтр экспорта для формата файлов «XHTML (Writer)».</string>
+    </stringTable>
+    <presentationTable>
+      <presentation id="LDAPConfigBackendSettings">
+        <text>Конфигурация сервера LDAP</text>
+        <textBox refId="LDAPUDServerDefinition_Server">
+          <label>Сервер:</label>
+          <defaultValue>example.com</defaultValue>
+        </textBox>
+        <decimalTextBox refId="LDAPUDServerDefinition_Port" defaultValue="389" spin="false">Порт:</decimalTextBox>
+        <text>Конфигурация поиска LDAP</text>
+        <textBox refId="LDAPUDSearchUser">
+          <label>Имя пользователя для привязки:</label>
+          <defaultValue>example\bindLdap</defaultValue>
+        </textBox>
+        <textBox refId="LDAPUDSearchPassword">
+          <label>Пароль для привязки:</label>
+        </textBox>
+        <textBox refId="LDAPUDServerDefinition_BaseDN">
+          <label>Базовое DN для поиска:</label>
+          <defaultValue>cn=Users,dc=example,dc=com</defaultValue>
+        </textBox>
+        <textBox refId="LDAPUDUserObjectClass">
+          <label>Класс объекта пользователя:</label>
+          <defaultValue>user</defaultValue>
+        </textBox>
+        <textBox refId="LDAPUDUserUniqueAttribute">
+          <label>Уникальный атрибут пользователя:</label>
+          <defaultValue>sAMAccountName</defaultValue>
+        </textBox>
+      </presentation>
+      <presentation id="ooName">
+        <text>Задаёт название продукта.</text>
+        <textBox refId="Value">
+          <label>Значение:</label>
+          <defaultValue>Collabora Office</defaultValue>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="UserDefinedSettings">
+        <checkBox refId="Value">Загружать пользовательские параметры вместе с документом</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="BuiltInHelpNotInstalledPopUp">
+        <checkBox refId="Value">Предупреждать, если локальная справка не установлена</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="UseUserData">
+        <checkBox refId="Value">Использовать данные пользователя для свойств документа</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="AutoSave">
+        <checkBox refId="Value">Сохранять информацию для автовосстановления</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+        <text>Сохранять информацию для автовосстановления каждые __ минут</text>
+        <text>Тип: целое число [1..60]</text>
+        <decimalTextBox refId="AutoSaveTimeIntervallValue" defaultValue="15" spin="true">Значение</decimalTextBox>
+        <checkBox refId="AutoSaveTimeIntervallFinal">Окончательное</checkBox>
+        <checkBox refId="AutoSavePromptValue">Также автоматически сохранять документ</checkBox>
+        <checkBox refId="AutoSavePromptFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="RecoveryInfo">
+        <checkBox refId="Value">Отключить функцию автовосстановления</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="CreateBackup">
+        <checkBox refId="Value">Всегда создавать резервную копию</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="EditProperty">
+        <checkBox refId="Value">Изменять свойства документа перед сохранением</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WarnAlienFormat">
+        <checkBox refId="Value">Предупреждать пользователя при сохранении в формате, отличном от ODF или формата по умолчанию</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="AutoCorrect">
+        <text>WritePath файлов автозамены. Это расположение, в которое записываются новые пользовательские файлы.</text>
+        <textBox refId="WritePathValue">
+          <label>Путь:</label>
+          <defaultValue>$(user)/autocorr</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Окончательное</checkBox>
+        <text>UserPaths файлов автозамены</text>
+        <textBox refId="UserPathsValue">
+          <label>Список путей:</label>
+          <defaultValue>$(inst)/share/autocorr $(user)/autocorr</defaultValue>
+        </textBox>
+        <checkBox refId="UserPathsFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="AutoText">
+        <text>WritePath файлов автотекста. Это расположение, в которое записываются новые пользовательские файлы.</text>
+        <textBox refId="WritePathValue">
+          <label>Путь:</label>
+          <defaultValue>$(user)/autotext</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Окончательное</checkBox>
+        <text>UserPaths файлов автотекста</text>
+        <textBox refId="UserPathsValue">
+          <label>Список путей:</label>
+          <defaultValue>$(inst)/share/autotext/$(vlang) $(user)/autotext</defaultValue>
+        </textBox>
+        <checkBox refId="UserPathsFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Dictionary">
+        <text>WritePath файлов словарей. Это расположение, в которое записываются новые пользовательские файлы.</text>
+        <textBox refId="WritePathValue">
+          <label>Путь:</label>
+          <defaultValue>$(user)/wordbook</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Окончательное</checkBox>
+        <text>UserPaths файлов словарей</text>
+        <textBox refId="UserPathsValue">
+          <label>Список путей:</label>
+          <defaultValue>$(inst)/share/wordbook $(inst)/share/wordbook/$(vlang) $(user)/wordbook</defaultValue>
+        </textBox>
+        <checkBox refId="UserPathsFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Gallery">
+        <text>WritePath файлов галереи. Это расположение, в которое записываются новые пользовательские файлы.</text>
+        <textBox refId="WritePathValue">
+          <label>Путь:</label>
+          <defaultValue>$(user)/gallery</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Окончательное</checkBox>
+        <text>UserPaths файлов галереи</text>
+        <textBox refId="UserPathsValue">
+          <label>Список путей:</label>
+          <defaultValue>$(inst)/share/gallery $(user)/gallery</defaultValue>
+        </textBox>
+        <checkBox refId="UserPathsFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Templates">
+        <text>WritePath файлов шаблонов. Это расположение, в которое записываются новые пользовательские файлы.</text>
+        <textBox refId="WritePathValue">
+          <label>Путь:</label>
+          <defaultValue>$(user)/template</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Окончательное</checkBox>
+        <text>UserPaths файлов шаблонов</text>
+        <textBox refId="UserPathsValue">
+          <label>Список путей:</label>
+          <defaultValue>$(user)/template</defaultValue>
+        </textBox>
+        <checkBox refId="UserPathsFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MyDocuments">
+        <text>Расположение папки «Мои документы».</text>
+        <textBox refId="WritePathValue">
+          <label>Путь:</label>
+          <defaultValue>$(work)</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Graphic">
+        <text>WritePath файлов изображений. Это расположение, в которое записываются новые пользовательские файлы.</text>
+        <textBox refId="WritePathValue">
+          <label>Путь:</label>
+          <defaultValue>$(user)/gallery</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Backup">
+        <text>WritePath файлов резервных копий. Это расположение, в которое записываются новые пользовательские файлы.</text>
+        <textBox refId="WritePathValue">
+          <label>Путь:</label>
+          <defaultValue>$(user)/backup</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Temp">
+        <text>WritePath временных файлов. Это расположение, в которое записываются новые пользовательские файлы.</text>
+        <textBox refId="WritePathValue">
+          <label>Путь:</label>
+          <defaultValue>$(temp)</defaultValue>
+        </textBox>
+        <checkBox refId="WritePathFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="UseSystemFileDialog">
+        <checkBox refId="Value">Использовать системный диалог выбора файлов</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="AllowOverrideLocking">
+        <checkBox refId="Value">Включить или отключить обход блокировки</checkBox>
+        <checkBox refId="Final">Запретить пользователю изменять этот параметр</checkBox>
+      </presentation>
+      <presentation id="ShowTipOfTheDay">
+        <checkBox refId="Value">Показывать «Совет дня»</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="UseSystemPrintDialog">
+        <checkBox refId="Value">Использовать системный диалог печати</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="UPUserName">
+        <textBox refId="GivenNameValue">
+          <label>Имя:</label>
+        </textBox>
+        <dropdownList refId="GivenNameFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+        <textBox refId="LastNameValue">
+          <label>Фамилия:</label>
+        </textBox>
+        <dropdownList refId="LastNameFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+        <textBox refId="InitialsValue">
+          <label>Инициалы:</label>
+        </textBox>
+        <dropdownList refId="InitialsFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+      </presentation>
+      <presentation id="UPCompanyName">
+        <textBox refId="CompanyNameValue">
+          <label>Название организации:</label>
+        </textBox>
+        <dropdownList refId="CompanyNameFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+      </presentation>
+      <presentation id="UPAddress">
+        <textBox refId="AddressStreetValue">
+          <label>Улица:</label>
+        </textBox>
+        <dropdownList refId="AddressStreetFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+        <textBox refId="AddressCityValue">
+          <label>Город:</label>
+        </textBox>
+        <dropdownList refId="AddressCityFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+        <textBox refId="AddressStateValue">
+          <label>Регион:</label>
+        </textBox>
+        <dropdownList refId="AddressStateFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+        <textBox refId="AddressPostalCodeValue">
+          <label>Почтовый индекс:</label>
+        </textBox>
+        <dropdownList refId="AddressPostalCodeFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+        <textBox refId="AddressCountryValue">
+          <label>Страна:</label>
+        </textBox>
+        <dropdownList refId="AddressCountryFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+      </presentation>
+      <presentation id="UPTelephone">
+        <textBox refId="HomePhoneValue">
+          <label>Телефон (дом.):</label>
+        </textBox>
+        <dropdownList refId="HomePhoneFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+        <textBox refId="TelephoneValue">
+          <label>Телефон (раб.):</label>
+        </textBox>
+        <dropdownList refId="TelephoneFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+        <textBox refId="FaxValue">
+          <label>Факс:</label>
+        </textBox>
+        <dropdownList refId="FaxFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+      </presentation>
+      <presentation id="UPMail">
+        <textBox refId="MailValue">
+          <label>Адрес электронной почты:</label>
+        </textBox>
+        <dropdownList refId="MailFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+      </presentation>
+      <presentation id="UPTitle">
+        <textBox refId="TitleValue">
+          <label>Звание:</label>
+        </textBox>
+        <dropdownList refId="TitleFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+      </presentation>
+      <presentation id="UPPosition">
+        <textBox refId="PositionValue">
+          <label>Должность:</label>
+        </textBox>
+        <dropdownList refId="PositionFlags" noSort="true" defaultItem="0">Флаги:</dropdownList>
+      </presentation>
+      <presentation id="WriterSaveAsFormat">
+        <text>Всегда сохранять в этом формате документов.</text>
+        <dropdownList refId="Value" defaultItem="2">Значение</dropdownList>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="CalcSaveAsFormat">
+        <text>Всегда сохранять в этом формате документов.</text>
+        <dropdownList refId="Value" defaultItem="2">Значение</dropdownList>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ImpressSaveAsFormat">
+        <text>Всегда сохранять в этом формате документов.</text>
+        <dropdownList refId="Value" defaultItem="2">Значение</dropdownList>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WriterDefaultTemplate">
+        <textBox refId="Value">
+          <label>URL файла:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="CalcDefaultTemplate">
+        <textBox refId="Value">
+          <label>URL файла:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ImpressDefaultTemplate">
+        <textBox refId="Value">
+          <label>URL файла:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WriterDefaultFontsWestern">
+        <text>По умолчанию</text>
+        <textBox refId="WriterDefaultFontsWesternDefaultFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsWesternDefaultFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsWesternDefaultFontSizeValue" defaultValue="423" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsWesternDefaultFontSizeFinal">Окончательное</checkBox>
+        <text>Заголовок</text>
+        <textBox refId="WriterDefaultFontsWesternHeadingFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsWesternHeadingFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsWesternHeadingFontSizeValue" defaultValue="494" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsWesternHeadingFontSizeFinal">Окончательное</checkBox>
+        <text>Список</text>
+        <textBox refId="WriterDefaultFontsWesternListFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsWesternListFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsWesternListFontSizeValue" defaultValue="423" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsWesternListFontSizeFinal">Окончательное</checkBox>
+        <text>Название</text>
+        <textBox refId="WriterDefaultFontsWesternCaptionFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsWesternCaptionFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsWesternCaptionFontSizeValue" defaultValue="423" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsWesternCaptionFontSizeFinal">Окончательное</checkBox>
+        <text>Указатель</text>
+        <textBox refId="WriterDefaultFontsWesternIndexFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsWesternIndexFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsWesternIndexFontSizeValue" defaultValue="423" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsWesternIndexFontSizeFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WriterDefaultFontsCJK">
+        <text>По умолчанию</text>
+        <textBox refId="WriterDefaultFontsCJKDefaultFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsCJKDefaultFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsCJKDefaultFontSizeValue" defaultValue="370" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsCJKDefaultFontSizeFinal">Окончательное</checkBox>
+        <text>Заголовок</text>
+        <textBox refId="WriterDefaultFontsCJKHeadingFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsCJKHeadingFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsCJKHeadingFontSizeValue" defaultValue="494" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsCJKHeadingFontSizeFinal">Окончательное</checkBox>
+        <text>Список</text>
+        <textBox refId="WriterDefaultFontsCJKListFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsCJKListFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsCJKListFontSizeValue" defaultValue="423" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsCJKListFontSizeFinal">Окончательное</checkBox>
+        <text>Название</text>
+        <textBox refId="WriterDefaultFontsCJKCaptionFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsCJKCaptionFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsCJKCaptionFontSizeValue" defaultValue="423" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsCJKCaptionFontSizeFinal">Окончательное</checkBox>
+        <text>Указатель</text>
+        <textBox refId="WriterDefaultFontsCJKIndexFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsCJKIndexFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsCJKIndexFontSizeValue" defaultValue="423" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsCJKIndexFontSizeFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WriterDefaultFontsCTL">
+        <text>По умолчанию</text>
+        <textBox refId="WriterDefaultFontsCTLDefaultFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsCTLDefaultFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsCTLDefaultFontSizeValue" defaultValue="423" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsCTLDefaultFontSizeFinal">Окончательное</checkBox>
+        <text>Заголовок</text>
+        <textBox refId="WriterDefaultFontsCTLHeadingFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsCTLHeadingFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsCTLHeadingFontSizeValue" defaultValue="494" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsCTLHeadingFontSizeFinal">Окончательное</checkBox>
+        <text>Список</text>
+        <textBox refId="WriterDefaultFontsCTLListFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsCTLListFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsCTLListFontSizeValue" defaultValue="423" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsCTLListFontSizeFinal">Окончательное</checkBox>
+        <text>Название</text>
+        <textBox refId="WriterDefaultFontsCTLCaptionFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsCTLCaptionFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsCTLCaptionFontSizeValue" defaultValue="423" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsCTLCaptionFontSizeFinal">Окончательное</checkBox>
+        <text>Указатель</text>
+        <textBox refId="WriterDefaultFontsCTLIndexFontNameValue">
+          <label>Шрифт:</label>
+        </textBox>
+        <checkBox refId="WriterDefaultFontsCTLIndexFontNameFinal">Окончательное</checkBox>
+        <decimalTextBox refId="WriterDefaultFontsCTLIndexFontSizeValue" defaultValue="423" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="WriterDefaultFontsCTLIndexFontSizeFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ExperimentalMode">
+        <checkBox refId="Value">Включить экспериментальные функции</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MacroRecorderMode">
+        <checkBox refId="Value">Включить запись макросов (ограниченную)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="HistorySize">
+        <decimalTextBox refId="Value" defaultValue="100" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="HistoryPickListSize">
+        <decimalTextBox refId="Value" defaultValue="25" spin="true">Размер:</decimalTextBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DefaultLocale">
+        <textBox refId="Value">
+          <label>Код языка:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DefaultLocale_CJK">
+        <textBox refId="Value">
+          <label>Код языка:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DefaultLocale_CTL">
+        <textBox refId="Value">
+          <label>Код языка:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="IsSpellAuto">
+        <checkBox refId="Value">Проверять орфографию при вводе</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="IsSpellUpperCase">
+        <checkBox refId="Value">Проверять слова из прописных букв</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="IsSpellWithDigits">
+        <checkBox refId="Value">Проверять слова с цифрами</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="IsSpellSpecial">
+        <checkBox refId="Value">Проверять особые области</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="GrammarIsAutoCheck">
+        <checkBox refId="Value">Проверять грамматику при вводе</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="UILocale">
+        <textBox refId="Value">
+          <label>Код языка:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Locale">
+        <textBox refId="Value">
+          <label>Языковой стандарт:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ooSetupCurrency">
+        <textBox refId="Value">
+          <label>Код валюты:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DecimalSeparatorAsLocale">
+        <checkBox refId="Value">Десятичный разделитель — как в языковом стандарте</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="IgnoreLanguageChange">
+        <checkBox refId="Value">Игнорировать системный язык ввода</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="RemovePersonalInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Удалять персональные данные при сохранении</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="KeepRedlineInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Сохранять сведения о записанных изменениях</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="KeepDocUserInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Сохранять сведения о пользователе документа</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="KeepNoteAuthorDateInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Сохранять имя автора и дату примечаний</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="KeepDocVersionInfoOnSaving">
+        <checkBox refId="Value" defaultItem="0">Сохранять сведения о версиях документа</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="KeepDocPrinterSettingsOnSaving">
+        <checkBox refId="Value" defaultItem="0">Сохранять параметры принтера</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="RecommendPasswordProtection">
+        <checkBox refId="Value" defaultItem="0">Рекомендовать защиту паролем при сохранении</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="HyperlinksWithCtrlClick">
+        <checkBox refId="Value" defaultItem="0">Для перехода по гиперссылкам требуется щелчок с Ctrl</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="BlockUntrustedRefererLinks">
+        <checkBox refId="Value" defaultItem="0">Блокировать ссылки из документов, расположенных вне надёжных расположений</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WarnSaveOrSendDoc">
+        <checkBox refId="Value" defaultItem="0">Предупреждения безопасности при сохранении или отправке</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WarnSignDoc">
+        <checkBox refId="Value" defaultItem="0">Предупреждения безопасности при подписании</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WarnPrintDoc">
+        <checkBox refId="Value" defaultItem="0">Предупреждения безопасности при печати</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WarnCreatePDF">
+        <checkBox refId="Value" defaultItem="0">Предупреждения безопасности при создании PDF</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MacroSecurityLevel">
+        <dropdownList refId="Value" defaultItem="2">Уровень безопасности макросов:</dropdownList>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DisableMacrosExecution">
+        <checkBox refId="Value">Отключить выполнение макросов</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="EnableExpertConfiguration">
+        <checkBox refId="Value">Включить экспертные настройки</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="SecureURL">
+        <text>Макросы документов всегда выполняются, если документы были открыты из одного из следующих расположений.</text>
+        <textBox refId="Value">
+          <label>Список путей:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionInstallation">
+        <checkBox refId="Value">Отключить установку расширений</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DisableExtensionRemoval">
+        <checkBox refId="Value">Отключить удаление расширений</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ADO_Rowset_XML">
+        <checkBox refId="Value">Отключить ADO Rowset XML</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="AbiWord">
+        <checkBox refId="Value">Отключить AbiWord Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Apple_Keynote">
+        <checkBox refId="Value">Отключить Apple Keynote 5</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Apple_Numbers">
+        <checkBox refId="Value">Отключить Apple Numbers 2</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Apple_Pages">
+        <checkBox refId="Value">Отключить Apple Pages 4</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="BMP__MS_Windows">
+        <checkBox refId="Value">Отключить BMP - Windows Bitmap</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="BroadBand_eBook">
+        <checkBox refId="Value">Отключить BroadBand eBook</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="CGM__Computer_Graphics_Metafile">
+        <checkBox refId="Value">Отключить CGM - Computer Graphics Metafile</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ClarisWorks">
+        <checkBox refId="Value">Отключить ClarisWorks/AppleWorks Text Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ClarisWorks_Calc">
+        <checkBox refId="Value">Отключить ClarisWorks/AppleWorks Spreadsheet</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ClarisWorks_Draw">
+        <checkBox refId="Value">Отключить ClarisWorks/AppleWorks Drawing</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ClarisWorks_Impress">
+        <checkBox refId="Value">Отключить ClarisWorks/AppleWorks Presentation</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Claris_Resolve_Calc">
+        <checkBox refId="Value">Отключить ClarisResolve Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Corel_Draw_Document">
+        <checkBox refId="Value">Отключить Corel Draw</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Corel_Presentation_Exchange">
+        <checkBox refId="Value">Отключить Corel Presentation Exchange</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DIF">
+        <checkBox refId="Value">Отключить Data Interchange Format</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DXF__AutoCAD_Interchange">
+        <checkBox refId="Value">Отключить DXF - AutoCAD Interchange Format</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DocBook_File">
+        <checkBox refId="Value">Отключить DocBook</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DosWord">
+        <checkBox refId="Value">Отключить Microsoft Word for DOS</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="EMF__MS_Windows_Metafile">
+        <checkBox refId="Value">Отключить EMF - Enhanced Metafile</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="EPS__Encapsulated_PostScript">
+        <checkBox refId="Value">Отключить EPS - Encapsulated PostScript</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="FictionBook_2">
+        <checkBox refId="Value">Отключить FictionBook 2.0</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Freehand_Document">
+        <checkBox refId="Value">Отключить Adobe/Macromedia Freehand</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="GIF__Graphics_Interchange">
+        <checkBox refId="Value">Отключить GIF - Graphics Interchange Format</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="HTML">
+        <checkBox refId="Value">Отключить HTML Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="HTML_StarCalc">
+        <checkBox refId="Value">Отключить HTML Document (Calc)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="HTML_StarWriter">
+        <checkBox refId="Value">Отключить HTML Document (Writer)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="JPG__JPEG">
+        <checkBox refId="Value">Отключить JPEG - Joint Photographic Experts Group</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Lotus">
+        <checkBox refId="Value">Отключить Lotus 1-2-3</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="LotusWordPro">
+        <checkBox refId="Value">Отключить Lotus WordPro Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MET__OS2_Metafile">
+        <checkBox refId="Value">Отключить MET - OS/2 Metafile</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_2003_XML_Orcus">
+        <checkBox refId="Value">Отключить Microsoft Excel 2003 XML</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_40">
+        <checkBox refId="Value">Отключить Microsoft Excel 4.0</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_40_VorlageTemplate">
+        <checkBox refId="Value">Отключить Microsoft Excel 4.0 Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_5095">
+        <checkBox refId="Value">Отключить Microsoft Excel 5.0</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_5095_VorlageTemplate">
+        <checkBox refId="Value">Отключить Microsoft Excel 5.0 Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_95">
+        <checkBox refId="Value">Отключить Microsoft Excel 95</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_95_VorlageTemplate">
+        <checkBox refId="Value">Отключить Microsoft Excel 95 Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_97">
+        <checkBox refId="Value">Отключить Microsoft Excel 97-2003</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Excel_97_VorlageTemplate">
+        <checkBox refId="Value">Отключить Microsoft Excel 97-2003 Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_PowerPoint_97">
+        <checkBox refId="Value">Отключить Microsoft PowerPoint 97-2003</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_PowerPoint_97_AutoPlay">
+        <checkBox refId="Value">Отключить Microsoft PowerPoint 97-2003 AutoPlay</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_PowerPoint_97_Vorlage">
+        <checkBox refId="Value">Отключить Microsoft PowerPoint 97-2003 Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_WinWord_5">
+        <checkBox refId="Value">Отключить Microsoft WinWord 1/2/5</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_WinWord_60">
+        <checkBox refId="Value">Отключить Microsoft Word 6.0</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Word_2003_XML">
+        <checkBox refId="Value">Отключить Microsoft Word 2003 XML</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Word_2007_XML">
+        <checkBox refId="Value">Отключить Microsoft Word 2007-2013 XML</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Word_2007_XML_Template">
+        <checkBox refId="Value">Отключить Microsoft Word 2007-2013 XML Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Word_2007_XML_VBA">
+        <checkBox refId="Value">Отключить Microsoft Word 2007-2013 XML VBA</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Word_95">
+        <checkBox refId="Value">Отключить Microsoft Word 95</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Word_95_Vorlage">
+        <checkBox refId="Value">Отключить Microsoft Word 95 Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Word_97">
+        <checkBox refId="Value">Отключить Microsoft Word 97-2003</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Word_97_Vorlage">
+        <checkBox refId="Value">Отключить Microsoft Word 97-2003 Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Works">
+        <checkBox refId="Value">Отключить Microsoft Works Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Works_Calc">
+        <checkBox refId="Value">Отключить Microsoft Works Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MS_Write">
+        <checkBox refId="Value">Отключить Microsoft Write</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MWAW_Bitmap">
+        <checkBox refId="Value">Отключить Legacy Mac Bitmap</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MWAW_Database">
+        <checkBox refId="Value">Отключить Legacy Mac Database</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MWAW_Drawing">
+        <checkBox refId="Value">Отключить Legacy Mac Drawing</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MWAW_Presentation">
+        <checkBox refId="Value">Отключить Legacy Mac Presentation</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MWAW_Spreadsheet">
+        <checkBox refId="Value">Отключить Legacy Mac Spreadsheet</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MWAW_Text_Document">
+        <checkBox refId="Value">Отключить Legacy Mac Text Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MacWrite">
+        <checkBox refId="Value">Отключить MacWrite Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Mac_Word">
+        <checkBox refId="Value">Отключить Microsoft Word for Mac (v1 - v5)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Mac_Works">
+        <checkBox refId="Value">Отключить Microsoft Works for Mac Text Document (v1 - v4)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Mac_Works_Calc">
+        <checkBox refId="Value">Отключить Microsoft Works for Mac Spreadsheet (v1 - v4)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Mariner_Write">
+        <checkBox refId="Value">Отключить Mariner Write Mac Classic v1.6 - v3.5</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MathML_XML_Math">
+        <checkBox refId="Value">Отключить MathML 2.0</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MathType_3x">
+        <checkBox refId="Value">Отключить MathType3.x</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="OpenDocument_Drawing_Flat_XML">
+        <checkBox refId="Value">Отключить Flat XML ODF Drawing</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="OpenDocument_Presentation_Flat_XML">
+        <checkBox refId="Value">Отключить Flat XML ODF Presentation</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="OpenDocument_Spreadsheet_Flat_XML">
+        <checkBox refId="Value">Отключить Flat XML ODF Spreadsheet</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="OpenDocument_Text_Flat_XML">
+        <checkBox refId="Value">Отключить Flat XML ODF Text Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Office_Open_XML_Text">
+        <checkBox refId="Value">Отключить Office Open XML Text</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Office_Open_XML_Text_Template">
+        <checkBox refId="Value">Отключить Office Open XML Text Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PBM__Portable_Bitmap">
+        <checkBox refId="Value">Отключить PBM - Portable Bitmap</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PCT__Mac_Pict">
+        <checkBox refId="Value">Отключить PCT - Mac Pict</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PCX__Zsoft_Paintbrush">
+        <checkBox refId="Value">Отключить PCX - Zsoft Paintbrush</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PGM__Portable_Graymap">
+        <checkBox refId="Value">Отключить PGM - Portable Graymap</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PNG__Portable_Network_Graphic">
+        <checkBox refId="Value">Отключить PNG - Portable Network Graphic</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PPM__Portable_Pixelmap">
+        <checkBox refId="Value">Отключить PPM - Portable Pixelmap</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PSD__Adobe_Photoshop">
+        <checkBox refId="Value">Отключить PSD - Adobe Photoshop</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PageMaker_Document">
+        <checkBox refId="Value">Отключить Adobe PageMaker</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PalmDoc">
+        <checkBox refId="Value">Отключить PalmDoc eBook</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Palm_Text_Document">
+        <checkBox refId="Value">Отключить Palm Text Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Plucker_eBook">
+        <checkBox refId="Value">Отключить Plucker eBook</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PowerPoint_3">
+        <checkBox refId="Value">Отключить Microsoft PowerPoint 1-4 and 95's</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Publisher_Document">
+        <checkBox refId="Value">Отключить Microsoft Publisher 98-2010</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Quattro_Pro_60">
+        <checkBox refId="Value">Отключить Quattro Pro 6.0</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="QXP_Document">
+        <checkBox refId="Value">Отключить QuarkXPress</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="RAS__Sun_Rasterfile">
+        <checkBox refId="Value">Отключить RAS - Sun Raster Image</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Rich_Text_Format">
+        <checkBox refId="Value">Отключить Rich Text</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Rich_Text_Format_StarCalc">
+        <checkBox refId="Value">Отключить Rich Text Format (Calc)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="SVG__Scalable_Vector_Graphics">
+        <checkBox refId="Value">Отключить SVG - Scalable Vector Graphics</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="SVM__StarView_Metafile">
+        <checkBox refId="Value">Отключить SVM - StarView Metafile</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="SYLK">
+        <checkBox refId="Value">Отключить SYLK</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Base_Report">
+        <checkBox refId="Value">Отключить ODF Database Report</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Base_Report_Chart">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Report Chart</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_Drawing">
+        <checkBox refId="Value">Отключить Legacy StarOffice Drawing</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_Presentation">
+        <checkBox refId="Value">Отключить Legacy StarOffice Presentation</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_Spreadsheet">
+        <checkBox refId="Value">Отключить Legacy StarOffice Spreadsheet</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_Writer">
+        <checkBox refId="Value">Отключить Legacy StarOffice Text Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Base">
+        <checkBox refId="Value">Отключить ODF Database</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Calc">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Spreadsheet</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Chart">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Chart</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Draw">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Drawing</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Impress">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Presentation</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Math">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Formula</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="StarOffice_XML_Writer">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Text Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="T602Document">
+        <checkBox refId="Value">Отключить T602 Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="TGA__Truevision_TARGA">
+        <checkBox refId="Value">Отключить TGA - Truevision Targa</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="TIF__Tag_Image_File">
+        <checkBox refId="Value">Отключить TIFF - Tagged Image File Format</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Text">
+        <checkBox refId="Value">Отключить Text</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Text_StarWriterWeb">
+        <checkBox refId="Value">Отключить Text (Writer/Web)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Text__txt__csv_StarCalc">
+        <checkBox refId="Value">Отключить Text CSV</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Text_encoded">
+        <checkBox refId="Value">Отключить Text - Choose Encoding</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Text_encoded_StarWriterGlobalDocument">
+        <checkBox refId="Value">Отключить Text - Choose Encoding (Master Document)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Text_encoded_StarWriterWeb">
+        <checkBox refId="Value">Отключить Text - Choose Encoding (Writer/Web)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="UOF_presentation">
+        <checkBox refId="Value">Отключить Unified Office Format presentation</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="UOF_spreadsheet">
+        <checkBox refId="Value">Отключить Unified Office Format spreadsheet</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="UOF_text">
+        <checkBox refId="Value">Отключить Unified Office Format text</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Visio_Document">
+        <checkBox refId="Value">Отключить Microsoft Visio 2000-2013</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WMF__MS_Windows_Metafile">
+        <checkBox refId="Value">Отключить WMF - Windows Metafile</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WPS_Lotus_Calc">
+        <checkBox refId="Value">Отключить Lotus Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WPS_QPro_Calc">
+        <checkBox refId="Value">Отключить QuattroPro Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WordPerfect">
+        <checkBox refId="Value">Отключить WordPerfect Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WordPerfect_Graphics">
+        <checkBox refId="Value">Отключить WordPerfect Graphics</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WriteNow">
+        <checkBox refId="Value">Отключить WriteNow Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="XBM__XConsortium">
+        <checkBox refId="Value">Отключить XBM - X Bitmap</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="XPM">
+        <checkBox refId="Value">Отключить XPM - X PixMap</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ZMF_Document">
+        <checkBox refId="Value">Отключить Zoner Callisto/Draw</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="calc8">
+        <checkBox refId="Value">Отключить ODF Spreadsheet</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="calc8_template">
+        <checkBox refId="Value">Отключить ODF Spreadsheet Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Gnumeric_Spreadsheet">
+        <checkBox refId="Value">Отключить Gnumeric Spreadsheet</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="calc_HTML_WebQuery">
+        <checkBox refId="Value">Отключить Web Page Query (Calc)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Calc_MS_Excel_2007_Binary">
+        <checkBox refId="Value">Отключить Microsoft Excel 2007 Binary</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Calc_MS_Excel_2007_VBA_XML">
+        <checkBox refId="Value">Отключить Microsoft Excel 2007-2016 XML (macro enabled)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Calc_MS_Excel_2007_XML">
+        <checkBox refId="Value">Отключить Microsoft Excel 2007-2013 XML</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Calc_MS_Excel_2007_XML_Template">
+        <checkBox refId="Value">Отключить Microsoft Excel 2007-2013 XML Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Calc_Office_Open_XML">
+        <checkBox refId="Value">Отключить Office Open XML Spreadsheet</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Calc_Office_Open_XML_Template">
+        <checkBox refId="Value">Отключить Office Open XML Spreadsheet Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="calc_StarOffice_XML_Calc_Template">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Spreadsheet Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="chart8">
+        <checkBox refId="Value">Отключить ODF Chart</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="dBase">
+        <checkBox refId="Value">Отключить dBASE</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="draw8">
+        <checkBox refId="Value">Отключить ODF Drawing</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="draw8_template">
+        <checkBox refId="Value">Отключить ODF Drawing Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="draw_PCD_Photo_CD_Base">
+        <checkBox refId="Value">Отключить PCD - Kodak Photo CD (768x512)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="draw_PCD_Photo_CD_Base16">
+        <checkBox refId="Value">Отключить PCD - Kodak Photo CD (192x128)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="draw_PCD_Photo_CD_Base4">
+        <checkBox refId="Value">Отключить PCD - Kodak Photo CD (384x256)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="draw_StarOffice_XML_Draw_Template">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Drawing Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="impress8">
+        <checkBox refId="Value">Отключить ODF Presentation</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="impress8_draw">
+        <checkBox refId="Value">Отключить ODF Drawing (Impress)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="impress8_template">
+        <checkBox refId="Value">Отключить ODF Presentation Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Impress_MS_PowerPoint_2007_XML">
+        <checkBox refId="Value">Отключить Microsoft PowerPoint 2007-2013 XML</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Impress_MS_PowerPoint_2007_XML_AutoPlay">
+        <checkBox refId="Value">Отключить Microsoft PowerPoint 2007-2013 XML AutoPlay</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Impress_MS_PowerPoint_2007_XML_Template">
+        <checkBox refId="Value">Отключить Microsoft PowerPoint 2007-2013 XML Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Impress_MS_PowerPoint_2007_XML_VBA">
+        <checkBox refId="Value">Отключить Microsoft PowerPoint 2007-2013 XML VBA</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Impress_Office_Open_XML">
+        <checkBox refId="Value">Отключить Office Open XML Presentation</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Impress_Office_Open_XML_AutoPlay">
+        <checkBox refId="Value">Отключить Office Open XML Presentation AutoPlay</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Impress_Office_Open_XML_Template">
+        <checkBox refId="Value">Отключить Office Open XML Presentation Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="impress_StarOffice_XML_Draw">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Drawing (Impress)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="impress_StarOffice_XML_Impress_Template">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Presentation Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="math8">
+        <checkBox refId="Value">Отключить ODF Formula</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MOV__MOV">
+        <checkBox refId="Value">Отключить MOV - QuickTime File Format</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="writer8">
+        <checkBox refId="Value">Отключить ODF Text Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="writer8_template">
+        <checkBox refId="Value">Отключить ODF Text Document Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="writer_MIZI_Hwp_97">
+        <checkBox refId="Value">Отключить Hangul WP 97</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="writer_StarOffice_XML_Writer_Template">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Text Document Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="writer_globaldocument_StarOffice_XML_Writer_GlobalDocument">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Master Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="writer_web_HTML_help">
+        <checkBox refId="Value">Отключить содержимое справки</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="writer_web_StarOffice_XML_Writer_Web_Template">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 HTML Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="writerglobal8">
+        <checkBox refId="Value">Отключить ODF Master Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="writerglobal8_template">
+        <checkBox refId="Value">Отключить ODF Master Document Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="writerweb8_writer_template">
+        <checkBox refId="Value">Отключить HTML Document Template</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="CaseSensitive">
+        <checkBox refId="Value">С учётом регистра</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Precision">
+        <checkBox refId="Value">Точность как на экране</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="SearchCriteria">
+        <checkBox refId="Value">Критерии поиска = и &lt;&gt; должны применяться к ячейкам целиком</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="FindLabel">
+        <checkBox refId="Value">Автоматически находить заголовки столбцов и строк</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="RegularExpressions">
+        <checkBox refId="Value">Включить регулярные выражения в формулах</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Wildcards">
+        <checkBox refId="Value">Включить подстановочные знаки в формулах</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ShowMergeDialog">
+        <checkBox refId="Value">Показывать диалог «Объединение ячеек»</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="EmptyMergedCells">
+        <checkBox refId="Value">Очищать объединённые ячейки</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PrintEmptyPages">
+        <checkBox refId="Value">Печатать пустые страницы</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="EnglishFunctionName">
+        <checkBox refId="Value">Использовать английские имена функций</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="RecalcMode">
+        <text>Пересчёт при загрузке файла</text>
+        <dropdownList refId="OOXMLValue" defaultItem="1">Excel 2007 и новее:</dropdownList>
+        <checkBox refId="OOXMLFinal">Окончательное</checkBox>
+        <dropdownList refId="ODFValue" defaultItem="1">Электронная таблица ODF (сохранённая не в LibreOffice):</dropdownList>
+        <checkBox refId="ODFFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="AllSheets">
+        <checkBox refId="Value">Печатать только выбранные листы</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="SymbolStyle">
+        <dropdownList refId="Value" defaultItem="0">Стиль значков:</dropdownList>
+        <checkBox refId="Final">Окончательное</checkBox>
+        <dropdownList refId="SizeValue" defaultItem="0">Размер значков:</dropdownList>
+        <checkBox refId="SizeFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ToolbarMode">
+        <dropdownList refId="Value" defaultItem="0">Пользовательский интерфейс:</dropdownList>
+      </presentation>
+      <presentation id="UseOpenCL">
+        <checkBox refId="Value">Разрешить использование OpenCL</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="UseSkia">
+        <checkBox refId="Value">Использовать Skia для всей отрисовки</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ForceSkia">
+        <checkBox refId="Value">Принудительно использовать Skia, даже если она в чёрном списке</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ForceSkiaRaster">
+        <checkBox refId="Value">Принудительно использовать Skia Raster, даже если она в чёрном списке</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ForceSkiaGPU">
+        <checkBox refId="Value">Принудительно использовать аппаратное ускорение Skia</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ConvertToGreyscales">
+        <checkBox refId="Value">Преобразовывать цвета в оттенки серого</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PrinterWarnings">
+        <text>Определяет, отображать ли предупреждение, если печатаемый документ содержит прозрачные объекты.</text>
+        <checkBox refId="Value">Прозрачность</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="IsSelectionInReadonly">
+        <checkBox refId="Value">Использовать курсор выделения текста в текстовых документах только для чтения</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="HelpTipsDisappear">
+        <checkBox refId="Value">Подсказки исчезают через...</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+        <decimalTextBox refId="HelpTipsDisappearValue" defaultValue="4" spin="true">секунд</decimalTextBox>
+        <checkBox refId="HelpTipsDisappearFinal">Окончательное</checkBox>
+      </presentation>
+      <presentation id="IsAutomaticFontColor">
+        <checkBox refId="Value">Использовать автоматический цвет шрифта для экранного отображения</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="IsForPagePreviews">
+        <checkBox refId="Value">Использовать системные цвета для просмотра страниц</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="HTMLExportBrowser">
+        <dropdownList refId="Value" defaultItem="0">Браузер:</dropdownList>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="UseFontSubstitutions">
+        <checkBox refId="Value">Использовать таблицу замены шрифтов</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+        <checkBox refId="HideSettingsCommonFonts">Скрыть страницу «Сервис - Параметры - LibreOffice - Шрифты»</checkBox>
+      </presentation>
+      <presentation id="FontPair">
+        <checkBox refId="Always">Всегда</checkBox>
+        <checkBox refId="OnScreenOnly">Только на экране</checkBox>
+        <textBox refId="ReplaceFont">
+          <label>Заменяемый шрифт:</label>
+        </textBox>
+        <textBox refId="SubstituteFont">
+          <label>Шрифт-заменитель:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="SelectPDFExport">
+        <dropdownList refId="Value" defaultItem="0">Версия PDF:</dropdownList>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="TrySystemCredentialsFirst">
+        <checkBox refId="Value">Использовать системные учётные данные</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="AutoTextShowTooltip">
+        <checkBox refId="Value">Отображать оставшуюся часть имени как подсказку при вводе</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MSOFormsMenu">
+        <checkBox refId="Value">Реорганизовать меню «Форма» для совместимости с MS</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="MSOLockFiles">
+        <checkBox refId="Value">Создавать файл блокировки MSO</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="InfobarReadonly">
+        <checkBox refId="Value">Отключить</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="InfobarSignature">
+        <checkBox refId="Value">Отключить</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="InfobarDonate">
+        <checkBox refId="Value">Отключить</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="InfobarGetInvolved">
+        <checkBox refId="Value">Отключить</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="InfobarHyphenationMissing">
+        <checkBox refId="Value">Отключить</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="InfobarWhatsNew">
+        <checkBox refId="Value">Отключить</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="InfobarHiddenTrackChanges">
+        <checkBox refId="Value">Отключить</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ViewerAppMode">
+        <checkBox refId="Value">Включить режим просмотра</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="LoadPrinter">
+        <checkBox refId="Value">Загружать параметры принтера вместе с документом</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="CheckDocumentEvents">
+        <checkBox refId="Value">Проверять события документа</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="HelpExtendedTip">
+        <checkBox refId="Value">Расширенные подсказки</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="UpdateCheckEnabled">
+        <checkBox refId="Value">Включить проверку обновлений</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PDFExportFormFields">
+        <checkBox refId="Value">Экспортировать поля форм как виджеты</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PDFExportPlaceholders">
+        <checkBox refId="Value">Экспортировать поля-заполнители в PDF</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="AutoTextApplyNumbering">
+        <checkBox refId="Value">Создавать маркированные и нумерованные списки при вводе</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="TableNumberRecognition">
+        <checkBox refId="Value">Распознавать числа в таблицах</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WordCompletionMinWordLen">
+        <textBox refId="WordCompletionMinWordLenValue">
+          <label>Мин. длина слова:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="ProxyType">
+        <dropdownList refId="Value" defaultItem="1">Настройка прокси-сервера:</dropdownList>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="AllowInsecureProtocols">
+        <checkBox refId="Value" defaultItem="1">Разрешить небезопасные сетевые протоколы</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DisableActiveContent">
+        <checkBox refId="Value" defaultItem="0">Отключить активное содержимое</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DisableOLEAutomation">
+        <checkBox refId="Value" defaultItem="0">Отключить автоматизацию OLE</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="DisablePythonRuntime">
+        <checkBox refId="Value" defaultItem="0">Отключить среду выполнения Python</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="AllowedDocumentEventURLs">
+        <textBox refId="Value">
+          <label>Список URL-адресов скриптов:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="LoadExoticFileFormats">
+        <dropdownList refId="Value" defaultItem="0">Редко используемые форматы файлов:</dropdownList>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="TSAURLs">
+        <textBox refId="Value">
+          <label>Список URL-адресов TSA:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PasswordPolicy">
+        <textBox refId="Value">
+          <label>Регулярное выражение:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PasswordUseStorage">
+        <checkBox refId="Value" defaultItem="0">Сохранять пароли постоянно</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="AuthenticateUsingSystemCredentials">
+        <textBox refId="Value">
+          <label>Список URL-адресов:</label>
+        </textBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="CalcUpdateLink">
+        <dropdownList refId="Value" defaultItem="2">Обновлять связи:</dropdownList>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="WriterUpdateLink">
+        <dropdownList refId="Value" defaultItem="1">Обновлять связи:</dropdownList>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="EPUB">
+        <checkBox refId="Value">Отключить EPUB Document</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="Microsoft_Multiplan">
+        <checkBox refId="Value">Отключить Microsoft Multiplan</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PocketWord_File">
+        <checkBox refId="Value">Отключить Pocket Word</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="writer_globaldocument_StarOffice_XML_Writer">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Text Document (from Master Document)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="writer_web_StarOffice_XML_Writer">
+        <checkBox refId="Value">Отключить OpenOffice.org 1.0 Text Document (from HTML Document)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="XHTML_Calc_File">
+        <checkBox refId="Value">Отключить XHTML (Calc)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="XHTML_Draw_File">
+        <checkBox refId="Value">Отключить XHTML (Draw)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="XHTML_Impress_File">
+        <checkBox refId="Value">Отключить XHTML (Impress)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="XHTML_Writer_File">
+        <checkBox refId="Value">Отключить XHTML (Writer)</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>

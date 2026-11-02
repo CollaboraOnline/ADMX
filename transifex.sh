@@ -11,7 +11,7 @@
 set -e
 cd "$(dirname "$0")"
 
-declare -a langs=("cs" "de" "es" "fr" "hu" "it" "pt_BR" "tr")
+declare -a langs=("cs" "de" "es" "fr" "hu" "it" "pt_BR" "ru" "tr")
 
 tx pull --translations --force --languages "$(IFS=,; echo "${langs[*]}")"
 
@@ -51,6 +51,16 @@ index 943a5f8..bb79d73 100644
  <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
 +<!-- Italian Translation (c) 2015 Marina Latini - Studio Storti srl CC-BY-SA 4.0
 +     report bugs or improvements to marina@studiostorti.com -->
+ <policyDefinitionResources revision="1.0" schemaVersion="1.0">
+   <displayName>
+   </displayName>
+diff --git b/ru-RU/Collabora-Office.adml a/ru-RU/Collabora-Office.adml
+--- b/ru-RU/Collabora-Office.adml
++++ a/ru-RU/Collabora-Office.adml
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <!-- (c) 2015 Collabora Ltd. CC-BY-SA 4.0 -->
++<!-- Russian Translation (c) 2026 Serg (https://github.com/itcboss) CC-BY-SA 4.0 -->
  <policyDefinitionResources revision="1.0" schemaVersion="1.0">
    <displayName>
    </displayName>
