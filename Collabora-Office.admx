@@ -25,6 +25,7 @@
       <definition name="supported_CO_22_05" displayName="$(string.supported_CO_22_05)" />
       <definition name="supported_CO_24_04" displayName="$(string.supported_CO_24_04)" />
       <definition name="supported_CO_25_04" displayName="$(string.supported_CO_25_04)" />
+      <definition name="supported_LibreOffice_24_8" displayName="$(string.supported_LibreOffice_24_8)" />
       <definition name="supported_LibreOffice_26_8" displayName="$(string.supported_LibreOffice_26_8)" />
     </definitions>
   </supportedOn>
@@ -7271,6 +7272,21 @@
               </value>
             </item>
           </falseList>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
+    <policy name="AutoUpdateEnabled" class="Both" displayName="$(string.name_AutoUpdateEnabled)" explainText="$(string.desc_AutoUpdateEnabled)" presentation="$(presentation.AutoUpdateEnabled)" key="Software\Policies\LibreOffice\org.openoffice.Office.Update\Update\Enabled">
+      <parentCategory ref="Jobs" />
+      <supportedOn ref="supported_LibreOffice_24_8" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
         </boolean>
         <boolean id="Final" valueName="Final" />
       </elements>

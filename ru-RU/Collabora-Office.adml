@@ -795,6 +795,8 @@ UNC-путь
       <string id="desc_HelpExtendedTip">Включает расширенную справку во всплывающих подсказках</string>
       <string id="name_UpdateCheckEnabled">Проверка обновлений включена</string>
       <string id="desc_UpdateCheckEnabled">Включить автоматическую проверку обновлений. Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+      <string id="name_AutoUpdateEnabled">Включить автоматическое обновление</string>
+      <string id="desc_AutoUpdateEnabled">Включает средство автоматического обновления, которое загружает и устанавливает новые версии (Сервис - Параметры - Онлайн-обновление - Включить автоматическое обновление). Это не то же самое, что проверка обновлений, которая только уведомляет о новых версиях. Этот параметр действует только в LibreOffice для Windows.</string>
       <string id="name_PDFExportFormFields">Экспортировать поля форм как виджеты</string>
       <string id="desc_PDFExportFormFields">Определяет, экспортируются ли поля форм как виджеты или только их фиксированное представление для печати.</string>
       <string id="name_PDFExportPlaceholders">Экспортировать поля-заполнители в PDF</string>
@@ -818,6 +820,7 @@ UNC-путь
       <string id="supported_CO_22_05">Collabora Office 22.05 или выше</string>
       <string id="supported_CO_24_04">Collabora Office 24.04 или выше</string>
       <string id="supported_CO_25_04">Collabora Office 25.04 или выше</string>
+      <string id="supported_LibreOffice_24_8">LibreOffice 24.8 или выше</string>
       <string id="supported_LibreOffice_26_8">LibreOffice 26.8 или выше</string>
 
       <string id="proxy_none">Нет</string>
@@ -2345,6 +2348,10 @@ UNC-путь
       </presentation>
       <presentation id="UpdateCheckEnabled">
         <checkBox refId="Value">Включить проверку обновлений</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="AutoUpdateEnabled">
+        <checkBox refId="Value">Включить автоматическое обновление</checkBox>
         <checkBox refId="Final">Окончательное</checkBox>
       </presentation>
       <presentation id="PDFExportFormFields">

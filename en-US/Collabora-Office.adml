@@ -794,6 +794,8 @@ Set paths in path lists have to be separated by spaces.</string>
       <string id="desc_HelpExtendedTip">Activates the extended help in tooltips</string>
       <string id="name_UpdateCheckEnabled">Update check enabled</string>
       <string id="desc_UpdateCheckEnabled">Enable automatic update check. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
+      <string id="name_AutoUpdateEnabled">Automatic update enabled</string>
+      <string id="desc_AutoUpdateEnabled">Enable the automatic updater that downloads and installs new versions (Tools - Options - Online Update - Enable automatic update). This is not the same as the update check, which only notifies about new versions. This setting only takes effect in LibreOffice on Windows.</string>
       <string id="name_PDFExportFormFields">Export form fields as widgets</string>
       <string id="desc_PDFExportFormFields">Specifies whether form fields are exported as widgets or only their fixed print representation is exported.</string>
       <string id="name_PDFExportPlaceholders">Export placeholder fields to PDF</string>
@@ -817,6 +819,7 @@ Set paths in path lists have to be separated by spaces.</string>
       <string id="supported_CO_22_05">Collabora Office 22.05 or higher</string>
       <string id="supported_CO_24_04">Collabora Office 24.04 or higher</string>
       <string id="supported_CO_25_04">Collabora Office 25.04 or higher</string>
+      <string id="supported_LibreOffice_24_8">LibreOffice 24.8 or higher</string>
       <string id="supported_LibreOffice_26_8">LibreOffice 26.8 or higher</string>
 
       <string id="proxy_none">None</string>
@@ -2344,6 +2347,10 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="UpdateCheckEnabled">
         <checkBox refId="Value">Enable update check</checkBox>
+        <checkBox refId="Final">Final</checkBox>
+      </presentation>
+      <presentation id="AutoUpdateEnabled">
+        <checkBox refId="Value">Enable automatic update</checkBox>
         <checkBox refId="Final">Final</checkBox>
       </presentation>
       <presentation id="PDFExportFormFields">
