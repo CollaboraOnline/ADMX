@@ -38,6 +38,8 @@
       <string id="desc_AllowOverrideLocking">Specifies whether the user is allowed to override the document locking mechanism in LibreOffice/Collabora Office. If disabled and the document is already opened by another user, the current user can open a document only as a copy or in read only mode.</string>
       <string id="name_ShowTipOfTheDay">Show Tip of the Day</string>
       <string id="desc_ShowTipOfTheDay">Show "Tip of the Day" dialog on startup. This setting only takes effect in Collabora Office Classic and LibreOffice.</string>
+      <string id="name_PerformFileExtCheck">Check default file associations on startup</string>
+      <string id="desc_PerformFileExtCheck">Check on startup whether the ODF file formats (.odt, .ods, .odp) are registered to be opened by default in the office suite, and show the "Default file formats not registered" dialog if they are not (Tools - Options - General - Perform check for default file associations on start-up). This setting only takes effect in Collabora Office Classic and LibreOffice on Windows.</string>
 
       <string id="category_LDAPConfigBackend">Configurazione del backend LDAP</string>
       <string id="name_LDAPConfigBackendSettings">Directory degli utenti LDAP</string>
@@ -1078,6 +1080,10 @@ For example, the following policy requires at least eight characters, including 
       </presentation>
       <presentation id="ShowTipOfTheDay">
         <checkBox refId="Value">Show Tip of the Day</checkBox>
+        <checkBox refId="Final">Finale</checkBox>
+      </presentation>
+      <presentation id="PerformFileExtCheck">
+        <checkBox refId="Value">Perform check for default file associations on startup</checkBox>
         <checkBox refId="Final">Finale</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">

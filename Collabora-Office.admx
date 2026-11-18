@@ -1224,6 +1224,21 @@
         <boolean id="Final" valueName="Final" />
       </elements>
     </policy>
+    <policy name="PerformFileExtCheck" class="Both" displayName="$(string.name_PerformFileExtCheck)" explainText="$(string.desc_PerformFileExtCheck)" presentation="$(presentation.PerformFileExtCheck)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\PerformFileExtCheck">
+      <parentCategory ref="General" />
+      <supportedOn ref="supported_CO_22_05" />
+      <elements>
+        <boolean id="Value" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+        <boolean id="Final" valueName="Final" />
+      </elements>
+    </policy>
     <policy name="UseSystemFileDialog" class="Both" displayName="$(string.name_UseSystemFileDialog)" explainText="$(string.desc_UseSystemFileDialog)" presentation="$(presentation.UseSystemFileDialog)" key="Software\Policies\LibreOffice\org.openoffice.Office.Common\Misc\UseSystemFileDialog">
       <parentCategory ref="General" />
       <supportedOn ref="supported_LibreOffice_4_2" />

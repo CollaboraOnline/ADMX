@@ -37,6 +37,8 @@
       <string id="desc_AllowOverrideLocking">Определяет, может ли пользователь обходить механизм блокировки документов в LibreOffice/Collabora Office. Если параметр отключён и документ уже открыт другим пользователем, текущий пользователь может открыть документ только в виде копии или в режиме «только чтение».</string>
       <string id="name_ShowTipOfTheDay">Показывать «Совет дня»</string>
       <string id="desc_ShowTipOfTheDay">Показывать диалог «Совет дня» при запуске. Этот параметр действует только в Collabora Office Classic и LibreOffice.</string>
+      <string id="name_PerformFileExtCheck">Check default file associations on startup</string>
+      <string id="desc_PerformFileExtCheck">Check on startup whether the ODF file formats (.odt, .ods, .odp) are registered to be opened by default in the office suite, and show the "Default file formats not registered" dialog if they are not (Tools - Options - General - Perform check for default file associations on start-up). This setting only takes effect in Collabora Office Classic and LibreOffice on Windows.</string>
 
       <string id="category_LDAPConfigBackend">Серверная часть конфигурации LDAP</string>
       <string id="name_LDAPConfigBackendSettings">Каталог пользователей LDAP</string>
@@ -1076,6 +1078,10 @@ UNC-путь
       </presentation>
       <presentation id="ShowTipOfTheDay">
         <checkBox refId="Value">Показывать «Совет дня»</checkBox>
+        <checkBox refId="Final">Окончательное</checkBox>
+      </presentation>
+      <presentation id="PerformFileExtCheck">
+        <checkBox refId="Value">Perform check for default file associations on startup</checkBox>
         <checkBox refId="Final">Окончательное</checkBox>
       </presentation>
       <presentation id="UseSystemPrintDialog">
